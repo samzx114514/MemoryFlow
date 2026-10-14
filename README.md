@@ -6,7 +6,7 @@ This private repository brings together local data preparation and research cont
 
 ## Read in this order
 
-1. [研究背景与结论](docs/RESEARCH_BRIEF.md) — the self-contained Chinese explanation.
+1. [研究背景与结论](docs/RESEARCH_BRIEF.md) — the self-contained Chinese explanation; [讨论简报](docs/DISCUSSION_BRIEF.md) can be read on its own.
 2. [分协议结果](docs/RESULTS.md) — numbers, denominators and source files.
 3. [当前状态](docs/STATUS.md) and [待讨论问题](docs/OPEN_QUESTIONS.md).
 4. [实验索引](docs/EXPERIMENT_INDEX.md) — code, configurations, reports, and external artifacts.
@@ -46,5 +46,9 @@ python workspace\scripts\run_lc_sent15_bm25_gate.py --help
 The first command ran 28 light tests. The second parsed `--data`, `--out`, and `--staged` without loading model weights or running BM25. To execute the existing CPU BM25 gate, provide the full LC-Sent-15 Train/Dev core via `--data` and a new output directory via `--out`; the data are external as described in [data/README.md](data/README.md). The GPU Q3 entry was also checked at import stage and stopped because this local Python lacks `torch`; its full run additionally needs the original Q0/Q1C/Q2 artifacts and frozen feature caches. No end-to-end training environment was claimed.
 
 The current code layout is intentionally source-preserving. A clean install of the complete GPU pipeline has **not** been verified in this repository because model snapshots, feature caches, data payloads, and the 243 environment are external. See [experiment index](docs/EXPERIMENT_INDEX.md) for the original run contract and [status](docs/STATUS.md) for gaps.
+
+## Keeping the research record current
+
+For each later development change, commit the code and configuration with the relevant light report or metric file. Update `docs/EXPERIMENT_INDEX.md` to connect its entry, inputs, split, output and external large artifacts. Update `docs/RESULTS.md` only when checked results change, and `docs/STATUS.md` when a task completes, blocks or becomes unverified. State the evidence limit and keep prior versions; do not replace old reports or commit raw data, checkpoints or secrets. Push reviewed commits to `origin/main` (or use a feature branch and PR for work that needs review). This is a recording convention, not a promise to run experiments or publish restricted data.
 
 No license is asserted for this repository or its third-party references. Permission for wider publication remains to be confirmed.
