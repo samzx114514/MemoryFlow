@@ -1,0 +1,39 @@
+{
+  "checkpoint": "C5B-Qwen7B-Controlled",
+  "status": "FROZEN_BEFORE_BLIND",
+  "model_1_5b": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-1.5B-Instruct",
+  "model_7b": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-7B-Instruct",
+  "candidate_size": 8,
+  "train_dev_only_for_selection": true,
+  "blind_used_for_selection": false,
+  "fixed_method": {
+    "anchor": "shared independent parameter initialized from <|im_end|> embedding",
+    "anchor_token_id": 151645,
+    "trainable_parameter_count_7b": 3584,
+    "mask": "MemoryFlow v0.1 structured 4D mask",
+    "position_ids": "chunk-local; anchor position 192",
+    "dtype": "float32",
+    "attention_implementation": "eager",
+    "aggregation": "uniform last8 all heads",
+    "loss": "all-positive distribution cross-entropy + 1e-4 anchor drift",
+    "optimizer": "AdamW",
+    "learning_rate": 0.01,
+    "weight_decay": 0,
+    "seed": 0,
+    "max_epochs": 10,
+    "patience": 2,
+    "gradient_accumulation_steps": 8,
+    "gradient_clip": 1.0
+  },
+  "checkpoint_sha256": "64d7c87beaf5e764f6cd76103aec7698a740c3a80e4b5777fe96208945ae13b1",
+  "blind_readiness": {
+    "dev_thresholds_frozen": true,
+    "threshold_file": "results/longcite_c5b_7b/dev_threshold.json",
+    "blind_read_once_after_freeze": true
+  },
+  "protocol_integrity_caveat": {
+    "blind_content_or_labels_read_before_freeze": false,
+    "blind_file_hash_read_before_freeze": true,
+    "description": "The inherited training integrity check hashed frozen directory files, including blind files, before training. No blind examples, labels, scores, or metrics were opened by training logic, but strict no-access wording is therefore not fully satisfied."
+  }
+}

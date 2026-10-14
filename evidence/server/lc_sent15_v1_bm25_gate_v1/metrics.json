@@ -1,0 +1,157 @@
+{
+  "config": {
+    "bootstrap_seed": 20260815,
+    "bootstrap_reps": 10000,
+    "ranking_tie_break": "score_desc_then_source_id_asc",
+    "query": "target statement only",
+    "candidate_position_feature": false,
+    "legacy_lineage": {
+      "code": "workspace/src/memoryflow/ranking_baselines.py",
+      "tokenizer": "mixed_tokenize",
+      "formula": "BM25Index k1=1.2 b=0.75 corpus restricted to each fixed candidate group"
+    }
+  },
+  "random_baseline": {
+    "hit_at_1": 0.06666666666666667,
+    "mrr": 0.22121526621526624,
+    "ndcg_at_5": 0.19656394125862614
+  },
+  "implementations": {
+    "BM25_LEGACY": {
+      "train": {
+        "overall": {
+          "target_count": 854,
+          "hit_at_1": 0.6814988290398126,
+          "mrr": 0.7475097079605275,
+          "ndcg_at_5": 0.7450402089342653,
+          "mean_gold_rank": 3.0444964871194378,
+          "top1_failures": 272
+        },
+        "zh": {
+          "target_count": 599,
+          "hit_at_1": 0.6126878130217028,
+          "mrr": 0.6901323634629138,
+          "ndcg_at_5": 0.6844476272762494,
+          "mean_gold_rank": 3.5459098497495827,
+          "top1_failures": 232
+        },
+        "en": {
+          "target_count": 255,
+          "hit_at_1": 0.8431372549019608,
+          "mrr": 0.8822902152313916,
+          "ndcg_at_5": 0.8873733713387821,
+          "mean_gold_rank": 1.8666666666666667,
+          "top1_failures": 40
+        }
+      },
+      "dev": {
+        "overall": {
+          "target_count": 228,
+          "hit_at_1": 0.6842105263157895,
+          "mrr": 0.7469682120997913,
+          "ndcg_at_5": 0.7432731044043017,
+          "mean_gold_rank": 3.039473684210526,
+          "top1_failures": 72
+        },
+        "zh": {
+          "target_count": 164,
+          "hit_at_1": 0.6036585365853658,
+          "mrr": 0.6760018775262677,
+          "ndcg_at_5": 0.6681309667284538,
+          "mean_gold_rank": 3.7134146341463414,
+          "top1_failures": 65
+        },
+        "en": {
+          "target_count": 64,
+          "hit_at_1": 0.890625,
+          "mrr": 0.9288194444444443,
+          "ndcg_at_5": 0.9358248321986621,
+          "mean_gold_rank": 1.3125,
+          "top1_failures": 7
+        },
+        "overall_bootstrap_10000": {
+          "hit_at_1": {
+            "lower_95": 0.6228070175438597,
+            "upper_95": 0.7456140350877193
+          },
+          "mrr": {
+            "lower_95": 0.6969961690356424,
+            "upper_95": 0.7953027479343269
+          },
+          "ndcg_at_5": {
+            "lower_95": 0.6897033378286015,
+            "upper_95": 0.7947798388226868
+          }
+        }
+      }
+    },
+    "BM25_MIXED_V1": {
+      "train": {
+        "overall": {
+          "target_count": 854,
+          "hit_at_1": 0.6814988290398126,
+          "mrr": 0.7475097079605275,
+          "ndcg_at_5": 0.7450402089342653,
+          "mean_gold_rank": 3.0444964871194378,
+          "top1_failures": 272
+        },
+        "zh": {
+          "target_count": 599,
+          "hit_at_1": 0.6126878130217028,
+          "mrr": 0.6901323634629138,
+          "ndcg_at_5": 0.6844476272762494,
+          "mean_gold_rank": 3.5459098497495827,
+          "top1_failures": 232
+        },
+        "en": {
+          "target_count": 255,
+          "hit_at_1": 0.8431372549019608,
+          "mrr": 0.8822902152313916,
+          "ndcg_at_5": 0.8873733713387821,
+          "mean_gold_rank": 1.8666666666666667,
+          "top1_failures": 40
+        }
+      },
+      "dev": {
+        "overall": {
+          "target_count": 228,
+          "hit_at_1": 0.6842105263157895,
+          "mrr": 0.7469682120997913,
+          "ndcg_at_5": 0.7432731044043017,
+          "mean_gold_rank": 3.039473684210526,
+          "top1_failures": 72
+        },
+        "zh": {
+          "target_count": 164,
+          "hit_at_1": 0.6036585365853658,
+          "mrr": 0.6760018775262677,
+          "ndcg_at_5": 0.6681309667284538,
+          "mean_gold_rank": 3.7134146341463414,
+          "top1_failures": 65
+        },
+        "en": {
+          "target_count": 64,
+          "hit_at_1": 0.890625,
+          "mrr": 0.9288194444444443,
+          "ndcg_at_5": 0.9358248321986621,
+          "mean_gold_rank": 1.3125,
+          "top1_failures": 7
+        },
+        "overall_bootstrap_10000": {
+          "hit_at_1": {
+            "lower_95": 0.6228070175438597,
+            "upper_95": 0.7456140350877193
+          },
+          "mrr": {
+            "lower_95": 0.6969961690356424,
+            "upper_95": 0.7953027479343269
+          },
+          "ndcg_at_5": {
+            "lower_95": 0.6897033378286015,
+            "upper_95": 0.7947798388226868
+          }
+        }
+      }
+    }
+  }
+}

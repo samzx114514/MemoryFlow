@@ -1,0 +1,315 @@
+{
+  "inputs": {
+    "all_samples": {
+      "path": "/data2/pkuiti/songzhengxing_intern/all_samples.json",
+      "sha256": "0dffd2ca7fcb917d9e2db6f190dc840208715f25f40b2d44d695eae521ff9796"
+    },
+    "supplement": {
+      "path": "/data2/pkuiti/songzhengxing_intern/AAAI27_supplementary_material.zip",
+      "sha256": "f44074df6a22596c9a78b2ab3f815ce9c2486f2225db6377c9aaad9e8a48487e"
+    },
+    "audit": {
+      "query_count": 10,
+      "document_slots": 139,
+      "nonempty_documents": 138,
+      "unique_nonempty_documents": 137,
+      "sample_7_document_15_empty": true,
+      "sample_7_documents_13_14_normalized_identical": true
+    }
+  },
+  "model": {
+    "path": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-7B-Instruct",
+    "revision": "unavailable",
+    "manifest_path": "/data2/pkuiti/songzhengxing_intern/codex_files/smallest_experiment/workspace/results/c5f_ranking_continuation_243_v1/model_manifest/model_sha256_manifest.json",
+    "manifest_file_sha256": "4eb7d3b4ce2c42c6270892566392ed3396d84c22fb971cefeaefe949c8b17e8f",
+    "internal_manifest_sha256": "e9fc0b4e8ca8e6d84d524b76071c93f1a2daa2000b058805a5723690c28f7c70",
+    "files": [
+      {
+        "name": "model-00001-of-00004.safetensors",
+        "size_bytes": 3945441440,
+        "sha256": "a1333e6293854747c481288ea83b348226af178dd565c49b6f9495ba1966aba7"
+      },
+      {
+        "name": "model-00002-of-00004.safetensors",
+        "size_bytes": 3864726352,
+        "sha256": "f5d25a2772cb825164a2a2c0fb6d51a87e282abf21e4dd75bc5cfb3cd0ea6185"
+      },
+      {
+        "name": "model-00003-of-00004.safetensors",
+        "size_bytes": 3864726424,
+        "sha256": "8efdec4c1bc12317ae1a38dc42b595ce777738a64deea3fcb8a0a91381bcdfd5"
+      },
+      {
+        "name": "model-00004-of-00004.safetensors",
+        "size_bytes": 3556377672,
+        "sha256": "1a72d403cdf0c1ec3cb7f289f17b394a01e64394c2e9b3c0f94dbce3faf879bd"
+      },
+      {
+        "name": "model.safetensors.index.json",
+        "size_bytes": 27752,
+        "sha256": "624bf7c47cd12468fdc16e38a47cf4f19e0415b859a223ba3c027eed2f0e1028"
+      },
+      {
+        "name": "config.json",
+        "size_bytes": 663,
+        "sha256": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c"
+      },
+      {
+        "name": "tokenizer.json",
+        "size_bytes": 7031645,
+        "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "size_bytes": 7305,
+        "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+      },
+      {
+        "name": "vocab.json",
+        "size_bytes": 2776833,
+        "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+      },
+      {
+        "name": "merges.txt",
+        "size_bytes": 1671839,
+        "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+      },
+      {
+        "name": "generation_config.json",
+        "size_bytes": 243,
+        "sha256": "3a8f9087e486054c8a4a08dae2e5a3ba62e23da212b5b8c08bc42cb983c3459f"
+      }
+    ]
+  },
+  "checkpoints": {
+    "q1c_rsym": {
+      "0": {
+        "path": "/data2/pkuiti/songzhengxing_intern/codex_files/smallest_experiment/workspace/results/lc_sent15_v1_q1c_rsym_convergence_v1/runs/seed_0/best.pt",
+        "sha256": "156dc0626ea08b84d79d463a994bf341f691a9b15946ad950aac1af69925d1f2"
+      },
+      "1": {
+        "path": "/data2/pkuiti/songzhengxing_intern/codex_files/smallest_experiment/workspace/results/lc_sent15_v1_q1c_rsym_convergence_v1/runs/seed_1/best.pt",
+        "sha256": "4de5178385c90159e20282ba407fe7e219690c8047c24eb71294e4a65982da98"
+      },
+      "2": {
+        "path": "/data2/pkuiti/songzhengxing_intern/codex_files/smallest_experiment/workspace/results/lc_sent15_v1_q1c_rsym_convergence_v1/runs/seed_2/best.pt",
+        "sha256": "365004767d1bdd94b99dbe177ef9c34761c751fbfdd6f5dc7d79b82e79c96eb0"
+      }
+    },
+    "q2_d_full_64_l1_listwise_ce": {
+      "0": {
+        "path": "/data2/pkuiti/songzhengxing_intern/codex_files/smallest_experiment/workspace/results/lc_sent15_v1_q2_head_loss_v1/runs/H3_D_FULL_64/L1_LISTWISE_CE/seed_0/best.pt",
+        "sha256": "3917758d3876564b5bef80e5f2945909f2c95184e10e6170963ac38c6e1b77dc"
+      },
+      "1": {
+        "path": "/data2/pkuiti/songzhengxing_intern/codex_files/smallest_experiment/workspace/results/lc_sent15_v1_q2_head_loss_v1/runs/H3_D_FULL_64/L1_LISTWISE_CE/seed_1/best.pt",
+        "sha256": "ba3d8bf4cd147de154a6b057d7710bf4f1a00f2e5a24d29ae99d12335e1b6619"
+      },
+      "2": {
+        "path": "/data2/pkuiti/songzhengxing_intern/codex_files/smallest_experiment/workspace/results/lc_sent15_v1_q2_head_loss_v1/runs/H3_D_FULL_64/L1_LISTWISE_CE/seed_2/best.pt",
+        "sha256": "192075f937f5eb79f392e499d10356fa26da5b6d572bef16521762d76196fd5e"
+      }
+    }
+  },
+  "generation_contract": {
+    "greedy": true,
+    "temperature": 0,
+    "enable_thinking": false,
+    "track_a_max_new_tokens": 192,
+    "track_b_max_new_tokens": 600
+  },
+  "gpu": {
+    "snapshot_before": [
+      {
+        "physical_gpu": 0,
+        "uuid": "GPU-1418fc29-2139-78cc-60b8-1c4327c64a61",
+        "name": "NVIDIA A800-SXM4-80GB",
+        "total_mib": 81920,
+        "used_mib": 55528,
+        "free_mib": 25626,
+        "utilization_percent": 0
+      },
+      {
+        "physical_gpu": 1,
+        "uuid": "GPU-852c6327-7d78-282f-b688-2a5ad961d258",
+        "name": "NVIDIA A800-SXM4-80GB",
+        "total_mib": 81920,
+        "used_mib": 55628,
+        "free_mib": 25526,
+        "utilization_percent": 0
+      },
+      {
+        "physical_gpu": 2,
+        "uuid": "GPU-367249b8-a3cd-ee97-786a-c5f776ff2b06",
+        "name": "NVIDIA A800-SXM4-80GB",
+        "total_mib": 81920,
+        "used_mib": 55628,
+        "free_mib": 25526,
+        "utilization_percent": 0
+      },
+      {
+        "physical_gpu": 3,
+        "uuid": "GPU-50009d81-2c27-adfd-f9d2-7b33c1b272fe",
+        "name": "NVIDIA A800-SXM4-80GB",
+        "total_mib": 81920,
+        "used_mib": 55528,
+        "free_mib": 25626,
+        "utilization_percent": 0
+      },
+      {
+        "physical_gpu": 4,
+        "uuid": "GPU-2c8fb7e6-f44e-cb6a-9baf-b8c0a1ba8fca",
+        "name": "NVIDIA A800-SXM4-80GB",
+        "total_mib": 81920,
+        "used_mib": 0,
+        "free_mib": 81153,
+        "utilization_percent": 0
+      },
+      {
+        "physical_gpu": 5,
+        "uuid": "GPU-6ed3eed7-85b7-15c9-46d4-6c16af14a1ee",
+        "name": "NVIDIA A800-SXM4-80GB",
+        "total_mib": 81920,
+        "used_mib": 0,
+        "free_mib": 81153,
+        "utilization_percent": 0
+      },
+      {
+        "physical_gpu": 6,
+        "uuid": "GPU-cb2cf942-169b-fb86-22f2-476eeb09aa6e",
+        "name": "NVIDIA A800-SXM4-80GB",
+        "total_mib": 81920,
+        "used_mib": 0,
+        "free_mib": 81153,
+        "utilization_percent": 0
+      },
+      {
+        "physical_gpu": 7,
+        "uuid": "GPU-67c7ad9e-76e2-2f05-e8ef-43011ba6d37a",
+        "name": "NVIDIA A800-SXM4-80GB",
+        "total_mib": 81920,
+        "used_mib": 0,
+        "free_mib": 81153,
+        "utilization_percent": 0
+      }
+    ],
+    "selected": {
+      "physical_gpu": 4,
+      "uuid": "GPU-2c8fb7e6-f44e-cb6a-9baf-b8c0a1ba8fca",
+      "name": "NVIDIA A800-SXM4-80GB",
+      "total_mib": 81920,
+      "used_mib": 0,
+      "free_mib": 81153,
+      "utilization_percent": 0
+    },
+    "logical_gpu": 0,
+    "selection_rule": "free >= 48 GiB and utilization <= 20%; maximum free, then lower utilization/index"
+  },
+  "prohibitions": {
+    "reserve_accessed": false,
+    "blind_accessed": false,
+    "historical_results_modified": false,
+    "training": false,
+    "tuning": false,
+    "bootstrap": false,
+    "attention_probe_run": false,
+    "summary_to_reporter_run": false
+  },
+  "judge_credentials_present": false,
+  "runtime": {
+    "total_elapsed_seconds": 794.2496395111084,
+    "track_a": {
+      "elapsed_seconds": 259.09352374076843,
+      "generation_peak_memory_allocated_bytes": 16279889408,
+      "embedding_peak_memory_allocated_bytes": 30378387968,
+      "generated_target_count": 137,
+      "candidate_document_slots": 138,
+      "random_seed": 20260827
+    },
+    "track_b": {
+      "elapsed_seconds": 534.9175040721893,
+      "generation_peak_memory_allocated_bytes": 20811139072,
+      "embedding_peak_memory_allocated_bytes": 29225491968,
+      "summary_count": 10,
+      "clause_count": 143,
+      "source_sentence_count": 4194,
+      "supplementary_code_import_ok": true,
+      "attention_probe_run": false
+    },
+    "gpu_snapshot_after": [
+      {
+        "physical_gpu": 0,
+        "uuid": "GPU-1418fc29-2139-78cc-60b8-1c4327c64a61",
+        "name": "NVIDIA A800-SXM4-80GB",
+        "total_mib": 81920,
+        "used_mib": 55420,
+        "free_mib": 25734,
+        "utilization_percent": 0
+      },
+      {
+        "physical_gpu": 1,
+        "uuid": "GPU-852c6327-7d78-282f-b688-2a5ad961d258",
+        "name": "NVIDIA A800-SXM4-80GB",
+        "total_mib": 81920,
+        "used_mib": 55624,
+        "free_mib": 25530,
+        "utilization_percent": 0
+      },
+      {
+        "physical_gpu": 2,
+        "uuid": "GPU-367249b8-a3cd-ee97-786a-c5f776ff2b06",
+        "name": "NVIDIA A800-SXM4-80GB",
+        "total_mib": 81920,
+        "used_mib": 55628,
+        "free_mib": 25526,
+        "utilization_percent": 0
+      },
+      {
+        "physical_gpu": 3,
+        "uuid": "GPU-50009d81-2c27-adfd-f9d2-7b33c1b272fe",
+        "name": "NVIDIA A800-SXM4-80GB",
+        "total_mib": 81920,
+        "used_mib": 55532,
+        "free_mib": 25622,
+        "utilization_percent": 0
+      },
+      {
+        "physical_gpu": 4,
+        "uuid": "GPU-2c8fb7e6-f44e-cb6a-9baf-b8c0a1ba8fca",
+        "name": "NVIDIA A800-SXM4-80GB",
+        "total_mib": 81920,
+        "used_mib": 27841,
+        "free_mib": 53312,
+        "utilization_percent": 0
+      },
+      {
+        "physical_gpu": 5,
+        "uuid": "GPU-6ed3eed7-85b7-15c9-46d4-6c16af14a1ee",
+        "name": "NVIDIA A800-SXM4-80GB",
+        "total_mib": 81920,
+        "used_mib": 0,
+        "free_mib": 81153,
+        "utilization_percent": 0
+      },
+      {
+        "physical_gpu": 6,
+        "uuid": "GPU-cb2cf942-169b-fb86-22f2-476eeb09aa6e",
+        "name": "NVIDIA A800-SXM4-80GB",
+        "total_mib": 81920,
+        "used_mib": 0,
+        "free_mib": 81153,
+        "utilization_percent": 0
+      },
+      {
+        "physical_gpu": 7,
+        "uuid": "GPU-67c7ad9e-76e2-2f05-e8ef-43011ba6d37a",
+        "name": "NVIDIA A800-SXM4-80GB",
+        "total_mib": 81920,
+        "used_mib": 0,
+        "free_mib": 81153,
+        "utilization_percent": 0
+      }
+    ]
+  },
+  "status": "MEMORYFLOW_SUMMARY_TRANSFER_V1_COMPLETE"
+}

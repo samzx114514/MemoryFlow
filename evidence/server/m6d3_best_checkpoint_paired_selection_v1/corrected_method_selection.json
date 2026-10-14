@@ -1,0 +1,37 @@
+{
+  "edge": {
+    "ci95": [
+      -0.021909476077590032,
+      0.05503692219160658
+    ],
+    "delta": 0.016126594935937655,
+    "p_two_sided": 0.411,
+    "selection": "STATISTICALLY_TIED_PREFER_SIMPLER"
+  },
+  "paper_recommendation": {
+    "M6B_parameter_count": 1835393,
+    "R_SYM_parameter_count": 917889,
+    "claim": "Target\u2013Source semantic matching",
+    "evidence_considered": [
+      "corrected paired primary CI",
+      "source-controlled OOF",
+      "M6D.1-P target permutation",
+      "M6D.2 hard subsets"
+    ],
+    "not_claimed": [
+      "directed information flow",
+      "none-of-the-above",
+      "AUROC closure"
+    ],
+    "unified_model": "R_SYM"
+  },
+  "rank": {
+    "ci95": [
+      -0.03894206001113895,
+      0.008493716931216928
+    ],
+    "delta": -0.014527011452241717,
+    "p_two_sided": 0.2246,
+    "selection": "STATISTICALLY_TIED_PREFER_SIMPLER"
+  }
+}

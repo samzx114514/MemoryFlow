@@ -1,0 +1,108 @@
+{
+  "schema_version": "lc-sent-15-v1",
+  "output_stats": {
+    "catalog_sources_dev": 360610,
+    "catalog_sources_reserve": 3264,
+    "catalog_sources_train": 1313148,
+    "multi_documents_dev": 6011,
+    "multi_documents_train": 21969,
+    "multi_pairs_dev": 403200,
+    "multi_pairs_train": 1462980,
+    "multi_targets_dev": 26880,
+    "multi_targets_train": 97532,
+    "readable_samples_dev": 3,
+    "readable_samples_train": 3,
+    "single_documents_dev": 220,
+    "single_documents_reserve": 208,
+    "single_documents_train": 826,
+    "single_pairs_dev": 3420,
+    "single_pairs_reserve": 3270,
+    "single_pairs_train": 12810,
+    "single_targets_dev": 228,
+    "single_targets_reserve": 218,
+    "single_targets_train": 854
+  },
+  "language_counts": {
+    "single_dev_en": 64,
+    "single_dev_zh": 164,
+    "single_reserve_en": 64,
+    "single_reserve_zh": 154,
+    "single_train_en": 255,
+    "single_train_zh": 599
+  },
+  "single_positive_position_counts_train_dev": {
+    "train": [
+      63,
+      59,
+      64,
+      66,
+      54,
+      45,
+      49,
+      52,
+      64,
+      58,
+      52,
+      59,
+      55,
+      56,
+      58
+    ],
+    "dev": [
+      18,
+      13,
+      14,
+      18,
+      12,
+      16,
+      15,
+      16,
+      17,
+      10,
+      19,
+      16,
+      13,
+      16,
+      15
+    ]
+  },
+  "duplicate_audit": {
+    "document_id_intersections": {
+      "train_dev": 0,
+      "train_reserve": 0,
+      "dev_reserve": 0
+    },
+    "target_id_intersections": {
+      "train_dev": 0,
+      "train_reserve": 0,
+      "dev_reserve": 0
+    },
+    "source_id_intersections": {
+      "train_dev": 0,
+      "train_reserve": 0,
+      "dev_reserve": 0
+    },
+    "pair_id_intersections": {
+      "train_dev": 0,
+      "train_reserve": 0,
+      "dev_reserve": 0
+    },
+    "normalized_target_text_intersections": {
+      "train_dev": 15,
+      "train_reserve": 2,
+      "dev_reserve": 0
+    },
+    "normalized_source_text_intersections": {
+      "train_dev": 5023,
+      "train_reserve": 108,
+      "dev_reserve": 67
+    },
+    "normalized_target_source_pair_intersections": {
+      "train_dev": 17,
+      "train_reserve": 0,
+      "dev_reserve": 0
+    },
+    "handling_rule": "IDs are never deleted. Normalized-text duplicate counts are reported; document grouping remains the frozen exact-context SHA assignment."
+  },
+  "elapsed_seconds": 1249.1410000000033
+}

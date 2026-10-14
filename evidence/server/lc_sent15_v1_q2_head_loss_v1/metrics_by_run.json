@@ -1,0 +1,2062 @@
+{
+  "cell_means": [
+    {
+      "dev": {
+        "hit_at_1": 0.6637426900584795,
+        "mean_gold_rank": 2.2850877192982457,
+        "mrr": 0.7641058218909095,
+        "ndcg_at_5": 0.7864269292281465
+      },
+      "head": "H1_LINEAR_FULL",
+      "loss": "L1_LISTWISE_CE",
+      "params": 14338
+    },
+    {
+      "dev": {
+        "hit_at_1": 0.6681286549707602,
+        "mean_gold_rank": 2.2383040935672516,
+        "mrr": 0.7700477600696899,
+        "ndcg_at_5": 0.7915672838467752
+      },
+      "head": "H1_LINEAR_FULL",
+      "loss": "L2_PAIRWISE_SOFTPLUS",
+      "params": 14338
+    },
+    {
+      "dev": {
+        "hit_at_1": 0.665204678362573,
+        "mean_gold_rank": 2.2660818713450293,
+        "mrr": 0.7657761382542084,
+        "ndcg_at_5": 0.7878161696825607
+      },
+      "head": "H1_LINEAR_FULL",
+      "loss": "L3_BALANCED_POINTWISE_BCE",
+      "params": 14338
+    },
+    {
+      "dev": {
+        "hit_at_1": 0.7543859649122807,
+        "mean_gold_rank": 1.989766081871345,
+        "mrr": 0.827305796055796,
+        "ndcg_at_5": 0.8436100449061305
+      },
+      "head": "H2_R_SYM_128",
+      "loss": "L1_LISTWISE_CE",
+      "params": 917889
+    },
+    {
+      "dev": {
+        "hit_at_1": 0.7529239766081872,
+        "mean_gold_rank": 1.9181286549707603,
+        "mrr": 0.8305111473971123,
+        "ndcg_at_5": 0.8496562832529063
+      },
+      "head": "H2_R_SYM_128",
+      "loss": "L2_PAIRWISE_SOFTPLUS",
+      "params": 917889
+    },
+    {
+      "dev": {
+        "hit_at_1": 0.7324561403508771,
+        "mean_gold_rank": 2.0701754385964914,
+        "mrr": 0.8132903443210461,
+        "ndcg_at_5": 0.8293843189369176
+      },
+      "head": "H2_R_SYM_128",
+      "loss": "L3_BALANCED_POINTWISE_BCE",
+      "params": 917889
+    },
+    {
+      "dev": {
+        "hit_at_1": 0.7807017543859649,
+        "mean_gold_rank": 1.7792397660818713,
+        "mrr": 0.8513742227558017,
+        "ndcg_at_5": 0.8699646989472359
+      },
+      "head": "H3_D_FULL_64",
+      "loss": "L1_LISTWISE_CE",
+      "params": 917697
+    },
+    {
+      "dev": {
+        "hit_at_1": 0.7280701754385964,
+        "mean_gold_rank": 1.9707602339181287,
+        "mrr": 0.8147765733292048,
+        "ndcg_at_5": 0.838974706304907
+      },
+      "head": "H3_D_FULL_64",
+      "loss": "L2_PAIRWISE_SOFTPLUS",
+      "params": 917697
+    },
+    {
+      "dev": {
+        "hit_at_1": 0.7690058479532164,
+        "mean_gold_rank": 1.7953216374269008,
+        "mrr": 0.8451357203550186,
+        "ndcg_at_5": 0.8651016823259136
+      },
+      "head": "H3_D_FULL_64",
+      "loss": "L3_BALANCED_POINTWISE_BCE",
+      "params": 917697
+    }
+  ],
+  "ninety_target": "INTERPRETABLE_90_TARGET_NOT_REACHED",
+  "q2_status": "Q2_DEV_IMPROVEMENT_CONDITIONAL",
+  "runs": [
+    {
+      "best_epoch": 2,
+      "checkpoint_sha256": "6923acde08c540eb30beea6ce83b0ec26b3743b4fdc8cb77f9b2de7b27cd4c18",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.6875,
+          "mean_gold_rank": 1.984375,
+          "mrr": 0.7972584706959707,
+          "ndcg_at_5": 0.8329017091012068,
+          "target_count": 64,
+          "top1_failures": 20,
+          "top1_successes": 44
+        },
+        "overall": {
+          "hit_at_1": 0.6666666666666666,
+          "mean_gold_rank": 2.31140350877193,
+          "mrr": 0.763625543559754,
+          "ndcg_at_5": 0.7832015057647286,
+          "target_count": 228,
+          "top1_failures": 76,
+          "top1_successes": 152
+        },
+        "ranking_loss": 2.6269503988717733,
+        "zh": {
+          "hit_at_1": 0.6585365853658537,
+          "mean_gold_rank": 2.4390243902439024,
+          "mrr": 0.7505004988236694,
+          "ndcg_at_5": 0.7638063044626882,
+          "target_count": 164,
+          "top1_failures": 56,
+          "top1_successes": 108
+        }
+      },
+      "head": "H1_LINEAR_FULL",
+      "loss": "L1_LISTWISE_CE",
+      "params": 14338,
+      "peak_gpu_bytes": 1588384256,
+      "runtime_seconds": 10.617130756378174,
+      "seed": 0,
+      "terminal_epoch": 7,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.7411764705882353,
+          "mean_gold_rank": 2.0,
+          "mrr": 0.8184860237801415,
+          "ndcg_at_5": 0.8414972134183697,
+          "target_count": 255,
+          "top1_failures": 66,
+          "top1_successes": 189
+        },
+        "overall": {
+          "hit_at_1": 0.6873536299765808,
+          "mean_gold_rank": 2.2540983606557377,
+          "mrr": 0.7806433028329983,
+          "ndcg_at_5": 0.8033185554624155,
+          "target_count": 854,
+          "top1_failures": 267,
+          "top1_successes": 587
+        },
+        "ranking_loss": 2.6280819833697424,
+        "zh": {
+          "hit_at_1": 0.664440734557596,
+          "mean_gold_rank": 2.362270450751252,
+          "mrr": 0.7645332964197739,
+          "ndcg_at_5": 0.7870655374678105,
+          "target_count": 599,
+          "top1_failures": 201,
+          "top1_successes": 398
+        }
+      }
+    },
+    {
+      "best_epoch": 1,
+      "checkpoint_sha256": "cfc30520ff3437799ecd6c1609a6e04dd173065432291e0a4d9df2e3150dcf54",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.6875,
+          "mean_gold_rank": 1.90625,
+          "mrr": 0.8020318223443224,
+          "ndcg_at_5": 0.8368359915483735,
+          "target_count": 64,
+          "top1_failures": 20,
+          "top1_successes": 44
+        },
+        "overall": {
+          "hit_at_1": 0.6622807017543859,
+          "mean_gold_rank": 2.223684210526316,
+          "mrr": 0.7674247049247049,
+          "ndcg_at_5": 0.7929116232176218,
+          "target_count": 228,
+          "top1_failures": 77,
+          "top1_successes": 151
+        },
+        "ranking_loss": 2.6663304222257516,
+        "zh": {
+          "hit_at_1": 0.6524390243902439,
+          "mean_gold_rank": 2.347560975609756,
+          "mrr": 0.7539194883707079,
+          "ndcg_at_5": 0.77577040630806,
+          "target_count": 164,
+          "top1_failures": 57,
+          "top1_successes": 107
+        }
+      },
+      "head": "H1_LINEAR_FULL",
+      "loss": "L1_LISTWISE_CE",
+      "params": 14338,
+      "peak_gpu_bytes": 1588384256,
+      "runtime_seconds": 8.94375729560852,
+      "seed": 1,
+      "terminal_epoch": 6,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.7333333333333333,
+          "mean_gold_rank": 2.015686274509804,
+          "mrr": 0.813753446988741,
+          "ndcg_at_5": 0.8365001659147846,
+          "target_count": 255,
+          "top1_failures": 68,
+          "top1_successes": 187
+        },
+        "overall": {
+          "hit_at_1": 0.6861826697892272,
+          "mean_gold_rank": 2.2611241217798597,
+          "mrr": 0.780552449112168,
+          "ndcg_at_5": 0.8020679026937547,
+          "target_count": 854,
+          "top1_failures": 268,
+          "top1_successes": 586
+        },
+        "ranking_loss": 2.6670261490261247,
+        "zh": {
+          "hit_at_1": 0.666110183639399,
+          "mean_gold_rank": 2.365609348914858,
+          "mrr": 0.766418468380071,
+          "ndcg_at_5": 0.787409760587974,
+          "target_count": 599,
+          "top1_failures": 200,
+          "top1_successes": 399
+        }
+      }
+    },
+    {
+      "best_epoch": 3,
+      "checkpoint_sha256": "92d13aae66c62a1e05accb622391a716d2ff193ad6d581199098fc87f0e8043c",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.6875,
+          "mean_gold_rank": 1.953125,
+          "mrr": 0.7988209706959707,
+          "ndcg_at_5": 0.8342712013149209,
+          "target_count": 64,
+          "top1_failures": 20,
+          "top1_successes": 44
+        },
+        "overall": {
+          "hit_at_1": 0.6622807017543859,
+          "mean_gold_rank": 2.3201754385964914,
+          "mrr": 0.7612672171882697,
+          "ndcg_at_5": 0.7831676587020892,
+          "target_count": 228,
+          "top1_failures": 77,
+          "top1_successes": 151
+        },
+        "ranking_loss": 2.585320904589536,
+        "zh": {
+          "hit_at_1": 0.6524390243902439,
+          "mean_gold_rank": 2.4634146341463414,
+          "mrr": 0.7466120938681914,
+          "ndcg_at_5": 0.7632248128043988,
+          "target_count": 164,
+          "top1_failures": 57,
+          "top1_successes": 107
+        }
+      },
+      "head": "H1_LINEAR_FULL",
+      "loss": "L1_LISTWISE_CE",
+      "params": 14338,
+      "peak_gpu_bytes": 1588384256,
+      "runtime_seconds": 11.857302188873291,
+      "seed": 2,
+      "terminal_epoch": 8,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.7411764705882353,
+          "mean_gold_rank": 1.996078431372549,
+          "mrr": 0.818803342626872,
+          "ndcg_at_5": 0.8419711911558098,
+          "target_count": 255,
+          "top1_failures": 66,
+          "top1_successes": 189
+        },
+        "overall": {
+          "hit_at_1": 0.6873536299765808,
+          "mean_gold_rank": 2.259953161592506,
+          "mrr": 0.7805928913657252,
+          "ndcg_at_5": 0.8016384553041978,
+          "target_count": 854,
+          "top1_failures": 267,
+          "top1_successes": 587
+        },
+        "ranking_loss": 2.5874392938837234,
+        "zh": {
+          "hit_at_1": 0.664440734557596,
+          "mean_gold_rank": 2.37228714524207,
+          "mrr": 0.764326338658559,
+          "ndcg_at_5": 0.7844684258515083,
+          "target_count": 599,
+          "top1_failures": 201,
+          "top1_successes": 398
+        }
+      }
+    },
+    {
+      "best_epoch": 2,
+      "checkpoint_sha256": "f32e60c6ff05a8a62bd827436ab352d6aaa7b6d591e14b1514a7b155313ce0e9",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.6875,
+          "mean_gold_rank": 2.0,
+          "mrr": 0.7967376373626374,
+          "ndcg_at_5": 0.826857133988167,
+          "target_count": 64,
+          "top1_failures": 20,
+          "top1_successes": 44
+        },
+        "overall": {
+          "hit_at_1": 0.6666666666666666,
+          "mean_gold_rank": 2.31140350877193,
+          "mrr": 0.7636986429749587,
+          "ndcg_at_5": 0.7816969923594842,
+          "target_count": 228,
+          "top1_failures": 76,
+          "top1_successes": 152
+        },
+        "ranking_loss": 2.6274981624201725,
+        "zh": {
+          "hit_at_1": 0.6585365853658537,
+          "mean_gold_rank": 2.432926829268293,
+          "mrr": 0.75080537687245,
+          "ndcg_at_5": 0.764073522455608,
+          "target_count": 164,
+          "top1_failures": 56,
+          "top1_successes": 108
+        }
+      },
+      "head": "H1_LINEAR_FULL",
+      "loss": "L2_PAIRWISE_SOFTPLUS",
+      "params": 14338,
+      "peak_gpu_bytes": 1588384256,
+      "runtime_seconds": 11.359734535217285,
+      "seed": 0,
+      "terminal_epoch": 7,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.7411764705882353,
+          "mean_gold_rank": 1.992156862745098,
+          "mrr": 0.8191396185513833,
+          "ndcg_at_5": 0.8420409266883823,
+          "target_count": 255,
+          "top1_failures": 66,
+          "top1_successes": 189
+        },
+        "overall": {
+          "hit_at_1": 0.6873536299765808,
+          "mean_gold_rank": 2.250585480093677,
+          "mrr": 0.7809360428798368,
+          "ndcg_at_5": 0.8035620804340544,
+          "target_count": 854,
+          "top1_failures": 267,
+          "top1_successes": 587
+        },
+        "ranking_loss": 2.6286111522893436,
+        "zh": {
+          "hit_at_1": 0.664440734557596,
+          "mean_gold_rank": 2.360601001669449,
+          "mrr": 0.7646724171765907,
+          "ndcg_at_5": 0.7871812694242823,
+          "target_count": 599,
+          "top1_failures": 201,
+          "top1_successes": 398
+        }
+      }
+    },
+    {
+      "best_epoch": 1,
+      "checkpoint_sha256": "5a6661e52b3905e0733c154339c782800d02446c3f3a2600797658bb35b078e4",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.6875,
+          "mean_gold_rank": 1.90625,
+          "mrr": 0.8020318223443224,
+          "ndcg_at_5": 0.8368359915483735,
+          "target_count": 64,
+          "top1_failures": 20,
+          "top1_successes": 44
+        },
+        "overall": {
+          "hit_at_1": 0.6622807017543859,
+          "mean_gold_rank": 2.223684210526316,
+          "mrr": 0.7674247049247049,
+          "ndcg_at_5": 0.7929116232176218,
+          "target_count": 228,
+          "top1_failures": 77,
+          "top1_successes": 151
+        },
+        "ranking_loss": 2.6664179375297143,
+        "zh": {
+          "hit_at_1": 0.6524390243902439,
+          "mean_gold_rank": 2.347560975609756,
+          "mrr": 0.7539194883707079,
+          "ndcg_at_5": 0.77577040630806,
+          "target_count": 164,
+          "top1_failures": 57,
+          "top1_successes": 107
+        }
+      },
+      "head": "H1_LINEAR_FULL",
+      "loss": "L2_PAIRWISE_SOFTPLUS",
+      "params": 14338,
+      "peak_gpu_bytes": 1588384256,
+      "runtime_seconds": 9.920623302459717,
+      "seed": 1,
+      "terminal_epoch": 6,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.7333333333333333,
+          "mean_gold_rank": 2.015686274509804,
+          "mrr": 0.813753446988741,
+          "ndcg_at_5": 0.8365001659147846,
+          "target_count": 255,
+          "top1_failures": 68,
+          "top1_successes": 187
+        },
+        "overall": {
+          "hit_at_1": 0.6861826697892272,
+          "mean_gold_rank": 2.2611241217798597,
+          "mrr": 0.780552449112168,
+          "ndcg_at_5": 0.8020679026937547,
+          "target_count": 854,
+          "top1_failures": 268,
+          "top1_successes": 586
+        },
+        "ranking_loss": 2.6671105087222204,
+        "zh": {
+          "hit_at_1": 0.666110183639399,
+          "mean_gold_rank": 2.365609348914858,
+          "mrr": 0.766418468380071,
+          "ndcg_at_5": 0.787409760587974,
+          "target_count": 599,
+          "top1_failures": 200,
+          "top1_successes": 399
+        }
+      }
+    },
+    {
+      "best_epoch": 45,
+      "checkpoint_sha256": "ad8a3155e0acb1218cb384ba304373317e45715b751b3440f263d7992bf99d69",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.703125,
+          "mean_gold_rank": 1.8125,
+          "mrr": 0.8163060897435896,
+          "ndcg_at_5": 0.8473790150547846,
+          "target_count": 64,
+          "top1_failures": 19,
+          "top1_successes": 45
+        },
+        "overall": {
+          "hit_at_1": 0.6754385964912281,
+          "mean_gold_rank": 2.1798245614035086,
+          "mrr": 0.779019932309406,
+          "ndcg_at_5": 0.8000932359632198,
+          "target_count": 228,
+          "top1_failures": 74,
+          "top1_successes": 154
+        },
+        "ranking_loss": 1.7633032503031325,
+        "zh": {
+          "hit_at_1": 0.6646341463414634,
+          "mean_gold_rank": 2.323170731707317,
+          "mrr": 0.7644692367253343,
+          "ndcg_at_5": 0.7816402490006582,
+          "target_count": 164,
+          "top1_failures": 55,
+          "top1_successes": 109
+        }
+      },
+      "head": "H1_LINEAR_FULL",
+      "loss": "L2_PAIRWISE_SOFTPLUS",
+      "params": 14338,
+      "peak_gpu_bytes": 1588384256,
+      "runtime_seconds": 64.10450339317322,
+      "seed": 2,
+      "terminal_epoch": 50,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.7686274509803922,
+          "mean_gold_rank": 1.796078431372549,
+          "mrr": 0.8447694897694897,
+          "ndcg_at_5": 0.8668226397932581,
+          "target_count": 255,
+          "top1_failures": 59,
+          "top1_successes": 196
+        },
+        "overall": {
+          "hit_at_1": 0.7283372365339579,
+          "mean_gold_rank": 2.0550351288056206,
+          "mrr": 0.810645554029629,
+          "ndcg_at_5": 0.8307729871885764,
+          "target_count": 854,
+          "top1_failures": 232,
+          "top1_successes": 622
+        },
+        "ranking_loss": 1.7683668269206545,
+        "zh": {
+          "hit_at_1": 0.7111853088480802,
+          "mean_gold_rank": 2.1652754590984973,
+          "mrr": 0.796118669866583,
+          "ndcg_at_5": 0.8154263070313246,
+          "target_count": 599,
+          "top1_failures": 173,
+          "top1_successes": 426
+        }
+      }
+    },
+    {
+      "best_epoch": 5,
+      "checkpoint_sha256": "126f29f93df5baf516238db9d59082908241265563c51dac3145d06aa65cddeb",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.671875,
+          "mean_gold_rank": 2.03125,
+          "mrr": 0.7841746794871794,
+          "ndcg_at_5": 0.8113527141488195,
+          "target_count": 64,
+          "top1_failures": 21,
+          "top1_successes": 43
+        },
+        "overall": {
+          "hit_at_1": 0.6622807017543859,
+          "mean_gold_rank": 2.307017543859649,
+          "mrr": 0.7603288402630508,
+          "ndcg_at_5": 0.780966751678855,
+          "target_count": 228,
+          "top1_failures": 77,
+          "top1_successes": 151
+        },
+        "ranking_loss": 2.533193726288645,
+        "zh": {
+          "hit_at_1": 0.6585365853658537,
+          "mean_gold_rank": 2.4146341463414633,
+          "mrr": 0.7510231469072932,
+          "ndcg_at_5": 0.7691088151052103,
+          "target_count": 164,
+          "top1_failures": 56,
+          "top1_successes": 108
+        }
+      },
+      "head": "H1_LINEAR_FULL",
+      "loss": "L3_BALANCED_POINTWISE_BCE",
+      "params": 14338,
+      "peak_gpu_bytes": 1588384256,
+      "runtime_seconds": 12.94137454032898,
+      "seed": 0,
+      "terminal_epoch": 10,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.7568627450980392,
+          "mean_gold_rank": 1.9254901960784314,
+          "mrr": 0.8299550558374088,
+          "ndcg_at_5": 0.8500883085709929,
+          "target_count": 255,
+          "top1_failures": 62,
+          "top1_successes": 193
+        },
+        "overall": {
+          "hit_at_1": 0.7002341920374707,
+          "mean_gold_rank": 2.228337236533958,
+          "mrr": 0.7890472785086369,
+          "ndcg_at_5": 0.8081167843650436,
+          "target_count": 854,
+          "top1_failures": 256,
+          "top1_successes": 598
+        },
+        "ranking_loss": 2.5351969274480672,
+        "zh": {
+          "hit_at_1": 0.676126878130217,
+          "mean_gold_rank": 2.357262103505843,
+          "mrr": 0.7716324484271062,
+          "ndcg_at_5": 0.7902491071154325,
+          "target_count": 599,
+          "top1_failures": 194,
+          "top1_successes": 405
+        }
+      }
+    },
+    {
+      "best_epoch": 4,
+      "checkpoint_sha256": "4f46c24a5687886d7052d3c7bb837d50b10e62f76693db5151588ad03c0b7f81",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.671875,
+          "mean_gold_rank": 1.9375,
+          "mrr": 0.7920873397435897,
+          "ndcg_at_5": 0.8232567689479275,
+          "target_count": 64,
+          "top1_failures": 21,
+          "top1_successes": 43
+        },
+        "overall": {
+          "hit_at_1": 0.6622807017543859,
+          "mean_gold_rank": 2.258771929824561,
+          "mrr": 0.7646071642782171,
+          "ndcg_at_5": 0.7889620337834282,
+          "target_count": 228,
+          "top1_failures": 77,
+          "top1_successes": 151
+        },
+        "ranking_loss": 2.5630849976288643,
+        "zh": {
+          "hit_at_1": 0.6585365853658537,
+          "mean_gold_rank": 2.3841463414634148,
+          "mrr": 0.7538831933649006,
+          "ndcg_at_5": 0.775578722499721,
+          "target_count": 164,
+          "top1_failures": 56,
+          "top1_successes": 108
+        }
+      },
+      "head": "H1_LINEAR_FULL",
+      "loss": "L3_BALANCED_POINTWISE_BCE",
+      "params": 14338,
+      "peak_gpu_bytes": 1588384256,
+      "runtime_seconds": 11.417354822158813,
+      "seed": 1,
+      "terminal_epoch": 9,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.7568627450980392,
+          "mean_gold_rank": 1.9176470588235295,
+          "mrr": 0.8316014921897273,
+          "ndcg_at_5": 0.8514870640225901,
+          "target_count": 255,
+          "top1_failures": 62,
+          "top1_successes": 193
+        },
+        "overall": {
+          "hit_at_1": 0.7014051522248244,
+          "mean_gold_rank": 2.2236533957845435,
+          "mrr": 0.7894125065670733,
+          "ndcg_at_5": 0.8074682021854616,
+          "target_count": 854,
+          "top1_failures": 255,
+          "top1_successes": 599
+        },
+        "ranking_loss": 2.5649812324823205,
+        "zh": {
+          "hit_at_1": 0.67779632721202,
+          "mean_gold_rank": 2.353923205342237,
+          "mrr": 0.7714522539230385,
+          "ndcg_at_5": 0.7887289538240796,
+          "target_count": 599,
+          "top1_failures": 193,
+          "top1_successes": 406
+        }
+      }
+    },
+    {
+      "best_epoch": 16,
+      "checkpoint_sha256": "b510a73cc73f2b7bd803dcdfa030afdac675c308ea2fa5840bcdf95b9eff5f86",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.671875,
+          "mean_gold_rank": 1.90625,
+          "mrr": 0.7927265442890443,
+          "ndcg_at_5": 0.8293013440609672,
+          "target_count": 64,
+          "top1_failures": 21,
+          "top1_successes": 43
+        },
+        "overall": {
+          "hit_at_1": 0.6710526315789473,
+          "mean_gold_rank": 2.232456140350877,
+          "mrr": 0.7723924102213575,
+          "ndcg_at_5": 0.793519723585399,
+          "target_count": 228,
+          "top1_failures": 75,
+          "top1_successes": 153
+        },
+        "ranking_loss": 2.2575954627572443,
+        "zh": {
+          "hit_at_1": 0.6707317073170732,
+          "mean_gold_rank": 2.3597560975609757,
+          "mrr": 0.7644571383900652,
+          "ndcg_at_5": 0.7795561643754212,
+          "target_count": 164,
+          "top1_failures": 54,
+          "top1_successes": 110
+        }
+      },
+      "head": "H1_LINEAR_FULL",
+      "loss": "L3_BALANCED_POINTWISE_BCE",
+      "params": 14338,
+      "peak_gpu_bytes": 1588384256,
+      "runtime_seconds": 26.006508827209473,
+      "seed": 2,
+      "terminal_epoch": 21,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.7568627450980392,
+          "mean_gold_rank": 1.8588235294117648,
+          "mrr": 0.8369563007798302,
+          "ndcg_at_5": 0.8556270509159176,
+          "target_count": 255,
+          "top1_failures": 62,
+          "top1_successes": 193
+        },
+        "overall": {
+          "hit_at_1": 0.702576112412178,
+          "mean_gold_rank": 2.1920374707259955,
+          "mrr": 0.7920083201991867,
+          "ndcg_at_5": 0.8102866850231911,
+          "target_count": 854,
+          "top1_failures": 254,
+          "top1_successes": 600
+        },
+        "ranking_loss": 2.2610958933271905,
+        "zh": {
+          "hit_at_1": 0.679465776293823,
+          "mean_gold_rank": 2.333889816360601,
+          "mrr": 0.7728735371473268,
+          "ndcg_at_5": 0.790984859810094,
+          "target_count": 599,
+          "top1_failures": 192,
+          "top1_successes": 407
+        }
+      }
+    },
+    {
+      "best_epoch": 29,
+      "checkpoint_sha256": "3e761f535b23d7554f63c6eb6ca19400034698fe2c16feb44df130a5deb639ba",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.765625,
+          "mean_gold_rank": 1.5,
+          "mrr": 0.8544270833333333,
+          "ndcg_at_5": 0.884979265755448,
+          "target_count": 64,
+          "top1_failures": 15,
+          "top1_successes": 49
+        },
+        "overall": {
+          "hit_at_1": 0.7543859649122807,
+          "mean_gold_rank": 1.9824561403508771,
+          "mrr": 0.827770974152553,
+          "ndcg_at_5": 0.8439400929859344,
+          "target_count": 228,
+          "top1_failures": 56,
+          "top1_successes": 172
+        },
+        "ranking_loss": 0.9842465392718599,
+        "zh": {
+          "hit_at_1": 0.75,
+          "mean_gold_rank": 2.1707317073170733,
+          "mrr": 0.8173685900820047,
+          "ndcg_at_5": 0.8279248060514901,
+          "target_count": 164,
+          "top1_failures": 41,
+          "top1_successes": 123
+        }
+      },
+      "head": "H2_R_SYM_128",
+      "loss": "L1_LISTWISE_CE",
+      "params": 917889,
+      "peak_gpu_bytes": 1588384256,
+      "runtime_seconds": 33.717342376708984,
+      "seed": 0,
+      "terminal_epoch": 34,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.8235294117647058,
+          "mean_gold_rank": 1.5137254901960784,
+          "mrr": 0.8858622640975582,
+          "ndcg_at_5": 0.9039985972009111,
+          "target_count": 255,
+          "top1_failures": 45,
+          "top1_successes": 210
+        },
+        "overall": {
+          "hit_at_1": 0.7962529274004684,
+          "mean_gold_rank": 1.730679156908665,
+          "mrr": 0.8611783578118474,
+          "ndcg_at_5": 0.8773303953634594,
+          "target_count": 854,
+          "top1_failures": 174,
+          "top1_successes": 680
+        },
+        "ranking_loss": 0.8754256330502447,
+        "zh": {
+          "hit_at_1": 0.7846410684474123,
+          "mean_gold_rank": 1.8230383973288815,
+          "mrr": 0.8506701840174293,
+          "ndcg_at_5": 0.8659774880703871,
+          "target_count": 599,
+          "top1_failures": 129,
+          "top1_successes": 470
+        }
+      }
+    },
+    {
+      "best_epoch": 30,
+      "checkpoint_sha256": "ece6bc3aea7ce7f3d38a280949b244737a584f6ad04e867831778d2ddda0d7e6",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.765625,
+          "mean_gold_rank": 1.5,
+          "mrr": 0.8544270833333333,
+          "ndcg_at_5": 0.884979265755448,
+          "target_count": 64,
+          "top1_failures": 15,
+          "top1_successes": 49
+        },
+        "overall": {
+          "hit_at_1": 0.7543859649122807,
+          "mean_gold_rank": 1.9956140350877194,
+          "mrr": 0.8273046884888989,
+          "ndcg_at_5": 0.8436360428020456,
+          "target_count": 228,
+          "top1_failures": 56,
+          "top1_successes": 172
+        },
+        "ranking_loss": 0.9758803997489945,
+        "zh": {
+          "hit_at_1": 0.75,
+          "mean_gold_rank": 2.1890243902439024,
+          "mrr": 0.8167203392813148,
+          "ndcg_at_5": 0.8275021021373034,
+          "target_count": 164,
+          "top1_failures": 41,
+          "top1_successes": 123
+        }
+      },
+      "head": "H2_R_SYM_128",
+      "loss": "L1_LISTWISE_CE",
+      "params": 917889,
+      "peak_gpu_bytes": 1588384256,
+      "runtime_seconds": 34.532798528671265,
+      "seed": 1,
+      "terminal_epoch": 35,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.8274509803921568,
+          "mean_gold_rank": 1.5058823529411764,
+          "mrr": 0.8872628243216479,
+          "ndcg_at_5": 0.9049627447426322,
+          "target_count": 255,
+          "top1_failures": 44,
+          "top1_successes": 211
+        },
+        "overall": {
+          "hit_at_1": 0.7997658079625293,
+          "mean_gold_rank": 1.7166276346604215,
+          "mrr": 0.863713608795576,
+          "ndcg_at_5": 0.879198503831796,
+          "target_count": 854,
+          "top1_failures": 171,
+          "top1_successes": 683
+        },
+        "ranking_loss": 0.8584981859824968,
+        "zh": {
+          "hit_at_1": 0.7879799666110183,
+          "mean_gold_rank": 1.8063439065108515,
+          "mrr": 0.8536884836550946,
+          "ndcg_at_5": 0.8682304213071494,
+          "target_count": 599,
+          "top1_failures": 127,
+          "top1_successes": 472
+        }
+      }
+    },
+    {
+      "best_epoch": 30,
+      "checkpoint_sha256": "19e51e3ae734595da9d41241df54c1b8c75c488130e224aadb0a5d4df8a79215",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.765625,
+          "mean_gold_rank": 1.5,
+          "mrr": 0.8544270833333333,
+          "ndcg_at_5": 0.884979265755448,
+          "target_count": 64,
+          "top1_failures": 15,
+          "top1_successes": 49
+        },
+        "overall": {
+          "hit_at_1": 0.7543859649122807,
+          "mean_gold_rank": 1.9912280701754386,
+          "mrr": 0.826841725525936,
+          "ndcg_at_5": 0.8432539989304115,
+          "target_count": 228,
+          "top1_failures": 56,
+          "top1_successes": 172
+        },
+        "ranking_loss": 0.9775624712966028,
+        "zh": {
+          "hit_at_1": 0.75,
+          "mean_gold_rank": 2.182926829268293,
+          "mrr": 0.8160767078450005,
+          "ndcg_at_5": 0.8269709679742998,
+          "target_count": 164,
+          "top1_failures": 41,
+          "top1_successes": 123
+        }
+      },
+      "head": "H2_R_SYM_128",
+      "loss": "L1_LISTWISE_CE",
+      "params": 917889,
+      "peak_gpu_bytes": 1588384256,
+      "runtime_seconds": 34.00645709037781,
+      "seed": 2,
+      "terminal_epoch": 35,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.8352941176470589,
+          "mean_gold_rank": 1.4745098039215687,
+          "mrr": 0.8936928104575163,
+          "ndcg_at_5": 0.9111564265953804,
+          "target_count": 255,
+          "top1_failures": 42,
+          "top1_successes": 213
+        },
+        "overall": {
+          "hit_at_1": 0.7997658079625293,
+          "mean_gold_rank": 1.7096018735362997,
+          "mrr": 0.8644216471792585,
+          "ndcg_at_5": 0.880585245560121,
+          "target_count": 854,
+          "top1_failures": 171,
+          "top1_successes": 683
+        },
+        "ranking_loss": 0.8568726026954617,
+        "zh": {
+          "hit_at_1": 0.7846410684474123,
+          "mean_gold_rank": 1.8096828046744575,
+          "mrr": 0.8519606344314191,
+          "ndcg_at_5": 0.867570802882339,
+          "target_count": 599,
+          "top1_failures": 129,
+          "top1_successes": 470
+        }
+      }
+    },
+    {
+      "best_epoch": 42,
+      "checkpoint_sha256": "4e4891b080ca94a29cbd186b0679c5565d502b3a16a5556adb7854e6c8b99b32",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.765625,
+          "mean_gold_rank": 1.46875,
+          "mrr": 0.8552083333333333,
+          "ndcg_at_5": 0.8913101543020987,
+          "target_count": 64,
+          "top1_failures": 15,
+          "top1_successes": 49
+        },
+        "overall": {
+          "hit_at_1": 0.75,
+          "mean_gold_rank": 1.9078947368421053,
+          "mrr": 0.8300283537125641,
+          "ndcg_at_5": 0.8504332366806365,
+          "target_count": 228,
+          "top1_failures": 57,
+          "top1_successes": 171
+        },
+        "ranking_loss": 0.9956192959056385,
+        "zh": {
+          "hit_at_1": 0.7439024390243902,
+          "mean_gold_rank": 2.0792682926829267,
+          "mrr": 0.8202020202020202,
+          "ndcg_at_5": 0.8344812688283587,
+          "target_count": 164,
+          "top1_failures": 42,
+          "top1_successes": 122
+        }
+      },
+      "head": "H2_R_SYM_128",
+      "loss": "L2_PAIRWISE_SOFTPLUS",
+      "params": 917889,
+      "peak_gpu_bytes": 1588384256,
+      "runtime_seconds": 60.217992544174194,
+      "seed": 0,
+      "terminal_epoch": 47,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.8549019607843137,
+          "mean_gold_rank": 1.2588235294117647,
+          "mrr": 0.9144537815126051,
+          "ndcg_at_5": 0.9333941698399527,
+          "target_count": 255,
+          "top1_failures": 37,
+          "top1_successes": 218
+        },
+        "overall": {
+          "hit_at_1": 0.8243559718969555,
+          "mean_gold_rank": 1.3149882903981265,
+          "mrr": 0.8953328872532619,
+          "ndcg_at_5": 0.9189031122880017,
+          "target_count": 854,
+          "top1_failures": 150,
+          "top1_successes": 704
+        },
+        "ranking_loss": 0.7707837984991477,
+        "zh": {
+          "hit_at_1": 0.8113522537562604,
+          "mean_gold_rank": 1.33889816360601,
+          "mrr": 0.8871929406153111,
+          "ndcg_at_5": 0.9127341311932647,
+          "target_count": 599,
+          "top1_failures": 113,
+          "top1_successes": 486
+        }
+      }
+    },
+    {
+      "best_epoch": 38,
+      "checkpoint_sha256": "4433d664012aa6d791a32b4c33bcc952ca9460c1b23b93cd2902dd5a7c1ac6c0",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.78125,
+          "mean_gold_rank": 1.4375,
+          "mrr": 0.8643229166666666,
+          "ndcg_at_5": 0.8981600556826479,
+          "target_count": 64,
+          "top1_failures": 14,
+          "top1_successes": 50
+        },
+        "overall": {
+          "hit_at_1": 0.7543859649122807,
+          "mean_gold_rank": 1.9254385964912282,
+          "mrr": 0.8304148945596314,
+          "ndcg_at_5": 0.8489806798864721,
+          "target_count": 228,
+          "top1_failures": 56,
+          "top1_successes": 172
+        },
+        "ranking_loss": 1.0172066296864184,
+        "zh": {
+          "hit_at_1": 0.7439024390243902,
+          "mean_gold_rank": 2.1158536585365852,
+          "mrr": 0.8171824956885932,
+          "ndcg_at_5": 0.8297887283562569,
+          "target_count": 164,
+          "top1_failures": 42,
+          "top1_successes": 122
+        }
+      },
+      "head": "H2_R_SYM_128",
+      "loss": "L2_PAIRWISE_SOFTPLUS",
+      "params": 917889,
+      "peak_gpu_bytes": 1588384256,
+      "runtime_seconds": 57.69319939613342,
+      "seed": 1,
+      "terminal_epoch": 43,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.8431372549019608,
+          "mean_gold_rank": 1.3098039215686275,
+          "mrr": 0.9058216619981326,
+          "ndcg_at_5": 0.9254186470151896,
+          "target_count": 255,
+          "top1_failures": 40,
+          "top1_successes": 215
+        },
+        "overall": {
+          "hit_at_1": 0.8079625292740047,
+          "mean_gold_rank": 1.4039812646370022,
+          "mrr": 0.8818687037656592,
+          "ndcg_at_5": 0.905858748427524,
+          "target_count": 854,
+          "top1_failures": 164,
+          "top1_successes": 690
+        },
+        "ranking_loss": 0.833780237219988,
+        "zh": {
+          "hit_at_1": 0.7929883138564274,
+          "mean_gold_rank": 1.4440734557595993,
+          "mrr": 0.8716717015131037,
+          "ndcg_at_5": 0.8975319134695027,
+          "target_count": 599,
+          "top1_failures": 124,
+          "top1_successes": 475
+        }
+      }
+    },
+    {
+      "best_epoch": 38,
+      "checkpoint_sha256": "acc18fbbb18a409790fa28fd3e7c6c9e23e0a4ba84409902101cf3a6810afbab",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.78125,
+          "mean_gold_rank": 1.4375,
+          "mrr": 0.8643229166666666,
+          "ndcg_at_5": 0.8981600556826479,
+          "target_count": 64,
+          "top1_failures": 14,
+          "top1_successes": 50
+        },
+        "overall": {
+          "hit_at_1": 0.7543859649122807,
+          "mean_gold_rank": 1.9210526315789473,
+          "mrr": 0.8310901939191413,
+          "ndcg_at_5": 0.8495549331916101,
+          "target_count": 228,
+          "top1_failures": 56,
+          "top1_successes": 172
+        },
+        "ranking_loss": 1.0173058062162676,
+        "zh": {
+          "hit_at_1": 0.7439024390243902,
+          "mean_gold_rank": 2.1097560975609757,
+          "mrr": 0.8181213265054728,
+          "ndcg_at_5": 0.8305870805121804,
+          "target_count": 164,
+          "top1_failures": 42,
+          "top1_successes": 122
+        }
+      },
+      "head": "H2_R_SYM_128",
+      "loss": "L2_PAIRWISE_SOFTPLUS",
+      "params": 917889,
+      "peak_gpu_bytes": 1588384256,
+      "runtime_seconds": 59.32210850715637,
+      "seed": 2,
+      "terminal_epoch": 43,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.8470588235294118,
+          "mean_gold_rank": 1.2980392156862746,
+          "mrr": 0.9083053221288515,
+          "ndcg_at_5": 0.9273096957963425,
+          "target_count": 255,
+          "top1_failures": 39,
+          "top1_successes": 216
+        },
+        "overall": {
+          "hit_at_1": 0.8114754098360656,
+          "mean_gold_rank": 1.395784543325527,
+          "mrr": 0.8835391806996021,
+          "ndcg_at_5": 0.9078565971972481,
+          "target_count": 854,
+          "top1_failures": 161,
+          "top1_successes": 693
+        },
+        "ranking_loss": 0.8325655475044962,
+        "zh": {
+          "hit_at_1": 0.7963272120200334,
+          "mean_gold_rank": 1.4373956594323873,
+          "mrr": 0.8729959986220419,
+          "ndcg_at_5": 0.8995752280106551,
+          "target_count": 599,
+          "top1_failures": 122,
+          "top1_successes": 477
+        }
+      }
+    },
+    {
+      "best_epoch": 10,
+      "checkpoint_sha256": "aacf03a985460b407daa1feab034735a1480e50a742df2f6ce24ed24d05aee22",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.703125,
+          "mean_gold_rank": 1.671875,
+          "mrr": 0.8159040178571428,
+          "ndcg_at_5": 0.8457316703284767,
+          "target_count": 64,
+          "top1_failures": 19,
+          "top1_successes": 45
+        },
+        "overall": {
+          "hit_at_1": 0.7280701754385965,
+          "mean_gold_rank": 2.1140350877192984,
+          "mrr": 0.8093551429077743,
+          "ndcg_at_5": 0.824533338141226,
+          "target_count": 228,
+          "top1_failures": 62,
+          "top1_successes": 166
+        },
+        "ranking_loss": 1.7784408925003128,
+        "zh": {
+          "hit_at_1": 0.7378048780487805,
+          "mean_gold_rank": 2.2865853658536586,
+          "mrr": 0.8067994843909478,
+          "ndcg_at_5": 0.8162608182632743,
+          "target_count": 164,
+          "top1_failures": 43,
+          "top1_successes": 121
+        }
+      },
+      "head": "H2_R_SYM_128",
+      "loss": "L3_BALANCED_POINTWISE_BCE",
+      "params": 917889,
+      "peak_gpu_bytes": 1588384256,
+      "runtime_seconds": 20.46837282180786,
+      "seed": 0,
+      "terminal_epoch": 15,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.7333333333333333,
+          "mean_gold_rank": 1.768627450980392,
+          "mrr": 0.8231292345998229,
+          "ndcg_at_5": 0.8525231730711602,
+          "target_count": 255,
+          "top1_failures": 68,
+          "top1_successes": 187
+        },
+        "overall": {
+          "hit_at_1": 0.7295081967213115,
+          "mean_gold_rank": 2.0081967213114753,
+          "mrr": 0.8143745988593764,
+          "ndcg_at_5": 0.8362185607141185,
+          "target_count": 854,
+          "top1_failures": 231,
+          "top1_successes": 623
+        },
+        "ranking_loss": 1.780159592994901,
+        "zh": {
+          "hit_at_1": 0.7278797996661102,
+          "mean_gold_rank": 2.1101836393989983,
+          "mrr": 0.8106476671167823,
+          "ndcg_at_5": 0.8292775320813208,
+          "target_count": 599,
+          "top1_failures": 163,
+          "top1_successes": 436
+        }
+      }
+    },
+    {
+      "best_epoch": 17,
+      "checkpoint_sha256": "5e6e1c3aa0445fb0d7f9dcaf932e49cc219c07a7a3eb52b3fa5a43e4e2f97dc3",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.734375,
+          "mean_gold_rank": 1.578125,
+          "mrr": 0.8358072916666666,
+          "ndcg_at_5": 0.8660402141488195,
+          "target_count": 64,
+          "top1_failures": 17,
+          "top1_successes": 47
+        },
+        "overall": {
+          "hit_at_1": 0.7324561403508771,
+          "mean_gold_rank": 2.0482456140350878,
+          "mrr": 0.8147803220171642,
+          "ndcg_at_5": 0.8313824886308964,
+          "target_count": 228,
+          "top1_failures": 61,
+          "top1_successes": 167
+        },
+        "ranking_loss": 1.4285310685896038,
+        "zh": {
+          "hit_at_1": 0.7317073170731707,
+          "mean_gold_rank": 2.231707317073171,
+          "mrr": 0.8065746753246754,
+          "ndcg_at_5": 0.8178575225751212,
+          "target_count": 164,
+          "top1_failures": 44,
+          "top1_successes": 120
+        }
+      },
+      "head": "H2_R_SYM_128",
+      "loss": "L3_BALANCED_POINTWISE_BCE",
+      "params": 917889,
+      "peak_gpu_bytes": 1588384256,
+      "runtime_seconds": 29.343409538269043,
+      "seed": 1,
+      "terminal_epoch": 22,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.7843137254901961,
+          "mean_gold_rank": 1.580392156862745,
+          "mrr": 0.8603347197464845,
+          "ndcg_at_5": 0.8847739420330757,
+          "target_count": 255,
+          "top1_failures": 55,
+          "top1_successes": 200
+        },
+        "overall": {
+          "hit_at_1": 0.7494145199063232,
+          "mean_gold_rank": 1.8430913348946136,
+          "mrr": 0.8324997471952975,
+          "ndcg_at_5": 0.8532460809134507,
+          "target_count": 854,
+          "top1_failures": 214,
+          "top1_successes": 640
+        },
+        "ranking_loss": 1.3990502235255002,
+        "zh": {
+          "hit_at_1": 0.7345575959933222,
+          "mean_gold_rank": 1.9549248747913188,
+          "mrr": 0.8206501345065619,
+          "ndcg_at_5": 0.8398243704201213,
+          "target_count": 599,
+          "top1_failures": 159,
+          "top1_successes": 440
+        }
+      }
+    },
+    {
+      "best_epoch": 22,
+      "checkpoint_sha256": "240f22d8e897c7e37fb3114ab3c020ee38710716d20756b99565dd4673bd3aff",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.734375,
+          "mean_gold_rank": 1.59375,
+          "mrr": 0.833203125,
+          "ndcg_at_5": 0.8639944367492655,
+          "target_count": 64,
+          "top1_failures": 17,
+          "top1_successes": 47
+        },
+        "overall": {
+          "hit_at_1": 0.7368421052631579,
+          "mean_gold_rank": 2.0482456140350878,
+          "mrr": 0.8157355680381996,
+          "ndcg_at_5": 0.8322371300386302,
+          "target_count": 228,
+          "top1_failures": 60,
+          "top1_successes": 168
+        },
+        "ranking_loss": 1.2898123454702854,
+        "zh": {
+          "hit_at_1": 0.7378048780487805,
+          "mean_gold_rank": 2.225609756097561,
+          "mrr": 0.8089189604433507,
+          "ndcg_at_5": 0.8198440347369189,
+          "target_count": 164,
+          "top1_failures": 43,
+          "top1_successes": 121
+        }
+      },
+      "head": "H2_R_SYM_128",
+      "loss": "L3_BALANCED_POINTWISE_BCE",
+      "params": 917889,
+      "peak_gpu_bytes": 1588384256,
+      "runtime_seconds": 39.07025957107544,
+      "seed": 2,
+      "terminal_epoch": 27,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.803921568627451,
+          "mean_gold_rank": 1.5294117647058822,
+          "mrr": 0.870473078120137,
+          "ndcg_at_5": 0.8918387556852477,
+          "target_count": 255,
+          "top1_failures": 50,
+          "top1_successes": 205
+        },
+        "overall": {
+          "hit_at_1": 0.7611241217798594,
+          "mean_gold_rank": 1.7505854800936769,
+          "mrr": 0.8420338508746004,
+          "ndcg_at_5": 0.8624514124311871,
+          "target_count": 854,
+          "top1_failures": 204,
+          "top1_successes": 650
+        },
+        "ranking_loss": 1.2308704856198622,
+        "zh": {
+          "hit_at_1": 0.7429048414023373,
+          "mean_gold_rank": 1.8447412353923205,
+          "mrr": 0.829927001212477,
+          "ndcg_at_5": 0.849940940762096,
+          "target_count": 599,
+          "top1_failures": 154,
+          "top1_successes": 445
+        }
+      }
+    },
+    {
+      "best_epoch": 42,
+      "checkpoint_sha256": "3917758d3876564b5bef80e5f2945909f2c95184e10e6170963ac38c6e1b77dc",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.734375,
+          "mean_gold_rank": 1.546875,
+          "mrr": 0.8333333333333333,
+          "ndcg_at_5": 0.8637165842366717,
+          "target_count": 64,
+          "top1_failures": 17,
+          "top1_successes": 47
+        },
+        "overall": {
+          "hit_at_1": 0.7807017543859649,
+          "mean_gold_rank": 1.7763157894736843,
+          "mrr": 0.8515210544815808,
+          "ndcg_at_5": 0.8694736851679098,
+          "target_count": 228,
+          "top1_failures": 50,
+          "top1_successes": 178
+        },
+        "ranking_loss": 0.8706059222015562,
+        "zh": {
+          "hit_at_1": 0.7987804878048781,
+          "mean_gold_rank": 1.8658536585365855,
+          "mrr": 0.8586187017589457,
+          "ndcg_at_5": 0.8717203587020514,
+          "target_count": 164,
+          "top1_failures": 33,
+          "top1_successes": 131
+        }
+      },
+      "head": "H3_D_FULL_64",
+      "loss": "L1_LISTWISE_CE",
+      "params": 917697,
+      "peak_gpu_bytes": 1607762944,
+      "runtime_seconds": 64.81667709350586,
+      "seed": 0,
+      "terminal_epoch": 47,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.8705882352941177,
+          "mean_gold_rank": 1.2901960784313726,
+          "mrr": 0.9207889822595705,
+          "ndcg_at_5": 0.9354337962578076,
+          "target_count": 255,
+          "top1_failures": 33,
+          "top1_successes": 222
+        },
+        "overall": {
+          "hit_at_1": 0.8688524590163934,
+          "mean_gold_rank": 1.3571428571428572,
+          "mrr": 0.9177689406612124,
+          "ndcg_at_5": 0.9319423642563114,
+          "target_count": 854,
+          "top1_failures": 112,
+          "top1_successes": 742
+        },
+        "ranking_loss": 0.5791450933845462,
+        "zh": {
+          "hit_at_1": 0.8681135225375626,
+          "mean_gold_rank": 1.3856427378964942,
+          "mrr": 0.916483280214499,
+          "ndcg_at_5": 0.9304560284292973,
+          "target_count": 599,
+          "top1_failures": 79,
+          "top1_successes": 520
+        }
+      }
+    },
+    {
+      "best_epoch": 54,
+      "checkpoint_sha256": "ba3d8bf4cd147de154a6b057d7710bf4f1a00f2e5a24d29ae99d12335e1b6619",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.75,
+          "mean_gold_rank": 1.546875,
+          "mrr": 0.8410156249999999,
+          "ndcg_at_5": 0.8755278819501574,
+          "target_count": 64,
+          "top1_failures": 16,
+          "top1_successes": 48
+        },
+        "overall": {
+          "hit_at_1": 0.7850877192982456,
+          "mean_gold_rank": 1.7719298245614035,
+          "mrr": 0.8534842959185065,
+          "ndcg_at_5": 0.8742960255582777,
+          "target_count": 228,
+          "top1_failures": 49,
+          "top1_successes": 179
+        },
+        "ranking_loss": 0.8542666499023696,
+        "zh": {
+          "hit_at_1": 0.7987804878048781,
+          "mean_gold_rank": 1.8597560975609757,
+          "mrr": 0.8583501187159723,
+          "ndcg_at_5": 0.873815301112666,
+          "target_count": 164,
+          "top1_failures": 33,
+          "top1_successes": 131
+        }
+      },
+      "head": "H3_D_FULL_64",
+      "loss": "L1_LISTWISE_CE",
+      "params": 917697,
+      "peak_gpu_bytes": 1607762944,
+      "runtime_seconds": 70.2746250629425,
+      "seed": 1,
+      "terminal_epoch": 59,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.9058823529411765,
+          "mean_gold_rank": 1.2117647058823529,
+          "mrr": 0.9431465919701215,
+          "ndcg_at_5": 0.9520842183093324,
+          "target_count": 255,
+          "top1_failures": 24,
+          "top1_successes": 231
+        },
+        "overall": {
+          "hit_at_1": 0.9110070257611241,
+          "mean_gold_rank": 1.2201405152224825,
+          "mrr": 0.946586600362947,
+          "ndcg_at_5": 0.9558742448943848,
+          "target_count": 854,
+          "top1_failures": 76,
+          "top1_successes": 778
+        },
+        "ranking_loss": 0.44219548051002733,
+        "zh": {
+          "hit_at_1": 0.9131886477462438,
+          "mean_gold_rank": 1.2237061769616027,
+          "mrr": 0.9480510446704102,
+          "ndcg_at_5": 0.9574876952770031,
+          "target_count": 599,
+          "top1_failures": 52,
+          "top1_successes": 547
+        }
+      }
+    },
+    {
+      "best_epoch": 35,
+      "checkpoint_sha256": "192075f937f5eb79f392e499d10356fa26da5b6d572bef16521762d76196fd5e",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.75,
+          "mean_gold_rank": 1.53125,
+          "mrr": 0.8424479166666666,
+          "ndcg_at_5": 0.8704459054565685,
+          "target_count": 64,
+          "top1_failures": 16,
+          "top1_successes": 48
+        },
+        "overall": {
+          "hit_at_1": 0.7763157894736842,
+          "mean_gold_rank": 1.7894736842105263,
+          "mrr": 0.8491173178673178,
+          "ndcg_at_5": 0.8661243861155201,
+          "target_count": 228,
+          "top1_failures": 51,
+          "top1_successes": 177
+        },
+        "ranking_loss": 0.8921713438611355,
+        "zh": {
+          "hit_at_1": 0.7865853658536586,
+          "mean_gold_rank": 1.8902439024390243,
+          "mrr": 0.8517200110187917,
+          "ndcg_at_5": 0.8644379395434038,
+          "target_count": 164,
+          "top1_failures": 35,
+          "top1_successes": 129
+        }
+      },
+      "head": "H3_D_FULL_64",
+      "loss": "L1_LISTWISE_CE",
+      "params": 917697,
+      "peak_gpu_bytes": 1607762944,
+      "runtime_seconds": 40.19917106628418,
+      "seed": 2,
+      "terminal_epoch": 40,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.8431372549019608,
+          "mean_gold_rank": 1.3568627450980393,
+          "mrr": 0.903708372237784,
+          "ndcg_at_5": 0.9227746783663063,
+          "target_count": 255,
+          "top1_failures": 40,
+          "top1_successes": 215
+        },
+        "overall": {
+          "hit_at_1": 0.8348946135831382,
+          "mean_gold_rank": 1.4707259953161593,
+          "mrr": 0.8952721848799132,
+          "ndcg_at_5": 0.9124100023900806,
+          "target_count": 854,
+          "top1_failures": 141,
+          "top1_successes": 713
+        },
+        "ranking_loss": 0.675468036120804,
+        "zh": {
+          "hit_at_1": 0.8313856427378965,
+          "mean_gold_rank": 1.5191986644407345,
+          "mrr": 0.8916808196440918,
+          "ndcg_at_5": 0.9079976611981981,
+          "target_count": 599,
+          "top1_failures": 101,
+          "top1_successes": 498
+        }
+      }
+    },
+    {
+      "best_epoch": 18,
+      "checkpoint_sha256": "581196ab8ee0150d8fab2f8393f8f92726ed1e3ed54f32a45b94062c05701887",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.71875,
+          "mean_gold_rank": 1.53125,
+          "mrr": 0.8335937499999999,
+          "ndcg_at_5": 0.8697248753536642,
+          "target_count": 64,
+          "top1_failures": 18,
+          "top1_successes": 46
+        },
+        "overall": {
+          "hit_at_1": 0.7280701754385965,
+          "mean_gold_rank": 1.9736842105263157,
+          "mrr": 0.8143344959134432,
+          "ndcg_at_5": 0.8385537988528956,
+          "target_count": 228,
+          "top1_failures": 62,
+          "top1_successes": 166
+        },
+        "ranking_loss": 1.1533756655446363,
+        "zh": {
+          "hit_at_1": 0.7317073170731707,
+          "mean_gold_rank": 2.1463414634146343,
+          "mrr": 0.8068186894406407,
+          "ndcg_at_5": 0.8263894763160102,
+          "target_count": 164,
+          "top1_failures": 44,
+          "top1_successes": 120
+        }
+      },
+      "head": "H3_D_FULL_64",
+      "loss": "L2_PAIRWISE_SOFTPLUS",
+      "params": 917697,
+      "peak_gpu_bytes": 1607762944,
+      "runtime_seconds": 28.36337375640869,
+      "seed": 0,
+      "terminal_epoch": 23,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.7843137254901961,
+          "mean_gold_rank": 1.5450980392156863,
+          "mrr": 0.866362972539443,
+          "ndcg_at_5": 0.8880476566479868,
+          "target_count": 255,
+          "top1_failures": 55,
+          "top1_successes": 200
+        },
+        "overall": {
+          "hit_at_1": 0.7540983606557377,
+          "mean_gold_rank": 1.7142857142857142,
+          "mrr": 0.8418594026322364,
+          "ndcg_at_5": 0.8662640306721614,
+          "target_count": 854,
+          "top1_failures": 210,
+          "top1_successes": 644
+        },
+        "ranking_loss": 1.0739946327427747,
+        "zh": {
+          "hit_at_1": 0.7412353923205343,
+          "mean_gold_rank": 1.7863105175292153,
+          "mrr": 0.8314279997502033,
+          "ndcg_at_5": 0.8569905338043226,
+          "target_count": 599,
+          "top1_failures": 155,
+          "top1_successes": 444
+        }
+      }
+    },
+    {
+      "best_epoch": 19,
+      "checkpoint_sha256": "09f630456a3bafdcdbae104c2d6e81cc967ebef5ff51b60b62c5cbeecbb352c3",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.71875,
+          "mean_gold_rank": 1.515625,
+          "mrr": 0.834375,
+          "ndcg_at_5": 0.8704096214605213,
+          "target_count": 64,
+          "top1_failures": 18,
+          "top1_successes": 46
+        },
+        "overall": {
+          "hit_at_1": 0.7280701754385965,
+          "mean_gold_rank": 1.969298245614035,
+          "mrr": 0.814814863499074,
+          "ndcg_at_5": 0.839050058470288,
+          "target_count": 228,
+          "top1_failures": 62,
+          "top1_successes": 166
+        },
+        "ranking_loss": 1.1412616107120637,
+        "zh": {
+          "hit_at_1": 0.7317073170731707,
+          "mean_gold_rank": 2.1463414634146343,
+          "mrr": 0.8071816394987127,
+          "ndcg_at_5": 0.826812180230197,
+          "target_count": 164,
+          "top1_failures": 44,
+          "top1_successes": 120
+        }
+      },
+      "head": "H3_D_FULL_64",
+      "loss": "L2_PAIRWISE_SOFTPLUS",
+      "params": 917697,
+      "peak_gpu_bytes": 1607762944,
+      "runtime_seconds": 35.72713899612427,
+      "seed": 1,
+      "terminal_epoch": 24,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.7843137254901961,
+          "mean_gold_rank": 1.5372549019607844,
+          "mrr": 0.865938135938136,
+          "ndcg_at_5": 0.8876060656918285,
+          "target_count": 255,
+          "top1_failures": 55,
+          "top1_successes": 200
+        },
+        "overall": {
+          "hit_at_1": 0.7587822014051522,
+          "mean_gold_rank": 1.6955503512880563,
+          "mrr": 0.8442343565879865,
+          "ndcg_at_5": 0.8678913333442065,
+          "target_count": 854,
+          "top1_failures": 206,
+          "top1_successes": 648
+        },
+        "ranking_loss": 1.052521495773011,
+        "zh": {
+          "hit_at_1": 0.7479131886477463,
+          "mean_gold_rank": 1.7629382303839733,
+          "mrr": 0.8349948511885072,
+          "ndcg_at_5": 0.8594985841811956,
+          "target_count": 599,
+          "top1_failures": 151,
+          "top1_successes": 448
+        }
+      }
+    },
+    {
+      "best_epoch": 18,
+      "checkpoint_sha256": "70714605b8430f7aace5c90943ff71d652549d11013f05640fc9b1165607385a",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.734375,
+          "mean_gold_rank": 1.5,
+          "mrr": 0.8421875,
+          "ndcg_at_5": 0.8761763440609672,
+          "target_count": 64,
+          "top1_failures": 17,
+          "top1_successes": 47
+        },
+        "overall": {
+          "hit_at_1": 0.7280701754385965,
+          "mean_gold_rank": 1.969298245614035,
+          "mrr": 0.8151803605750975,
+          "ndcg_at_5": 0.8393202615915375,
+          "target_count": 228,
+          "top1_failures": 62,
+          "top1_successes": 166
+        },
+        "ranking_loss": 1.1522538801574755,
+        "zh": {
+          "hit_at_1": 0.725609756097561,
+          "mean_gold_rank": 2.152439024390244,
+          "mrr": 0.8046409890922086,
+          "ndcg_at_5": 0.8249374001400525,
+          "target_count": 164,
+          "top1_failures": 45,
+          "top1_successes": 119
+        }
+      },
+      "head": "H3_D_FULL_64",
+      "loss": "L2_PAIRWISE_SOFTPLUS",
+      "params": 917697,
+      "peak_gpu_bytes": 1607762944,
+      "runtime_seconds": 33.884865045547485,
+      "seed": 2,
+      "terminal_epoch": 23,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.788235294117647,
+          "mean_gold_rank": 1.5490196078431373,
+          "mrr": 0.8671690727573081,
+          "ndcg_at_5": 0.8887118078239694,
+          "target_count": 255,
+          "top1_failures": 54,
+          "top1_successes": 201
+        },
+        "overall": {
+          "hit_at_1": 0.7540983606557377,
+          "mean_gold_rank": 1.724824355971897,
+          "mrr": 0.8410169325860193,
+          "ndcg_at_5": 0.865693690045951,
+          "target_count": 854,
+          "top1_failures": 210,
+          "top1_successes": 644
+        },
+        "ranking_loss": 1.07446916249041,
+        "zh": {
+          "hit_at_1": 0.7395659432387313,
+          "mean_gold_rank": 1.7996661101836393,
+          "mrr": 0.8298837176550031,
+          "ndcg_at_5": 0.8558946582706678,
+          "target_count": 599,
+          "top1_failures": 156,
+          "top1_successes": 443
+        }
+      }
+    },
+    {
+      "best_epoch": 47,
+      "checkpoint_sha256": "290ca8e7c28c1b24035dab53545fe4fd3e1c7c51ebdd094ce09f2c68e6a515cc",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.765625,
+          "mean_gold_rank": 1.4375,
+          "mrr": 0.8565104166666666,
+          "ndcg_at_5": 0.8925139132428543,
+          "target_count": 64,
+          "top1_failures": 15,
+          "top1_successes": 49
+        },
+        "overall": {
+          "hit_at_1": 0.7719298245614035,
+          "mean_gold_rank": 1.7850877192982457,
+          "mrr": 0.8468773429299745,
+          "ndcg_at_5": 0.8658179609362583,
+          "target_count": 228,
+          "top1_failures": 52,
+          "top1_successes": 176
+        },
+        "ranking_loss": 0.9469264273563583,
+        "zh": {
+          "hit_at_1": 0.774390243902439,
+          "mean_gold_rank": 1.920731707317073,
+          "mrr": 0.8431180946424849,
+          "ndcg_at_5": 0.855400028328806,
+          "target_count": 164,
+          "top1_failures": 37,
+          "top1_successes": 127
+        }
+      },
+      "head": "H3_D_FULL_64",
+      "loss": "L3_BALANCED_POINTWISE_BCE",
+      "params": 917697,
+      "peak_gpu_bytes": 1607762944,
+      "runtime_seconds": 77.32462215423584,
+      "seed": 0,
+      "terminal_epoch": 52,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.8509803921568627,
+          "mean_gold_rank": 1.3019607843137255,
+          "mrr": 0.910385932150638,
+          "ndcg_at_5": 0.92771393800121,
+          "target_count": 255,
+          "top1_failures": 38,
+          "top1_successes": 217
+        },
+        "overall": {
+          "hit_at_1": 0.8571428571428571,
+          "mean_gold_rank": 1.3185011709601873,
+          "mrr": 0.9119608436060427,
+          "ndcg_at_5": 0.9293930953099915,
+          "target_count": 854,
+          "top1_failures": 122,
+          "top1_successes": 732
+        },
+        "ranking_loss": 0.6528584846889596,
+        "zh": {
+          "hit_at_1": 0.8597662771285476,
+          "mean_gold_rank": 1.325542570951586,
+          "mrr": 0.9126312983992451,
+          "ndcg_at_5": 0.9301079285549652,
+          "target_count": 599,
+          "top1_failures": 84,
+          "top1_successes": 515
+        }
+      }
+    },
+    {
+      "best_epoch": 40,
+      "checkpoint_sha256": "6fd7a9a221e0b4d829eddae6ebdc29ad5e0dbdf93acf68a78f7c84e8c90919b0",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.71875,
+          "mean_gold_rank": 1.484375,
+          "mrr": 0.834375,
+          "ndcg_at_5": 0.8761763440609672,
+          "target_count": 64,
+          "top1_failures": 18,
+          "top1_successes": 46
+        },
+        "overall": {
+          "hit_at_1": 0.7631578947368421,
+          "mean_gold_rank": 1.8026315789473684,
+          "mrr": 0.8421450260266049,
+          "ndcg_at_5": 0.8639731752891129,
+          "target_count": 228,
+          "top1_failures": 54,
+          "top1_successes": 174
+        },
+        "ranking_loss": 0.978781228089135,
+        "zh": {
+          "hit_at_1": 0.7804878048780488,
+          "mean_gold_rank": 1.9268292682926829,
+          "mrr": 0.8451772313052801,
+          "ndcg_at_5": 0.8592109630854624,
+          "target_count": 164,
+          "top1_failures": 36,
+          "top1_successes": 128
+        }
+      },
+      "head": "H3_D_FULL_64",
+      "loss": "L3_BALANCED_POINTWISE_BCE",
+      "params": 917697,
+      "peak_gpu_bytes": 1607762944,
+      "runtime_seconds": 60.457231760025024,
+      "seed": 1,
+      "terminal_epoch": 45,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.8470588235294118,
+          "mean_gold_rank": 1.3333333333333333,
+          "mrr": 0.9063415669298022,
+          "ndcg_at_5": 0.9246959904034663,
+          "target_count": 255,
+          "top1_failures": 39,
+          "top1_successes": 216
+        },
+        "overall": {
+          "hit_at_1": 0.8430913348946136,
+          "mean_gold_rank": 1.3758782201405153,
+          "mrr": 0.9016467204406315,
+          "ndcg_at_5": 0.9200163773588418,
+          "target_count": 854,
+          "top1_failures": 134,
+          "top1_successes": 720
+        },
+        "ranking_loss": 0.729106988114025,
+        "zh": {
+          "hit_at_1": 0.8414023372287145,
+          "mean_gold_rank": 1.3939899833055092,
+          "mrr": 0.8996480796146905,
+          "ndcg_at_5": 0.9180242215552038,
+          "target_count": 599,
+          "top1_failures": 95,
+          "top1_successes": 504
+        }
+      }
+    },
+    {
+      "best_epoch": 44,
+      "checkpoint_sha256": "22a1e55500088d06712262ca014ee8c0e5141facfc4fb3bdb0c750ed0c6e68d9",
+      "dev": {
+        "en": {
+          "hit_at_1": 0.75,
+          "mean_gold_rank": 1.46875,
+          "mrr": 0.8473958333333333,
+          "ndcg_at_5": 0.8856640118623051,
+          "target_count": 64,
+          "top1_failures": 16,
+          "top1_successes": 48
+        },
+        "overall": {
+          "hit_at_1": 0.7719298245614035,
+          "mean_gold_rank": 1.7982456140350878,
+          "mrr": 0.8463847921084764,
+          "ndcg_at_5": 0.8655139107523697,
+          "target_count": 228,
+          "top1_failures": 52,
+          "top1_successes": 176
+        },
+        "ranking_loss": 0.9636963045303945,
+        "zh": {
+          "hit_at_1": 0.7804878048780488,
+          "mean_gold_rank": 1.9268292682926829,
+          "mrr": 0.8459902394353613,
+          "ndcg_at_5": 0.8576504566606875,
+          "target_count": 164,
+          "top1_failures": 36,
+          "top1_successes": 128
+        }
+      },
+      "head": "H3_D_FULL_64",
+      "loss": "L3_BALANCED_POINTWISE_BCE",
+      "params": 917697,
+      "peak_gpu_bytes": 1607762944,
+      "runtime_seconds": 69.84787654876709,
+      "seed": 2,
+      "terminal_epoch": 49,
+      "terminal_reason": "patience_5",
+      "train": {
+        "en": {
+          "hit_at_1": 0.8509803921568627,
+          "mean_gold_rank": 1.3254901960784313,
+          "mrr": 0.9080112044817927,
+          "ndcg_at_5": 0.9259017313241865,
+          "target_count": 255,
+          "top1_failures": 38,
+          "top1_successes": 217
+        },
+        "overall": {
+          "hit_at_1": 0.8489461358313818,
+          "mean_gold_rank": 1.3501170960187354,
+          "mrr": 0.9057324928519307,
+          "ndcg_at_5": 0.9238892859475815,
+          "target_count": 854,
+          "top1_failures": 129,
+          "top1_successes": 725
+        },
+        "ranking_loss": 0.69054789266578,
+        "zh": {
+          "hit_at_1": 0.8480801335559266,
+          "mean_gold_rank": 1.360601001669449,
+          "mrr": 0.9047624236271984,
+          "ndcg_at_5": 0.9230325688006128,
+          "target_count": 599,
+          "top1_failures": 91,
+          "top1_successes": 508
+        }
+      }
+    }
+  ],
+  "winner": {
+    "dev": {
+      "hit_at_1": 0.7807017543859649,
+      "mean_gold_rank": 1.7792397660818713,
+      "mrr": 0.8513742227558017,
+      "ndcg_at_5": 0.8699646989472359
+    },
+    "head": "H3_D_FULL_64",
+    "loss": "L1_LISTWISE_CE",
+    "params": 917697
+  }
+}

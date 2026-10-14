@@ -1,0 +1,34 @@
+{
+  "checkpoint": "MEMORYFLOW_YIFENG_METHOD_LCSENT15_COMPARISON_V1",
+  "marker": "MEMORYFLOW_YIFENG_METHOD_COMPARISON_PROTOCOL_AMBIGUITY",
+  "execution_permitted": false,
+  "decision": "STOP_BEFORE_LCSENT15_DEV",
+  "archive": {
+    "path": "/data2/pkuiti/songzhengxing_intern/AAAI27_supplementary_material.zip",
+    "sha256": "f44074df6a22596c9a78b2ab3f815ce9c2486f2225db6377c9aaad9e8a48487e",
+    "safety_check": "PASS"
+  },
+  "start_conditions": {
+    "base_model_identity_and_weights_available": false,
+    "fixed_layer_head_artifact_present": false,
+    "scoring_formula_and_citation_threshold_present": true,
+    "existing_target_scoring_or_teacher_forced_replay_present": false,
+    "target_rewrite_not_required": false,
+    "no_dev_selection_required": false,
+    "candidate_preservation_verified": "NOT_READ_BECAUSE_EXECUTION_PROHIBITED"
+  },
+  "blocking_reasons": [
+    "NATURAL_GENERATION_ONLY: no given-target or teacher-forced replay interface.",
+    "FIXED_HEAD_ARTIFACT_MISSING: no head_ranking.json or equivalent artifact.",
+    "MODEL_WEIGHT_SNAPSHOT_MISSING: cache ref exists but referenced snapshot/weights do not."
+  ],
+  "prohibited_actions_not_taken": [
+    "No LC-Sent-15 Dev, Reserve, or Blind data was read.",
+    "No adapter, source code, model, head, prompt, threshold, formula, or candidate set was changed.",
+    "No GPU task, package installation, model download, or external judge call was started."
+  ],
+  "minimum_artifact_needed": [
+    "Official fixed head_ranking.json or equivalent with model revision and selection record.",
+    "Official teacher-forced or direct given-Target Source scoring definition preserving LC-Sent-15 inputs."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "before_metrics": true,
+  "bootstrap": {
+    "reps": 10000,
+    "seed": 20260815,
+    "seed_first_metrics": true,
+    "unit": "target"
+  },
+  "checkpoint": "LC-Sent-15-Q2",
+  "gradient_clip_norm": 1.0,
+  "groups_per_batch": 32,
+  "heads": {
+    "H1_LINEAR_FULL": {
+      "input": "[t;s;t*s;abs(t-s);cosine]",
+      "params": 14338
+    },
+    "H2_R_SYM_128": {
+      "input": "[t*s;abs(t-s);cosine]",
+      "params": 917889
+    },
+    "H3_D_FULL_64": {
+      "input": "[t;s;t*s;abs(t-s);cosine]",
+      "params": 917697
+    }
+  },
+  "losses": {
+    "L1_LISTWISE_CE": "-log_softmax(score_group)[positive]",
+    "L2_PAIRWISE_SOFTPLUS": "mean_neg softplus(negative-positive)",
+    "L3_BALANCED_POINTWISE_BCE": "0.5*softplus(-positive)+0.5*mean_neg softplus(negative)"
+  },
+  "lr": 0.0003,
+  "max_epoch": 100,
+  "optimizer": "AdamW",
+  "patience": 5,
+  "prohibitions": {
+    "blind": true,
+    "bm25_input": true,
+    "mixed_catalog": true,
+    "multi_positive": true,
+    "new_hyperparameters": true,
+    "qwen": true,
+    "reserve": true
+  },
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "selection": "Dev Hit@1 desc, MRR desc, nDCG@5 desc, cell loss asc, earlier epoch",
+  "weight_decay": 0.0001
+}

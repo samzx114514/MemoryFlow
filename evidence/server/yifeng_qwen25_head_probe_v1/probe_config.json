@@ -1,0 +1,25 @@
+{
+  "checkpoint": "MEMORYFLOW_YIFENG_QWEN25_HEAD_PROBE_V1",
+  "status": "BLOCKED_NEEDS_INPUTS",
+  "seed": 42,
+  "samples_per_language": 100,
+  "language_denominators": {
+    "zh": 0,
+    "en": 0,
+    "total": 0
+  },
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "embedding_model": "BAAI/bge-m3",
+  "generation": {
+    "prompt": "vanilla_qa_without_citation_instruction",
+    "decoding": "greedy_argmax",
+    "max_new_tokens": 800
+  },
+  "thresholds": {
+    "valid_cosine_gte": 0.7,
+    "invalid_cosine_lte": 0.65
+  },
+  "head_selection": "mean_valid_reward_minus_invalid_penalty; top_1_only",
+  "probe_manifest": "NOT_CREATED: official Train input missing",
+  "gpu": "NOT_QUERIED: no model execution permitted"
+}

@@ -1,0 +1,65 @@
+{
+  "checkpoint": "C5A-Qwen7B-Readiness",
+  "status": "QWEN7B_READINESS_PASS",
+  "model": {
+    "repo_id": "Qwen/Qwen2.5-7B-Instruct",
+    "local_path": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-7B-Instruct",
+    "revision": "unavailable_until_local_weights_are_present",
+    "tokenizer_revision": "unavailable_until_local_weights_are_present",
+    "hidden_size": 3584,
+    "num_hidden_layers": 28,
+    "num_attention_heads": 28,
+    "num_key_value_heads": 4,
+    "max_position_embeddings": 32768,
+    "vocab_size": 152064,
+    "native_dtype": "bfloat16"
+  },
+  "method_lock": {
+    "anchor_string": "<|im_end|>",
+    "anchor_token_id": 151645,
+    "anchor_count_per_chunk": 1,
+    "shared_anchor": true,
+    "anchor_initialization": "independent trainable vector cloned from existing EOS embedding",
+    "trainable_parameter_count": 3584,
+    "mask_contract": "memoryflow_mask_contract_v0_1",
+    "candidate_builder": "C4A frozen nested candidate builder",
+    "candidate_size": 8,
+    "aggregation": "uniform last8 layers, all query heads, source-only normalization",
+    "loss": "all-positive distribution cross-entropy + 1e-4 anchor drift regularization",
+    "base_model_frozen": true,
+    "lora": false,
+    "generate": false,
+    "autoregressive_decode": false
+  },
+  "runtime_lock": {
+    "gpu": "physical GPU 4",
+    "cuda_visible_devices": "4",
+    "model_compute_dtype": "float32",
+    "attention_implementation": "eager",
+    "max_sequence_length": 1161,
+    "micro_batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "optimizer": "AdamW",
+    "learning_rate": 0.01,
+    "weight_decay": 0.0,
+    "seed": 0,
+    "max_epochs": 10,
+    "patience": 2,
+    "gradient_clip_norm": 1.0,
+    "train_steps": "one smoke optimizer step only",
+    "train_split": "conservative expanded train, candidate_size=8",
+    "dev_split": "frozen conservative expanded dev, not accessed in smoke",
+    "blind_split": "frozen C4A blind, not accessed in smoke"
+  },
+  "fixed_train_example": {
+    "example_id": "longcite_expanded_target_00478391e9d1376c7912:expanded_c8",
+    "target_group_id": "longcite_expanded_target_00478391e9d1376c7912",
+    "source": "conservative expanded train only"
+  },
+  "immutable_inputs": {
+    "train_examples_sha256": "d5c933280de603474161791ea92c12a45901154acf440ce5519fd405ca354064",
+    "source_catalog_sha256": "395e9a6eb09b4d6d7632f9d9b678e192fd2835ce45db92c7cb8593a5e710fed7",
+    "manifest_sha256": "88568c65b616314cb800fffd2423af4305f4027ff7ebbe0f6faa09247caa0b77",
+    "c4a_anchor_checkpoint_sha256": "fdf525e78ef39789c48385891399a2f939b097bb12adaff7d86a72add894c32c"
+  }
+}

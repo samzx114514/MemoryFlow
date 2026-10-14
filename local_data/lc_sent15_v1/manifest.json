@@ -1,0 +1,44 @@
+{
+  "schema_version": "lc-sent-15-v1-source-gate",
+  "status": "blocked",
+  "marker": "MEMORYFLOW_LC_SENT15_NEEDS_OFFICIAL_SOURCE",
+  "executed_at": "2026-08-14T15:25:56.8116504+08:00",
+  "official_dataset_id": "zai-org/LongCite-45k",
+  "expected_revision_from_project_handoff": "b776b01faf6e132a3d9cc373de1b46cd6630d772",
+  "official_source_payload_found": false,
+  "official_source_payload_sha256": null,
+  "source_sha_bound": false,
+  "construction_started": false,
+  "blind_accessed": false,
+  "sealed_accessed": false,
+  "mixed_243_catalog_accessed": false,
+  "old_processed_data_used_as_source": false,
+  "model_or_gpu_used": false,
+  "approved_paths_checked": [
+    {"path": "F:\\CodexProject\\MemoryFlow\\datasets\\LongCite-45k", "exists": false},
+    {"path": "F:\\CodexProject\\MemoryFlow\\datasets\\longcite-45k", "exists": false},
+    {"path": "F:\\CodexProject\\MemoryFlow\\temp\\LongCite-45k", "exists": false},
+    {"path": "C:\\Users\\25779\\.cache\\huggingface\\hub\\datasets--zai-org--LongCite-45k", "exists": false},
+    {"path": "C:\\Users\\25779\\.cache\\huggingface\\datasets\\zai-org___long_cite-45k", "exists": false},
+    {"path": "C:\\Users\\25779\\.cache\\huggingface\\datasets\\zai-org___longcite-45k", "exists": false}
+  ],
+  "counts": {
+    "train_documents": 0,
+    "dev_documents": 0,
+    "train_targets": 0,
+    "dev_targets": 0,
+    "train_pairs": 0,
+    "dev_pairs": 0,
+    "single_positive_targets": 0,
+    "multi_positive_targets": 0,
+    "complete_readable_examples": 0
+  },
+  "blocked_fields": [
+    "official_source_absolute_path",
+    "official_source_file_sha256",
+    "official_raw_schema_verification",
+    "official_split_inventory",
+    "citation_index_mapping_validation"
+  ],
+  "minimum_missing_input": "A local read-only official LongCite-45k non-Test payload pinned to the expected revision, with provenance metadata and intact query/context/response fields."
+}

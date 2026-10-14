@@ -1,0 +1,20 @@
+{
+  "status": "MEMORYFLOW_SUMMARY_TRACK_B_NEEDS_JUDGE",
+  "reason": "OPENAI_API_KEY was not configured in the execution environment",
+  "judge_model": "gpt-4o-2024-05-13",
+  "protocol": "unmodified evaluate_citations.py from supplementary package",
+  "method_files": [
+    "bm25.json",
+    "dfull_seed_0.json",
+    "dfull_seed_1.json",
+    "dfull_seed_2.json",
+    "fusion_seed_0.json",
+    "fusion_seed_1.json",
+    "fusion_seed_2.json",
+    "qwen.json",
+    "rsym_seed_0.json",
+    "rsym_seed_1.json",
+    "rsym_seed_2.json"
+  ],
+  "aggregation_note": "Evaluate BM25 and Qwen once; evaluate each R-SYM/D-Full/fusion seed separately and report the arithmetic mean of the three seed metrics. No logits were averaged."
+}

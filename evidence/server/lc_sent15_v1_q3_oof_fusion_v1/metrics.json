@@ -1,0 +1,157 @@
+{
+  "complementarity_seed1": {
+    "bm25": {
+      "en": {
+        "baseline_only": 2,
+        "both_correct": 55,
+        "both_wrong": 4,
+        "fusion_only": 3
+      },
+      "overall": {
+        "baseline_only": 5,
+        "both_correct": 151,
+        "both_wrong": 33,
+        "fusion_only": 39
+      },
+      "zh": {
+        "baseline_only": 3,
+        "both_correct": 96,
+        "both_wrong": 29,
+        "fusion_only": 36
+      }
+    },
+    "dfull64": {
+      "en": {
+        "baseline_only": 1,
+        "both_correct": 47,
+        "both_wrong": 5,
+        "fusion_only": 11
+      },
+      "overall": {
+        "baseline_only": 10,
+        "both_correct": 169,
+        "both_wrong": 28,
+        "fusion_only": 21
+      },
+      "zh": {
+        "baseline_only": 9,
+        "both_correct": 122,
+        "both_wrong": 23,
+        "fusion_only": 10
+      }
+    }
+  },
+  "dev_mean": {
+    "hit_at_1": 0.8318713450292398,
+    "mean_gold_rank": 1.6315789473684212,
+    "mrr": 0.8857013600434653,
+    "ndcg_at_5": 0.8970747225253035
+  },
+  "dev_seed_metrics": [
+    {
+      "metrics": {
+        "en": {
+          "hit_at_1": 0.90625,
+          "mean_gold_rank": 1.1875,
+          "mrr": 0.9427083333333333,
+          "ndcg_at_5": 0.9514498321986621,
+          "target_count": 64,
+          "top1_failures": 6,
+          "top1_successes": 58
+        },
+        "overall": {
+          "hit_at_1": 0.8377192982456141,
+          "mean_gold_rank": 1.6228070175438596,
+          "mrr": 0.8884571447071448,
+          "ndcg_at_5": 0.8985668953842189,
+          "target_count": 228,
+          "top1_failures": 37,
+          "top1_successes": 191
+        },
+        "zh": {
+          "hit_at_1": 0.8109756097560976,
+          "mean_gold_rank": 1.7926829268292683,
+          "mrr": 0.8672859491457053,
+          "ndcg_at_5": 0.8779296517493144,
+          "target_count": 164,
+          "top1_failures": 31,
+          "top1_successes": 133
+        }
+      },
+      "seed": 0
+    },
+    {
+      "metrics": {
+        "en": {
+          "hit_at_1": 0.90625,
+          "mean_gold_rank": 1.1875,
+          "mrr": 0.9427083333333333,
+          "ndcg_at_5": 0.9514498321986621,
+          "target_count": 64,
+          "top1_failures": 6,
+          "top1_successes": 58
+        },
+        "overall": {
+          "hit_at_1": 0.8333333333333334,
+          "mean_gold_rank": 1.6359649122807018,
+          "mrr": 0.8861108433476854,
+          "ndcg_at_5": 0.8984526796384609,
+          "target_count": 228,
+          "top1_failures": 38,
+          "top1_successes": 190
+        },
+        "zh": {
+          "hit_at_1": 0.8048780487804879,
+          "mean_gold_rank": 1.8109756097560976,
+          "mrr": 0.8640240179874326,
+          "ndcg_at_5": 0.8777708640052115,
+          "target_count": 164,
+          "top1_failures": 32,
+          "top1_successes": 132
+        }
+      },
+      "seed": 1
+    },
+    {
+      "metrics": {
+        "en": {
+          "hit_at_1": 0.890625,
+          "mean_gold_rank": 1.1875,
+          "mrr": 0.9375,
+          "ndcg_at_5": 0.9477288869977701,
+          "target_count": 64,
+          "top1_failures": 7,
+          "top1_successes": 57
+        },
+        "overall": {
+          "hit_at_1": 0.8245614035087719,
+          "mean_gold_rank": 1.6359649122807018,
+          "mrr": 0.8825360920755657,
+          "ndcg_at_5": 0.8942045925532309,
+          "target_count": 228,
+          "top1_failures": 40,
+          "top1_successes": 188
+        },
+        "zh": {
+          "hit_at_1": 0.7987804878048781,
+          "mean_gold_rank": 1.8109756097560976,
+          "mrr": 0.8610867621538353,
+          "ndcg_at_5": 0.8733170630138984,
+          "target_count": 164,
+          "top1_failures": 33,
+          "top1_successes": 131
+        }
+      },
+      "seed": 2
+    }
+  ],
+  "ninety_target": "INTERPRETABLE_90_TARGET_NOT_REACHED",
+  "oracle_union_dfull64_bm25_seed1": 0.8903508771929824,
+  "selected_alpha": 0.65,
+  "status": "Q3_FUSION_PASS",
+  "train_oof_selected_alpha_mean": {
+    "hit_at_1": 0.7689305230288835,
+    "mrr": 0.8397899264409802,
+    "ndcg_at_5": 0.8567729107608107
+  }
+}

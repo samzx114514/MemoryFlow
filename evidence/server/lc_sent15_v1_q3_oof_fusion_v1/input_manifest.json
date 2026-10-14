@@ -1,0 +1,19 @@
+{
+  "bm25_integrity": "3ee549b93827bf715b7b0c7be3742ea0bc65e686a15cf6db407a0bacaded9d20",
+  "data_manifest": "9762b68d08a45683f796db6beae8b493f9bf359ecb7814f2af8c132774df8bb4",
+  "feature_caches": {
+    "dev_source_fmean.npz": "9ee9b5c1ec195aa13b884d01dc68c769f5ffd36d821fb7b9e9ff38a2bad9845a",
+    "dev_target_fmean.npz": "52895a4c00d67616bb53392e0a0561b227175d619afbcf5fc85d616200adf888",
+    "train_source_fmean.npz": "eec02451107aca8eee1672b14c7564aee9ea1e2c9a03ada2e67a4b61253440a9",
+    "train_target_fmean.npz": "175b64c2c7314965c06f1ccdaceea977246d7edfd971f1eabf8571cbb2afc285"
+  },
+  "no_blind": true,
+  "no_mixed_catalog": true,
+  "no_multi_positive": true,
+  "no_qwen": true,
+  "no_reserve": true,
+  "q0_integrity": "a69e1906e388ecaf5567f76bcae957a621e713e3abf18d2d65388ec98a47cf53",
+  "q1c_integrity": "dd0070676c296df85cf50142cf2b5522b4afc876a8ff6a140edb57d24698252b",
+  "q2_integrity": "45eeca3adf1572ee924c363ed0146a030e4afe587b63253fa47bfd4479bb9824",
+  "q2c_integrity": "293dbd60b3607579e22a846f9f3e6b0d8390e989f619b8779a431b86630a0f96"
+}

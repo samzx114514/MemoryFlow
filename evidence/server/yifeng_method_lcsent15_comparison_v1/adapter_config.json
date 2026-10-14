@@ -1,0 +1,16 @@
+{
+  "checkpoint": "MEMORYFLOW_YIFENG_METHOD_LCSENT15_COMPARISON_V1",
+  "adapter_created": false,
+  "execution_permitted": false,
+  "marker": "MEMORYFLOW_YIFENG_METHOD_COMPARISON_PROTOCOL_AMBIGUITY",
+  "reason": "No method-preserving mapping from fixed LC-Sent-15 Targets to natural generated clauses is supplied.",
+  "immutable_lcsent15_constraints": {
+    "split": "Dev only if a complete method contract is supplied",
+    "target_count": 228,
+    "pair_count": 3420,
+    "candidate_count_per_target": 15,
+    "positive_count_per_target": 1,
+    "reserve_or_blind_read": false,
+    "preserve_target_source_ids_text_order_labels": true
+  }
+}

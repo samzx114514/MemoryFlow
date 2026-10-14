@@ -1,0 +1,26 @@
+# Private research repository: explicit staging is still required.
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+__pycache__/
+.pytest_cache/
+.venv/
+.conda*/
+*.pyc
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npz
+*.npy
+*.tar.gz
+*.zip
+*.log
+*.jsonl
+!**/samples/*.jsonl
+!**/examples/*.jsonl
+data/raw/
+artifacts/raw/

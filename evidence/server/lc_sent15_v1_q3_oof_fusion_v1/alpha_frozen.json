@@ -1,0 +1,857 @@
+{
+  "alphas": [
+    {
+      "alpha": 0.0,
+      "mean": {
+        "hit_at_1": 0.6814988290398126,
+        "mrr": 0.7475097079605276,
+        "ndcg_at_5": 0.7450402089342655
+      },
+      "seed_metrics": [
+        {
+          "hit_at_1": 0.6814988290398126,
+          "mean_gold_rank": 3.0444964871194378,
+          "mrr": 0.7475097079605276,
+          "ndcg_at_5": 0.7450402089342655,
+          "target_count": 854,
+          "top1_failures": 272,
+          "top1_successes": 582
+        },
+        {
+          "hit_at_1": 0.6814988290398126,
+          "mean_gold_rank": 3.0444964871194378,
+          "mrr": 0.7475097079605276,
+          "ndcg_at_5": 0.7450402089342655,
+          "target_count": 854,
+          "top1_failures": 272,
+          "top1_successes": 582
+        },
+        {
+          "hit_at_1": 0.6814988290398126,
+          "mean_gold_rank": 3.0444964871194378,
+          "mrr": 0.7475097079605276,
+          "ndcg_at_5": 0.7450402089342655,
+          "target_count": 854,
+          "top1_failures": 272,
+          "top1_successes": 582
+        }
+      ]
+    },
+    {
+      "alpha": 0.05,
+      "mean": {
+        "hit_at_1": 0.7498048399687743,
+        "mrr": 0.8251909650328854,
+        "ndcg_at_5": 0.8437954786182807
+      },
+      "seed_metrics": [
+        {
+          "hit_at_1": 0.7482435597189696,
+          "mean_gold_rank": 2.021077283372365,
+          "mrr": 0.8227735216903836,
+          "ndcg_at_5": 0.8412651172842556,
+          "target_count": 854,
+          "top1_failures": 215,
+          "top1_successes": 639
+        },
+        {
+          "hit_at_1": 0.7540983606557377,
+          "mean_gold_rank": 1.9953161592505855,
+          "mrr": 0.8273004643028062,
+          "ndcg_at_5": 0.8450221568916617,
+          "target_count": 854,
+          "top1_failures": 210,
+          "top1_successes": 644
+        },
+        {
+          "hit_at_1": 0.747072599531616,
+          "mean_gold_rank": 1.9426229508196722,
+          "mrr": 0.8254989091054663,
+          "ndcg_at_5": 0.8450991616789251,
+          "target_count": 854,
+          "top1_failures": 216,
+          "top1_successes": 638
+        }
+      ]
+    },
+    {
+      "alpha": 0.1,
+      "mean": {
+        "hit_at_1": 0.7509758001561281,
+        "mrr": 0.8262123166104431,
+        "ndcg_at_5": 0.8446943051049295
+      },
+      "seed_metrics": [
+        {
+          "hit_at_1": 0.7494145199063232,
+          "mean_gold_rank": 2.0140515222482436,
+          "mrr": 0.8237864951857926,
+          "ndcg_at_5": 0.8420129473590251,
+          "target_count": 854,
+          "top1_failures": 214,
+          "top1_successes": 640
+        },
+        {
+          "hit_at_1": 0.7552693208430913,
+          "mean_gold_rank": 1.9894613583138174,
+          "mrr": 0.828302792705603,
+          "ndcg_at_5": 0.8457699869664312,
+          "target_count": 854,
+          "top1_failures": 209,
+          "top1_successes": 645
+        },
+        {
+          "hit_at_1": 0.7482435597189696,
+          "mean_gold_rank": 1.9344262295081966,
+          "mrr": 0.8265476619399337,
+          "ndcg_at_5": 0.8462999809893322,
+          "target_count": 854,
+          "top1_failures": 215,
+          "top1_successes": 639
+        }
+      ]
+    },
+    {
+      "alpha": 0.15,
+      "mean": {
+        "hit_at_1": 0.7525370804059328,
+        "mrr": 0.827629606493775,
+        "ndcg_at_5": 0.8457609609745455
+      },
+      "seed_metrics": [
+        {
+          "hit_at_1": 0.7517564402810304,
+          "mean_gold_rank": 2.0046838407494145,
+          "mrr": 0.8254523676947564,
+          "ndcg_at_5": 0.8432352234138715,
+          "target_count": 854,
+          "top1_failures": 212,
+          "top1_successes": 642
+        },
+        {
+          "hit_at_1": 0.7564402810304449,
+          "mean_gold_rank": 1.9800936768149884,
+          "mrr": 0.82948401780369,
+          "ndcg_at_5": 0.8466627281913588,
+          "target_count": 854,
+          "top1_failures": 208,
+          "top1_successes": 646
+        },
+        {
+          "hit_at_1": 0.7494145199063232,
+          "mean_gold_rank": 1.923887587822014,
+          "mrr": 0.8279524339828789,
+          "ndcg_at_5": 0.8473849313184059,
+          "target_count": 854,
+          "top1_failures": 214,
+          "top1_successes": 640
+        }
+      ]
+    },
+    {
+      "alpha": 0.2,
+      "mean": {
+        "hit_at_1": 0.7525370804059328,
+        "mrr": 0.8280292058102362,
+        "ndcg_at_5": 0.8460296600721926
+      },
+      "seed_metrics": [
+        {
+          "hit_at_1": 0.7505854800936768,
+          "mean_gold_rank": 2.0,
+          "mrr": 0.8251545163137668,
+          "ndcg_at_5": 0.8430167226975526,
+          "target_count": 854,
+          "top1_failures": 213,
+          "top1_successes": 641
+        },
+        {
+          "hit_at_1": 0.7576112412177985,
+          "mean_gold_rank": 1.964871194379391,
+          "mrr": 0.8308166397744852,
+          "ndcg_at_5": 0.8476151876623933,
+          "target_count": 854,
+          "top1_failures": 207,
+          "top1_successes": 647
+        },
+        {
+          "hit_at_1": 0.7494145199063232,
+          "mean_gold_rank": 1.9192037470725996,
+          "mrr": 0.8281164613424566,
+          "ndcg_at_5": 0.8474570698566318,
+          "target_count": 854,
+          "top1_failures": 214,
+          "top1_successes": 640
+        }
+      ]
+    },
+    {
+      "alpha": 0.25,
+      "mean": {
+        "hit_at_1": 0.75487900078064,
+        "mrr": 0.8299002638873834,
+        "ndcg_at_5": 0.8474052496558112
+      },
+      "seed_metrics": [
+        {
+          "hit_at_1": 0.752927400468384,
+          "mean_gold_rank": 1.9894613583138174,
+          "mrr": 0.8272055130661689,
+          "ndcg_at_5": 0.8445456258099433,
+          "target_count": 854,
+          "top1_failures": 211,
+          "top1_successes": 643
+        },
+        {
+          "hit_at_1": 0.7587822014051522,
+          "mean_gold_rank": 1.9578454332552693,
+          "mrr": 0.8320382908790402,
+          "ndcg_at_5": 0.8485072948136146,
+          "target_count": 854,
+          "top1_failures": 206,
+          "top1_successes": 648
+        },
+        {
+          "hit_at_1": 0.752927400468384,
+          "mean_gold_rank": 1.9074941451990632,
+          "mrr": 0.8304569877169408,
+          "ndcg_at_5": 0.8491628283438757,
+          "target_count": 854,
+          "top1_failures": 211,
+          "top1_successes": 643
+        }
+      ]
+    },
+    {
+      "alpha": 0.3,
+      "mean": {
+        "hit_at_1": 0.758391881342701,
+        "mrr": 0.8321417501745371,
+        "ndcg_at_5": 0.849502728470182
+      },
+      "seed_metrics": [
+        {
+          "hit_at_1": 0.7564402810304449,
+          "mean_gold_rank": 1.9836065573770492,
+          "mrr": 0.829478662763206,
+          "ndcg_at_5": 0.8462513842971872,
+          "target_count": 854,
+          "top1_failures": 208,
+          "top1_successes": 646
+        },
+        {
+          "hit_at_1": 0.7634660421545667,
+          "mean_gold_rank": 1.9473067915690867,
+          "mrr": 0.834705900396767,
+          "ndcg_at_5": 0.8513167098177198,
+          "target_count": 854,
+          "top1_failures": 202,
+          "top1_successes": 652
+        },
+        {
+          "hit_at_1": 0.7552693208430913,
+          "mean_gold_rank": 1.9028103044496487,
+          "mrr": 0.8322406873636381,
+          "ndcg_at_5": 0.8509400912956391,
+          "target_count": 854,
+          "top1_failures": 209,
+          "top1_successes": 645
+        }
+      ]
+    },
+    {
+      "alpha": 0.35,
+      "mean": {
+        "hit_at_1": 0.7564402810304448,
+        "mrr": 0.8314157110995518,
+        "ndcg_at_5": 0.8486909003781592
+      },
+      "seed_metrics": [
+        {
+          "hit_at_1": 0.7540983606557377,
+          "mean_gold_rank": 1.984777517564403,
+          "mrr": 0.8285061997591271,
+          "ndcg_at_5": 0.845942038064295,
+          "target_count": 854,
+          "top1_failures": 210,
+          "top1_successes": 644
+        },
+        {
+          "hit_at_1": 0.7622950819672131,
+          "mean_gold_rank": 1.9519906323185012,
+          "mrr": 0.8339861738573683,
+          "ndcg_at_5": 0.8503594154789518,
+          "target_count": 854,
+          "top1_failures": 203,
+          "top1_successes": 651
+        },
+        {
+          "hit_at_1": 0.752927400468384,
+          "mean_gold_rank": 1.901639344262295,
+          "mrr": 0.8317547596821602,
+          "ndcg_at_5": 0.8497712475912309,
+          "target_count": 854,
+          "top1_failures": 211,
+          "top1_successes": 643
+        }
+      ]
+    },
+    {
+      "alpha": 0.4,
+      "mean": {
+        "hit_at_1": 0.760343481654957,
+        "mrr": 0.8337782457805877,
+        "ndcg_at_5": 0.8509590601316281
+      },
+      "seed_metrics": [
+        {
+          "hit_at_1": 0.7576112412177985,
+          "mean_gold_rank": 1.9754098360655739,
+          "mrr": 0.8301784638728432,
+          "ndcg_at_5": 0.8466925873144124,
+          "target_count": 854,
+          "top1_failures": 207,
+          "top1_successes": 647
+        },
+        {
+          "hit_at_1": 0.7669789227166276,
+          "mean_gold_rank": 1.9309133489461359,
+          "mrr": 0.8373314234555452,
+          "ndcg_at_5": 0.8536676666447476,
+          "target_count": 854,
+          "top1_failures": 199,
+          "top1_successes": 655
+        },
+        {
+          "hit_at_1": 0.7564402810304449,
+          "mean_gold_rank": 1.8852459016393444,
+          "mrr": 0.8338248500133746,
+          "ndcg_at_5": 0.8525169264357246,
+          "target_count": 854,
+          "top1_failures": 208,
+          "top1_successes": 646
+        }
+      ]
+    },
+    {
+      "alpha": 0.45,
+      "mean": {
+        "hit_at_1": 0.7634660421545667,
+        "mrr": 0.8359978277425584,
+        "ndcg_at_5": 0.8537962389602306
+      },
+      "seed_metrics": [
+        {
+          "hit_at_1": 0.7622950819672131,
+          "mean_gold_rank": 1.959016393442623,
+          "mrr": 0.8331960811761748,
+          "ndcg_at_5": 0.8502498323932872,
+          "target_count": 854,
+          "top1_failures": 203,
+          "top1_successes": 651
+        },
+        {
+          "hit_at_1": 0.7681498829039812,
+          "mean_gold_rank": 1.9215456674473068,
+          "mrr": 0.8383527609522925,
+          "ndcg_at_5": 0.8553435660089378,
+          "target_count": 854,
+          "top1_failures": 198,
+          "top1_successes": 656
+        },
+        {
+          "hit_at_1": 0.7599531615925058,
+          "mean_gold_rank": 1.870023419203747,
+          "mrr": 0.8364446410992078,
+          "ndcg_at_5": 0.855795318478467,
+          "target_count": 854,
+          "top1_failures": 205,
+          "top1_successes": 649
+        }
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "mean": {
+        "hit_at_1": 0.7646370023419203,
+        "mrr": 0.8370132372181551,
+        "ndcg_at_5": 0.8548525088761098
+      },
+      "seed_metrics": [
+        {
+          "hit_at_1": 0.7634660421545667,
+          "mean_gold_rank": 1.9531615925058547,
+          "mrr": 0.8338967563791919,
+          "ndcg_at_5": 0.8511953405136428,
+          "target_count": 854,
+          "top1_failures": 202,
+          "top1_successes": 652
+        },
+        {
+          "hit_at_1": 0.7681498829039812,
+          "mean_gold_rank": 1.9086651053864168,
+          "mrr": 0.8390106868151365,
+          "ndcg_at_5": 0.8562537460648001,
+          "target_count": 854,
+          "top1_failures": 198,
+          "top1_successes": 656
+        },
+        {
+          "hit_at_1": 0.7622950819672131,
+          "mean_gold_rank": 1.8594847775175645,
+          "mrr": 0.8381322684601373,
+          "ndcg_at_5": 0.8571084400498865,
+          "target_count": 854,
+          "top1_failures": 203,
+          "top1_successes": 651
+        }
+      ]
+    },
+    {
+      "alpha": 0.55,
+      "mean": {
+        "hit_at_1": 0.7661982825917252,
+        "mrr": 0.8381961379326719,
+        "ndcg_at_5": 0.8557383701709672
+      },
+      "seed_metrics": [
+        {
+          "hit_at_1": 0.7646370023419203,
+          "mean_gold_rank": 1.9519906323185012,
+          "mrr": 0.8348344961049879,
+          "ndcg_at_5": 0.8514811449004541,
+          "target_count": 854,
+          "top1_failures": 201,
+          "top1_successes": 653
+        },
+        {
+          "hit_at_1": 0.7716627634660421,
+          "mean_gold_rank": 1.9004683840749415,
+          "mrr": 0.8413195736088007,
+          "ndcg_at_5": 0.8579893636750976,
+          "target_count": 854,
+          "top1_failures": 195,
+          "top1_successes": 659
+        },
+        {
+          "hit_at_1": 0.7622950819672131,
+          "mean_gold_rank": 1.8571428571428572,
+          "mrr": 0.8384343440842269,
+          "ndcg_at_5": 0.8577446019373499,
+          "target_count": 854,
+          "top1_failures": 203,
+          "top1_successes": 651
+        }
+      ]
+    },
+    {
+      "alpha": 0.6,
+      "mean": {
+        "hit_at_1": 0.7661982825917252,
+        "mrr": 0.8386234342030594,
+        "ndcg_at_5": 0.8562253588905513
+      },
+      "seed_metrics": [
+        {
+          "hit_at_1": 0.7634660421545667,
+          "mean_gold_rank": 1.9379391100702577,
+          "mrr": 0.8355523217349915,
+          "ndcg_at_5": 0.8525217307127141,
+          "target_count": 854,
+          "top1_failures": 202,
+          "top1_successes": 652
+        },
+        {
+          "hit_at_1": 0.7704918032786885,
+          "mean_gold_rank": 1.9028103044496487,
+          "mrr": 0.8406156034961655,
+          "ndcg_at_5": 0.8574850585719672,
+          "target_count": 854,
+          "top1_failures": 196,
+          "top1_successes": 658
+        },
+        {
+          "hit_at_1": 0.7646370023419203,
+          "mean_gold_rank": 1.8501170960187354,
+          "mrr": 0.8397023773780213,
+          "ndcg_at_5": 0.8586692873869726,
+          "target_count": 854,
+          "top1_failures": 201,
+          "top1_successes": 653
+        }
+      ]
+    },
+    {
+      "alpha": 0.65,
+      "mean": {
+        "hit_at_1": 0.7689305230288835,
+        "mrr": 0.8397899264409802,
+        "ndcg_at_5": 0.8567729107608107
+      },
+      "seed_metrics": [
+        {
+          "hit_at_1": 0.7646370023419203,
+          "mean_gold_rank": 1.9437939110070257,
+          "mrr": 0.8355258357307537,
+          "ndcg_at_5": 0.8524544270422217,
+          "target_count": 854,
+          "top1_failures": 201,
+          "top1_successes": 653
+        },
+        {
+          "hit_at_1": 0.775175644028103,
+          "mean_gold_rank": 1.901639344262295,
+          "mrr": 0.8431852105739694,
+          "ndcg_at_5": 0.8589252012694265,
+          "target_count": 854,
+          "top1_failures": 192,
+          "top1_successes": 662
+        },
+        {
+          "hit_at_1": 0.7669789227166276,
+          "mean_gold_rank": 1.85480093676815,
+          "mrr": 0.8406587330182178,
+          "ndcg_at_5": 0.8589391039707843,
+          "target_count": 854,
+          "top1_failures": 199,
+          "top1_successes": 655
+        }
+      ]
+    },
+    {
+      "alpha": 0.7,
+      "mean": {
+        "hit_at_1": 0.7681498829039812,
+        "mrr": 0.8396705449984139,
+        "ndcg_at_5": 0.856640007647402
+      },
+      "seed_metrics": [
+        {
+          "hit_at_1": 0.7599531615925058,
+          "mean_gold_rank": 1.9484777517564402,
+          "mrr": 0.8337016678351573,
+          "ndcg_at_5": 0.8511642446244806,
+          "target_count": 854,
+          "top1_failures": 205,
+          "top1_successes": 649
+        },
+        {
+          "hit_at_1": 0.7775175644028103,
+          "mean_gold_rank": 1.9063231850117095,
+          "mrr": 0.8447204694862774,
+          "ndcg_at_5": 0.8597750290054753,
+          "target_count": 854,
+          "top1_failures": 190,
+          "top1_successes": 664
+        },
+        {
+          "hit_at_1": 0.7669789227166276,
+          "mean_gold_rank": 1.864168618266979,
+          "mrr": 0.8405894976738068,
+          "ndcg_at_5": 0.8589807493122503,
+          "target_count": 854,
+          "top1_failures": 199,
+          "top1_successes": 655
+        }
+      ]
+    },
+    {
+      "alpha": 0.75,
+      "mean": {
+        "hit_at_1": 0.7669789227166275,
+        "mrr": 0.8395857503585841,
+        "ndcg_at_5": 0.85618913463119
+      },
+      "seed_metrics": [
+        {
+          "hit_at_1": 0.7646370023419203,
+          "mean_gold_rank": 1.9531615925058547,
+          "mrr": 0.8363424534091981,
+          "ndcg_at_5": 0.8524260503284075,
+          "target_count": 854,
+          "top1_failures": 201,
+          "top1_successes": 653
+        },
+        {
+          "hit_at_1": 0.7704918032786885,
+          "mean_gold_rank": 1.923887587822014,
+          "mrr": 0.8415622141324717,
+          "ndcg_at_5": 0.8571980174190472,
+          "target_count": 854,
+          "top1_failures": 196,
+          "top1_successes": 658
+        },
+        {
+          "hit_at_1": 0.765807962529274,
+          "mean_gold_rank": 1.8723653395784543,
+          "mrr": 0.8408525835340822,
+          "ndcg_at_5": 0.8589433361461156,
+          "target_count": 854,
+          "top1_failures": 200,
+          "top1_successes": 654
+        }
+      ]
+    },
+    {
+      "alpha": 0.8,
+      "mean": {
+        "hit_at_1": 0.7634660421545667,
+        "mrr": 0.8374081530404717,
+        "ndcg_at_5": 0.8547569103728468
+      },
+      "seed_metrics": [
+        {
+          "hit_at_1": 0.7599531615925058,
+          "mean_gold_rank": 1.9625292740046838,
+          "mrr": 0.8332179920001934,
+          "ndcg_at_5": 0.850506625992578,
+          "target_count": 854,
+          "top1_failures": 205,
+          "top1_successes": 649
+        },
+        {
+          "hit_at_1": 0.765807962529274,
+          "mean_gold_rank": 1.9344262295081966,
+          "mrr": 0.8392333044265129,
+          "ndcg_at_5": 0.8551488527818303,
+          "target_count": 854,
+          "top1_failures": 200,
+          "top1_successes": 654
+        },
+        {
+          "hit_at_1": 0.7646370023419203,
+          "mean_gold_rank": 1.879391100702576,
+          "mrr": 0.8397731626947085,
+          "ndcg_at_5": 0.8586152523441319,
+          "target_count": 854,
+          "top1_failures": 201,
+          "top1_successes": 653
+        }
+      ]
+    },
+    {
+      "alpha": 0.85,
+      "mean": {
+        "hit_at_1": 0.7568306010928962,
+        "mrr": 0.8340292654695465,
+        "ndcg_at_5": 0.8511890276795082
+      },
+      "seed_metrics": [
+        {
+          "hit_at_1": 0.752927400468384,
+          "mean_gold_rank": 1.981264637002342,
+          "mrr": 0.8294662727332515,
+          "ndcg_at_5": 0.8474093215000199,
+          "target_count": 854,
+          "top1_failures": 211,
+          "top1_successes": 643
+        },
+        {
+          "hit_at_1": 0.7611241217798594,
+          "mean_gold_rank": 1.9484777517564402,
+          "mrr": 0.8368360887096249,
+          "ndcg_at_5": 0.8517615431084335,
+          "target_count": 854,
+          "top1_failures": 204,
+          "top1_successes": 650
+        },
+        {
+          "hit_at_1": 0.7564402810304449,
+          "mean_gold_rank": 1.8922716627634661,
+          "mrr": 0.8357854349657629,
+          "ndcg_at_5": 0.8543962184300714,
+          "target_count": 854,
+          "top1_failures": 208,
+          "top1_successes": 646
+        }
+      ]
+    },
+    {
+      "alpha": 0.9,
+      "mean": {
+        "hit_at_1": 0.7447306791569087,
+        "mrr": 0.8259507709741901,
+        "ndcg_at_5": 0.8443040478050862
+      },
+      "seed_metrics": [
+        {
+          "hit_at_1": 0.7412177985948478,
+          "mean_gold_rank": 2.0152224824355973,
+          "mrr": 0.8217078588858447,
+          "ndcg_at_5": 0.8398986269155653,
+          "target_count": 854,
+          "top1_failures": 221,
+          "top1_successes": 633
+        },
+        {
+          "hit_at_1": 0.7482435597189696,
+          "mean_gold_rank": 1.9824355971896956,
+          "mrr": 0.828374507355772,
+          "ndcg_at_5": 0.8454474662497989,
+          "target_count": 854,
+          "top1_failures": 215,
+          "top1_successes": 639
+        },
+        {
+          "hit_at_1": 0.7447306791569087,
+          "mean_gold_rank": 1.9250585480093676,
+          "mrr": 0.8277699466809536,
+          "ndcg_at_5": 0.847566050249894,
+          "target_count": 854,
+          "top1_failures": 218,
+          "top1_successes": 636
+        }
+      ]
+    },
+    {
+      "alpha": 0.95,
+      "mean": {
+        "hit_at_1": 0.7314597970335676,
+        "mrr": 0.8157619930160914,
+        "ndcg_at_5": 0.8353060847257522
+      },
+      "seed_metrics": [
+        {
+          "hit_at_1": 0.7283372365339579,
+          "mean_gold_rank": 2.076112412177986,
+          "mrr": 0.8115588451361284,
+          "ndcg_at_5": 0.8309187466742674,
+          "target_count": 854,
+          "top1_failures": 232,
+          "top1_successes": 622
+        },
+        {
+          "hit_at_1": 0.734192037470726,
+          "mean_gold_rank": 2.03864168618267,
+          "mrr": 0.8171377932502055,
+          "ndcg_at_5": 0.835576112930986,
+          "target_count": 854,
+          "top1_failures": 227,
+          "top1_successes": 627
+        },
+        {
+          "hit_at_1": 0.7318501170960188,
+          "mean_gold_rank": 1.9718969555035128,
+          "mrr": 0.8185893406619402,
+          "ndcg_at_5": 0.8394233945720033,
+          "target_count": 854,
+          "top1_failures": 229,
+          "top1_successes": 625
+        }
+      ]
+    },
+    {
+      "alpha": 1.0,
+      "mean": {
+        "hit_at_1": 0.7189695550351288,
+        "mrr": 0.8052718976313824,
+        "ndcg_at_5": 0.8252592561664525
+      },
+      "seed_metrics": [
+        {
+          "hit_at_1": 0.7107728337236534,
+          "mean_gold_rank": 2.1440281030444965,
+          "mrr": 0.7984269828532123,
+          "ndcg_at_5": 0.8185424897165077,
+          "target_count": 854,
+          "top1_failures": 247,
+          "top1_successes": 607
+        },
+        {
+          "hit_at_1": 0.724824355971897,
+          "mean_gold_rank": 2.091334894613583,
+          "mrr": 0.808418828764262,
+          "ndcg_at_5": 0.8268313246919686,
+          "target_count": 854,
+          "top1_failures": 235,
+          "top1_successes": 619
+        },
+        {
+          "hit_at_1": 0.7213114754098361,
+          "mean_gold_rank": 2.031615925058548,
+          "mrr": 0.8089698812766728,
+          "ndcg_at_5": 0.830403954090881,
+          "target_count": 854,
+          "top1_failures": 238,
+          "top1_successes": 616
+        }
+      ]
+    }
+  ],
+  "bm25_train_reproduction": {
+    "hit_at_1": 0.6814988290398126,
+    "mean_gold_rank": 3.0444964871194378,
+    "mrr": 0.7475097079605276,
+    "ndcg_at_5": 0.7450402089342655,
+    "target_count": 854,
+    "top1_failures": 272,
+    "top1_successes": 582
+  },
+  "fold_manifest_sha256": "a166a1a50aef021b3b65c4a1a8e7e008b451e8c9fc4bf874d5a945658dbb8395",
+  "models_and_predictions": {
+    "seed_0/fold_0": {
+      "checkpoint_sha256": "fff2000a249cb860c68d267dde9c762cb9bc5c8f66236217c3d0256013ab75d9",
+      "prediction_sha256": "169d2887867beb72ae394a4b3b56b0495b7964745240732b6c342726b572a9a6"
+    },
+    "seed_0/fold_1": {
+      "checkpoint_sha256": "d4f62aefd0d08047b89ed5be381990fc97d5f2ff44a2b6cdd2bf4fd04b1505d3",
+      "prediction_sha256": "10d73a22b4ee4e06cc30986d019e63c30bb9bafd83d887eebba42ec9d9fa721a"
+    },
+    "seed_0/fold_2": {
+      "checkpoint_sha256": "650e85b84ab238f86dfae24aff0d18009cd9fa0d7779afe33bb512378ac71ab0",
+      "prediction_sha256": "44760657bdf058b91cfcedf316907cc367e2e024328b722787b761c78aec9e79"
+    },
+    "seed_0/fold_3": {
+      "checkpoint_sha256": "e44a23eb3e120f789bf30567cdd228b4a52d04e4391964ca9d2ff3519d0cc54a",
+      "prediction_sha256": "30d2aa65f03b14f22c80ea899d696290bc1c88668e7836e6f6631477c17d9114"
+    },
+    "seed_0/fold_4": {
+      "checkpoint_sha256": "81e6db50572662def75e7930fe4218788672fcbd68c352974d0e6593ad4370d9",
+      "prediction_sha256": "0f5317132ca0d09bef3ff87ed06595a7ccf9ad102e937a04985e58c1cba211c2"
+    },
+    "seed_1/fold_0": {
+      "checkpoint_sha256": "eadc11624b6baf6e8e65d2b5df620980dd77638449fba3e5ac1da549f25a7bf7",
+      "prediction_sha256": "daed9222ec3c25c9349b7222be6376c9537a4edd53088c18769762716df513c2"
+    },
+    "seed_1/fold_1": {
+      "checkpoint_sha256": "f2bd84bb07119f593dd0fb8c02fa160ffb15eba0b942f4cbe2128e6ec98da081",
+      "prediction_sha256": "5839179ac0f46a87c69da0fb6dcc74f824bb346abe5cae66bf3cdd2e48987855"
+    },
+    "seed_1/fold_2": {
+      "checkpoint_sha256": "925ddd7f1b708284368e32974cf6cfa15e509669f8d2da94d9c84da66f7c5251",
+      "prediction_sha256": "59f3dbb449746c81ea7b31d2a07fee022035f68732c35ad4ff50bd0e7e3500b0"
+    },
+    "seed_1/fold_3": {
+      "checkpoint_sha256": "ce916f3c31ed7b84cffed0d126cd02801f21003c2ae3de6ef2bda3b5d4b7ed75",
+      "prediction_sha256": "66b1102ca7e7db4da7afd2a98709e75a71bcee6eafa0f856a7556cde23ac4e5e"
+    },
+    "seed_1/fold_4": {
+      "checkpoint_sha256": "675032b6511451b369ad184373608d2574a6e2c7634b721c414cd6ec6940813e",
+      "prediction_sha256": "94267eae6914af2f1313c63f3fcf9be50777f47211d158a82bf09b3525db155c"
+    },
+    "seed_2/fold_0": {
+      "checkpoint_sha256": "f64ba1e84332b2d1f398f3695ff98254a2627750fd2d24072f71f1b2f2c156aa",
+      "prediction_sha256": "327e0a9363122a4453065e852ca88bf89b983ab753fcfebbf0c2d01fa554cde8"
+    },
+    "seed_2/fold_1": {
+      "checkpoint_sha256": "9687dc8f0718045226e0a45b1448284698837dc5d4d1bb76a1241b7120aaa81c",
+      "prediction_sha256": "68d49abc2d06bf4955680cc4cb6594c1424e0f516d7e0ab785839f2f376aaeb7"
+    },
+    "seed_2/fold_2": {
+      "checkpoint_sha256": "57558d53968001100f679432817ecc9eaee68187e0998962e1b36188e1174cd0",
+      "prediction_sha256": "85f8fe55165bcffbd9a45141709aad6baf103c822a91ddc50bd28c33c7676211"
+    },
+    "seed_2/fold_3": {
+      "checkpoint_sha256": "4f305a073898d1a384e7bc0d4db4ec66fd6b1c04193fa2f3e437def627e91811",
+      "prediction_sha256": "b7cfad23bb48c98140ee3274f45cf6e3dbf9350467240a5dab59af3f671b818d"
+    },
+    "seed_2/fold_4": {
+      "checkpoint_sha256": "43e034c1f2eb14a876c0c387e8316b9f1fdf2ea7f0824606959627baf7243b35",
+      "prediction_sha256": "f2c2b13845bfbbc0a42443ef6ad6e2cd9f8efebd99ee8dc68e0fb43cecf81528"
+    }
+  },
+  "no_dev_read_before_commit": true,
+  "selected_alpha": 0.65,
+  "selection": "mean OOF Hit@1 desc, MRR desc, nDCG@5 desc, smaller alpha, numeric order",
+  "status": "TRAIN_OOF_ONLY_FROZEN"
+}

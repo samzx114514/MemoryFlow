@@ -1,0 +1,26 @@
+{
+  "checkpoint": "MEMORYFLOW_YIFENG_METHOD_LCSENT15_COMPARISON_V1",
+  "archive": {
+    "path": "/data2/pkuiti/songzhengxing_intern/AAAI27_supplementary_material.zip",
+    "sha256": "f44074df6a22596c9a78b2ab3f815ce9c2486f2225db6377c9aaad9e8a48487e",
+    "bytes": 729901
+  },
+  "supplementary_code_sha256": {
+    "README.md": "14a157e0baee159705262bae326d19fa44b9337574acc93c24df382a11abc023",
+    "requirements.txt": "7951b47212e51d13cf8026ce93fe5697524dcfce9734fc4849e3b6cbb6debe7e",
+    "citation_common.py": "fcc00cb45f006558b75fe8379d64ef88fe90f0a55143692d29b8926ce8d92aa7",
+    "generate_attention.py": "4396685658ffe40218dd2bcf8c2f0fa8fb056ea4be6b875ad6865ea4dacda3df",
+    "probe_citation_head.py": "ce6b04731c1c7438545a44d13350917a0ee9fb16d9b1bf507e5a0c9b4609c788",
+    "add_citations.py": "cc6b75a34337439dea92befe73262db3d59163d94c40e4dd8ec4587ea37d8407",
+    "evaluate_citations.py": "4aafcf8efc530a75ce9624bbdbbf35cee8d8af632325057b3e0843bb15fe6abf",
+    "longcite45k_200.jsonl": "7eaf2ad41f852607fbec691d9dc2779c0da8fbc5b54c75841fe381b280dc96ea"
+  },
+  "expected_model": {
+    "huggingface_identifier": "Qwen/Qwen2.5-7B-Instruct",
+    "cache_ref": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "cache_ref_file_present": true,
+    "referenced_snapshot_present": false,
+    "weights_available": false
+  },
+  "lcsent15_data": "NOT_READ: Dev is blocked by method-contract ambiguity; Reserve and Blind remain prohibited."
+}

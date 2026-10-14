@@ -1,0 +1,43 @@
+{
+  "status": "MEMORYFLOW_YIFENG_HEAD_PROBE_NEEDS_INPUTS",
+  "items": [
+    {
+      "name": "Qwen2.5-7B-Instruct",
+      "repo_id": "Qwen/Qwen2.5-7B-Instruct",
+      "required_revision": "local snapshot identity recorded; upstream revision unavailable locally",
+      "recommended_path": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-7B-Instruct",
+      "state": "PRESENT",
+      "reusable_identity": {
+        "weight_bytes": 15231271888,
+        "weight_index_sha256": "624bf7c47cd12468fdc16e38a47cf4f19e0415b859a223ba3c027eed2f0e1028"
+      }
+    },
+    {
+      "name": "BGE-M3",
+      "repo_id": "BAAI/bge-m3",
+      "required_revision": "must be chosen once and recorded before execution; supplementary does not pin one",
+      "recommended_path": "/data2/pkuiti/songzhengxing_intern/cache/huggingface/hub/models--BAAI--bge-m3",
+      "state": "MISSING",
+      "expected_files": "official snapshot config/tokenizer/model files",
+      "disk_size": "UNKNOWN: do not download until exact revision is approved"
+    },
+    {
+      "name": "LongCite-45k official Train",
+      "repo_id": "zai-org/LongCite-45k",
+      "required_revision": "b776b01faf6e132a3d9cc373de1b46cd6630d772",
+      "required_file": "long.jsonl",
+      "expected_bytes": 5726201192,
+      "expected_lfs_sha256": "8eb96dad6496d8d28d983982e6f623adc1e44ffa9dce215ffc7d56fd0336623b",
+      "recommended_path": "/data2/pkuiti/songzhengxing_intern/cache/huggingface/hub/datasets--zai-org--LongCite-45k",
+      "state": "MISSING",
+      "minimal_transfer": "provide this one verified official file or an existing local snapshot plus its revision/checksum; do not substitute processed or mixed-split data."
+    }
+  ],
+  "prohibited_actions_taken": {
+    "download": false,
+    "environment_creation": false,
+    "gpu_execution": false,
+    "lc_sent15_dev_reserve_blind_access": false,
+    "gpt4o_judge": false
+  }
+}

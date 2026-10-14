@@ -1,0 +1,19 @@
+{
+  "status": "MISSING",
+  "required_repo_id": "zai-org/LongCite-45k",
+  "required_revision": "b776b01faf6e132a3d9cc373de1b46cd6630d772",
+  "required_file": "long.jsonl",
+  "required_file_size_bytes": 5726201192,
+  "required_file_lfs_sha256": "8eb96dad6496d8d28d983982e6f623adc1e44ffa9dce215ffc7d56fd0336623b",
+  "allowed_split": "Train only; sample 100 Chinese + 100 English",
+  "checked_locations": [
+    "/data2/pkuiti/songzhengxing_intern/cache/huggingface/hub/datasets--zai-org--LongCite-45k",
+    "/data2/pkuiti/songzhengxing_intern/codex_files/smallest_experiment/cache/huggingface/hub/datasets--zai-org--LongCite-45k",
+    "/data2/pkuiti/songzhengxing_intern/cache/huggingface/datasets/LongCite-45k"
+  ],
+  "excluded_substitute": {
+    "path": "/data2/pkuiti/songzhengxing_intern/codex_files/yifeng_method_lcsent15_comparison_v1/third_party_readonly/AAAI27_supplementary_material/longcite45k_200.jsonl",
+    "sha256": "7eaf2ad41f852607fbec691d9dc2779c0da8fbc5b54c75841fe381b280dc96ea",
+    "reason": "supplementary sample has no independently verifiable official Train revision/checksum record; it is not used."
+  }
+}

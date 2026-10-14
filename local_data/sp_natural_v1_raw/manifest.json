@@ -1,0 +1,236 @@
+{
+  "schema_version": "sp-natural-v1",
+  "parser_version": "c5b-local-1.0.0",
+  "execution_time_utc": "2026-08-03T12:34:11.312436+00:00",
+  "execution_duration_seconds": 173.607,
+  "raw_data_root": "F:\\xwechat_files\\wxid_dagoh27a0aaq12_41d0\\msg\\file\\2026-07\\报告生成历史轨迹\\鎶ュ憡鐢熸垚鍘嗗彶杞ㄨ抗\\SP",
+  "raw_files": {
+    "count": 12,
+    "successfully_parsed_count": 12,
+    "failed_count": 0,
+    "successes": [
+      {
+        "absolute_path": "F:\\xwechat_files\\wxid_dagoh27a0aaq12_41d0\\msg\\file\\2026-07\\报告生成历史轨迹\\鎶ュ憡鐢熸垚鍘嗗彶杞ㄨ抗\\SP\\20260225205944.log",
+        "case_count": 8,
+        "sha256": "6abfda59d03e92c5ef2dddb572409cfc91c16d192b3be9c5317c4b6efef2fd81",
+        "sha256_verified_against_audit_inventory": true
+      },
+      {
+        "absolute_path": "F:\\xwechat_files\\wxid_dagoh27a0aaq12_41d0\\msg\\file\\2026-07\\报告生成历史轨迹\\鎶ュ憡鐢熸垚鍘嗗彶杞ㄨ抗\\SP\\20260225214733.log",
+        "case_count": 2,
+        "sha256": "5bd8604412b96305ebe6c052e98cbee6f6b9cac4e433cca236c53d14b511288d",
+        "sha256_verified_against_audit_inventory": true
+      },
+      {
+        "absolute_path": "F:\\xwechat_files\\wxid_dagoh27a0aaq12_41d0\\msg\\file\\2026-07\\报告生成历史轨迹\\鎶ュ憡鐢熸垚鍘嗗彶杞ㄨ抗\\SP\\20260226101120.log",
+        "case_count": 40,
+        "sha256": "6798f676f26838ee260e97aa8aa8b29651be576c988cac907da6f23746a79f1f",
+        "sha256_verified_against_audit_inventory": true
+      },
+      {
+        "absolute_path": "F:\\xwechat_files\\wxid_dagoh27a0aaq12_41d0\\msg\\file\\2026-07\\报告生成历史轨迹\\鎶ュ憡鐢熸垚鍘嗗彶杞ㄨ抗\\SP\\20260227200344.log",
+        "case_count": 4,
+        "sha256": "0b844a7f5a36753a7042f1fe1fd434dad04a102559b87f85ae4a4e599b444c47",
+        "sha256_verified_against_audit_inventory": true
+      },
+      {
+        "absolute_path": "F:\\xwechat_files\\wxid_dagoh27a0aaq12_41d0\\msg\\file\\2026-07\\报告生成历史轨迹\\鎶ュ憡鐢熸垚鍘嗗彶杞ㄨ抗\\SP\\20260227204859.log",
+        "case_count": 3,
+        "sha256": "35d82feac3fbd37485f0f79e0e895b78769d9d58e352eb72fac388f533fb504d",
+        "sha256_verified_against_audit_inventory": true
+      },
+      {
+        "absolute_path": "F:\\xwechat_files\\wxid_dagoh27a0aaq12_41d0\\msg\\file\\2026-07\\报告生成历史轨迹\\鎶ュ憡鐢熸垚鍘嗗彶杞ㄨ抗\\SP\\20260228001553.log",
+        "case_count": 8,
+        "sha256": "9a130b6648a44e31296d1dd6ce91461fa6cc8d77e37891e4b4ab1cdf935616d3",
+        "sha256_verified_against_audit_inventory": true
+      },
+      {
+        "absolute_path": "F:\\xwechat_files\\wxid_dagoh27a0aaq12_41d0\\msg\\file\\2026-07\\报告生成历史轨迹\\鎶ュ憡鐢熸垚鍘嗗彶杞ㄨ抗\\SP\\20260228101448.log",
+        "case_count": 34,
+        "sha256": "a020f6815e9edd4a2b30c1f8f2213f4a3008fea327ed9c21321e4def08b816ba",
+        "sha256_verified_against_audit_inventory": true
+      },
+      {
+        "absolute_path": "F:\\xwechat_files\\wxid_dagoh27a0aaq12_41d0\\msg\\file\\2026-07\\报告生成历史轨迹\\鎶ュ憡鐢熸垚鍘嗗彶杞ㄨ抗\\SP\\20260228143758.log",
+        "case_count": 42,
+        "sha256": "a2b03439f53807b3ee4db1e613024882919a551d68027f48ec030c3762a485fd",
+        "sha256_verified_against_audit_inventory": true
+      },
+      {
+        "absolute_path": "F:\\xwechat_files\\wxid_dagoh27a0aaq12_41d0\\msg\\file\\2026-07\\报告生成历史轨迹\\鎶ュ憡鐢熸垚鍘嗗彶杞ㄨ抗\\SP\\20260228195119.log",
+        "case_count": 11,
+        "sha256": "efd39599aff5d139a634d9d2bb8dd56b621c284ae952fcbeb811587ecc3e41fc",
+        "sha256_verified_against_audit_inventory": true
+      },
+      {
+        "absolute_path": "F:\\xwechat_files\\wxid_dagoh27a0aaq12_41d0\\msg\\file\\2026-07\\报告生成历史轨迹\\鎶ュ憡鐢熸垚鍘嗗彶杞ㄨ抗\\SP\\20260301154803.log",
+        "case_count": 10,
+        "sha256": "d8e762ad6702970d788037b74d0c2248e16c15317b200b28a7bb98a8973f45a4",
+        "sha256_verified_against_audit_inventory": true
+      },
+      {
+        "absolute_path": "F:\\xwechat_files\\wxid_dagoh27a0aaq12_41d0\\msg\\file\\2026-07\\报告生成历史轨迹\\鎶ュ憡鐢熸垚鍘嗗彶杞ㄨ抗\\SP\\20260305095803.log",
+        "case_count": 53,
+        "sha256": "87100db7c71f25b584abdd446afc95456d7ab69ea4336a69578bb3c5f1b1bc87",
+        "sha256_verified_against_audit_inventory": true
+      },
+      {
+        "absolute_path": "F:\\xwechat_files\\wxid_dagoh27a0aaq12_41d0\\msg\\file\\2026-07\\报告生成历史轨迹\\鎶ュ憡鐢熸垚鍘嗗彶杞ㄨ抗\\SP\\20260307001348.log",
+        "case_count": 38,
+        "sha256": "5609cfd343d38d212b1869bb0254a060addae81439d32933458afd79eb2f1aee",
+        "sha256_verified_against_audit_inventory": true
+      }
+    ],
+    "failures": []
+  },
+  "case_count": 253,
+  "node_count": 5898,
+  "step_type_counts": {
+    "other": 1390,
+    "outline": 251,
+    "query": 253,
+    "report_paragraph": 3712,
+    "retrieval_observation": 292
+  },
+  "case_coverage": {
+    "with_query": 253,
+    "with_observation": 248,
+    "with_outline": 251,
+    "with_report": 245,
+    "complete_query_observation_outline_report": 243
+  },
+  "edge_evidence_counts": {
+    "explicit": 3255,
+    "inferred": 2088,
+    "none": 555
+  },
+  "quality_flag_counts": {
+    "anomalously_short": 648,
+    "central_action:finish": 246,
+    "central_action:reflect": 17,
+    "central_action:summarize": 3,
+    "delegate_action": 827,
+    "empty_text": 3,
+    "error_stack": 299,
+    "explicit_empty_observation_state": 3,
+    "outline_state_divergence": 8
+  },
+  "required_quality_counts": {
+    "empty_text": 3,
+    "pure_numeric": 0,
+    "anomalously_short": 648,
+    "very_long_text": 0
+  },
+  "node_length_stats": {
+    "other": {
+      "count": 1390,
+      "average_chars": 390.72,
+      "min_chars": 58,
+      "max_chars": 949
+    },
+    "outline": {
+      "count": 251,
+      "average_chars": 2953.36,
+      "min_chars": 767,
+      "max_chars": 8135
+    },
+    "query": {
+      "count": 253,
+      "average_chars": 578.4,
+      "min_chars": 20,
+      "max_chars": 2733
+    },
+    "report_paragraph": {
+      "count": 3712,
+      "average_chars": 492.16,
+      "min_chars": 3,
+      "max_chars": 7648
+    },
+    "retrieval_observation": {
+      "count": 292,
+      "average_chars": 4803.83,
+      "min_chars": 0,
+      "max_chars": 12600
+    }
+  },
+  "pilot_case_ids": [
+    "73f905f2-4a90-47b7-ae98-6d7da87b50d1",
+    "a765ea7b-fe46-462d-b1f1-5a532e0dc244",
+    "d4a0a481-9a6a-44eb-9fba-6de7c5f9f282",
+    "f2533580-b8b9-469f-91fe-e6b244682c08",
+    "5739a8b6-46c7-41db-afef-c9c3b32683ca",
+    "71a6a240-3a7a-4ea3-bc44-13f376162c9f",
+    "52511e6f-d025-4fde-a96a-83c5929c201e",
+    "959b4490-f22d-404c-b7ea-16cde0e0ddcb",
+    "4e439738-234d-49a5-be68-53c55fb859c0",
+    "73d9ee5e-cada-4551-95b6-e0719dcebe2c",
+    "5f453386-3ad1-422d-ba8f-a8d604949e90",
+    "74a71f74-6726-4cf8-97b9-1e28dcffebdf",
+    "3bf81df5-78aa-44f8-bcd3-5d890f4d8024",
+    "0b395360-883d-4632-9b03-bc781b7e84cb",
+    "87a1fd85-04df-4b65-8b98-34ab2bafeb04",
+    "4313d8d6-e817-4fca-9e72-227e46dfc969",
+    "eebf776a-800c-4d13-8ece-dd6b957e4759",
+    "44864557-6514-4346-8565-c5dd822a1402",
+    "8ecb606d-d48c-499a-ab9a-cb8cbb583dbb",
+    "595aca02-7ae7-4adc-a2db-6e3baba29d26"
+  ],
+  "pilot_requested_count": 20,
+  "pilot_actual_count": 20,
+  "pilot_shortfall": 0,
+  "pilot_selection": "structural completeness, stable agent order, explicit-edge count, quality flags, then deterministic source-file/length-bucket round robin; no model or similarity score",
+  "case_warnings": {},
+  "integrity_checks": {
+    "jsonl_rows_parseable": true,
+    "duplicate_node_id_count": 0,
+    "empty_case_id_count": 0,
+    "unsortable_case_order_count": 0,
+    "missing_parent_id_count": 0,
+    "explicit_edge_without_evidence_count": 0,
+    "raw_replay_failure_count": 0,
+    "uniform_prefix_truncation_logic_present": false,
+    "pure_numeric_evaluation_target_count": 0,
+    "citation_candidate_node_count": 0,
+    "passed": true
+  },
+  "reuse_provenance": [
+    {
+      "path": "F:\\CodexProject\\MemoryFlow\\smallest_experiment\\data_rebuild_v2\\sp_audit\\sp_run_inventory.jsonl",
+      "sha256": "6cc56f7a9e6c8b27b693285d68d96982334ac2f4578a16287983907b62955f71",
+      "role": "audited 253-request boundaries and metadata"
+    },
+    {
+      "path": "F:\\CodexProject\\MemoryFlow\\smallest_experiment\\data_rebuild_v2\\sp_audit\\sp_memory_trace.jsonl",
+      "sha256": "1ed695fcef030ccbb18c67a8ee2e9ac05a0eff11d9851de3bfb725453620fc31",
+      "role": "20-case field/provenance audit reference"
+    },
+    {
+      "path": "F:\\CodexProject\\MemoryFlow\\smallest_experiment\\data_rebuild_v2\\sp_audit\\sp_memory_recoverability_report.md",
+      "sha256": "a67b941788a2143bbaae12d2301836877acfd18f816c64781eb88a222b718554",
+      "role": "recoverability evidence-level definitions"
+    },
+    {
+      "path": "F:\\CodexProject\\MemoryFlow\\smallest_experiment\\data_rebuild_v2\\sp_audit\\__pycache__\\_build_sp_audit.cpython-312.pyc",
+      "sha256": "e37e030a3073790448758927aa4f7db7e3134dc2813e3e57a9979aeec4b5c218",
+      "role": "audited streaming parser implementation"
+    },
+    {
+      "path": "F:\\CodexProject\\MemoryFlow\\smallest_experiment\\data_rebuild_v2\\sp_natural_v1_frozen20",
+      "role": "schema/provenance cross-check only; no citation edges imported"
+    }
+  ],
+  "prohibited_transform_checks": {
+    "semantic_chunking_used": false,
+    "text_similarity_parent_inference_used": false,
+    "citation_edges_imported": false,
+    "fixed_prefix_truncation_used": false,
+    "language_model_used": false,
+    "gpu_used": false
+  },
+  "output_files": [
+    "F:\\CodexProject\\MemoryFlow\\smallest_experiment\\data\\sp_natural_v1_raw\\sp_nodes.jsonl",
+    "F:\\CodexProject\\MemoryFlow\\smallest_experiment\\data\\sp_natural_v1_raw\\manifest.json",
+    "F:\\CodexProject\\MemoryFlow\\smallest_experiment\\data\\sp_natural_v1_raw\\checksums.sha256"
+  ]
+}
