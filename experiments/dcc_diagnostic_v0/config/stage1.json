@@ -1,0 +1,12 @@
+{
+  "stage": "stage1_offline",
+  "seed": 20261015,
+  "calibration_case_count": 8,
+  "allow_model_calls": false,
+  "allow_paid_calls": false,
+  "allow_gpu_jobs": false,
+  "max_calls": 0,
+  "max_cost_usd": 0,
+  "model_id": null,
+  "model_selection_status": "UNSELECTED"
+}
