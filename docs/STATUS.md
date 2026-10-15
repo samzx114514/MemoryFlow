@@ -15,3 +15,10 @@
 | Q4A 内部层表示恢复 | unverified | 交接文件曾记录恢复进行中；本轮未将其视为完成，也未为此展开排查。 |
 | GitHub 仓库同步 | completed | 用户提供 `samzx114514/MemoryFlow`；本地 `main` 已首次推送到 `origin/main`。后续变更按 README 约定提交和推送。 |
 | 仓库及第三方材料公开权限 | unverified | 已有远端，但本轮未核实仓库可见性或取得第三方材料的公开授权；继续按私有研究资料处理。 |
+
+## DCC Stage 1（2026-10-15）
+
+| 事项 | 状态 | 依据 |
+|---|---|---|
+| DCC 诊断校准的 Schema、8 案例、确定性 Gold 核验、A/B/C 输入预览与离线测试 | completed — OFFLINE / NO_MODEL_RUNS | [阶段报告](../experiments/dcc_diagnostic_v0/reports/STAGE1_REPORT.md)；8 案例、32 对象、20 份未发送预览、18 项测试通过。|
+| DCC 独立科学审查及后续模型选择、费用授权 | pending — HUMAN_REVIEW_PENDING | [逐例评审包](../experiments/dcc_diagnostic_v0/reports/REVIEW_PACKET.md)；程序通过不代表人工批准。阶段二及完整 Pilot 尚未授权。|

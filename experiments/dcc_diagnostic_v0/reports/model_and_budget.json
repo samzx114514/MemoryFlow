@@ -1,0 +1,56 @@
+{
+  "current_authorization": {
+    "allow_gpu_jobs": false,
+    "allow_model_calls": false,
+    "allow_paid_calls": false,
+    "calibration_case_count": 8,
+    "max_calls": 0,
+    "max_cost_usd": 0,
+    "model_id": null,
+    "model_selection_status": "UNSELECTED",
+    "seed": 20261015,
+    "stage": "stage1_offline"
+  },
+  "executed": {
+    "gpu_jobs": 0,
+    "large_downloads": 0,
+    "model_calls": 0,
+    "paid_calls": 0
+  },
+  "future_proposal_only": {
+    "authorized_cost_cap_usd": null,
+    "cases": 8,
+    "cost_formula": "sum(input_tokens*input_price + output_tokens*output_price + billed_reasoning_tokens*reasoning_price), including retries",
+    "estimated_cost_usd": null,
+    "input_characters_by_condition": {
+      "A": 22578,
+      "B": 25698,
+      "C": 22127
+    },
+    "input_price_per_token": null,
+    "input_tokens": null,
+    "max_output_tokens_per_request_suggestion": 2048,
+    "output_price_per_token": null,
+    "permission_to_run": false,
+    "reasoning_token_price": null,
+    "reasoning_tokens_possible": "UNVERIFIED; depends on selected model and billing policy",
+    "requests": 20,
+    "tokenizer": null
+  },
+  "future_tested_model": {
+    "context_window": "UNVERIFIED",
+    "credential_field_names": [],
+    "credential_status": "NOT_APPLICABLE_UNTIL_SELECTED",
+    "model_id": null,
+    "nonsecret_config_source": null,
+    "parameter_support": "UNVERIFIED",
+    "pricing": "UNVERIFIED",
+    "provider": "UNSELECTED",
+    "version": null
+  },
+  "implementer": {
+    "identity": "User-specified Codex GPT-6.1 Sol, medium",
+    "role": "Stage 1 offline author; not the tested model"
+  },
+  "note": "Character counts are exact rendered-text lengths, not token counts. No model or provider was selected from an unverified configuration."
+}

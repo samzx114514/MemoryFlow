@@ -1,0 +1,54 @@
+DRY_RUN_NOT_SENT
+
+DCC controlled material | case x3aa1ac1de9a4
+Task: conditional_obligation | language: en
+Audit instruction: Check each of the four sending events under R.1–R.3. Treat missing entries in a partial register as unknown, not absent.
+Rules (complete from batch 1):
+R.1: A sending obligation applies when material is sent to an external recipient, is restricted, and was not lawfully public before sending.
+R.2: If applicable, sending requires either prior effective written approval or a valid court order for this same sending.
+R.3: Approval and order each require matching subject, data scope and sending event, effective status, and sending time inside the UTC validity interval including both endpoints. An incomplete register cannot establish absence; a known valid alternative still suffices.
+Material register:
+d1: provided; coverage COMPLETE.
+d2: provided; coverage COMPLETE.
+d3: provided; coverage COMPLETE.
+d4: provided; coverage COMPLETE.
+d5: provided; coverage COMPLETE.
+BATCH b1
+DOCUMENT d1 [0:534]
+R.1: A sending obligation applies when material is sent to an external recipient, is restricted, and was not lawfully public before sending.
+R.2: If applicable, sending requires either prior effective written approval or a valid court order for this same sending.
+R.3: Approval and order each require matching subject, data scope and sending event, effective status, and sending time inside the UTC validity interval including both endpoints. An incomplete register cannot establish absence; a known valid alternative still suffices.
+
+DOCUMENT d2 [0:372]
+TX-01: Orion Labs sent Dataset Cedar to external recipient Northbay on 2026-04-10T10:00:00Z.
+TX-02: Cobalt Works sent Dataset Hazel to external recipient Bayfield on 2026-04-11T09:00:00Z.
+TX-03: Elm Institute sent Dataset Maple to external recipient Shoreline on 2026-04-12T12:00:00Z.
+TX-04: Vale Group sent Dataset Birch to internal archive team on 2026-04-13T08:00:00Z.
+
+BATCH b2
+DOCUMENT d3 [0:300]
+TX-01: Dataset Cedar was restricted and lawfully public before sending.
+TX-02: Dataset Hazel was restricted and not lawfully public before sending.
+TX-03: Dataset Maple was restricted and not lawfully public before sending.
+TX-04: Dataset Birch was restricted and not lawfully public before sending.
+
+BATCH b3
+DOCUMENT d4 [0:705]
+Approval register: complete for all listed TX events.
+TX-01 approval record: subject Orion Labs; scope Dataset Pine; event TX-01; valid 2026-04-01T00:00:00Z through 2026-04-30T23:59:59Z inclusive UTC; effective yes.
+TX-02 approval record: subject Cobalt Works; scope Dataset Hazel; event TX-02; valid 2026-04-01T00:00:00Z through 2026-04-30T23:59:59Z inclusive UTC; effective yes.
+TX-03 approval record: subject Elm Institute; scope Dataset Fir; event TX-03; valid 2026-04-01T00:00:00Z through 2026-04-30T23:59:59Z inclusive UTC; effective no.
+TX-04 approval record: subject Vale Group; scope Dataset Pine; event TX-04; valid 2026-04-01T00:00:00Z through 2026-04-30T23:59:59Z inclusive UTC; effective no.
+
+DOCUMENT d5 [0:692]
+Order register: complete for all listed TX events.
+TX-01 order record: subject Orion Labs; scope Dataset Pine; event TX-01; valid 2026-04-01T00:00:00Z through 2026-04-30T23:59:59Z inclusive UTC; effective no.
+TX-02 order record: subject Cobalt Works; scope Dataset Hazel; event TX-02; valid 2026-04-01T00:00:00Z through 2026-04-30T23:59:59Z inclusive UTC; effective yes.
+TX-03 order record: subject Elm Institute; scope Dataset Maple; event TX-03; valid 2026-04-01T00:00:00Z through 2026-04-30T23:59:59Z inclusive UTC; effective yes.
+TX-04 order record: subject Vale Group; scope Dataset Pine; event TX-04; valid 2026-04-01T00:00:00Z through 2026-04-30T23:59:59Z inclusive UTC; effective no.
+
+Output JSON only: {"checks":[{"object_id":null,"source_span":{"document_id":"...","start":0,"end":1},"state":"INSUFFICIENT_EVIDENCE","evidence_spans":[],"brief_basis":"..."}]}. A may use null object_id; B/C should use supplied IDs. Check every occurrence. States: COMPLIANT, VIOLATION, NOT_APPLICABLE, INSUFFICIENT_EVIDENCE.
+Object occurrence index (locations only):
+[{"object_id":"xe379efe00b0b","source_span":{"document_id":"d2","start":0,"end":93}},{"object_id":"x633d821f3561","source_span":{"document_id":"d2","start":93,"end":188}},{"object_id":"x8bc1690ccdf4","source_span":{"document_id":"d2","start":188,"end":285}},{"object_id":"xf92359101665","source_span":{"document_id":"d2","start":285,"end":372}}]
+Candidate original-text spans (not answers):
+[{"object_id":"xe379efe00b0b","candidate_spans":[{"document_id":"d1","start":264,"end":534},{"document_id":"d2","start":0,"end":93},{"document_id":"d3","start":0,"end":72},{"document_id":"d4","start":54,"end":216},{"document_id":"d5","start":51,"end":209}]},{"object_id":"x633d821f3561","candidate_spans":[{"document_id":"d1","start":264,"end":534},{"document_id":"d2","start":93,"end":188},{"document_id":"d3","start":72,"end":148},{"document_id":"d4","start":216,"end":381},{"document_id":"d5","start":209,"end":371}]},{"object_id":"x8bc1690ccdf4","candidate_spans":[{"document_id":"d1","start":264,"end":534},{"document_id":"d2","start":188,"end":285},{"document_id":"d3","start":148,"end":224},{"document_id":"d4","start":381,"end":544},{"document_id":"d5","start":371,"end":534}]},{"object_id":"xf92359101665","candidate_spans":[{"document_id":"d1","start":264,"end":534},{"document_id":"d2","start":285,"end":372},{"document_id":"d3","start":224,"end":300},{"document_id":"d4","start":544,"end":705},{"document_id":"d5","start":534,"end":692}]}]

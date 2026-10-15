@@ -1,0 +1,126 @@
+{
+  "case_count": 8,
+  "correct_content_loss_denominator_fixture_only": 2,
+  "errors": [],
+  "family_counts": {
+    "T1": 4,
+    "T2": 4
+  },
+  "focal_state_counts": {
+    "T1": {
+      "COMPLIANT": 1,
+      "INSUFFICIENT_EVIDENCE": 1,
+      "NOT_APPLICABLE": 1,
+      "VIOLATION": 1
+    },
+    "T2": {
+      "COMPLIANT": 1,
+      "INSUFFICIENT_EVIDENCE": 1,
+      "NOT_APPLICABLE": 1,
+      "VIOLATION": 1
+    }
+  },
+  "gpu_jobs": 0,
+  "human_review_status": "NOT_REVIEWED",
+  "independent_human_status": "NOT_REVIEWED",
+  "marker": "STAGE1_OFFLINE_VALIDATION",
+  "memory_fixture_counts": {
+    "NEVER_ACQUIRED": 1,
+    "PREEXISTING_ERROR": 1,
+    "RECOVERY": 1,
+    "RETAINED": 1,
+    "RETENTION_LOSS": 1,
+    "UNASSESSABLE": 1
+  },
+  "model_calls": 0,
+  "object_count": 32,
+  "offline_tests": {
+    "diagnostic": null,
+    "errors": 0,
+    "failures": 0,
+    "passed": 18,
+    "run": 18,
+    "successful": true
+  },
+  "paid_calls": 0,
+  "preview_count": 20,
+  "preview_status": "DRY_RUN_NOT_SENT",
+  "public_material_hashes": [
+    {
+      "case_id": "x5a1cc088f80a",
+      "conditions": [
+        "A",
+        "B"
+      ],
+      "public_material_sha256": "b1fb6e3ab1b295e72b82c7fd002b43bd5fb03fbe60a2a755e082f3be67f8fcde"
+    },
+    {
+      "case_id": "xcc73d4efd362",
+      "conditions": [
+        "A",
+        "B"
+      ],
+      "public_material_sha256": "26b6fc309d297abd43c0caf77a3c820f1ea60af56e9e8da0531ddf773bc9aa29"
+    },
+    {
+      "case_id": "x78ffd00c3146",
+      "conditions": [
+        "A",
+        "B"
+      ],
+      "public_material_sha256": "a66af65e728226809b243478e2c62260a847033c02bb35366f7f2086b0da7c18"
+    },
+    {
+      "case_id": "x535edd54c125",
+      "conditions": [
+        "A",
+        "B"
+      ],
+      "public_material_sha256": "f3d51fa1d56f2ae82ace12b590e7cbd0e6143f5e5bb97f1da0bcd8de4e1f70ee"
+    },
+    {
+      "case_id": "x76c5d5439312",
+      "conditions": [
+        "A",
+        "B",
+        "C"
+      ],
+      "public_material_sha256": "a75d47815b41e5e1933491e73ca5223b3f5748cf80b2fd280957878e4cc66d54"
+    },
+    {
+      "case_id": "x0c6e16395eb8",
+      "conditions": [
+        "A",
+        "B",
+        "C"
+      ],
+      "public_material_sha256": "fc0b19c55c9851500fce435db0588ad369817489c88c4d36ce78cc47e41b6e31"
+    },
+    {
+      "case_id": "x3aa1ac1de9a4",
+      "conditions": [
+        "A",
+        "B",
+        "C"
+      ],
+      "public_material_sha256": "0d99e976d94327017da70084f85a3f7e4ac77d4209af65a2ba036bb0113853a2"
+    },
+    {
+      "case_id": "x2cc52577dad0",
+      "conditions": [
+        "A",
+        "B",
+        "C"
+      ],
+      "public_material_sha256": "9996ff6c1a07967178b43b81468ced1007160ac9a7373e13cdb093c67e9e192e"
+    }
+  ],
+  "scope": "OFFLINE_CALIBRATION_ONLY",
+  "state_counts": {
+    "COMPLIANT": 22,
+    "INSUFFICIENT_EVIDENCE": 2,
+    "NOT_APPLICABLE": 6,
+    "VIOLATION": 2
+  },
+  "status": "PASS"
+}

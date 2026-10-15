@@ -1,0 +1,31 @@
+DRY_RUN_NOT_SENT
+
+DCC controlled material | case x78ffd00c3146
+Task: reference_existence | language: en
+Audit instruction: Check every explicit clause-reference occurrence in d1 against the supplied scope and material register.
+Rules (complete from batch 1):
+R-REF: Check each explicit internal clause reference in d1 and the in-scope annex d2. When the target document is fully provided, a cited clause exists only if that exact clause label appears there. External Standard Q-7 in d3 is excluded from this rule. If an in-scope target's provided coverage is partial or unavailable, do not infer absence.
+Material register:
+d1: provided; coverage COMPLETE.
+d2: provided; coverage COMPLETE.
+d3: not provided; coverage UNAVAILABLE.
+d4: provided; coverage COMPLETE.
+BATCH b1
+DOCUMENT d1 [0:317]
+1.1: Definitions govern this agreement.
+2.1: Delivery shall occur by noon.
+3.1: The following four directions contain the reviewable references.
+R2: For delivery, see Section 2.1.
+R3: For schedule, see Annex A Clause A.3.
+R4: For definitions, see Section 1.1.
+R1: For retention, see External Standard Q-7 Clause 4.2.
+
+BATCH b2
+DOCUMENT d2 [0:45]
+A.3: The schedule is attached and effective.
+
+BATCH b3
+DOCUMENT d4 [0:83]
+G.1: Clause labels identify exact positions; no other clause is incorporated here.
+
+Output JSON only: {"checks":[{"object_id":null,"source_span":{"document_id":"...","start":0,"end":1},"state":"INSUFFICIENT_EVIDENCE","evidence_spans":[],"brief_basis":"..."}]}. A may use null object_id; B/C should use supplied IDs. Check every occurrence. States: COMPLIANT, VIOLATION, NOT_APPLICABLE, INSUFFICIENT_EVIDENCE.

@@ -1,0 +1,67 @@
+{
+  "code_commit": "e1abee6c2d2cb1f48486b1d38d6246f9432f76cb",
+  "code_commit_semantics": "Committed source/data baseline; generated reports are committed in a later delivery commit to avoid a self-referential hash.",
+  "commands": [
+    "python -m unittest discover -s experiments/dcc_diagnostic_v0/tests -p 'test_*.py' -v",
+    "python experiments/dcc_diagnostic_v0/stage1.py validate",
+    "python experiments/dcc_diagnostic_v0/stage1.py render-preview",
+    "python experiments/dcc_diagnostic_v0/stage1.py report"
+  ],
+  "excluded_from_hash_map": [
+    "reports/delivery_manifest.json",
+    "reports/STAGE1_REPORT.md"
+  ],
+  "gpu_jobs": 0,
+  "human_review": "NOT_REVIEWED",
+  "input_sha256": {
+    "README.md": "89bf72185b4fc9c7c0158323ceff1299d2439d8fb5ad23ee39b33b61477be232",
+    "SCHEMA.md": "72f93b4d092f0199b6f00e7103e2e65da67f041e378df7e427cc91d76af56d48",
+    "config\\stage1.json": "dc8df3b490beeb17d5bffa7e64b4fbb01229a0641059ad778e3ced3dc62225c9",
+    "core.py": "1102b9834cd29370a1da26c876cd63ec17d069bcf6b64713e8075864ea0adbfc",
+    "data\\authoring.py": "818da1bb897ddedfbf167bf07a09e8d3f24d8607d8ddd925c571abd5bdf2760a",
+    "data\\calibration_assistance.jsonl": "c6f6de1c2eecb6dc45eb3b29f0d44511715ed934b67255b8002b8275c64be4d9",
+    "data\\calibration_gold.jsonl": "7adee6213b4cee25b8df3dea23e9500835b96ff4f8052b3dcf3543c162dd05ab",
+    "data\\calibration_public.jsonl": "a815b6b0f8414f570218e165253271d7877c710c4d3c2da7e0b120afc74a06ea",
+    "stage1.py": "edc717cb9f40ec48497807366814f79724bc0233ad8d8ec5fca754b7d175a50f",
+    "tests\\fixtures\\memory_audit.jsonl": "1105dea85f259e6e9566e6591b5a3c387673907fcc987d613fef79eb7e5b47c1",
+    "tests\\test_stage1.py": "2fde01e47838e16b6efa489a48f6e1fd7819e5d04fd47f672c675d01c5c47d7b"
+  },
+  "marker": "STAGE1_READY_FOR_REVIEW",
+  "model_calls": 0,
+  "output_sha256": {
+    "preview\\x0c6e16395eb8_A.txt": "ddbeb9b977913544e91f5be79a77e057985b9af3fbfde4128697eaf0ea1778cc",
+    "preview\\x0c6e16395eb8_B.txt": "c3eb2ae0b4b9be1f525025628fec4fd2563cc5fcce6a2edb1b02b0bd8066bbfc",
+    "preview\\x0c6e16395eb8_C.txt": "eaf5431bf29a7b7fe5c9700b99443f241748b894400fe88d1b2294d1e55a7577",
+    "preview\\x2cc52577dad0_A.txt": "994b6ab030ea71f4c97ff2b61ebaa81e1f7c81fbd66beadd399fe15aa388c5aa",
+    "preview\\x2cc52577dad0_B.txt": "c6b6f9d602f3e368cad784c20f5286b06ce04621ae2e6aa742df62f913bb8ae1",
+    "preview\\x2cc52577dad0_C.txt": "2430dd4b010712cb20e2e45e3eb1ac5c4b42189081d6259ed9878acaeba190b6",
+    "preview\\x3aa1ac1de9a4_A.txt": "548228c22e4e23f4ed2bd98ccd7831b3da63a9f0fd9e41426dfdf7147e137fe8",
+    "preview\\x3aa1ac1de9a4_B.txt": "1097431d01e127a7f6f6c7ba10db675b7562838962cc720afd6a3749076c4651",
+    "preview\\x3aa1ac1de9a4_C.txt": "0ace56b909bf2fc17b68c222d238aec072c57d6bdf22a990dffd96c15880068a",
+    "preview\\x535edd54c125_A.txt": "4dcce589414854954012afa6ca127068dbeaebb15615a573c9d28f00802d335f",
+    "preview\\x535edd54c125_B.txt": "30c06a38a250c8054a8f55af7e6a73597c66fa4472788d088665929436a975bf",
+    "preview\\x5a1cc088f80a_A.txt": "4acc2abd2f1879166fdfa66fee6b91d3baa23cdbb9fd05918acd961efe76c651",
+    "preview\\x5a1cc088f80a_B.txt": "3c3f437b14a775389cfc0246be2e9f7190ef7dc955e6b75f9f3dd43522466fbc",
+    "preview\\x76c5d5439312_A.txt": "196cbb97833153e35c5794e01638da5c936d00a9f684515356ab231d6dbe5fc3",
+    "preview\\x76c5d5439312_B.txt": "df937c675e59220bb4afd7b215be763ae823cd7e4154907310feda5933dad5b7",
+    "preview\\x76c5d5439312_C.txt": "71367915990e5a759bd3f9ccfbe044611743143b3cab66bba3cc8a2a6e0c89cc",
+    "preview\\x78ffd00c3146_A.txt": "d8ff385e8ebab8160438860e80e5165585408b994aa84126f943c9f9ec16dba2",
+    "preview\\x78ffd00c3146_B.txt": "8cc318302d7a8002d67e7aed94cd72287320caa0e24d8c9a8df3e2b11f0f6120",
+    "preview\\xcc73d4efd362_A.txt": "c18140caf49ef3b3594d98444fe2fbb5ae9f4fbbca66f30c20b2fa5a19ac49a8",
+    "preview\\xcc73d4efd362_B.txt": "c57acd4c38decdde5258650e1d78773c403475171c516a203c5690457e41b391",
+    "reports\\REVIEW_PACKET.md": "22bae946fcbab91fb0c86e1c20d6b165494482d304330f297c636995a93a45cf",
+    "reports\\model_and_budget.json": "e59e83bd01f6b15ac846b499c66302120b1d52c622e64a672f00f28f73c4573e",
+    "reports\\validation.json": "efe9149d5268d9b1368c83ee01df9ed2f57305392573c7161f86a38df284fac3"
+  },
+  "paid_calls": 0,
+  "python_version": "3.12.7",
+  "seed": 20261015,
+  "test_results": {
+    "diagnostic": null,
+    "errors": 0,
+    "failures": 0,
+    "passed": 18,
+    "run": 18,
+    "successful": true
+  }
+}
