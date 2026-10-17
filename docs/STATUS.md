@@ -22,3 +22,12 @@
 |---|---|---|
 | DCC 诊断校准的 Schema、8 案例、确定性 Gold 核验、A/B/C 输入预览与离线测试 | completed — OFFLINE / NO_MODEL_RUNS | [阶段报告](../experiments/dcc_diagnostic_v0/reports/STAGE1_REPORT.md)；8 案例、32 对象、20 份未发送预览、18 项测试通过。|
 | DCC 独立科学审查及后续模型选择、费用授权 | pending — HUMAN_REVIEW_PENDING | [逐例评审包](../experiments/dcc_diagnostic_v0/reports/REVIEW_PACKET.md)；程序通过不代表人工批准。阶段二及完整 Pilot 尚未授权。|
+
+## 真实轨迹与目录收拢（2026-10-17，补充以上历史状态）
+
+- SP1 专用环境 `langgraph-prebuilt` 已由 0.5.1 对齐项目 lock 的 0.1.8；离线初始化和真实短链路通过。第二次短任务正常结束，9 次模型请求、1 次检索、1 个 Summary、1 份最终报告；字数约束未严格遵守，不代表报告质量已通过。
+- 用户提供的保险公司复杂 Query 已运行，但约 287 秒后预算停止：15 次实际模型请求、40 次搜索请求、38 份成功搜索返回；没有完成的 Researcher Summary 或最终报告。累计输入预算异常被旧异步调用链误处理，随后再次委派，最终触及搜索预算；不得称为记忆丢失的科学证据。
+- 离线提取了完整短任务（10 个去重网页片段）、保险部分轨迹（379 个片段）、245 的单个 CUAD dev 案例（13 个合同 chunk）。语义支持 Gold 和准确率仍未建立；Reporter 同时可见 Summary 与原文，须考虑直接 Source→Reporter 路径。
+- 243 新增的六个散落目录已迁入现有 `memoryflow/`，158 个文件 SHA256 核对一致。位置、方法代码和结果入口见 [目录地图](WORKSPACE_MAP.md)。
+- 提取代码及测试见 [trace_review_v1](../experiments/trace_review_v1/README.md)；组内原文样例只存服务器 `memoryflow/reports/flow_review_20261017/` 和本机已忽略的 `artifacts/raw/flow_review_20261017/review/`，不入 Git。
+- 下一步先请师兄确认标注粒度与双路径可见性的处理；复杂保险任务先修复预算终止/异常传播并合理拆分研究任务，不直接增加预算重跑。本轮未新增模型调用或修改 SP2。
