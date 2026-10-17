@@ -2,6 +2,10 @@
 
 2026-10-17：**组件已运行，真实轨迹输入已适配，完整模型效果尚未评测。** 保险任务暂停。
 
+后续授权更新：用户已允许下载 Qwen3-8B 至 243，但 GPU 编号尚未指定；艺峰 head ranking 由用户索取。固定下载清单为 `qwen3_snapshot.json`，脚本 `acquire_qwen3.py` 使用 243 已有 huggingface_hub，不加载模型。模型目标为 `memoryflow/artifacts/models/Qwen3-8B/`；只有该目录内 `acquisition_report.json` 标记 `DOWNLOADED_VERIFIED_NOT_LOADED` 才代表下载验收完成。以下“未下载”描述保留为组件阶段的历史状态。
+
+下载在 243 后台独立运行，日志为 `memoryflow/tasks/20261017_baselines/qwen3_download.log`。HF 镜像大文件超时，已切换到 Qwen 的 ModelScope 发布；五个权重文件及 tokenizer 的 SHA256 与固定 HF 官方清单相同，按 ModelScope 每文件 commit 下载后再次验证，小文件仍取 HF 固定版本。无凭据传给镜像，不占用 GPU，不在本机保存权重副本。
+
 ## 已做成什么
 
 - CLM 官方代码固定为 `Contrastive-LM/CLM@d5f9ef0fd9bde185df0ceaad4f4ecc6cfe8c34f6`，Apache-2.0。官方投影头固定为 HF revision `e939398d4556fcd9400c76fa8c5a513202f42b0a`，75,557,149 字节，已下载到 243 并核对官方 LFS SHA256。没有下载完整 Qwen3-8B。
