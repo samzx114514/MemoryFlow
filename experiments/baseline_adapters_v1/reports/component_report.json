@@ -1,0 +1,51 @@
+{
+  "status": "COMPONENT_ONLY_NOT_MODEL_EVALUATION",
+  "passed": 9,
+  "checks": [
+    "CLM upstream schema preserves candidate IDs and text",
+    "Released CLM head: Engine equals direct projected scaled-cosine softmax",
+    "CLM candidate permutation preserves score-to-ID mapping",
+    "CLM duplicate text keeps separate identities; scores equal within float32 tolerance",
+    "Yifeng original normalize-then-sum aggregation",
+    "Yifeng default threshold, strict relative cutoff and abstention",
+    "Yifeng probe valid-grounding minus invalid-concentration equation",
+    "Yifeng unmodified add_citations CLI produces expected citation ID",
+    "Yifeng unmodified greedy decoder works with current Transformers cache/attention API"
+  ],
+  "seed": 20261017,
+  "device": "cpu",
+  "gpu_used": false,
+  "paid_api_calls": 0,
+  "seconds": 3.358,
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "4.57.6",
+    "numpy": "2.4.6"
+  },
+  "clm_commit": "d5f9ef0fd9bde185df0ceaad4f4ecc6cfe8c34f6",
+  "clm_head_sha256": "b2b4a8c9c2d39263eff78a351eb909a342ce9b3bf21a3f07c1d1bf15f1c4eda5",
+  "clm_head_parameters": 18887680,
+  "yifeng_code_sha256": {
+    "generate_attention.py": "4396685658ffe40218dd2bcf8c2f0fa8fb056ea4be6b875ad6865ea4dacda3df",
+    "evaluate_citations.py": "4aafcf8efc530a75ce9624bbdbbf35cee8d8af632325057b3e0843bb15fe6abf",
+    "citation_common.py": "fcc00cb45f006558b75fe8379d64ef88fe90f0a55143692d29b8926ce8d92aa7",
+    "probe_citation_head.py": "ce6b04731c1c7438545a44d13350917a0ee9fb16d9b1bf507e5a0c9b4609c788",
+    "add_citations.py": "cc6b75a34337439dea92befe73262db3d59163d94c40e4dd8ec4587ea37d8407"
+  },
+  "adapter_code_sha256": {
+    "run_clm.py": "5de5b7d2ee47a580744c531f8688f366d34df7a9058cd4def66006bfe7b405c1",
+    "acquire_head.py": "966c8191f15c69c4bb412bd876c358b1d0ec1f67d439a8e08402bf1db0868bb4",
+    "component_smoke.py": "9ba1a8957fcfe199869afdf53cc5f99fb6dde8c21df36f650c4998edbd48e58b",
+    "test_adapters.py": "659718a506d067a03d1f8f2f62411970eeabb701d6467de620437283657abecb",
+    "prepare.py": "3fd4933c63bee796925ac713b22307785169244b3db43fd4817276b0310c664f",
+    "adapters.py": "58375f0aac3daa749c942d14fe490962ab7e245b5c99d9bc6f77103f02f5900e"
+  },
+  "numerical_max_abs_error": 2.5353010690842837e-08,
+  "permutation_max_abs_error": 1.865634902120661e-08,
+  "duplicate_probability_abs_error": 2.384185791015625e-07,
+  "limitations": [
+    "CLM inputs are synthetic encoder vectors, not Qwen3 embeddings.",
+    "Decoder check uses a tiny random Qwen2, not trained Qwen2.5-7B.",
+    "No head selected for the real model; no benchmark scores or semantic claims."
+  ]
+}

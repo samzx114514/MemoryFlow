@@ -1,5 +1,11 @@
 见 [EXPERIMENT_INDEX.md](EXPERIMENT_INDEX.md)。
 
+## CLM / 艺峰基线接入 v1（2026-10-17）
+
+**状态：ADAPTERS_AND_UPSTREAM_COMPONENTS_READY / NO_MODEL_BENCHMARK。** [代码与方法边界](../experiments/baseline_adapters_v1/README.md)、[243 组件报告](../experiments/baseline_adapters_v1/reports/component_report.json)、[真实输入准备报告](../experiments/baseline_adapters_v1/reports/preparation_report.json)。
+
+两份未标注真实轨迹输入；9 项作者组件检查通过。CLM 参考头与作者实现固定版本，艺峰保持自然生成归因协议。没有 LC-Sent-15 新分数、没有语义 Gold、没有 GPU/付费调用。服务器产物在 `memoryflow/runs/baseline_adapters_v1/`。保险任务暂停。
+
 ## 真实轨迹展示与目录整理（2026-10-17）
 
 **状态：短链路完成；保险任务预算停止；离线提取完成；没有语义 Gold。** 代码：[trace_review_v1](../experiments/trace_review_v1/README.md)。统一入口：[WORKSPACE_MAP](WORKSPACE_MAP.md)。

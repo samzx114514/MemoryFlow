@@ -1,0 +1,19 @@
+{
+  "status": "INPUTS_READY_NOT_MODEL_EVALUATED",
+  "cases": 2,
+  "source_counts": {
+    "01_sp1_complete": 10,
+    "03_dcc_complete": 13
+  },
+  "input_sha256": {
+    "01_sp1_complete": "cbb0813a14c6a449682e8eb84570db5d971ffec6b6e142a8308c063c2b3f351d",
+    "03_dcc_complete": "df3df94baca62fd49a47984755c42c7c4cbf42499c31852b674bd461ea57b123"
+  },
+  "dcc_bundle_sha256": "92a5a6b88d2d0f5a9c61c569e1104e7e662ffded02e950a0110717c2e379babd",
+  "restrictions": [
+    "No semantic Gold; no accuracy calculation.",
+    "Whole-summary targets are interface examples, not frozen atomic claims.",
+    "Yifeng regenerates an answer to the original query over retrieved snippets; it does not explain the original SP1 answer or reproduce the official benchmark.",
+    "No truncation here. Token budgets must be checked before inference."
+  ]
+}
