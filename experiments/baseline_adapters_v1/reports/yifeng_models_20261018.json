@@ -1,0 +1,88 @@
+{
+  "status": "COMPLETED_UNLABELLED_SMOKE_NOT_ACCURACY",
+  "method": "yifeng",
+  "seed": 0,
+  "torch": "2.11.0+cu128",
+  "transformers": "4.57.6",
+  "numpy": "2.4.6",
+  "gpu": "7",
+  "device": "NVIDIA A800-SXM4-80GB",
+  "allocator_cap_gib": 32,
+  "peak_allocated_bytes": 26853473792,
+  "peak_reserved_bytes": 33124515840,
+  "inference_and_load_seconds": 22.552,
+  "input_sha256": {
+    "clm_requests.json": "cfbb49ea490cc5a51201379bcc5b0c29113329986aad1bf446d9402da13daac4",
+    "preparation_report.json": "a0aaf1939004a53f89c567b9af16dd75b79fabec16dcabdb02098ab00f123fa3",
+    "records.json": "33c3cf9e4c28cd73fc0fa25381c02758697c284dc8d2ab4e4e0e28fc90f5c5d0",
+    "source_map.json": "dc950fee9deab4a004bde6a9d304655b667113e3b291b6c3edf893b8078ab1a1",
+    "yifeng_native_inputs.json": "a5a1a0a0ff2b6cca083d98c8954673c64830d5dc0f546d6c768153e1466c9d7f"
+  },
+  "runner_sha256": "78018eeb354000e44bae6c1990e2c886e438fee698b79716ecab6ddb397150a1",
+  "adapters_sha256": "58375f0aac3daa749c942d14fe490962ab7e245b5c99d9bc6f77103f02f5900e",
+  "model_files_sha256": {
+    "config.json": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+    "generation_config.json": "3a8f9087e486054c8a4a08dae2e5a3ba62e23da212b5b8c08bc42cb983c3459f",
+    "model-00001-of-00004.safetensors": "a1333e6293854747c481288ea83b348226af178dd565c49b6f9495ba1966aba7",
+    "model-00002-of-00004.safetensors": "f5d25a2772cb825164a2a2c0fb6d51a87e282abf21e4dd75bc5cfb3cd0ea6185",
+    "model-00003-of-00004.safetensors": "8efdec4c1bc12317ae1a38dc42b595ce777738a64deea3fcb8a0a91381bcdfd5",
+    "model-00004-of-00004.safetensors": "1a72d403cdf0c1ec3cb7f289f17b394a01e64394c2e9b3c0f94dbce3faf879bd",
+    "model.safetensors.index.json": "624bf7c47cd12468fdc16e38a47cf4f19e0415b859a223ba3c027eed2f0e1028",
+    "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  "paid_api_calls": 0,
+  "cases": 2,
+  "case_stats": {
+    "01_sp1_complete": {
+      "input_tokens": 6240,
+      "matrix_shape": [
+        2,
+        233
+      ],
+      "clauses_with_citations": 2,
+      "generated_tokens": 45,
+      "ended_with_eos": true,
+      "reached_output_cap": false
+    },
+    "03_dcc_complete": {
+      "input_tokens": 3776,
+      "matrix_shape": [
+        3,
+        142
+      ],
+      "clauses_with_citations": 2,
+      "generated_tokens": 58,
+      "ended_with_eos": true,
+      "reached_output_cap": false
+    }
+  },
+  "citation_head": {
+    "layer": 19,
+    "head": 15
+  },
+  "head_selection": "paper_table_explicit_user_choice_2026-10-18_not_raw_ranking",
+  "raw_head_scores_sha256": "89dbd7cdc665e87ddfc71c69c6f613fcc78d5a9be15a2f3b3bfe00fcc4c11e84",
+  "raw_ranking_note": "sum rank 1=(14,0), chosen (19,15) rank 5; no re-probing",
+  "threshold": -0.7,
+  "relative_cutoff": 0.5,
+  "max_new_tokens": 600,
+  "upstream_sha256": {
+    "add_citations.py": "cc6b75a34337439dea92befe73262db3d59163d94c40e4dd8ec4587ea37d8407",
+    "citation_common.py": "fcc00cb45f006558b75fe8379d64ef88fe90f0a55143692d29b8926ce8d92aa7",
+    "evaluate_citations.py": "4aafcf8efc530a75ce9624bbdbbf35cee8d8af632325057b3e0843bb15fe6abf",
+    "generate_attention.py": "4396685658ffe40218dd2bcf8c2f0fa8fb056ea4be6b875ad6865ea4dacda3df",
+    "probe_citation_head.py": "ce6b04731c1c7438545a44d13350917a0ee9fb16d9b1bf507e5a0c9b4609c788"
+  },
+  "source_mapping": "all positive character-span overlaps; cross-chunk sentences retain all IDs",
+  "output_sha256": {
+    "citations.json": "38764c3dca5ba2600f309ebe8b569badea5d63323906992208387bf00726d8bb",
+    "citations_with_source_ids.json": "cf9112df94f5cdd7de3c14a454fda8bbfb7f21fd4eb46c7030e3c45a1f92ff6c",
+    "generated.json": "ef78b696fe081ee064fe03ad6159175cd060dc7efb70cf4572c6f154385eaeb8",
+    "matrices/case_01_sp1_complete.npy": "20bfade1cf8c35ed7c5c67fde0083877e3e1a31356051bfd677cafe9b67d1c4b",
+    "matrices/case_03_dcc_complete.npy": "3827f51707339d092a8bec94bdc0af7683c84dcc0b66cf3d80b7dbd373e3a82d",
+    "source_sentence_map.json": "a5f3098366373c807844448d754dc6edb554b745f60380c247c35279c3c7a8ee",
+    "started.json": "03b58df97dad2ca2b171c3828fb89fee8c79d949074e449766d1126b2ffcf3a5"
+  }
+}

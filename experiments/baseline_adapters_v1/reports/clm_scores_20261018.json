@@ -1,0 +1,78 @@
+[
+  {
+    "id": "01_sp1_complete",
+    "method": "clm_source_ranking_adaptation_v1",
+    "scores": {
+      "source_fe3db3c85eeb0cde": 4.168565911874185e-06,
+      "source_449e910182dcd365": 0.0006876901458089457,
+      "source_003674d9ed67971f": 0.11149025620196985,
+      "source_522776754e9efc80": 0.7853335440686695,
+      "source_eb7a0087778a373e": 0.034885124989706265,
+      "source_f3c5d239b596ebea": 0.026926970540581626,
+      "source_cac22988d351c9b2": 0.022887039844911996,
+      "source_4032cb9300b30651": 5.610755750044512e-08,
+      "source_44c7bf1898a0faea": 0.01690848300380219,
+      "source_de3238027405c5a1": 0.0008766665310800517
+    },
+    "ranking": [
+      "source_522776754e9efc80",
+      "source_003674d9ed67971f",
+      "source_eb7a0087778a373e",
+      "source_f3c5d239b596ebea",
+      "source_cac22988d351c9b2",
+      "source_44c7bf1898a0faea",
+      "source_de3238027405c5a1",
+      "source_449e910182dcd365",
+      "source_fe3db3c85eeb0cde",
+      "source_4032cb9300b30651"
+    ],
+    "usage": {
+      "billing_units": 1,
+      "input_tokens": 6759,
+      "output_tokens": 0
+    },
+    "score_semantics": "candidate_set_softmax_not_edge_probability",
+    "evaluation": "UNSCORED_NO_SEMANTIC_GOLD"
+  },
+  {
+    "id": "03_dcc_complete",
+    "method": "clm_source_ranking_adaptation_v1",
+    "scores": {
+      "source_cuad_aa43b2240f866f2f:31192:32479": 0.003192971144243966,
+      "source_cuad_aa43b2240f866f2f:56098:57522": 0.000216447209536043,
+      "source_cuad_aa43b2240f866f2f:42059:43539": 0.027950499239323967,
+      "source_cuad_aa43b2240f866f2f:10737:12069": 0.00015591326875819843,
+      "source_cuad_aa43b2240f866f2f:28745:30220": 0.000480324543527428,
+      "source_cuad_aa43b2240f866f2f:2593:3850": 0.0006223655591816197,
+      "source_cuad_aa43b2240f866f2f:52661:54003": 0.0010189633009308626,
+      "source_cuad_aa43b2240f866f2f:69636:70626": 0.021720259121524445,
+      "source_cuad_aa43b2240f866f2f:68420:69816": 0.006559791502190368,
+      "source_cuad_aa43b2240f866f2f:47048:48520": 0.9225231403545807,
+      "source_cuad_aa43b2240f866f2f:4751:6249": 0.004614967226966258,
+      "source_cuad_aa43b2240f866f2f:3670:4931": 5.523629254599426e-05,
+      "source_cuad_aa43b2240f866f2f:53823:55030": 0.010889121236690235
+    },
+    "ranking": [
+      "source_cuad_aa43b2240f866f2f:47048:48520",
+      "source_cuad_aa43b2240f866f2f:42059:43539",
+      "source_cuad_aa43b2240f866f2f:69636:70626",
+      "source_cuad_aa43b2240f866f2f:53823:55030",
+      "source_cuad_aa43b2240f866f2f:68420:69816",
+      "source_cuad_aa43b2240f866f2f:4751:6249",
+      "source_cuad_aa43b2240f866f2f:31192:32479",
+      "source_cuad_aa43b2240f866f2f:52661:54003",
+      "source_cuad_aa43b2240f866f2f:2593:3850",
+      "source_cuad_aa43b2240f866f2f:28745:30220",
+      "source_cuad_aa43b2240f866f2f:56098:57522",
+      "source_cuad_aa43b2240f866f2f:10737:12069",
+      "source_cuad_aa43b2240f866f2f:3670:4931"
+    ],
+    "usage": {
+      "billing_units": 1,
+      "input_tokens": 3700,
+      "output_tokens": 0
+    },
+    "score_semantics": "candidate_set_softmax_not_edge_probability",
+    "evaluation": "UNSCORED_NO_SEMANTIC_GOLD"
+  }
+]

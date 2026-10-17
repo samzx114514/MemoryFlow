@@ -1,0 +1,84 @@
+{
+  "status": "COMPLETED_UNLABELLED_SMOKE_NOT_ACCURACY",
+  "method": "clm",
+  "seed": 0,
+  "torch": "2.11.0+cu128",
+  "transformers": "4.57.6",
+  "numpy": "2.4.6",
+  "gpu": "7",
+  "device": "NVIDIA A800-SXM4-80GB",
+  "allocator_cap_gib": 32,
+  "peak_allocated_bytes": 15287924224,
+  "peak_reserved_bytes": 15588130816,
+  "inference_and_load_seconds": 17.475,
+  "input_sha256": {
+    "clm_requests.json": "cfbb49ea490cc5a51201379bcc5b0c29113329986aad1bf446d9402da13daac4",
+    "preparation_report.json": "a0aaf1939004a53f89c567b9af16dd75b79fabec16dcabdb02098ab00f123fa3",
+    "records.json": "33c3cf9e4c28cd73fc0fa25381c02758697c284dc8d2ab4e4e0e28fc90f5c5d0",
+    "source_map.json": "dc950fee9deab4a004bde6a9d304655b667113e3b291b6c3edf893b8078ab1a1",
+    "yifeng_native_inputs.json": "a5a1a0a0ff2b6cca083d98c8954673c64830d5dc0f546d6c768153e1466c9d7f"
+  },
+  "runner_sha256": "78018eeb354000e44bae6c1990e2c886e438fee698b79716ecab6ddb397150a1",
+  "adapters_sha256": "58375f0aac3daa749c942d14fe490962ab7e245b5c99d9bc6f77103f02f5900e",
+  "model_files_sha256": {
+    "acquisition_report.json": "8b71710298ab06bd5b6a7d9abb441aa6e7418ec403c5de170b12d5e5f51de571",
+    "config.json": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30",
+    "generation_config.json": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+    "model-00001-of-00005.safetensors": "31d6a825ae35f11fb85b195b4c42c146c051e446433125a215336abdf95cbf5f",
+    "model-00002-of-00005.safetensors": "5991236cea6fe21f3d43cab0f0e84448734fbbe0789816202989f2ddc9d18282",
+    "model-00003-of-00005.safetensors": "c5185c4794be2d8a9784d5753c9922db38df478ce11f9ed0b415b7304d896836",
+    "model-00004-of-00005.safetensors": "b5ee7de71fbf17db3d5704e0c8f2bc7d005ca9e1d7ca2aeb19827b0cfcaa917a",
+    "model-00005-of-00005.safetensors": "20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff",
+    "model.safetensors.index.json": "f9fdbcb91c23971c13ec5d5f2573d2349e8f61f2f049371ec699281748fdb1bc",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  "paid_api_calls": 0,
+  "cases": 2,
+  "source_counts": {
+    "01_sp1_complete": 10,
+    "03_dcc_complete": 13
+  },
+  "token_counts": {
+    "01_sp1_complete": [
+      635,
+      1078,
+      1222,
+      352,
+      452,
+      554,
+      1009,
+      450,
+      521,
+      420,
+      66
+    ],
+    "03_dcc_complete": [
+      188,
+      239,
+      317,
+      308,
+      239,
+      312,
+      263,
+      286,
+      210,
+      258,
+      292,
+      289,
+      234,
+      265
+    ]
+  },
+  "clm_commit": "d5f9ef0fd9bde185df0ceaad4f4ecc6cfe8c34f6",
+  "head_sha256": "b2b4a8c9c2d39263eff78a351eb909a342ce9b3bf21a3f07c1d1bf15f1c4eda5",
+  "backbone_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "encoder": "Transformers AutoModel / bf16 / SDPA / raw text / last-token / L2",
+  "backend_note": "Official Engine and head; numerical equivalence to vLLM not measured",
+  "score_semantics": "candidate_set_softmax_not_edge_probability",
+  "output_sha256": {
+    "scores.json": "423f618e61e7c0e2795201a81ae654c35cf1e3dfc10ded8f9c87e06086a247db",
+    "started.json": "87c55e187eecd73171ce581792364e57dd7d038d9085953e611d0a67da6f8d66"
+  }
+}

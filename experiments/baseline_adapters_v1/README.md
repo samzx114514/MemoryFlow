@@ -1,5 +1,9 @@
 # CLM 与艺峰方法：第一轮复现接入
 
+2026-10-18：两条方法完整模型小样例已完成，见 [结果说明](reports/MODEL_SMOKE_20261018.md)。CLM 两例分别有 10/13 个来源分数；艺峰固定论文头 (19,15)，产生两份自然生成回答、句子级注意力矩阵及引用。原文和矩阵留在服务器与本机忽略目录。下方保留组件阶段记录；当前不再缺权重或固定头。
+
+本轮入口 `run_local_models.py` 使用现有 Transformers 编码器对接 CLM 官方 Engine，无需新安装 vLLM。该后端替换已记录，未宣称与 vLLM 数值等价。`run_smoke_243.sh` 是本次固定路径的运行记录，新运行须换输出目录。艺峰生成、聚合与选引用规则仍调用作者代码；小样例跑通不代表引用质量或论文指标已复现。
+
 2026-10-17：**组件已运行，真实轨迹输入已适配，完整模型效果尚未评测。** 保险任务暂停。
 
 后续授权更新：用户已允许下载 Qwen3-8B 至 243，但 GPU 编号尚未指定；艺峰 head ranking 由用户索取。固定下载清单为 `qwen3_snapshot.json`，脚本 `acquire_qwen3.py` 使用 243 已有 huggingface_hub，不加载模型。模型目标为 `memoryflow/artifacts/models/Qwen3-8B/`；只有该目录内 `acquisition_report.json` 标记 `DOWNLOADED_VERIFIED_NOT_LOADED` 才代表下载验收完成。以下“未下载”描述保留为组件阶段的历史状态。

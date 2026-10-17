@@ -1,5 +1,9 @@
 见 [EXPERIMENT_INDEX.md](EXPERIMENT_INDEX.md)。
 
+## CLM / 艺峰完整模型小样例（2026-10-18）
+
+**状态：COMPLETED_UNLABELLED_SMOKE_NOT_ACCURACY。** [结果说明](../experiments/baseline_adapters_v1/reports/MODEL_SMOKE_20261018.md)。两例 CLM 来源排序、两例固定 (19,15) 艺峰原生生成与引用完成。CLM 使用 Transformers 末 token 后端，未验证与 vLLM 数值等价。20 项测试通过；报告记录模型与产物哈希、输入长度及 GPU 开销。服务器：`memoryflow/runs/baseline_adapters_v1/models_20261018_v1/`。无语义 Gold，不与旧 LC-Sent-15 指标混报。
+
 ## CLM / 艺峰基线接入 v1（2026-10-17）
 
 **状态：ADAPTERS_AND_UPSTREAM_COMPONENTS_READY / NO_MODEL_BENCHMARK。** [代码与方法边界](../experiments/baseline_adapters_v1/README.md)、[243 组件报告](../experiments/baseline_adapters_v1/reports/component_report.json)、[真实输入准备报告](../experiments/baseline_adapters_v1/reports/preparation_report.json)。
