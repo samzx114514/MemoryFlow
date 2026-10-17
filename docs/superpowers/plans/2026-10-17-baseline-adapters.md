@@ -48,4 +48,4 @@
 - [x] README 区分已完成组件、待执行模型推理、待取得的 head selection 和大模型依赖。
 - [x] 明确 CLM 原生参考头约 76 MB，Qwen3-8B 未下载；艺峰 Qwen2.5-7B 已有但 BGE-M3/固定 head ranking 尚缺。
 - [x] 不自动开启 200 样本 probe、长上下文或 GPT-4o Judge；已向用户询问下一轮资源安排。
-- [ ] 轻量代码与报告推送用户指定 GitHub，核对远端 commit；原文与模型产物保持忽略。
+- [x] 轻量代码与报告已推送用户指定 GitHub 的 main；远端 commit `a5abb1f` 与本地一致。原文与模型产物保持忽略。
