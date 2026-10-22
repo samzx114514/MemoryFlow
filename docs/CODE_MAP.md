@@ -9,6 +9,7 @@ experiments/                   当前工作入口，另保留一个明确暂停�
   sp1_runtime_v1/              采集真实模型、工具调用
   trace_review_v1/             日志 → 来源、调用、Summary、报告及可见性
   baseline_adapters_v1/        CLM、艺峰方法的输入适配与推理
+  lc_sent15_external_v1/       旧 15 选 1 Dev 补测入口、CLM/艺峰分数及复算
   dcc_diagnostic_v0/           暂停：离线诊断校准，不是当前报告测试集
 legacy/
   workspace/                  冻结方法实现、旧训练与审计脚本
@@ -27,11 +28,12 @@ Git 保存代码和小结果；原始轨迹、模型、缓存和完整数据留�
 | [SP1 runner](../experiments/sp1_runtime_v1/runner.py) | 记录模型输入输出、HTTP/搜索返回及工作流事件 | 长任务预算异常传播尚未修复；它是采集包装，不是 SP1 系统本身 |
 | [trace extract](../experiments/trace_review_v1/extract.py) | `sp1`、`dcc` 读取运行记录，`add_visibility` 核查文本包含关系，`write_case` 导出图和说明 | 主入口仍固定三个展示案例；不能当作通用标注器或语义 Gold 生成器 |
 | [baseline adapters](../experiments/baseline_adapters_v1/adapters.py) | 保留候选 ID、构造 CLM 请求及艺峰生成输入 | 需要统一目标单元、候选范围和多来源评价协议 |
-| [local model runner](../experiments/baseline_adapters_v1/run_local_models.py) | 加载本地权重，运行 CLM 排序或艺峰生成归因 | 两例 smoke 已完成；并未完成同一目标文本上的三方法比较 |
+| [local model runner](../experiments/baseline_adapters_v1/run_local_models.py) | 加载本地权重，运行 CLM 排序或艺峰生成归因 | 两例 smoke 已完成；新真实轨迹多来源评价仍待标注 |
+| [LC-Sent-15 补测](../experiments/lc_sent15_external_v1/evaluate.py) | 在固定 Dev 上补跑 CLM 与艺峰回放；复用旧基线数字 | 已完成各 228 条；不是新的真实 Agent benchmark |
 
 CLM 使用作者发布的投影头和 Qwen3-8B，本项目未额外训练；现有编码后端与作者 vLLM 后端的数值等价性未测。艺峰方法固定 Qwen2.5-7B 的 `(19,15)` 头，解释其自己生成的文本，不能读取原 SP API 模型的注意力。MLP 是以前在 LongCite 上训练的评分器，还需接到新的细粒度数据上。
 
-**当前没有已完成的统一 benchmark、在线信息流矩阵维护器或三方法公平比较器。** 先确定粒度和人工核查数据，再做这部分；不要因目录变清楚而把待做能力写成已经实现。
+LC-Sent-15 代理任务的统一候选补测已完成；真实 SP1 的统一 benchmark、在线信息流矩阵维护器和多方法比较仍待粒度与人工核查数据确定。艺峰目标回放的具体设置见 [补测说明](../experiments/lc_sent15_external_v1/README.md)。
 
 ## 冻结复用：不要重新抄一份 MLP
 

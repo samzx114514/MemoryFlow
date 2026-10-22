@@ -17,6 +17,10 @@ Train 854 Targets / 12,810 pairs；Dev 228 / 3,420；Reserve 218 / 3,270（封�
 | R-SYM，收敛闭环 | 0.754386 | 0.827306 | 0.843610 | [Q1C 指标](../evidence/server/lc_sent15_v1_q1c_rsym_convergence_v1/metrics.json) |
 | D-Full-64，listwise CE | 0.780702 | 0.851374 | 0.869965 | [Q2 原始汇总](../evidence/server/lc_sent15_v1_q2_head_loss_v1/metrics_by_run.json) |
 | 固定 Fusion，0.65/0.35 | 0.831871 | 0.885701 | 0.897075 | [Q3 指标](../evidence/server/lc_sent15_v1_q3_oof_fusion_v1/metrics.json) |
+| 艺峰方法 | 0.872807 | 0.919515 | 0.929711 | [2026-10-22 指标](../experiments/lc_sent15_external_v1/reports/yifeng_metrics.json) |
+| CLM | 0.271930 | 0.471214 | 0.511638 | [2026-10-22 指标](../experiments/lc_sent15_external_v1/reports/clm_metrics.json) |
+
+2026-10-22 补测：艺峰 199/228、CLM 62/228，均为固定配置的一次完整 Dev 推理，无新增训练。艺峰用 Qwen2.5-7B-Instruct 固定头 `(19,15)` 回放目标句并排序；其原生模板额外使用原问题。CLM 用 Qwen3-8B 和作者发布头，沿用 Transformers 编码适配器。输入、设置及中文/英文分项见 [补测说明](../experiments/lc_sent15_external_v1/reports/RESULTS_20261022.md)。两行是统一候选上的适配结果，不是各自论文原生任务的复现成绩。旧基线未重跑。
 
 数据身份、抽样和负例限制见 [Data Card](../legacy/local_data/lc_sent15_v1/baseline_core_v1/DATA_CARD.md)。Q1C 沿用 Q1 的三个最佳 epoch 并补完早停；Q2 中 D-Full-64 相对 R-SYM 的 Hit@1 提升的配对区间跨零。Q3 权重只由 Train OOF 选出，Dev 改善的配对区间严格为正。
 

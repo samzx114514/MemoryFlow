@@ -1,0 +1,2 @@
+# Keep checksum-bound evidence byte-identical on Windows checkouts.
+reports/*.json -text

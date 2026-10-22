@@ -1,0 +1,81 @@
+{
+  "status": "COMPLETED_LC_SENT15_DEV",
+  "method": "yifeng",
+  "seed": 0,
+  "input_manifest": {
+    "source_sha256": {
+      "single_positive_15.jsonl": "8a87bf9254ec25a820e1da257c66fa656297207c9265b49d1c2afba6262d2e45",
+      "source_catalog.jsonl": "6e90d8977e2e47002eea77ced522327d95b3e54f7c32f2ad5ffbf7c8c83038e1"
+    },
+    "targets": 228,
+    "pairs": 3420,
+    "files": {
+      "records.json": "7dc987b0210b2b2b646cfe7859a3df9bb604e79bf369a1d1daf6b8977b285dfe",
+      "gold.json": "379776ba419af9d5bc06d637109f101febadf2337ea621202a388682f1eca00c"
+    }
+  },
+  "gpu": "1",
+  "torch": "2.11.0+cu128",
+  "transformers": "4.57.6",
+  "numpy": "2.4.6",
+  "seconds": 161.713,
+  "allocator_cap_gib": 32,
+  "peak_allocated_bytes": 29654528512,
+  "runner_sha256": "48d6df9ab1a2fc3eb22716b107498455e1187abd3e494af852c3a0a4108f142f",
+  "reused_code_sha256": {
+    "run_local_models.py": "210fcf78457584d874c1ca02fcdcd80d5c042061c7d92bd2e97cf71da54cc7d2",
+    "adapters.py": "58375f0aac3daa749c942d14fe490962ab7e245b5c99d9bc6f77103f02f5900e",
+    "acquire_head.py": "966c8191f15c69c4bb412bd876c358b1d0ec1f67d439a8e08402bf1db0868bb4"
+  },
+  "paid_api_calls": 0,
+  "training": false,
+  "reserve_blind_read": false,
+  "details": {
+    "head": [
+      19,
+      15
+    ],
+    "mode": "fixed_target_teacher_forcing",
+    "query": "original_dataset_query",
+    "aggregation": "upstream mean target-token attention then normalize and sum source-token mass",
+    "selection": "rank all 15; no abstention; no re-probing",
+    "model_path": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-7B-Instruct",
+    "model_config_sha256": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+    "upstream_sha256": {
+      "generate_attention.py": "4396685658ffe40218dd2bcf8c2f0fa8fb056ea4be6b875ad6865ea4dacda3df",
+      "evaluate_citations.py": "4aafcf8efc530a75ce9624bbdbbf35cee8d8af632325057b3e0843bb15fe6abf",
+      "citation_common.py": "fcc00cb45f006558b75fe8379d64ef88fe90f0a55143692d29b8926ce8d92aa7",
+      "probe_citation_head.py": "ce6b04731c1c7438545a44d13350917a0ee9fb16d9b1bf507e5a0c9b4609c788",
+      "add_citations.py": "cc6b75a34337439dea92befe73262db3d59163d94c40e4dd8ec4587ea37d8407"
+    }
+  },
+  "metrics": {
+    "overall": {
+      "count": 228,
+      "correct_at_1": 199,
+      "hit_at_1": 0.8728070175438597,
+      "mrr": 0.9195152678705312,
+      "ndcg_at_5": 0.929710577781123
+    },
+    "zh": {
+      "count": 164,
+      "correct_at_1": 139,
+      "hit_at_1": 0.8475609756097561,
+      "mrr": 0.9031472423240717,
+      "ndcg_at_5": 0.9135688989007231
+    },
+    "en": {
+      "count": 64,
+      "correct_at_1": 60,
+      "hit_at_1": 0.9375,
+      "mrr": 0.9614583333333334,
+      "ndcg_at_5": 0.9710736299121477
+    }
+  },
+  "output_sha256": {
+    "scores.json": "46909ff6c00f29c8cd635ce5f6653e32d782d4fdd000dac29c033594d712fb37",
+    "started.json": "89c88d3d17031fe14f8c98942379b367b43c61193380003353b4426d73075366",
+    "metrics.json": "c63c51d65728e05758fa6c92f4c87f45ee0ddeb2235b8c69dcce7cc3e7181caf",
+    "predictions.jsonl": "3e43f83a3de8307b2818d20822c0f081ba4cdb0088aaf8d4d23045aeef3c991f"
+  }
+}

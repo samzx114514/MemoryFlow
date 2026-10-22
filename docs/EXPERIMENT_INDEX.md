@@ -1,5 +1,9 @@
 # 实验索引
 
+## LC-Sent-15 两条外部基线（2026-10-22）
+
+**状态：COMPLETED_LC_SENT15_DEV / VERIFIED_228_EACH。** [入口](../experiments/lc_sent15_external_v1/README.md)、[结果](../experiments/lc_sent15_external_v1/reports/RESULTS_20261022.md)。艺峰固定头回放 Hit@1 0.872807，CLM 0.271930。各 228 targets / 3,420 scores，完整输入、无训练、无 Reserve/Blind。旧基线不重跑。服务器 `memoryflow/runs/lc_sent15_external_v1/20261022_v1/`，完成结果分别在 `yifeng/` 与 `clm_fulltext/`；`clm/` 是保留的长度检查停止记录。
+
 ## 代码整理（2026-10-22）
 
 当前开发入口与冻结复用代码见 [CODE_MAP](CODE_MAP.md)。Git 中旧 `workspace/`、`local_data/` 改为 `legacy/workspace/`、`legacy/local_data/`；服务器目录和历史证据内的路径不变。本次不运行模型、不改实验协议、不产生新方法分数。

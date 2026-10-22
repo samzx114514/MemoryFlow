@@ -1,0 +1,52 @@
+{
+  "status": "VERIFIED_228_EACH",
+  "methods": {
+    "clm": {
+      "targets": 228,
+      "pairs": 3420,
+      "independent_metrics": "PASS",
+      "report_sha256": "6b78835207fc5b9987ad7a46405420acd9e8aff8657cea9c58459e79d4a38f35",
+      "model_identity_reference": "/data2/pkuiti/songzhengxing_intern/memoryflow/runs/baseline_adapters_v1/models_20261018_v1/clm/report.json",
+      "model_identity_reference_sha256": "9d4e856cdcec951b618ba59813ff4760f6f94909f04dd91d7a455640444a06a2",
+      "model_files_sha256": {
+        "acquisition_report.json": "8b71710298ab06bd5b6a7d9abb441aa6e7418ec403c5de170b12d5e5f51de571",
+        "config.json": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30",
+        "generation_config.json": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+        "model-00001-of-00005.safetensors": "31d6a825ae35f11fb85b195b4c42c146c051e446433125a215336abdf95cbf5f",
+        "model-00002-of-00005.safetensors": "5991236cea6fe21f3d43cab0f0e84448734fbbe0789816202989f2ddc9d18282",
+        "model-00003-of-00005.safetensors": "c5185c4794be2d8a9784d5753c9922db38df478ce11f9ed0b415b7304d896836",
+        "model-00004-of-00005.safetensors": "b5ee7de71fbf17db3d5704e0c8f2bc7d005ca9e1d7ca2aeb19827b0cfcaa917a",
+        "model-00005-of-00005.safetensors": "20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff",
+        "model.safetensors.index.json": "f9fdbcb91c23971c13ec5d5f2573d2349e8f61f2f049371ec699281748fdb1bc",
+        "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+      }
+    },
+    "yifeng": {
+      "targets": 228,
+      "pairs": 3420,
+      "independent_metrics": "PASS",
+      "report_sha256": "be89cd062148c8411ebda35ede0fe7f96351c190cf0b1f43c70d06041018347e",
+      "model_identity_reference": "/data2/pkuiti/songzhengxing_intern/memoryflow/runs/baseline_adapters_v1/models_20261018_v1/yifeng/report.json",
+      "model_identity_reference_sha256": "ff99a36f33850deeab49bd4aab5c5489522e3baf22096797127f47dea4c8769a",
+      "model_files_sha256": {
+        "config.json": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+        "generation_config.json": "3a8f9087e486054c8a4a08dae2e5a3ba62e23da212b5b8c08bc42cb983c3459f",
+        "model-00001-of-00004.safetensors": "a1333e6293854747c481288ea83b348226af178dd565c49b6f9495ba1966aba7",
+        "model-00002-of-00004.safetensors": "f5d25a2772cb825164a2a2c0fb6d51a87e282abf21e4dd75bc5cfb3cd0ea6185",
+        "model-00003-of-00004.safetensors": "8efdec4c1bc12317ae1a38dc42b595ce777738a64deea3fcb8a0a91381bcdfd5",
+        "model-00004-of-00004.safetensors": "1a72d403cdf0c1ec3cb7f289f17b394a01e64394c2e9b3c0f94dbce3faf879bd",
+        "model.safetensors.index.json": "624bf7c47cd12468fdc16e38a47cf4f19e0415b859a223ba3c027eed2f0e1028",
+        "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+        "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+        "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+      }
+    }
+  },
+  "code_provenance": {
+    "yifeng_loaded_runner_sha256": "522f5bd7106c28e6563ec2c3699718126b8f975295191581aea27a2b837a4c07",
+    "note": "Yifeng runner hash in report was taken at finalization after the CLM-only max_tokens argument was added. The Yifeng code path did not change. Model weight hashes reference the prior verified run; no weight download or rehash in this run."
+  },
+  "verification_script_sha256": "a76e3900fbab4075ef80e022cfe14d5ac2c019601e4bad09477a448544a5e948"
+}

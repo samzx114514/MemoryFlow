@@ -39,8 +39,9 @@ def overlap_ids(start, end, mapping):
 
 
 class LocalEmbedder:
-    def __init__(self, tokenizer, model):
+    def __init__(self, tokenizer, model, max_tokens=2048):
         self.tokenizer, self.model = tokenizer, model
+        self.max_tokens = max_tokens
         self.cache = {}
 
     def embed(self, texts):
@@ -50,7 +51,7 @@ class LocalEmbedder:
             if text not in self.cache:
                 tokens = self.tokenizer(text, add_special_tokens=True, return_tensors='pt')
                 count = tokens['input_ids'].shape[1]
-                if not 0 < count <= 2048:
+                if not 0 < count <= self.max_tokens:
                     raise ValueError(f'CLM token count {count}; no truncation allowed')
                 with torch.inference_mode():
                     out = self.model(**tokens.to('cuda'), use_cache=False, return_dict=True)
@@ -60,7 +61,7 @@ class LocalEmbedder:
         return np.stack(vectors), spent
 
 
-def clm_run(root, inputs, output, model_path):
+def clm_run(root, inputs, output, model_path, max_tokens=2048):
     from transformers import AutoModel, AutoTokenizer
     import torch
     from adapters import clm_request, clm_score
@@ -88,12 +89,12 @@ def clm_run(root, inputs, output, model_path):
         state, questions = clm_request(r)
         text, keys, sources = build_pairs(state, questions)['source']
         counts = [len(tok(s, add_special_tokens=True)['input_ids']) for s in [text] + sources]
-        if max(counts) > 2048:
+        if max(counts) > max_tokens:
             raise ValueError('CLM input exceeds frozen limit')
         lengths[r['id']] = counts
     model = AutoModel.from_pretrained(model_path, local_files_only=True,
                                      torch_dtype=torch.bfloat16, attn_implementation='sdpa').to('cuda').eval()
-    engine = Engine(embedder=LocalEmbedder(tok, model), checkpoint=str(head), device='cpu', action_cache=0)
+    engine = Engine(embedder=LocalEmbedder(tok, model, max_tokens), checkpoint=str(head), device='cpu', action_cache=0)
     results = []
     for r in records:
         result = clm_score(r, engine)
@@ -101,7 +102,7 @@ def clm_run(root, inputs, output, model_path):
         print(json.dumps(dict(event='CASE_COMPLETE', method='clm', id=r['id'])), flush=True)
     write(output/'scores.json', results)
     return dict(cases=len(results), source_counts={r['id']:len(r['sources']) for r in records},
-                token_counts=lengths, clm_commit=revision, head_sha256=SHA256,
+                token_counts=lengths, max_input_tokens=max_tokens, clm_commit=revision, head_sha256=SHA256,
                 backbone_revision=acquisition['revision'],
                 encoder='Transformers AutoModel / bf16 / SDPA / raw text / last-token / L2',
                 backend_note='Official Engine and head; numerical equivalence to vLLM not measured',
