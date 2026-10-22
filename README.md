@@ -1,8 +1,14 @@
 # MemoryFlow
 
-MemoryFlow studies where a passage in an Agent's memory or final report came from. If a Researcher reads several retrieved documents and writes a summary, we want to identify which source passage supports each summary clause, then ask whether the Reporter used that summary. The present evidence is strongest for **semantic source matching** on LongCite; it does not yet establish actual use or causal information flow in a real Agent run.
+MemoryFlow studies how fine-grained information is passed, rewritten and combined across Agent calls. Sources and generated claims may themselves be wrong; tracing their relationships is separate from fact-checking them. The present quantitative evidence is strongest for **semantic source matching** on LongCite, not actual use or causal influence in a real Agent run.
 
-This private repository brings together local data preparation and research context with method code, run configurations, and compact results from server 243. It preserves their source identities in `local_data/`, `workspace/`, and `evidence/`. Large inputs and checkpoints remain external. The first version is for reading and discussing the research, then continuing development; it does not assume public release rights.
+This private repository brings together method code, run configurations and compact results from server 243. Current work lives in `experiments/`; historical implementations are preserved under `legacy/`, with reports in `evidence/`. Large inputs and checkpoints remain external. It does not assume public release rights.
+
+## Current development
+
+Start with the [代码地图 / code map](docs/CODE_MAP.md): it distinguishes active work, reusable frozen baselines, one-off scripts and paused experiments. [Current experiment entry points](experiments/README.md) cover SP1 logging, trace extraction, and CLM/Yifeng adapters. R-SYM, D-Full and BM25 remain reusable in `legacy/workspace/`; they were not deleted or retrained.
+
+The immediate task is a small, reviewed real-trajectory dataset, then a fair comparison on the same target units and candidate sources. The existing two-case model smoke test is not that benchmark. SP1 is the current trajectory provider; SP2 integration is deferred. See [status](docs/STATUS.md) for verified progress and gaps.
 
 ## Read in this order
 
@@ -27,25 +33,23 @@ The 15-way uniform random Hit@1 is 1/15 ≈ 0.0667. See [RESULTS](docs/RESULTS.m
 
 ## Code and verified entry points
 
-- Local preparation package: `local_data/pyproject.toml`, `local_data/src/memoryflow/`, `local_data/scripts/`, and LC-Sent-15's `local_data/lc_sent15_v1/build_v1/code/`. Its existing light tests can be run from `local_data/` with `python -m pytest tests`; the repository assembly checked this suite without downloading data.
-- Server method code: `workspace/src/memoryflow/` and `workspace/scripts/`, with `workspace/configs/`. The experiment index points to the specific run script for each result. Server scripts retain historic external data/model paths; review their arguments and provide your own paths before executing. No GPU experiment was rerun for this repository.
-- Small, consented Train/Dev examples are under `local_data/lc_sent15_v1/baseline_core_v1/samples/`; they illustrate records and are not the full dataset. Reserve/Blind records are absent.
+- Historical preparation package: `legacy/local_data/pyproject.toml`, `legacy/local_data/src/memoryflow/`, `legacy/local_data/scripts/`, and LC-Sent-15's `legacy/local_data/lc_sent15_v1/build_v1/code/`. These are old data pipelines, not the new SP1 benchmark builder.
+- Frozen method code: `legacy/workspace/src/memoryflow/` and `legacy/workspace/scripts/`, with `legacy/workspace/configs/`. Server scripts retain historic external data/model paths; review their arguments and provide your own paths before executing. No GPU experiment was rerun for this reorganization.
+- Small, consented Train/Dev examples are under `legacy/local_data/lc_sent15_v1/baseline_core_v1/samples/`; they illustrate records and are not the full dataset. Reserve/Blind records are absent.
 
 ### Checked setup and entry commands (PowerShell)
 
-From the repository root, use Python 3.10 or newer. The local preparation package requires `pytest` for its tests; its `pyproject.toml` declares the test dependency. These commands were actually checked during assembly:
+From the repository root, use Python 3.10 or newer. The preparation package requires `pytest` for its tests; its `pyproject.toml` declares the test dependency. The paths below reflect the 2026-10-22 move:
 
 ```powershell
-cd F:\CodexProject\MemoryFlow-research\local_data
 $env:PYTEST_DISABLE_PLUGIN_AUTOLOAD = '1'
-python -m pytest -q tests
-cd ..
-python workspace\scripts\run_lc_sent15_bm25_gate.py --help
+python -m pytest -q legacy/local_data/tests -c legacy/local_data/pyproject.toml
+python legacy/workspace/scripts/run_lc_sent15_bm25_gate.py --help
 ```
 
 The first command ran 28 light tests. The second parsed `--data`, `--out`, and `--staged` without loading model weights or running BM25. To execute the existing CPU BM25 gate, provide the full LC-Sent-15 Train/Dev core via `--data` and a new output directory via `--out`; the data are external as described in [data/README.md](data/README.md). The GPU Q3 entry was also checked at import stage and stopped because this local Python lacks `torch`; its full run additionally needs the original Q0/Q1C/Q2 artifacts and frozen feature caches. No end-to-end training environment was claimed.
 
-The current code layout is intentionally source-preserving. A clean install of the complete GPU pipeline has **not** been verified in this repository because model snapshots, feature caches, data payloads, and the 243 environment are external. See [experiment index](docs/EXPERIMENT_INDEX.md) for the original run contract and [status](docs/STATUS.md) for gaps.
+The code layout is source-preserving; the old root `workspace/` and `local_data/` paths are now under `legacy/`. Server directories have not moved. A clean install of the complete GPU pipeline has **not** been verified because model snapshots, feature caches, data payloads, and the 243 environment are external. See [experiment index](docs/EXPERIMENT_INDEX.md) for the original run contract and [status](docs/STATUS.md) for gaps.
 
 ## Keeping the research record current
 

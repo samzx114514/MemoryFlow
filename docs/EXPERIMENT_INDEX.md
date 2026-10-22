@@ -1,4 +1,8 @@
-见 [EXPERIMENT_INDEX.md](EXPERIMENT_INDEX.md)。
+# 实验索引
+
+## 代码整理（2026-10-22）
+
+当前开发入口与冻结复用代码见 [CODE_MAP](CODE_MAP.md)。Git 中旧 `workspace/`、`local_data/` 改为 `legacy/workspace/`、`legacy/local_data/`；服务器目录和历史证据内的路径不变。本次不运行模型、不改实验协议、不产生新方法分数。
 
 ## CLM / 艺峰完整模型小样例（2026-10-18）
 

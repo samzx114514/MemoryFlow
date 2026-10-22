@@ -1,6 +1,6 @@
 # MemoryFlow：从哪里看代码、数据和结果
 
-核查日期：2026-10-17。建议只记两个入口：**本机 Git 仓库**与 **243 的 memoryflow 主目录**。
+服务器目录核查日期：2026-10-17；Git 路径更新日期：2026-10-22。建议只记两个入口：**本机 Git 仓库**与 **243 的 memoryflow 主目录**。当前代码用途分类见 [CODE_MAP](CODE_MAP.md)，本次没有重新核查或移动服务器文件。
 
 ## 一、本机与服务器各负责什么
 
@@ -46,7 +46,7 @@ memoryflow/
 
 LC-Sent-15 是“每个待溯源句子在 15 个候选来源中选一个”的 LongCite 引用代理任务，不是实际多 Agent 因果信息流测试。
 
-本机统一前缀：`F:/CodexProject/MemoryFlow-research/workspace/`。
+本机统一前缀：`F:/CodexProject/MemoryFlow-research/legacy/workspace/`。
 
 243 统一前缀：`/data2/pkuiti/songzhengxing_intern/memoryflow/`。
 
@@ -62,7 +62,7 @@ LC-Sent-15 是“每个待溯源句子在 15 个候选来源中选一个”的 L
 
 本次核对的 BM25、F_mean、Q1、Q2、Q3 实现及 Q1C 入口，243 主目录与旧目录版本 SHA256 相同。未全面审计所有历史文件。
 
-**数据构建代码**在本机 `local_data/lc_sent15_v1/build_v1/code/`；方法训练、评分代码在 `workspace/`，不要把两者混淆。
+**数据构建代码**在本机 `legacy/local_data/lc_sent15_v1/build_v1/code/`；冻结方法训练、评分代码在 `legacy/workspace/`，不要把两者混淆。两者保留原内部结构，但不是当前主线实验的输出目录。
 
 **原始结果、checkpoint 和缓存**通过 243 的以下入口查看：
 

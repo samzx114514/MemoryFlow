@@ -18,7 +18,7 @@ Train 854 Targets / 12,810 pairs；Dev 228 / 3,420；Reserve 218 / 3,270（封�
 | D-Full-64，listwise CE | 0.780702 | 0.851374 | 0.869965 | [Q2 原始汇总](../evidence/server/lc_sent15_v1_q2_head_loss_v1/metrics_by_run.json) |
 | 固定 Fusion，0.65/0.35 | 0.831871 | 0.885701 | 0.897075 | [Q3 指标](../evidence/server/lc_sent15_v1_q3_oof_fusion_v1/metrics.json) |
 
-数据身份、抽样和负例限制见 [Data Card](../local_data/lc_sent15_v1/baseline_core_v1/DATA_CARD.md)。Q1C 沿用 Q1 的三个最佳 epoch 并补完早停；Q2 中 D-Full-64 相对 R-SYM 的 Hit@1 提升的配对区间跨零。Q3 权重只由 Train OOF 选出，Dev 改善的配对区间严格为正。
+数据身份、抽样和负例限制见 [Data Card](../legacy/local_data/lc_sent15_v1/baseline_core_v1/DATA_CARD.md)。Q1C 沿用 Q1 的三个最佳 epoch 并补完早停；Q2 中 D-Full-64 相对 R-SYM 的 Hit@1 提升的配对区间跨零。Q3 权重只由 Train OOF 选出，Dev 改善的配对区间严格为正。
 
 ## Synthetic Summary transfer：smoke test
 
@@ -28,4 +28,4 @@ Track B：10 个多文档 Summary、143 个 clause、4,194 个来源句；[评�
 
 ## 真实 SP 轨迹
 
-本机旧 SP pilot 的 [可恢复性审计](../local_data/sp_natural_v1_raw/sp_semantic_edge_recoverability_audit.md) 显示 20 个 Case 中可直接恢复的语义来源边为 0。没有找到完成本研究所需的 SP1 Source→Researcher Summary→Reporter 可评价轨迹和结果表；因此真实轨迹指标为 **未取得**，而不是零分。
+本机旧 SP pilot 的 [可恢复性审计](../legacy/local_data/sp_natural_v1_raw/sp_semantic_edge_recoverability_audit.md) 显示 20 个 Case 中可直接恢复的语义来源边为 0。没有找到完成本研究所需的 SP1 Source→Researcher Summary→Reporter 可评价轨迹和结果表；因此真实轨迹指标为 **未取得**，而不是零分。

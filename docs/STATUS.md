@@ -1,5 +1,14 @@
 # 当前状态
 
+## 最新推进（2026-10-22）：按代码用途收拢仓库
+
+- 当前主线是 SP1 真实轨迹、细粒度标注和已有方法比较，不是继续 Anchor 调参或来源事实核查。SP2 暂不接入；保险和 DCC 扩展均不在本轮执行范围。
+- 原 `workspace/`、`local_data/` 整体移至 `legacy/`，128 个跟踪文件内容保持不变。R-SYM、D-Full、BM25 等仍可复用，旧审计和训练保留追溯。当前三个开发入口及缺口见 [代码地图](CODE_MAP.md)。服务器目录、历史报告和科学指标未修改。
+- CLM 加载作者已有投影头与 Qwen3-8B，本项目没有额外训练。艺峰固定头在自身生成文本上归因，与 CLM / MLP 的既有目标排序仍未统一协议。
+- Python 轨迹已有 Gemini 初标（37 个目标单元、17 个相关来源片段），尚需修订粒度、可见性与执行状态判断；不是正式 Gold 或完整候选库。任务已交由 yx 继续数据处理，本次整理以代码盘点为中心。
+- 旧状态和研究快照保留在下方；其“没有轨迹”“缺权重”等描述不再作为当前结论。
+- 本次验证：77 项轻量测试通过（轨迹 7、适配 12、权重校验 4、DCC 离线 18、旧数据准备 28、BM25 5、池化工具 3）；129 个 Python 文件语法检查通过，16 份当前入口文档的本地链接无断链。128 个移动文件与原 Git blob 一致。使用本机已有 Python/pytest；torch 测试和 GPU 推理未重跑，也未安装大依赖。
+
 ## 最新推进（2026-10-18）：两条方法完整模型小样例已跑通
 
 - Qwen3-8B 的 14 个文件完成校验。CLM 官方头与 Engine 配合 Transformers 末 token 编码，输出两例的 10/13 个来源分数；未另装 vLLM，数值等价性尚未验证。
@@ -26,9 +35,9 @@
 |---|---|---|
 | Anchor + Attention 与 packed 原型、旧 c8 校准 | completed | [C5F 报告](../evidence/server/C5F_DEV_FINALIZATION_243.md)。仅为代理任务。 |
 | 冻结 Qwen 表示、M6B/M6D R-SYM 机制核查 | completed | [M6D.3 报告](../evidence/server/m6d3_best_checkpoint_paired_selection_v1/M6D3_REPORT.md)；Ranking/Edge checkpoint 分开。 |
-| LC-Sent-15 数据构建、Train/Dev 基线和 Q1C/Q2/Q3 | completed | [本机构建报告](../local_data/lc_sent15_v1/baseline_core_v1/BUILD_REPORT.md)及 [指标表](RESULTS.md)；Reserve 仍封存。 |
+| LC-Sent-15 数据构建、Train/Dev 基线和 Q1C/Q2/Q3 | completed | [本机构建报告](../legacy/local_data/lc_sent15_v1/baseline_core_v1/BUILD_REPORT.md)及 [指标表](RESULTS.md)；Reserve 仍封存。 |
 | Synthetic Summary Track A/B | completed | [运行摘要](../evidence/server/memoryflow_summary_transfer_v1/run_summary.json)；完成的是 smoke test，Track B 无 Gold。 |
-| 旧 SP pilot 日志可恢复性 | completed | [本机审计](../local_data/sp_natural_v1_raw/sp_semantic_edge_recoverability_audit.md)：无可直接恢复的语义 Gold 边。 |
+| 旧 SP pilot 日志可恢复性 | completed | [本机审计](../legacy/local_data/sp_natural_v1_raw/sp_semantic_edge_recoverability_audit.md)：无可直接恢复的语义 Gold 边。 |
 | SP1 完整真实轨迹与 Source-to-Summary 评测 | unverified | 在本轮指定资料与 243 实验结果中未找到最终轨迹/指标；[2026-08-31 汇报底稿](../evidence/local/MemoryFlow_假期结束工作汇报准备底稿.md)最后称单 Query schema gate 尚未完成。 |
 | 艺峰方法的 200 样本 Head probing | blocked | [243 readiness](../evidence/server/yifeng_qwen25_head_probe_v1/readiness_report.md) 标记 `NEEDS_INPUTS`，未见 `head_ranking.json` 或最终 200 样本报告。 |
 | 艺峰方法与 LC-Sent-15 的同协议比较 | blocked | [243 对比报告](../evidence/server/yifeng_method_lcsent15_comparison_v1/comparison_report.md) 标记协议歧义，未运行 Dev。 |
