@@ -1,4 +1,4 @@
-﻿task: CUAD dev: preferential rights | source: cuad_flow | attempt: 03_dcc_complete
+task: CUAD dev: preferential rights | source: cuad_flow | attempt: 03_dcc_complete
 unit: report_span_0 | kind: judgment
 text: 2.1 Party A shall have a preemptive right to carry out mobile game services with Party B on a nationwide basis…
 

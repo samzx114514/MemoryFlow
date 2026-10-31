@@ -1,4 +1,4 @@
-﻿judgment: report_span_0
+judgment: report_span_0
 producer call: call_01a11cbb-cc9d-7133-9771-0a5475b7b417
 last-call-only sees: 2 units
   - source_cuad_aa43b2240f866f2f:2593:3850 | s, Party B will acknowledge and accept the changes in cooperation business and mode proposed by Part
