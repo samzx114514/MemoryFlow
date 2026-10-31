@@ -1,0 +1,776 @@
+{
+  "schema": "memoryflow.task_timing.v1",
+  "task": {
+    "task_id": "v6-calls",
+    "attempt": "v6"
+  },
+  "analysis_seconds_assumption": 0.25,
+  "modes": {
+    "E0": {
+      "task_id": "v6-calls",
+      "attempt": "v6",
+      "mode": "E0",
+      "generation_start": 1793277708.124825,
+      "generation_finished": 1793278604.7777474,
+      "generation_seconds": 896.6529223918915,
+      "analysis_candidates": 44,
+      "jobs": 0,
+      "analysis_units": 0,
+      "excluded": [],
+      "replay_only": true,
+      "source_ready": 1793278604.7777474,
+      "answer_ready": 1793278604.7777474,
+      "answer_wall_seconds": 896.6529223918915,
+      "analysis_span_seconds": 0.0,
+      "queue_wait_seconds": 0.0,
+      "max_backlog": 0,
+      "job_timeline": []
+    },
+    "E1": {
+      "task_id": "v6-calls",
+      "attempt": "v6",
+      "mode": "E1",
+      "generation_start": 1793277708.124825,
+      "generation_finished": 1793278604.7777474,
+      "generation_seconds": 896.6529223918915,
+      "analysis_candidates": 44,
+      "jobs": 44,
+      "analysis_units": 44,
+      "excluded": [],
+      "replay_only": true,
+      "source_ready": 1793278615.7777474,
+      "answer_ready": 1793278615.7777474,
+      "answer_wall_seconds": 907.6529223918915,
+      "analysis_span_seconds": 11.0,
+      "queue_wait_seconds": 236.5,
+      "max_backlog": 44,
+      "job_timeline": [
+        {
+          "call_id": "call00",
+          "arrived": 1793278604.7777474,
+          "started": 1793278604.7777474,
+          "ended": 1793278605.0277474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call01",
+          "arrived": 1793278604.7777474,
+          "started": 1793278605.0277474,
+          "ended": 1793278605.2777474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call02",
+          "arrived": 1793278604.7777474,
+          "started": 1793278605.2777474,
+          "ended": 1793278605.5277474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call03",
+          "arrived": 1793278604.7777474,
+          "started": 1793278605.5277474,
+          "ended": 1793278605.7777474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call04",
+          "arrived": 1793278604.7777474,
+          "started": 1793278605.7777474,
+          "ended": 1793278606.0277474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call05",
+          "arrived": 1793278604.7777474,
+          "started": 1793278606.0277474,
+          "ended": 1793278606.2777474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call06",
+          "arrived": 1793278604.7777474,
+          "started": 1793278606.2777474,
+          "ended": 1793278606.5277474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call07",
+          "arrived": 1793278604.7777474,
+          "started": 1793278606.5277474,
+          "ended": 1793278606.7777474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call08",
+          "arrived": 1793278604.7777474,
+          "started": 1793278606.7777474,
+          "ended": 1793278607.0277474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call09",
+          "arrived": 1793278604.7777474,
+          "started": 1793278607.0277474,
+          "ended": 1793278607.2777474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call10",
+          "arrived": 1793278604.7777474,
+          "started": 1793278607.2777474,
+          "ended": 1793278607.5277474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call11",
+          "arrived": 1793278604.7777474,
+          "started": 1793278607.5277474,
+          "ended": 1793278607.7777474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call12",
+          "arrived": 1793278604.7777474,
+          "started": 1793278607.7777474,
+          "ended": 1793278608.0277474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call13",
+          "arrived": 1793278604.7777474,
+          "started": 1793278608.0277474,
+          "ended": 1793278608.2777474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call14",
+          "arrived": 1793278604.7777474,
+          "started": 1793278608.2777474,
+          "ended": 1793278608.5277474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call15",
+          "arrived": 1793278604.7777474,
+          "started": 1793278608.5277474,
+          "ended": 1793278608.7777474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call16",
+          "arrived": 1793278604.7777474,
+          "started": 1793278608.7777474,
+          "ended": 1793278609.0277474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call17",
+          "arrived": 1793278604.7777474,
+          "started": 1793278609.0277474,
+          "ended": 1793278609.2777474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call18",
+          "arrived": 1793278604.7777474,
+          "started": 1793278609.2777474,
+          "ended": 1793278609.5277474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call19",
+          "arrived": 1793278604.7777474,
+          "started": 1793278609.5277474,
+          "ended": 1793278609.7777474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call20",
+          "arrived": 1793278604.7777474,
+          "started": 1793278609.7777474,
+          "ended": 1793278610.0277474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call21",
+          "arrived": 1793278604.7777474,
+          "started": 1793278610.0277474,
+          "ended": 1793278610.2777474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call22",
+          "arrived": 1793278604.7777474,
+          "started": 1793278610.2777474,
+          "ended": 1793278610.5277474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call23",
+          "arrived": 1793278604.7777474,
+          "started": 1793278610.5277474,
+          "ended": 1793278610.7777474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call24",
+          "arrived": 1793278604.7777474,
+          "started": 1793278610.7777474,
+          "ended": 1793278611.0277474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call25",
+          "arrived": 1793278604.7777474,
+          "started": 1793278611.0277474,
+          "ended": 1793278611.2777474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call26",
+          "arrived": 1793278604.7777474,
+          "started": 1793278611.2777474,
+          "ended": 1793278611.5277474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call27",
+          "arrived": 1793278604.7777474,
+          "started": 1793278611.5277474,
+          "ended": 1793278611.7777474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call28",
+          "arrived": 1793278604.7777474,
+          "started": 1793278611.7777474,
+          "ended": 1793278612.0277474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call29",
+          "arrived": 1793278604.7777474,
+          "started": 1793278612.0277474,
+          "ended": 1793278612.2777474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call30",
+          "arrived": 1793278604.7777474,
+          "started": 1793278612.2777474,
+          "ended": 1793278612.5277474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call31",
+          "arrived": 1793278604.7777474,
+          "started": 1793278612.5277474,
+          "ended": 1793278612.7777474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call32",
+          "arrived": 1793278604.7777474,
+          "started": 1793278612.7777474,
+          "ended": 1793278613.0277474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call33",
+          "arrived": 1793278604.7777474,
+          "started": 1793278613.0277474,
+          "ended": 1793278613.2777474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call34",
+          "arrived": 1793278604.7777474,
+          "started": 1793278613.2777474,
+          "ended": 1793278613.5277474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call35",
+          "arrived": 1793278604.7777474,
+          "started": 1793278613.5277474,
+          "ended": 1793278613.7777474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call36",
+          "arrived": 1793278604.7777474,
+          "started": 1793278613.7777474,
+          "ended": 1793278614.0277474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call37",
+          "arrived": 1793278604.7777474,
+          "started": 1793278614.0277474,
+          "ended": 1793278614.2777474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call38",
+          "arrived": 1793278604.7777474,
+          "started": 1793278614.2777474,
+          "ended": 1793278614.5277474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call39",
+          "arrived": 1793278604.7777474,
+          "started": 1793278614.5277474,
+          "ended": 1793278614.7777474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call40",
+          "arrived": 1793278604.7777474,
+          "started": 1793278614.7777474,
+          "ended": 1793278615.0277474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call41",
+          "arrived": 1793278604.7777474,
+          "started": 1793278615.0277474,
+          "ended": 1793278615.2777474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call42",
+          "arrived": 1793278604.7777474,
+          "started": 1793278615.2777474,
+          "ended": 1793278615.5277474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call43",
+          "arrived": 1793278604.7777474,
+          "started": 1793278615.5277474,
+          "ended": 1793278615.7777474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        }
+      ]
+    },
+    "E2": {
+      "task_id": "v6-calls",
+      "attempt": "v6",
+      "mode": "E2",
+      "generation_start": 1793277708.124825,
+      "generation_finished": 1793278604.7777474,
+      "generation_seconds": 896.6529223918915,
+      "analysis_candidates": 44,
+      "jobs": 44,
+      "analysis_units": 44,
+      "excluded": [],
+      "replay_only": true,
+      "source_ready": 1793278605.0277474,
+      "answer_ready": 1793278605.0277474,
+      "answer_wall_seconds": 896.9029223918915,
+      "analysis_span_seconds": 891.4019224643707,
+      "queue_wait_seconds": 0.0,
+      "max_backlog": 1,
+      "job_timeline": [
+        {
+          "call_id": "call00",
+          "arrived": 1793277713.625825,
+          "started": 1793277713.625825,
+          "ended": 1793277713.875825,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call01",
+          "arrived": 1793277721.4822419,
+          "started": 1793277721.4822419,
+          "ended": 1793277721.7322419,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call02",
+          "arrived": 1793277746.2984798,
+          "started": 1793277746.2984798,
+          "ended": 1793277746.5484798,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call03",
+          "arrived": 1793277755.7258415,
+          "started": 1793277755.7258415,
+          "ended": 1793277755.9758415,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call04",
+          "arrived": 1793277765.6802673,
+          "started": 1793277765.6802673,
+          "ended": 1793277765.9302673,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call05",
+          "arrived": 1793277815.672951,
+          "started": 1793277815.672951,
+          "ended": 1793277815.922951,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call06",
+          "arrived": 1793277844.0744348,
+          "started": 1793277844.0744348,
+          "ended": 1793277844.3244348,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call07",
+          "arrived": 1793277853.8420763,
+          "started": 1793277853.8420763,
+          "ended": 1793277854.0920763,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call08",
+          "arrived": 1793277864.9846275,
+          "started": 1793277864.9846275,
+          "ended": 1793277865.2346275,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call09",
+          "arrived": 1793277914.5052261,
+          "started": 1793277914.5052261,
+          "ended": 1793277914.7552261,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call10",
+          "arrived": 1793277953.3094141,
+          "started": 1793277953.3094141,
+          "ended": 1793277953.5594141,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call11",
+          "arrived": 1793277968.356003,
+          "started": 1793277968.356003,
+          "ended": 1793277968.606003,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call12",
+          "arrived": 1793277981.9064732,
+          "started": 1793277981.9064732,
+          "ended": 1793277982.1564732,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call13",
+          "arrived": 1793277993.5293438,
+          "started": 1793277993.5293438,
+          "ended": 1793277993.7793438,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call14",
+          "arrived": 1793278003.6758769,
+          "started": 1793278003.6758769,
+          "ended": 1793278003.9258769,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call15",
+          "arrived": 1793278013.153012,
+          "started": 1793278013.153012,
+          "ended": 1793278013.403012,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call16",
+          "arrived": 1793278079.272334,
+          "started": 1793278079.272334,
+          "ended": 1793278079.522334,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call17",
+          "arrived": 1793278111.0911562,
+          "started": 1793278111.0911562,
+          "ended": 1793278111.3411562,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call18",
+          "arrived": 1793278130.677212,
+          "started": 1793278130.677212,
+          "ended": 1793278130.927212,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call19",
+          "arrived": 1793278157.991268,
+          "started": 1793278157.991268,
+          "ended": 1793278158.241268,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call20",
+          "arrived": 1793278171.0217435,
+          "started": 1793278171.0217435,
+          "ended": 1793278171.2717435,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call21",
+          "arrived": 1793278200.6840181,
+          "started": 1793278200.6840181,
+          "ended": 1793278200.9340181,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call22",
+          "arrived": 1793278217.1671755,
+          "started": 1793278217.1671755,
+          "ended": 1793278217.4171755,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call23",
+          "arrived": 1793278245.509565,
+          "started": 1793278245.509565,
+          "ended": 1793278245.759565,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call24",
+          "arrived": 1793278265.4089456,
+          "started": 1793278265.4089456,
+          "ended": 1793278265.6589456,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call25",
+          "arrived": 1793278273.4032817,
+          "started": 1793278273.4032817,
+          "ended": 1793278273.6532817,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call26",
+          "arrived": 1793278282.3110073,
+          "started": 1793278282.3110073,
+          "ended": 1793278282.5610073,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call27",
+          "arrived": 1793278292.3688087,
+          "started": 1793278292.3688087,
+          "ended": 1793278292.6188087,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call28",
+          "arrived": 1793278301.8861172,
+          "started": 1793278301.8861172,
+          "ended": 1793278302.1361172,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call29",
+          "arrived": 1793278311.2462885,
+          "started": 1793278311.2462885,
+          "ended": 1793278311.4962885,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call30",
+          "arrived": 1793278320.6584437,
+          "started": 1793278320.6584437,
+          "ended": 1793278320.9084437,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call31",
+          "arrived": 1793278349.5536244,
+          "started": 1793278349.5536244,
+          "ended": 1793278349.8036244,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call32",
+          "arrived": 1793278380.3853238,
+          "started": 1793278380.3853238,
+          "ended": 1793278380.6353238,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call33",
+          "arrived": 1793278392.3734019,
+          "started": 1793278392.3734019,
+          "ended": 1793278392.6234019,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call34",
+          "arrived": 1793278400.092736,
+          "started": 1793278400.092736,
+          "ended": 1793278400.342736,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call35",
+          "arrived": 1793278412.532418,
+          "started": 1793278412.532418,
+          "ended": 1793278412.782418,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call36",
+          "arrived": 1793278417.5407338,
+          "started": 1793278417.5407338,
+          "ended": 1793278417.7907338,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call37",
+          "arrived": 1793278428.7810767,
+          "started": 1793278428.7810767,
+          "ended": 1793278429.0310767,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call38",
+          "arrived": 1793278492.5513039,
+          "started": 1793278492.5513039,
+          "ended": 1793278492.8013039,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call39",
+          "arrived": 1793278498.6673846,
+          "started": 1793278498.6673846,
+          "ended": 1793278498.9173846,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call40",
+          "arrived": 1793278513.4908447,
+          "started": 1793278513.4908447,
+          "ended": 1793278513.7408447,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call41",
+          "arrived": 1793278527.0195212,
+          "started": 1793278527.0195212,
+          "ended": 1793278527.2695212,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call42",
+          "arrived": 1793278571.5440254,
+          "started": 1793278571.5440254,
+          "ended": 1793278571.7940254,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        },
+        {
+          "call_id": "call43",
+          "arrived": 1793278604.7777474,
+          "started": 1793278604.7777474,
+          "ended": 1793278605.0277474,
+          "analysis_seconds": 0.25,
+          "analysis_units": 1
+        }
+      ]
+    }
+  }
+}

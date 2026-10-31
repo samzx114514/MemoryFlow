@@ -1,0 +1,7 @@
+﻿judgment: report_span_0
+producer call: call_01a11cbb-cc9d-7133-9771-0a5475b7b417
+last-call-only sees: 2 units
+  - source_cuad_aa43b2240f866f2f:2593:3850 | s, Party B will acknowledge and accept the changes in cooperation business and mode proposed by Part
+  - summary_final | The contract contains a clause in Article 2 (Rights and Obligations of Party A), Section 2.1: 'Party
+full chain: summary producer: call_01a11cbb-2578-70a3-ad9b-7b5e496fa145 | visible upstream chunks: 13
+top replay scores for the summary: [('2f:2593:3850', 0.7569), (':31192:32479', 0.1692), (':56098:57522', 0.0259)]

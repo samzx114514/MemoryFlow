@@ -1,0 +1,499 @@
+{
+ "schema": "memoryflow.session_forest.v2",
+ "calls": {
+  "call00": {
+   "order": 0,
+   "agent": "central",
+   "parent": null,
+   "messages": 3,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "sp_recall_memory"
+   ]
+  },
+  "call01": {
+   "order": 1,
+   "agent": "memory_recaller",
+   "parent": null,
+   "messages": 3,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "grep",
+    "ls"
+   ]
+  },
+  "call02": {
+   "order": 2,
+   "agent": "central",
+   "parent": null,
+   "messages": 5,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "sp_delegate"
+   ]
+  },
+  "call03": {
+   "order": 3,
+   "agent": "perception",
+   "parent": null,
+   "messages": 2,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "grep",
+    "grep"
+   ]
+  },
+  "call04": {
+   "order": 4,
+   "agent": "perception",
+   "parent": "call03",
+   "messages": 5,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "read_file",
+    "grep"
+   ]
+  },
+  "call05": {
+   "order": 5,
+   "agent": "perception",
+   "parent": "call04",
+   "messages": 9,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "read_file"
+   ]
+  },
+  "call06": {
+   "order": 6,
+   "agent": "central",
+   "parent": null,
+   "messages": 7,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "sp_delegate"
+   ]
+  },
+  "call07": {
+   "order": 7,
+   "agent": "perception",
+   "parent": null,
+   "messages": 2,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "grep",
+    "grep"
+   ]
+  },
+  "call08": {
+   "order": 8,
+   "agent": "perception",
+   "parent": "call07",
+   "messages": 5,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "grep",
+    "read_file"
+   ]
+  },
+  "call09": {
+   "order": 9,
+   "agent": "perception",
+   "parent": "call08",
+   "messages": 9,
+   "finish": "stop",
+   "tool_calls": []
+  },
+  "call10": {
+   "order": 10,
+   "agent": "central",
+   "parent": null,
+   "messages": 9,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "sp_delegate"
+   ]
+  },
+  "call11": {
+   "order": 11,
+   "agent": "coder",
+   "parent": null,
+   "messages": 2,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "grep",
+    "grep",
+    "grep",
+    "grep"
+   ]
+  },
+  "call12": {
+   "order": 12,
+   "agent": "coder",
+   "parent": "call11",
+   "messages": 7,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "read_file",
+    "read_file",
+    "grep"
+   ]
+  },
+  "call13": {
+   "order": 13,
+   "agent": "coder",
+   "parent": "call12",
+   "messages": 11,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "grep",
+    "grep"
+   ]
+  },
+  "call14": {
+   "order": 14,
+   "agent": "coder",
+   "parent": "call13",
+   "messages": 14,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "grep",
+    "grep"
+   ]
+  },
+  "call15": {
+   "order": 15,
+   "agent": "coder",
+   "parent": "call14",
+   "messages": 17,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "grep",
+    "grep"
+   ]
+  },
+  "call16": {
+   "order": 16,
+   "agent": "coder",
+   "parent": "call15",
+   "messages": 21,
+   "finish": "stop",
+   "tool_calls": []
+  },
+  "call17": {
+   "order": 17,
+   "agent": "central",
+   "parent": null,
+   "messages": 12,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "sp_delegate"
+   ]
+  },
+  "call18": {
+   "order": 18,
+   "agent": "central",
+   "parent": null,
+   "messages": 14,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "sp_think"
+   ]
+  },
+  "call19": {
+   "order": 19,
+   "agent": "central",
+   "parent": null,
+   "messages": 16,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "sp_delegate"
+   ]
+  },
+  "call20": {
+   "order": 20,
+   "agent": "central",
+   "parent": null,
+   "messages": 18,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "sp_reflect"
+   ]
+  },
+  "call21": {
+   "order": 21,
+   "agent": "central",
+   "parent": null,
+   "messages": 20,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "sp_delegate"
+   ]
+  },
+  "call22": {
+   "order": 22,
+   "agent": "central",
+   "parent": null,
+   "messages": 22,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "sp_replan"
+   ]
+  },
+  "call23": {
+   "order": 23,
+   "agent": "central",
+   "parent": null,
+   "messages": 24,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "sp_delegate"
+   ]
+  },
+  "call24": {
+   "order": 24,
+   "agent": "central",
+   "parent": null,
+   "messages": 27,
+   "finish": "stop",
+   "tool_calls": []
+  },
+  "call25": {
+   "order": 25,
+   "agent": "coder",
+   "parent": null,
+   "messages": 2,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "bash",
+    "bash"
+   ]
+  },
+  "call26": {
+   "order": 26,
+   "agent": "coder",
+   "parent": "call25",
+   "messages": 5,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "bash",
+    "bash"
+   ]
+  },
+  "call27": {
+   "order": 27,
+   "agent": "coder",
+   "parent": "call26",
+   "messages": 8,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "bash",
+    "bash"
+   ]
+  },
+  "call28": {
+   "order": 28,
+   "agent": "coder",
+   "parent": "call27",
+   "messages": 11,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "bash",
+    "bash"
+   ]
+  },
+  "call29": {
+   "order": 29,
+   "agent": "coder",
+   "parent": "call28",
+   "messages": 14,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "bash",
+    "bash"
+   ]
+  },
+  "call30": {
+   "order": 30,
+   "agent": "coder",
+   "parent": "call29",
+   "messages": 17,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "bash",
+    "bash"
+   ]
+  },
+  "call31": {
+   "order": 31,
+   "agent": "coder",
+   "parent": "call30",
+   "messages": 21,
+   "finish": "stop",
+   "tool_calls": []
+  },
+  "call32": {
+   "order": 32,
+   "agent": "central",
+   "parent": null,
+   "messages": 28,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "sp_delegate"
+   ]
+  },
+  "call33": {
+   "order": 33,
+   "agent": "coder",
+   "parent": null,
+   "messages": 2,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "bash",
+    "bash"
+   ]
+  },
+  "call34": {
+   "order": 34,
+   "agent": "coder",
+   "parent": "call33",
+   "messages": 5,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "read_file",
+    "read_file"
+   ]
+  },
+  "call35": {
+   "order": 35,
+   "agent": "coder",
+   "parent": "call34",
+   "messages": 8,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "bash"
+   ]
+  },
+  "call36": {
+   "order": 36,
+   "agent": "coder",
+   "parent": "call35",
+   "messages": 10,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "read_file"
+   ]
+  },
+  "call37": {
+   "order": 37,
+   "agent": "coder",
+   "parent": "call36",
+   "messages": 12,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "read_file",
+    "read_file"
+   ]
+  },
+  "call38": {
+   "order": 38,
+   "agent": "coder",
+   "parent": "call37",
+   "messages": 15,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "write_file"
+   ]
+  },
+  "call39": {
+   "order": 39,
+   "agent": "coder",
+   "parent": "call38",
+   "messages": 17,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "read_file"
+   ]
+  },
+  "call40": {
+   "order": 40,
+   "agent": "coder",
+   "parent": "call39",
+   "messages": 19,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "bash"
+   ]
+  },
+  "call41": {
+   "order": 41,
+   "agent": "coder",
+   "parent": "call40",
+   "messages": 21,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "bash"
+   ]
+  },
+  "call42": {
+   "order": 42,
+   "agent": "coder",
+   "parent": "call41",
+   "messages": 24,
+   "finish": "stop",
+   "tool_calls": []
+  },
+  "call43": {
+   "order": 43,
+   "agent": "central",
+   "parent": null,
+   "messages": 30,
+   "finish": "tool_calls",
+   "tool_calls": [
+    "sp_delegate"
+   ]
+  }
+ },
+ "roots": {
+  "central": [
+   "call00",
+   "call02",
+   "call06",
+   "call10",
+   "call17",
+   "call18",
+   "call19",
+   "call20",
+   "call21",
+   "call22",
+   "call23",
+   "call24",
+   "call32",
+   "call43"
+  ],
+  "coder": [
+   "call11",
+   "call25",
+   "call33"
+  ],
+  "memory_recaller": [
+   "call01"
+  ],
+  "perception": [
+   "call03",
+   "call07"
+  ]
+ },
+ "branches": {},
+ "notes": [
+  "message-level forest; API token ids are unavailable",
+  "parent selection is restricted to earlier calls of the same role",
+  "full request-message identity is used for prefix comparison",
+  "native session/delegation ids are absent; subagent trees are separated but delegate-to-subagent mapping is unresolved"
+ ],
+ "input": {
+  "calls_sha256": "bfcd6925d03adece5927924cff33090817c5f9d0ea0fc69f53cbc7f201f61854",
+  "calls": 44,
+  "label": "v6_fixed"
+ }
+}

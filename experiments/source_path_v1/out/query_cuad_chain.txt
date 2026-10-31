@@ -1,0 +1,105 @@
+﻿task: CUAD dev: preferential rights | source: cuad_flow | attempt: 03_dcc_complete
+unit: report_span_0 | kind: judgment
+text: 2.1 Party A shall have a preemptive right to carry out mobile game services with Party B on a nationwide basis…
+
+· [记录·生成归属] → call_01a11cbb-cc9d-7133-9771-0a5475b7b417
+  [call call_01a11cbb-cc9d-7133-9771-0a5475b7b417] agent=reporter recorded=True tools=[]
+  · [记录·历史沿用] → source_cuad_aa43b2240f866f2f:2593:3850
+    s, Party B will acknowledge and accept the changes in cooperation business and mode proposed by Party A due to…
+    └ (no upstream record)
+· [记录·历史沿用] → source_cuad_aa43b2240f866f2f:2593:3850
+  s, Party B will acknowledge and accept the changes in cooperation business and mode proposed by Party A due to…
+  └ (no upstream record)
+· [回放估计] score=0.6437 → summary_final
+  The contract contains a clause in Article 2 (Rights and Obligations of Party A), Section 2.1: 'Party A shall h…
+  · [记录·生成归属] → call_01a11cbb-2578-70a3-ad9b-7b5e496fa145
+    [call call_01a11cbb-2578-70a3-ad9b-7b5e496fa145] agent=researcher recorded=True tools=[]
+    · [记录·历史沿用] → source_cuad_aa43b2240f866f2f:31192:32479
+      or management or is unable to continue providing value-added business for other reasons of its own, Party B sh…
+      └ (no upstream record)
+    · [记录·历史沿用] → source_cuad_aa43b2240f866f2f:56098:57522
+      nt, or Party or Party B is sued by others, penalized or reported bymedia for reasons attributable to Party B; …
+      └ (no upstream record)
+    · [记录·历史沿用] → source_cuad_aa43b2240f866f2f:42059:43539
+      e game/sum of logons of all online games contained in the game package) The detailed practices are set out in …
+      └ (no upstream record)
+    · [记录·历史沿用] → source_cuad_aa43b2240f866f2f:10737:12069
+      d industry management rules, and shall not distribute and disseminate illegal, unhealthy, reactionary informat…
+      └ (no upstream record)
+    · [记录·历史沿用] → source_cuad_aa43b2240f866f2f:28745:30220
+      onsulting, claims and complaints will be accepted. Party B shall be obliged to visit the online complaint hand…
+      └ (no upstream record)
+    · [记录·历史沿用] → source_cuad_aa43b2240f866f2f:2593:3850
+      s, Party B will acknowledge and accept the changes in cooperation business and mode proposed by Party A due to…
+      └ (no upstream record)
+    · [记录·历史沿用] → source_cuad_aa43b2240f866f2f:52661:54003
+      r economic losses to the non-breaching Party. In case of breach by both Parties, the Parties shall assume thei…
+      └ (no upstream record)
+    · [记录·历史沿用] → source_cuad_aa43b2240f866f2f:69636:70626
+      friends in the project by taking advantage of his/her powers or official capacity. 7 Party B shall not private…
+      └ (no upstream record)
+    · [记录·历史沿用] → source_cuad_aa43b2240f866f2f:68420:69816
+      arties and cause the parties and their respective working staff to practice in an integral manner, in accordan…
+      └ (no upstream record)
+    · [记录·历史沿用] → source_cuad_aa43b2240f866f2f:47048:48520
+      ion of settlement, suspension of business up to termination of cooperation. Page 16 of 29 Jiangsu Telecom Cont…
+      └ (no upstream record)
+    · [记录·历史沿用] → source_cuad_aa43b2240f866f2f:4751:6249
+      the charges to users and relevant status of operation, so as to ensure that Party B can monitor the fee charge…
+      └ (no upstream record)
+    · [记录·历史沿用] → source_cuad_aa43b2240f866f2f:3670:4931
+      le game information provided by Party B, provided, however, that Party A will not take any responsibilities ar…
+      └ (no upstream record)
+    · [记录·历史沿用] → source_cuad_aa43b2240f866f2f:53823:55030
+      ng from the malfunction caused by Party A's equipment, system or network and such other non-human caused reaso…
+      └ (no upstream record)
+  · [记录·生成归属] → call_01a11cbb-6de4-7fe1-955a-7b124b94ceb4
+    [call call_01a11cbb-6de4-7fe1-955a-7b124b94ceb4] agent=unknown recorded=False tools=[]
+    └ (no upstream record)
+  · [回放估计] score=0.1692 → source_cuad_aa43b2240f866f2f:31192:32479
+    or management or is unable to continue providing value-added business for other reasons of its own, Party B sh…
+    └ (no upstream record)
+  · [回放估计] score=0.0259 → source_cuad_aa43b2240f866f2f:56098:57522
+    nt, or Party or Party B is sued by others, penalized or reported bymedia for reasons attributable to Party B; …
+    └ (no upstream record)
+  · [回放估计] score=0.0040 → source_cuad_aa43b2240f866f2f:42059:43539
+    e game/sum of logons of all online games contained in the game package) The detailed practices are set out in …
+    └ (no upstream record)
+  · [回放估计] score=0.0056 → source_cuad_aa43b2240f866f2f:10737:12069
+    d industry management rules, and shall not distribute and disseminate illegal, unhealthy, reactionary informat…
+    └ (no upstream record)
+  · [回放估计] score=0.0048 → source_cuad_aa43b2240f866f2f:28745:30220
+    onsulting, claims and complaints will be accepted. Party B shall be obliged to visit the online complaint hand…
+    └ (no upstream record)
+  · [回放估计] score=0.7569 → source_cuad_aa43b2240f866f2f:2593:3850
+    s, Party B will acknowledge and accept the changes in cooperation business and mode proposed by Party A due to…
+    └ (no upstream record)
+  · [回放估计] score=0.0101 → source_cuad_aa43b2240f866f2f:52661:54003
+    r economic losses to the non-breaching Party. In case of breach by both Parties, the Parties shall assume thei…
+    └ (no upstream record)
+  · [回放估计] score=0.0019 → source_cuad_aa43b2240f866f2f:69636:70626
+    friends in the project by taking advantage of his/her powers or official capacity. 7 Party B shall not private…
+    └ (no upstream record)
+  · [回放估计] score=0.0056 → source_cuad_aa43b2240f866f2f:68420:69816
+    arties and cause the parties and their respective working staff to practice in an integral manner, in accordan…
+    └ (no upstream record)
+  · [回放估计] score=0.0029 → source_cuad_aa43b2240f866f2f:47048:48520
+    ion of settlement, suspension of business up to termination of cooperation. Page 16 of 29 Jiangsu Telecom Cont…
+    └ (no upstream record)
+  · [回放估计] score=0.0053 → source_cuad_aa43b2240f866f2f:4751:6249
+    the charges to users and relevant status of operation, so as to ensure that Party B can monitor the fee charge…
+    └ (no upstream record)
+  · [回放估计] score=0.0023 → source_cuad_aa43b2240f866f2f:3670:4931
+    le game information provided by Party B, provided, however, that Party A will not take any responsibilities ar…
+    └ (no upstream record)
+  · [回放估计] score=0.0054 → source_cuad_aa43b2240f866f2f:53823:55030
+    ng from the malfunction caused by Party A's equipment, system or network and such other non-human caused reaso…
+    └ (no upstream record)
+· [回放估计] score=0.3563 → source_cuad_aa43b2240f866f2f:2593:3850
+  s, Party B will acknowledge and accept the changes in cooperation business and mode proposed by Party A due to…
+  └ (no upstream record)
+gap[report_span_0]: an input copy of this text is recorded as an input occurrence of chunk 2593:3850, not as a generated upstream
+input_occurrence: {'unit': 'report_span_0', 'call': 'call_01a11cba-f22c-74a3-b3ce-4e71f64905df', 'evidence': 'model_calls.jsonl#line=5'}
+input_occurrence: {'unit': 'report_span_0', 'call': 'call_01a11cbb-2578-70a3-ad9b-7b5e496fa145', 'evidence': 'model_calls.jsonl#line=7'}
+input_occurrence: {'unit': 'report_span_0', 'call': 'call_01a11cbb-6de4-7fe1-955a-7b124b94ceb4', 'evidence': 'model_calls.jsonl#line=9'}
+input_occurrence: {'unit': 'report_span_0', 'call': 'call_01a11cbb-cc9d-7133-9771-0a5475b7b417', 'evidence': 'model_calls.jsonl#line=13'}

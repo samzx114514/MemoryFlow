@@ -1,0 +1,86 @@
+{
+  "prefix_length": 3,
+  "input_ids": [
+    101,
+    102,
+    103,
+    201,
+    202,
+    301
+  ],
+  "position_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    3
+  ],
+  "segment_ids": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    2
+  ],
+  "attention_mask": [
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "target_positions": {
+    "b1": [
+      3,
+      4
+    ],
+    "b2": [
+      5
+    ]
+  }
+}

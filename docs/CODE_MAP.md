@@ -30,6 +30,9 @@ Git 保存代码和小结果；原始轨迹、模型、缓存和完整数据留�
 | [baseline adapters](../experiments/baseline_adapters_v1/adapters.py) | 保留候选 ID、构造 CLM 请求及艺峰生成输入 | 需要统一目标单元、候选范围和多来源评价协议 |
 | [local model runner](../experiments/baseline_adapters_v1/run_local_models.py) | 加载本地权重，运行 CLM 排序或艺峰生成归因 | 两例 smoke 已完成；新真实轨迹多来源评价仍待标注 |
 | [LC-Sent-15 补测](../experiments/lc_sent15_external_v1/evaluate.py) | 在固定 Dev 上补跑 CLM 与艺峰回放；复用旧基线数字 | 已完成各 228 条；不是新的真实 Agent benchmark |
+| [来源路径/森林](../experiments/source_path_v1/query.py) | 递归查询 v2 来源路径；`build_forest.py` 从 calls 恢复主/子会话树 | 原生日志缺 session/委派 id；0 branches 不是“无分支”的证明 |
+| [任务级分析队列](../experiments/task_timing_v1/analysis_queue.py) | E0/E1/E2 日志回放，记录分析等待/积压/答案可用时间 | 分析耗时是显式输入假设；不是在线流水线 |
+| [分支 packing 布局](../experiments/branch_packing_v1/layout.py) | 共享前缀 + 分支 target 的 4-D mask/position/target-row 检查 | 尚未接入 7B 前向或 D/P 性能对照 |
 
 CLM 使用作者发布的投影头和 Qwen3-8B，本项目未额外训练；现有编码后端与作者 vLLM 后端的数值等价性未测。艺峰方法固定 Qwen2.5-7B 的 `(19,15)` 头，解释其自己生成的文本，不能读取原 SP API 模型的注意力。MLP 是以前在 LongCite 上训练的评分器，还需接到新的细粒度数据上。
 
@@ -69,6 +72,9 @@ python -m unittest discover -s experiments/trace_review_v1 -p test_extract.py
 python -m unittest discover -s experiments/baseline_adapters_v1 -p test_adapters.py
 python -m unittest discover -s experiments/baseline_adapters_v1 -p test_acquire_qwen3.py
 python -m unittest discover -s experiments/dcc_diagnostic_v0/tests -p 'test_*.py'
+python -m unittest discover -s experiments/source_path_v1/tests -p 'test_*.py'
+python -m unittest discover -s experiments/task_timing_v1/tests -p 'test_*.py'
+python -m unittest discover -s experiments/branch_packing_v1/tests -p 'test_*.py'
 python -m pytest -q legacy/local_data/tests -c legacy/local_data/pyproject.toml
 $env:PYTHONPATH = (Resolve-Path legacy/workspace/src).Path
 python -m unittest discover -s legacy/workspace/tests -p test_lc_sent15_bm25.py
