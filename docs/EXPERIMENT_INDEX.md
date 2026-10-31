@@ -7,7 +7,7 @@
 - G2：`query.py` 跨 estimate 追溯；`compare_views.py` 最后输入为摘要+原文 2 units；森林 20 roots（central 14/coder 3/perception 2/memory 1），0 branches 仅是当前恢复结果。
 - G3：44 calls、分析 0.25 s/call 假设下 E0 896.653 s / E1 907.653 s / E2 896.903 s；E2 是日志回放，不是在线流水线。
 - G7：共享前缀+分支 target 的 4-D mask/position 布局，6 项 CPU 测试通过；未做真实 7B D/P 性能。
-- G4：质量/时间/显存已有；11 个开发目标 ID、单位、计时重复次数待补。
+- G4：质量/时间/显存已有；11 个开发目标 ID、单位、计时重复次数见 [G4 说明](../experiments/source_path_v1/G4_NOTES_20261031.md)；原 8 目标冻结清单未保存，候选反推不作事实。
 ## G2 来源链/森林/图 + G4 小模型（2026-10-31 初版）
 
 **状态：G2 本轮范围完成；G4 质量/时间/显存完成；G1 阻塞；G3/G7 未实现。** 入口 [G 轮记录](../experiments/source_path_v1/G_ROUND_20261031.md)。

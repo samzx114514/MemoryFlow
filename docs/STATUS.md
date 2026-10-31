@@ -6,7 +6,7 @@
 - **G2 森林**：旧 44 calls 全 central 是角色分类 bug（全篇搜索 `CentralAgent`）；改为首行角色声明后为 20 roots：central 14、coder 3、perception 2、memory_recaller 1。`branches=0` 只是当前前缀/顺序规则下的结果，不能证明真实无分支；delegate→子 Agent 映射仍 unresolved。
 - **G3（CPU 原型）**：新增日志驱动 `task_timing_v1/analysis_queue.py`，E0/E1/E2 与排队/积压/答案可用时间记录；v6 44 calls、分析耗时假设 0.25 s/call 时 E0 896.653 s、E1 907.653 s、E2 896.903 s。E2 是回放，不是在线流水线。
 - **G7（CPU 局部检查）**：新增 `branch_packing_v1/layout.py`，共享前缀 + 分支 target 的 4-D mask/position/target-row 布局；6 项 CPU 测试通过。**尚未跑真实 7B 的 D/P 前向、分数对齐或性能。**
-- **G4**：质量/时间/显存已完成，但开发集 11 目标 ID、显存单位、计时重复次数仍待补齐；本轮未再跑模型。
+- **G4**：质量/时间/显存已完成，但开发集 11 目标 ID、显存单位、计时重复次数已补入 [G4 说明](../experiments/source_path_v1/G4_NOTES_20261031.md)：已恢复 11 个 ID；原冻结 8 目标清单未保存，候选反推不作事实；`11868368384 bytes = 11.87 GB / 11.05 GiB`；39.92 s 仅为一次运行记录，不能写成三次稳态中位。
 - **G1**：仍等新版 DCCv2；未重构旧分支。
 - 详细记录：[G2 后续](../experiments/source_path_v1/G2_FOLLOWUP_20261031.md)、[G3 队列](../experiments/task_timing_v1/reports/G3_QUEUE_20261031.md)、[G7 布局](../experiments/branch_packing_v1/reports/PACKING_LAYOUT_20261031.md)。
 
