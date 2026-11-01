@@ -1,3 +1,5 @@
+> 最新汇报稿：[MemoryFlow v6（27 页，可编辑 PPTX、PDF 与讲稿）](docs/presentations/v6_20261101/README.md)。用于双稿对比，研究数据沿用 2026-11-01 核准资料包。
+
 # MemoryFlow
 
 ## 2026-11-01：PPT 生成资料包
