@@ -1,0 +1,122 @@
+{
+  "snapshot_date": "2026-11-01",
+  "files": [
+    {
+      "file": "references/MemoryFlow_v5.pptx",
+      "bytes": 448382,
+      "source_name": "MemoryFlow_研究进展汇报_v5.pptx",
+      "use": "historical_reference",
+      "packaged_sha256": "01dfe033fba54bf9293c43f38456b61fb4bcfb9c740e364644bfe337cb72b8b4",
+      "packaged_bytes": 448382,
+      "source_sha256": "01dfe033fba54bf9293c43f38456b61fb4bcfb9c740e364644bfe337cb72b8b4"
+    },
+    {
+      "file": "references/MemoryFlow_v5.pdf",
+      "bytes": 1984882,
+      "source_name": "MemoryFlow_研究进展汇报_v5_预览.pdf",
+      "use": "historical_reference",
+      "packaged_sha256": "e38dfa1deff56cd007716c86a534cb80b50861f33b8bc1faa35eeadc1d214ad1",
+      "packaged_bytes": 1984882,
+      "source_sha256": "e38dfa1deff56cd007716c86a534cb80b50861f33b8bc1faa35eeadc1d214ad1"
+    },
+    {
+      "file": "references/MemoryFlow_v3_history.pdf",
+      "bytes": 1848541,
+      "source_name": "MemoryFlow_v3_历史草稿_未更新_预览.pdf",
+      "use": "historical_reference",
+      "packaged_sha256": "cf7703c6064217cc586cbad7ffcb1e207d854f90e9fafed1bd82e2ce9dc710f6",
+      "packaged_bytes": 1848541,
+      "source_sha256": "cf7703c6064217cc586cbad7ffcb1e207d854f90e9fafed1bd82e2ce9dc710f6"
+    },
+    {
+      "file": "references/MemoryFlow_v2.pptx",
+      "bytes": 410527,
+      "source_name": "MemoryFlow_初期汇报_逻辑重构_v2.pptx",
+      "use": "historical_reference",
+      "packaged_sha256": "2f71bdf67a458aa8ace8cc5957da2694e150cb2499b6f3477837041e83be57b2",
+      "packaged_bytes": 410527,
+      "source_sha256": "2f71bdf67a458aa8ace8cc5957da2694e150cb2499b6f3477837041e83be57b2"
+    },
+    {
+      "file": "references/MemoryFlow_v2.pdf",
+      "bytes": 3341222,
+      "source_name": "MemoryFlow_初期汇报_v2_预览.pdf",
+      "use": "historical_reference",
+      "packaged_sha256": "f4b71b23a55a230991b1bef2ddb9e6dbac5b547d3dd86b96df8094db46f80c7d",
+      "packaged_bytes": 3341222,
+      "source_sha256": "f4b71b23a55a230991b1bef2ddb9e6dbac5b547d3dd86b96df8094db46f80c7d"
+    },
+    {
+      "file": "references/meeting_storyline_annotations.pdf",
+      "bytes": 3608790,
+      "source_name": "第一次汇报PPT.pdf",
+      "use": "historical_reference",
+      "packaged_sha256": "c619f82d28561dfb737a5d90eaabd96f99426b823dc4a810812ceea55571555f",
+      "packaged_bytes": 3608790,
+      "source_sha256": "c619f82d28561dfb737a5d90eaabd96f99426b823dc4a810812ceea55571555f"
+    },
+    {
+      "file": "evidence/quality_recompute.md",
+      "bytes": 3738,
+      "source_name": "TRAP_FIX_RECOMPUTE_20261029.md",
+      "use": "source_report_snapshot",
+      "packaged_sha256": "154186b42b8745fe6d05a6441eeab1b96e5c0af29f575134aec873cab816fa46",
+      "packaged_bytes": 3738,
+      "source_sha256": "154186b42b8745fe6d05a6441eeab1b96e5c0af29f575134aec873cab816fa46"
+    },
+    {
+      "file": "evidence/baselines_context.md",
+      "bytes": 7639,
+      "source_name": "MULTI_METHOD_20261028.md",
+      "use": "source_report_snapshot",
+      "packaged_sha256": "d929cce3c6548c70a96d7b88ade3cddf34c0dda30953fa60e51c9e9b0a36b05f",
+      "packaged_bytes": 7639,
+      "source_sha256": "d929cce3c6548c70a96d7b88ade3cddf34c0dda30953fa60e51c9e9b0a36b05f"
+    },
+    {
+      "file": "evidence/prefix_reuse.md",
+      "bytes": 4665,
+      "source_name": "EFFICIENCY_20261029.md",
+      "use": "source_report_snapshot",
+      "packaged_sha256": "a277a2c5118887d059130c2d9623bc2128b647c6112b35079a3ad23a2d0032a5",
+      "packaged_bytes": 4665,
+      "source_sha256": "a277a2c5118887d059130c2d9623bc2128b647c6112b35079a3ad23a2d0032a5"
+    },
+    {
+      "file": "evidence/short_route_comparison.md",
+      "bytes": 4980,
+      "source_name": "YF_SOR_20261029.md",
+      "use": "source_report_snapshot",
+      "packaged_sha256": "c5b4a448271ba3b20df3ec9f2fec0532c5a3c6ec1a31c3166a58e663e54ea58f",
+      "packaged_bytes": 4906,
+      "source_sha256": "183b9f86a77af941dd7869f0eec4435953982125befbfe9424608b2868d63d60"
+    },
+    {
+      "file": "evidence/cuad_chain.md",
+      "bytes": 6698,
+      "source_name": "CUAD_CHAIN_SHOWCASE_20261029.md",
+      "use": "source_report_snapshot",
+      "packaged_sha256": "e7806d35b171d65c2a519fe061e2ab1f85f4ab1d45346fbf55c4ceb45d63281e",
+      "packaged_bytes": 6617,
+      "source_sha256": "c4935f10757e7d378ef75929eee98867f8935451833f4d8fa73d298ef2da5aa1"
+    },
+    {
+      "file": "evidence/dccv2_complete_run.md",
+      "bytes": 4415,
+      "source_name": "G1_V3_20261031.md",
+      "use": "source_report_snapshot",
+      "packaged_sha256": "517b0f92215ff31a07b0a3b959c9dcbd1d25e0a66cd3a7a3ef8c078f84bbc596",
+      "packaged_bytes": 4415,
+      "source_sha256": "517b0f92215ff31a07b0a3b959c9dcbd1d25e0a66cd3a7a3ef8c078f84bbc596"
+    },
+    {
+      "file": "evidence/small_model_context.md",
+      "bytes": 4527,
+      "source_name": "G_ROUND2_20261031.md",
+      "use": "source_report_snapshot",
+      "packaged_sha256": "adca569a2c741481031b5b69ffe5bf97d3ba18462184cce74f6978bad267b7bc",
+      "packaged_bytes": 4527,
+      "source_sha256": "adca569a2c741481031b5b69ffe5bf97d3ba18462184cce74f6978bad267b7bc"
+    }
+  ]
+}

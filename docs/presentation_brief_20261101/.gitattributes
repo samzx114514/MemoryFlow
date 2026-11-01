@@ -1,0 +1,9 @@
+.gitattributes text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.svg text eol=lf
+*.mmd text eol=lf
+*.pdf binary
+*.pptx binary
+*.png binary

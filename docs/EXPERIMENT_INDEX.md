@@ -1,5 +1,10 @@
 # 实验索引
 
+## PPT 内容与证据快照（2026-11-01）
+
+已整理[可独立使用的 PPT 生成资料包](presentation_brief_20261101/README.md)，包含最新故事线、可用实验表、图表、案例和待补证说明。只整理与归档材料，未运行新实验。新长文本关联占比、在线 E2 和 packing 收益未作为核准结果；细节以资料包证据账本为准。此次不修改实验代码或旧结果。
+
+
 ## LC-Sent-15 两条外部基线（2026-10-22）
 
 **状态：COMPLETED_LC_SENT15_DEV / VERIFIED_228_EACH。** [入口](../experiments/lc_sent15_external_v1/README.md)、[结果](../experiments/lc_sent15_external_v1/reports/RESULTS_20261022.md)。艺峰固定头回放 Hit@1 0.872807，CLM 0.271930。各 228 targets / 3,420 scores，完整输入、无训练、无 Reserve/Blind。旧基线不重跑。服务器 `memoryflow/runs/lc_sent15_external_v1/20261022_v1/`，完成结果分别在 `yifeng/` 与 `clm_fulltext/`；`clm/` 是保留的长度检查停止记录。

@@ -1,0 +1,9 @@
+method,CompleteGroup_at5_percent,CompleteGroup_at10_percent,FragHit_at1_percent
+固定头回放,61.7,70.21,48.94
+BM25,55.32,61.7,57.45
+平均头,57.45,61.7,34.04
+D-Full-64,53.19,68.09,34.04
+R-SYM,44.68,58.16,39.01
+Qwen F_mean,27.66,40.43,19.15
+CLM,12.77,19.15,12.77
+随机,1.08,2.15,0.44

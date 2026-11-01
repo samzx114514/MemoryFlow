@@ -1,0 +1,4 @@
+route,seconds,measurement
+S,3.687,median of 2 formal runs
+S+O,4.097,median of 3 formal runs
+S+R,4.701,S median plus one 1.014s replay; serial estimate

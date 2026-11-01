@@ -1,5 +1,9 @@
 # MemoryFlow
 
+## 2026-11-01：PPT 生成资料包
+
+供其他模型生成参考稿的[完整资料包](docs/presentation_brief_20261101/README.md)，包含生成提示词、22 个主讲单元与 5 个备选单元、核准数据与图表、案例摘录、待补清单和历史参考。可先读[单文件简报](docs/presentation_brief_20261101/START_HERE_ONE_FILE.md)。当前汇报口径以该包为准；下文的旧研究介绍保留历史身份。
+
 MemoryFlow studies how fine-grained information is passed, rewritten and combined across Agent calls. Sources and generated claims may themselves be wrong; tracing their relationships is separate from fact-checking them. The present quantitative evidence is strongest for **semantic source matching** on LongCite, not actual use or causal influence in a real Agent run.
 
 This private repository brings together method code, run configurations and compact results from server 243. Current work lives in `experiments/`; historical implementations are preserved under `legacy/`, with reports in `evidence/`. Large inputs and checkpoints remain external. It does not assume public release rights.

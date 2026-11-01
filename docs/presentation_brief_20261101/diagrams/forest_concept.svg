@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#254967"/></marker><marker id="est" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#C47B22"/></marker></defs>
+<rect width="1400" height="820" fill="white"/>
+<style>text{font-family:Microsoft YaHei,Arial,sans-serif;fill:#1C3549} .group{fill:#F5F8FA;stroke:#C3D1DA;stroke-width:2} .node{fill:white;stroke:#254967;stroke-width:2} .edge{fill:none;stroke:#254967;stroke-width:2.5;marker-end:url(#arrow)} .cross{fill:none;stroke:#C47B22;stroke-width:2.5;stroke-dasharray:8 5;marker-end:url(#est)}</style>
+<text x="55" y="55" font-size="29">方法二概念：会话历史组成森林，内容传递连接不同调用</text>
+<text x="55" y="91" font-size="17">概念示意，非真实运行恢复；结构参考 Harness-RL，内容关联为 MemoryFlow 设计</text>
+<rect class="group" x="40" y="125" width="1315" height="300" rx="12"/>
+<text x="65" y="161" font-size="22">主 Agent 会话历史</text>
+<rect class="group" x="40" y="480" width="800" height="245" rx="12"/>
+<text x="65" y="517" font-size="22">子 Agent 独立会话</text>
+<rect class="node" x="85" y="210" width="205" height="90" rx="10"/>
+<text x="187.5" y="261.0" text-anchor="middle" font-size="19">H0 初始上下文</text>
+<rect class="node" x="385" y="210" width="240" height="90" rx="10"/>
+<text x="505.0" y="261.0" text-anchor="middle" font-size="19">H1 计划与委派</text>
+<rect class="node" x="810" y="190" width="240" height="90" rx="10"/>
+<text x="930.0" y="241.0" text-anchor="middle" font-size="19">H2 综合上下文</text>
+<rect class="node" x="810" y="320" width="240" height="70" rx="10"/>
+<text x="930.0" y="361.0" text-anchor="middle" font-size="19">H2′ 分歧后续</text>
+<rect class="node" x="1125" y="190" width="175" height="90" rx="10"/>
+<text x="1212.5" y="241.0" text-anchor="middle" font-size="19">最终判断</text>
+<rect class="node" x="90" y="565" width="245" height="90" rx="10"/>
+<text x="212.5" y="616.0" text-anchor="middle" font-size="19">S0 子任务上下文</text>
+<rect class="node" x="535" y="565" width="250" height="90" rx="10"/>
+<text x="660.0" y="616.0" text-anchor="middle" font-size="19">S1 摘要产出</text>
+<path class="edge" d="M290 255 H385"/><text x="315" y="237" font-size="17">调用1</text>
+<path class="edge" d="M625 245 H810"/><text x="690" y="225" font-size="17">调用2</text>
+<path class="edge" d="M625 265 H705 V355 H810"/><text x="647" y="413" font-size="17">共享历史后的另一后续</text>
+<path class="edge" d="M1050 235 H1125"/>
+<path class="edge" d="M335 610 H535"/><text x="405" y="590" font-size="17">调用 a</text>
+<path class="cross" d="M470 300 V450 H210 V565"/><text x="230" y="445" font-size="17">委派记录</text>
+<path class="cross" d="M785 610 H900 V450 H1090 V300 H1030 V280"/><text x="1110" y="455" font-size="18">摘要返回</text>
+<text x="1110" y="483" font-size="17">对应实际输入片段</text>
+<rect x="1010" y="560" width="305" height="160" rx="10" fill="#FFF7E8" stroke="#C47B22"/>
+<text x="1030" y="592" font-size="18">调用旁附局部来源矩阵</text>
+<rect x="1045" y="614" width="65" height="27" fill="#D9EEEB"/>
+<rect x="1122" y="614" width="65" height="27" fill="#62B4AA"/>
+<rect x="1199" y="614" width="65" height="27" fill="#168A83"/>
+<rect x="1045" y="649" width="65" height="27" fill="#62B4AA"/>
+<rect x="1122" y="649" width="65" height="27" fill="#168A83"/>
+<rect x="1199" y="649" width="65" height="27" fill="#D9EEEB"/>
+<text x="1030" y="706" font-size="15">颜色仅作结构示意，无实测数值</text>
+<text x="55" y="773" font-size="18">节点：可观测上下文；蓝线：简化会话结构；橙虚线：跨会话内容连接示意。</text>
+<text x="55" y="803" font-size="16">真实展示需另标记录确认、回放估计与缺口，不能把概念图当成已证实的因果流。</text></svg>
