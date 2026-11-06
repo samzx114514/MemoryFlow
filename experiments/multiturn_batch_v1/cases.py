@@ -52,6 +52,10 @@ def read_json(path: str | Path) -> Any:
     return json.loads(Path(path).read_text(encoding="utf-8"))
 
 
+def normalise(text: str) -> str:
+    return re.sub(r"\s+", " ", text).strip().lower()
+
+
 def write_json(path: str | Path, value: Any) -> None:
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)

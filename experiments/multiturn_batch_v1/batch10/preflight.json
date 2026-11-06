@@ -1,0 +1,156 @@
+{
+  "cases": [
+    {
+      "candidates": 670,
+      "case_id": "genmem_177236211632d6b8:selected_02",
+      "evidence_groups": 3,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_01_selected_02",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "genmem_177236211632d6b8"
+    },
+    {
+      "candidates": 709,
+      "case_id": "genmem_874c34ceb20bf193:selected_05",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_02_selected_05",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "genmem_874c34ceb20bf193"
+    },
+    {
+      "candidates": 326,
+      "case_id": "genmem_940c258011aac604:selected_10",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_03_selected_10",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "genmem_940c258011aac604"
+    },
+    {
+      "candidates": 790,
+      "case_id": "genmem_9f963d36b4935b97:selected_01",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_04_selected_01",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "genmem_9f963d36b4935b97"
+    },
+    {
+      "candidates": 291,
+      "case_id": "genmem_58452c40de4bdcb9:selected_03",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_05_selected_03",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "genmem_58452c40de4bdcb9"
+    },
+    {
+      "candidates": 384,
+      "case_id": "genmem_40dc9b8b15c0c5b8:selected_04",
+      "evidence_groups": 2,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_06_selected_04",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "genmem_40dc9b8b15c0c5b8"
+    },
+    {
+      "candidates": 127,
+      "case_id": "genmem_5c054943b1a987e0:selected_07",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_07_selected_07",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "genmem_5c054943b1a987e0"
+    },
+    {
+      "candidates": 558,
+      "case_id": "genmem_f46a08bc62ee9b37:selected_01",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_10_selected_01",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "genmem_f46a08bc62ee9b37"
+    }
+  ],
+  "schema": "memoryflow.multiturn_batch.preflight.v1",
+  "totals": {
+    "blocked": 0,
+    "cases": 8,
+    "incomplete": 0,
+    "ok": 8
+  },
+  "trajectory_split_issues": []
+}

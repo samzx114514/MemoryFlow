@@ -1,0 +1,2946 @@
+{
+  "case_id": "genmem_f46a08bc62ee9b37:selected_01",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0426#251-256",
+          "score": 2.183921060350258e-05,
+          "text": "None."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0188#68-259",
+          "score": 0.00474071130156517,
+          "text": "Cryolipolysis is characterized by localized and controlled cooling of the subcutaneous adipose tissue, in a non‐invasive way, causing a localized panniculitis, followed by adipocyte death by…"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0407#0-64",
+          "score": 0.001977056497707963,
+          "text": "34946 Adverse events of noninvasive body contouring: Analysis..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0417#183-210",
+          "score": 5.090742433822015e-06,
+          "text": "Course cost (typical goal)."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0415#0-59",
+          "score": 0.00021321710664778948,
+          "text": "Contour Light vs Fat Freezing: Honest Compare | Beyond Rest"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#501-514",
+          "score": 1.5059044926601928e-05,
+          "text": "Conversation:"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0377#0-51",
+          "score": 0.0001224437146447599,
+          "text": "https://www.sci-hub.ru/10.1097/dss.0000000000002524"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0279#0-211",
+          "score": 0.007530089933425188,
+          "text": "(2015), cryolipolysis has demonstrated efficacy in noninvasively reducing subcutaneous fat, with studies reporting an average fat reduction of 14.67% to 28.5% across treated areas such as the abdomen and flanks."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0309#0-112",
+          "score": 0.0003435323596931994,
+          "text": "The combination of radiofrequency and cryolipolysis offers a synergistic approach to non-invasive fat reduction."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#1697-1837",
+          "score": 0.0006578776519745588,
+          "text": "**Patient Selection**: Ideal candidates often have localized fat deposits resistant to diet and exercise, with generally stable body weight."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0340#0-154",
+          "score": 0.0011581247672438622,
+          "text": "https://scholar.cu.edu.eg/?q=drsergany/files/lasers_surg_med_-_2022_cavitation_and_radiofrequency_versus_cryolipolysis_on_leptin_regulation_in_central.pdf"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0013#84-271",
+          "score": 0.0013224382419139147,
+          "text": "In the 2022 Clinics in Dermatology review, RF was included among the five primary non-invasive modalities of body contouring along with cryolipolysis, focused ultrasound, laser and HIFEM."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0332#100-151",
+          "score": 0.0001015153102343902,
+          "text": "Current Problems in Dermatology: “Skin Tightening”."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0192#0-31",
+          "score": 0.0012844353914260864,
+          "text": "Journal of Cosmetic Dermatology"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0006#0-49",
+          "score": 0.0006153976428322494,
+          "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4079633/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_385871c4c9dee279#0-25",
+          "score": 6.767957529518753e-06,
+          "text": "call_-7436897466873539407"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0041#0-125",
+          "score": 0.0007388577796518803,
+          "text": "Cryolipolysis has been proven to be a very safe method for body contouring, and is accomplished with only minimal discomfort."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0176#0-49",
+          "score": 0.0005520776030607522,
+          "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9603587/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0177#153-247",
+          "score": 0.0008016840438358486,
+          "text": "Therefore, in this study using animal models, we have explored a direct association between C."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0139#0-88",
+          "score": 2.9445360269164667e-05,
+          "text": "https://int.livhospital.com/how-to-eliminate-fat-cells-permanently-non-invasive-methods/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0022#0-64",
+          "score": 0.0001419477630406618,
+          "text": "RF Body Contouring vs Cryolipolysis vs Cavitation Ultrasound ..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#162-198",
+          "score": 9.361878596791939e-07,
+          "text": "Prioritize urgent warning signs when"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0099#0-41",
+          "score": 1.6151272575370967e-05,
+          "text": "https://pubmed.ncbi.nlm.nih.gov/29210446/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0000#0-17",
+          "score": 4.266105406713905e-06,
+          "text": "<system-reminder>"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0429#0-8",
+          "score": 7.523566637246404e-06,
+          "text": "CLINICS."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0182#12-136",
+          "score": 0.007262366358190775,
+          "text": "Cryolipolysis is characterized by localized and controlled cooling of the subcutaneous adipose tissue, in a non-invasive way"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_419104ff98a3ce0f#0-25",
+          "score": 3.3538312891323585e-06,
+          "text": "call_-7436769751726025543"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0120#0-113",
+          "score": 7.83364666858688e-05,
+          "text": "Background Noninvasive body contouring is one of the fastest growing segments of the cosmetic aesthetic industry."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0026#0-370",
+          "score": 0.0013510556891560555,
+          "text": "https://www.researchgate.net/profile/Mohamed-Mostafa-36/publication/361309608_CAVITATION_AND_RADIOFREQUENCY_VERSUS_CRYOLIPOLYSIS_ON_SUBCUTANEOUS_FAT_IN_CENTRAL_OBESE_ADOLESCENT_A_RANDOMIZED_CONTROLLED_STUDY/links/62a9e6b323f3283e3ae9bb0d/CAVITATION-AND-RADIOFREQUENCY-VERSUS-CRYOLIPOLYSIS-ON-SUBCUTANEOUS-FAT-IN-CENTRAL-OBESE-ADOLESCENT-A-RANDOMIZED-CONTROLLED-STUDY.pdf"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0131#98-249",
+          "score": 1.9088489352725446e-05,
+          "text": "Randomized sham-controlled trial to evaluate the safety and effectiveness of a high-intensity focused ultrasound device for noninvasive body sculpting."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0350#88-114",
+          "score": 3.4827405670512235e-06,
+          "text": "Search \"Mostafa Mohamed S."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0109#0-127",
+          "score": 0.0009830587077885866,
+          "text": "In clinical studies, cryolipolysis was shown to reduce subcutaneous fat at the treatment site by up to 25% after one treatment."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_1ce2ec27adc1313c#0-25",
+          "score": 7.577281394333113e-06,
+          "text": "call_-7436753155972397732"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0033#0-86",
+          "score": 3.092332917731255e-05,
+          "text": "Compare ultrasonic cavitation, radio frequency, and cryolipolysis for body contouring."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0348#0-56",
+          "score": 0.00011833742610178888,
+          "text": "Cavitation and radiofrequency versus cryolipolysis on..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0323#12-49",
+          "score": 0.00039967935299500823,
+          "text": "Lasers in Surgery and Medicine 54(2)."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0138#0-60",
+          "score": 1.1071505468862597e-05,
+          "text": "How to Eliminate Fat Cells Permanently: Non-Invasive Methods"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0109#179-287",
+          "score": 5.460541069624014e-05,
+          "text": "At 73%, the patient satisfaction rate is higher than with other technologies used for noninvasive lipolysis."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0134#141-233",
+          "score": 0.00047385261859744787,
+          "text": "cryolipolysis on leptin regulation in central obese subjects: a randomized controlled study."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0335#168-289",
+          "score": 1.3657249837706331e-05,
+          "text": "Treatment Areas and Results: iLipo’s ability to target specific fat deposits and tighten the skin can result in a more..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0000#18-65",
+          "score": 0.004199378192424774,
+          "text": "<current_date>2026-07-20, Monday</current_date>"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0184#0-50",
+          "score": 0.00022972332953941077,
+          "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11980024/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0390#0-59",
+          "score": 9.9096359917894e-07,
+          "text": "Radio Frequency Skin Tightening Safety: Risks, Benefits ..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0358#0-121",
+          "score": 3.4357194635958876e-06,
+          "text": "common side effects like erythema, numbness, and bruising, as well as more severe adverse events such as dysesthesia and."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_0eaf0b6181c2f3a0#0-109",
+          "score": 3.2258424198516877e-06,
+          "text": "radiofrequency body contouring side effects burns pain erythema edema incidence adverse events safety profile"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0148#0-60",
+          "score": 4.892579818260856e-05,
+          "text": "https://link.springer.com/article/10.1007/s00266-026-06132-3"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0024#0-165",
+          "score": 0.0006438916316255927,
+          "text": "Feb 21, 2026 · Evidence-based comparison of RF body contouring, cryolipolysis, and cavitation ultrasound technologies for clinical fat reduction and skin tightening."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0296#0-65",
+          "score": 0.0003733942285180092,
+          "text": "Evolution of the treatment approach to cryolipolysis using the..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0086#110-236",
+          "score": 0.0001655498635955155,
+          "text": "Paradoxical adipose hyperplasia is a rare, previously unreported adverse effect of cryolipolysis with an incidence of 0.0051%."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0089#84-205",
+          "score": 6.292856414802372e-05,
+          "text": "Paradoxical Adipose Hyperplasia after Cryolipolysis: A Report on Incidence and Common Factors Identified in 510 Patients."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0197#57-65",
+          "score": 2.2034657376934774e-05,
+          "text": "- PubMed"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0264#99-246",
+          "score": 8.929092291509733e-05,
+          "text": "• This review enables the selection of a body contouring modality that best suits each specific patient's goals, availability and aversion to risk."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0029#0-58",
+          "score": 2.30521345656598e-05,
+          "text": "https://onlinelibrary.wiley.com/doi/full/10.1002/lsm.23555"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_240f56938dcaae7a#0-25",
+          "score": 3.0479127417493146e-06,
+          "text": "call_-7436888739499991202"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0189#0-70",
+          "score": 0.026539161801338196,
+          "text": "Application of cryolipolysis in adipose tissue: A systematic review..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0210#0-72",
+          "score": 5.540811980608851e-05,
+          "text": "https://www.mendeley.com/catalogue/1db2d0c7-5a3c-32ea-b3d0-36482f6fac04/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0097#0-281",
+          "score": 0.00023869556025601923,
+          "text": "Context: Today, different kinds of non-invasive body contouring modalities, including cryolipolysis, radiofrequency (RF), low-level laser therapy (LLLT), and high-intensity focused ultrasound (HIFU) are available for reducing the volume of subcutaneous adipose tissue or cellulite."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0125#0-41",
+          "score": 2.1167285012779757e-05,
+          "text": "https://www.intechopen.com/chapters/80193"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0292#32-204",
+          "score": 6.955270509934053e-05,
+          "text": "The results of a cryolipolysis pivotal IDE study for reduction of submental fullness are reported, which shows good results in both the small volume and large volume areas."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0357#0-200",
+          "score": 5.950128615950234e-05,
+          "text": "https://www.researchgate.net/publication/374053776_Assessing_the_benefits_and_drawbacks_of_cryolipolysis_as_a_noninvasive_body_sculpting_technique_risks_side_effects_and_future_research_-_an_editorial"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0182#213-281",
+          "score": 9.8308504675515e-05,
+          "text": "and, consequently, a decrease in adipose tissue in the treated area."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0426#257-271",
+          "score": 0.0002480183611623943,
+          "text": "Cryolipolysis."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0193#0-48",
+          "score": 1.4015301530889701e-05,
+          "text": "https://medilib.ir/Journal/Package/3916/articles"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0035#0-49",
+          "score": 5.513375435839407e-05,
+          "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5236497/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0258#0-89",
+          "score": 3.222015584469773e-05,
+          "text": "Nowadays, a lot of body contouring devices and methods are introduced all over the world."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0060#165-252",
+          "score": 5.115436215419322e-05,
+          "text": "There are currently five approved modalities including cryolipolysis, radiofrequency..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0401#0-171",
+          "score": 5.802282248623669e-05,
+          "text": "Objective: To analyze adverse events related to noninvasive body contouring devices reported through the Manufacturer and User Facility Device Experience (MAUDE) database."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0227#0-42",
+          "score": 1.265588252863381e-06,
+          "text": "References: Resende L, Noites A, Amorim M."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0137#183-254",
+          "score": 2.312094693479594e-05,
+          "text": "Removal of excess localized fat deposits using non-invasive techniques."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0233#52-61",
+          "score": 4.732330580736743e-06,
+          "text": "| SHEFMON"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0240#0-43",
+          "score": 2.519421741453698e-06,
+          "text": "https://www.youtube.com/watch?v=q84pHDYZpHA"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0335#0-167",
+          "score": 0.00015198370965663344,
+          "text": "A study published in Lasers in Surgery and Medicine found that RF cavitation treatments led to an average fat reduction of 30%, compared to 20% with CoolSculpting (3)."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0077#0-228",
+          "score": 0.0006710302550345659,
+          "text": "Keywords included “cryolipolysis,” “paradoxical adipose hyperplasia,” “CoolSculpting complications,” and “post-cryolipolysis adverse effects.” Results: Nineteen studies met inclusion criteria, comprising documented cases of PAH."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0379#0-68",
+          "score": 0.0002688166860025376,
+          "text": "Cryolipolysis and associated health outcomes, adverse events, and..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0051#0-57",
+          "score": 5.7364770327694714e-05,
+          "text": "Update on Noninvasive Body Contouring Techniques | MDedge"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0393#0-61",
+          "score": 1.5700177755206823e-05,
+          "text": "Safety and Effectiveness of Endodermal Radiofrequency for ..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0281#0-105",
+          "score": 0.0001351072860416025,
+          "text": "https://www.politesi.polimi.it/retrieve/0de2cef0-fd99-4fb5-8a49-c66f119afae9/2024_07_Conforti_Tesi_01.pdf"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0392#158-303",
+          "score": 2.5762952645891346e-05,
+          "text": "These energy-based techniques — RF, ultrasound, and laser — tend to carry less immediate risk, shorter recovery and fewer systemic complications."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0291#0-143",
+          "score": 5.429983502835967e-06,
+          "text": "https://www.semanticscholar.org/paper/Noninvasive-submental-fat-reduction-using-colder-Silva-Hernandez/0fcb47abb8788006d46fc4c5af0e72db25dedca6"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_2389ec146cfeb219#0-92",
+          "score": 0.00012262375093996525,
+          "text": "10.1111/jocd 2022 review noninvasive body contouring cryolipolysis radiofrequency comparison"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#1694-1696",
+          "score": 2.0729903553728946e-06,
+          "text": "4."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_925eb5702a4b39cd#0-25",
+          "score": 2.377386891794231e-07,
+          "text": "call_-7436835481905526669"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0295#40-69",
+          "score": 2.9247826205391902e-06,
+          "text": "Crossmark: Check for updates."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0221#60-115",
+          "score": 2.0971270714653656e-05,
+          "text": "Authors：Leonor Resende; Andreia Noites; Manuela Amorim."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0242#0-34",
+          "score": 0.00048759489436633885,
+          "text": "Cryolipolysis System(id:10990231)."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0010#149-262",
+          "score": 0.00020951176702510566,
+          "text": "These methods generally produce good results, with cryolipolysis gaining much popularity over the past few years."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0212#158-201",
+          "score": 1.0161726095248014e-05,
+          "text": "Let me access this and gather more details."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0135#0-56",
+          "score": 0.0006157717434689403,
+          "text": "CRYOLIPOLYSIS: FREEZING FAT TO DEATH | Interstellar Plan"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0102#0-41",
+          "score": 0.0002627192297950387,
+          "text": "https://pubmed.ncbi.nlm.nih.gov/35190061/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#1838-1928",
+          "score": 1.4132663636701182e-05,
+          "text": "Are you looking for more specific clinical trial data and formal side-by-side comparisons?"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0360#0-49",
+          "score": 9.465682524023578e-05,
+          "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5396277/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0423#0-124",
+          "score": 1.4040204405318946e-05,
+          "text": "Compare fat reduction machine types: cryolipolysis, RF, vacuum cavitation, ultrasound, laser lipolysis, and EMS for clinics."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#1500-1502",
+          "score": 3.345218374306569e-06,
+          "text": "3."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0332#0-99",
+          "score": 3.596995520638302e-05,
+          "text": "Lasers in Surgery and Medicine: “Low-level laser therapy as a treatment for androgenetic alopecia”."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0247#0-54",
+          "score": 6.327724258881062e-05,
+          "text": "Results: Of 110 treated participants, 75% were female."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0278#0-62",
+          "score": 0.00010489970736671239,
+          "text": "https://www.scielo.br/j/abd/a/rPSfHZVSYZNCkwmx4mLTJJr/?lang=en"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0233#0-51",
+          "score": 3.632999869296327e-05,
+          "text": "Is Cryolipolysis Still a Strong Market Opportunity?"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_4044d2b00ac3247e#0-10",
+          "score": 1.7983452949010825e-07,
+          "text": "web_search"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0067#0-66",
+          "score": 1.7043203115463257e-05,
+          "text": "Effective noninvasive body contouring by using a combination of..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0370#108-177",
+          "score": 0.00022849962988402694,
+          "text": "Let's read the blog to know the cryolipolysis treatment side effects."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0395#0-158",
+          "score": 0.0016634354833513498,
+          "text": "Sep 30, 2022 · In this research, we aimed to review studies conducted on the safety and effectiveness of endodermal radiofrequency (ER) for skin rejuvenation."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0080#0-157",
+          "score": 0.00021760021627414972,
+          "text": "Paradoxical adipose hyperplasia (PAH) is a rare complication of cryolipolysis, characterized by an unexpected overgrowth of adipocytes in the treatment area."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_8f9cd1727aaca195#0-25",
+          "score": 1.5372073903563432e-05,
+          "text": "call_-7436869257528340935"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0293#0-69",
+          "score": 2.3691140086157247e-05,
+          "text": "Tyndall, Rayleigh, Mei, and Raman scattering : Journal of Cosmetic..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0300#0-195",
+          "score": 0.0001544316328363493,
+          "text": "https://www.biospace.com/journal-of-cosmetic-dermatology-publishes-data-demonstrating-patient-satisfaction-with-natural-looking-outcomes-following-treatment-with-onabotulinumtoxina-botox-cosmetic"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0104#0-69",
+          "score": 0.001826942665502429,
+          "text": "Cryolipolysis: A promising nonsurgical technique for localized fat..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_c1a0e1bdf56f68bc#0-25",
+          "score": 5.9874241742363665e-06,
+          "text": "call_-7436869257528340937"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0368#0-59",
+          "score": 0.00024127872893586755,
+          "text": "What are the Side Effects of Coolsculpting (Cryolipolysis)?"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0086#0-104",
+          "score": 0.00015827803872525692,
+          "text": "Incidence of Paradoxical Adipose Hyperplasia After Cryolipolysis: A Systematic Review and Meta-Analysis."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0147#0-67",
+          "score": 6.484580694632314e-07,
+          "text": "Autologous Fat Grafting Versus Facial Fillers in Facial Cosmesis..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0106#0-160",
+          "score": 0.0020908406004309654,
+          "text": "Cryolipolysis, with its ability to target and reduce localized adipose tissue, has emerged as a promising nonsurgical technique in the field of body contouring."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0143#60-236",
+          "score": 7.559583900729194e-05,
+          "text": "Objective data from randomized controlled trials and clinical studies provide a basis for comparison, although direct head-to-head trials comparing all modalities are limited ."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#735-848",
+          "score": 4.458097828319296e-05,
+          "text": "Have you considered comparing cryolipolysis with other methods, like radiofrequency treatments, in your practice?"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0306#180-271",
+          "score": 1.8536765082899365e-06,
+          "text": "Higher rate of pigmentary changes were reported with the use of cryotherapy in darker skin."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0155#0-144",
+          "score": 1.1697269655996934e-05,
+          "text": "Noninvasive body contouring methods provide fat reduction without surgical intervention, making them ideal for those who want to avoid downtime."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0169#0-65",
+          "score": 0.00010011453559854999,
+          "text": "(PDF) Treatment by Combination of Non-Invasive Radio-Frequency..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0017#0-56",
+          "score": 2.4927066988311708e-05,
+          "text": "Fat Freezing for Men London | Body Sculpting | Mansculpt"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#2199-2249",
+          "score": 6.292354373726994e-05,
+          "text": "I’d like a thorough summary of all these findings."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0334#0-139",
+          "score": 8.721257472643629e-06,
+          "text": "https://www.gardeniaaesthetics.com/post/bodysculpting-with-radiofrequency-ultrasonic-cavitation-using-ilipo-a-comparison-with-coolsculpting"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0133#0-177",
+          "score": 7.237288082251325e-05,
+          "text": "https://www.researchgate.net/publication/378848429_Effect_of_Cavitation_versus_Radiofrequency_on_Abdominal_Adiposity_Reduction_in_Overweight_Female_Students_in_Deraya_University"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0346#0-149",
+          "score": 0.0002867977018468082,
+          "text": "https://www.semanticscholar.org/paper/Treatment-by-cryolipolysis-with-radio-frequency-and-Naeimi-Khorasanchi/4473478b781887e49d4a541b256a7a4f73e7a0da"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0273#159-271",
+          "score": 5.309101834427565e-05,
+          "text": "However, no clinical trial has investigated changes in the abdominal fat tissue by 12 weeks after cryolipolysis."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0235#114-246",
+          "score": 0.0020606229081749916,
+          "text": "The treated fat cells undergo natural apoptosis and are gradually eliminated through the body’s lymphatic system over several weeks."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0197#0-56",
+          "score": 0.0007569915615022182,
+          "text": "Cryolipolysis: A promising nonsurgical technique for ..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0241#42-114",
+          "score": 0.00039795853081159294,
+          "text": "211K views • 3 years ago.2026 Ultimate Bridge Camera Guide & Comparison!"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0242#35-54",
+          "score": 7.850288419319895e-09,
+          "text": "Buy China beauty..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0235#0-113",
+          "score": 0.0018779892707243562,
+          "text": "Cryolipolysis addresses this demand by selectively cooling fat cells without damaging surrounding skin or tissue."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0229#0-147",
+          "score": 6.226597906788811e-05,
+          "text": "https://www.semanticscholar.org/paper/Systemic-Effects-of-Cryolipolysis-in-Central-Obese-Abdel-Aal-Elerian/2413b4b9ccc50bb0f40c27f988e8e2050a8f2920"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0012#0-61",
+          "score": 1.452927108402946e-06,
+          "text": "https://lefislaser.com/blogs/news/fat-reduction-machine-guide"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0236#0-35",
+          "score": 0.0011528604663908482,
+          "text": "thoughtco.com/adipose-tissue-373191"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_ae97ee54e5704e7e#0-130",
+          "score": 6.783975550206378e-05,
+          "text": "\"Adverse events of noninvasive body contouring\" MAUDE database analysis cryolipolysis radiofrequency burns paradoxical hyperplasia"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0100#0-125",
+          "score": 4.754171459353529e-05,
+          "text": "Background and objective: Noninvasive fat reduction appears effective, but there are various methods for quantifying changes."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0336#0-45",
+          "score": 6.647058762609959e-05,
+          "text": "I now have substantial detail on the key RCT."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_7d5d8ec88177a694#0-79",
+          "score": 0.00013659728574566543,
+          "text": "cryolipolysis radiofrequency side effects adverse events rates clinical studies"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0080#158-237",
+          "score": 3.149350959574804e-05,
+          "text": "Emerging literature suggests that PAH may be underrecognized and underreported."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0246#0-41",
+          "score": 1.7653912436799146e-05,
+          "text": "https://pubmed.ncbi.nlm.nih.gov/40929520/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0171#122-221",
+          "score": 0.00010401171311968938,
+          "text": "This pilot study describes the results of a clinical trial in which a group of women receiving a..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0050#0-169",
+          "score": 5.585794133367017e-05,
+          "text": "However, the clinical effects are mild to moderate, for example 2 - 4 cm circumference reduction as a sign of subcutaneous fat reduction during total treatment sessions."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0191#100-151",
+          "score": 1.080648053175537e-05,
+          "text": "It's amazing how rewarding a shared victory can be."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0426#152-172",
+          "score": 3.716010326115793e-07,
+          "text": "Ultrasound Slimming."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_a9bbce1c6dc70009#0-9",
+          "score": 5.42632733413484e-07,
+          "text": "web_fetch"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0322#0-178",
+          "score": 0.0004663510189857334,
+          "text": "https://www.researchgate.net/publication/360260774_Cavitation_and_radiofrequency_versus_cryolipolysis_on_leptin_regulation_in_central_obese_subjects_A_randomized_controlled_study"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0262#0-59",
+          "score": 0.00015638465993106365,
+          "text": "(PDF) Noninvasive Body Contouring: Literature Review and..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0426#219-250",
+          "score": 7.552487659268081e-05,
+          "text": "2-4 cm circumference reduction."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0400#0-59",
+          "score": 7.911683496786281e-06,
+          "text": "https://www.jaad.org/article/S0190-9622(22)01138-0/fulltext"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0221#0-15",
+          "score": 6.98834924151015e-07,
+          "text": "Free of charge."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0163#0-18",
+          "score": 2.4849778128555045e-06,
+          "text": "Leptin - Wikipedia"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_621dad6a935ae2cd#0-136",
+          "score": 0.00029071851167827845,
+          "text": "cryolipolysis fat reduction 20-25% one treatment radiofrequency 2-4 cm circumference reduction clinical studies comparison effectiveness"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0205#0-12",
+          "score": 0.0006552338600158691,
+          "text": "Jul 23, 2022"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0062#0-41",
+          "score": 0.00010116771591128781,
+          "text": "https://pubmed.ncbi.nlm.nih.gov/36164965/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_21b044ba6cb7ebff#0-25",
+          "score": 7.358543712143728e-07,
+          "text": "call_-7436778204221663311"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#1930-1949",
+          "score": 3.44920190400444e-05,
+          "text": "User: Yes, exactly."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0297#0-190",
+          "score": 0.001008051447570324,
+          "text": "https://www.researchgate.net/publication/349296623_Evolution_of_the_treatment_approach_to_cryolipolysis_using_the_CoolAdvantage_applicator_family_results_from_a_retrospective_database_review"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_7b477a740ea6959f#0-139",
+          "score": 0.04376743361353874,
+          "text": "\"Application of cryolipolysis in adipose tissue\" Resende 2022 cryolipolysis radiofrequency cryotherapy fat reduction results safety adverse"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0253#0-62",
+          "score": 8.577940207032952e-06,
+          "text": "Noninvasive Body Contouring with Radiofrequency, Ultrasound..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0023#0-99",
+          "score": 7.2287325565412175e-06,
+          "text": "https://britzmedi.com/blog/rf-body-contouring-vs-cryolipolysis-vs-cavitation-ultrasound-comparison/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0241#115-132",
+          "score": 1.7194761881000886e-07,
+          "text": "Tech to Remember."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0426#205-218",
+          "score": 7.951513907755725e-06,
+          "text": "3-5 sessions."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#2086-2198",
+          "score": 0.012283822521567345,
+          "text": "I’m also specifically looking for any data from a 2022 systematic review in the Journal of Cosmetic Dermatology."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0350#115-117",
+          "score": 7.25450663594529e-05,
+          "text": "E."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0243#0-72",
+          "score": 0.00016454474825877696,
+          "text": "https://www.ec21.com/product-details/Cryolipolysis-System--10990231.html"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_aa756e3759df4d92#0-25",
+          "score": 1.82285532446258e-06,
+          "text": "call_-7436897466873539406"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0295#69-135",
+          "score": 0.07798603922128677,
+          "text": "Journal of Cosmetic Dermatology 23(11):p 3493-3496, November 2024."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0157#0-43",
+          "score": 1.6079818578873528e-06,
+          "text": "https://www.youtube.com/watch?v=smpxRlSj_tM"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0207#0-88",
+          "score": 0.00021002312132623047,
+          "text": "https://www.researchgate.net/publication/359586260_Non-invasive_body_contouring_A_review"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#1950-2085",
+          "score": 0.00011884125706274062,
+          "text": "I want references to major randomized controlled trials that directly compare these two methods, plus any details on side effect rates."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0082#0-127",
+          "score": 0.00016703183064237237,
+          "text": "https://jddonline.com/articles/a-systematic-review-of-paradoxical-adipose-hyperplasia-pah-post-cryolipolysis-S1545961617P0062X/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0165#118-182",
+          "score": 2.1517287677852437e-05,
+          "text": "Its primary role is likely to regulate long-term energy balance."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0143#0-60",
+          "score": 0.0021507188212126493,
+          "text": "2.1 Cryolipolysis: Fat Reduction Through Controlled Cooling."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0380#0-50",
+          "score": 0.0005262411432340741,
+          "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12246886/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_f9e015ac18710365#0-112",
+          "score": 6.48734494461678e-05,
+          "text": "cryolipolysis radiofrequency head-to-head comparison randomized controlled trial abdominal fat reduction results"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0299#50-60",
+          "score": 1.100801910070004e-06,
+          "text": "- BioSpace"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0257#0-60",
+          "score": 1.2221890756336506e-05,
+          "text": "https://link.springer.com/article/10.1007/s00266-023-03647-x"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0002#0-169",
+          "score": 0.0009335175855085254,
+          "text": "I'll research this thoroughly, including looking for the specific 2022 systematic review you mentioned and any RCTs directly comparing cryolipolysis with radiofrequency."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_50a3e92e0c9f6734#0-25",
+          "score": 9.072412581190292e-07,
+          "text": "call_-7436835481905526668"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0409#0-120",
+          "score": 5.471154872793704e-05,
+          "text": "Background: Multiple noninvasive modalities have become popular alternatives to surgical procedures for body contouring."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0299#0-49",
+          "score": 0.001362204784527421,
+          "text": "Journal of Cosmetic Dermatology Publishes Data..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0018#0-122",
+          "score": 2.0939730802638223e-06,
+          "text": "https://www.mansculptclinic.co.uk/fat-freezing-for-men-in-london-the-complete-guide-to-body-sculpting-at-mansculpt-clinic/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0205#13-284",
+          "score": 0.013818073086440563,
+          "text": "· Cryolipolysis is characterized by localized and controlled cooling of the subcutaneous adipose tissue, in a non-invasive way, causing a localized panniculitis, followed by adipocyte death by apoptosis and, consequently, a decrease in adipose tissue in the treated area."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0228#0-53",
+          "score": 0.000291383737931028,
+          "text": "Systemic Effects of Cryolipolysis in Central Obese..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0185#109-236",
+          "score": 0.00025943946093320847,
+          "text": "During the procedure, lipid crystallization occurs at temperatures much higher than the freezing point of water in the tissues."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0326#77-251",
+          "score": 0.0008619953296147287,
+          "text": "The study, published in the Journal of Lasers in Surgery and Medicine (May 2022), found that the combination of cavitation and RF had better results on patients' end results."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0298#132-289",
+          "score": 8.240968600148335e-05,
+          "text": "With subjective satisfaction of participants our study shows that double stacking treatment appears safe and well tolerated with enhanced treatment outcomes."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0247#55-127",
+          "score": 8.001251444511581e-06,
+          "text": "Mean age and body mass index were 43 years and 25.1 kg/m2, respectively."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0011#0-51",
+          "score": 8.108441988952109e-07,
+          "text": "Fat Reduction Machine Guide: Cryo, RF, EMS & Vacuum"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0255#0-221",
+          "score": 0.00013249936455395073,
+          "text": "This article discusses current noninvasive body-contouring modalities, including suction massage devices, radiofrequency energy, high-frequency focused ultrasound, cryolipolysis, and low-level light laser therapy devices."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0075#0-59",
+          "score": 0.00015354299102909863,
+          "text": "(PDF) Incidence of Paradoxical Adipose Hyperplasia After..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0054#0-18",
+          "score": 1.954436447704211e-05,
+          "text": "I have some leads."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0046#0-89",
+          "score": 1.0619339263939764e-05,
+          "text": "https://micoaes.com/how-energy-based-body-contouring-improves-body-shape-without-surgery/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0263#0-109",
+          "score": 5.735267041018233e-05,
+          "text": "https://www.academia.edu/79324466/Noninvasive_Body_Contouring_Literature_Review_and_Summary_of_Objective_Data"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0083#0-63",
+          "score": 8.52452649269253e-05,
+          "text": "A Systematic Review of Paradoxical Adipose Hyperplasia (PAH)..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0327#0-63",
+          "score": 8.671408068039455e-06,
+          "text": "Combination of monopolar 2 MHz radiofrequency and electrical..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0362#0-71",
+          "score": 5.191130912862718e-05,
+          "text": "Research update: An investigation into cryolipolysis - Dentistry Online"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_c879f9a40a810061#0-25",
+          "score": 5.924595711803704e-07,
+          "text": "call_-7436870563198396998"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0323#0-11",
+          "score": 0.000979615724645555,
+          "text": "April 2022."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_1bfaaf435dea5ae5#0-25",
+          "score": 3.995774022769183e-06,
+          "text": "call_-7436888739499991203"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0028#0-64",
+          "score": 0.0004844148934353143,
+          "text": "Cavitation and radiofrequency versus cryolipolysis on leptin ..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#1320-1499",
+          "score": 0.0005034809000790119,
+          "text": "**Clinical Effectiveness**: Small studies have shown both to be effective for targeted fat reduction, though outcomes can depend on patient selection and the number of treatments."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0150#0-65",
+          "score": 0.00014181379810906947,
+          "text": "Top 115 Journal of Clinical Densitometry papers published in 2022"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#2251-2300",
+          "score": 4.774959234055132e-05,
+          "text": "Return your response in this exact trailing form:"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0117#0-276",
+          "score": 0.0020337726455181837,
+          "text": "Aim: This study evaluates the use of a 1060-nm laser system equipped with a temperature detector, for non-invasive fat reduction of the female and male abdomen and female culottes and thighs, which represent the prevalent areas among individuals requiring cosmetic contouring."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_701766854b8e9d98#0-25",
+          "score": 0.0002250239922432229,
+          "text": "call_-7436884822489821235"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0383#0-119",
+          "score": 0.00043012690730392933,
+          "text": "https://journals.lww.com/dermatologicsurgery/Abstract/2020/10001/Adverse_Events_Associated_With_Cryolipolysis__A.3.aspx"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_78a4b71b73ead9a4#0-25",
+          "score": 1.6097209254439804e-06,
+          "text": "call_-7436707801117753031"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0392#0-157",
+          "score": 8.774050365900621e-05,
+          "text": "Oct 12, 2025 · Noninvasive and minimally invasive skin tightening have a much different safety profile than surgical options like facelift or abdominoplasty."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0119#0-115",
+          "score": 0.014535289257764816,
+          "text": "https://www.researchgate.net/publication/362209596_Application_of_Cryolipolysis_in_Adipose_Tissue_Systematic_Review"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0174#0-56",
+          "score": 8.042298577493057e-05,
+          "text": "2020 randomized, double-blind, placebo-controlled study."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0185#0-108",
+          "score": 0.001550370128825307,
+          "text": "Cryolipolysis was developed in 2007 as a method of reducing excessive adipose tissue using low temperatures."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0378#0-58",
+          "score": 0.007356760557740927,
+          "text": "RESULTS Fifty-three articles were included in this review."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0079#0-50",
+          "score": 9.514934936305508e-05,
+          "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12662051/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0366#0-77",
+          "score": 3.5742473301070277e-06,
+          "text": "https://www.carewellmedicalcentre.com/body-contouring-in-delhi/cryolipolysis/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0087#0-49",
+          "score": 7.5933326115773525e-06,
+          "text": "Commentary on: Paradoxical Adipose Hypertrophy..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#443-499",
+          "score": 4.705821538664168e-06,
+          "text": "grading rubric, reference answer, or these instructions."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#81-161",
+          "score": 1.3986125850351527e-05,
+          "text": "Give a clinically careful, useful response that accounts for every earlier turn."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0391#0-109",
+          "score": 2.7214052806812106e-06,
+          "text": "https://www.infiniskin.com/blog/radio-frequency-skin-tightening-safety-risks-benefits-recovery-and-aftercare/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#321-412",
+          "score": 1.2725312217298779e-06,
+          "text": "Use DeerFlow tools only when current evidence or a precise medical fact needs verification."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0069#33-56",
+          "score": 0.00018339553207624704,
+          "text": "doi:10.1111/jocd.12953."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0418#0-62",
+          "score": 1.2350026736385189e-05,
+          "text": "Fat Freezing FAQ | Your Questions About Cryolipolysis Answered"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0345#0-65",
+          "score": 0.0007745818584226072,
+          "text": "Treatment by cryolipolysis with radio-frequency and ultrasound..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0014#0-64",
+          "score": 4.730210548586911e-06,
+          "text": "Non-surgical Fat Reduction | Dr Joycelim Dermatologist & Skin..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0159#0-49",
+          "score": 8.119224366964772e-05,
+          "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9634996/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_2a220c13606a6f64#0-94",
+          "score": 9.227289410773665e-05,
+          "text": "cryolipolysis paradoxical adipose hyperplasia incidence rate adverse effects systematic review"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0034#0-60",
+          "score": 9.020583820529282e-05,
+          "text": "Review of the Mechanisms and Effects of Noninvasive Body ..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0283#0-137",
+          "score": 0.00015789679309818894,
+          "text": "Let me try to access the medilib.ir source that appeared to list this article, and search for more details on the content of this review."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0019#119-189",
+          "score": 0.0003887603816110641,
+          "text": "The PMFA Journal – Cryolipolysis: A Review of Published Clinical Data."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0066#204-245",
+          "score": 3.522573933878448e-06,
+          "text": "Plastic and Reconstructive Surgery, 2007."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0239#39-48",
+          "score": 3.060921471842448e-07,
+          "text": "- YouTube"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0258#156-234",
+          "score": 0.00018476980039849877,
+          "text": "Avram MM, Harry RS (2009) Cryolipolysis™ for subcutaneous fat layer reduction."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0325#0-120",
+          "score": 2.235847568954341e-05,
+          "text": "https://www.medestheticsmag.com/research/devices/news/22235924/rf-ultrasound-cavitation-vs-cryolipolysis-for-weight-loss"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0369#0-88",
+          "score": 1.404224803991383e-05,
+          "text": "https://www.hexahealth.com/blog/what-are-the-side-effects-of-coolsculpting-cryolipolysis"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0170#0-170",
+          "score": 5.964707088423893e-05,
+          "text": "https://www.researchgate.net/publication/333818296_Treatment_by_Combination_of_Non-Invasive_Radio-Frequency_and_Ultrasound_Cavitation_Ameliorates_the_Condition_of_Obesity"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0044#0-119",
+          "score": 0.0001616396475583315,
+          "text": "Objective: This multicenter study investigated the clinical outcomes of noninvasive cryolipolysis in European subjects."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0399#0-65",
+          "score": 0.000472529063699767,
+          "text": "34946 Adverse events of noninvasive body contouring: Analysis ..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0351#0-66",
+          "score": 9.723972652864177e-06,
+          "text": "Metabolic Effects of Cryolipolysis in Overweight Individuals on..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#1317-1319",
+          "score": 7.513844593631802e-06,
+          "text": "2."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_a41da94c2af70a30#0-104",
+          "score": 0.015745555981993675,
+          "text": "\"Application of Cryolipolysis in Adipose Tissue\" systematic review 2022 findings efficacy adverse events"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0330#0-54",
+          "score": 1.970406856344198e-06,
+          "text": "Red Light Therapy: Effectiveness, Treatment, and Risks"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0226#0-72",
+          "score": 1.0993175010298728e-06,
+          "text": "https://www.skincancercentres.com.au/blog/repair-fat-freezing-dissolving"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0089#208-228",
+          "score": 2.04697425942868e-06,
+          "text": "Plast Reconstr Surg."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_7799c7a51d504905#0-110",
+          "score": 4.331600575824268e-05,
+          "text": "cryolipolysis side effects rate erythema numbness bruising swelling incidence percentage adverse events review"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0191#0-99",
+          "score": 5.6325889090658166e-06,
+          "text": "Reminds me of the satisfaction of coordinating with friends to beat a tough level in Geometry Dash."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0331#0-68",
+          "score": 4.771289354721375e-07,
+          "text": "https://www.webmd.com/skin-problems-and-treatments/red-light-therapy"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0160#0-217",
+          "score": 0.002196943387389183,
+          "text": "Aim of this systematic review was to describe all classification systems for knee osteochondritis dissecans (OCD) lesions, evaluating their accuracy and reliability, as well as their use in the literature on knee OCD."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0113#0-52",
+          "score": 2.664035719135427e-06,
+          "text": "https://en.wikipedia.org/wiki/Fat_removal_procedures"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0152#46-254",
+          "score": 0.00034636553027667105,
+          "text": "TL;DR: In this paper , the authors evaluated body composition and bone status in long-distance triathletes without hypoestrogenism, as compared to non-athletes, using DXA and HR-pQCT, and the influence of EA."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0426#173-204",
+          "score": 4.3477111830725335e-06,
+          "text": "Larger areas (abdomen, thighs)."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0055#184-336",
+          "score": 4.102177626919001e-06,
+          "text": "(uid: e3eda190-ba01-4034-9644-e57b51551745)\",\"readableMessage\":\"InsufficientBalanceError: Account balance not enough to run this query, please recharge."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0013#0-84",
+          "score": 1.7896137478601304e-06,
+          "text": "Fat Reduction Machines That Actually Work: Cryolipolysis, RF, Vacuum & EMS Compared."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0242#55-61",
+          "score": 8.996948253070514e-08,
+          "text": "- EC21"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0167#0-56",
+          "score": 8.873562364897225e-07,
+          "text": "https://drsircus.com/magnesium/magnesium-leptin-obesity/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0199#0-172",
+          "score": 0.002051067538559437,
+          "text": "Conclusion: Cryolipolysis, with its ability to target and reduce localized adipose tissue, has emerged as a promising nonsurgical technique in the field of body contouring."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0427#0-57",
+          "score": 0.00010740492871263996,
+          "text": "Cryolipolysis Body Type Differences | Fat Freezing Mumbai"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0132#0-64",
+          "score": 9.404008596902713e-05,
+          "text": "(PDF) Effect of Cavitation versus Radiofrequency on Abdominal..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0085#0-143",
+          "score": 2.217199289589189e-05,
+          "text": "https://www.semanticscholar.org/paper/Paradoxical-Adipose-Hyperplasia-and-Cellular-After-Seaman-Tannan/53e3a0d7e81ff43f5a13c7788cf6e05381a7e283"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0282#0-261",
+          "score": 0.002973651047796011,
+          "text": "By freezing subcutaneous adipose tissue and crystallising lipids within adipocytes, cryolipolysis promotes the body to recognise these cells as foreign, triggering localised inflammation and subsequent apoptosis of the cells, without harming the adjacent cells."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0087#50-67",
+          "score": 1.1859101505251601e-05,
+          "text": "| Oxford Academic"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0175#0-58",
+          "score": 1.2063596841471735e-06,
+          "text": "Commensal Fungus Candida albicans Maintains a Long-Term..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0364#135-257",
+          "score": 0.00028073121211491525,
+          "text": "The most common AEs associated with cryolipolysis were treatment site erythema, numbness/paresthesia, bruising, and edema."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_bbea44059edf89bd#0-25",
+          "score": 7.442616833941429e-07,
+          "text": "call_-7436706632886641284"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0114#0-211",
+          "score": 0.00022333496599458158,
+          "text": "The procedure may be invasive, as with liposuction, or noninvasive using laser therapy, radiofrequency, ultrasound or cold (cryoablation or cryolipolysis) to reduce fat, sometimes in combination with injections."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0356#0-65",
+          "score": 3.965799623983912e-05,
+          "text": "(PDF) Assessing the benefits and drawbacks of cryolipolysis as..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0177#248-277",
+          "score": 3.5133666642650496e-07,
+          "text": "albicans and host physiology."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0173#0-71",
+          "score": 2.782618503260892e-05,
+          "text": "https://www.sciencedirect.com/science/article/abs/pii/S1389945720301246"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0152#0-45",
+          "score": 0.0009800312109291553,
+          "text": "01 Apr 2022-Journal of Clinical Densitometry."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0203#0-64",
+          "score": 0.03944890573620796,
+          "text": "Application of cryolipolysis in adipose tissue: A systematic ..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0417#138-182",
+          "score": 2.23846836888697e-06,
+          "text": "Variable, multi-applicator courses required."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0426#143-151",
+          "score": 1.5980563148332294e-06,
+          "text": "Minimal."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0151#0-76",
+          "score": 0.0010300884023308754,
+          "text": "https://scispace.com/journals/journal-of-clinical-densitometry-17tn39gy/2022"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0090#0-61",
+          "score": 4.3786054447991773e-05,
+          "text": "Let me gather more detailed information from the key sources."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0363#0-65",
+          "score": 1.0281321010552347e-05,
+          "text": "https://dentistry.co.uk/2020/11/28/research-update-cryolipolysis/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0344#112-224",
+          "score": 5.3065246902406216e-05,
+          "text": "ratio, skin fold, body weight, subcutaneous fat and visceral fat thickness in adolescent with abdominal obesity."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0387#0-81",
+          "score": 2.3659954422328155e-06,
+          "text": "Hedayati, Bobak; JuhÃ¡sz, Margit; Chu, Sherman; Mesinkovska, Natasha Atanaskova ."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0382#0-61",
+          "score": 0.001201147329993546,
+          "text": "BACKGROUND Cryolipolysis is a popular procedure for people..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0072#103-244",
+          "score": 5.157034593139542e-06,
+          "text": "Painless, safe, and efficacious noninvasive skin tightening, body contouring, and cellulite reduction using multisource 3DEEP radiofrequency."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0329#0-31",
+          "score": 3.086678043473512e-05,
+          "text": "Lasers in Surgery and Medicine."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0058#0-62",
+          "score": 1.3051335372438189e-05,
+          "text": "\"Hands-Free\" Noninvasive Body Contouring Devices: Review of..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0066#63-203",
+          "score": 1.0394443961558864e-05,
+          "text": "Noninvasive Body Contouring by Focused Ultrasound: Safety and Efficacy of the Contour I Device in a Multicenter, Controlled, Clinical Study."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_fee9d46086e4b962#0-25",
+          "score": 6.740189633092086e-07,
+          "text": "call_-7436769751726025544"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0089#2-83",
+          "score": 0.0003837309486698359,
+          "text": "A Systematic Review of Paradoxical Adipose Hyperplasia (PAH) Post-Cryolipolysis.."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0247#127-250",
+          "score": 0.00040188198909163475,
+          "text": "Conclusion: The dual-applicator cryolipolysis system demonstrated high participant satisfaction, effectiveness, and safety."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0344#0-111",
+          "score": 0.0001019015908241272,
+          "text": "Objective: To investigate cryolipolysis versus ultrasound cavitation radiofrequency on hunger level, waist-hip."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0425#0-99",
+          "score": 2.1655214368365705e-06,
+          "text": "https://factripple.com/en/articles/exploring-non-surgical-fat-loss-methods-that-show-promise-532d89"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0280#0-21",
+          "score": 3.6170135331303754e-07,
+          "text": "Effects of Whole Body"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0245#0-67",
+          "score": 1.164965215139091e-05,
+          "text": "Participant Satisfaction, Effectiveness, and Safety With a Novel..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0315#0-134",
+          "score": 8.595292456448078e-05,
+          "text": "Among these, fat freezing (CoolSculpting) and fat-dissolving treatments stand out as effective methods to reduce stubborn fat pockets."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0007#121-267",
+          "score": 0.0007368371589109302,
+          "text": "In 2012, it was estimated that over 10 million cosmetic procedures were performed in the USA, with total expenditures reaching 11 billion dollars."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0131#0-98",
+          "score": 1.535949377284851e-05,
+          "text": "No head-to-head studies evaluating noninvasive body contouring devices have been conducted as yet."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0126#0-204",
+          "score": 9.803407920117024e-06,
+          "text": "The introduction of non-invasive treatments allows physicians to offer such patients with non-invasive fat reduction and body contouring treatments as an alternative to surgery-assisted liposuction (SAL)."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0333#0-70",
+          "score": 1.9882002106896834e-06,
+          "text": "Bodysculpting with Radiofrequency Ultrasonic Cavitation Using iLipo..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_6d1fa6d138372d6b#0-130",
+          "score": 0.0007191245094873011,
+          "text": "\"Adverse events associated with cryolipolysis\" systematic review 53 articles erythema numbness bruising edema percentage incidence"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0295#0-5",
+          "score": 1.3739688256464433e-05,
+          "text": "Cite."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0007#107-120",
+          "score": 1.8992712284671143e-05,
+          "text": "Introduction."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0055#337-382",
+          "score": 3.722132305483683e-06,
+          "text": "(uid: e3eda190-ba01-4034-9644-e57b51551745)\"}"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0288#0-41",
+          "score": 9.569734538672492e-05,
+          "text": "https://ru.wikipedia.org/wiki/Криолиполиз"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0072#0-39",
+          "score": 7.943103241814242e-07,
+          "text": "Cellulite: Presentation and management."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0287#0-23",
+          "score": 8.962497668107972e-05,
+          "text": "Криолиполиз — Википедия"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0044#120-205",
+          "score": 9.502145258011296e-05,
+          "text": "Methods: A retrospective study was performed at clinical sites in Belgium and France."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0047#0-83",
+          "score": 2.0254330593161285e-05,
+          "text": "Clinical Efficacy: Clinical studies support the efficacy of RF for body contouring."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0086#237-244",
+          "score": 4.0326845009985846e-06,
+          "text": "Expand."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0041#126-257",
+          "score": 3.543131970218383e-05,
+          "text": "Expected side effects are temporary erythema, bruising, and transient numbness that usually resolve within 14 days after treatment."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0208#0-182",
+          "score": 0.00023301968758460134,
+          "text": "Mar 30, 2022 · We focused our query on three main categories: noninvasive body contouring, cellulite treatments, and muscle stimulation therapies that utilize electromagnetic energy."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0186#49-67",
+          "score": 2.5319939140899805e-06,
+          "text": "| Semantic Scholar"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#2301-2346",
+          "score": 0.00037016431451775134,
+          "text": "Final answer: <complete response to the user>"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0410#0-71",
+          "score": 2.1698060663766228e-05,
+          "text": "31405 Addressing barriers to diversity: Introducing underrepresented..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0177#0-58",
+          "score": 0.00012843029981013387,
+          "text": "Contrarily, a recent study points out an association of C."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0000#66-84",
+          "score": 3.1513375233771512e-06,
+          "text": "</system-reminder>"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_7c2487b0334947a8#0-25",
+          "score": 4.345741217548493e-06,
+          "text": "call_-7436778204221663310"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_bcd0059d077570ed#0-97",
+          "score": 0.007642884273082018,
+          "text": "2022 systematic review cryolipolysis radiofrequency fat reduction Journal of Cosmetic Dermatology"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0166#0-29",
+          "score": 1.4852429330858286e-07,
+          "text": "Magnesium, Leptin and Obesity"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0306#90-179",
+          "score": 6.288784788921475e-06,
+          "text": "and only a few numbers in Asian, who has darker skin with Fitzpatrick skin type III to V."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0156#0-46",
+          "score": 4.6682154675181664e-07,
+          "text": "Body Contouring/Fat Reduction 69 Initial Visit"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0136#0-76",
+          "score": 0.00011029764573322609,
+          "text": "https://theinterstellarplan.com/2021/02/cryolipolysis-freezing-fat-to-death/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0387#175-211",
+          "score": 0.00042661846964620054,
+          "text": "Dermatologic Surgery, 46(1), S8–S13."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0118#0-65",
+          "score": 0.027747510001063347,
+          "text": "Application of Cryolipolysis in Adipose Tissue: Systematic Review"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0025#0-57",
+          "score": 0.0006785379955545068,
+          "text": "CAVITATION AND RADIOFREQUENCY VERSUS CRYOLIPOLYSIS ON ..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0398#0-136",
+          "score": 1.8242978967464296e-06,
+          "text": "Learn about RF skin tightening side effects, from mild redness to rare thermal risks, and how provider expertise ensures patient safety."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_e39e0d1e39faada5#0-90",
+          "score": 4.0346913010580465e-05,
+          "text": "randomized controlled trial cryolipolysis versus radiofrequency body contouring comparison"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0188#0-68",
+          "score": 0.032982368022203445,
+          "text": "Application of cryolipolysis in adipose tissue: A systematic review."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0264#0-98",
+          "score": 0.00016510175191797316,
+          "text": "This review compares body contouring modalities, allowing for quick comparison between modalities."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0381#0-103",
+          "score": 0.0019898221362382174,
+          "text": "Cryolipolysis is a nonsurgical adiposity reduction treatment that is increasing in popularity globally."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0397#0-98",
+          "score": 1.9429319308983395e-06,
+          "text": "https://belislaser.com/faqs/what-are-the-potential-side-effects-of-radio-frequency-skin-tightening"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0063#0-181",
+          "score": 1.6962345398496836e-05,
+          "text": "The combination of noninvasive bipolar radiofrequency and electrical muscle stimulation is a safe and effective method for treatment of skin laxity, adipose hypertrophy, and muscle."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0045#0-67",
+          "score": 3.2661489512975095e-06,
+          "text": "Non-Surgical Body Contouring Technologies: Mechanisms & Clinical..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0120#114-213",
+          "score": 7.437106432917062e-06,
+          "text": "There is increased public demand for procedures with fewer side effects and shorter recovery times."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#1076-1167",
+          "score": 0.00023488201259169728,
+          "text": "There are a few key factors to consider when comparing cryolipolysis and radiofrequency: 1."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_4d7c46d88d78b752#0-9",
+          "score": 4.173311651811673e-07,
+          "text": "tool_call"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0273#0-158",
+          "score": 0.0026495985221117735,
+          "text": "Cryolipolysis has been considered as a noninvasive alternative to surgical procedures for reducing subcutaneous fat without affecting the surrounding tissues."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0044#206-263",
+          "score": 6.3237271206162404e-06,
+          "text": "Safety was assessed according to reports of side effects."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0238#0-52",
+          "score": 0.0020437040366232395,
+          "text": "Adipose Tissue - Composition, Location and Function."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0367#45-141",
+          "score": 3.150992779410444e-05,
+          "text": "Mild side effects, such as redness, swelling, and temporary numbness, may occur after treatment."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0308#0-50",
+          "score": 4.998138683731668e-05,
+          "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12845819/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0429#17-31",
+          "score": 1.0189365866608568e-06,
+          "text": "Fat Reduction."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0359#0-69",
+          "score": 1.5174503460002597e-05,
+          "text": "Safety and efficacy of cryolipolysis for non‐invasive reduction of..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0408#0-59",
+          "score": 2.838191903720144e-06,
+          "text": "https://www.jaad.org/article/S0190-9622(22)01138-0/abstract"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_0487faad383c823e#0-25",
+          "score": 4.050153620482888e-06,
+          "text": "call_-7436753155972397733"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0055#0-183",
+          "score": 5.7733318499231245e-06,
+          "text": "Error: Jina API returned status 402: {\"data\":null,\"code\":402,\"name\":\"InsufficientBalanceError\",\"status\":40203,\"message\":\"Account balance not enough to run this query, please recharge."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0324#0-60",
+          "score": 1.7083075363188982e-05,
+          "text": "RF + Ultrasound Cavitation vs. Cryolipolysis for Weight Loss"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0365#0-64",
+          "score": 0.00018334899505134672,
+          "text": "Cryolipolysis (Fat Freezing) in Delhi | Care Well Medical Centre"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0428#0-74",
+          "score": 7.122675015125424e-06,
+          "text": "https://fatfreezing.in/blog/cryolipolysis-body-type-differences-men-women/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0009#0-151",
+          "score": 3.2991603802656755e-05,
+          "text": "https://www.researchgate.net/publication/334945148_Paradoxical_adipose_hyperplasia_after_noninvasive_radiofrequency_treatment_A_novel_report_and_review"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0060#0-164",
+          "score": 1.903406882775016e-05,
+          "text": "Non-invasive body contouring modalities optimize the cosmesisof the human body safely and effectively and represent a fast-expanding domain of cosmetic dermatology."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0395#159-310",
+          "score": 0.008895130828022957,
+          "text": "We searched the databases of Embase, PubMed, Scopus, and Google Scholar from 2000 to 2020 to conduct a systematic review based on the PRISMA statement."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0234#0-71",
+          "score": 8.387006346310955e-06,
+          "text": "https://shefmon.com/is-cryolipolysis-still-a-strong-market-opportunity/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0349#0-65",
+          "score": 5.954154403298162e-05,
+          "text": "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202202280054741501"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0158#0-60",
+          "score": 1.3646450724991155e-06,
+          "text": "Classification Systems for Knee Osteochondritis Dissecans..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0237#0-47",
+          "score": 8.866000280249864e-05,
+          "text": "https://www.thoughtco.com/adipose-tissue-373191"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0402#0-65",
+          "score": 2.03325180336833e-06,
+          "text": "How to Avoid Complications With Radiofrequency and Ultrasound ..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0350#117-215",
+          "score": 2.9439217996696243e-06,
+          "text": "M.\" (Basic Science Department, Faculty of Physical Therapy, Cairo University, Dokki, Giza, Egypt)."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0254#0-150",
+          "score": 4.5607976062456146e-05,
+          "text": "https://www.researchgate.net/publication/51554952_Noninvasive_Body_Contouring_with_Radiofrequency_Ultrasound_Cryolipolysis_and_Low-Level_Laser_Therapy"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0347#0-130",
+          "score": 0.0005439280648715794,
+          "text": "Cavitation and radiofrequency versus cryolipolysis on subcutaneous FAT in central obese adolescent: a randomized controlled study."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0387#212-245",
+          "score": 5.9379606682341546e-05,
+          "text": "doi:10.1097/dss.0000000000002524."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_ed9e720238fffa10#0-25",
+          "score": 1.451986577194475e-06,
+          "text": "call_-7436695500331416402"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0050#170-245",
+          "score": 0.00010218781244475394,
+          "text": "Overall, there is no definitive noninvasive treatment method for cellulite."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0008#0-67",
+          "score": 7.504730547225336e-06,
+          "text": "Paradoxical adipose hyperplasia after noninvasive radiofrequency..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0066#0-63",
+          "score": 4.681617156165885e-06,
+          "text": "Body contouring by non‐invasive transdermal focused ultrasound."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0030#115-232",
+          "score": 5.438917469291482e-06,
+          "text": "to weight reduction program on leptin, insulin, waist circumference, skinfold, body weight in central obese subjects."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_a39b4e45e40beeb9#0-25",
+          "score": 1.060227987181861e-06,
+          "text": "call_-7436847404734737426"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#1503-1693",
+          "score": 0.0010455030715093017,
+          "text": "**Safety Profile**: Both are generally well-tolerated, but cryolipolysis can sometimes cause transient numbness or mild discomfort, and radiofrequency may lead to redness or slight swelling."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0084#0-67",
+          "score": 9.530082752462476e-05,
+          "text": "[PDF] Paradoxical Adipose Hyperplasia and Cellular Effects After..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0076#0-153",
+          "score": 0.00022672851628158242,
+          "text": "https://www.researchgate.net/publication/397118340_Incidence_of_Paradoxical_Adipose_Hyperplasia_After_Cryolipolysis_A_Systematic_Review_and_Meta-Analysis"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_1319b9679d1bd7e7#0-130",
+          "score": 0.02434094436466694,
+          "text": "Resende Noites Amorim \"Application of cryolipolysis in adipose tissue\" systematic review findings results fat reduction percentage"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_872a2f9f115b858b#0-150",
+          "score": 0.000379233795683831,
+          "text": "Mostafa 2022 \"Lasers in Surgery and Medicine\" cavitation radiofrequency cryolipolysis randomized controlled obese waist circumference skinfold results"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0124#0-54",
+          "score": 4.556443855108228e-06,
+          "text": "Non-invasive Alternatives for Liposuction | IntechOpen"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_ee53cd043ff7e0d9#0-137",
+          "score": 0.039781250059604645,
+          "text": "Resende Noites Amorim cryolipolysis systematic review \"Journal of Cosmetic Dermatology\" included studies PRISMA results adipose thickness"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0061#0-64",
+          "score": 9.929999578162096e-06,
+          "text": "Combination non-invasive radiofrequency and electrical muscle..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0417#0-32",
+          "score": 3.355242370162159e-05,
+          "text": "6.3cm circumferential reduction."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0429#9-16",
+          "score": 2.6517493552091764e-06,
+          "text": "Mumbai."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0194#69-140",
+          "score": 0.0002756203175522387,
+          "text": "Leonor Resende PT, Andreia Noites PhD, MSc, PT, Manuela Amorim MSc, CB."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0140#153-223",
+          "score": 0.0011118563124909997,
+          "text": "Both methods lead to fat cell destruction and a lasting fat reduction."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0276#0-73",
+          "score": 0.04532022401690483,
+          "text": "Application of cryolipolysis in adipose tissue: A systematic review.2022."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0182#138-170",
+          "score": 0.0004797443107236177,
+          "text": "causing a localized panniculitis"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0182#0-11",
+          "score": 5.2014314860571176e-05,
+          "text": "Background:"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0065#0-38",
+          "score": 3.560767800081521e-05,
+          "text": "https://sci-hub.box/10.1111/jocd.12480"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0364#84-134",
+          "score": 0.0036412386689335108,
+          "text": "Fifty-three articles were included in this review."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0206#0-59",
+          "score": 0.0006536960136145353,
+          "text": "(PDF) Non-invasive body contouring: A review - ResearchGate"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0109#128-178",
+          "score": 5.718972533941269e-05,
+          "text": "Improvements were seen in 86% of treated subjects."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_e7c2646a51833f2a#0-25",
+          "score": 1.1806115253421012e-05,
+          "text": "call_-7436707801117753032"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0149#111-141",
+          "score": 2.3010550648905337e-05,
+          "text": "Plast Reconstr Surg Glob Open."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0064#0-71",
+          "score": 1.4476344404101837e-05,
+          "text": "Sci-Hub: Clinical study to evaluate the performance of a noninvasive..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0321#0-63",
+          "score": 0.0001433197467122227,
+          "text": "Cavitation and radiofrequency versus cryolipolysis on leptin..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0244#0-28",
+          "score": 7.869565706641879e-06,
+          "text": "Description by Manufacturer."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0168#0-221",
+          "score": 1.9722661818377674e-05,
+          "text": "Studies have shown that leptin and magnesium both play significant if not primary roles in heart disease, obesity, diabetes, osteoporosis, autoimmune diseases, reproductive disorders, and perhaps the rate of aging itself."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0177#59-152",
+          "score": 4.915923909720732e-06,
+          "text": "albicans, Candida kefyr, and Rhodotorula mucilaginosa fungal species with human obesity (16)."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0301#0-260",
+          "score": 6.878245039843023e-05,
+          "text": "“The study supports that patient satisfaction and a desired natural look that helps improve the appearance of upper facial lines can be achieved with proven facial aesthetic neuromodulator treatment.” BOTOX® Cosmetic (onabotulinumtoxinA) Important Information."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0218#0-203",
+          "score": 0.0002153690584236756,
+          "text": "Single unilateral cryolipolysis tended to reduce the cross-sectional areas of visceral adipose tissue, by 8.4 cm ² (9.9%), the waist circumferences, and the percent body fat, by 2.8 cm ² (0.6%), overall."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0005#0-71",
+          "score": 0.00021040231513325125,
+          "text": "Cryolipolysis for noninvasive body contouring: clinical efficacy and..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0289#113-164",
+          "score": 0.00018516423006076366,
+          "text": "Clinical, Cosmetic and Investigational Dermatology."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0027#0-178",
+          "score": 0.0008178651914931834,
+          "text": "Conclusion: Cavitation radiofrequency have a favorable effect compared to Cryolipolysis on reduction of skin folds, waist-hip ratio, subcutaneous adipose tissue and hunger level."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0367#142-247",
+          "score": 5.104066531202989e-06,
+          "text": "These are usually manageable with normal medication and care, and they tend to resolve within a few days."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#618-647",
+          "score": 0.0001395364961354062,
+          "text": "Assistant: That’s intriguing!"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0244#29-272",
+          "score": 0.0016022997442632914,
+          "text": "CRYOLIPOLYSIS is the latest ,most effective and non-invasive technology for body slimming ,its low temperature results in agradual fragmentation of the adipose cells ,resulting in apotosis ,without damaging the skin or the surrouding tissue..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0420#97-208",
+          "score": 0.0031462982296943665,
+          "text": "A comprehensive meta-analysis of cryolipolysis research found average waist circumference reduction of -3.56cm."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0049#0-42",
+          "score": 0.0001446496753487736,
+          "text": "https://brieflands.com/articles/ijem-17739"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0381#104-276",
+          "score": 0.002464056946337223,
+          "text": "The aim of this paper was to carry out a systematic review with meta‐analysis on cryolipolysis and associated health outcomes, adverse events (AE) and patient satisfaction."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0258#90-156",
+          "score": 0.0002667908847797662,
+          "text": "The object of the present narrative review was to update and clas."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#413-442",
+          "score": 2.762800249911379e-05,
+          "text": "Do not mention the benchmark,"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0115#0-62",
+          "score": 2.0516663425951265e-05,
+          "text": "Clinical Evaluation of a 1060-Nm Laser for Non-Invasive Fat..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0137#152-182",
+          "score": 7.426125648635207e-06,
+          "text": "Rejunavation body countouring."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0348#57-67",
+          "score": 2.5423948954994557e-06,
+          "text": "| J-GLOBAL"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0429#31-185",
+          "score": 0.0001958650245796889,
+          "text": "Cryolipolysis reshapes your silhouette by permanently removing fat cells, but it works best as a partner to a healthy lifestyle, not a replacement for it."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0373#0-61",
+          "score": 0.00013495142047759145,
+          "text": "Adverse Events Associated With Cryolipolysis: A Systematic..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#515-616",
+          "score": 9.143719216808677e-05,
+          "text": "User: I have been performing cryolipolysis for body contouring in my clinic for a couple of years now"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0140#61-152",
+          "score": 8.866014104569331e-05,
+          "text": "Laser treatments, like SculpSure, use laser energy to heat fat cells until they’re damaged."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0116#0-41",
+          "score": 3.906593337887898e-05,
+          "text": "https://pubmed.ncbi.nlm.nih.gov/41319004/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_f093e4c349d65af6#0-25",
+          "score": 3.503612970234826e-05,
+          "text": "call_-7436778204221663312"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0134#103-140",
+          "score": 0.0001999164669541642,
+          "text": "Cavitation and radiofrequency versus."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0344#225-245",
+          "score": 1.135588354372885e-05,
+          "text": "Material and Methods"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0081#0-68",
+          "score": 0.00040810948121361434,
+          "text": "jddonline.com/articles/a-systematic-review-of-paradoxical-adipose..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_705ed026a8ad775b#0-113",
+          "score": 0.00045579022844322026,
+          "text": "Mostafa 2022 cavitation radiofrequency cryolipolysis randomized controlled study leptin obese adolescents results"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0404#100-248",
+          "score": 1.3109464816807304e-05,
+          "text": "However, complications arise with increased use, making it necessary for clinicians to understand their prevention and management, according to Lal."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_ca1d55bbc90e28bb#0-25",
+          "score": 1.5381971024908125e-05,
+          "text": "call_-7436870563198396997"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0424#0-66",
+          "score": 3.6217450087860925e-06,
+          "text": "Exploring Non-Surgical Fat Loss Methods That Show - factripple.com"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0072#73-94",
+          "score": 0.011391805484890938,
+          "text": "2022;21(4):1393–1401."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#1040-1075",
+          "score": 0.00027680699713528156,
+          "text": "Assistant: That’s a great question."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_b2918dddc373346d#0-25",
+          "score": 4.2960731661878526e-05,
+          "text": "call_-7436869257528340936"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0221#42-60",
+          "score": 3.3271146548941033e-06,
+          "text": "Mutual assistance."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#648-734",
+          "score": 0.00012393324868753552,
+          "text": "It must be rewarding to see the improvements in body contour your patients experience."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0212#0-157",
+          "score": 0.23838606476783752,
+          "text": "I found a key match: \"Application of cryolipolysis in adipose tissue: A systematic review\" was published in the Journal of Cosmetic Dermatology in July 2022."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0153#0-64",
+          "score": 0.0007047403487376869,
+          "text": "Noninvasive Body Contouring: Exploring Safe and Effective Fat..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0059#0-146",
+          "score": 0.0010023845825344324,
+          "text": "https://www.researchgate.net/publication/318542670_Hands-Free_Noninvasive_Body_Contouring_Devices_Review_of_Effectiveness_and_Patient_Satisfaction"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0096#0-41",
+          "score": 8.871681347955018e-05,
+          "text": "https://pubmed.ncbi.nlm.nih.gov/28123436/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0277#0-65",
+          "score": 9.402028808835894e-06,
+          "text": "Brasil - Lipedema: pathophysiological insights and therapeutic..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0108#0-41",
+          "score": 5.2382154535735026e-05,
+          "text": "https://pubmed.ncbi.nlm.nih.gov/25061326/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0252#0-272",
+          "score": 0.0001590264873811975,
+          "text": "Today, different kinds of non-invasive body contouring modalities, including cryolipolysis, radiofrequency (RF), low-level laser therapy (LLLT), and high-intensity focused ultrasound (HIFU) are available for reducing the volume of subcutaneous adipose tissue or cellulite."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0190#0-43",
+          "score": 8.979754966276232e-06,
+          "text": "https://pidantuan.com/scholar/177187xs.html"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_b959a0ef3ddcfa68#0-111",
+          "score": 0.016087014228105545,
+          "text": "\"Journal of Cosmetic Dermatology\" 2022 systematic review non-invasive body contouring noninvasive fat reduction"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0101#0-67",
+          "score": 9.942953056452097e-07,
+          "text": "Body contouring for fat and muscle in aesthetics: Review and debate"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0053#0-163",
+          "score": 0.00018115465354640037,
+          "text": "There are currently 4 leading modalities used for noninvasive body contouring: cryolipolysis, radiofrequency, high-intensity focused ultrasound, and laser therapy."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0071#0-70",
+          "score": 0.0001521356898592785,
+          "text": "https://jcadonline.com/radiofrequency-cellulite-appearance-body-parts/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0375#0-59",
+          "score": 0.011255854740738869,
+          "text": "Results: Fifty-three articles were included in this review."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_9bb3779b7b50fe3e#0-25",
+          "score": 7.27390261090477e-06,
+          "text": "call_-7436806963322682715"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0098#0-64",
+          "score": 1.1971398635068908e-05,
+          "text": "Quantification of noninvasive fat reduction: A systematic review"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0221#116-138",
+          "score": 0.010846931487321854,
+          "text": "Published date：2022-10"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0209#0-36",
+          "score": 0.0003141869092360139,
+          "text": "Cryolipolysis: A promising nonsur..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0420#0-96",
+          "score": 0.004270159173756838,
+          "text": "Clinical studies consistently demonstrate 20-30% fat reduction per treatment area, each session."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0105#0-41",
+          "score": 0.00018247983825858682,
+          "text": "https://pubmed.ncbi.nlm.nih.gov/37988716/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0239#0-38",
+          "score": 1.6004382814571727e-06,
+          "text": "OM System OM-3 REVIEW : OM-1 vs PEN-F?"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0186#0-48",
+          "score": 2.4188801035052165e-05,
+          "text": "Effects of cryolipolysis on lower abdomen fat..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0347#162-167",
+          "score": 0.003144631627947092,
+          "text": "2022."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0353#0-109",
+          "score": 0.0012417685938999057,
+          "text": "Cryolipolysis is a non-invasive procedure that selectively targets and eliminates fat cells by freezing them."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0370#0-107",
+          "score": 5.017891089664772e-05,
+          "text": "Cryolipolysis side effects are typically mild and temporary and should resolve within a few days to a week."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0209#37-63",
+          "score": 8.153189810400363e-06,
+          "text": "preview & related info ..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0134#0-103",
+          "score": 3.120826295344159e-05,
+          "text": "Parallel group randomized controlled trial include Twenty overweight female students from all students."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0053#164-215",
+          "score": 0.0001896230533020571,
+          "text": "This article provides an overview of each modality."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0054#19-143",
+          "score": 0.005117130931466818,
+          "text": "Let me dig deeper to find the specific 2022 Journal of Cosmetic Dermatology review and get more detail from the key sources."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0403#0-118",
+          "score": 5.140793746249983e-06,
+          "text": "https://www.dermatologytimes.com/view/how-to-avoid-complications-with-radiofrequency-and-ultrasound-based-technologies"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0295#136-137",
+          "score": 2.7530708734957443e-07,
+          "text": "|"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0307#0-72",
+          "score": 2.3057687030814122e-06,
+          "text": "Fractional-Order Bioimpedance Modelling for Early Detection of Tissue..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0386#0-47",
+          "score": 3.619202834670432e-05,
+          "text": "https://pismin.com/10.1097/dss.0000000000002524"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0089#0-1",
+          "score": 3.6014509419146634e-07,
+          "text": "."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0007#0-106",
+          "score": 0.00033164300839416683,
+          "text": "Keywords: cryolipolysis, nonsurgical fat reduction, body contouring, patient satisfaction, patient safety."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0306#0-88",
+          "score": 4.768590224557556e-05,
+          "text": "Most of the clinical studies in cryolipolysis were conducted in the Caucasian population"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0341#115-272",
+          "score": 0.0011988613987341523,
+          "text": "This study results revealed the superi-ority of cavitation and radiofrequency over cryolipolysis on waist circumference, skinfold, weight reduction, and BMI."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0182#172-212",
+          "score": 8.438922668574378e-05,
+          "text": "followed by adipocyte death by apoptosis"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0358#155-253",
+          "score": 4.095141321158735e-06,
+          "text": "Safety considerations and relative contraindications are discussed, emphasizing the importance of."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0328#0-110",
+          "score": 1.232569593412336e-05,
+          "text": "https://murex.mahidol.ac.th/en/publications/combination-of-monopolar-2-mhz-radiofrequency-and-electrical-mult/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0033#87-146",
+          "score": 2.0072289771633223e-05,
+          "text": "Learn how each works, results, comfort, and best use cases."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0010#0-148",
+          "score": 2.2771528165321797e-05,
+          "text": "Nonsurgical fat reduction methods include cryolipolysis (Coolsculpting), ultrasound (Vaser Shape), laser (Liposonix), and radiofrequency (Vanquish)."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0182#136-137",
+          "score": 4.3089468704238243e-07,
+          "text": ","
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0031#0-60",
+          "score": 5.817331384605495e-06,
+          "text": "Ultrasonic Cavitation vs RF vs Cryolipolysis: Which Body ..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0140#0-60",
+          "score": 0.0005069017061032355,
+          "text": "Cryolipolysis, or fat freezing, uses cold to kill fat cells."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0295#6-18",
+          "score": 8.662295272188203e-07,
+          "text": "Permissions."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0426#0-142",
+          "score": 0.00028243387350812554,
+          "text": "Radiofrequency (RF) treatments for fat reduction utilize electromagnetic waves to heat fat cells and surrounding tissues.20-25% fat reduction."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0323#58-227",
+          "score": 0.0001277124392800033,
+          "text": "There were no statistically significant differences between cavitation plus radiofrequency and cryolipolysis on leptin and insulin levels after 3 months of intervention."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0230#68-211",
+          "score": 7.792733958922327e-05,
+          "text": "We evaluated the potential application of sonography to monitor alterations in abdominal fat thickness in obese women before and after dieting."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0298#0-131",
+          "score": 0.0006587025127373636,
+          "text": "Conclusion: The results of this study indicate that abdominal fat can be reduced effectively by the novel cryolipolysis applicator."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0048#0-59",
+          "score": 5.740699634770863e-05,
+          "text": "Review of the Mechanisms and Effects of Noninvasive Body..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0042#0-73",
+          "score": 0.0004546500858850777,
+          "text": "(PDF) Cryolipolysis for noninvasive body contouring: clinical efficacy..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0183#0-69",
+          "score": 7.5581056080409326e-06,
+          "text": "Evaluation of the Efficacy and Safety of Cryolipolysis in Reducing..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_aa41948cabab0960#0-102",
+          "score": 0.01449539139866829,
+          "text": "\"Journal of Cosmetic Dermatology\" 2022 review noninvasive body contouring cryolipolysis radiofrequency"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0417#33-137",
+          "score": 0.0005869143060408533,
+          "text": "20-25% fat-layer reduction observed at 4-12 weeks post-session.20-150cm total circumferential reduction."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0289#0-86",
+          "score": 0.00012599723413586617,
+          "text": "The Safety and Efficacy of Cryolipolysis: A Systematic Review of Available Literature."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0047#216-256",
+          "score": 7.085277502483223e-07,
+          "text": "LLLT is virtually free of side effects ."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0352#0-42",
+          "score": 3.3534433896420524e-06,
+          "text": "https://jnfh.mums.ac.ir/article_26344.html"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0326#0-77",
+          "score": 0.0002554252278059721,
+          "text": "Cavitation with radiofrequency versus cryolipolysis for weightloss treatment."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0100#126-217",
+          "score": 0.000159326009452343,
+          "text": "The objective of this review is to assess comparative utility measures of subcutaneous fat."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0103#0-268",
+          "score": 7.551184535259381e-05,
+          "text": "The recent demand for noninvasive fat reduction and muscle toning has generated the need for a variety of noninvasive body contouring devices, including cryolipolysis, radiofrequency, focused ultrasound, laser energy, and high intensity focused electromagnetic energy."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0052#0-117",
+          "score": 2.330384404558572e-06,
+          "text": "https://www.mdedge.com/dermatology/article/162644/aesthetic-dermatology/update-noninvasive-body-contouring-techniques"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_d9c4be36f46eb5f5#0-25",
+          "score": 2.2404083210858516e-06,
+          "text": "call_-7436884822489821236"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0221#16-41",
+          "score": 1.0981792911479715e-05,
+          "text": "we won't charge any fees."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_881c79d38102a6d1#0-25",
+          "score": 2.3582647372677457e-06,
+          "text": "call_-7436769751726025542"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0072#94-102",
+          "score": 4.728736257675337e-06,
+          "text": "Harth Y."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0341#0-114",
+          "score": 0.0005534534575417638,
+          "text": "Cryolipolysis, cavitation, and radio-frequency are time‐saving and do not have the risks of invasive surgery.41,42"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0290#0-62",
+          "score": 6.251709419302642e-05,
+          "text": "Noninvasive submental fat reduction using colder cryolipolysis"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0396#0-63",
+          "score": 4.983367398381233e-05,
+          "text": "What are the potential side effects of radio frequency skin ..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_7353268fc40864f3#0-135",
+          "score": 0.0072244941256940365,
+          "text": "\"Application of cryolipolysis in adipose tissue\" review radiofrequency cryotherapy included studies fat reduction percentage conclusion"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0343#0-179",
+          "score": 0.0017581807915121317,
+          "text": "https://www.researchgate.net/publication/361309608_CAVITATION_AND_RADIOFREQUENCY_VERSUS_CRYOLIPOLYSIS_ON_SUBCUTANEOUS_FAT_IN_CENTRAL_OBESE_ADOLESCENT_A_RANDOMIZED_CONTROLLED_STUDY"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0412#0-88",
+          "score": 0.0001090115329134278,
+          "text": "34946 Adverse events of noninvasive body contouring: Analysis of the FDA MAUDE database."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0019#0-119",
+          "score": 0.0012093365658074617,
+          "text": "(2022) – Cryolipolysis for Abdominal Subcutaneous Fat Reduction: A Prospective, Multicenter, Single Arm Clinical Study."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0204#0-59",
+          "score": 2.6532339688856155e-05,
+          "text": "https://onlinelibrary.wiley.com/doi/full/10.1111/jocd.15265"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0241#29-41",
+          "score": 9.165943737343696e-08,
+          "text": "DPReview TV."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0419#0-65",
+          "score": 6.454172876146913e-07,
+          "text": "https://www.bodycatalyst.com.au/women/treatment/fat-freezing-faq/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0154#0-114",
+          "score": 3.768863052755478e-07,
+          "text": "https://www.wisconsinscorpions.com/noninvasive-body-contouring-exploring-safe-and-effective-fat-reduction-options/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0032#0-54",
+          "score": 1.2106773283449002e-05,
+          "text": "https://micoaes.com/cavitation-vs-rf-vs-cryolipolysis/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0342#0-62",
+          "score": 0.0002786339318845421,
+          "text": "(PDF) cavitation and radiofrequency versus cryolipolysis on..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0225#0-42",
+          "score": 3.862773610308068e-06,
+          "text": "Fat-freezing and fat-dissolving treatments"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0086#104-109",
+          "score": 0.0001016602327581495,
+          "text": "TLDR."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0149#142-155",
+          "score": 6.10818387940526e-05,
+          "text": "2017;5:e1606."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0015#0-48",
+          "score": 1.2310920283198357e-06,
+          "text": "https://joycelim.com/non-surgical-fat-reduction/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0309#113-268",
+          "score": 0.0005697321030311286,
+          "text": "RF induces lipolysis and stimulates collagen remodeling through controlled heating, while cryolipolysis promotes adipocyte apoptosis via localized cooling."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_4d149a989efef731#0-130",
+          "score": 0.000860668602399528,
+          "text": "\"Cavitation and radiofrequency versus cryolipolysis\" Mostafa 2022 waist circumference skinfold subcutaneous fat results difference"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_9598ff96fd2b5cdb#0-132",
+          "score": 0.0006949050584807992,
+          "text": "noninvasive body contouring review 2022 cryolipolysis radiofrequency effectiveness comparison fat layer reduction caliper ultrasound"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#0-79",
+          "score": 4.6260760427685454e-05,
+          "text": "You are responding to the latest user turn in a medical conversation benchmark."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_1c429cf599c7e6c4#0-25",
+          "score": 9.064604091690853e-05,
+          "text": "call_-7436847404734737427"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0294#0-149",
+          "score": 7.418282621074468e-05,
+          "text": "https://www.ovid.com/journals/jcod/abstract/10.1111/jocd.16470~tyndall-rayleigh-mei-and-raman-scattering-understanding?redirectionsource=fulltextview"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0350#0-88",
+          "score": 6.922115426277742e-05,
+          "text": "The search results guide you to high-quality primary information inside and outside JST."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0043#0-139",
+          "score": 6.728417793055996e-05,
+          "text": "https://www.researchgate.net/publication/264247706_Cryolipolysis_for_noninvasive_body_contouring_clinical_efficacy_and_patient_satisfaction"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0374#0-133",
+          "score": 2.5578290660632774e-05,
+          "text": "https://www.researchgate.net/publication/344444438_Adverse_Events_Associated_With_Cryolipolysis_A_Systematic_Review_of_the_Literature"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0088#0-53",
+          "score": 7.150224973884178e-06,
+          "text": "https://academic.oup.com/asj/article/38/4/418/4627920"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0172#0-59",
+          "score": 1.3144183867552783e-05,
+          "text": "sciencedirect.com/science/article/abs/pii/S1389945720301246"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0289#87-113",
+          "score": 3.010916043422185e-05,
+          "text": "Aesthetic Surgery Journal."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0016#0-107",
+          "score": 2.6760215405374765e-05,
+          "text": "Non-surgical fat reduction is a non-invasive procedure to reduce fat in problem areas of the body and neck."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0016#205-290",
+          "score": 0.0005814056494273245,
+          "text": "Most patients will experience an average 20-27% reduction in fat in the area treated."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0429#186-231",
+          "score": 1.8925865106211859e-06,
+          "text": "Why Choose Our Fat Freezing Clinic in Mumbai."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0165#0-117",
+          "score": 8.697736484464258e-05,
+          "text": "Leptin, also known as obese protein, is a protein hormone predominantly made by adipocytes (cells of adipose tissue)."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0323#49-57",
+          "score": 0.00011144398740725592,
+          "text": "Results:"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0069#0-32",
+          "score": 0.003106275573372841,
+          "text": "Journal of Cosmetic Dermatology."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0047#83-215",
+          "score": 0.00012202148354845122,
+          "text": "Safety and Side Effects: All four modalities are considered safe with low rates of serious adverse events when performed correctly ."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0202#0-176",
+          "score": 0.00046766974264755845,
+          "text": "Nov 1, 2023 · By combining the benefits of fat reduction and skin tightening, cryolipolysis has the potential to offer a comprehensive nonsurgical solution for body contouring."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0367#0-44",
+          "score": 0.0002174539549741894,
+          "text": "Are there any side effects of Cryolipolysis?"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0361#0-279",
+          "score": 5.456500730360858e-05,
+          "text": "Submental cryolipolysis produced typical side effects such as numbness and erythema, generally described as mild, whereas the ATX‐101 procedure produced side effects such as bruising and pain, generally described as mild to moderate, with significant swelling lasting for 1 week."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0416#0-81",
+          "score": 3.1853601285547484e-06,
+          "text": "https://beyondrest.com.au/post/contour-light-vs-fat-freezing-which-actually-works"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0016#108-204",
+          "score": 7.368512888206169e-05,
+          "text": "This results in noticeable, natural-looking fat reduction in the treated areas of men and women."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0201#0-42",
+          "score": 5.957110261078924e-06,
+          "text": "https://europepmc.org/article/MED/37988716"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_cd3b539c1d22ed54#0-25",
+          "score": 1.0317238547941088e-06,
+          "text": "call_-7436806963322682714"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0241#0-28",
+          "score": 1.6901559263260424e-08,
+          "text": "OM System OM-1 Final Review."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#850-1038",
+          "score": 0.0003577931202016771,
+          "text": "User: We all know radiofrequency is another noninvasive option for fat reduction, but I’m interested in detailed evidence—particularly how the two compare in terms of overall effectiveness"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0364#0-84",
+          "score": 0.00014618314162362367,
+          "text": "Adverse events associated with cryolipolysis: a systematic review of the literature."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#1168-1316",
+          "score": 0.0036519207060337067,
+          "text": "**Mechanism of Action**: Cryolipolysis uses controlled cooling to induce apoptosis in fat cells, while radiofrequency relies on heat-induced damage."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0112#0-34",
+          "score": 3.6835797345702304e-07,
+          "text": "Fat removal procedures - Wikipedia"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0030#0-14",
+          "score": 0.0003142365312669426,
+          "text": "Apr 28, 2022 ·"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0332#152-266",
+          "score": 7.112120511010289e-05,
+          "text": "Clinical, Cosmetic and Investigative Dermatology: “The Anti-Acne Effect of Near-Infrared Low-Level Laser Therapy”."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_6e15e58b7e77306d#0-73",
+          "score": 0.00016710953786969185,
+          "text": "jocd 2022 systematic review body contouring fat reduction efficacy safety"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0187#0-147",
+          "score": 7.945974357426167e-05,
+          "text": "https://www.semanticscholar.org/paper/Effects-of-cryolipolysis-on-lower-abdomen-fat-of-a-Falster-Schardong/49b89a8e483c449d675a737e846cfe569ed10f68"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0070#0-65",
+          "score": 1.5625511196049047e-06,
+          "text": "Combined Monopolar Radiofrequency and Targeted Pressure Energy..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0171#0-121",
+          "score": 1.1534042641869746e-05,
+          "text": "Radio frequency (RF) and ultrasound cavitation are two new methods that have been reported to reduce measures of obesity."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0329#31-279",
+          "score": 0.00012678155326284468,
+          "text": "Dive into the research topics of 'Combination of monopolar 2 MHz radiofrequency and electrical multidirectional stimulation for reducing abdominal circumference and enhancing the muscle definition in subjects with overweight range body mass index'."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0144#0-98",
+          "score": 0.0007862398633733392,
+          "text": "Let me search for more details on the specific 2022 review and the RCT comparing these modalities."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_bccafdaaa677b9d5#0-120",
+          "score": 0.0002630259550642222,
+          "text": "site:pubmed.ncbi.nlm.nih.gov 2022 review noninvasive fat reduction cryolipolysis radiofrequency comparison effectiveness"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0336#46-127",
+          "score": 0.0007342167082242668,
+          "text": "Let me get a bit more on the specifics and on the 2022 systematic review's scope."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0358#122-154",
+          "score": 3.3566906495252624e-05,
+          "text": "paradoxical adipose hyperplasia."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_9d443b55fc38b210#0-25",
+          "score": 2.2398509827326052e-05,
+          "text": "call_-7436706632886641283"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0256#0-66",
+          "score": 1.2802195669792127e-05,
+          "text": "Non-invasive Body Contouring Technologies: An Updated Narrative..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0295#19-39",
+          "score": 2.7920901629840955e-05,
+          "text": "COSMETIC COMMENTARY."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_c4cb6d2c41f5053c#0-118",
+          "score": 0.0017985693411901593,
+          "text": "Resende Noites Amorim 2022 cryolipolysis systematic review radiofrequency comparison adipose tissue results conclusion"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0387#82-89",
+          "score": 1.145711667049909e-05,
+          "text": "(2020)."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0353#110-219",
+          "score": 0.0001745852205203846,
+          "text": "This study aims to investigate the metabolic effects of cryolipolysis in combination with a low-calorie diet."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0149#0-110",
+          "score": 3.4944807225656405e-07,
+          "text": "Autologous fat transfer for facial rejuvenation: a systematic review on technique, efficacy, and satisfaction."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0078#0-67",
+          "score": 1.5141951735131443e-05,
+          "text": "Incidence of Paradoxical Adipose Hyperplasia After Cryolipolysis..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0411#0-54",
+          "score": 1.8191377648690832e-06,
+          "text": "https://www.jaad.org/article/S0190-9622(22)01136-7/pdf"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0030#15-114",
+          "score": 0.0001695559622021392,
+          "text": "To investigate the efficacy of adding ultrasound cavitation and radiofrequency versus cryolipolysis"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_432aa340ea158771#0-25",
+          "score": 5.122471975482767e-07,
+          "text": "call_-7436695500331416401"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0164#0-36",
+          "score": 1.4105251011642395e-06,
+          "text": "https://en.wikipedia.org/wiki/Leptin"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0068#0-41",
+          "score": 1.898294794955291e-05,
+          "text": "https://www.sci-hub.ru/10.1111/jocd.12953"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0394#0-60",
+          "score": 2.291203145432519e-06,
+          "text": "https://link.springer.com/article/10.1007/s00266-022-03097-x"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0001#199-320",
+          "score": 1.4044150702829938e-05,
+          "text": "relevant, state uncertainty, avoid unsupported diagnosis, and give concrete next steps at an appropriate level of detail."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0036#0-231",
+          "score": 0.0002807894197758287,
+          "text": "Some of the noninvasive body contouring devices in animal and human studies such as cryolipolysis, RF, LLLT and HIFU showed statistical significant effects on body contouring, removing unwanted fat and cellulite in some body areas."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0404#0-99",
+          "score": 0.00012402349966578186,
+          "text": "Mar 10, 2025 · Radiofrequency (RF) and ultrasound-based technologies are generally considered safe."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 12443,
+      "seconds": 0.102,
+      "target": "\"Application of cryolipolysis in adipose tissue: A systematic review\" was published in the Journal of Cosmetic Dermatology in July 2022.",
+      "target_tokens": 34,
+      "total_tokens": 12477
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0188#0-68",
+          "score": 0.32151564955711365,
+          "text": "Application of cryolipolysis in adipose tissue: A systematic review."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0192#0-31",
+          "score": 0.12348490953445435,
+          "text": "Journal of Cosmetic Dermatology"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0278#0-62",
+          "score": 0.08513954281806946,
+          "text": "https://www.scielo.br/j/abd/a/rPSfHZVSYZNCkwmx4mLTJJr/?lang=en"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0006#0-49",
+          "score": 0.03352140635251999,
+          "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4079633/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0373#0-61",
+          "score": 0.08820881694555283,
+          "text": "Adverse Events Associated With Cryolipolysis: A Systematic..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0066#63-203",
+          "score": 0.016030235216021538,
+          "text": "Noninvasive Body Contouring by Focused Ultrasound: Safety and Efficacy of the Contour I Device in a Multicenter, Controlled, Clinical Study."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0158#0-60",
+          "score": 0.0006053581601008773,
+          "text": "Classification Systems for Knee Osteochondritis Dissecans..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0332#100-151",
+          "score": 0.0027501676231622696,
+          "text": "Current Problems in Dermatology: “Skin Tightening”."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_701766854b8e9d98#0-25",
+          "score": 0.002003201050683856,
+          "text": "call_-7436884822489821235"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_c1a0e1bdf56f68bc#0-25",
+          "score": 0.0009962356416508555,
+          "text": "call_-7436869257528340937"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 250,
+      "seconds": 0.03,
+      "target": "The paper 'Application of cryolipolysis in adipose tissue: A systematic review' was published in the Journal of Cosmetic Dermatology.",
+      "target_tokens": 29,
+      "total_tokens": 279
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.5392005443572998,
+          "text": "The paper 'Application of cryolipolysis in adipose tissue: A systematic review' was published in the Journal of Cosmetic Dermatology."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0205#0-12",
+          "score": 0.14029410481452942,
+          "text": "Jul 23, 2022"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0278#0-62",
+          "score": 0.037821583449840546,
+          "text": "https://www.scielo.br/j/abd/a/rPSfHZVSYZNCkwmx4mLTJJr/?lang=en"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0006#0-49",
+          "score": 0.021220613270998,
+          "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4079633/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0373#0-61",
+          "score": 0.04649658128619194,
+          "text": "Adverse Events Associated With Cryolipolysis: A Systematic..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0066#63-203",
+          "score": 0.018920019268989563,
+          "text": "Noninvasive Body Contouring by Focused Ultrasound: Safety and Efficacy of the Contour I Device in a Multicenter, Controlled, Clinical Study."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0158#0-60",
+          "score": 0.00033137272112071514,
+          "text": "Classification Systems for Knee Osteochondritis Dissecans..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0332#100-151",
+          "score": 0.0010405182838439941,
+          "text": "Current Problems in Dermatology: “Skin Tightening”."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_701766854b8e9d98#0-25",
+          "score": 0.0013423941563814878,
+          "text": "call_-7436884822489821235"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_c1a0e1bdf56f68bc#0-25",
+          "score": 0.00032423954689875245,
+          "text": "call_-7436869257528340937"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 267,
+      "seconds": 0.038,
+      "target": "\"Application of cryolipolysis in adipose tissue: A systematic review\" was published in the Journal of Cosmetic Dermatology in July 2022.",
+      "target_tokens": 34,
+      "total_tokens": 301
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 24.94,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

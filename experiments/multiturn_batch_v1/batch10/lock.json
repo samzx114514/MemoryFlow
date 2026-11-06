@@ -1,0 +1,73 @@
+{
+  "cases": {
+    "case_01_selected_02": {
+      "candidate_ids_sha256": "3b0173a58b4c406dadc0854c633c855f9c3bb97ebe5dfa5b8ce769f49a36ace6",
+      "case_id": "genmem_177236211632d6b8:selected_02",
+      "case_sha256": "747972bf112f992abcbb14c4b7e309d838007f93112da1bacb6c3f7a0ea36832",
+      "evidence_sha256": "3ed1a1f3e495cf5a274c0d33ab7def4600d52de6a78f84879275ee6acf36e596",
+      "labels_sha256": "7cf04ff50553b69ffb12236224c6e8c92e26c551e97e5e5a88976e782fd4f4b9",
+      "matrix_sha256": "4305f9133c19eb4ee8b27063f564d1e8723319591c358d2ccc4091fb45c4d40f"
+    },
+    "case_02_selected_05": {
+      "candidate_ids_sha256": "af79587d59417ee3446e87b56fcf44c87f22ba494b7e86db866690976ad31e16",
+      "case_id": "genmem_874c34ceb20bf193:selected_05",
+      "case_sha256": "d09db846878f5be9f8d638ceccdffa95171ea17839a0021de006525b7ea359ca",
+      "evidence_sha256": "7e58208ab4f984b5ce0d527026de9ccbad6a422db9ce1e08447c8e387f99c86e",
+      "labels_sha256": "ee43b172334b8b27d77bae2f877813d244b4989799432b331e2f092fb886fce3",
+      "matrix_sha256": "c78cf8d5591b71d42931d92d8ccca921929de151af6121cb651903df82216626"
+    },
+    "case_03_selected_10": {
+      "candidate_ids_sha256": "0766c2deb5b5e982cfee24ae50d995ef675dd7a45b0c0bbb4dc33406d440355d",
+      "case_id": "genmem_940c258011aac604:selected_10",
+      "case_sha256": "ba341388caad1a04393391b58cdf4557653286918f53d8b8f1805fcd965237a8",
+      "evidence_sha256": "0306c0483de450f444b4ff133ed0cad95a22658cba0169804d3203a564213bb6",
+      "labels_sha256": "10798ef7690f183d1e39e993b67d785e882b6e32d9c90c25b458a037e32844aa",
+      "matrix_sha256": "af779472c6eee3af69d0327e576d121191ce01ea772ed77fe4368e3a2f5cee8f"
+    },
+    "case_04_selected_01": {
+      "candidate_ids_sha256": "1c9dd42b98c72107e4e85760b649213860056c41babbbf165e25bf946ee953b9",
+      "case_id": "genmem_9f963d36b4935b97:selected_01",
+      "case_sha256": "b193285c6dafad0f819da5b0562c2b04f0fa8f4576a301d5cfb379562c9955a0",
+      "evidence_sha256": "571d15da5891b042f636f56f500ca8bbce356dfb5d14334a76a88c8c98a9c919",
+      "labels_sha256": "c7df95fe7a2fcbe9b7f27239a75f969ac922966498cbb4df7385db8735067c55",
+      "matrix_sha256": "ea5472c73936e43ca7395b2705f3e8dbcd80d1cadfd44ed9f3136c972a933135"
+    },
+    "case_05_selected_03": {
+      "candidate_ids_sha256": "2299df1802d80bc9826409193c7157268e32d3c6a5cc418bf3a3cb69baa464a4",
+      "case_id": "genmem_58452c40de4bdcb9:selected_03",
+      "case_sha256": "badfd8e6d0757b1548bf9f165d6417dfd86488139c0bc8c422ef17fd77dcc5f8",
+      "evidence_sha256": "00ef65628999bffb482f997622f37f093145f4b29237e3d91ecd57b843994892",
+      "labels_sha256": "1437af4389af09f476ff275ae3674eced4b20b3b705f8967e18ebdfa85a7d16f",
+      "matrix_sha256": "f134cb9316b7cf1c3dd6de55d2c3963ec706b722c2d744179276d6132b5390eb"
+    },
+    "case_06_selected_04": {
+      "candidate_ids_sha256": "196d965293c1c60ca282dd1e3394c519b152d4c24626f9beb22f83894cdec8bb",
+      "case_id": "genmem_40dc9b8b15c0c5b8:selected_04",
+      "case_sha256": "798c1fe5c148896cfc3ba187521d54d39b5b0a598401b2139afcd052ecd446ee",
+      "evidence_sha256": "c1f525b4d9f6961e703bb4110a0aecddd49b1de124134090801fe66ec3c0445d",
+      "labels_sha256": "dce9a5d970b36d251b61aa2a2da55938544bd8ef9eddbd92da44ac3e47cfde52",
+      "matrix_sha256": "c1f7c0c3438a2d6789c324fcc88bd8b34a31ca555b0349fb64d608ce40826f2f"
+    },
+    "case_07_selected_07": {
+      "candidate_ids_sha256": "375a18d64f485b91afebc7fb7054db206e19d2a288d0e45c356ad5922b8c2796",
+      "case_id": "genmem_5c054943b1a987e0:selected_07",
+      "case_sha256": "953d826b0c2c24817a73b0b354453305475e8c6abd113530f497639062d9d6ea",
+      "evidence_sha256": "7fa0464dcad144d63b185d9b253895c3d3d72c5860b607bd0dd436434e37b880",
+      "labels_sha256": "aca78caa4a3e32fdee5c4811ed6c5770250362115af07edccaf1e5966086fc7b",
+      "matrix_sha256": "fb091bac7defa429d030e9ca45e8eeb013ac6591a215b3291dbff15f35f9cc03"
+    },
+    "case_10_selected_01": {
+      "candidate_ids_sha256": "685acb9e25046ffb91d0495b845c966a7fef50444f3aa267a9c2022bddac781f",
+      "case_id": "genmem_f46a08bc62ee9b37:selected_01",
+      "case_sha256": "e7be2eafe945cb722552823a576fc95895c0eb1432d18a44ad471f8932ceece1",
+      "evidence_sha256": "57e54b8d064f4bd5a6fe6e9000929132f6cd506a7b8de2f39c7b1157ce1bdccc",
+      "labels_sha256": "b55473329e99b4712b0967d707c6ccbbeee1fb5193b2d573282a91f6e648a3bf",
+      "matrix_sha256": "b65deb9e2f4265ffcd7600e4be82e617aa6f44fcb1edfed92f7b2dd457212efe"
+    }
+  },
+  "created": "2026-11-06",
+  "final_budget": 10,
+  "hop_budget": 5,
+  "manifest_sha256": "eb1cac2de9440a548c018860d6c2c99f87479a23b707335e022c80a23f6685a4",
+  "schema": "memoryflow.multiturn_batch.lock.v1"
+}

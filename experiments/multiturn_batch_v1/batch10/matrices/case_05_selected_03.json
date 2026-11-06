@@ -1,0 +1,1621 @@
+{
+  "case_id": "genmem_58452c40de4bdcb9:selected_03",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0157#0-58",
+          "score": 0.003511871676892042,
+          "text": "Van der Waals Equation of Engineering Topics | Question AI"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0024#0-128",
+          "score": 0.00387307140044868,
+          "text": "This equation, known as the van der Waals equation, can be used to calculate the properties of a gas under non-ideal conditions."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0180#0-83",
+          "score": 0.02862709015607834,
+          "text": "I've identified the standard textbook problem (from McQuarrie's General Chemistry)."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0048#0-55",
+          "score": 0.005075652617961168,
+          "text": "BUKU TUTORIAL DK024 - Flip eBook Pages 51-100 | AnyFlip"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0132#12-59",
+          "score": 0.001029211445711553,
+          "text": "Explanation: The Vander waals equation state is"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0099#0-123",
+          "score": 0.001671148114837706,
+          "text": "https://www.sarthaks.com/3131186/assume-that-fullerene-phase-behaves-der-waals-gas-the-van-der-waals-constant-for-fullerene"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0000#0-17",
+          "score": 0.00011682676267810166,
+          "text": "<system-reminder>"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_c879f9a40a810061#0-25",
+          "score": 3.439320425968617e-05,
+          "text": "call_-7436804351982559405"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0130#0-66",
+          "score": 0.004559626802802086,
+          "text": "Solved Use the van der Waals equation to calculate the | Chegg.com"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0161#0-126",
+          "score": 0.004178864415735006,
+          "text": "https://www.sarthaks.com/1430250/for-one-mole-van-der-waals-gas-when-and-300-the-plot-shown-below-the-value-the-waals-constant"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0067#0-80",
+          "score": 0.007640734780579805,
+          "text": "The van der Waals equation is characterized by two critical parameters: a and b."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0018#125-172",
+          "score": 0.0013080835342407227,
+          "text": "Expression in terms of van der Waals constants."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0000#18-65",
+          "score": 0.0010641684057191014,
+          "text": "<current_date>2026-07-20, Monday</current_date>"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0090#0-64",
+          "score": 0.000536458333954215,
+          "text": "Van der Waals Equation Calculator and PV Isotherm for Real Gases"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_c322b10700b363f2#0-25",
+          "score": 1.6126883565448225e-05,
+          "text": "call_-7436814041428779281"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0070#141-267",
+          "score": 0.0006112297996878624,
+          "text": "However, the Supplementary Material (Table S1) shows that this choice gives no overall improvement in the adsorption energies."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0017#0-132",
+          "score": 0.0007499107159674168,
+          "text": "https://askfilo.com/user-question-answers-smart-solutions/relationship-between-critical-constants-and-van-der-waals-3433353035323932"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_143db67f39a29f79#0-22",
+          "score": 5.06853257320472e-06,
+          "text": "/mnt/user-data/uploads"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0064#32-123",
+          "score": 0.004869220312684774,
+          "text": "Choose presets for your gas (N₂, O₂, CO₂, H₂O) or enter custom a (attraction parameter) and"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0135#0-92",
+          "score": 0.015732938423752785,
+          "text": "The van der Waals' constant b represents the effective volume occupied by one mole of a gas."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0047#179-206",
+          "score": 0.0012044796021655202,
+          "text": "(v) C6H6 and CH3(CH2)10CH3."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0179#0-93",
+          "score": 0.0012366679729893804,
+          "text": "Van der Waals constants for other gases may easily be calculated from the data in that table."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0039#0-66",
+          "score": 0.001213379786349833,
+          "text": "[Solved] Which of the following expressions correctly represent..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0142#0-3",
+          "score": 0.002169525483623147,
+          "text": "15."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0116#0-47",
+          "score": 0.000957702228333801,
+          "text": "van der Waals Constants of Some Common Gases..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0042#0-54",
+          "score": 0.01787746138870716,
+          "text": "Solved W11.1 Real gases and vapors have intermolecular"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0004#25-105",
+          "score": 0.0019144151592627168,
+          "text": "The question references \"the following pairs\" but none are provided in the text."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0118#117-119",
+          "score": 0.00010371307871537283,
+          "text": "4."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0117#0-94",
+          "score": 0.0003062851610593498,
+          "text": "https://quizlet.com/28725627/van-der-waals-constants-of-some-common-gases-group-a-flash-cards/"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0127#104-209",
+          "score": 0.0001603818527655676,
+          "text": "Element 8 has a C6 Dispersion Coefficient (CD) of 15.6 a₀, and C6 Dispersion Coefficient (GB) of 16.7 a₀."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_38c4b79f65b38d58#0-25",
+          "score": 6.548071542056277e-05,
+          "text": "call_-7436855891590116618"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0047#111-125",
+          "score": 0.0006839172565378249,
+          "text": "(i) He and Ne;"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0059#0-33",
+          "score": 0.00015652169531676918,
+          "text": "Van der Waals Gas — Isaac Science"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0002#0-95",
+          "score": 0.0019232970662415028,
+          "text": "Looking at this question, it references \"the following pairs\" but I don't see any pairs listed."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0118#107-109",
+          "score": 1.8591254047350958e-05,
+          "text": "3."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0004#0-24",
+          "score": 5.917600901739206e-06,
+          "text": "No uploaded files found."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0141#0-84",
+          "score": 2.1818415916641243e-05,
+          "text": "При выставления регулятора напора на колонке на малый напор, включается без проблем."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0014#0-101",
+          "score": 0.0005432409234344959,
+          "text": "https://www.engineeringtoolbox.com/non-ideal-gas-van-der-Waals-equation-constants-gas-law-d_1969.html"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0118#185-191",
+          "score": 3.022126475116238e-05,
+          "text": "0.211."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0047#0-110",
+          "score": 0.015599840320646763,
+          "text": "(a) For each of the following pairs of gases, decide which substance has the larger van der Waals a parameter:"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_50c8d3bc0ca934d6#0-10",
+          "score": 4.338671715231612e-05,
+          "text": "web_search"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0121#0-78",
+          "score": 0.0001887483667815104,
+          "text": "The 4 reactions that, step by step, build a helium atom from four of hydrogen."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0047#142-159",
+          "score": 0.00022233887284528464,
+          "text": "(iii) CO2 and H2;"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#681-766",
+          "score": 0.0007388262893073261,
+          "text": "- <answer-format check, entity disambiguation, arithmetic check, or uncertainty note>"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_b30beac9f604ddea#0-62",
+          "score": 0.005778002552688122,
+          "text": "van der waals constant greater species pairs textbook question"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0042#55-66",
+          "score": 0.00026620805147103965,
+          "text": "| Chegg.com"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0061#59-151",
+          "score": 0.001542209181934595,
+          "text": "For water vapour, the values of the parameters are a=5.536dm6barmol−2 and b=0.03049dm3mol−1."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0012#0-64",
+          "score": 0.003962621558457613,
+          "text": "Van der Waals attraction is greater if the molecules are closer."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0006#0-16",
+          "score": 2.450387182761915e-05,
+          "text": "No results found"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0125#0-27",
+          "score": 2.0395700630615465e-05,
+          "text": "Oxygen (O) | Periodic Table"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0018#0-124",
+          "score": 0.0008342406945303082,
+          "text": "R = universal gas constanta and b = van der Waals constants specific to each gasSummary of relationships: Critical Constant."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0120#0-43",
+          "score": 1.0218494935543276e-05,
+          "text": "https://www.youtube.com/watch?v=XqGLec4Ms0M"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0079#0-65",
+          "score": 0.00023797928588464856,
+          "text": "https://en.wikipedia.org/wiki/Van_der_Waals_constants_(data_page)"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0023#0-128",
+          "score": 0.0060416823253035545,
+          "text": "https://www.khanacademy.org/science/chemistry/gases-and-kinetic-molecular-theory/non-ideal-gas-behavior/v/van-der-waals-equation"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0097#0-2",
+          "score": 2.5582945454516448e-05,
+          "text": "C."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0162#0-52",
+          "score": 0.0011944693978875875,
+          "text": "The value of the van der Waals constant a (atm `\"li."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0118#110-116",
+          "score": 3.023804492841009e-05,
+          "text": "Argon."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_e1ffd1c9fa46d144#0-9",
+          "score": 2.7508525818120688e-05,
+          "text": "web_fetch"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0046#0-127",
+          "score": 0.01205991581082344,
+          "text": "https://www.solutioninn.com/study-help/chemical-principles/real-gases-and-vapors-deviate-from-ideal-behavior-on-account-1208901"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0176#0-125",
+          "score": 0.002034697914496064,
+          "text": "Which one of the following is correct with respect to the van der Waals' constant values of X and Y in the table given above?"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0121#79-160",
+          "score": 0.0003056973800994456,
+          "text": "How the surplus electrons are destroyed and how all of this pumps heat into th..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_82ad17e0e2cbabf0#0-24",
+          "score": 0.0004884281079284847,
+          "text": "van der Waals constant a"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0119#27-63",
+          "score": 6.933382246643305e-05,
+          "text": "The 4 steps from hydrogen to helium."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0185#0-81",
+          "score": 0.01123488787561655,
+          "text": "a - parameter that gives a measure of the attractive force between the particles."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0015#0-177",
+          "score": 0.0010527438716962934,
+          "text": "The van der Waals constants for more than 200 gases used to correct for non-ideal behavior of gases caused by intermolecular forces and the volume occupied by the gas particles."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0136#0-38",
+          "score": 1.1383242053852882e-05,
+          "text": "M&M's Surprise Eggs Play Doh - YouTube"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0012#65-155",
+          "score": 0.00038658297853544354,
+          "text": "Van der Waals forces are independent of temperature except for dipole-dipole interactions."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0070#0-140",
+          "score": 0.004141646437346935,
+          "text": "Alternatively, the b parameter of the VV10 or rVV10 could be fitted to the S22 set of van der Waals and hydrogen-bonded molecular complexes."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0060#0-48",
+          "score": 0.0004320241278037429,
+          "text": "https://isaacscience.org/questions/van_der_waals"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0074#180-218",
+          "score": 0.03270973637700081,
+          "text": "the **b** parameter (molecular volume)"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0118#97-106",
+          "score": 4.439750773599371e-05,
+          "text": "Nitrogen."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0135#263-276",
+          "score": 0.00041075990884564817,
+          "text": "CO2 : 0.0427."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0191#0-95",
+          "score": 0.01156650111079216,
+          "text": "(i) He and Ne; (ii) Ne and O2; (iii) CO2 and H2; (iv) H2CO and CH4; (v) C6H6 and CH3(CH2)10CH3."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0127#210-272",
+          "score": 4.664350126404315e-05,
+          "text": "The Allotropes of Oxygen (O) are Dioxygen, Ozone, Tetraoxygen."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0097#11-15",
+          "score": 3.3041400456568226e-05,
+          "text": "CH4."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#504-580",
+          "score": 0.002243773313239217,
+          "text": "If no tool is needed or available, still write the evidence/checks you used."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0126#0-59",
+          "score": 5.642741143674357e-06,
+          "text": "https://periodictable.chemicalaid.com/element.php/O?lang=en"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0091#0-59",
+          "score": 6.746046710759401e-05,
+          "text": "https://chemenggcalc.com/van-der-waals-equation-calculator/"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_03bf3432b0990403#0-85",
+          "score": 0.01830414868891239,
+          "text": "\"for each of the following pairs\" \"which\" \"van der waals\" constant a textbook problem"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_f87078fe9e989c1d#0-69",
+          "score": 0.00637740409001708,
+          "text": "van der Waals constant a values He Ne O2 CO2 H2 CH4 table L2 bar mol2"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_2f1a0d39f5ef07ab#0-25",
+          "score": 2.427152321615722e-05,
+          "text": "call_-7436814041428779282"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0021#0-139",
+          "score": 0.010384183377027512,
+          "text": "The van der waal’s equation of state for 1 mole of gas is (P + a/V^2)(V - b) = RT Arrange the following gases in order of increasing value."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0116#48-57",
+          "score": 2.4810211471049115e-05,
+          "text": "| Quizlet"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0086#0-93",
+          "score": 0.005213350988924503,
+          "text": "(c) Larger the value of van der Waals constant a, more easily the liquefaction of gas occurs."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_fee9d46086e4b962#0-25",
+          "score": 9.454192331759259e-05,
+          "text": "call_-7436805966890266844"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0089#106-182",
+          "score": 0.0010309867793694139,
+          "text": "The table indicates the value of van der Waals constant ‘a’ in (dm^3)^2 atm."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_1bfaaf435dea5ae5#0-25",
+          "score": 3.1653780752094463e-06,
+          "text": "call_-7436740545948411576"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0089#183-234",
+          "score": 0.0011461592512205243,
+          "text": "mol^-2 Gas O2 N2 NH3 CH4 a 1.360 1.390 4.170 2.253."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0078#0-47",
+          "score": 0.00016272916400339454,
+          "text": "Van der Waals constants (data page) - Wikipedia"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#768-777",
+          "score": 0.0008853443432599306,
+          "text": "Question:"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_e807ee0c6c389d5c#0-67",
+          "score": 0.015280989930033684,
+          "text": "\"which species has the greater van der waals\" constant a OR b pairs"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0041#67-179",
+          "score": 0.00019003105990123004,
+          "text": "kinetic energies would be equal for all molecules, what ever their molecular weights will be, it doesn't matter."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0040#0-100",
+          "score": 0.0007675369852222502,
+          "text": "https://askfilo.com/chemistry-question-answers/which-of-the-following-expressions-correctly-repre4jy"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_d0df9fb11070123f#0-25",
+          "score": 2.0818732082261704e-05,
+          "text": "call_-7436718590075594958"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_6607c2e07e3f6cf0#0-77",
+          "score": 0.012036492116749287,
+          "text": "\"for each of the following pairs\" \"greater van der waals\" \"a\" OR \"b\" constant"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0016#67-73",
+          "score": 1.558162875880953e-05,
+          "text": "| Filo"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#667-680",
+          "score": 0.00010435235890327021,
+          "text": "Verification:"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0069#0-176",
+          "score": 3.962252594646998e-05,
+          "text": "https://www.academia.edu/100243483/Molecule_surface_interaction_from_van_der_Waals_corrected_semilocal_density_functionals_The_example_of_thiophene_on_transition_metal_surfaces"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0197#0-2",
+          "score": 7.528536661993712e-05,
+          "text": "A."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0097#3-7",
+          "score": 4.21459881181363e-05,
+          "text": "CO2."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0197#150-249",
+          "score": 0.00011029802408302203,
+          "text": "At Boyle temperature, real gas behaves ideally over a range of pressure The correct statements are."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0118#128-139",
+          "score": 4.4139858800917864e-05,
+          "text": "Don't know?"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0020#0-108",
+          "score": 0.0019741635769605637,
+          "text": "https://www.sarthaks.com/3506434/arrange-the-following-gases-in-increasing-order-of-van-der-waals-constant-a"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#610-619",
+          "score": 0.00024018144176807255,
+          "text": "Evidence:"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0195#0-54",
+          "score": 9.475748083787039e-05,
+          "text": "Chemistry Free Mock Test PG | cuet exams massgraduates"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0097#188-192",
+          "score": 9.917559509631246e-05,
+          "text": "145."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0066#0-69",
+          "score": 3.1703926651971415e-05,
+          "text": "https://www.solubilityofthings.com/van-der-waals-equation-real-gases/"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0047#126-141",
+          "score": 0.0004220757109578699,
+          "text": "(ii) Ne and O2;"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0131#0-158",
+          "score": 0.0005491371266543865,
+          "text": "https://www.chegg.com/homework-help/questions-and-answers/use-van-der-waals-equation-calculate-pressure-atm-4828-mol-hydrogen-180-c-236-l-container--q24316893"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0107#0-17",
+          "score": 1.6038364947235095e-06,
+          "text": "Google Переводчик"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#48-94",
+          "score": 0.0010371962562203407,
+          "text": "Answer the question as accurately as possible."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_31c83d2d94bc0d13#0-125",
+          "score": 0.06186719983816147,
+          "text": "McQuarrie general chemistry \"van der Waals\" \"a parameter\" \"b parameter\" pairs solution He Ne O2 CO2 H2CO CH4 benzene dodecane"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0065#0-37",
+          "score": 0.0003464729234110564,
+          "text": "Van der Waals Equation for Real Gases"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0022#0-49",
+          "score": 0.00038813365972600877,
+          "text": "The van der Waals equation (video) | Khan Academy"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0087#0-65",
+          "score": 0.0011642624158412218,
+          "text": "The values of Vander waals constant a for the gases `N_(2), CO..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0154#55-64",
+          "score": 1.2881754628324416e-05,
+          "text": "- YouTube"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0050#0-67",
+          "score": 0.0007951181614771485,
+          "text": "Which of the following reaction involves free radical substitution?"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0021#187-246",
+          "score": 6.008673153701238e-05,
+          "text": "Chlorine is liquefied easily as compared to ethane because."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_35120b8f9790483a#0-84",
+          "score": 0.013551045209169388,
+          "text": "McQuarrie \"van der Waals\" \"a parameter\" \"b parameter\" pairs He Ne O2 CO2 H2 CH4 C6H6"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_c4cb6d2c41f5053c#0-69",
+          "score": 0.0009538449230603874,
+          "text": "van der Waals constant a formaldehyde H2CO methanal value L2 bar mol2"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0159#118-203",
+          "score": 0.002041466301307082,
+          "text": "It considers both the finite size of the gas particles and the intermolecular forces."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#395-503",
+          "score": 0.0033283946104347706,
+          "text": "Verify the key entities/attributes with available tools or with explicit evidence from the provided context."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0080#139-207",
+          "score": 0.0004032844153698534,
+          "text": "These constants are generally calculated from the critical pressure."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0174#0-66",
+          "score": 0.002718940144404769,
+          "text": "Consider the following van der Waals' constant values of two ga..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0100#48-141",
+          "score": 0.0005711843259632587,
+          "text": "A gas described by van der Waals' equation (a) behaves similar to an ideal gas molar volumes."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0033#184-336",
+          "score": 2.939451405836735e-05,
+          "text": "(uid: e3eda190-ba01-4034-9644-e57b51551745)\",\"readableMessage\":\"InsufficientBalanceError: Account balance not enough to run this query, please recharge."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0133#0-68",
+          "score": 0.003285906510427594,
+          "text": "Gases vander Waals' constant 'b' NH₃: 0.371 dm² mol⁻¹ CO₂: 0.0427..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0118#164-171",
+          "score": 2.468706043146085e-05,
+          "text": "Helium."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0127#0-43",
+          "score": 5.8129146054852754e-05,
+          "text": "The Gas Basicity of Oxygen is 459.6 kJ/mol."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0047#160-178",
+          "score": 0.0005843560793437064,
+          "text": "(iv) H2CO and CH4;"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0101#0-27",
+          "score": 7.616345101268962e-06,
+          "text": "Таблица Менделеева - Ptable"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_82ad17e0e2cbabf0#82-96",
+          "score": 2.6902765966951847e-05,
+          "text": "hydrogen 0.244"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0127#44-103",
+          "score": 2.6930978492600843e-05,
+          "text": "The Dipole Polarizability of O is 5.3 plus or minus 0.2 a₀."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_82ad17e0e2cbabf0#38-48",
+          "score": 0.00010006785305449739,
+          "text": "neon 0.211"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#582-609",
+          "score": 0.0009306635474786162,
+          "text": "Use this visible structure:"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0139#0-65",
+          "score": 2.978292513944325e-06,
+          "text": "Газовая колонка Electrolux Nano 2.0, проблема с включением при..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_b6e289422f60d406#0-25",
+          "score": 1.3553227290685754e-05,
+          "text": "call_-7436855891590116619"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0050#195-254",
+          "score": 0.0002585482725407928,
+          "text": "Include the reagents, reaction conditions and observations."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0109#85-117",
+          "score": 8.424748557445128e-06,
+          "text": "Поддерживается более 100 языков."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0170#178-279",
+          "score": 7.605724385939538e-05,
+          "text": "The ideal gas law treats the molecules of a gas as point particles with perfectly elastic collisions."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0173#45-56",
+          "score": 5.653114385495428e-06,
+          "text": "Chegg Logo."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0180#84-151",
+          "score": 0.019902339205145836,
+          "text": "The question asks about van der Waals constants for pairs of gases."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0118#120-127",
+          "score": 3.0343029720825143e-05,
+          "text": "Oxygen."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0050#95-121",
+          "score": 4.231752245686948e-05,
+          "text": "B Dehydration of alcohols."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0103#57-84",
+          "score": 2.646291932251188e-06,
+          "text": "Твёрдость1 H Водород 1,008."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0159#0-117",
+          "score": 0.0005181129672564566,
+          "text": "The Van der Waals equation, on the other hand, is an empirical relationship that seeks to address these shortcomings."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0083#233-274",
+          "score": 0.0037721595726907253,
+          "text": "Non-ideal gas - Van der Waal's Constants."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0177#0-42",
+          "score": 0.0001737957791192457,
+          "text": "Van Der Waals Constants.pdf [oq1z91487p02]"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0097#8-10",
+          "score": 1.857499410107266e-05,
+          "text": "D."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0033#337-382",
+          "score": 0.002474129432812333,
+          "text": "(uid: e3eda190-ba01-4034-9644-e57b51551745)\"}"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0044#138-277",
+          "score": 0.0682278499007225,
+          "text": "For each of the following pairs of gases, decide which substance has the larger van der Waals a parameter: (i) He and Ne; (ii) Ne and O2..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0027#57-70",
+          "score": 9.256982593797147e-05,
+          "text": "- brainly.com"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0173#0-44",
+          "score": 0.00028721455601044,
+          "text": "Calculate the critical constant for benzene."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0021#139-186",
+          "score": 0.005154000595211983,
+          "text": "For gases, a and bare van der Waal's constants."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0064#0-31",
+          "score": 0.00034121357020922005,
+          "text": "Select Van der Waals constants."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_701766854b8e9d98#0-25",
+          "score": 5.565908577409573e-05,
+          "text": "call_-7436640833987672366"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0092#53-153",
+          "score": 0.0002980337885674089,
+          "text": "Data given for Van der Waals constants for carbon dioxide: a = 3.61 L2 atm mol-2 & b = 0.0428 L/mol."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0135#93-215",
+          "score": 0.004351090174168348,
+          "text": "A higher value of b means the gas molecules occupy more space and thus the gas is less compressible (more incompressible)."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0041#180-206",
+          "score": 8.169087232090533e-05,
+          "text": "Was this solution helpful?"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0103#53-56",
+          "score": 3.5229686545790173e-07,
+          "text": "pm."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0000#66-84",
+          "score": 2.0913139451295137e-05,
+          "text": "</system-reminder>"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_82ad17e0e2cbabf0#49-61",
+          "score": 4.5963257434777915e-05,
+          "text": "oxygen 1.382"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_b2918dddc373346d#0-25",
+          "score": 2.2480950065073557e-05,
+          "text": "call_-7436684573934609602"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#0-46",
+          "score": 0.0006400123820640147,
+          "text": "You are solving a benchmark training question."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#861-914",
+          "score": 0.007924786768853664,
+          "text": "Return your final answer in this exact trailing form:"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0140#0-57",
+          "score": 5.842740574735217e-05,
+          "text": "https://rutube.ru/video/fd7d12b21b28c96628029f8f711f3869/"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0072#0-70",
+          "score": 6.767847662558779e-05,
+          "text": "https://elo.hu/van-der-waals-egyenlet-a-realis-gazok-allapotegyenlete/"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0141#210-239",
+          "score": 2.018597297137603e-05,
+          "text": "Пришлось решать методом тыка."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0029#116-240",
+          "score": 0.00013123186363372952,
+          "text": "Similarly, carbon tetrachloride's multiple chlorine interactions lead to stronger forces compared to trichlorofluoromethane."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0173#167-231",
+          "score": 0.0007802231702953577,
+          "text": "Identify the critical volume using the van der Waals constant b."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0098#0-68",
+          "score": 0.0001627041638130322,
+          "text": "Assume that fullerene (C60) in the gas phase behaves as a van der..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0142#4-54",
+          "score": 4.185118541499833e-06,
+          "text": "Датчик частиц дизельного топлива — BMW X6 (F16)..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0118#0-96",
+          "score": 0.00016328362107742578,
+          "text": "Study with Quizlet and memorize flashcards containing terms like Helium, Neon, Argon and more.2."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0141#240-246",
+          "score": 4.801362365469686e-07,
+          "text": "Может."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_82ad17e0e2cbabf0#25-37",
+          "score": 1.6815094568300992e-05,
+          "text": "helium 0.034"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#164-288",
+          "score": 0.007921282202005386,
+          "text": "Leave a compact, observable solve trace before the final answer so this run can be distilled into reusable experience later."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0019#0-67",
+          "score": 0.0019030102994292974,
+          "text": "Arrange the following gases in increasing order of van der Waals..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_8e380cdea1c2b75c#0-9",
+          "score": 3.9049267797963694e-05,
+          "text": "tool_call"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0083#177-232",
+          "score": 0.0009579204488545656,
+          "text": "To convert a into kPa L2/mol2multiply by 100.0 kPa/bar."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0027#0-56",
+          "score": 0.004597837571054697,
+          "text": "[FREE] For each of the following pairs, predict which..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0033#0-183",
+          "score": 1.1123019248771016e-05,
+          "text": "Error: Jina API returned status 402: {\"data\":null,\"code\":402,\"name\":\"InsufficientBalanceError\",\"status\":40203,\"message\":\"Account balance not enough to run this query, please recharge."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0041#0-51",
+          "score": 7.588026346638799e-05,
+          "text": "Text Solution Text solution verified icon Verified."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0141#85-149",
+          "score": 4.81174492961145e-06,
+          "text": "Поворачиваем регулятор на средний напор и колонка не зажигается."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0118#172-178",
+          "score": 7.196833394118585e-06,
+          "text": "0.034."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0071#0-64",
+          "score": 6.861201109131798e-05,
+          "text": "Van der Waals-egyenlet: a reális gázok állapotegyenlete - Elo.hu"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0092#0-53",
+          "score": 0.003579469630494714,
+          "text": "Van der Waals Constant (a and b values) – Data Table."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0138#0-53",
+          "score": 2.0350712475192267e-06,
+          "text": "Play-Doh surprise eggs modeled like M&M’s characters."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0089#0-106",
+          "score": 0.0010801092721521854,
+          "text": "Correct Answer - C Larger the vavlue of Vander Waals constant `a` more easily the gas will be liquefiable."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0061#0-58",
+          "score": 0.009796883910894394,
+          "text": "b - parameter proportional to the volume of the particles."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0086#196-207",
+          "score": 2.5261877453885972e-05,
+          "text": "Updated On."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_1319b9679d1bd7e7#0-86",
+          "score": 0.0019237464293837547,
+          "text": "van der Waals constant b values He 0.0237 Ne 0.0171 O2 0.0319 CO2 0.0427 H2 0.0266 CH4"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0016#0-66",
+          "score": 9.311654139310122e-05,
+          "text": "Relationship between critical constants and van der waals const..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_6d8ca6ab3351e1f5#0-80",
+          "score": 0.0007502565858885646,
+          "text": "van der Waals constant a He 0.0346 Ne 0.205 O2 1.382 CO2 3.59 H2 0.244 CH4 2.303"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_c1a0e1bdf56f68bc#0-25",
+          "score": 9.002124716062099e-05,
+          "text": "call_-7436684573934609603"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0074#0-29",
+          "score": 0.010691012255847454,
+          "text": "I found the textbook problem."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0119#0-26",
+          "score": 8.058563253143802e-06,
+          "text": "Nuclear fusion in the sun."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0049#0-43",
+          "score": 2.0605355530278757e-05,
+          "text": "https://anyflip.com/ensrg/mfkl/basic/51-100"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0154#0-54",
+          "score": 0.00015168196114245802,
+          "text": "H2CO (Formaldehyde) Molecular Geometry, Bond Angles..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0029#0-115",
+          "score": 0.0004904649686068296,
+          "text": "For example, the longer carbon chain of hexane leads to stronger van der Waals forces which increase boiling point."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0084#0-63",
+          "score": 0.0009406579774804413,
+          "text": "The values of van der Waals constant a for the gases \\mathrm..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0134#0-134",
+          "score": 0.001120549044571817,
+          "text": "https://askfilo.com/user-question-answers-smart-solutions/125-gases-vander-waals-constant-b-nh3-0-371-dm2-mol-1-co2-0-3431303034313535"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0106#0-48",
+          "score": 2.565585782576818e-05,
+          "text": "2D materials and van der waals heterostructures."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0050#68-94",
+          "score": 5.8607663959264755e-05,
+          "text": "A Halogenation of alkanes."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0086#146-195",
+          "score": 0.00022545913816429675,
+          "text": "The gas which can be most easily be liquefied is."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0108#0-45",
+          "score": 1.6014802213248913e-06,
+          "text": "https://translate.google.com.tn/?hl=ru&tab=TT"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0138#54-91",
+          "score": 0.0001078525310731493,
+          "text": "Each one hiding exciting toys inside!"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0141#150-209",
+          "score": 5.7848181313602254e-05,
+          "text": "Пересмотрел кучу роликов, решения данной проблемы не нашёл."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_240f56938dcaae7a#0-25",
+          "score": 5.2411055548873264e-06,
+          "text": "call_-7436740545948411575"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0074#30-179",
+          "score": 0.10779709368944168,
+          "text": "It's a well-known problem (likely from McQuarrie's General Chemistry or similar), asking for both the **a** parameter (intermolecular attraction) and"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0102#0-27",
+          "score": 2.9225523121567676e-06,
+          "text": "https://ptable.com/?lang=ru"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#95-163",
+          "score": 9.940162271959707e-05,
+          "text": "Use DeerFlow tools or subagents only when they are genuinely useful."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0145#0-108",
+          "score": 0.0033285201061517,
+          "text": "Let me search for more specific data on the van der Waals constants, especially for formaldehyde vs methane."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0155#0-43",
+          "score": 4.714179794973461e-06,
+          "text": "https://www.youtube.com/watch?v=K4d71wh9VGw"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0051#37-74",
+          "score": 0.005614285822957754,
+          "text": "Let me get the full question details."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_d3738b1a78c70499#0-45",
+          "score": 0.0034682874102145433,
+          "text": "Check for uploaded files containing the pairs"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0062#0-42",
+          "score": 0.00010413455311208963,
+          "text": "Van der Waals Calculator | SummaCalculator"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0074#220-258",
+          "score": 0.018612992018461227,
+          "text": "The \"a\" parameter pairs are confirmed."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0074#259-322",
+          "score": 0.0026362547650933266,
+          "text": "Let me verify the van der Waals constants to answer accurately."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0002#96-164",
+          "score": 0.001571280648931861,
+          "text": "Let me check if there are any uploaded files that contain the pairs."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0171#0-60",
+          "score": 0.003390769474208355,
+          "text": "Solved Taking the van der waals constant a and b for benzene"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0011#0-49",
+          "score": 3.709834345499985e-05,
+          "text": "https://en.wikipedia.org/wiki/Van_der_Waals_force"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0118#140-163",
+          "score": 0.00025366447516717017,
+          "text": "Terms in this set (14)."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0104#0-39",
+          "score": 2.296657294209581e-05,
+          "text": "science.org/doi/10.1126/science.aac9439"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0156#0-117",
+          "score": 0.00013518573541659862,
+          "text": "An explanation of the molecular geometry for the H2CO (Formaldehyde) including a description of the H2CO bond angles."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0064#124-143",
+          "score": 0.033494703471660614,
+          "text": "b (excluded volume)"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0135#216-262",
+          "score": 0.000548847543541342,
+          "text": "Given values of b (in dm2 mol−1): NH3 : 0.371."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0175#0-134",
+          "score": 0.0002951931091956794,
+          "text": "https://askfilo.com/user-question-answers-smart-solutions/consider-the-following-van-der-waals-constant-values-of-two-3334353235343032"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0197#3-56",
+          "score": 0.021217554807662964,
+          "text": "Parameter a corrects for intermolecular attraction B."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0160#0-69",
+          "score": 0.001004161429591477,
+          "text": "For one mole of a van der Waals gas when b = 0 and T = 300 K , the..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0173#89-145",
+          "score": 0.0001660861453274265,
+          "text": "This AI-generated tip is based on Chegg's full solution."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_86099f45e1731976#0-2",
+          "score": 4.285916475055274e-06,
+          "text": "ls"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0051#0-36",
+          "score": 0.006525414064526558,
+          "text": "I found a matching textbook problem."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0028#0-37",
+          "score": 8.655129204271361e-05,
+          "text": "https://brainly.com/question/43365767"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0138#92-160",
+          "score": 3.4287941161892377e-06,
+          "text": "Kids will love guessing the colors, discovering what's inside eac..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0100#0-48",
+          "score": 0.003145145485177636,
+          "text": "The van der Waals constant, b, for fullerene is."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0103#85-103",
+          "score": 2.675413816177752e-05,
+          "text": "2 He Гелий 4,0026."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_f288d8b523b361c0#0-89",
+          "score": 0.004203814081847668,
+          "text": "\"for each of the following pairs\" \"which species has the greater van der waals\" chemistry"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#915-937",
+          "score": 0.00120142986997962,
+          "text": "Final answer: <answer>"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0085#0-120",
+          "score": 0.00025789582286961377,
+          "text": "https://askfilo.com/chemistry-question-answers/the-values-of-van-der-waals-constant-a-for-the-gases-mathrmo_2-mathrm~n_2"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0172#0-156",
+          "score": 0.000553988735191524,
+          "text": "https://www.chegg.com/homework-help/questions-and-answers/taking-van-der-waals-constant-b-benzene-1800atm-l2-mol-2-0115-l-mol-1respectively-calculat-q450971"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0196#0-66",
+          "score": 6.941658739378909e-06,
+          "text": "https://cuetexamsnta.massgraduates.in/chemistry-free-mock-test-pg/"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#778-859",
+          "score": 0.004365944303572178,
+          "text": "for each of the following pairs state which species has the greater van der waals"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0132#0-11",
+          "score": 0.00012972696276847273,
+          "text": "Solution 1."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0109#0-84",
+          "score": 1.1977696885878686e-05,
+          "text": "Бесплатный сервис Google позволяет мгновенно переводить слова, фразы и веб-страницы."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_91b9d0691b7f3b71#0-25",
+          "score": 8.102090760075953e-06,
+          "text": "call_-7436824314990556469"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0064#143-144",
+          "score": 6.527810114675958e-07,
+          "text": "."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0178#0-66",
+          "score": 3.799690603045747e-05,
+          "text": "https://doku.pub/documents/van-der-waals-constantspdf-oq1z91487p02"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0044#0-137",
+          "score": 0.0029778776224702597,
+          "text": "Recall that one equation of state for a real gas is the van der Waals equation, which is expressed in terms of two parameters, a and b a."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0073#0-105",
+          "score": 0.006340362597256899,
+          "text": "Van der Waals bevezette a ko-térfogat vagy exkludált térfogat fogalmát, amelyet általában b-vel jelölünk."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0067#81-269",
+          "score": 0.0011982697760686278,
+          "text": "These constants transform the ideal gas equation into a more accurate representation of real gas behavior by accounting for intermolecular attractions and the finite size of gas molecules."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0013#0-53",
+          "score": 0.002454762812703848,
+          "text": "Non-ideal gas - Van der Waal's Equation and Constants"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0173#146-166",
+          "score": 6.646725523751229e-06,
+          "text": "Sign up to see more!"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0088#0-124",
+          "score": 0.0004589241580106318,
+          "text": "https://www.sarthaks.com/1849618/the-values-vander-waals-constant-gases-co-and-ch-are-390-640-and-2253l-atm-mol-respectively"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0045#0-63",
+          "score": 0.002280209446325898,
+          "text": "[Solved] Real gases and vapors deviate from ideal | SolutionInn"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0003#0-7",
+          "score": 2.948284191006678e-06,
+          "text": "(empty)"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#290-394",
+          "score": 0.0006122870836406946,
+          "text": "For factual, entity-comparison, multi-hop, or time-sensitive questions, do not answer from a bare guess."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0144#0-94",
+          "score": 2.6621999040798983e-06,
+          "text": "Вылез джеки чан — 2BBA00 — Датчик частиц дизельного топлива, сигнал температуры: недостоверно."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_b2a8b229a71c88bc#0-25",
+          "score": 1.395106392010348e-05,
+          "text": "call_-7436718590075594957"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0137#0-43",
+          "score": 1.049353159032762e-06,
+          "text": "https://www.youtube.com/watch?v=WHK0GUNP6vs"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0105#0-51",
+          "score": 6.560528709087521e-05,
+          "text": "https://www.science.org/doi/10.1126/science.aac9439"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0043#0-158",
+          "score": 0.02246100641787052,
+          "text": "https://www.chegg.com/homework-help/questions-and-answers/w111-real-gases-vapors-intermolecular-interactions-recall-one-equation-state-real-gas-van--q32729080"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0142#55-63",
+          "score": 9.665961897553643e-07,
+          "text": "| DRIVE2"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0158#0-70",
+          "score": 3.25343462463934e-05,
+          "text": "https://www.questionai.com/knowledge/kHp9dtdMZa-van-der-waals-equation"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0197#57-108",
+          "score": 0.007384658791124821,
+          "text": "Parameter b accounts for finite molecular volume C."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0180#152-216",
+          "score": 0.0006765127182006836,
+          "text": "Let me verify the key chemistry principles to answer accurately."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0004#106-188",
+          "score": 0.003882848657667637,
+          "text": "Let me search for this common chemistry question to identify the standard version."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_9ca5aa5ac78ac2c6#0-86",
+          "score": 0.008500516414642334,
+          "text": "\"van der Waals a parameter\" \"He and Ne\" \"Ne and O2\" \"CO2 and H2\" \"H2CO and CH4\" \"C6H6\""
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_44cabf3bbb247f2e#0-25",
+          "score": 0.00018887512851506472,
+          "text": "call_-7436691926918624616"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0050#121-194",
+          "score": 0.0007147305295802653,
+          "text": "Suggest chemical test(s) to distinguish the following pairs of compounds."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0061#152-187",
+          "score": 2.764844975899905e-05,
+          "text": "Take Absolute Zero to be −273.15∘C."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0143#0-43",
+          "score": 4.3066566490779223e-07,
+          "text": "https://www.drive2.ru/l/700085717635703681/"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0086#121-145",
+          "score": 0.0004223110154271126,
+          "text": "145.mol−2, respectively."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_82ad17e0e2cbabf0#62-81",
+          "score": 3.1272251362679526e-05,
+          "text": "carbon dioxide 3.59"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0173#57-89",
+          "score": 0.0031771566718816757,
+          "text": "Here’s the best way to solve it."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#620-666",
+          "score": 0.0025121907237917185,
+          "text": "- <key fact, calculation, or tool result used>"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0179#94-214",
+          "score": 0.002665182575583458,
+          "text": "To convert the van der Waals constants to SI units, note that 1 bar L2/mol2 = 0.1 Pa m6/mol2 and 1 L/mol = 0.001 m3/mol."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0118#179-184",
+          "score": 5.631724343402311e-05,
+          "text": "Neon."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0197#109-149",
+          "score": 3.746042784769088e-05,
+          "text": "Boyle temperature is independent of a D."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_9598ff96fd2b5cdb#0-53",
+          "score": 0.00040729038300924003,
+          "text": "van der Waals constant a benzene 18.24 dodecane value"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_0ee73a425c44b32b#0-25",
+          "score": 2.3615734789927956e-06,
+          "text": "call_-7436701788163532137"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_a143f1baae0f53f6#0-25",
+          "score": 8.71444683525624e-07,
+          "text": "call_-7436701788163532138"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0063#0-52",
+          "score": 6.056292477296665e-06,
+          "text": "https://summacalculator.com/van-der-waals-calculator"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0080#0-138",
+          "score": 0.001273664995096624,
+          "text": "The following table lists the Van der Waals constants (from the Van der Waals equation) for a number of common gases and volatile liquids."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0073#106-174",
+          "score": 0.0024191669654101133,
+          "text": "Ez a b paraméter egy mol gázmolekula saját térfogatát reprezentálja."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0068#0-66",
+          "score": 5.916505415370921e-06,
+          "text": "(PDF) Molecule-surface interaction from van der Waals-corrected..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0041#52-66",
+          "score": 0.00011911826732102782,
+          "text": "For same temp."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0092#154-230",
+          "score": 4.509577411226928e-05,
+          "text": "Calculate the percentage deviation of each value from the observed pressure."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0103#0-52",
+          "score": 3.588624531403184e-05,
+          "text": "Pадиус, calculated empirical covalent van der Waals."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0010#0-31",
+          "score": 0.0002750316052697599,
+          "text": "Van der Waals force - Wikipedia"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:arg_d9c4be36f46eb5f5#0-25",
+          "score": 6.483249990196782e-07,
+          "text": "call_-7436640833987672367"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0191#96-205",
+          "score": 0.011507104150950909,
+          "text": "(b) For each of the following pairs of gases, decide which substance has the larger van der Waals b parameter"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 5400,
+      "seconds": 0.253,
+      "target": "I've now confirmed the complete problem. It's from McQuarrie's General Chemistry (Chapter W11, problem about real gases). The question asks about BOTH the **a** parameter (intermolecular attraction) AND the **b** parameter (molecular volume) for five pairs of gases:",
+      "target_tokens": 62,
+      "total_tokens": 5462
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0180#0-83",
+          "score": 0.44257959723472595,
+          "text": "I've identified the standard textbook problem (from McQuarrie's General Chemistry)."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0020#0-108",
+          "score": 0.11070285737514496,
+          "text": "https://www.sarthaks.com/3506434/arrange-the-following-gases-in-increasing-order-of-van-der-waals-constant-a"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0050#0-67",
+          "score": 0.04085472226142883,
+          "text": "Which of the following reaction involves free radical substitution?"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0142#4-54",
+          "score": 0.0021702698431909084,
+          "text": "Датчик частиц дизельного топлива — BMW X6 (F16)..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0121#79-160",
+          "score": 0.008705138228833675,
+          "text": "How the surplus electrons are destroyed and how all of this pumps heat into th..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0086#146-195",
+          "score": 0.01711636409163475,
+          "text": "The gas which can be most easily be liquefied is."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0127#104-209",
+          "score": 0.006574519444257021,
+          "text": "Element 8 has a C6 Dispersion Coefficient (CD) of 15.6 a₀, and C6 Dispersion Coefficient (GB) of 16.7 a₀."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0156#0-117",
+          "score": 0.003369697602465749,
+          "text": "An explanation of the molecular geometry for the H2CO (Formaldehyde) including a description of the H2CO bond angles."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#778-859",
+          "score": 0.006214499473571777,
+          "text": "for each of the following pairs state which species has the greater van der waals"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 264,
+      "seconds": 0.026,
+      "target": "The problem is from McQuarrie's General Chemistry, Chapter W11.",
+      "target_tokens": 17,
+      "total_tokens": 281
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.18365442752838135,
+          "text": "The problem is from McQuarrie's General Chemistry, Chapter W11."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0047#0-110",
+          "score": 0.10978404432535172,
+          "text": "(a) For each of the following pairs of gases, decide which substance has the larger van der Waals a parameter:"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0191#96-205",
+          "score": 0.1470051258802414,
+          "text": "(b) For each of the following pairs of gases, decide which substance has the larger van der Waals b parameter"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0185#0-81",
+          "score": 0.07962597906589508,
+          "text": "a - parameter that gives a measure of the attractive force between the particles."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0061#0-58",
+          "score": 0.06152268499135971,
+          "text": "b - parameter proportional to the volume of the particles."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0020#0-108",
+          "score": 0.04139707237482071,
+          "text": "https://www.sarthaks.com/3506434/arrange-the-following-gases-in-increasing-order-of-van-der-waals-constant-a"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0050#0-67",
+          "score": 0.015247541479766369,
+          "text": "Which of the following reaction involves free radical substitution?"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0142#4-54",
+          "score": 0.006000828463584185,
+          "text": "Датчик частиц дизельного топлива — BMW X6 (F16)..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0121#79-160",
+          "score": 0.013606819324195385,
+          "text": "How the surplus electrons are destroyed and how all of this pumps heat into th..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0086#146-195",
+          "score": 0.00458155944943428,
+          "text": "The gas which can be most easily be liquefied is."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0127#104-209",
+          "score": 0.003336377674713731,
+          "text": "Element 8 has a C6 Dispersion Coefficient (CD) of 15.6 a₀, and C6 Dispersion Coefficient (GB) of 16.7 a₀."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0156#0-117",
+          "score": 0.0015302675310522318,
+          "text": "An explanation of the molecular geometry for the H2CO (Formaldehyde) including a description of the H2CO bond angles."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#778-859",
+          "score": 0.01547689363360405,
+          "text": "for each of the following pairs state which species has the greater van der waals"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 338,
+      "seconds": 0.041,
+      "target": "I've now confirmed the complete problem. It's from McQuarrie's General Chemistry (Chapter W11, problem about real gases). The question asks about BOTH the **a** parameter (intermolecular attraction) AND the **b** parameter (molecular volume) for five pairs of gases:",
+      "target_tokens": 62,
+      "total_tokens": 400
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 24.94,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

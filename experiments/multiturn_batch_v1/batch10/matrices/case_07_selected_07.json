@@ -1,0 +1,791 @@
+{
+  "case_id": "genmem_5c054943b1a987e0:selected_07",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0008#0-53",
+          "score": 0.0041870493441820145,
+          "text": "How To Manage Virtual Memory (Pagefile) In Windows 10"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0061#0-41",
+          "score": 0.00151775311678648,
+          "text": "windows_memory_pool_nonpaged_bytes_total."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0070#69-82",
+          "score": 8.743520447751507e-05,
+          "text": "mod_pagelist."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0000#0-17",
+          "score": 0.00043677864596247673,
+          "text": "<system-reminder>"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0055#0-65",
+          "score": 0.0001791392860468477,
+          "text": "https://steamcommunity.com/sharedfiles/filedetails/?id=2114415052"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0046#0-88",
+          "score": 0.0003582726640161127,
+          "text": "https://web.archive.org/web/20150303235501/http://support.microsoft.com/kb/2160852/en-us"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0000#18-65",
+          "score": 0.0013189067831262946,
+          "text": "<current_date>2026-07-20, Monday</current_date>"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0054#0-72",
+          "score": 0.0011021450627595186,
+          "text": "Steam Community :: Guide :: Page file - Setup, Explanation, and Guide..."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0045#0-58",
+          "score": 0.0031968257389962673,
+          "text": "RAM, virtual memory, pagefile, and memory management in..."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0030#173-176",
+          "score": 4.961372906109318e-05,
+          "text": "19."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0044#65-114",
+          "score": 0.00046124073560349643,
+          "text": "Applies to: Supported versions of Windows Server."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0056#0-207",
+          "score": 0.00454810680821538,
+          "text": "Set Game Memory to \"active\": The relevant value is \"used virtual memory\": You also might want to check out the size of your pagefile during game, while your other typical background applications are running."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0013#54-172",
+          "score": 0.05454413965344429,
+          "text": "Virtual memory is a file (pagefile.sys) that Windows uses when you run out of space in the Random Access Memory (RAM)."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0049#0-108",
+          "score": 0.00038611789932474494,
+          "text": "https://www.sysnative.com/forums/threads/bruce-sandersons-ram-virtual-memory-pagefile-and-all-that-stuff.22/"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0009#0-93",
+          "score": 0.0003275363415013999,
+          "text": "https://www.tomshardware.com/news/how-to-manage-virtual-memory-pagefile-windows-10,36929.html"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0030#110-172",
+          "score": 0.007212755270302296,
+          "text": "What is the largest size for Windows Pagefile.sys you can set?"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0007#0-71",
+          "score": 0.005609755404293537,
+          "text": "Virtual memory manager: Controls data movement between RAM and storage."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:arg_4044d2b00ac3247e#0-10",
+          "score": 8.702445484232157e-06,
+          "text": "web_search"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0026#0-46",
+          "score": 0.000131429813336581,
+          "text": "https://www.minitool.com/lib/pagefile-sys.html"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0053#0-84",
+          "score": 0.0003207041881978512,
+          "text": "RAM, virtual memory, pagefile, and memory management in Windows | Microsoft Support."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0066#0-85",
+          "score": 5.363714535633335e-06,
+          "text": "https://www.octamis.com/octamis-blog/windows-performance-monitoring-tips-with-splunk/"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0015#0-112",
+          "score": 5.24547285749577e-05,
+          "text": "https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/ram-virtual-memory-pagefile-management"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0072#0-66",
+          "score": 1.1617070413194597e-05,
+          "text": "https://community.influxdata.com/t/ram-monitoring-in-windows/32154"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0030#0-46",
+          "score": 0.00013995137123856694,
+          "text": "The way memory management works on Windows is,"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0001#681-766",
+          "score": 0.00028479949105530977,
+          "text": "- <answer-format check, entity disambiguation, arithmetic check, or uncertainty note>"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:arg_e39e0d1e39faada5#0-71",
+          "score": 0.001301886048167944,
+          "text": "Windows pagefile.sys virtual memory management commit limit working set"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0025#44-58",
+          "score": 0.0001302253222092986,
+          "text": "Answers Are..."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0063#0-107",
+          "score": 0.0014703714987263083,
+          "text": "https://superuser.com/questions/1410289/what-are-commited-memory-cached-paged-not-paged-pool-how-they-are-d"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0061#81-127",
+          "score": 0.000439612747868523,
+          "text": "gauge.windows_memory_standby_cache_core_bytes."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0012#0-91",
+          "score": 3.1633164326194674e-05,
+          "text": "https://www.geeksinphoenix.com/blog/post/2016/05/10/how-to-manage-windows-10-virtual-memory"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0017#0-60",
+          "score": 5.532288923859596e-05,
+          "text": "How to manage virtual memory on Windows 11 | Windows Central"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0070#0-14",
+          "score": 8.391820301767439e-05,
+          "text": "nonpaged_pool."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:arg_53bf966e4ddd7381#0-9",
+          "score": 9.937646154867252e-07,
+          "text": "web_fetch"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0011#0-39",
+          "score": 5.6294571550097317e-05,
+          "text": "How to manage Windows 10 Virtual Memory"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0062#0-58",
+          "score": 0.000979726086370647,
+          "text": "windows - What are \"Commited Memory\", \"Cached\", \"Paged...."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0037#70-112",
+          "score": 1.4980699234001804e-05,
+          "text": "Let me fetch it for authoritative content."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0001#504-580",
+          "score": 7.496499893022701e-05,
+          "text": "If no tool is needed or available, still write the evidence/checks you used."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0001#768-777",
+          "score": 8.50171854835935e-05,
+          "text": "Question:"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0002#0-102",
+          "score": 0.00035033919266425073,
+          "text": "I'll research this topic to provide an accurate, comprehensive answer about Windows memory management."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0001#667-680",
+          "score": 2.4475910322507843e-05,
+          "text": "Verification:"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0036#102-249",
+          "score": 0.31100666522979736,
+          "text": "When RAM fills up, Windows can move inactive memory pages to disk so the operating system can continue giving foreground tasks the space they need."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0033#76-284",
+          "score": 0.03983692079782486,
+          "text": "The file is created and operated automatically by the system and has the sole function of lightening the load on the working memory when handling programs and processes that take up a lot of processing power."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0001#610-619",
+          "score": 4.123082908336073e-05,
+          "text": "Evidence:"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0030#47-110",
+          "score": 0.008395464159548283,
+          "text": "all allocated memory are backed by either the page file or RAM."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0001#48-94",
+          "score": 4.274413731764071e-05,
+          "text": "Answer the question as accurately as possible."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0024#154-237",
+          "score": 0.005163230467587709,
+          "text": "To modify the virtual memory settings on Windows 11, use these steps: You may like."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0069#0-66",
+          "score": 2.4800796381896362e-05,
+          "text": "https://nagios.caesar.elte.hu/remotemunin2/Windows/LOG/memory.html"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0035#0-96",
+          "score": 0.0024157080333679914,
+          "text": "https://windowsforum.com/threads/why-pagefile-sys-is-huge-and-why-you-shouldnt-delete-it.415014/"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0053#84-248",
+          "score": 0.0720110610127449,
+          "text": "How to Clear Virtual Memory Pagefile at Shutdown in Windows 10 Virtual memory support uses a system pagefile to swap pages of memory to disk when they are not used."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0048#0-68",
+          "score": 0.00010870699043152854,
+          "text": "Bruce Sanderson's - RAM, Virtual Memory, PageFile and all that stuff"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0001#395-503",
+          "score": 0.00011219370935577899,
+          "text": "Verify the key entities/attributes with available tools or with explicit evidence from the provided context."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0007#71-129",
+          "score": 0.0006989573012106121,
+          "text": "Memory mapping: Tracks data locations across memory types."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0010#0-102",
+          "score": 0.0009196307510137558,
+          "text": "On the Virtual Memory box, uncheck the Automatically manage paging file size for all drives checkbox ."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0032#0-67",
+          "score": 0.0002639818121679127,
+          "text": "https://www.ionos.ca/digitalguide/server/configuration/pagefilesys/"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:arg_fee9d46086e4b962#0-25",
+          "score": 3.041690433747135e-06,
+          "text": "call_-7436737075614840800"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0038#184-336",
+          "score": 2.4414279323536903e-05,
+          "text": "(uid: e3eda190-ba01-4034-9644-e57b51551745)\",\"readableMessage\":\"InsufficientBalanceError: Account balance not enough to run this query, please recharge."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0013#0-54",
+          "score": 0.0001534444309072569,
+          "text": "How to change Windows 10 Virtual Memory / Paging File."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0050#136-260",
+          "score": 0.12234944850206375,
+          "text": "In Windows systems, these “paged out” pages are stored in one or more files (Pagefile.sys files) in the root of a partition."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0001#582-609",
+          "score": 5.975649401079863e-05,
+          "text": "Use this visible structure:"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0005#0-59",
+          "score": 0.00022100114438217133,
+          "text": "How to Manage Windows 10 Virtual Memory Pagefile | NinjaOne"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0065#0-50",
+          "score": 3.377340362931136e-06,
+          "text": "Windows performance monitoring tips with splunk..."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0024#0-154",
+          "score": 0.03031974658370018,
+          "text": "On Windows 11 , virtual memory is a feature that temporarily stores less frequent paging files loaded into RAM (Random Access Memory) onto the hard drive."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0037#0-69",
+          "score": 2.4220800696639344e-05,
+          "text": "I found the exact Microsoft Learn article that matches this question."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0047#95-213",
+          "score": 0.0013419201131910086,
+          "text": "Only core parts of the operating system kernel bypass this address translation and use real memory addresses directly."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0019#103-192",
+          "score": 0.0005282007623463869,
+          "text": "To change the paging file size with commands on Windows 11, use these steps: Open Start ."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0039#0-92",
+          "score": 1.5018635167507455e-05,
+          "text": "The web_fetch is unavailable, but I have the authoritative Microsoft Learn source confirmed."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0038#337-382",
+          "score": 0.00017202112940140069,
+          "text": "(uid: e3eda190-ba01-4034-9644-e57b51551745)\"}"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0027#0-103",
+          "score": 0.011556645855307579,
+          "text": "The pagefile.sys file is a Windows page file, and it is also famous as the virtual memory or swap file."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0006#0-72",
+          "score": 1.8969333268614719e-06,
+          "text": "https://www.ninjaone.com/blog/manage-windows-10-virtual-memory-pagefile/"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0047#0-94",
+          "score": 0.0025531358551234007,
+          "text": "Virtual memory addresses are automatically translated to real (RAM) addresses by the hardware."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0067#3-249",
+          "score": 0.004080102313309908,
+          "text": "System Cache Resident Bytes; % Committed Bytes In Use; Available KBytes; Available MBytes; Transition Pages RePurposed/sec; Free & Zero Page List Bytes; Modified Page List Bytes; Standby Cache Reserve Bytes; Standby Cache Normal Priority Bytes..."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0000#66-84",
+          "score": 2.479416798450984e-05,
+          "text": "</system-reminder>"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0001#0-46",
+          "score": 8.504429388267454e-06,
+          "text": "You are solving a benchmark training question."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0033#0-75",
+          "score": 0.004319403320550919,
+          "text": "Pagefile.sys is the paging file for the Microsoft Windows operating system."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0001#840-893",
+          "score": 0.00015131145482882857,
+          "text": "Return your final answer in this exact trailing form:"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0019#48-102",
+          "score": 0.0008605304174125195,
+          "text": "How to increase virtual memory through Command Prompt."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0025#59-69",
+          "score": 7.284878665814176e-05,
+          "text": "- MiniTool"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0061#128-147",
+          "score": 7.538973022747086e-06,
+          "text": "Not yet documented."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:arg_e807ee0c6c389d5c#0-75",
+          "score": 0.00014205726620275527,
+          "text": "Windows memory management committed bytes pool paged nonpaged standby cache"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0001#164-288",
+          "score": 4.484905002755113e-05,
+          "text": "Leave a compact, observable solve trace before the final answer so this run can be distilled into reusable experience later."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:arg_8e380cdea1c2b75c#0-9",
+          "score": 7.045107395242667e-07,
+          "text": "tool_call"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:arg_8df1d96f53b05621#0-25",
+          "score": 2.0679444787674583e-06,
+          "text": "call_-7436740167991292694"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0038#0-183",
+          "score": 9.659349416324403e-06,
+          "text": "Error: Jina API returned status 402: {\"data\":null,\"code\":402,\"name\":\"InsufficientBalanceError\",\"status\":40203,\"message\":\"Account balance not enough to run this query, please recharge."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0051#0-56",
+          "score": 2.8311262212810107e-05,
+          "text": "Manage Virtual Memory Pagefile in Windows 10 | Tutorials"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0071#0-66",
+          "score": 0.00010306570766260847,
+          "text": "RAM monitoring in Windows - Telegraf - InfluxData Community Forums"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0067#0-3",
+          "score": 1.044978503728089e-07,
+          "text": "..."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0073#0-192",
+          "score": 7.776627171551809e-05,
+          "text": "# \"Pool Paged Bytes\", # \"Standby Cache Reserve Bytes\"The plugin, windows performance counters, knows nothing about memory and only reads what you tell it to read based on what Windows exposes."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0019#0-48",
+          "score": 1.5472774975933135e-05,
+          "text": "How to increase virtual memory through Settings."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0059#0-65",
+          "score": 2.492439534762525e-07,
+          "text": "prometheus-community-windows_exporter/docs/collector.memory.md..."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0039#93-185",
+          "score": 1.0241279596812092e-05,
+          "text": "Let me do one more search to gather additional technical details from the Microsoft article."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0070#15-68",
+          "score": 4.195863220957108e-05,
+          "text": "npgdpool./Memory/Standby Cache Normal Priority Bytes."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0028#0-65",
+          "score": 3.7615172914229333e-05,
+          "text": "performance - Windows 10 system managed virtual memory size is..."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0001#95-163",
+          "score": 8.299111300402728e-07,
+          "text": "Use DeerFlow tools or subagents only when they are genuinely useful."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0073#193-248",
+          "score": 0.0015238133491948247,
+          "text": "total amount of RAM in the system how much is occupied."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0027#104-249",
+          "score": 0.013830725103616714,
+          "text": "Normally, Windows stores files, programs, and other data in your RAM because it is quicker to read from RAM than it is to read from a hard drive."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0060#0-102",
+          "score": 1.5287350834114477e-06,
+          "text": "https://github.com/Global19/prometheus-community-windows_exporter/blob/master/docs/collector.memory.md"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0064#190-219",
+          "score": 0.0002798400819301605,
+          "text": "The Nonpaged and Paged Pools."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:arg_419104ff98a3ce0f#0-25",
+          "score": 3.141649074223096e-07,
+          "text": "call_-7436737075614840799"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0016#0-64",
+          "score": 0.00015930690278764814,
+          "text": "RAM, virtual memory, pagefile, and memory management in Windows."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0018#0-98",
+          "score": 9.394881999469362e-06,
+          "text": "https://www.windowscentral.com/software-apps/windows-11/how-to-manage-virtual-memory-on-windows-11"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:arg_c322b10700b363f2#0-25",
+          "score": 2.1240711589598504e-07,
+          "text": "call_-7436737041255101960"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0001#778-838",
+          "score": 4.2570703953970224e-05,
+          "text": "ram virtual memory pagefile and memory management in windows"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0036#0-32",
+          "score": 0.0010287160985171795,
+          "text": "What Pagefile.sys Actually Does."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0025#0-43",
+          "score": 0.0001951845333678648,
+          "text": "What Is Pagefile.sys and Can You Delete It?"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:arg_bcd0059d077570ed#0-66",
+          "score": 5.0552313041407615e-05,
+          "text": "Windows RAM virtual memory pagefile memory management how it works"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0064#0-189",
+          "score": 0.0005416949279606342,
+          "text": "Those caches do of course exist but Windows doesn't manage them and they are not reflected in any of the OS's memory management counters - not \"total\", not \"in use\", certainly not \"cached\"."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0001#894-916",
+          "score": 3.5184657463105395e-05,
+          "text": "Final answer: <answer>"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:arg_6607c2e07e3f6cf0#0-99",
+          "score": 0.00018297895439900458,
+          "text": "\"RAM, virtual memory, pagefile, and memory management in Windows\" Microsoft Learn memory management"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0068#0-42",
+          "score": 1.5640451238141395e-05,
+          "text": "memory (Munin :: Windows :: LOG :: memory)"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0050#94-135",
+          "score": 0.12001753598451614,
+          "text": "This frees that RAM frame for other uses."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0001#290-394",
+          "score": 0.00014962939894758165,
+          "text": "For factual, entity-comparison, multi-hop, or time-sensitive questions, do not answer from a bare guess."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0056#208-282",
+          "score": 0.002967547159641981,
+          "text": "Usualy the pagefile is to be found on the drive where the OS is installed."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0013#173-274",
+          "score": 0.007637565489858389,
+          "text": "The virtual memory will expand and contract as need, so this why there are initial and maximum sizes."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0029#0-117",
+          "score": 0.0003153622383251786,
+          "text": "https://superuser.com/questions/1164668/windows-10-system-managed-virtual-memory-size-is-very-low-lower-than-expected"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0014#0-46",
+          "score": 7.162825932027772e-05,
+          "text": "Virtual memory in 32-bit version of Windows..."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0034#0-57",
+          "score": 0.001102341921068728,
+          "text": "Why pagefile.sys Is Huge (and why you...) | Windows Forum"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:arg_2f1a0d39f5ef07ab#0-25",
+          "score": 1.2647849416680401e-06,
+          "text": "call_-7436737041255101961"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0007#129-193",
+          "score": 0.008832420222461224,
+          "text": "Priority management: Decides which data moves to virtual memory."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0016#64-244",
+          "score": 0.008864659816026688,
+          "text": "Memory, Available MBytes: This counter measures how much RAM is available to satisfy demands for virtual memory (either new allocations, or for restoring a page from the pagefile)."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0014#47-64",
+          "score": 5.124472863826668e-06,
+          "text": "| Microsoft Learn"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0001#620-666",
+          "score": 0.00012207022518850863,
+          "text": "- <key fact, calculation, or tool result used>"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0010#103-187",
+          "score": 0.0006355181103572249,
+          "text": "From the available list, click to select the drive on which Windows 10 is installed."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0030#177-268",
+          "score": 0.0005277009913697839,
+          "text": "Is there any way to \"Reset\" or \"Clear\" windows paging file size which is managed by system?"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0036#33-101",
+          "score": 0.02514304406940937,
+          "text": "At its simplest, pagefile.sys is Windows’ pressure valve for memory."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0031#0-61",
+          "score": 0.0010918404441326857,
+          "text": "pagefile.sys: How you can delete and move the file - IONOS CA"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0061#42-80",
+          "score": 0.00032315781572833657,
+          "text": "Number of bytes in the non-paged pool."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0052#0-123",
+          "score": 3.670513251563534e-05,
+          "text": "https://www.tenforums.com/tutorials/77692-manage-virtual-memory-pagefile-windows-10-a.html?filter[2]=Installation+and+Setup"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 2297,
+      "seconds": 0.045,
+      "target": "When RAM is under pressure, Windows moves (\"pages out\") inactive or low-priority memory pages from RAM to the pagefile, freeing those RAM frames for more pressing uses.",
+      "target_tokens": 35,
+      "total_tokens": 2332
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0036#102-249",
+          "score": 0.7177248597145081,
+          "text": "When RAM fills up, Windows can move inactive memory pages to disk so the operating system can continue giving foreground tasks the space they need."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:arg_2f1a0d39f5ef07ab#0-25",
+          "score": 0.003218224970623851,
+          "text": "call_-7436737041255101961"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0002#0-102",
+          "score": 0.014678179286420345,
+          "text": "I'll research this topic to provide an accurate, comprehensive answer about Windows memory management."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0008#0-53",
+          "score": 0.04731784015893936,
+          "text": "How To Manage Virtual Memory (Pagefile) In Windows 10"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0013#54-172",
+          "score": 0.03521062061190605,
+          "text": "Virtual memory is a file (pagefile.sys) that Windows uses when you run out of space in the Random Access Memory (RAM)."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0025#0-43",
+          "score": 0.008287245407700539,
+          "text": "What Is Pagefile.sys and Can You Delete It?"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0013#173-274",
+          "score": 0.005579411052167416,
+          "text": "The virtual memory will expand and contract as need, so this why there are initial and maximum sizes."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0064#190-219",
+          "score": 0.00763655873015523,
+          "text": "The Nonpaged and Paged Pools."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0016#64-244",
+          "score": 0.008847888559103012,
+          "text": "Memory, Available MBytes: This counter measures how much RAM is available to satisfy demands for virtual memory (either new allocations, or for restoring a page from the pagefile)."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 245,
+      "seconds": 0.03,
+      "target": "Windows pages out inactive memory to disk under RAM pressure.",
+      "target_tokens": 11,
+      "total_tokens": 256
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.35759589076042175,
+          "text": "Windows pages out inactive memory to disk under RAM pressure."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0050#94-135",
+          "score": 0.15304596722126007,
+          "text": "This frees that RAM frame for other uses."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0050#136-260",
+          "score": 0.2435484528541565,
+          "text": "In Windows systems, these “paged out” pages are stored in one or more files (Pagefile.sys files) in the root of a partition."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:arg_2f1a0d39f5ef07ab#0-25",
+          "score": 0.000808601500466466,
+          "text": "call_-7436737041255101961"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0002#0-102",
+          "score": 0.0038313400000333786,
+          "text": "I'll research this topic to provide an accurate, comprehensive answer about Windows memory management."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0008#0-53",
+          "score": 0.005120900925248861,
+          "text": "How To Manage Virtual Memory (Pagefile) In Windows 10"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0013#54-172",
+          "score": 0.021128593012690544,
+          "text": "Virtual memory is a file (pagefile.sys) that Windows uses when you run out of space in the Random Access Memory (RAM)."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0025#0-43",
+          "score": 0.00716970581561327,
+          "text": "What Is Pagefile.sys and Can You Delete It?"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0013#173-274",
+          "score": 0.003655484411865473,
+          "text": "The virtual memory will expand and contract as need, so this why there are initial and maximum sizes."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0064#190-219",
+          "score": 0.003629942424595356,
+          "text": "The Nonpaged and Paged Pools."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0016#64-244",
+          "score": 0.017928702756762505,
+          "text": "Memory, Available MBytes: This counter measures how much RAM is available to satisfy demands for virtual memory (either new allocations, or for restoring a page from the pagefile)."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 268,
+      "seconds": 0.038,
+      "target": "When RAM is under pressure, Windows moves (\"pages out\") inactive or low-priority memory pages from RAM to the pagefile, freeing those RAM frames for more pressing uses.",
+      "target_tokens": 35,
+      "total_tokens": 303
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 24.94,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}
