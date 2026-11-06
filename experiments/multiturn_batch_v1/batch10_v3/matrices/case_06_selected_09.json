@@ -8,66 +8,66 @@
       "candidates": [
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0082#0-119",
-          "score": 0.33511513471603394,
+          "score": 0.27708008885383606,
           "text": "South Hampshire is a term used mainly to refer to the conurbation formed by the city of Portsmouth, city of Southampton"
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca#0-29",
-          "score": 0.007466028444468975,
+          "score": 0.001622862066142261,
           "text": "call_oYdgQLDZaJGAIsXItyCFpSF0"
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254#0-29",
-          "score": 0.005042792297899723,
+          "score": 0.0006106506916694343,
           "text": "call_3H5tnQWLGnYo3m1ighxq9NvF"
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0048#0-31",
-          "score": 0.08522971719503403,
+          "score": 0.04947197064757347,
           "text": "Portsmouth FC » Squad 1903/1904"
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0017#0-50",
-          "score": 0.00024334703630302101,
+          "score": 0.00017124706937465817,
           "text": "Matt Reilly Football Player Statistics | 11v11.com"
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0007#0-44",
-          "score": 7.749111682642251e-05,
+          "score": 9.03390027815476e-05,
           "text": "Players on loan to other clubs are excluded."
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#670-726",
-          "score": 0.01381282601505518,
+          "score": 0.002583353780210018,
           "text": "Same with Southampton FC - shares name with Southampton."
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0174#173-220",
-          "score": 0.0007239727419801056,
+          "score": 0.0006857814732939005,
           "text": "Matt Reilly typically writes checks around $1M."
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0148#276-328",
-          "score": 0.0025684251450002193,
+          "score": 0.0030770523007959127,
           "text": "Looking at it - he played for many city-named teams."
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0204#15-114",
-          "score": 0.38759520649909973,
+          "score": 0.39139705896377563,
           "text": "South Hampshire Conurbation, Portsmouth and Southampton are one metropolitan area (the solent city)"
         },
         {
-          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0198#73-222",
-          "score": 0.013102267868816853,
-          "text": "A metropolitan area is generally defined as consisting of an urban area, conurbation or agglomeration, together with the surrounding area to which it"
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0198#222-263",
+          "score": 0.12074106186628342,
+          "text": "Portsmouth-Southampton metropolitan area."
         }
       ],
       "max_repeat_difference": 0.0,
-      "prompt_tokens": 248,
-      "seconds": 0.03,
+      "prompt_tokens": 226,
+      "seconds": 0.029,
       "target": "- Portsmouth is part of the Portsmouth-Southampton metropolitan area (also called South Hampshire)",
       "target_tokens": 18,
-      "total_tokens": 266
+      "total_tokens": 244
     },
     "r1": {
       "candidates": [
@@ -128,66 +128,66 @@
       "candidates": [
         {
           "canonical_id": "transmission:r1",
-          "score": 0.22961241006851196,
+          "score": 0.20935532450675964,
           "text": "The earlier material states: South Hampshire is a term used mainly to refer to the conurbation formed by the city of Portsmouth, city of Southampton"
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0204#15-114",
-          "score": 0.5961726903915405,
+          "score": 0.4781537652015686,
           "text": "South Hampshire Conurbation, Portsmouth and Southampton are one metropolitan area (the solent city)"
         },
         {
-          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0198#73-222",
-          "score": 0.029096486046910286,
-          "text": "A metropolitan area is generally defined as consisting of an urban area, conurbation or agglomeration, together with the surrounding area to which it"
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0198#222-263",
+          "score": 0.17295657098293304,
+          "text": "Portsmouth-Southampton metropolitan area."
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca#0-29",
-          "score": 0.0004527507699094713,
+          "score": 0.003057328751310706,
           "text": "call_oYdgQLDZaJGAIsXItyCFpSF0"
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254#0-29",
-          "score": 9.846501052379608e-05,
+          "score": 5.737418177886866e-05,
           "text": "call_3H5tnQWLGnYo3m1ighxq9NvF"
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0048#0-31",
-          "score": 0.00601215660572052,
+          "score": 0.004492192529141903,
           "text": "Portsmouth FC » Squad 1903/1904"
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0017#0-50",
-          "score": 6.155581650091335e-05,
+          "score": 5.284096914692782e-05,
           "text": "Matt Reilly Football Player Statistics | 11v11.com"
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0007#0-44",
-          "score": 9.948890692612622e-06,
+          "score": 2.7775216949521564e-05,
           "text": "Players on loan to other clubs are excluded."
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#670-726",
-          "score": 0.002517302054911852,
+          "score": 0.0010837112786248326,
           "text": "Same with Southampton FC - shares name with Southampton."
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0174#173-220",
-          "score": 3.905155244865455e-05,
+          "score": 0.00015758394147269428,
           "text": "Matt Reilly typically writes checks around $1M."
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0148#276-328",
-          "score": 0.0009780997643247247,
+          "score": 0.0012199352495372295,
           "text": "Looking at it - he played for many city-named teams."
         }
       ],
       "max_repeat_difference": 0.0,
-      "prompt_tokens": 252,
+      "prompt_tokens": 230,
       "seconds": 0.03,
       "target": "- Portsmouth is part of the Portsmouth-Southampton metropolitan area (also called South Hampshire)",
       "target_tokens": 18,
-      "total_tokens": 270
+      "total_tokens": 248
     }
   },
   "schema": "memoryflow.multiturn_matrices.v1",

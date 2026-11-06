@@ -1,0 +1,78 @@
+{
+ "ok": 1,
+ "total": 12,
+ "cases": [
+  {
+   "case_id": "genmem_177236211632d6b8:selected_03",
+   "short": "case_01_selected_03",
+   "ok": false,
+   "reason": "union candidates cannot cover any full group"
+  },
+  {
+   "case_id": "genmem_177236211632d6b8:selected_04",
+   "short": "case_01_selected_04",
+   "ok": false,
+   "reason": "union candidates cannot cover any full group"
+  },
+  {
+   "case_id": "genmem_177236211632d6b8:selected_09",
+   "short": "case_01_selected_09",
+   "ok": false,
+   "reason": "union candidates cannot cover any full group"
+  },
+  {
+   "case_id": "genmem_177236211632d6b8:selected_10",
+   "short": "case_01_selected_10",
+   "ok": false,
+   "reason": "union candidates cannot cover any full group"
+  },
+  {
+   "case_id": "genmem_9f963d36b4935b97:selected_04",
+   "short": "case_04_selected_04",
+   "ok": false,
+   "reason": "union candidates cannot cover any full group"
+  },
+  {
+   "case_id": "genmem_9f963d36b4935b97:selected_07",
+   "short": "case_04_selected_07",
+   "ok": false,
+   "reason": "union candidates cannot cover any full group"
+  },
+  {
+   "case_id": "genmem_40dc9b8b15c0c5b8:selected_05",
+   "short": "case_06_selected_05",
+   "ok": false,
+   "reason": "union candidates cannot cover any full group"
+  },
+  {
+   "case_id": "genmem_40dc9b8b15c0c5b8:selected_09",
+   "short": "case_06_selected_09",
+   "ok": false,
+   "reason": "union candidates cannot cover any full group"
+  },
+  {
+   "case_id": "genmem_f46a08bc62ee9b37:selected_02",
+   "short": "case_10_selected_02",
+   "ok": false,
+   "reason": "union candidates cannot cover any full group"
+  },
+  {
+   "case_id": "genmem_f46a08bc62ee9b37:selected_07",
+   "short": "case_10_selected_07",
+   "ok": true,
+   "reason": "group support_g01 coverable by 2 windows"
+  },
+  {
+   "case_id": "genmem_874c34ceb20bf193:selected_03",
+   "short": "case_02_selected_03",
+   "ok": false,
+   "reason": "union candidates cannot cover any full group"
+  },
+  {
+   "case_id": "genmem_874c34ceb20bf193:selected_09",
+   "short": "case_02_selected_09",
+   "ok": false,
+   "reason": "union candidates cannot cover any full group"
+  }
+ ]
+}

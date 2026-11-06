@@ -8,61 +8,61 @@
       "candidates": [
         {
           "canonical_id": "genmem_9f963d36b4935b97:a0260#0-103",
-          "score": 0.49037620425224304,
+          "score": 0.4727007746696472,
           "text": "and the name postgres is from post-ingres, which stood for \"INteractive Graphics and REtrieval System\"."
         },
         {
           "canonical_id": "genmem_9f963d36b4935b97:a0223#0-59",
-          "score": 0.019973181188106537,
+          "score": 0.01183018647134304,
           "text": "This is one of several SQL commands added in Visual FoxPro."
         },
         {
           "canonical_id": "genmem_9f963d36b4935b97:a0343#0-197",
-          "score": 0.019900934770703316,
+          "score": 0.02246534824371338,
           "text": "Two scientists at Berkeley, Michael Stonebraker and Eugene Wong, became interested in the concept after reading the papers, and decided to start a relational database research project of their own."
         },
         {
           "canonical_id": "genmem_9f963d36b4935b97:a0104#0-77",
-          "score": 0.002216303488239646,
+          "score": 0.0009076804271899164,
           "text": "https://rexxinfo.org/reference/articles/application_programming_sql_guide.pdf"
         },
         {
           "canonical_id": "genmem_9f963d36b4935b97:arg_5925312a89175880#0-72",
-          "score": 0.00450359471142292,
+          "score": 0.004508098121732473,
           "text": "SQL name origin Donald Chamberlin Raymond Boyce \"Ray\" SEQUEL after Boyce"
         },
         {
           "canonical_id": "genmem_9f963d36b4935b97:a0269#158-242",
-          "score": 0.00900349859148264,
+          "score": 0.009526511654257774,
           "text": "[27][28] In 1996, the project was renamed PostgreSQL to reflect its support for SQL."
         },
         {
           "canonical_id": "genmem_9f963d36b4935b97:a0014#0-54",
-          "score": 4.800580791197717e-05,
+          "score": 4.704513048636727e-05,
           "text": "Free SQL Code Fixer - Fix Broken Code | CodeConvert AI"
         },
         {
           "canonical_id": "genmem_9f963d36b4935b97:a0078#0-78",
-          "score": 0.0005011200555600226,
+          "score": 0.0006832138169556856,
           "text": "https://www.relationaldbdesign.com/basic-sql/module2/sql-defined-conceived.php"
         },
         {
           "canonical_id": "genmem_9f963d36b4935b97:a0242#0-49",
-          "score": 0.1778942495584488,
+          "score": 0.011289860121905804,
           "text": "https://www.britannica.com/biography/J-A-D-Ingres"
         },
         {
-          "canonical_id": "genmem_9f963d36b4935b97:a0261#127-239",
-          "score": 0.009410847909748554,
-          "text": "Let me verify if PostgreSQL is the programming language in question, since SQL (which it implements) has UPDATE."
+          "canonical_id": "genmem_9f963d36b4935b97:a0261#20-126",
+          "score": 0.2824680507183075,
+          "text": "PostgreSQL (Postgres) is \"Post-Ingres\" - and Ingres was named after painter Jean-Auguste-Dominique Ingres."
         }
       ],
       "max_repeat_difference": 0.0,
-      "prompt_tokens": 267,
-      "seconds": 0.037,
+      "prompt_tokens": 274,
+      "seconds": 0.039,
       "target": "The Ingres database name has two interpretations - an acronym (INteractive Graphics and REtrieval System) or named after the painter.",
       "target_tokens": 28,
-      "total_tokens": 295
+      "total_tokens": 302
     },
     "r1": {
       "candidates": [
@@ -114,7 +114,7 @@
       ],
       "max_repeat_difference": 0.0,
       "prompt_tokens": 245,
-      "seconds": 0.029,
+      "seconds": 0.03,
       "target": "The earlier material states: and the name postgres is from post-ingres, which stood for \"INteractive Graphics and REtrieval System\".",
       "target_tokens": 29,
       "total_tokens": 274
@@ -123,61 +123,61 @@
       "candidates": [
         {
           "canonical_id": "transmission:r1",
-          "score": 0.657676637172699,
+          "score": 0.46539899706840515,
           "text": "The earlier material states: and the name postgres is from post-ingres, which stood for \"INteractive Graphics and REtrieval System\"."
         },
         {
-          "canonical_id": "genmem_9f963d36b4935b97:a0261#127-239",
-          "score": 0.005946310702711344,
-          "text": "Let me verify if PostgreSQL is the programming language in question, since SQL (which it implements) has UPDATE."
+          "canonical_id": "genmem_9f963d36b4935b97:a0261#20-126",
+          "score": 0.3027714788913727,
+          "text": "PostgreSQL (Postgres) is \"Post-Ingres\" - and Ingres was named after painter Jean-Auguste-Dominique Ingres."
         },
         {
           "canonical_id": "genmem_9f963d36b4935b97:a0223#0-59",
-          "score": 0.003786772955209017,
+          "score": 0.010456595569849014,
           "text": "This is one of several SQL commands added in Visual FoxPro."
         },
         {
           "canonical_id": "genmem_9f963d36b4935b97:a0343#0-197",
-          "score": 0.01039535365998745,
+          "score": 0.01651811972260475,
           "text": "Two scientists at Berkeley, Michael Stonebraker and Eugene Wong, became interested in the concept after reading the papers, and decided to start a relational database research project of their own."
         },
         {
           "canonical_id": "genmem_9f963d36b4935b97:a0104#0-77",
-          "score": 0.0006377131794579327,
+          "score": 0.0005368968122638762,
           "text": "https://rexxinfo.org/reference/articles/application_programming_sql_guide.pdf"
         },
         {
           "canonical_id": "genmem_9f963d36b4935b97:arg_5925312a89175880#0-72",
-          "score": 0.0032095846254378557,
+          "score": 0.007934704422950745,
           "text": "SQL name origin Donald Chamberlin Raymond Boyce \"Ray\" SEQUEL after Boyce"
         },
         {
           "canonical_id": "genmem_9f963d36b4935b97:a0269#158-242",
-          "score": 0.002585657173767686,
+          "score": 0.008291764184832573,
           "text": "[27][28] In 1996, the project was renamed PostgreSQL to reflect its support for SQL."
         },
         {
           "canonical_id": "genmem_9f963d36b4935b97:a0014#0-54",
-          "score": 4.8691512347431853e-05,
+          "score": 2.6755078579299152e-05,
           "text": "Free SQL Code Fixer - Fix Broken Code | CodeConvert AI"
         },
         {
           "canonical_id": "genmem_9f963d36b4935b97:a0078#0-78",
-          "score": 0.00021233658480923623,
+          "score": 0.00034392328234389424,
           "text": "https://www.relationaldbdesign.com/basic-sql/module2/sql-defined-conceived.php"
         },
         {
           "canonical_id": "genmem_9f963d36b4935b97:a0242#0-49",
-          "score": 0.14736203849315643,
+          "score": 0.01702624186873436,
           "text": "https://www.britannica.com/biography/J-A-D-Ingres"
         }
       ],
       "max_repeat_difference": 0.0,
-      "prompt_tokens": 271,
+      "prompt_tokens": 278,
       "seconds": 0.038,
       "target": "The Ingres database name has two interpretations - an acronym (INteractive Graphics and REtrieval System) or named after the painter.",
       "target_tokens": 28,
-      "total_tokens": 299
+      "total_tokens": 306
     }
   },
   "schema": "memoryflow.multiturn_matrices.v1",

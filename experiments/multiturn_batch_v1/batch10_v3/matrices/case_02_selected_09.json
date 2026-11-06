@@ -7,177 +7,177 @@
     "flat": {
       "candidates": [
         {
-          "canonical_id": "genmem_874c34ceb20bf193:a0505#0-111",
-          "score": 0.4534074664115906,
-          "text": "Six Days In Berlin – 4th solo album for Epic – made at Hansa (Berlin) and Montserrat during is wordwide voyage."
+          "canonical_id": "genmem_874c34ceb20bf193:a0505#112-200",
+          "score": 0.5319830775260925,
+          "text": "Zero Zero – Mike’s quirky futuristic 1982 5th solo album and fantasy album-length video."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0487#479-540",
-          "score": 0.004399703349918127,
+          "score": 0.014038647525012493,
           "text": "Actually, let me re-read the MuSiQue question more carefully."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0270#163-266",
-          "score": 0.01282696146517992,
+          "score": 0.02192046493291855,
           "text": "Also during this time, he composed the music for the film A Merry War and even re-launched the Wombles."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0074#0-62",
-          "score": 0.13373389840126038,
+          "score": 0.17227141559123993,
           "text": "Let me search for Mike Batt's fifth studio album specifically."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0431#28-53",
-          "score": 0.08302463591098785,
+          "score": 0.03492128476500511,
           "text": "Market Day In Guernica 3."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0044#0-65",
-          "score": 0.00724421814084053,
+          "score": 0.01538142841309309,
           "text": "https://musicbrainz.org/work/8f968432-7b1e-34af-b3ad-40cc8d9c45f7"
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0466#0-81",
-          "score": 0.01011587679386139,
+          "score": 0.002856070641428232,
           "text": "George's new album “Except Always” is the new double album from George Marinelli."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0240#0-67",
-          "score": 0.07528427243232727,
+          "score": 0.006120152771472931,
           "text": "https://www.discogs.com/release/336731-Mike-Batt-Six-Days-In-Berlin"
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0068#0-67",
-          "score": 0.002153651090338826,
+          "score": 0.0012732737231999636,
           "text": "https://musicbrainz.org/artist/2f354cca-0eba-46e2-a716-96f14f47865a"
         },
         {
-          "canonical_id": "genmem_874c34ceb20bf193:a0275#110-223",
-          "score": 0.05782002583146095,
-          "text": "Batt's character \"Number 17\" falls in love and is sent to an emotional decontamination centre called \"Zero Zero\"."
+          "canonical_id": "genmem_874c34ceb20bf193:a0150#0-109",
+          "score": 0.05266464874148369,
+          "text": "The album, featuring Batt with the Sydney Symphony Orchestra, was released on Epic as a Mike Batt solo album."
         }
       ],
       "max_repeat_difference": 0.0,
-      "prompt_tokens": 307,
-      "seconds": 0.038,
+      "prompt_tokens": 294,
+      "seconds": 0.039,
       "target": "Mike Batt's **fifth studio/solo album** is \"Zero Zero\" (1982), released on **Epic Records**.",
       "target_tokens": 30,
-      "total_tokens": 337
+      "total_tokens": 324
     },
     "r1": {
       "candidates": [
         {
-          "canonical_id": "genmem_874c34ceb20bf193:a0505#0-111",
-          "score": 0.6867626309394836,
-          "text": "Six Days In Berlin – 4th solo album for Epic – made at Hansa (Berlin) and Montserrat during is wordwide voyage."
+          "canonical_id": "genmem_874c34ceb20bf193:a0505#112-200",
+          "score": 0.5412691831588745,
+          "text": "Zero Zero – Mike’s quirky futuristic 1982 5th solo album and fantasy album-length video."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0487#479-540",
-          "score": 0.023027459159493446,
+          "score": 0.03380056098103523,
           "text": "Actually, let me re-read the MuSiQue question more carefully."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0270#163-266",
-          "score": 0.053914379328489304,
+          "score": 0.020718032494187355,
           "text": "Also during this time, he composed the music for the film A Merry War and even re-launched the Wombles."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0074#0-62",
-          "score": 0.03623313456773758,
+          "score": 0.1379244029521942,
           "text": "Let me search for Mike Batt's fifth studio album specifically."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0431#28-53",
-          "score": 0.0010960649233311415,
+          "score": 0.004162980709224939,
           "text": "Market Day In Guernica 3."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0044#0-65",
-          "score": 0.0007185305585153401,
+          "score": 0.0019550356082618237,
           "text": "https://musicbrainz.org/work/8f968432-7b1e-34af-b3ad-40cc8d9c45f7"
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0466#0-81",
-          "score": 0.000323609565384686,
+          "score": 0.0019696757663041353,
           "text": "George's new album “Except Always” is the new double album from George Marinelli."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0240#0-67",
-          "score": 0.017674455419182777,
+          "score": 0.01190005149692297,
           "text": "https://www.discogs.com/release/336731-Mike-Batt-Six-Days-In-Berlin"
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0068#0-67",
-          "score": 0.0004772173997480422,
+          "score": 0.0006672921008430421,
           "text": "https://musicbrainz.org/artist/2f354cca-0eba-46e2-a716-96f14f47865a"
         }
       ],
       "max_repeat_difference": 0.0,
-      "prompt_tokens": 278,
+      "prompt_tokens": 272,
       "seconds": 0.038,
-      "target": "The earlier material states: Six Days In Berlin – 4th solo album for Epic – made at Hansa (Berlin) and Montserrat during is wordwide voyage.",
-      "target_tokens": 34,
-      "total_tokens": 312
+      "target": "The earlier material states: Zero Zero – Mike’s quirky futuristic 1982 5th solo album and fantasy album-length video.",
+      "target_tokens": 28,
+      "total_tokens": 300
     },
     "r2": {
       "candidates": [
         {
           "canonical_id": "transmission:r1",
-          "score": 0.46537548303604126,
-          "text": "The earlier material states: Six Days In Berlin – 4th solo album for Epic – made at Hansa (Berlin) and Montserrat during is wordwide voyage."
+          "score": 0.6002036929130554,
+          "text": "The earlier material states: Zero Zero – Mike’s quirky futuristic 1982 5th solo album and fantasy album-length video."
         },
         {
-          "canonical_id": "genmem_874c34ceb20bf193:a0275#110-223",
-          "score": 0.037101663649082184,
-          "text": "Batt's character \"Number 17\" falls in love and is sent to an emotional decontamination centre called \"Zero Zero\"."
+          "canonical_id": "genmem_874c34ceb20bf193:a0150#0-109",
+          "score": 0.2097136676311493,
+          "text": "The album, featuring Batt with the Sydney Symphony Orchestra, was released on Epic as a Mike Batt solo album."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0487#479-540",
-          "score": 0.0015347364824265242,
+          "score": 0.011640513315796852,
           "text": "Actually, let me re-read the MuSiQue question more carefully."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0270#163-266",
-          "score": 0.011748362332582474,
+          "score": 0.0057646785862743855,
           "text": "Also during this time, he composed the music for the film A Merry War and even re-launched the Wombles."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0074#0-62",
-          "score": 0.15557549893856049,
+          "score": 0.07759403437376022,
           "text": "Let me search for Mike Batt's fifth studio album specifically."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0431#28-53",
-          "score": 0.10002827644348145,
+          "score": 0.008482202887535095,
           "text": "Market Day In Guernica 3."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0044#0-65",
-          "score": 0.015411382541060448,
+          "score": 0.002076939679682255,
           "text": "https://musicbrainz.org/work/8f968432-7b1e-34af-b3ad-40cc8d9c45f7"
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0466#0-81",
-          "score": 0.0073384386487305164,
+          "score": 0.0007220443221740425,
           "text": "George's new album “Except Always” is the new double album from George Marinelli."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0240#0-67",
-          "score": 0.0443606972694397,
+          "score": 0.001308186212554574,
           "text": "https://www.discogs.com/release/336731-Mike-Batt-Six-Days-In-Berlin"
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0068#0-67",
-          "score": 0.0013642950216308236,
+          "score": 8.74116740305908e-05,
           "text": "https://musicbrainz.org/artist/2f354cca-0eba-46e2-a716-96f14f47865a"
         }
       ],
       "max_repeat_difference": 0.0,
-      "prompt_tokens": 310,
+      "prompt_tokens": 298,
       "seconds": 0.039,
       "target": "Mike Batt's **fifth studio/solo album** is \"Zero Zero\" (1982), released on **Epic Records**.",
       "target_tokens": 30,
-      "total_tokens": 340
+      "total_tokens": 328
     }
   },
   "schema": "memoryflow.multiturn_matrices.v1",

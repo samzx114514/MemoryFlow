@@ -1,0 +1,123 @@
+[
+  {
+    "case": "case_01",
+    "target_id": "genmem_177236211632d6b8:selected_03",
+    "group_id": "genmem_177236211632d6b8:selected_03:support_g01",
+    "A": "genmem_177236211632d6b8:a0219:u15-73",
+    "B": "genmem_177236211632d6b8:a0007:u0-120",
+    "intermediate": "The earlier material states: Bob Winch was UCF’s Men’s Soccer Head Coach from 1993-2004",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_01",
+    "target_id": "genmem_177236211632d6b8:selected_04",
+    "group_id": "genmem_177236211632d6b8:selected_04:support_g01",
+    "A": "genmem_177236211632d6b8:a0272:u187-215",
+    "B": "genmem_177236211632d6b8:a0289:u0-134",
+    "intermediate": "The earlier material states: After UCF, he went to Auburn",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_01",
+    "target_id": "genmem_177236211632d6b8:selected_09",
+    "group_id": "genmem_177236211632d6b8:selected_09:support_g01",
+    "A": "genmem_177236211632d6b8:a0237:u13-71",
+    "B": "genmem_177236211632d6b8:a0237:u121-162",
+    "intermediate": "The earlier material states: Bob Winch was UCF's Men's Soccer Head Coach from 1993-2004",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_01",
+    "target_id": "genmem_177236211632d6b8:selected_10",
+    "group_id": "genmem_177236211632d6b8:selected_10:support_g02",
+    "A": "genmem_177236211632d6b8:a0426:u46-124",
+    "B": "genmem_177236211632d6b8:a0426:u125-170",
+    "intermediate": "The earlier material states: 1. UCF Men's Soccer Head Coach 1993-2004 (Eric Vasquez played there 2001-2003)",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_04",
+    "target_id": "genmem_9f963d36b4935b97:selected_04",
+    "group_id": "genmem_9f963d36b4935b97:selected_04:support_g01",
+    "A": "genmem_9f963d36b4935b97:a0260:u0-103",
+    "B": "genmem_9f963d36b4935b97:a0261:u20-126",
+    "intermediate": "The earlier material states: and the name postgres is from post-ingres, which stood for \"INteractive Graphics and REtrieval System\".",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_04",
+    "target_id": "genmem_9f963d36b4935b97:selected_07",
+    "group_id": "genmem_9f963d36b4935b97:selected_07:support_g01",
+    "A": "genmem_9f963d36b4935b97:a0522:u69-197",
+    "B": "genmem_9f963d36b4935b97:a0016:u26-57",
+    "intermediate": "The earlier material states: the statements means Mr. Michael Widenius have a daughter, her name is 'My', based on which he named the query language 'MySQL'.",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_06",
+    "target_id": "genmem_40dc9b8b15c0c5b8:selected_05",
+    "group_id": "genmem_40dc9b8b15c0c5b8:selected_05:support_g01",
+    "A": "genmem_40dc9b8b15c0c5b8:a0123:u0-164",
+    "B": "genmem_40dc9b8b15c0c5b8:a0123:u165-248",
+    "intermediate": "The earlier material states: Matthew Michael Reilly (22 March 1874 – 9 December 1954) was an Irish international goalkeeper who played most of his career with Portsmouth in the Southern League.",
+    "analysis_pool": "union",
+    "merge_same_source": false,
+    "r2_extras": [
+      "genmem_40dc9b8b15c0c5b8:a0120:u0-101"
+    ]
+  },
+  {
+    "case": "case_06",
+    "target_id": "genmem_40dc9b8b15c0c5b8:selected_09",
+    "group_id": "genmem_40dc9b8b15c0c5b8:selected_09:support_g01",
+    "A": "genmem_40dc9b8b15c0c5b8:a0082:u0-119",
+    "B": "genmem_40dc9b8b15c0c5b8:a0204:u15-114",
+    "intermediate": "The earlier material states: South Hampshire is a term used mainly to refer to the conurbation formed by the city of Portsmouth, city of Southampton",
+    "analysis_pool": "union",
+    "merge_same_source": false,
+    "r2_extras": [
+      "genmem_40dc9b8b15c0c5b8:a0198:u222-263"
+    ]
+  },
+  {
+    "case": "case_10",
+    "target_id": "genmem_f46a08bc62ee9b37:selected_02",
+    "group_id": "genmem_f46a08bc62ee9b37:selected_02:support_g01",
+    "A": "genmem_f46a08bc62ee9b37:a0182:u12-136",
+    "B": "genmem_f46a08bc62ee9b37:a0235:u114-246",
+    "intermediate": "The earlier material states: Cryolipolysis is characterized by localized and controlled cooling of the subcutaneous adipose tissue, in a non-invasive way",
+    "analysis_pool": "union",
+    "merge_same_source": false,
+    "r2_extras": [
+      "genmem_f46a08bc62ee9b37:a0182:u138-170",
+      "genmem_f46a08bc62ee9b37:a0182:u172-212",
+      "genmem_f46a08bc62ee9b37:a0182:u213-281"
+    ]
+  },
+  {
+    "case": "case_02",
+    "target_id": "genmem_874c34ceb20bf193:selected_03",
+    "group_id": "genmem_874c34ceb20bf193:selected_03:support_g01",
+    "A": "genmem_874c34ceb20bf193:a0305:u0-82",
+    "B": "genmem_874c34ceb20bf193:a0293:u38-103",
+    "intermediate": "The earlier material states: Secret Symphony is the fifth studio album by British singer-songwriter Katie Melua",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_02",
+    "target_id": "genmem_874c34ceb20bf193:selected_09",
+    "group_id": "genmem_874c34ceb20bf193:selected_09:support_g01",
+    "A": "genmem_874c34ceb20bf193:a0505:u112-200",
+    "B": "genmem_874c34ceb20bf193:a0275:u0-109",
+    "intermediate": "The earlier material states: Zero Zero – Mike’s quirky futuristic 1982 5th solo album and fantasy album-length video.",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  }
+]

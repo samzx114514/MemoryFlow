@@ -163,24 +163,6 @@
       "trajectory_id": "genmem_f46a08bc62ee9b37"
     },
     {
-      "candidates": 558,
-      "case_id": "genmem_f46a08bc62ee9b37:selected_07",
-      "evidence_groups": 1,
-      "issues": [],
-      "registry": {
-        "missing_inputs": [],
-        "missing_labels": [],
-        "warnings": [
-          "controlled construction; not an original request snapshot"
-        ]
-      },
-      "rounds": 2,
-      "short": "case_10_selected_07",
-      "split": "dev",
-      "status": "ok",
-      "trajectory_id": "genmem_f46a08bc62ee9b37"
-    },
-    {
       "candidates": 709,
       "case_id": "genmem_874c34ceb20bf193:selected_03",
       "evidence_groups": 3,
@@ -220,9 +202,9 @@
   "schema": "memoryflow.multiturn_batch.preflight.v1",
   "totals": {
     "blocked": 0,
-    "cases": 12,
+    "cases": 11,
     "incomplete": 0,
-    "ok": 12
+    "ok": 11
   },
   "trajectory_split_issues": []
 }

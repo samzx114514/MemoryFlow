@@ -1,5 +1,19 @@
 # 实验索引
 
+## 映射修正后的新增批：累计 16 题 / 7 轨迹（2026-11-07）
+
+**状态：11 道新题全部跑完并完整；累计主表 16 题。** 入口：
+[新增批报告](../experiments/multiturn_batch_v1/batch10_v3/reports/EXPANDED_20261107.md)、
+[批明细](../experiments/multiturn_batch_v1/batch10_v3/reports/BATCH10_V3_20261107.md)、
+[跑前检查](../experiments/multiturn_batch_v1/batch10_v3/precheck.json)。
+
+- 改为 contextual64_v4 逐轨迹 GT；主证据按 ID/起止/文本精确匹配，停用最长子段和事后改标注。
+- 跑前检查：并集覆盖完整组、≤10 窗、最终轮单独不完整；旧错段 11/12 BLOCK，修正后 11/11 PASS。
+- 新增 11 题全部完整：MF/head 完整@5 11/11，BM25 9/11；旧 T03/T09 复核并入。
+- `case_10 selected_07` 语义排除（B 句 3 个月只修饰瘦素/胰岛素）。
+- 累计 16 题：MF 15/16、15/16；head 15/16、16/16；BM25 12/16、15/16；last 0。配对 MF-last 15/1/0、MF-BM25 6/7/3、MF-head 2/10/4。
+- 100 去向：16 主表、2 对照、2 排除、1 语义排除、43 单事件、11 partial 候选、25 partial 排除。
+
 ## batch10 并集池第一批与 100 目标筛选（2026-11-07 凌晨）
 
 **状态：第一批主表 7 题 + 对照 1 题；5/7 完整；100 目标筛选第一版。** 入口：

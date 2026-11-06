@@ -8,61 +8,61 @@
       "candidates": [
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0296#259-341",
-          "score": 0.3074769675731659,
+          "score": 0.3389319181442261,
           "text": "Secret Symphony is the fifth studio album by British singer-songwriter Katie Melua"
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0487#479-540",
-          "score": 0.03831693157553673,
+          "score": 0.053933385759592056,
           "text": "Actually, let me re-read the MuSiQue question more carefully."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0270#163-266",
-          "score": 0.06113777682185173,
+          "score": 0.033076271414756775,
           "text": "Also during this time, he composed the music for the film A Merry War and even re-launched the Wombles."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0074#0-62",
-          "score": 0.07284791767597198,
+          "score": 0.05594641715288162,
           "text": "Let me search for Mike Batt's fifth studio album specifically."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0431#28-53",
-          "score": 0.008251339197158813,
+          "score": 0.010697677731513977,
           "text": "Market Day In Guernica 3."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0044#0-65",
-          "score": 0.0024927332997322083,
+          "score": 0.0027270461432635784,
           "text": "https://musicbrainz.org/work/8f968432-7b1e-34af-b3ad-40cc8d9c45f7"
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0466#0-81",
-          "score": 0.013771072030067444,
+          "score": 0.008777284063398838,
           "text": "George's new album “Except Always” is the new double album from George Marinelli."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0240#0-67",
-          "score": 0.023715874180197716,
+          "score": 0.011735765263438225,
           "text": "https://www.discogs.com/release/336731-Mike-Batt-Six-Days-In-Berlin"
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0068#0-67",
-          "score": 0.0013073737500235438,
+          "score": 0.001982480753213167,
           "text": "https://musicbrainz.org/artist/2f354cca-0eba-46e2-a716-96f14f47865a"
         },
         {
-          "canonical_id": "genmem_874c34ceb20bf193:a0293#103-240",
-          "score": 0.12302027642726898,
-          "text": ", the album marked a departure from Melua's previous releases by focusing primarily on interpretations of songs written by other artists."
+          "canonical_id": "genmem_874c34ceb20bf193:a0293#38-103",
+          "score": 0.09087464213371277,
+          "text": "produced in collaboration with longtime musical partner Mike Batt"
         }
       ],
       "max_repeat_difference": 0.0,
-      "prompt_tokens": 289,
-      "seconds": 0.037,
+      "prompt_tokens": 276,
+      "seconds": 0.038,
       "target": "I found that \"Secret Symphony\" is Katie Melua's fifth studio album, and it was produced by Mike Batt.",
       "target_tokens": 24,
-      "total_tokens": 313
+      "total_tokens": 300
     },
     "r1": {
       "candidates": [
@@ -114,7 +114,7 @@
       ],
       "max_repeat_difference": 0.0,
       "prompt_tokens": 265,
-      "seconds": 0.037,
+      "seconds": 0.038,
       "target": "The earlier material states: Secret Symphony is the fifth studio album by British singer-songwriter Katie Melua",
       "target_tokens": 20,
       "total_tokens": 285
@@ -123,61 +123,61 @@
       "candidates": [
         {
           "canonical_id": "transmission:r1",
-          "score": 0.30371737480163574,
+          "score": 0.28625643253326416,
           "text": "The earlier material states: Secret Symphony is the fifth studio album by British singer-songwriter Katie Melua"
         },
         {
-          "canonical_id": "genmem_874c34ceb20bf193:a0293#103-240",
-          "score": 0.211984321475029,
-          "text": ", the album marked a departure from Melua's previous releases by focusing primarily on interpretations of songs written by other artists."
+          "canonical_id": "genmem_874c34ceb20bf193:a0293#38-103",
+          "score": 0.24222105741500854,
+          "text": "produced in collaboration with longtime musical partner Mike Batt"
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0487#479-540",
-          "score": 0.024256784468889236,
+          "score": 0.011340918950736523,
           "text": "Actually, let me re-read the MuSiQue question more carefully."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0270#163-266",
-          "score": 0.018760567530989647,
+          "score": 0.004168535117059946,
           "text": "Also during this time, he composed the music for the film A Merry War and even re-launched the Wombles."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0074#0-62",
-          "score": 0.07212354987859726,
+          "score": 0.06056777760386467,
           "text": "Let me search for Mike Batt's fifth studio album specifically."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0431#28-53",
-          "score": 0.003795086406171322,
+          "score": 0.002497048582881689,
           "text": "Market Day In Guernica 3."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0044#0-65",
-          "score": 0.0010757445124909282,
+          "score": 0.0003878529532812536,
           "text": "https://musicbrainz.org/work/8f968432-7b1e-34af-b3ad-40cc8d9c45f7"
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0466#0-81",
-          "score": 0.009148416109383106,
+          "score": 0.004919684492051601,
           "text": "George's new album “Except Always” is the new double album from George Marinelli."
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0240#0-67",
-          "score": 0.0228060781955719,
+          "score": 0.002592324512079358,
           "text": "https://www.discogs.com/release/336731-Mike-Batt-Six-Days-In-Berlin"
         },
         {
           "canonical_id": "genmem_874c34ceb20bf193:a0068#0-67",
-          "score": 0.0004247016040608287,
+          "score": 0.00010245193698210642,
           "text": "https://musicbrainz.org/artist/2f354cca-0eba-46e2-a716-96f14f47865a"
         }
       ],
       "max_repeat_difference": 0.0,
-      "prompt_tokens": 293,
-      "seconds": 0.038,
+      "prompt_tokens": 280,
+      "seconds": 0.039,
       "target": "I found that \"Secret Symphony\" is Katie Melua's fifth studio album, and it was produced by Mike Batt.",
       "target_tokens": 24,
-      "total_tokens": 317
+      "total_tokens": 304
     }
   },
   "schema": "memoryflow.multiturn_matrices.v1",

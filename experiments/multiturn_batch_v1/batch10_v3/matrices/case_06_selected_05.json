@@ -8,61 +8,66 @@
       "candidates": [
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0025#0-164",
-          "score": 0.4009883403778076,
+          "score": 0.35015279054641724,
           "text": "Matthew Michael Reilly (22 March 1874 – 9 December 1954) was an Irish international goalkeeper who played most of his career with Portsmouth in the Southern League."
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca#0-29",
-          "score": 0.0042199608869850636,
+          "score": 0.0009105282952077687,
           "text": "call_oYdgQLDZaJGAIsXItyCFpSF0"
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254#0-29",
-          "score": 0.00028529262635856867,
+          "score": 6.861324800411239e-05,
           "text": "call_3H5tnQWLGnYo3m1ighxq9NvF"
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0082#0-119",
-          "score": 0.030323071405291557,
+          "score": 0.010560818016529083,
           "text": "South Hampshire is a term used mainly to refer to the conurbation formed by the city of Portsmouth, city of Southampton"
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0048#0-31",
-          "score": 0.06598293781280518,
+          "score": 0.025658903643488884,
           "text": "Portsmouth FC » Squad 1903/1904"
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0017#0-50",
-          "score": 0.044503506273031235,
+          "score": 0.026235457509756088,
           "text": "Matt Reilly Football Player Statistics | 11v11.com"
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0007#0-44",
-          "score": 0.021395502611994743,
+          "score": 0.0020811266731470823,
           "text": "Players on loan to other clubs are excluded."
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#670-726",
-          "score": 0.028546342626214027,
+          "score": 0.006306309252977371,
           "text": "Same with Southampton FC - shares name with Southampton."
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0174#173-220",
-          "score": 0.013830569572746754,
+          "score": 0.0045505245216190815,
           "text": "Matt Reilly typically writes checks around $1M."
         },
         {
-          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0120#101-250",
-          "score": 0.016896920278668404,
-          "text": "Since he was Irish Matt was an accomplished at Gaelic football which is very similar to the modern Australian Rules game except a round ball is used."
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0123#165-248",
+          "score": 0.20631571114063263,
+          "text": "He also had spells with Southampton and Tottenham Hotspur in the Southern League..."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0028#174-275",
+          "score": 0.23515060544013977,
+          "text": "Reilly played the only Football League matches of his career with Notts County in the 1905/06 season."
         }
       ],
       "max_repeat_difference": 0.0,
-      "prompt_tokens": 257,
-      "seconds": 0.029,
+      "prompt_tokens": 271,
+      "seconds": 0.038,
       "target": "Matt Reilly (footballer) played for Portsmouth, Southampton, Tottenham Hotspur, and Notts County.",
       "target_tokens": 23,
-      "total_tokens": 280
+      "total_tokens": 294
     },
     "r1": {
       "candidates": [
@@ -114,7 +119,7 @@
       ],
       "max_repeat_difference": 0.0,
       "prompt_tokens": 228,
-      "seconds": 0.029,
+      "seconds": 0.03,
       "target": "The earlier material states: Matthew Michael Reilly (22 March 1874 – 9 December 1954) was an Irish international goalkeeper who played most of his career with Portsmouth in the Southern League.",
       "target_tokens": 46,
       "total_tokens": 274
@@ -123,61 +128,66 @@
       "candidates": [
         {
           "canonical_id": "transmission:r1",
-          "score": 0.4416634738445282,
+          "score": 0.32247793674468994,
           "text": "The earlier material states: Matthew Michael Reilly (22 March 1874 – 9 December 1954) was an Irish international goalkeeper who played most of his career with Portsmouth in the Southern League."
         },
         {
-          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0120#101-250",
-          "score": 0.020416412502527237,
-          "text": "Since he was Irish Matt was an accomplished at Gaelic football which is very similar to the modern Australian Rules game except a round ball is used."
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0123#165-248",
+          "score": 0.2103002816438675,
+          "text": "He also had spells with Southampton and Tottenham Hotspur in the Southern League..."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0028#174-275",
+          "score": 0.2336578220129013,
+          "text": "Reilly played the only Football League matches of his career with Notts County in the 1905/06 season."
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca#0-29",
-          "score": 0.002446669153869152,
+          "score": 0.004525911062955856,
           "text": "call_oYdgQLDZaJGAIsXItyCFpSF0"
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254#0-29",
-          "score": 0.00016715243691578507,
+          "score": 0.0003259766090195626,
           "text": "call_3H5tnQWLGnYo3m1ighxq9NvF"
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0082#0-119",
-          "score": 0.016952112317085266,
+          "score": 0.008123348467051983,
           "text": "South Hampshire is a term used mainly to refer to the conurbation formed by the city of Portsmouth, city of Southampton"
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0048#0-31",
-          "score": 0.07319825887680054,
+          "score": 0.021714026108384132,
           "text": "Portsmouth FC » Squad 1903/1904"
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0017#0-50",
-          "score": 0.03380999341607094,
+          "score": 0.028875816613435745,
           "text": "Matt Reilly Football Player Statistics | 11v11.com"
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0007#0-44",
-          "score": 0.027896208688616753,
+          "score": 0.0008527273894287646,
           "text": "Players on loan to other clubs are excluded."
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#670-726",
-          "score": 0.04546375945210457,
+          "score": 0.008106255903840065,
           "text": "Same with Southampton FC - shares name with Southampton."
         },
         {
           "canonical_id": "genmem_40dc9b8b15c0c5b8:a0174#173-220",
-          "score": 0.005693437531590462,
+          "score": 0.00566750206053257,
           "text": "Matt Reilly typically writes checks around $1M."
         }
       ],
       "max_repeat_difference": 0.0,
-      "prompt_tokens": 261,
+      "prompt_tokens": 275,
       "seconds": 0.038,
       "target": "Matt Reilly (footballer) played for Portsmouth, Southampton, Tottenham Hotspur, and Notts County.",
       "target_tokens": 23,
-      "total_tokens": 284
+      "total_tokens": 298
     }
   },
   "schema": "memoryflow.multiturn_matrices.v1",

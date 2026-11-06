@@ -7,177 +7,177 @@
     "flat": {
       "candidates": [
         {
-          "canonical_id": "genmem_177236211632d6b8:a0272#397-522",
-          "score": 0.06855117529630661,
-          "text": "The question asks \"where is the coach going to?\" which might mean his next destination after UCF, or his current destination."
+          "canonical_id": "genmem_177236211632d6b8:a0272#187-215",
+          "score": 0.06356996297836304,
+          "text": "After UCF, he went to Auburn"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:arg_ed9e720238fffa10#0-25",
-          "score": 0.002239424968138337,
+          "score": 0.025273678824305534,
           "text": "call_-7436862694818315117"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0470#0-55",
-          "score": 0.0035722714383155107,
+          "score": 0.010075822472572327,
           "text": "Ranking The 25 Best American Soccer Players Of All Time"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0373#0-150",
-          "score": 0.16136713325977325,
+          "score": 0.04713703319430351,
           "text": "Sep 10, 2024 · The ex-Spurs and Chelsea boss takes over a young USA team eager to take the next step forward ahead of the 2026 World Cup on home soil."
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0477#0-58",
-          "score": 0.007006291765719652,
+          "score": 0.011848825961351395,
           "text": "https://www.footballtransfers.com/en/players/erick-vasquez"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0466#150-231",
-          "score": 0.03503245487809181,
+          "score": 0.01858118362724781,
           "text": "He played two more years there, serving as team captain in his final two seasons."
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0014#0-64",
-          "score": 0.00590766966342926,
+          "score": 0.01103072240948677,
           "text": "Eric Vasquez - Positive Mental Attitude-”I didn’t wake up to ..."
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0487#0-44",
-          "score": 0.009746679104864597,
+          "score": 0.009466612711548805,
           "text": "One-on-One with Bob Winch - Post and Courier"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
-          "score": 0.011391561478376389,
+          "score": 0.04777897149324417,
           "text": "call_-7436821291333576094"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0289#0-134",
-          "score": 0.518553614616394,
+          "score": 0.4354363977909088,
           "text": "May 1, 2006 · The former Auburn assistant is the third women's soccer coach The Citadel has appointed since the 2001 inaugural season."
         }
       ],
       "max_repeat_difference": 0.0,
-      "prompt_tokens": 290,
+      "prompt_tokens": 274,
       "seconds": 0.038,
       "target": "2. After UCF, he went to Auburn (as an assistant, based on \"The former Auburn assistant\" from The Citadel announcement in 2006)",
       "target_tokens": 34,
-      "total_tokens": 324
+      "total_tokens": 308
     },
     "r1": {
       "candidates": [
         {
-          "canonical_id": "genmem_177236211632d6b8:a0272#397-522",
-          "score": 0.5422083139419556,
-          "text": "The question asks \"where is the coach going to?\" which might mean his next destination after UCF, or his current destination."
+          "canonical_id": "genmem_177236211632d6b8:a0272#187-215",
+          "score": 0.2400333136320114,
+          "text": "After UCF, he went to Auburn"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:arg_ed9e720238fffa10#0-25",
-          "score": 0.005121626425534487,
+          "score": 0.00778914662078023,
           "text": "call_-7436862694818315117"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0470#0-55",
-          "score": 0.005123758222907782,
+          "score": 0.01670033298432827,
           "text": "Ranking The 25 Best American Soccer Players Of All Time"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0373#0-150",
-          "score": 0.21751366555690765,
+          "score": 0.055595651268959045,
           "text": "Sep 10, 2024 · The ex-Spurs and Chelsea boss takes over a young USA team eager to take the next step forward ahead of the 2026 World Cup on home soil."
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0477#0-58",
-          "score": 0.0052183037623763084,
+          "score": 0.017947085201740265,
           "text": "https://www.footballtransfers.com/en/players/erick-vasquez"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0466#150-231",
-          "score": 0.0022764212917536497,
+          "score": 0.09815414994955063,
           "text": "He played two more years there, serving as team captain in his final two seasons."
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0014#0-64",
-          "score": 0.0027903965674340725,
+          "score": 0.02209307998418808,
           "text": "Eric Vasquez - Positive Mental Attitude-”I didn’t wake up to ..."
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0487#0-44",
-          "score": 0.001790726208128035,
+          "score": 0.002999198390170932,
           "text": "One-on-One with Bob Winch - Post and Courier"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
-          "score": 0.00942437443882227,
+          "score": 0.05503861978650093,
           "text": "call_-7436821291333576094"
         }
       ],
       "max_repeat_difference": 0.0,
-      "prompt_tokens": 255,
-      "seconds": 0.036,
-      "target": "The earlier material states: The question asks \"where is the coach going to?\" which might mean his next destination after UCF, or his current destination.",
-      "target_tokens": 31,
-      "total_tokens": 286
+      "prompt_tokens": 239,
+      "seconds": 0.032,
+      "target": "The earlier material states: After UCF, he went to Auburn",
+      "target_tokens": 13,
+      "total_tokens": 252
     },
     "r2": {
       "candidates": [
         {
           "canonical_id": "transmission:r1",
-          "score": 0.08802734315395355,
-          "text": "The earlier material states: The question asks \"where is the coach going to?\" which might mean his next destination after UCF, or his current destination."
+          "score": 0.10235433280467987,
+          "text": "The earlier material states: After UCF, he went to Auburn"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0289#0-134",
-          "score": 0.6596083045005798,
+          "score": 0.6640030145645142,
           "text": "May 1, 2006 · The former Auburn assistant is the third women's soccer coach The Citadel has appointed since the 2001 inaugural season."
         },
         {
           "canonical_id": "genmem_177236211632d6b8:arg_ed9e720238fffa10#0-25",
-          "score": 0.005803768523037434,
+          "score": 0.003770550712943077,
           "text": "call_-7436862694818315117"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0470#0-55",
-          "score": 0.00359442550688982,
+          "score": 0.0019373811082914472,
           "text": "Ranking The 25 Best American Soccer Players Of All Time"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0373#0-150",
-          "score": 0.07425761222839355,
+          "score": 0.022770611569285393,
           "text": "Sep 10, 2024 · The ex-Spurs and Chelsea boss takes over a young USA team eager to take the next step forward ahead of the 2026 World Cup on home soil."
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0477#0-58",
-          "score": 0.0020256806164979935,
+          "score": 0.0007288007764145732,
           "text": "https://www.footballtransfers.com/en/players/erick-vasquez"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0466#150-231",
-          "score": 0.003960021771490574,
+          "score": 0.002518670167773962,
           "text": "He played two more years there, serving as team captain in his final two seasons."
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0014#0-64",
-          "score": 0.0014701118925586343,
+          "score": 0.0008293151040561497,
           "text": "Eric Vasquez - Positive Mental Attitude-”I didn’t wake up to ..."
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0487#0-44",
-          "score": 0.0009741771500557661,
+          "score": 0.0004314375692047179,
           "text": "One-on-One with Bob Winch - Post and Courier"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
-          "score": 0.0036568401847034693,
+          "score": 0.009920913726091385,
           "text": "call_-7436821291333576094"
         }
       ],
       "max_repeat_difference": 0.0,
-      "prompt_tokens": 295,
-      "seconds": 0.038,
+      "prompt_tokens": 278,
+      "seconds": 0.039,
       "target": "2. After UCF, he went to Auburn (as an assistant, based on \"The former Auburn assistant\" from The Citadel announcement in 2006)",
       "target_tokens": 34,
-      "total_tokens": 329
+      "total_tokens": 312
     }
   },
   "schema": "memoryflow.multiturn_matrices.v1",

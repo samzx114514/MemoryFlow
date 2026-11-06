@@ -7,177 +7,177 @@
     "flat": {
       "candidates": [
         {
-          "canonical_id": "genmem_177236211632d6b8:a0219#73-200",
-          "score": 0.1860153079032898,
-          "text": ", leading UCF to three ASUN Championships and trips to NCAA Tournament (2002-2004), reaching the 2nd round twice (‘03 and ‘04)."
+          "canonical_id": "genmem_177236211632d6b8:a0237#13-71",
+          "score": 0.5363276600837708,
+          "text": "Bob Winch was UCF's Men's Soccer Head Coach from 1993-2004"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:arg_ed9e720238fffa10#0-25",
-          "score": 0.0022819219157099724,
+          "score": 0.0043334332294762135,
           "text": "call_-7436862694818315117"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0470#0-55",
-          "score": 0.00551688252016902,
+          "score": 0.010507880710065365,
           "text": "Ranking The 25 Best American Soccer Players Of All Time"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0373#0-150",
-          "score": 0.04024525731801987,
+          "score": 0.038388773798942566,
           "text": "Sep 10, 2024 · The ex-Spurs and Chelsea boss takes over a young USA team eager to take the next step forward ahead of the 2026 World Cup on home soil."
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0477#0-58",
-          "score": 0.0030707200057804585,
+          "score": 0.0017777287866920233,
           "text": "https://www.footballtransfers.com/en/players/erick-vasquez"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0466#150-231",
-          "score": 0.030697867274284363,
+          "score": 0.04616224020719528,
           "text": "He played two more years there, serving as team captain in his final two seasons."
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0014#0-64",
-          "score": 0.008203260600566864,
+          "score": 0.006481350399553776,
           "text": "Eric Vasquez - Positive Mental Attitude-”I didn’t wake up to ..."
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0487#0-44",
-          "score": 0.04261332377791405,
+          "score": 0.01696973666548729,
           "text": "One-on-One with Bob Winch - Post and Courier"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
-          "score": 0.031619347631931305,
+          "score": 0.00612829253077507,
           "text": "call_-7436821291333576094"
         },
         {
-          "canonical_id": "genmem_177236211632d6b8:a0007#0-120",
-          "score": 0.2184230089187622,
-          "text": "Eric Vasquez played college soccer as a midfielder for the University of Central Florida (UCF) Knights from 2001 to 2003"
+          "canonical_id": "genmem_177236211632d6b8:a0237#121-162",
+          "score": 0.08004260063171387,
+          "text": "Eric Vasquez played at UCF from 2001-2003"
         }
       ],
       "max_repeat_difference": 0.0,
-      "prompt_tokens": 303,
-      "seconds": 0.038,
+      "prompt_tokens": 273,
+      "seconds": 0.048,
       "target": "**Bob Winch** was the UCF Men's Soccer Head Coach from 1993-2004, overlapping with Vasquez's time there",
       "target_tokens": 33,
-      "total_tokens": 336
+      "total_tokens": 306
     },
     "r1": {
       "candidates": [
         {
-          "canonical_id": "genmem_177236211632d6b8:a0219#73-200",
-          "score": 0.6659823656082153,
-          "text": ", leading UCF to three ASUN Championships and trips to NCAA Tournament (2002-2004), reaching the 2nd round twice (‘03 and ‘04)."
+          "canonical_id": "genmem_177236211632d6b8:a0237#13-71",
+          "score": 0.6485604047775269,
+          "text": "Bob Winch was UCF's Men's Soccer Head Coach from 1993-2004"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:arg_ed9e720238fffa10#0-25",
-          "score": 0.0038598354440182447,
+          "score": 0.007546795532107353,
           "text": "call_-7436862694818315117"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0470#0-55",
-          "score": 0.005504540167748928,
+          "score": 0.008239288814365864,
           "text": "Ranking The 25 Best American Soccer Players Of All Time"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0373#0-150",
-          "score": 0.047822289168834686,
+          "score": 0.03835061565041542,
           "text": "Sep 10, 2024 · The ex-Spurs and Chelsea boss takes over a young USA team eager to take the next step forward ahead of the 2026 World Cup on home soil."
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0477#0-58",
-          "score": 0.0037295904476195574,
+          "score": 0.0007805610075592995,
           "text": "https://www.footballtransfers.com/en/players/erick-vasquez"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0466#150-231",
-          "score": 0.0044578914530575275,
+          "score": 0.004035972524434328,
           "text": "He played two more years there, serving as team captain in his final two seasons."
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0014#0-64",
-          "score": 0.00527976406738162,
+          "score": 0.0006249413127079606,
           "text": "Eric Vasquez - Positive Mental Attitude-”I didn’t wake up to ..."
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0487#0-44",
-          "score": 0.0027945972979068756,
+          "score": 0.002731101354584098,
           "text": "One-on-One with Bob Winch - Post and Courier"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
-          "score": 0.012557489797472954,
+          "score": 0.01700548641383648,
           "text": "call_-7436821291333576094"
         }
       ],
       "max_repeat_difference": 0.0,
-      "prompt_tokens": 270,
-      "seconds": 0.037,
-      "target": "The earlier material states: , leading UCF to three ASUN Championships and trips to NCAA Tournament (2002-2004), reaching the 2nd round twice (‘03 and ‘04).",
-      "target_tokens": 46,
-      "total_tokens": 316
+      "prompt_tokens": 254,
+      "seconds": 0.03,
+      "target": "The earlier material states: Bob Winch was UCF's Men's Soccer Head Coach from 1993-2004",
+      "target_tokens": 28,
+      "total_tokens": 282
     },
     "r2": {
       "candidates": [
         {
           "canonical_id": "transmission:r1",
-          "score": 0.2730688750743866,
-          "text": "The earlier material states: , leading UCF to three ASUN Championships and trips to NCAA Tournament (2002-2004), reaching the 2nd round twice (‘03 and ‘04)."
+          "score": 0.5466338396072388,
+          "text": "The earlier material states: Bob Winch was UCF's Men's Soccer Head Coach from 1993-2004"
         },
         {
-          "canonical_id": "genmem_177236211632d6b8:a0007#0-120",
-          "score": 0.1965629607439041,
-          "text": "Eric Vasquez played college soccer as a midfielder for the University of Central Florida (UCF) Knights from 2001 to 2003"
+          "canonical_id": "genmem_177236211632d6b8:a0237#121-162",
+          "score": 0.08598896116018295,
+          "text": "Eric Vasquez played at UCF from 2001-2003"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:arg_ed9e720238fffa10#0-25",
-          "score": 0.003200243692845106,
+          "score": 0.0012903818860650063,
           "text": "call_-7436862694818315117"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0470#0-55",
-          "score": 0.003968150820583105,
+          "score": 0.007541654631495476,
           "text": "Ranking The 25 Best American Soccer Players Of All Time"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0373#0-150",
-          "score": 0.014955347403883934,
+          "score": 0.006822630763053894,
           "text": "Sep 10, 2024 · The ex-Spurs and Chelsea boss takes over a young USA team eager to take the next step forward ahead of the 2026 World Cup on home soil."
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0477#0-58",
-          "score": 0.004993992857635021,
+          "score": 0.017414020374417305,
           "text": "https://www.footballtransfers.com/en/players/erick-vasquez"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0466#150-231",
-          "score": 0.024390563368797302,
+          "score": 0.039806611835956573,
           "text": "He played two more years there, serving as team captain in his final two seasons."
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0014#0-64",
-          "score": 0.005408815108239651,
+          "score": 0.005061076954007149,
           "text": "Eric Vasquez - Positive Mental Attitude-”I didn’t wake up to ..."
         },
         {
           "canonical_id": "genmem_177236211632d6b8:a0487#0-44",
-          "score": 0.04124719277024269,
+          "score": 0.005096896085888147,
           "text": "One-on-One with Bob Winch - Post and Courier"
         },
         {
           "canonical_id": "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
-          "score": 0.009499043226242065,
+          "score": 0.00937363225966692,
           "text": "call_-7436821291333576094"
         }
       ],
       "max_repeat_difference": 0.0,
-      "prompt_tokens": 308,
-      "seconds": 0.039,
+      "prompt_tokens": 277,
+      "seconds": 0.038,
       "target": "**Bob Winch** was the UCF Men's Soccer Head Coach from 1993-2004, overlapping with Vasquez's time there",
       "target_tokens": 33,
-      "total_tokens": 341
+      "total_tokens": 310
     }
   },
   "schema": "memoryflow.multiturn_matrices.v1",

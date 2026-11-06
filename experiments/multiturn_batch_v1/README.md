@@ -1,13 +1,10 @@
 # multiturn_batch_v1：多轮目标的统一入口与四方法批处理
 
-**状态（2026-11-06）：** 三题开发验收跑通；pilot-v4 B04/F11 两道旧材料受控验证；
-batch10 跨轨迹首批 8 条轨迹已出表；补项后的新口径（两轮并集）第一批主表 7 题、对照 1 题，
-5/7 完整。100 目标筛选清单第一版已出（64 已标注核对，36 partial 待补标）。
+**状态（2026-11-07）：** 映射修正后的新增批 11 题全部跑完，累计主表 16 题 / 7 轨迹；
+100 目标筛选第一版已出，剩余 11 个 partial 候选待补标。
 
-- 修正首批（并集池）：[FIRST_QUALIFIED_20261106](batch10_v2/reports/FIRST_QUALIFIED_20261106.md)
-- 100 目标筛选：[SCREENING_100_20261106](batch10_v2/reports/SCREENING_100_20261106.md)
+- 新增批与累计：[EXPANDED_20261107](batch10_v3/reports/EXPANDED_20261107.md)
 - 旧全历史池首批：[BATCH10_FIRST_20261106](batch10/reports/BATCH10_FIRST_20261106.md)
-- B04/F11：[B04_F11_20261106](pilot/reports/B04_F11_20261106.md)
 
 ## 做什么
 

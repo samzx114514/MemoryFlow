@@ -8,61 +8,76 @@
       "candidates": [
         {
           "canonical_id": "genmem_f46a08bc62ee9b37:a0182#12-136",
-          "score": 0.35826024413108826,
+          "score": 0.26386237144470215,
           "text": "Cryolipolysis is characterized by localized and controlled cooling of the subcutaneous adipose tissue, in a non-invasive way"
         },
         {
           "canonical_id": "genmem_f46a08bc62ee9b37:a0278#0-62",
-          "score": 0.0033349262084811926,
+          "score": 0.0035551353357732296,
           "text": "https://www.scielo.br/j/abd/a/rPSfHZVSYZNCkwmx4mLTJJr/?lang=en"
         },
         {
           "canonical_id": "genmem_f46a08bc62ee9b37:a0006#0-49",
-          "score": 0.017893189564347267,
+          "score": 0.012621789239346981,
           "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4079633/"
         },
         {
           "canonical_id": "genmem_f46a08bc62ee9b37:a0373#0-61",
-          "score": 0.03620433807373047,
+          "score": 0.02186901494860649,
           "text": "Adverse Events Associated With Cryolipolysis: A Systematic..."
         },
         {
           "canonical_id": "genmem_f46a08bc62ee9b37:a0066#63-203",
-          "score": 0.03222731128334999,
+          "score": 0.005185622721910477,
           "text": "Noninvasive Body Contouring by Focused Ultrasound: Safety and Efficacy of the Contour I Device in a Multicenter, Controlled, Clinical Study."
         },
         {
           "canonical_id": "genmem_f46a08bc62ee9b37:a0158#0-60",
-          "score": 0.0008507576421834528,
+          "score": 0.00042217603186145425,
           "text": "Classification Systems for Knee Osteochondritis Dissecans..."
         },
         {
           "canonical_id": "genmem_f46a08bc62ee9b37:a0332#100-151",
-          "score": 0.00305680138990283,
+          "score": 0.0006833222578279674,
           "text": "Current Problems in Dermatology: “Skin Tightening”."
         },
         {
           "canonical_id": "genmem_f46a08bc62ee9b37:arg_701766854b8e9d98#0-25",
-          "score": 0.0002480994153302163,
+          "score": 0.00019230424368288368,
           "text": "call_-7436884822489821235"
         },
         {
           "canonical_id": "genmem_f46a08bc62ee9b37:arg_c1a0e1bdf56f68bc#0-25",
-          "score": 0.0002348089183215052,
+          "score": 0.00018344636191613972,
           "text": "call_-7436869257528340937"
         },
         {
           "canonical_id": "genmem_f46a08bc62ee9b37:a0235#114-246",
-          "score": 0.3119088411331177,
+          "score": 0.09348899126052856,
           "text": "The treated fat cells undergo natural apoptosis and are gradually eliminated through the body’s lymphatic system over several weeks."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0182#138-170",
+          "score": 0.04917985573410988,
+          "text": "causing a localized panniculitis"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0182#172-212",
+          "score": 0.11143840849399567,
+          "text": "followed by adipocyte death by apoptosis"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0182#213-281",
+          "score": 0.21099911630153656,
+          "text": "and, consequently, a decrease in adipose tissue in the treated area."
         }
       ],
       "max_repeat_difference": 0.0,
-      "prompt_tokens": 278,
-      "seconds": 0.038,
+      "prompt_tokens": 312,
+      "seconds": 0.039,
       "target": "- Cryolipolysis works via controlled cooling that induces a localized panniculitis, followed by adipocyte apoptosis, leading to a gradual decrease in subcutaneous adipose tissue in the treated area.",
       "target_tokens": 43,
-      "total_tokens": 321
+      "total_tokens": 355
     },
     "r1": {
       "candidates": [
@@ -123,61 +138,76 @@
       "candidates": [
         {
           "canonical_id": "transmission:r1",
-          "score": 0.3683849573135376,
+          "score": 0.2665080428123474,
           "text": "The earlier material states: Cryolipolysis is characterized by localized and controlled cooling of the subcutaneous adipose tissue, in a non-invasive way"
         },
         {
           "canonical_id": "genmem_f46a08bc62ee9b37:a0235#114-246",
-          "score": 0.33777111768722534,
+          "score": 0.10023480653762817,
           "text": "The treated fat cells undergo natural apoptosis and are gradually eliminated through the body’s lymphatic system over several weeks."
         },
         {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0182#138-170",
+          "score": 0.07824337482452393,
+          "text": "causing a localized panniculitis"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0182#172-212",
+          "score": 0.09624673426151276,
+          "text": "followed by adipocyte death by apoptosis"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0182#213-281",
+          "score": 0.23252367973327637,
+          "text": "and, consequently, a decrease in adipose tissue in the treated area."
+        },
+        {
           "canonical_id": "genmem_f46a08bc62ee9b37:a0278#0-62",
-          "score": 0.0032343189232051373,
+          "score": 0.003396411659196019,
           "text": "https://www.scielo.br/j/abd/a/rPSfHZVSYZNCkwmx4mLTJJr/?lang=en"
         },
         {
           "canonical_id": "genmem_f46a08bc62ee9b37:a0006#0-49",
-          "score": 0.013711598701775074,
+          "score": 0.01557101123034954,
           "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4079633/"
         },
         {
           "canonical_id": "genmem_f46a08bc62ee9b37:a0373#0-61",
-          "score": 0.01578795164823532,
+          "score": 0.01619821973145008,
           "text": "Adverse Events Associated With Cryolipolysis: A Systematic..."
         },
         {
           "canonical_id": "genmem_f46a08bc62ee9b37:a0066#63-203",
-          "score": 0.025246579200029373,
+          "score": 0.003614442888647318,
           "text": "Noninvasive Body Contouring by Focused Ultrasound: Safety and Efficacy of the Contour I Device in a Multicenter, Controlled, Clinical Study."
         },
         {
           "canonical_id": "genmem_f46a08bc62ee9b37:a0158#0-60",
-          "score": 0.00018032686784863472,
+          "score": 0.0006911585805937648,
           "text": "Classification Systems for Knee Osteochondritis Dissecans..."
         },
         {
           "canonical_id": "genmem_f46a08bc62ee9b37:a0332#100-151",
-          "score": 0.0011829903814941645,
+          "score": 0.00022877301671542227,
           "text": "Current Problems in Dermatology: “Skin Tightening”."
         },
         {
           "canonical_id": "genmem_f46a08bc62ee9b37:arg_701766854b8e9d98#0-25",
-          "score": 0.00028599463985301554,
+          "score": 0.00015718824579380453,
           "text": "call_-7436884822489821235"
         },
         {
           "canonical_id": "genmem_f46a08bc62ee9b37:arg_c1a0e1bdf56f68bc#0-25",
-          "score": 0.0002824793918989599,
+          "score": 0.0004691971989814192,
           "text": "call_-7436869257528340937"
         }
       ],
       "max_repeat_difference": 0.0,
-      "prompt_tokens": 282,
+      "prompt_tokens": 316,
       "seconds": 0.038,
       "target": "- Cryolipolysis works via controlled cooling that induces a localized panniculitis, followed by adipocyte apoptosis, leading to a gradual decrease in subcutaneous adipose tissue in the treated area.",
       "target_tokens": 43,
-      "total_tokens": 325
+      "total_tokens": 359
     }
   },
   "schema": "memoryflow.multiturn_matrices.v1",
