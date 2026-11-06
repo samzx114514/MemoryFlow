@@ -1,5 +1,15 @@
 # 实验索引
 
+## 三题证据修正：累计 17 题 / 8 轨迹（2026-11-07）
+
+**状态：** case_05 修正后重跑；case_08/09 待核撤出。入口：
+[修正报告](../experiments/multiturn_batch_v1/batch10_v4/reports/FIX_20261107.md)。
+
+- case_05 selected_01 补 b 问句 `a0191[96,205)` 与定义；4 窗组，MF/head 完整第 4、BM25 第 5。
+- case_08 selected_02、case_09 selected_08 原文断言不足，pending-evidence。
+- 累计 17 题：MF 16/17、16/17；head 16/17、17/17；BM25 13/17、16/17；last 0；配对 MF-last 16/1/0、MF-BM25 7/7/3、MF-head 2/11/4。
+- 100 去向：17 主表、2 pending、2 对照、3 排除、43 单事件、8 partial 待补标、25 partial 排除。
+
 ## partial 补标新增 3 题：累计 19 题 / 10 轨迹（2026-11-07）
 
 **状态：** case_05 selected_01、case_09 selected_08、case_08 selected_02 补标并跑通；

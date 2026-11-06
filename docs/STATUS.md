@@ -1,5 +1,12 @@
 # 当前状态
 
+## 最新推进（2026-11-07）：三题证据修正，累计 17 题 / 8 轨迹
+
+- case_05 selected_01 补入真正 b 问句 `a0191[96,205)` 与 a/b 定义，4 窗组重冻结重跑：MF/head 完整第 4、BM25 第 5、last 缺 A。
+- case_08 selected_02 与 case_09 selected_08 原文没有“生化活性=生物功能”或“灰阶纹理/复用扫描/无额外辐射”的明确断言，改为 pending-evidence，撤出主表。
+- 累计 17 题 / 8 轨迹：MF Hit@3 17/17、完整@5/@10 16/17、16/17；head 17/17、16/17、17/17；BM25 17/17、13/17、16/17；last 16/17、0、0。配对 MF-last 16/1/0、MF-BM25 7/7/3、MF-head 2/11/4。
+- 100 去向：17 主表、2 pending、2 对照、3 排除、43 单事件、8 partial 待补标、25 partial 排除；共 100。
+
 ## 最新推进（2026-11-07）：partial 补标新增 3 题，累计 19 题 / 10 轨迹
 
 - 从 11 个 candidate-partial 中补标并跑通 case_05 selected_01、case_09 selected_08、case_08 selected_02；三题跑前检查 3/3 PASS，MF/head/BM25 全部完整（完整名次 3/3/7、3/3/9、3/3/3）。

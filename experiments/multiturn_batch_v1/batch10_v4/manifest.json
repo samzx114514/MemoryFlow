@@ -17,51 +17,7 @@
    "evidence_groups": 1,
    "case_path": "cases/case_05_selected_01.json",
    "matrix_path": "matrices/case_05_selected_01.json",
-   "case_sha256": "56264d81e68b3011d7c967431d990f6fde70d9ab3415608991aaca0e411f5473",
-   "registry": {
-    "missing_inputs": [],
-    "missing_labels": [],
-    "warnings": [
-     "controlled construction; not an original request snapshot"
-    ]
-   }
-  },
-  {
-   "short": "case_09_selected_08",
-   "case_id": "genmem_e81701f69088a32d:selected_08",
-   "trajectory_id": "genmem_e81701f69088a32d",
-   "trajectory_case": "case_09",
-   "split": "dev",
-   "record_type": "controlled",
-   "control": null,
-   "rounds": 2,
-   "candidates": 324,
-   "evidence_groups": 1,
-   "case_path": "cases/case_09_selected_08.json",
-   "matrix_path": "matrices/case_09_selected_08.json",
-   "case_sha256": "1e470730c7110fa9113788368c81c823ee1732fd9e48b8aaeadda9434e1200c2",
-   "registry": {
-    "missing_inputs": [],
-    "missing_labels": [],
-    "warnings": [
-     "controlled construction; not an original request snapshot"
-    ]
-   }
-  },
-  {
-   "short": "case_08_selected_02",
-   "case_id": "genmem_996703de4e5c4aa9:selected_02",
-   "trajectory_id": "genmem_996703de4e5c4aa9",
-   "trajectory_case": "case_08",
-   "split": "dev",
-   "record_type": "controlled",
-   "control": null,
-   "rounds": 2,
-   "candidates": 273,
-   "evidence_groups": 1,
-   "case_path": "cases/case_08_selected_02.json",
-   "matrix_path": "matrices/case_08_selected_02.json",
-   "case_sha256": "e5accdb673a8d9d14ed5ac1a313a8c6baf7be9111f342d1f4fc94adcacf8828e",
+   "case_sha256": "d2bf3a9113ea06b46146aa19aef294febc3941862bdf7429abe8c5a64b226dfe",
    "registry": {
     "missing_inputs": [],
     "missing_labels": [],
@@ -72,12 +28,12 @@
   }
  ],
  "totals": {
-  "cases": 3,
-  "controlled": 3,
+  "cases": 1,
+  "controlled": 1,
   "real_request": 0,
-  "dev": 3,
+  "dev": 1,
   "eval": 0,
   "controls": 0,
-  "trajectories": 3
+  "trajectories": 1
  }
 }

@@ -1,4 +1,4 @@
-import json
+﻿import json
 from pathlib import Path
 import sys
 
@@ -20,28 +20,14 @@ recipes = [
         "case": "case_05",
         "target_id": "genmem_58452c40de4bdcb9:selected_01",
         "A": "genmem_58452c40de4bdcb9:a0047:u0-110",
-        "B": "genmem_58452c40de4bdcb9:a0064:u32-123",
-        "r2_extras": ["genmem_58452c40de4bdcb9:a0064:u124-143"],
-        "intermediate": "The problem asks which gas has the larger van der Waals a parameter.",
-    },
-    {
-        "case": "case_09",
-        "target_id": "genmem_e81701f69088a32d:selected_08",
-        "A": "genmem_e81701f69088a32d:a0222:u23-154",
-        "B": "genmem_e81701f69088a32d:a0070:u0-133",
-        "r2_extras": ["genmem_e81701f69088a32d:a0061:u75-219"],
-        "intermediate": "TBS is derived from the same lumbar spine DXA image, without extra radiation.",
-    },
-    {
-        "case": "case_08",
-        "target_id": "genmem_996703de4e5c4aa9:selected_02",
-        "A": "genmem_996703de4e5c4aa9:a0024:u0-83",
-        "B": "genmem_996703de4e5c4aa9:a0045:u0-82",
-        "r2_extras": ["genmem_996703de4e5c4aa9:a0030:u108-222"],
-        "intermediate": "The debate asks whether biochemical activity is the same as biological function.",
+        "B": "genmem_58452c40de4bdcb9:a0191:u96-205",
+        "r2_extras": [
+            "genmem_58452c40de4bdcb9:a0064:u32-123",
+            "genmem_58452c40de4bdcb9:a0064:u124-143"
+        ],
+        "intermediate": "The problem asks which gas has the larger van der Waals a parameter."
     },
 ]
-
 out = HERE
 (out / "cases").mkdir(exist_ok=True)
 index = []
@@ -100,6 +86,7 @@ manifest = {
 }
 (out / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 print(json.dumps(manifest["totals"], ensure_ascii=False))
+
 
 
 

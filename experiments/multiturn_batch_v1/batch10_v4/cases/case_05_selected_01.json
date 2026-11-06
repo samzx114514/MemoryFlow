@@ -148,6 +148,18 @@
    "question": "Using the earlier statement and the new material, write the final sentence.",
    "inputs": [
     {
+     "unit_id": "genmem_58452c40de4bdcb9:a0191:u96-205",
+     "artifact_id": "genmem_58452c40de4bdcb9:a0191",
+     "start": 96,
+     "end": 205,
+     "text": "(b) For each of the following pairs of gases, decide which substance has the larger van der Waals b parameter",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    },
+    {
      "unit_id": "genmem_58452c40de4bdcb9:a0064:u32-123",
      "artifact_id": "genmem_58452c40de4bdcb9:a0064",
      "start": 32,
@@ -156,7 +168,7 @@
      "role": "distractor",
      "position": {
       "slot": "material",
-      "index": 1
+      "index": 2
      }
     },
     {
@@ -168,7 +180,7 @@
      "role": "distractor",
      "position": {
       "slot": "material",
-      "index": 2
+      "index": 3
      }
     },
     {
@@ -180,7 +192,7 @@
      "role": "distractor",
      "position": {
       "slot": "material",
-      "index": 3
+      "index": 4
      }
     },
     {
@@ -192,7 +204,7 @@
      "role": "distractor",
      "position": {
       "slot": "material",
-      "index": 4
+      "index": 5
      }
     },
     {
@@ -204,7 +216,7 @@
      "role": "distractor",
      "position": {
       "slot": "material",
-      "index": 5
+      "index": 6
      }
     },
     {
@@ -216,7 +228,7 @@
      "role": "distractor",
      "position": {
       "slot": "material",
-      "index": 6
+      "index": 7
      }
     },
     {
@@ -228,7 +240,7 @@
      "role": "distractor",
      "position": {
       "slot": "material",
-      "index": 7
+      "index": 8
      }
     },
     {
@@ -240,7 +252,7 @@
      "role": "distractor",
      "position": {
       "slot": "material",
-      "index": 8
+      "index": 9
      }
     },
     {
@@ -252,7 +264,7 @@
      "role": "distractor",
      "position": {
       "slot": "material",
-      "index": 9
+      "index": 10
      }
     },
     {
@@ -264,7 +276,7 @@
      "role": "distractor",
      "position": {
       "slot": "material",
-      "index": 10
+      "index": 11
      }
     }
    ],
@@ -463,7 +475,7 @@
      "role": "distractor",
      "position": {
       "slot": "material",
-      "index": 1
+      "index": 2
      }
     }
    ],
@@ -581,7 +593,7 @@
      "role": "distractor",
      "position": {
       "slot": "material",
-      "index": 8
+      "index": 9
      }
     }
    ],
@@ -889,7 +901,7 @@
      "role": "distractor",
      "position": {
       "slot": "material",
-      "index": 6
+      "index": 7
      }
     }
    ],
@@ -1286,7 +1298,7 @@
      "role": "distractor",
      "position": {
       "slot": "material",
-      "index": 3
+      "index": 4
      }
     }
    ],
@@ -1431,7 +1443,7 @@
      "role": "distractor",
      "position": {
       "slot": "material",
-      "index": 4
+      "index": 5
      }
     }
    ],
@@ -1945,7 +1957,7 @@
      "role": "distractor",
      "position": {
       "slot": "material",
-      "index": 5
+      "index": 6
      }
     }
    ],
@@ -2252,7 +2264,7 @@
      "role": "distractor",
      "position": {
       "slot": "material",
-      "index": 7
+      "index": 8
      }
     }
    ],
@@ -2451,7 +2463,7 @@
      "role": "distractor",
      "position": {
       "slot": "material",
-      "index": 9
+      "index": 10
      }
     }
    ],
@@ -2470,7 +2482,7 @@
      "role": "distractor",
      "position": {
       "slot": "material",
-      "index": 2
+      "index": 3
      }
     }
    ],
@@ -2642,7 +2654,7 @@
      "role": "distractor",
      "position": {
       "slot": "material",
-      "index": 10
+      "index": 11
      }
     }
    ],
@@ -3086,8 +3098,18 @@
    "start": 96,
    "end": 205,
    "text": "(b) For each of the following pairs of gases, decide which substance has the larger van der Waals b parameter",
-   "occurrences": [],
-   "pool_only": true
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "genmem_58452c40de4bdcb9:a0191:u96-205",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
   }
  ],
  "evidence_groups": [
@@ -3114,6 +3136,22 @@
        "start": 0,
        "end": 110,
        "text": "(a) For each of the following pairs of gases, decide which substance has the larger van der Waals a parameter:"
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0191",
+      "start": 96,
+      "end": 205,
+      "text": "(b) For each of the following pairs of gases, decide which substance has the larger van der Waals b parameter"
+     },
+     "alternatives": [
+      {
+       "artifact_id": "genmem_58452c40de4bdcb9:a0191",
+       "start": 96,
+       "end": 205,
+       "text": "(b) For each of the following pairs of gases, decide which substance has the larger van der Waals b parameter"
       }
      ]
     },
@@ -3169,7 +3207,7 @@
    "genmem_58452c40de4bdcb9:a0047#0-110"
   ],
   "B": [
-   "genmem_58452c40de4bdcb9:a0064#32-123"
+   "genmem_58452c40de4bdcb9:a0191#96-205"
   ]
  },
  "provenance": {
@@ -3177,7 +3215,7 @@
   "target_id": "genmem_58452c40de4bdcb9:selected_01",
   "group_id": null,
   "A_unit": "genmem_58452c40de4bdcb9:a0047:u0-110",
-  "B_unit": "genmem_58452c40de4bdcb9:a0064:u32-123",
+  "B_unit": "genmem_58452c40de4bdcb9:a0191:u96-205",
   "same_source_policy": "normalized source text; representative unit + all occurrences",
   "round2_a_source_leaks": [],
   "note": "two-round controlled construction from contextual64_v4; not an original request snapshot"
