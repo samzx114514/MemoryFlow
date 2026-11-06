@@ -1,0 +1,48 @@
+{
+  "sample_id": "case_02_selected_03",
+  "case": "case_02",
+  "split": "dev",
+  "target_id": "genmem_874c34ceb20bf193:selected_03",
+  "group_id": "genmem_874c34ceb20bf193:selected_03:support_g01",
+  "return_budget": 5,
+  "evidence": {
+    "A": ["genmem_874c34ceb20bf193:a0305:u0-82"],
+    "B": ["genmem_874c34ceb20bf193:a0293:u38-103"]
+  },
+  "round1": {
+    "question": "What is the title of Katie Melua's fifth studio album?",
+    "instruction": "Answer in one sentence.",
+    "materials": [
+      {"unit": "genmem_874c34ceb20bf193:a0303:u0-54", "role": "locator"},
+      {"unit": "genmem_874c34ceb20bf193:a0305:u0-82", "role": "evidence_a"},
+      {"unit": "genmem_874c34ceb20bf193:a0294:u0-142", "role": "locator_distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0296:u0-88", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0296:u126-258", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0300:u0-63", "role": "locator_distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0302:u0-95", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0007:u0-67", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0007:u68-126", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0223:u0-149", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0236:u0-152", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0297:u0-29", "role": "locator_distractor"}
+    ]
+  },
+  "round2": {
+    "question": "Name Katie Melua's fifth studio album and the producer it was made with.",
+    "instruction": "Answer in one sentence.",
+    "materials": [
+      {"unit": "genmem_874c34ceb20bf193:a0291:u0-27", "role": "locator"},
+      {"unit": "genmem_874c34ceb20bf193:a0293:u0-37", "role": "context"},
+      {"unit": "genmem_874c34ceb20bf193:a0293:u38-103", "role": "evidence_b"},
+      {"unit": "genmem_874c34ceb20bf193:a0296:u0-88", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0296:u126-258", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0297:u0-29", "role": "locator_distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0299:u0-36", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0300:u0-63", "role": "locator_distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0302:u0-95", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0007:u0-67", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0007:u68-126", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0223:u0-149", "role": "distractor"}
+    ]
+  }
+}

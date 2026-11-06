@@ -1,0 +1,46 @@
+{
+  "sample_id": "case_02_selected_09",
+  "case": "case_02",
+  "split": "dev_case_extra",
+  "target_id": "genmem_874c34ceb20bf193:selected_09",
+  "group_id": "genmem_874c34ceb20bf193:selected_09:support_g01",
+  "return_budget": 5,
+  "evidence": {
+    "A": ["genmem_874c34ceb20bf193:a0505:u112-200"],
+    "B": ["genmem_874c34ceb20bf193:a0275:u0-109"]
+  },
+  "round1": {
+    "question": "Which is Mike Batt's fifth solo album, and in what year was it released?",
+    "instruction": "Answer in one sentence.",
+    "materials": [
+      {"unit": "genmem_874c34ceb20bf193:a0503:u0-20", "role": "locator"},
+      {"unit": "genmem_874c34ceb20bf193:a0505:u0-111", "role": "context"},
+      {"unit": "genmem_874c34ceb20bf193:a0505:u112-200", "role": "evidence_a"},
+      {"unit": "genmem_874c34ceb20bf193:a0505:u201-276", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0375:u0-44", "role": "locator_distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0371:u0-83", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0374:u0-152", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0153:u0-63", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0310:u0-69", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0236:u0-152", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0223:u0-149", "role": "distractor"}
+    ]
+  },
+  "round2": {
+    "question": "Which label released Mike Batt's fifth solo album?",
+    "instruction": "Answer in one sentence.",
+    "materials": [
+      {"unit": "genmem_874c34ceb20bf193:a0273:u0-21", "role": "locator"},
+      {"unit": "genmem_874c34ceb20bf193:a0275:u0-109", "role": "evidence_b"},
+      {"unit": "genmem_874c34ceb20bf193:a0275:u110-223", "role": "context"},
+      {"unit": "genmem_874c34ceb20bf193:a0279:u0-42", "role": "locator_distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0282:u0-43", "role": "locator_distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0281:u0-34", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0310:u0-69", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0223:u0-149", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0153:u0-63", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0236:u0-152", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0371:u0-83", "role": "distractor"}
+    ]
+  }
+}

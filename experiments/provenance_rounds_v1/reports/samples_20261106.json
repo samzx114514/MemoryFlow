@@ -1,0 +1,116 @@
+{
+  "archive": "/data2/pkuiti/songzhengxing_intern/memoryflow/artifacts/raw/genmem_batch10_v3/genmem_batch10_selection_v1.zip",
+  "date": "2026-11-06",
+  "run_root": "/data2/pkuiti/songzhengxing_intern/memoryflow/runs/provenance_rounds_v1",
+  "samples": [
+    {
+      "archive_sha256": "f465eb1cd4ff79b2d3de20c0c95562492fdd0bef18b86dc7983fa878bbaf3d33",
+      "found_all": {
+        "flat_pool": true,
+        "last_round_raw": false,
+        "memoryflow_chain": true
+      },
+      "frozen_sha256": "b4029d3040048370bc2adab35687a32cd3dc795dc69843484ad03934e1ee5091",
+      "ranks": {
+        "chain_a": {
+          "genmem_874c34ceb20bf193:a0305:u0-82": 1
+        },
+        "chain_b": {
+          "genmem_874c34ceb20bf193:a0293:u38-103": 2
+        },
+        "chain_conclusion": 1,
+        "flat_a": {
+          "genmem_874c34ceb20bf193:a0305:u0-82": 2
+        },
+        "flat_b": {
+          "genmem_874c34ceb20bf193:a0293:u38-103": 1
+        },
+        "last_round_a": {},
+        "last_round_b": {
+          "genmem_874c34ceb20bf193:a0293:u38-103": 1
+        }
+      },
+      "return_budget": 5,
+      "round1_answer": "The title of Katie Melua's fifth studio album is \"Secret Symphony\".",
+      "round2_answer": "Katie Melua's fifth studio album is \"Secret Symphony,\" which was produced in collaboration with her longtime musical partner Mike Batt.",
+      "sample": "T03",
+      "scores_sha256": "b800be062b63b3e917b76b2a009b1218a98f52e5b553a3dacad70c29d3409603",
+      "spec_sha256": "4fe2ec26d2168a8f26f187524372e1b6756faf87ed54d6a70ed1e18bb16dace3",
+      "split_note": "原开发案例 case_02；属于 8 个冻结开发目标",
+      "target_id": "genmem_874c34ceb20bf193:selected_03"
+    },
+    {
+      "archive_sha256": "f465eb1cd4ff79b2d3de20c0c95562492fdd0bef18b86dc7983fa878bbaf3d33",
+      "found_all": {
+        "flat_pool": false,
+        "last_round_raw": false,
+        "memoryflow_chain": true
+      },
+      "frozen_sha256": "2445868685ee8c466d461a1a3285beb62b44da382df6466f218e068ade0f7dad",
+      "ranks": {
+        "chain_a": {
+          "genmem_874c34ceb20bf193:a0505:u112-200": 1
+        },
+        "chain_b": {
+          "genmem_874c34ceb20bf193:a0275:u0-109": 2
+        },
+        "chain_conclusion": 1,
+        "flat_a": {
+          "genmem_874c34ceb20bf193:a0505:u112-200": 1
+        },
+        "flat_b": {
+          "genmem_874c34ceb20bf193:a0275:u0-109": 8
+        },
+        "last_round_a": {},
+        "last_round_b": {
+          "genmem_874c34ceb20bf193:a0275:u0-109": 1
+        }
+      },
+      "return_budget": 5,
+      "round1_answer": "Mike Batt's fifth solo album was \"Zero Zero,\" released in 1982.",
+      "round2_answer": "Epic released Mike Batt's fifth solo album, \"Zero Zero.\"",
+      "sample": "T09",
+      "scores_sha256": "97e4a74d67cf520fefa53fe1a5c6206491a3204e3ed0b0460f4415f22c18aef0",
+      "spec_sha256": "d291309ee66a357799e84256b8defc0bbae4f5f597600615f8c770ae889e493b",
+      "split_note": "case_02 的额外目标 selected_09；不在 8 个冻结开发目标内，仍属开发案例",
+      "target_id": "genmem_874c34ceb20bf193:selected_09"
+    },
+    {
+      "archive_sha256": "f465eb1cd4ff79b2d3de20c0c95562492fdd0bef18b86dc7983fa878bbaf3d33",
+      "found_all": {
+        "flat_pool": true,
+        "last_round_raw": false,
+        "memoryflow_chain": true
+      },
+      "frozen_sha256": "f2df4a3f1023a39b445682952cd59cc64ec82b9492037b0e9afe9cf6754431ef",
+      "ranks": {
+        "chain_a": {
+          "genmem_874c34ceb20bf193:a0377:u290-342": 1
+        },
+        "chain_b": {
+          "genmem_874c34ceb20bf193:a0284:u137-154": 1
+        },
+        "chain_conclusion": 3,
+        "flat_a": {
+          "genmem_874c34ceb20bf193:a0377:u290-342": 3
+        },
+        "flat_b": {
+          "genmem_874c34ceb20bf193:a0284:u137-154": 1
+        },
+        "last_round_a": {},
+        "last_round_b": {
+          "genmem_874c34ceb20bf193:a0284:u137-154": 1
+        }
+      },
+      "return_budget": 5,
+      "round1_answer": "The musical performed with The Sidney Symphonic Orchestra is is \"Zero Zero.\"",
+      "round2_answer": "The album \"Zero Zero\" was released in 1982.",
+      "sample": "T06",
+      "scores_sha256": "65325e6050a3c19a3be758d5a1807162651f250746d828b118ee779f2055a100",
+      "spec_sha256": "045396e71fa9c330e2b0120c126a1465a0d9df1af3d4862e637a6dd2b50b2ec9",
+      "split_note": "原开发案例 case_02；属于 8 个冻结开发目标；v2 构造，v1 构造见弃用记录",
+      "target_id": "genmem_874c34ceb20bf193:selected_06"
+    }
+  ],
+  "schema": "provenance_rounds_v1.samples.v1"
+}

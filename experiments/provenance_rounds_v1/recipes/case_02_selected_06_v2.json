@@ -1,0 +1,47 @@
+{
+  "sample_id": "case_02_selected_06_v2",
+  "case": "case_02",
+  "split": "dev",
+  "target_id": "genmem_874c34ceb20bf193:selected_06",
+  "group_id": "genmem_874c34ceb20bf193:selected_06:support_g01",
+  "return_budget": 5,
+  "evidence": {
+    "A": ["genmem_874c34ceb20bf193:a0377:u290-342"],
+    "B": ["genmem_874c34ceb20bf193:a0284:u137-154"]
+  },
+  "round1": {
+    "question": "Which Mike Batt album is the musical performed with The Sidney Symphonic Orchestra?",
+    "instruction": "Answer in one sentence.",
+    "materials": [
+      {"unit": "genmem_874c34ceb20bf193:a0375:u0-44", "role": "locator"},
+      {"unit": "genmem_874c34ceb20bf193:a0377:u0-49", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0377:u54-116", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0377:u121-179", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0377:u184-228", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0377:u233-285", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0377:u290-342", "role": "evidence_a"},
+      {"unit": "genmem_874c34ceb20bf193:a0371:u0-83", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0374:u0-152", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0310:u0-69", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0223:u0-149", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0153:u0-63", "role": "distractor"}
+    ]
+  },
+  "round2": {
+    "question": "State the album and its release year.",
+    "instruction": "Answer in one sentence, naming the album.",
+    "materials": [
+      {"unit": "genmem_874c34ceb20bf193:a0279:u0-42", "role": "locator"},
+      {"unit": "genmem_874c34ceb20bf193:a0282:u0-43", "role": "locator_distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0284:u0-16", "role": "context"},
+      {"unit": "genmem_874c34ceb20bf193:a0284:u17-34", "role": "context"},
+      {"unit": "genmem_874c34ceb20bf193:a0284:u137-154", "role": "evidence_b"},
+      {"unit": "genmem_874c34ceb20bf193:a0281:u0-34", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0310:u0-69", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0223:u0-149", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0153:u0-63", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0236:u0-152", "role": "distractor"},
+      {"unit": "genmem_874c34ceb20bf193:a0371:u0-83", "role": "distractor"}
+    ]
+  }
+}
