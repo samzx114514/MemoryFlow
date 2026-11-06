@@ -1,0 +1,3549 @@
+{
+  "analysis_pool": "union",
+  "candidates": [
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0157",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0157#0-58",
+      "end": 58,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Van der Waals Equation of Engineering Topics | Question AI"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0024",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0024#0-128",
+      "end": 128,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "This equation, known as the van der Waals equation, can be used to calculate the properties of a gas under non-ideal conditions."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0180",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0180#0-83",
+      "end": 83,
+      "occurrences": [
+        {
+          "position": {
+            "index": 1,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_58452c40de4bdcb9:a0180:u0-83"
+        }
+      ],
+      "pool_only": false,
+      "start": 0,
+      "text": "I've identified the standard textbook problem (from McQuarrie's General Chemistry)."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0048",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0048#0-55",
+      "end": 55,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "BUKU TUTORIAL DK024 - Flip eBook Pages 51-100 | AnyFlip"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0132",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0132#12-59",
+      "end": 59,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 12,
+      "text": "Explanation: The Vander waals equation state is"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0099",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0099#0-123",
+      "end": 123,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://www.sarthaks.com/3131186/assume-that-fullerene-phase-behaves-der-waals-gas-the-van-der-waals-constant-for-fullerene"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0000",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0000#0-17",
+      "end": 17,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "<system-reminder>"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_c879f9a40a810061",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_c879f9a40a810061#0-25",
+      "end": 25,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "call_-7436804351982559405"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0130",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0130#0-66",
+      "end": 66,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Solved Use the van der Waals equation to calculate the | Chegg.com"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0161",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0161#0-126",
+      "end": 126,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://www.sarthaks.com/1430250/for-one-mole-van-der-waals-gas-when-and-300-the-plot-shown-below-the-value-the-waals-constant"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0067",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0067#0-80",
+      "end": 80,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "The van der Waals equation is characterized by two critical parameters: a and b."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0018",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0018#125-172",
+      "end": 172,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 125,
+      "text": "Expression in terms of van der Waals constants."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0000",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0000#18-65",
+      "end": 65,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 18,
+      "text": "<current_date>2026-07-20, Monday</current_date>"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0090",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0090#0-64",
+      "end": 64,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Van der Waals Equation Calculator and PV Isotherm for Real Gases"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_c322b10700b363f2",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_c322b10700b363f2#0-25",
+      "end": 25,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "call_-7436814041428779281"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0070",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0070#141-267",
+      "end": 267,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 141,
+      "text": "However, the Supplementary Material (Table S1) shows that this choice gives no overall improvement in the adsorption energies."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0017",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0017#0-132",
+      "end": 132,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://askfilo.com/user-question-answers-smart-solutions/relationship-between-critical-constants-and-van-der-waals-3433353035323932"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_143db67f39a29f79",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_143db67f39a29f79#0-22",
+      "end": 22,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "/mnt/user-data/uploads"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0064",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0064#32-123",
+      "end": 123,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 32,
+      "text": "Choose presets for your gas (N₂, O₂, CO₂, H₂O) or enter custom a (attraction parameter) and"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0135",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0135#0-92",
+      "end": 92,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "The van der Waals' constant b represents the effective volume occupied by one mole of a gas."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0047#179-206",
+      "end": 206,
+      "occurrences": [
+        {
+          "position": {
+            "index": 7,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_58452c40de4bdcb9:a0047:u179-206"
+        }
+      ],
+      "pool_only": false,
+      "start": 179,
+      "text": "(v) C6H6 and CH3(CH2)10CH3."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0179",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0179#0-93",
+      "end": 93,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Van der Waals constants for other gases may easily be calculated from the data in that table."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0039",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0039#0-66",
+      "end": 66,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "[Solved] Which of the following expressions correctly represent..."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0142",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0142#0-3",
+      "end": 3,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "15."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0116",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0116#0-47",
+      "end": 47,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "van der Waals Constants of Some Common Gases..."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0042",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0042#0-54",
+      "end": 54,
+      "occurrences": [
+        {
+          "position": {
+            "index": 2,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_58452c40de4bdcb9:a0042:u0-54"
+        }
+      ],
+      "pool_only": false,
+      "start": 0,
+      "text": "Solved W11.1 Real gases and vapors have intermolecular"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0004",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0004#25-105",
+      "end": 105,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 25,
+      "text": "The question references \"the following pairs\" but none are provided in the text."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0118",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0118#117-119",
+      "end": 119,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 117,
+      "text": "4."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0117",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0117#0-94",
+      "end": 94,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://quizlet.com/28725627/van-der-waals-constants-of-some-common-gases-group-a-flash-cards/"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0127",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0127#104-209",
+      "end": 209,
+      "occurrences": [
+        {
+          "position": {
+            "index": 7,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_58452c40de4bdcb9:a0127:u104-209"
+        },
+        {
+          "position": {
+            "index": 16,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_58452c40de4bdcb9:a0127:u104-209"
+        }
+      ],
+      "pool_only": false,
+      "start": 104,
+      "text": "Element 8 has a C6 Dispersion Coefficient (CD) of 15.6 a₀, and C6 Dispersion Coefficient (GB) of 16.7 a₀."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_38c4b79f65b38d58",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_38c4b79f65b38d58#0-25",
+      "end": 25,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "call_-7436855891590116618"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0047#111-125",
+      "end": 125,
+      "occurrences": [
+        {
+          "position": {
+            "index": 3,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_58452c40de4bdcb9:a0047:u111-125"
+        }
+      ],
+      "pool_only": false,
+      "start": 111,
+      "text": "(i) He and Ne;"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0059",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0059#0-33",
+      "end": 33,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Van der Waals Gas — Isaac Science"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0002",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0002#0-95",
+      "end": 95,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Looking at this question, it references \"the following pairs\" but I don't see any pairs listed."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0118",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0118#107-109",
+      "end": 109,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 107,
+      "text": "3."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0004",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0004#0-24",
+      "end": 24,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "No uploaded files found."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0141",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0141#0-84",
+      "end": 84,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "При выставления регулятора напора на колонке на малый напор, включается без проблем."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0014",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0014#0-101",
+      "end": 101,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://www.engineeringtoolbox.com/non-ideal-gas-van-der-Waals-equation-constants-gas-law-d_1969.html"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0118",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0118#185-191",
+      "end": 191,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 185,
+      "text": "0.211."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0047#0-110",
+      "end": 110,
+      "occurrences": [
+        {
+          "position": {
+            "index": 1,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_58452c40de4bdcb9:a0047:u0-110"
+        }
+      ],
+      "pool_only": false,
+      "start": 0,
+      "text": "(a) For each of the following pairs of gases, decide which substance has the larger van der Waals a parameter:"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_50c8d3bc0ca934d6",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_50c8d3bc0ca934d6#0-10",
+      "end": 10,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "web_search"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0121",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0121#0-78",
+      "end": 78,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "The 4 reactions that, step by step, build a helium atom from four of hydrogen."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0047#142-159",
+      "end": 159,
+      "occurrences": [
+        {
+          "position": {
+            "index": 5,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_58452c40de4bdcb9:a0047:u142-159"
+        }
+      ],
+      "pool_only": false,
+      "start": 142,
+      "text": "(iii) CO2 and H2;"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0001",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0001#681-766",
+      "end": 766,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 681,
+      "text": "- <answer-format check, entity disambiguation, arithmetic check, or uncertainty note>"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_b30beac9f604ddea",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_b30beac9f604ddea#0-62",
+      "end": 62,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "van der waals constant greater species pairs textbook question"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0042",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0042#55-66",
+      "end": 66,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 55,
+      "text": "| Chegg.com"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0061",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0061#59-151",
+      "end": 151,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 59,
+      "text": "For water vapour, the values of the parameters are a=5.536dm6barmol−2 and b=0.03049dm3mol−1."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0012",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0012#0-64",
+      "end": 64,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Van der Waals attraction is greater if the molecules are closer."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0006",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0006#0-16",
+      "end": 16,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "No results found"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0125",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0125#0-27",
+      "end": 27,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Oxygen (O) | Periodic Table"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0018",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0018#0-124",
+      "end": 124,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "R = universal gas constanta and b = van der Waals constants specific to each gasSummary of relationships: Critical Constant."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0120",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0120#0-43",
+      "end": 43,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://www.youtube.com/watch?v=XqGLec4Ms0M"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0079",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0079#0-65",
+      "end": 65,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://en.wikipedia.org/wiki/Van_der_Waals_constants_(data_page)"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0023",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0023#0-128",
+      "end": 128,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://www.khanacademy.org/science/chemistry/gases-and-kinetic-molecular-theory/non-ideal-gas-behavior/v/van-der-waals-equation"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0097",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0097#0-2",
+      "end": 2,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "C."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0162",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0162#0-52",
+      "end": 52,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "The value of the van der Waals constant a (atm `\"li."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0118",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0118#110-116",
+      "end": 116,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 110,
+      "text": "Argon."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_e1ffd1c9fa46d144",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_e1ffd1c9fa46d144#0-9",
+      "end": 9,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "web_fetch"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0046",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0046#0-127",
+      "end": 127,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://www.solutioninn.com/study-help/chemical-principles/real-gases-and-vapors-deviate-from-ideal-behavior-on-account-1208901"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0176",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0176#0-125",
+      "end": 125,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Which one of the following is correct with respect to the van der Waals' constant values of X and Y in the table given above?"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0121",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0121#79-160",
+      "end": 160,
+      "occurrences": [
+        {
+          "position": {
+            "index": 5,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_58452c40de4bdcb9:a0121:u79-160"
+        },
+        {
+          "position": {
+            "index": 14,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_58452c40de4bdcb9:a0121:u79-160"
+        }
+      ],
+      "pool_only": false,
+      "start": 79,
+      "text": "How the surplus electrons are destroyed and how all of this pumps heat into th..."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_82ad17e0e2cbabf0",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_82ad17e0e2cbabf0#0-24",
+      "end": 24,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "van der Waals constant a"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0119",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0119#27-63",
+      "end": 63,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 27,
+      "text": "The 4 steps from hydrogen to helium."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0185",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0185#0-81",
+      "end": 81,
+      "occurrences": [
+        {
+          "position": {
+            "index": 9,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_58452c40de4bdcb9:a0185:u0-81"
+        }
+      ],
+      "pool_only": false,
+      "start": 0,
+      "text": "a - parameter that gives a measure of the attractive force between the particles."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0015",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0015#0-177",
+      "end": 177,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "The van der Waals constants for more than 200 gases used to correct for non-ideal behavior of gases caused by intermolecular forces and the volume occupied by the gas particles."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0136",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0136#0-38",
+      "end": 38,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "M&M's Surprise Eggs Play Doh - YouTube"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0012",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0012#65-155",
+      "end": 155,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 65,
+      "text": "Van der Waals forces are independent of temperature except for dipole-dipole interactions."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0070",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0070#0-140",
+      "end": 140,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Alternatively, the b parameter of the VV10 or rVV10 could be fitted to the S22 set of van der Waals and hydrogen-bonded molecular complexes."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0060",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0060#0-48",
+      "end": 48,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://isaacscience.org/questions/van_der_waals"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0074",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0074#180-218",
+      "end": 218,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 180,
+      "text": "the **b** parameter (molecular volume)"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0118",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0118#97-106",
+      "end": 106,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 97,
+      "text": "Nitrogen."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0135",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0135#263-276",
+      "end": 276,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 263,
+      "text": "CO2 : 0.0427."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0191",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0191#0-95",
+      "end": 95,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "(i) He and Ne; (ii) Ne and O2; (iii) CO2 and H2; (iv) H2CO and CH4; (v) C6H6 and CH3(CH2)10CH3."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0127",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0127#210-272",
+      "end": 272,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 210,
+      "text": "The Allotropes of Oxygen (O) are Dioxygen, Ozone, Tetraoxygen."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0097",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0097#11-15",
+      "end": 15,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 11,
+      "text": "CH4."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0001",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0001#504-580",
+      "end": 580,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 504,
+      "text": "If no tool is needed or available, still write the evidence/checks you used."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0126",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0126#0-59",
+      "end": 59,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://periodictable.chemicalaid.com/element.php/O?lang=en"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0091",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0091#0-59",
+      "end": 59,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://chemenggcalc.com/van-der-waals-equation-calculator/"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_03bf3432b0990403",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_03bf3432b0990403#0-85",
+      "end": 85,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "\"for each of the following pairs\" \"which\" \"van der waals\" constant a textbook problem"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_f87078fe9e989c1d",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_f87078fe9e989c1d#0-69",
+      "end": 69,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "van der Waals constant a values He Ne O2 CO2 H2 CH4 table L2 bar mol2"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_2f1a0d39f5ef07ab",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_2f1a0d39f5ef07ab#0-25",
+      "end": 25,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "call_-7436814041428779282"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0021",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0021#0-139",
+      "end": 139,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "The van der waal’s equation of state for 1 mole of gas is (P + a/V^2)(V - b) = RT Arrange the following gases in order of increasing value."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0116",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0116#48-57",
+      "end": 57,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 48,
+      "text": "| Quizlet"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0086",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0086#0-93",
+      "end": 93,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "(c) Larger the value of van der Waals constant a, more easily the liquefaction of gas occurs."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_fee9d46086e4b962",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_fee9d46086e4b962#0-25",
+      "end": 25,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "call_-7436805966890266844"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0089",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0089#106-182",
+      "end": 182,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 106,
+      "text": "The table indicates the value of van der Waals constant ‘a’ in (dm^3)^2 atm."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_1bfaaf435dea5ae5",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_1bfaaf435dea5ae5#0-25",
+      "end": 25,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "call_-7436740545948411576"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0089",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0089#183-234",
+      "end": 234,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 183,
+      "text": "mol^-2 Gas O2 N2 NH3 CH4 a 1.360 1.390 4.170 2.253."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0078",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0078#0-47",
+      "end": 47,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Van der Waals constants (data page) - Wikipedia"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0001",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0001#768-777",
+      "end": 777,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 768,
+      "text": "Question:"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_e807ee0c6c389d5c",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_e807ee0c6c389d5c#0-67",
+      "end": 67,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "\"which species has the greater van der waals\" constant a OR b pairs"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0041",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0041#67-179",
+      "end": 179,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 67,
+      "text": "kinetic energies would be equal for all molecules, what ever their molecular weights will be, it doesn't matter."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0040",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0040#0-100",
+      "end": 100,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://askfilo.com/chemistry-question-answers/which-of-the-following-expressions-correctly-repre4jy"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_d0df9fb11070123f",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_d0df9fb11070123f#0-25",
+      "end": 25,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "call_-7436718590075594958"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_6607c2e07e3f6cf0",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_6607c2e07e3f6cf0#0-77",
+      "end": 77,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "\"for each of the following pairs\" \"greater van der waals\" \"a\" OR \"b\" constant"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0016",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0016#67-73",
+      "end": 73,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 67,
+      "text": "| Filo"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0001",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0001#667-680",
+      "end": 680,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 667,
+      "text": "Verification:"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0069",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0069#0-176",
+      "end": 176,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://www.academia.edu/100243483/Molecule_surface_interaction_from_van_der_Waals_corrected_semilocal_density_functionals_The_example_of_thiophene_on_transition_metal_surfaces"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0197",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0197#0-2",
+      "end": 2,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "A."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0097",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0097#3-7",
+      "end": 7,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3,
+      "text": "CO2."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0197",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0197#150-249",
+      "end": 249,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 150,
+      "text": "At Boyle temperature, real gas behaves ideally over a range of pressure The correct statements are."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0118",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0118#128-139",
+      "end": 139,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 128,
+      "text": "Don't know?"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0020",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0020#0-108",
+      "end": 108,
+      "occurrences": [
+        {
+          "position": {
+            "index": 2,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_58452c40de4bdcb9:a0020:u0-108"
+        },
+        {
+          "position": {
+            "index": 11,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_58452c40de4bdcb9:a0020:u0-108"
+        }
+      ],
+      "pool_only": false,
+      "start": 0,
+      "text": "https://www.sarthaks.com/3506434/arrange-the-following-gases-in-increasing-order-of-van-der-waals-constant-a"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0001",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0001#610-619",
+      "end": 619,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 610,
+      "text": "Evidence:"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0195",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0195#0-54",
+      "end": 54,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Chemistry Free Mock Test PG | cuet exams massgraduates"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0097",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0097#188-192",
+      "end": 192,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 188,
+      "text": "145."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0066",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0066#0-69",
+      "end": 69,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://www.solubilityofthings.com/van-der-waals-equation-real-gases/"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0047#126-141",
+      "end": 141,
+      "occurrences": [
+        {
+          "position": {
+            "index": 4,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_58452c40de4bdcb9:a0047:u126-141"
+        }
+      ],
+      "pool_only": false,
+      "start": 126,
+      "text": "(ii) Ne and O2;"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0131",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0131#0-158",
+      "end": 158,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://www.chegg.com/homework-help/questions-and-answers/use-van-der-waals-equation-calculate-pressure-atm-4828-mol-hydrogen-180-c-236-l-container--q24316893"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0107",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0107#0-17",
+      "end": 17,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Google Переводчик"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0001",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0001#48-94",
+      "end": 94,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 48,
+      "text": "Answer the question as accurately as possible."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_31c83d2d94bc0d13",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_31c83d2d94bc0d13#0-125",
+      "end": 125,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "McQuarrie general chemistry \"van der Waals\" \"a parameter\" \"b parameter\" pairs solution He Ne O2 CO2 H2CO CH4 benzene dodecane"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0065",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0065#0-37",
+      "end": 37,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Van der Waals Equation for Real Gases"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0022",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0022#0-49",
+      "end": 49,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "The van der Waals equation (video) | Khan Academy"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0087",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0087#0-65",
+      "end": 65,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "The values of Vander waals constant a for the gases `N_(2), CO..."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0154",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0154#55-64",
+      "end": 64,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 55,
+      "text": "- YouTube"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0050",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0050#0-67",
+      "end": 67,
+      "occurrences": [
+        {
+          "position": {
+            "index": 3,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_58452c40de4bdcb9:a0050:u0-67"
+        },
+        {
+          "position": {
+            "index": 12,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_58452c40de4bdcb9:a0050:u0-67"
+        }
+      ],
+      "pool_only": false,
+      "start": 0,
+      "text": "Which of the following reaction involves free radical substitution?"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0021",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0021#187-246",
+      "end": 246,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 187,
+      "text": "Chlorine is liquefied easily as compared to ethane because."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_35120b8f9790483a",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_35120b8f9790483a#0-84",
+      "end": 84,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "McQuarrie \"van der Waals\" \"a parameter\" \"b parameter\" pairs He Ne O2 CO2 H2 CH4 C6H6"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_c4cb6d2c41f5053c",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_c4cb6d2c41f5053c#0-69",
+      "end": 69,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "van der Waals constant a formaldehyde H2CO methanal value L2 bar mol2"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0159",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0159#118-203",
+      "end": 203,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 118,
+      "text": "It considers both the finite size of the gas particles and the intermolecular forces."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0001",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0001#395-503",
+      "end": 503,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 395,
+      "text": "Verify the key entities/attributes with available tools or with explicit evidence from the provided context."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0080",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0080#139-207",
+      "end": 207,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 139,
+      "text": "These constants are generally calculated from the critical pressure."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0174",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0174#0-66",
+      "end": 66,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Consider the following van der Waals' constant values of two ga..."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0100",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0100#48-141",
+      "end": 141,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 48,
+      "text": "A gas described by van der Waals' equation (a) behaves similar to an ideal gas molar volumes."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0033",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0033#184-336",
+      "end": 336,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 184,
+      "text": "(uid: e3eda190-ba01-4034-9644-e57b51551745)\",\"readableMessage\":\"InsufficientBalanceError: Account balance not enough to run this query, please recharge."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0133",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0133#0-68",
+      "end": 68,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Gases vander Waals' constant 'b' NH₃: 0.371 dm² mol⁻¹ CO₂: 0.0427..."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0118",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0118#164-171",
+      "end": 171,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 164,
+      "text": "Helium."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0127",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0127#0-43",
+      "end": 43,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "The Gas Basicity of Oxygen is 459.6 kJ/mol."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0047#160-178",
+      "end": 178,
+      "occurrences": [
+        {
+          "position": {
+            "index": 6,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_58452c40de4bdcb9:a0047:u160-178"
+        }
+      ],
+      "pool_only": false,
+      "start": 160,
+      "text": "(iv) H2CO and CH4;"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0101",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0101#0-27",
+      "end": 27,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Таблица Менделеева - Ptable"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_82ad17e0e2cbabf0",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_82ad17e0e2cbabf0#82-96",
+      "end": 96,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 82,
+      "text": "hydrogen 0.244"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0127",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0127#44-103",
+      "end": 103,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 44,
+      "text": "The Dipole Polarizability of O is 5.3 plus or minus 0.2 a₀."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_82ad17e0e2cbabf0",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_82ad17e0e2cbabf0#38-48",
+      "end": 48,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 38,
+      "text": "neon 0.211"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0001",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0001#582-609",
+      "end": 609,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 582,
+      "text": "Use this visible structure:"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0139",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0139#0-65",
+      "end": 65,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Газовая колонка Electrolux Nano 2.0, проблема с включением при..."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_b6e289422f60d406",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_b6e289422f60d406#0-25",
+      "end": 25,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "call_-7436855891590116619"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0050",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0050#195-254",
+      "end": 254,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 195,
+      "text": "Include the reagents, reaction conditions and observations."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0109",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0109#85-117",
+      "end": 117,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 85,
+      "text": "Поддерживается более 100 языков."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0170",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0170#178-279",
+      "end": 279,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 178,
+      "text": "The ideal gas law treats the molecules of a gas as point particles with perfectly elastic collisions."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0173",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0173#45-56",
+      "end": 56,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 45,
+      "text": "Chegg Logo."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0180",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0180#84-151",
+      "end": 151,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 84,
+      "text": "The question asks about van der Waals constants for pairs of gases."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0118",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0118#120-127",
+      "end": 127,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 120,
+      "text": "Oxygen."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0050",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0050#95-121",
+      "end": 121,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 95,
+      "text": "B Dehydration of alcohols."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0103",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0103#57-84",
+      "end": 84,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 57,
+      "text": "Твёрдость1 H Водород 1,008."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0159",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0159#0-117",
+      "end": 117,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "The Van der Waals equation, on the other hand, is an empirical relationship that seeks to address these shortcomings."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0083",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0083#233-274",
+      "end": 274,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 233,
+      "text": "Non-ideal gas - Van der Waal's Constants."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0177",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0177#0-42",
+      "end": 42,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Van Der Waals Constants.pdf [oq1z91487p02]"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0097",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0097#8-10",
+      "end": 10,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 8,
+      "text": "D."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0033",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0033#337-382",
+      "end": 382,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 337,
+      "text": "(uid: e3eda190-ba01-4034-9644-e57b51551745)\"}"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0044",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0044#138-277",
+      "end": 277,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 138,
+      "text": "For each of the following pairs of gases, decide which substance has the larger van der Waals a parameter: (i) He and Ne; (ii) Ne and O2..."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0027",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0027#57-70",
+      "end": 70,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 57,
+      "text": "- brainly.com"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0173",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0173#0-44",
+      "end": 44,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Calculate the critical constant for benzene."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0021",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0021#139-186",
+      "end": 186,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 139,
+      "text": "For gases, a and bare van der Waal's constants."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0064",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0064#0-31",
+      "end": 31,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Select Van der Waals constants."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_701766854b8e9d98",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_701766854b8e9d98#0-25",
+      "end": 25,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "call_-7436640833987672366"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0092",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0092#53-153",
+      "end": 153,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 53,
+      "text": "Data given for Van der Waals constants for carbon dioxide: a = 3.61 L2 atm mol-2 & b = 0.0428 L/mol."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0135",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0135#93-215",
+      "end": 215,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 93,
+      "text": "A higher value of b means the gas molecules occupy more space and thus the gas is less compressible (more incompressible)."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0041",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0041#180-206",
+      "end": 206,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 180,
+      "text": "Was this solution helpful?"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0103",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0103#53-56",
+      "end": 56,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 53,
+      "text": "pm."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0000",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0000#66-84",
+      "end": 84,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 66,
+      "text": "</system-reminder>"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_82ad17e0e2cbabf0",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_82ad17e0e2cbabf0#49-61",
+      "end": 61,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 49,
+      "text": "oxygen 1.382"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_b2918dddc373346d",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_b2918dddc373346d#0-25",
+      "end": 25,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "call_-7436684573934609602"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0001",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0001#0-46",
+      "end": 46,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "You are solving a benchmark training question."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0001",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0001#861-914",
+      "end": 914,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 861,
+      "text": "Return your final answer in this exact trailing form:"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0140",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0140#0-57",
+      "end": 57,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://rutube.ru/video/fd7d12b21b28c96628029f8f711f3869/"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0072",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0072#0-70",
+      "end": 70,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://elo.hu/van-der-waals-egyenlet-a-realis-gazok-allapotegyenlete/"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0141",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0141#210-239",
+      "end": 239,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 210,
+      "text": "Пришлось решать методом тыка."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0029",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0029#116-240",
+      "end": 240,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 116,
+      "text": "Similarly, carbon tetrachloride's multiple chlorine interactions lead to stronger forces compared to trichlorofluoromethane."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0173",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0173#167-231",
+      "end": 231,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 167,
+      "text": "Identify the critical volume using the van der Waals constant b."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0098",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0098#0-68",
+      "end": 68,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Assume that fullerene (C60) in the gas phase behaves as a van der..."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0142",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0142#4-54",
+      "end": 54,
+      "occurrences": [
+        {
+          "position": {
+            "index": 4,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_58452c40de4bdcb9:a0142:u4-54"
+        },
+        {
+          "position": {
+            "index": 13,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_58452c40de4bdcb9:a0142:u4-54"
+        }
+      ],
+      "pool_only": false,
+      "start": 4,
+      "text": "Датчик частиц дизельного топлива — BMW X6 (F16)..."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0118",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0118#0-96",
+      "end": 96,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Study with Quizlet and memorize flashcards containing terms like Helium, Neon, Argon and more.2."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0141",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0141#240-246",
+      "end": 246,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 240,
+      "text": "Может."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_82ad17e0e2cbabf0",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_82ad17e0e2cbabf0#25-37",
+      "end": 37,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 25,
+      "text": "helium 0.034"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0001",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0001#164-288",
+      "end": 288,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 164,
+      "text": "Leave a compact, observable solve trace before the final answer so this run can be distilled into reusable experience later."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0019",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0019#0-67",
+      "end": 67,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Arrange the following gases in increasing order of van der Waals..."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_8e380cdea1c2b75c",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_8e380cdea1c2b75c#0-9",
+      "end": 9,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "tool_call"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0083",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0083#177-232",
+      "end": 232,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 177,
+      "text": "To convert a into kPa L2/mol2multiply by 100.0 kPa/bar."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0027",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0027#0-56",
+      "end": 56,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "[FREE] For each of the following pairs, predict which..."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0033",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0033#0-183",
+      "end": 183,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Error: Jina API returned status 402: {\"data\":null,\"code\":402,\"name\":\"InsufficientBalanceError\",\"status\":40203,\"message\":\"Account balance not enough to run this query, please recharge."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0041",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0041#0-51",
+      "end": 51,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Text Solution Text solution verified icon Verified."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0141",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0141#85-149",
+      "end": 149,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 85,
+      "text": "Поворачиваем регулятор на средний напор и колонка не зажигается."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0118",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0118#172-178",
+      "end": 178,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 172,
+      "text": "0.034."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0071",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0071#0-64",
+      "end": 64,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Van der Waals-egyenlet: a reális gázok állapotegyenlete - Elo.hu"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0092",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0092#0-53",
+      "end": 53,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Van der Waals Constant (a and b values) – Data Table."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0138",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0138#0-53",
+      "end": 53,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Play-Doh surprise eggs modeled like M&M’s characters."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0089",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0089#0-106",
+      "end": 106,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Correct Answer - C Larger the vavlue of Vander Waals constant `a` more easily the gas will be liquefiable."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0061",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0061#0-58",
+      "end": 58,
+      "occurrences": [
+        {
+          "position": {
+            "index": 10,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_58452c40de4bdcb9:a0061:u0-58"
+        }
+      ],
+      "pool_only": false,
+      "start": 0,
+      "text": "b - parameter proportional to the volume of the particles."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0086",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0086#196-207",
+      "end": 207,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 196,
+      "text": "Updated On."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_1319b9679d1bd7e7",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_1319b9679d1bd7e7#0-86",
+      "end": 86,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "van der Waals constant b values He 0.0237 Ne 0.0171 O2 0.0319 CO2 0.0427 H2 0.0266 CH4"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0016",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0016#0-66",
+      "end": 66,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Relationship between critical constants and van der waals const..."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_6d8ca6ab3351e1f5",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_6d8ca6ab3351e1f5#0-80",
+      "end": 80,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "van der Waals constant a He 0.0346 Ne 0.205 O2 1.382 CO2 3.59 H2 0.244 CH4 2.303"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_c1a0e1bdf56f68bc",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_c1a0e1bdf56f68bc#0-25",
+      "end": 25,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "call_-7436684573934609603"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0074",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0074#0-29",
+      "end": 29,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "I found the textbook problem."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0119",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0119#0-26",
+      "end": 26,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Nuclear fusion in the sun."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0049",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0049#0-43",
+      "end": 43,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://anyflip.com/ensrg/mfkl/basic/51-100"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0154",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0154#0-54",
+      "end": 54,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "H2CO (Formaldehyde) Molecular Geometry, Bond Angles..."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0029",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0029#0-115",
+      "end": 115,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "For example, the longer carbon chain of hexane leads to stronger van der Waals forces which increase boiling point."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0084",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0084#0-63",
+      "end": 63,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "The values of van der Waals constant a for the gases \\mathrm..."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0134",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0134#0-134",
+      "end": 134,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://askfilo.com/user-question-answers-smart-solutions/125-gases-vander-waals-constant-b-nh3-0-371-dm2-mol-1-co2-0-3431303034313535"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0106",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0106#0-48",
+      "end": 48,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "2D materials and van der waals heterostructures."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0050",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0050#68-94",
+      "end": 94,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 68,
+      "text": "A Halogenation of alkanes."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0086",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0086#146-195",
+      "end": 195,
+      "occurrences": [
+        {
+          "position": {
+            "index": 6,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_58452c40de4bdcb9:a0086:u146-195"
+        },
+        {
+          "position": {
+            "index": 15,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_58452c40de4bdcb9:a0086:u146-195"
+        }
+      ],
+      "pool_only": false,
+      "start": 146,
+      "text": "The gas which can be most easily be liquefied is."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0108",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0108#0-45",
+      "end": 45,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://translate.google.com.tn/?hl=ru&tab=TT"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0138",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0138#54-91",
+      "end": 91,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 54,
+      "text": "Each one hiding exciting toys inside!"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0141",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0141#150-209",
+      "end": 209,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 150,
+      "text": "Пересмотрел кучу роликов, решения данной проблемы не нашёл."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_240f56938dcaae7a",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_240f56938dcaae7a#0-25",
+      "end": 25,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "call_-7436740545948411575"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0074",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0074#30-179",
+      "end": 179,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 30,
+      "text": "It's a well-known problem (likely from McQuarrie's General Chemistry or similar), asking for both the **a** parameter (intermolecular attraction) and"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0102",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0102#0-27",
+      "end": 27,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://ptable.com/?lang=ru"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0001",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0001#95-163",
+      "end": 163,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 95,
+      "text": "Use DeerFlow tools or subagents only when they are genuinely useful."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0145",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0145#0-108",
+      "end": 108,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Let me search for more specific data on the van der Waals constants, especially for formaldehyde vs methane."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0155",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0155#0-43",
+      "end": 43,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://www.youtube.com/watch?v=K4d71wh9VGw"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0051",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0051#37-74",
+      "end": 74,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 37,
+      "text": "Let me get the full question details."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_d3738b1a78c70499",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_d3738b1a78c70499#0-45",
+      "end": 45,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Check for uploaded files containing the pairs"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0062",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0062#0-42",
+      "end": 42,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Van der Waals Calculator | SummaCalculator"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0074",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0074#220-258",
+      "end": 258,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 220,
+      "text": "The \"a\" parameter pairs are confirmed."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0074",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0074#259-322",
+      "end": 322,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 259,
+      "text": "Let me verify the van der Waals constants to answer accurately."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0002",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0002#96-164",
+      "end": 164,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 96,
+      "text": "Let me check if there are any uploaded files that contain the pairs."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0171",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0171#0-60",
+      "end": 60,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Solved Taking the van der waals constant a and b for benzene"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0011",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0011#0-49",
+      "end": 49,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://en.wikipedia.org/wiki/Van_der_Waals_force"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0118",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0118#140-163",
+      "end": 163,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 140,
+      "text": "Terms in this set (14)."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0104",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0104#0-39",
+      "end": 39,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "science.org/doi/10.1126/science.aac9439"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0156",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0156#0-117",
+      "end": 117,
+      "occurrences": [
+        {
+          "position": {
+            "index": 8,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_58452c40de4bdcb9:a0156:u0-117"
+        },
+        {
+          "position": {
+            "index": 17,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_58452c40de4bdcb9:a0156:u0-117"
+        }
+      ],
+      "pool_only": false,
+      "start": 0,
+      "text": "An explanation of the molecular geometry for the H2CO (Formaldehyde) including a description of the H2CO bond angles."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0064",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0064#124-143",
+      "end": 143,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 124,
+      "text": "b (excluded volume)"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0135",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0135#216-262",
+      "end": 262,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 216,
+      "text": "Given values of b (in dm2 mol−1): NH3 : 0.371."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0175",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0175#0-134",
+      "end": 134,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://askfilo.com/user-question-answers-smart-solutions/consider-the-following-van-der-waals-constant-values-of-two-3334353235343032"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0197",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0197#3-56",
+      "end": 56,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3,
+      "text": "Parameter a corrects for intermolecular attraction B."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0160",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0160#0-69",
+      "end": 69,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "For one mole of a van der Waals gas when b = 0 and T = 300 K , the..."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0173",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0173#89-145",
+      "end": 145,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 89,
+      "text": "This AI-generated tip is based on Chegg's full solution."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_86099f45e1731976",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_86099f45e1731976#0-2",
+      "end": 2,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "ls"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0051",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0051#0-36",
+      "end": 36,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "I found a matching textbook problem."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0028",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0028#0-37",
+      "end": 37,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://brainly.com/question/43365767"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0138",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0138#92-160",
+      "end": 160,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 92,
+      "text": "Kids will love guessing the colors, discovering what's inside eac..."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0100",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0100#0-48",
+      "end": 48,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "The van der Waals constant, b, for fullerene is."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0103",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0103#85-103",
+      "end": 103,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 85,
+      "text": "2 He Гелий 4,0026."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_f288d8b523b361c0",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_f288d8b523b361c0#0-89",
+      "end": 89,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "\"for each of the following pairs\" \"which species has the greater van der waals\" chemistry"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0001",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0001#915-937",
+      "end": 937,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 915,
+      "text": "Final answer: <answer>"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0085",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0085#0-120",
+      "end": 120,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://askfilo.com/chemistry-question-answers/the-values-of-van-der-waals-constant-a-for-the-gases-mathrmo_2-mathrm~n_2"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0172",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0172#0-156",
+      "end": 156,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://www.chegg.com/homework-help/questions-and-answers/taking-van-der-waals-constant-b-benzene-1800atm-l2-mol-2-0115-l-mol-1respectively-calculat-q450971"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0196",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0196#0-66",
+      "end": 66,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://cuetexamsnta.massgraduates.in/chemistry-free-mock-test-pg/"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0001",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0001#778-859",
+      "end": 859,
+      "occurrences": [
+        {
+          "position": {
+            "index": 9,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_58452c40de4bdcb9:a0001:u778-859"
+        },
+        {
+          "position": {
+            "index": 18,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_58452c40de4bdcb9:a0001:u778-859"
+        }
+      ],
+      "pool_only": false,
+      "start": 778,
+      "text": "for each of the following pairs state which species has the greater van der waals"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0132",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0132#0-11",
+      "end": 11,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Solution 1."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0109",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0109#0-84",
+      "end": 84,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Бесплатный сервис Google позволяет мгновенно переводить слова, фразы и веб-страницы."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_91b9d0691b7f3b71",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_91b9d0691b7f3b71#0-25",
+      "end": 25,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "call_-7436824314990556469"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0064",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0064#143-144",
+      "end": 144,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 143,
+      "text": "."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0178",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0178#0-66",
+      "end": 66,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://doku.pub/documents/van-der-waals-constantspdf-oq1z91487p02"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0044",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0044#0-137",
+      "end": 137,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Recall that one equation of state for a real gas is the van der Waals equation, which is expressed in terms of two parameters, a and b a."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0073",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0073#0-105",
+      "end": 105,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Van der Waals bevezette a ko-térfogat vagy exkludált térfogat fogalmát, amelyet általában b-vel jelölünk."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0067",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0067#81-269",
+      "end": 269,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 81,
+      "text": "These constants transform the ideal gas equation into a more accurate representation of real gas behavior by accounting for intermolecular attractions and the finite size of gas molecules."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0013",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0013#0-53",
+      "end": 53,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Non-ideal gas - Van der Waal's Equation and Constants"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0173",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0173#146-166",
+      "end": 166,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 146,
+      "text": "Sign up to see more!"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0088",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0088#0-124",
+      "end": 124,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://www.sarthaks.com/1849618/the-values-vander-waals-constant-gases-co-and-ch-are-390-640-and-2253l-atm-mol-respectively"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0045",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0045#0-63",
+      "end": 63,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "[Solved] Real gases and vapors deviate from ideal | SolutionInn"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0003",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0003#0-7",
+      "end": 7,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "(empty)"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0001",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0001#290-394",
+      "end": 394,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 290,
+      "text": "For factual, entity-comparison, multi-hop, or time-sensitive questions, do not answer from a bare guess."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0144",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0144#0-94",
+      "end": 94,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Вылез джеки чан — 2BBA00 — Датчик частиц дизельного топлива, сигнал температуры: недостоверно."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_b2a8b229a71c88bc",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_b2a8b229a71c88bc#0-25",
+      "end": 25,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "call_-7436718590075594957"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0137",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0137#0-43",
+      "end": 43,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://www.youtube.com/watch?v=WHK0GUNP6vs"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0105",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0105#0-51",
+      "end": 51,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://www.science.org/doi/10.1126/science.aac9439"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0043",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0043#0-158",
+      "end": 158,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://www.chegg.com/homework-help/questions-and-answers/w111-real-gases-vapors-intermolecular-interactions-recall-one-equation-state-real-gas-van--q32729080"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0142",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0142#55-63",
+      "end": 63,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 55,
+      "text": "| DRIVE2"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0158",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0158#0-70",
+      "end": 70,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://www.questionai.com/knowledge/kHp9dtdMZa-van-der-waals-equation"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0197",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0197#57-108",
+      "end": 108,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 57,
+      "text": "Parameter b accounts for finite molecular volume C."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0180",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0180#152-216",
+      "end": 216,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 152,
+      "text": "Let me verify the key chemistry principles to answer accurately."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0004",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0004#106-188",
+      "end": 188,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 106,
+      "text": "Let me search for this common chemistry question to identify the standard version."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_9ca5aa5ac78ac2c6",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_9ca5aa5ac78ac2c6#0-86",
+      "end": 86,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "\"van der Waals a parameter\" \"He and Ne\" \"Ne and O2\" \"CO2 and H2\" \"H2CO and CH4\" \"C6H6\""
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_44cabf3bbb247f2e",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_44cabf3bbb247f2e#0-25",
+      "end": 25,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "call_-7436691926918624616"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0050",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0050#121-194",
+      "end": 194,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 121,
+      "text": "Suggest chemical test(s) to distinguish the following pairs of compounds."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0061",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0061#152-187",
+      "end": 187,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 152,
+      "text": "Take Absolute Zero to be −273.15∘C."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0143",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0143#0-43",
+      "end": 43,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://www.drive2.ru/l/700085717635703681/"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0086",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0086#121-145",
+      "end": 145,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 121,
+      "text": "145.mol−2, respectively."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_82ad17e0e2cbabf0",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_82ad17e0e2cbabf0#62-81",
+      "end": 81,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 62,
+      "text": "carbon dioxide 3.59"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0173",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0173#57-89",
+      "end": 89,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 57,
+      "text": "Here’s the best way to solve it."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0001",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0001#620-666",
+      "end": 666,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 620,
+      "text": "- <key fact, calculation, or tool result used>"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0179",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0179#94-214",
+      "end": 214,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 94,
+      "text": "To convert the van der Waals constants to SI units, note that 1 bar L2/mol2 = 0.1 Pa m6/mol2 and 1 L/mol = 0.001 m3/mol."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0118",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0118#179-184",
+      "end": 184,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 179,
+      "text": "Neon."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0197",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0197#109-149",
+      "end": 149,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 109,
+      "text": "Boyle temperature is independent of a D."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_9598ff96fd2b5cdb",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_9598ff96fd2b5cdb#0-53",
+      "end": 53,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "van der Waals constant a benzene 18.24 dodecane value"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_0ee73a425c44b32b",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_0ee73a425c44b32b#0-25",
+      "end": 25,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "call_-7436701788163532137"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_a143f1baae0f53f6",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_a143f1baae0f53f6#0-25",
+      "end": 25,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "call_-7436701788163532138"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0063",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0063#0-52",
+      "end": 52,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "https://summacalculator.com/van-der-waals-calculator"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0080",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0080#0-138",
+      "end": 138,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "The following table lists the Van der Waals constants (from the Van der Waals equation) for a number of common gases and volatile liquids."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0073",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0073#106-174",
+      "end": 174,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 106,
+      "text": "Ez a b paraméter egy mol gázmolekula saját térfogatát reprezentálja."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0068",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0068#0-66",
+      "end": 66,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "(PDF) Molecule-surface interaction from van der Waals-corrected..."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0041",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0041#52-66",
+      "end": 66,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 52,
+      "text": "For same temp."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0092",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0092#154-230",
+      "end": 230,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 154,
+      "text": "Calculate the percentage deviation of each value from the observed pressure."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0103",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0103#0-52",
+      "end": 52,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Pадиус, calculated empirical covalent van der Waals."
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0010",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0010#0-31",
+      "end": 31,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Van der Waals force - Wikipedia"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:arg_d9c4be36f46eb5f5",
+      "canonical_id": "genmem_58452c40de4bdcb9:arg_d9c4be36f46eb5f5#0-25",
+      "end": 25,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "call_-7436640833987672367"
+    },
+    {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0191",
+      "canonical_id": "genmem_58452c40de4bdcb9:a0191#96-205",
+      "end": 205,
+      "occurrences": [
+        {
+          "position": {
+            "index": 8,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_58452c40de4bdcb9:a0191:u96-205"
+        }
+      ],
+      "pool_only": false,
+      "start": 96,
+      "text": "(b) For each of the following pairs of gases, decide which substance has the larger van der Waals b parameter"
+    }
+  ],
+  "case_id": "genmem_58452c40de4bdcb9:selected_03",
+  "control": null,
+  "evidence_groups": [
+    {
+      "coverage": "full",
+      "group_id": "genmem_58452c40de4bdcb9:selected_03:support_g01",
+      "items": [
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0180",
+              "end": 83,
+              "start": 0,
+              "text": "I've identified the standard textbook problem (from McQuarrie's General Chemistry)."
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_58452c40de4bdcb9:a0180",
+            "end": 83,
+            "start": 0,
+            "text": "I've identified the standard textbook problem (from McQuarrie's General Chemistry)."
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0042",
+              "end": 54,
+              "start": 0,
+              "text": "Solved W11.1 Real gases and vapors have intermolecular"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_58452c40de4bdcb9:a0042",
+            "end": 54,
+            "start": 0,
+            "text": "Solved W11.1 Real gases and vapors have intermolecular"
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+              "end": 110,
+              "start": 0,
+              "text": "(a) For each of the following pairs of gases, decide which substance has the larger van der Waals a parameter:"
+            },
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0056",
+              "end": 110,
+              "start": 0,
+              "text": "(a) For each of the following pairs of gases, decide which substance has the larger van der Waals a parameter:"
+            },
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0056",
+              "end": 110,
+              "start": 0,
+              "text": "(a) For each of the following pairs of gases, decide which substance has the larger van der Waals a parameter:"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+            "end": 110,
+            "start": 0,
+            "text": "(a) For each of the following pairs of gases, decide which substance has the larger van der Waals a parameter:"
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+              "end": 125,
+              "start": 111,
+              "text": "(i) He and Ne;"
+            },
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0056",
+              "end": 125,
+              "start": 111,
+              "text": "(i) He and Ne;"
+            },
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0056",
+              "end": 125,
+              "start": 111,
+              "text": "(i) He and Ne;"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+            "end": 125,
+            "start": 111,
+            "text": "(i) He and Ne;"
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+              "end": 141,
+              "start": 126,
+              "text": "(ii) Ne and O2;"
+            },
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0056",
+              "end": 141,
+              "start": 126,
+              "text": "(ii) Ne and O2;"
+            },
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0056",
+              "end": 141,
+              "start": 126,
+              "text": "(ii) Ne and O2;"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+            "end": 141,
+            "start": 126,
+            "text": "(ii) Ne and O2;"
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+              "end": 159,
+              "start": 142,
+              "text": "(iii) CO2 and H2;"
+            },
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0056",
+              "end": 159,
+              "start": 142,
+              "text": "(iii) CO2 and H2;"
+            },
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0056",
+              "end": 159,
+              "start": 142,
+              "text": "(iii) CO2 and H2;"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+            "end": 159,
+            "start": 142,
+            "text": "(iii) CO2 and H2;"
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+              "end": 178,
+              "start": 160,
+              "text": "(iv) H2CO and CH4;"
+            },
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0056",
+              "end": 178,
+              "start": 160,
+              "text": "(iv) H2CO and CH4;"
+            },
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0056",
+              "end": 178,
+              "start": 160,
+              "text": "(iv) H2CO and CH4;"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+            "end": 178,
+            "start": 160,
+            "text": "(iv) H2CO and CH4;"
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+              "end": 206,
+              "start": 179,
+              "text": "(v) C6H6 and CH3(CH2)10CH3."
+            },
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0056",
+              "end": 206,
+              "start": 179,
+              "text": "(v) C6H6 and CH3(CH2)10CH3."
+            },
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0056",
+              "end": 206,
+              "start": 179,
+              "text": "(v) C6H6 and CH3(CH2)10CH3."
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+            "end": 206,
+            "start": 179,
+            "text": "(v) C6H6 and CH3(CH2)10CH3."
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0191",
+              "end": 205,
+              "start": 96,
+              "text": "(b) For each of the following pairs of gases, decide which substance has the larger van der Waals b parameter"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_58452c40de4bdcb9:a0191",
+            "end": 205,
+            "start": 96,
+            "text": "(b) For each of the following pairs of gases, decide which substance has the larger van der Waals b parameter"
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0185",
+              "end": 81,
+              "start": 0,
+              "text": "a - parameter that gives a measure of the attractive force between the particles."
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_58452c40de4bdcb9:a0185",
+            "end": 81,
+            "start": 0,
+            "text": "a - parameter that gives a measure of the attractive force between the particles."
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0061",
+              "end": 58,
+              "start": 0,
+              "text": "b - parameter proportional to the volume of the particles."
+            },
+            {
+              "artifact_id": "genmem_58452c40de4bdcb9:a0185",
+              "end": 140,
+              "start": 82,
+              "text": "b - parameter proportional to the volume of the particles."
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_58452c40de4bdcb9:a0185",
+            "end": 140,
+            "start": 82,
+            "text": "b - parameter proportional to the volume of the particles."
+          }
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "A": [
+      "genmem_58452c40de4bdcb9:a0180#0-83"
+    ],
+    "B": [
+      "genmem_58452c40de4bdcb9:a0047#0-110"
+    ]
+  },
+  "provenance": {
+    "A_unit": "genmem_58452c40de4bdcb9:a0180:u0-83",
+    "B_unit": "genmem_58452c40de4bdcb9:a0047:u0-110",
+    "case_dir": "artifacts\\raw\\genmem_batch10_v3\\subset\\contextual64_v4\\case_05",
+    "group_id": "genmem_58452c40de4bdcb9:selected_03:support_g01",
+    "note": "two-round controlled construction from contextual64_v4; not an original request snapshot",
+    "round2_a_source_leaks": [],
+    "same_source_policy": "normalized source text; representative unit + all occurrences",
+    "target_id": "genmem_58452c40de4bdcb9:selected_03"
+  },
+  "record_type": "controlled",
+  "rounds": [
+    {
+      "inputs": [
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0180",
+          "end": 83,
+          "position": {
+            "index": 1,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "I've identified the standard textbook problem (from McQuarrie's General Chemistry).",
+          "unit_id": "genmem_58452c40de4bdcb9:a0180:u0-83"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0020",
+          "end": 108,
+          "position": {
+            "index": 2,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "https://www.sarthaks.com/3506434/arrange-the-following-gases-in-increasing-order-of-van-der-waals-constant-a",
+          "unit_id": "genmem_58452c40de4bdcb9:a0020:u0-108"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0050",
+          "end": 67,
+          "position": {
+            "index": 3,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "Which of the following reaction involves free radical substitution?",
+          "unit_id": "genmem_58452c40de4bdcb9:a0050:u0-67"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0142",
+          "end": 54,
+          "position": {
+            "index": 4,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 4,
+          "text": "Датчик частиц дизельного топлива — BMW X6 (F16)...",
+          "unit_id": "genmem_58452c40de4bdcb9:a0142:u4-54"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0121",
+          "end": 160,
+          "position": {
+            "index": 5,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 79,
+          "text": "How the surplus electrons are destroyed and how all of this pumps heat into th...",
+          "unit_id": "genmem_58452c40de4bdcb9:a0121:u79-160"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0086",
+          "end": 195,
+          "position": {
+            "index": 6,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 146,
+          "text": "The gas which can be most easily be liquefied is.",
+          "unit_id": "genmem_58452c40de4bdcb9:a0086:u146-195"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0127",
+          "end": 209,
+          "position": {
+            "index": 7,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 104,
+          "text": "Element 8 has a C6 Dispersion Coefficient (CD) of 15.6 a₀, and C6 Dispersion Coefficient (GB) of 16.7 a₀.",
+          "unit_id": "genmem_58452c40de4bdcb9:a0127:u104-209"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0156",
+          "end": 117,
+          "position": {
+            "index": 8,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "An explanation of the molecular geometry for the H2CO (Formaldehyde) including a description of the H2CO bond angles.",
+          "unit_id": "genmem_58452c40de4bdcb9:a0156:u0-117"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0001",
+          "end": 859,
+          "position": {
+            "index": 9,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 778,
+          "text": "for each of the following pairs state which species has the greater van der waals",
+          "unit_id": "genmem_58452c40de4bdcb9:a0001:u778-859"
+        }
+      ],
+      "output": {
+        "origin": "controlled_output",
+        "sha256": "ebb9ce9c9a9eb6ec1a51c2488b488c66e115bfec37d84944b4f639fbaf0927ec",
+        "text": "The problem is from McQuarrie's General Chemistry, Chapter W11."
+      },
+      "question": "According to the materials, what is the key earlier statement?",
+      "round": 1,
+      "transmission": []
+    },
+    {
+      "inputs": [
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+          "end": 110,
+          "position": {
+            "index": 1,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "(a) For each of the following pairs of gases, decide which substance has the larger van der Waals a parameter:",
+          "unit_id": "genmem_58452c40de4bdcb9:a0047:u0-110"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0042",
+          "end": 54,
+          "position": {
+            "index": 2,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "Solved W11.1 Real gases and vapors have intermolecular",
+          "unit_id": "genmem_58452c40de4bdcb9:a0042:u0-54"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+          "end": 125,
+          "position": {
+            "index": 3,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 111,
+          "text": "(i) He and Ne;",
+          "unit_id": "genmem_58452c40de4bdcb9:a0047:u111-125"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+          "end": 141,
+          "position": {
+            "index": 4,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 126,
+          "text": "(ii) Ne and O2;",
+          "unit_id": "genmem_58452c40de4bdcb9:a0047:u126-141"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+          "end": 159,
+          "position": {
+            "index": 5,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 142,
+          "text": "(iii) CO2 and H2;",
+          "unit_id": "genmem_58452c40de4bdcb9:a0047:u142-159"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+          "end": 178,
+          "position": {
+            "index": 6,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 160,
+          "text": "(iv) H2CO and CH4;",
+          "unit_id": "genmem_58452c40de4bdcb9:a0047:u160-178"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0047",
+          "end": 206,
+          "position": {
+            "index": 7,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 179,
+          "text": "(v) C6H6 and CH3(CH2)10CH3.",
+          "unit_id": "genmem_58452c40de4bdcb9:a0047:u179-206"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0191",
+          "end": 205,
+          "position": {
+            "index": 8,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 96,
+          "text": "(b) For each of the following pairs of gases, decide which substance has the larger van der Waals b parameter",
+          "unit_id": "genmem_58452c40de4bdcb9:a0191:u96-205"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0185",
+          "end": 81,
+          "position": {
+            "index": 9,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "a - parameter that gives a measure of the attractive force between the particles.",
+          "unit_id": "genmem_58452c40de4bdcb9:a0185:u0-81"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0061",
+          "end": 58,
+          "position": {
+            "index": 10,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "b - parameter proportional to the volume of the particles.",
+          "unit_id": "genmem_58452c40de4bdcb9:a0061:u0-58"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0020",
+          "end": 108,
+          "position": {
+            "index": 11,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "https://www.sarthaks.com/3506434/arrange-the-following-gases-in-increasing-order-of-van-der-waals-constant-a",
+          "unit_id": "genmem_58452c40de4bdcb9:a0020:u0-108"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0050",
+          "end": 67,
+          "position": {
+            "index": 12,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "Which of the following reaction involves free radical substitution?",
+          "unit_id": "genmem_58452c40de4bdcb9:a0050:u0-67"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0142",
+          "end": 54,
+          "position": {
+            "index": 13,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 4,
+          "text": "Датчик частиц дизельного топлива — BMW X6 (F16)...",
+          "unit_id": "genmem_58452c40de4bdcb9:a0142:u4-54"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0121",
+          "end": 160,
+          "position": {
+            "index": 14,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 79,
+          "text": "How the surplus electrons are destroyed and how all of this pumps heat into th...",
+          "unit_id": "genmem_58452c40de4bdcb9:a0121:u79-160"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0086",
+          "end": 195,
+          "position": {
+            "index": 15,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 146,
+          "text": "The gas which can be most easily be liquefied is.",
+          "unit_id": "genmem_58452c40de4bdcb9:a0086:u146-195"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0127",
+          "end": 209,
+          "position": {
+            "index": 16,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 104,
+          "text": "Element 8 has a C6 Dispersion Coefficient (CD) of 15.6 a₀, and C6 Dispersion Coefficient (GB) of 16.7 a₀.",
+          "unit_id": "genmem_58452c40de4bdcb9:a0127:u104-209"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0156",
+          "end": 117,
+          "position": {
+            "index": 17,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "An explanation of the molecular geometry for the H2CO (Formaldehyde) including a description of the H2CO bond angles.",
+          "unit_id": "genmem_58452c40de4bdcb9:a0156:u0-117"
+        },
+        {
+          "artifact_id": "genmem_58452c40de4bdcb9:a0001",
+          "end": 859,
+          "position": {
+            "index": 18,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 778,
+          "text": "for each of the following pairs state which species has the greater van der waals",
+          "unit_id": "genmem_58452c40de4bdcb9:a0001:u778-859"
+        }
+      ],
+      "output": {
+        "origin": "recorded_target",
+        "sha256": "cc01b21de2991319ebfc38831317b45552d3a19654615229fa987ec7da16a04e",
+        "text": "I've now confirmed the complete problem. It's from McQuarrie's General Chemistry (Chapter W11, problem about real gases). The question asks about BOTH the **a** parameter (intermolecular attraction) AND the **b** parameter (molecular volume) for five pairs of gases:"
+      },
+      "question": "Using the earlier statement and the new material, write the final sentence.",
+      "round": 2,
+      "transmission": [
+        {
+          "from_round": 1,
+          "position": {
+            "index": 0,
+            "slot": "earlier_finding"
+          },
+          "sha256": "ebb9ce9c9a9eb6ec1a51c2488b488c66e115bfec37d84944b4f639fbaf0927ec",
+          "text": "The problem is from McQuarrie's General Chemistry, Chapter W11.",
+          "unit_id": "round1_output"
+        }
+      ]
+    }
+  ],
+  "schema": "memoryflow.multiturn_case.v1",
+  "split": "dev",
+  "target": {
+    "artifact_id": "genmem_58452c40de4bdcb9:a0198",
+    "end": 266,
+    "origin": "recorded_target",
+    "original_target": {
+      "artifact_id": "genmem_58452c40de4bdcb9:a0198",
+      "end": 266,
+      "event_index": 31,
+      "start": 0,
+      "text": "I've now confirmed the complete problem. It's from McQuarrie's General Chemistry (Chapter W11, problem about real gases). The question asks about BOTH the **a** parameter (intermolecular attraction) AND the **b** parameter (molecular volume) for five pairs of gases:"
+    },
+    "sha256": "cc01b21de2991319ebfc38831317b45552d3a19654615229fa987ec7da16a04e",
+    "start": 0,
+    "text": "I've now confirmed the complete problem. It's from McQuarrie's General Chemistry (Chapter W11, problem about real gases). The question asks about BOTH the **a** parameter (intermolecular attraction) AND the **b** parameter (molecular volume) for five pairs of gases:"
+  },
+  "trajectory_case": "case_05",
+  "trajectory_id": "genmem_58452c40de4bdcb9"
+}

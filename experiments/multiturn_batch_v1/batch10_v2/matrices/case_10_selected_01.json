@@ -1,0 +1,221 @@
+{
+  "case_id": "genmem_f46a08bc62ee9b37:selected_01",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0188#0-68",
+          "score": 0.15422719717025757,
+          "text": "Application of cryolipolysis in adipose tissue: A systematic review."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0192#0-31",
+          "score": 0.09797228872776031,
+          "text": "Journal of Cosmetic Dermatology"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0203#0-64",
+          "score": 0.21896590292453766,
+          "text": "Application of cryolipolysis in adipose tissue: A systematic ..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0278#0-62",
+          "score": 0.046476565301418304,
+          "text": "https://www.scielo.br/j/abd/a/rPSfHZVSYZNCkwmx4mLTJJr/?lang=en"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0006#0-49",
+          "score": 0.037627194076776505,
+          "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4079633/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0373#0-61",
+          "score": 0.03018650785088539,
+          "text": "Adverse Events Associated With Cryolipolysis: A Systematic..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0066#63-203",
+          "score": 0.013840681873261929,
+          "text": "Noninvasive Body Contouring by Focused Ultrasound: Safety and Efficacy of the Contour I Device in a Multicenter, Controlled, Clinical Study."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0158#0-60",
+          "score": 0.00062798016006127,
+          "text": "Classification Systems for Knee Osteochondritis Dissecans..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0332#100-151",
+          "score": 0.0023489047307521105,
+          "text": "Current Problems in Dermatology: “Skin Tightening”."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_701766854b8e9d98#0-25",
+          "score": 0.0029957019723951817,
+          "text": "call_-7436884822489821235"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_c1a0e1bdf56f68bc#0-25",
+          "score": 0.001686419709585607,
+          "text": "call_-7436869257528340937"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0205#0-12",
+          "score": 0.08219940960407257,
+          "text": "Jul 23, 2022"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 276,
+      "seconds": 0.038,
+      "target": "\"Application of cryolipolysis in adipose tissue: A systematic review\" was published in the Journal of Cosmetic Dermatology in July 2022.",
+      "target_tokens": 34,
+      "total_tokens": 310
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0188#0-68",
+          "score": 0.1769178807735443,
+          "text": "Application of cryolipolysis in adipose tissue: A systematic review."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0192#0-31",
+          "score": 0.13557660579681396,
+          "text": "Journal of Cosmetic Dermatology"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0203#0-64",
+          "score": 0.21841776371002197,
+          "text": "Application of cryolipolysis in adipose tissue: A systematic ..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0278#0-62",
+          "score": 0.05731937289237976,
+          "text": "https://www.scielo.br/j/abd/a/rPSfHZVSYZNCkwmx4mLTJJr/?lang=en"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0006#0-49",
+          "score": 0.031280700117349625,
+          "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4079633/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0373#0-61",
+          "score": 0.046368975192308426,
+          "text": "Adverse Events Associated With Cryolipolysis: A Systematic..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0066#63-203",
+          "score": 0.014391472563147545,
+          "text": "Noninvasive Body Contouring by Focused Ultrasound: Safety and Efficacy of the Contour I Device in a Multicenter, Controlled, Clinical Study."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0158#0-60",
+          "score": 0.0004275439423508942,
+          "text": "Classification Systems for Knee Osteochondritis Dissecans..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0332#100-151",
+          "score": 0.0020959775429219007,
+          "text": "Current Problems in Dermatology: “Skin Tightening”."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_701766854b8e9d98#0-25",
+          "score": 0.001557827927172184,
+          "text": "call_-7436884822489821235"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_c1a0e1bdf56f68bc#0-25",
+          "score": 0.00041805175715126097,
+          "text": "call_-7436869257528340937"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 265,
+      "seconds": 0.037,
+      "target": "The paper 'Application of cryolipolysis in adipose tissue: A systematic review' was published in the Journal of Cosmetic Dermatology.",
+      "target_tokens": 29,
+      "total_tokens": 294
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.5392005443572998,
+          "text": "The paper 'Application of cryolipolysis in adipose tissue: A systematic review' was published in the Journal of Cosmetic Dermatology."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0205#0-12",
+          "score": 0.14029410481452942,
+          "text": "Jul 23, 2022"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0278#0-62",
+          "score": 0.037821583449840546,
+          "text": "https://www.scielo.br/j/abd/a/rPSfHZVSYZNCkwmx4mLTJJr/?lang=en"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0006#0-49",
+          "score": 0.021220613270998,
+          "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4079633/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0373#0-61",
+          "score": 0.04649658128619194,
+          "text": "Adverse Events Associated With Cryolipolysis: A Systematic..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0066#63-203",
+          "score": 0.018920019268989563,
+          "text": "Noninvasive Body Contouring by Focused Ultrasound: Safety and Efficacy of the Contour I Device in a Multicenter, Controlled, Clinical Study."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0158#0-60",
+          "score": 0.00033137272112071514,
+          "text": "Classification Systems for Knee Osteochondritis Dissecans..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0332#100-151",
+          "score": 0.0010405182838439941,
+          "text": "Current Problems in Dermatology: “Skin Tightening”."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_701766854b8e9d98#0-25",
+          "score": 0.0013423941563814878,
+          "text": "call_-7436884822489821235"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_c1a0e1bdf56f68bc#0-25",
+          "score": 0.00032423954689875245,
+          "text": "call_-7436869257528340937"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 267,
+      "seconds": 0.037,
+      "target": "\"Application of cryolipolysis in adipose tissue: A systematic review\" was published in the Journal of Cosmetic Dermatology in July 2022.",
+      "target_tokens": 34,
+      "total_tokens": 301
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 24.94,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

@@ -1,13 +1,13 @@
 # multiturn_batch_v1：多轮目标的统一入口与四方法批处理
 
-**状态（2026-11-06）：** 三题开发验收跑通；pilot-v4 B04/F11 做了两道旧材料受控验证；
-batch10 跨轨迹首批 8 条轨迹 / 8 个目标已出表（4 题完整、4 题部分）。
-新数据（约 40–60 个目标、≥8 条轨迹）尚未到。本目录只读已有的冻结输入与矩阵；
-pilot / batch10 的 7B 矩阵在 243 上另算。
+**状态（2026-11-06）：** 三题开发验收跑通；pilot-v4 B04/F11 两道旧材料受控验证；
+batch10 跨轨迹首批 8 条轨迹已出表；补项后的新口径（两轮并集）第一批主表 7 题、对照 1 题，
+5/7 完整。100 目标筛选清单第一版已出（64 已标注核对，36 partial 待补标）。
 
+- 修正首批（并集池）：[FIRST_QUALIFIED_20261106](batch10_v2/reports/FIRST_QUALIFIED_20261106.md)
+- 100 目标筛选：[SCREENING_100_20261106](batch10_v2/reports/SCREENING_100_20261106.md)
+- 旧全历史池首批：[BATCH10_FIRST_20261106](batch10/reports/BATCH10_FIRST_20261106.md)
 - B04/F11：[B04_F11_20261106](pilot/reports/B04_F11_20261106.md)
-- batch10 首批：[BATCH10_FIRST_20261106](batch10/reports/BATCH10_FIRST_20261106.md)
-- 三题开发验收：[BATCH_20261106](reports/BATCH_20261106.md)
 
 ## 做什么
 
@@ -64,7 +64,8 @@ $PY experiments/multiturn_batch_v1/run_batch.py \
 | `run_batch.py` | 锁定、批量跑方法、写 JSON + Markdown |
 | `cases/`、`matrices/`、`manifest.json` | 三题开发验收的冻结输入 |
 | `pilot/` | genmem63 pilot-v4 的 B04/F11：case、矩阵、锁、报告 |
-| `batch10/` | contextual64_v4 首批 8 条轨迹：case、矩阵、锁、报告 |
+| `batch10/` | contextual64_v4 首批 8 条轨迹（旧全历史池）：case、矩阵、锁、报告 |
+| `batch10_v2/` | 补项后的并集池第一批、100 目标筛选：case、矩阵、筛选脚本、报告 |
 | `lock.json`、`preflight.json` | 评分前的候选/标签/矩阵哈希锁与预检结果 |
 | `reports/BATCH_20261106.{md,json}` | 三题批处理输出 |
 | `reports/ACCEPTANCE_20261106.md` | 接入验收、复算说明、缺失登记规则 |

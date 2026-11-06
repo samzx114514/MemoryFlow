@@ -1,0 +1,221 @@
+{
+  "case_id": "genmem_5c054943b1a987e0:selected_07",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0036#102-249",
+          "score": 0.44686850905418396,
+          "text": "When RAM fills up, Windows can move inactive memory pages to disk so the operating system can continue giving foreground tasks the space they need."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:arg_2f1a0d39f5ef07ab#0-25",
+          "score": 0.001503285951912403,
+          "text": "call_-7436737041255101961"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0002#0-102",
+          "score": 0.004998288117349148,
+          "text": "I'll research this topic to provide an accurate, comprehensive answer about Windows memory management."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0008#0-53",
+          "score": 0.01920248568058014,
+          "text": "How To Manage Virtual Memory (Pagefile) In Windows 10"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0013#54-172",
+          "score": 0.05242568999528885,
+          "text": "Virtual memory is a file (pagefile.sys) that Windows uses when you run out of space in the Random Access Memory (RAM)."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0025#0-43",
+          "score": 0.009245007298886776,
+          "text": "What Is Pagefile.sys and Can You Delete It?"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0013#173-274",
+          "score": 0.004086303990334272,
+          "text": "The virtual memory will expand and contract as need, so this why there are initial and maximum sizes."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0064#190-219",
+          "score": 0.007771765813231468,
+          "text": "The Nonpaged and Paged Pools."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0016#64-244",
+          "score": 0.023237111046910286,
+          "text": "Memory, Available MBytes: This counter measures how much RAM is available to satisfy demands for virtual memory (either new allocations, or for restoring a page from the pagefile)."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0050#94-135",
+          "score": 0.10575546324253082,
+          "text": "This frees that RAM frame for other uses."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0050#136-260",
+          "score": 0.1551080346107483,
+          "text": "In Windows systems, these “paged out” pages are stored in one or more files (Pagefile.sys files) in the root of a partition."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0007#129-193",
+          "score": 0.03636840358376503,
+          "text": "Priority management: Decides which data moves to virtual memory."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 296,
+      "seconds": 0.038,
+      "target": "When RAM is under pressure, Windows moves (\"pages out\") inactive or low-priority memory pages from RAM to the pagefile, freeing those RAM frames for more pressing uses.",
+      "target_tokens": 35,
+      "total_tokens": 331
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0036#102-249",
+          "score": 0.7177248597145081,
+          "text": "When RAM fills up, Windows can move inactive memory pages to disk so the operating system can continue giving foreground tasks the space they need."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:arg_2f1a0d39f5ef07ab#0-25",
+          "score": 0.003218224970623851,
+          "text": "call_-7436737041255101961"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0002#0-102",
+          "score": 0.014678179286420345,
+          "text": "I'll research this topic to provide an accurate, comprehensive answer about Windows memory management."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0008#0-53",
+          "score": 0.04731784015893936,
+          "text": "How To Manage Virtual Memory (Pagefile) In Windows 10"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0013#54-172",
+          "score": 0.03521062061190605,
+          "text": "Virtual memory is a file (pagefile.sys) that Windows uses when you run out of space in the Random Access Memory (RAM)."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0025#0-43",
+          "score": 0.008287245407700539,
+          "text": "What Is Pagefile.sys and Can You Delete It?"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0013#173-274",
+          "score": 0.005579411052167416,
+          "text": "The virtual memory will expand and contract as need, so this why there are initial and maximum sizes."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0064#190-219",
+          "score": 0.00763655873015523,
+          "text": "The Nonpaged and Paged Pools."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0016#64-244",
+          "score": 0.008847888559103012,
+          "text": "Memory, Available MBytes: This counter measures how much RAM is available to satisfy demands for virtual memory (either new allocations, or for restoring a page from the pagefile)."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 245,
+      "seconds": 0.032,
+      "target": "Windows pages out inactive memory to disk under RAM pressure.",
+      "target_tokens": 11,
+      "total_tokens": 256
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.3393799960613251,
+          "text": "Windows pages out inactive memory to disk under RAM pressure."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0050#94-135",
+          "score": 0.15348055958747864,
+          "text": "This frees that RAM frame for other uses."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0050#136-260",
+          "score": 0.2094440758228302,
+          "text": "In Windows systems, these “paged out” pages are stored in one or more files (Pagefile.sys files) in the root of a partition."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0007#129-193",
+          "score": 0.05585373938083649,
+          "text": "Priority management: Decides which data moves to virtual memory."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:arg_2f1a0d39f5ef07ab#0-25",
+          "score": 0.000563973153475672,
+          "text": "call_-7436737041255101961"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0002#0-102",
+          "score": 0.0033628467936068773,
+          "text": "I'll research this topic to provide an accurate, comprehensive answer about Windows memory management."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0008#0-53",
+          "score": 0.006927511189132929,
+          "text": "How To Manage Virtual Memory (Pagefile) In Windows 10"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0013#54-172",
+          "score": 0.024694310501217842,
+          "text": "Virtual memory is a file (pagefile.sys) that Windows uses when you run out of space in the Random Access Memory (RAM)."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0025#0-43",
+          "score": 0.007660544011741877,
+          "text": "What Is Pagefile.sys and Can You Delete It?"
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0013#173-274",
+          "score": 0.003341146744787693,
+          "text": "The virtual memory will expand and contract as need, so this why there are initial and maximum sizes."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0064#190-219",
+          "score": 0.004310751799494028,
+          "text": "The Nonpaged and Paged Pools."
+        },
+        {
+          "canonical_id": "genmem_5c054943b1a987e0:a0016#64-244",
+          "score": 0.013574400916695595,
+          "text": "Memory, Available MBytes: This counter measures how much RAM is available to satisfy demands for virtual memory (either new allocations, or for restoring a page from the pagefile)."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 280,
+      "seconds": 0.039,
+      "target": "When RAM is under pressure, Windows moves (\"pages out\") inactive or low-priority memory pages from RAM to the pagefile, freeing those RAM frames for more pressing uses.",
+      "target_tokens": 35,
+      "total_tokens": 315
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 24.94,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

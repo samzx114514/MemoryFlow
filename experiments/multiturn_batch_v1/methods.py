@@ -45,7 +45,10 @@ def rank_last_round(case: dict, matrices: dict, budget: int) -> list[str]:
 def rank_bm25(case: dict, matrices: dict, budget: int) -> list[str]:
     from memoryflow.lc_sent15_bm25 import GroupBM25
 
-    documents = {candidate["canonical_id"]: candidate["text"] for candidate in case["candidates"]}
+    candidates = case["candidates"]
+    if case.get("analysis_pool") == "union":
+        candidates = [candidate for candidate in candidates if candidate.get("occurrences")]
+    documents = {candidate["canonical_id"]: candidate["text"] for candidate in candidates}
     query = case["target"]["text"]
     scores = GroupBM25(documents).score(query)
     return cases.stable_ranking(list(scores), scores)[:budget]

@@ -1,0 +1,221 @@
+{
+  "case_id": "genmem_940c258011aac604:selected_10",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_940c258011aac604:a0171#13-143",
+          "score": 0.341628760099411,
+          "text": "Penny Sharpe was Acting Leader of the NSW Labor Party from 25 March 2019 to 29 June 2019 - this was right after the 2019 election!"
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0155#51-90",
+          "score": 0.04638824984431267,
+          "text": "In office 25 March 2019 – 29 June 2019."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0020#0-135",
+          "score": 0.12292957305908203,
+          "text": "Let me clarify who was the Opposition Leader in the 2019 NSW election - this could be Michael Daley (who led Labor into that election)."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0031#203-228",
+          "score": 0.0061811176128685474,
+          "text": "Leader of the Opposition."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0187#0-79",
+          "score": 0.0034969125408679247,
+          "text": "https://thehouseinreview.com/2024/11/28/in-the-house-thursday-21-november-2024/"
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0049#0-129",
+          "score": 0.018542131409049034,
+          "text": "Mark William Latham is an Australian politician and media commentator who is a member of the New South Wales Legislative Council."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0112#0-43",
+          "score": 0.0020683647599071264,
+          "text": "New South Wales | Time To Align - Australia"
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0135#9-34",
+          "score": 0.0020459082443267107,
+          "text": "Deirdre Mary GRUSOVIN, AM"
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0041#241-323",
+          "score": 0.018456563353538513,
+          "text": "Let me search more carefully for the Opposition Leader in the Legislative Council."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0189#0-172",
+          "score": 0.16353662312030792,
+          "text": "Penny Sharpe was \"ALP Leader of the Opposition in the NSW Parliament's Upper House\" - she's a member of the Legislative Council and was the Opposition Leader in that house."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0171#144-208",
+          "score": 0.08528299629688263,
+          "text": "And she has been a member of the Legislative Council since 2005."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0171#505-610",
+          "score": 0.0819966048002243,
+          "text": "So during this time, Penny Sharpe was acting leader of the Labor Party and thus acting Opposition Leader."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 334,
+      "seconds": 0.04,
+      "target": "- The person identified (Penny Sharpe) satisfies both criteria: member of the NSW Legislative Council AND Opposition Leader (acting) during/after the 2019 NSW state election",
+      "target_tokens": 38,
+      "total_tokens": 372
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_940c258011aac604:a0171#13-143",
+          "score": 0.5601620674133301,
+          "text": "Penny Sharpe was Acting Leader of the NSW Labor Party from 25 March 2019 to 29 June 2019 - this was right after the 2019 election!"
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0155#51-90",
+          "score": 0.10749386250972748,
+          "text": "In office 25 March 2019 – 29 June 2019."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0020#0-135",
+          "score": 0.15215906500816345,
+          "text": "Let me clarify who was the Opposition Leader in the 2019 NSW election - this could be Michael Daley (who led Labor into that election)."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0031#203-228",
+          "score": 0.027930445969104767,
+          "text": "Leader of the Opposition."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0187#0-79",
+          "score": 0.006859509740024805,
+          "text": "https://thehouseinreview.com/2024/11/28/in-the-house-thursday-21-november-2024/"
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0049#0-129",
+          "score": 0.0020331351552158594,
+          "text": "Mark William Latham is an Australian politician and media commentator who is a member of the New South Wales Legislative Council."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0112#0-43",
+          "score": 0.0008536507375538349,
+          "text": "New South Wales | Time To Align - Australia"
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0135#9-34",
+          "score": 0.0010501195210963488,
+          "text": "Deirdre Mary GRUSOVIN, AM"
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0041#241-323",
+          "score": 0.01112772710621357,
+          "text": "Let me search more carefully for the Opposition Leader in the Legislative Council."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 258,
+      "seconds": 0.038,
+      "target": "Penny Sharpe was acting Opposition Leader during the 2019 NSW period.",
+      "target_tokens": 18,
+      "total_tokens": 276
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.17943914234638214,
+          "text": "Penny Sharpe was acting Opposition Leader during the 2019 NSW period."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0189#0-172",
+          "score": 0.23015686869621277,
+          "text": "Penny Sharpe was \"ALP Leader of the Opposition in the NSW Parliament's Upper House\" - she's a member of the Legislative Council and was the Opposition Leader in that house."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0171#144-208",
+          "score": 0.08788764476776123,
+          "text": "And she has been a member of the Legislative Council since 2005."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0171#505-610",
+          "score": 0.10703235864639282,
+          "text": "So during this time, Penny Sharpe was acting leader of the Labor Party and thus acting Opposition Leader."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0155#51-90",
+          "score": 0.07387691736221313,
+          "text": "In office 25 March 2019 – 29 June 2019."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0020#0-135",
+          "score": 0.11475182324647903,
+          "text": "Let me clarify who was the Opposition Leader in the 2019 NSW election - this could be Michael Daley (who led Labor into that election)."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0031#203-228",
+          "score": 0.006367961410433054,
+          "text": "Leader of the Opposition."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0187#0-79",
+          "score": 0.0032513022888451815,
+          "text": "https://thehouseinreview.com/2024/11/28/in-the-house-thursday-21-november-2024/"
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0049#0-129",
+          "score": 0.020940564572811127,
+          "text": "Mark William Latham is an Australian politician and media commentator who is a member of the New South Wales Legislative Council."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0112#0-43",
+          "score": 0.0015041946899145842,
+          "text": "New South Wales | Time To Align - Australia"
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0135#9-34",
+          "score": 0.0010127064306288958,
+          "text": "Deirdre Mary GRUSOVIN, AM"
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0041#241-323",
+          "score": 0.03530648723244667,
+          "text": "Let me search more carefully for the Opposition Leader in the Legislative Council."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 307,
+      "seconds": 0.038,
+      "target": "- The person identified (Penny Sharpe) satisfies both criteria: member of the NSW Legislative Council AND Opposition Leader (acting) during/after the 2019 NSW state election",
+      "target_tokens": 38,
+      "total_tokens": 345
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 24.94,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

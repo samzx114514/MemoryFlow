@@ -1,0 +1,193 @@
+{
+  "cases": [
+    {
+      "candidates": 670,
+      "case_id": "genmem_177236211632d6b8:selected_02",
+      "case_path": "cases/case_01_selected_02.json",
+      "case_sha256": "656ba782f1a4cf1dfe802adf4193888dbec59efd1e5baebfb78464c7ad30df53",
+      "control": null,
+      "evidence_groups": 3,
+      "matrix_path": "matrices/case_01_selected_02.json",
+      "record_type": "controlled",
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_01_selected_02",
+      "split": "dev",
+      "trajectory_case": "case_01",
+      "trajectory_id": "genmem_177236211632d6b8"
+    },
+    {
+      "candidates": 709,
+      "case_id": "genmem_874c34ceb20bf193:selected_05",
+      "case_path": "cases/case_02_selected_05.json",
+      "case_sha256": "d5604354ac1021133e9558548aa0e69cb77a63e6616a5ccd0d1b482f19d21823",
+      "control": null,
+      "evidence_groups": 1,
+      "matrix_path": "matrices/case_02_selected_05.json",
+      "record_type": "controlled",
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_02_selected_05",
+      "split": "dev",
+      "trajectory_case": "case_02",
+      "trajectory_id": "genmem_874c34ceb20bf193"
+    },
+    {
+      "candidates": 326,
+      "case_id": "genmem_940c258011aac604:selected_10",
+      "case_path": "cases/case_03_selected_10.json",
+      "case_sha256": "fbfa422e798d6549d6fb2939bef8e88bb9ddd52482063aa510c8b3ff623eb0e2",
+      "control": null,
+      "evidence_groups": 1,
+      "matrix_path": "matrices/case_03_selected_10.json",
+      "record_type": "controlled",
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_03_selected_10",
+      "split": "dev",
+      "trajectory_case": "case_03",
+      "trajectory_id": "genmem_940c258011aac604"
+    },
+    {
+      "candidates": 790,
+      "case_id": "genmem_9f963d36b4935b97:selected_01",
+      "case_path": "cases/case_04_selected_01.json",
+      "case_sha256": "664cfc70ed7fd14fb29fd94e12679ea15f35ac0dce8b40191adbd30cf683532b",
+      "control": null,
+      "evidence_groups": 1,
+      "matrix_path": "matrices/case_04_selected_01.json",
+      "record_type": "controlled",
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_04_selected_01",
+      "split": "dev",
+      "trajectory_case": "case_04",
+      "trajectory_id": "genmem_9f963d36b4935b97"
+    },
+    {
+      "candidates": 291,
+      "case_id": "genmem_58452c40de4bdcb9:selected_03",
+      "case_path": "cases/case_05_selected_03.json",
+      "case_sha256": "696c048892ff2b43e864878f8b084c76dcdbf16c4f15e7642ac83ee896814eec",
+      "control": null,
+      "evidence_groups": 1,
+      "matrix_path": "matrices/case_05_selected_03.json",
+      "record_type": "controlled",
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_05_selected_03",
+      "split": "dev",
+      "trajectory_case": "case_05",
+      "trajectory_id": "genmem_58452c40de4bdcb9"
+    },
+    {
+      "candidates": 384,
+      "case_id": "genmem_40dc9b8b15c0c5b8:selected_04",
+      "case_path": "cases/case_06_selected_04.json",
+      "case_sha256": "e837164b8c93eb6c677188fd8990e890c9bcbeaefc9d88bc3bc35015717f84e0",
+      "control": "final_round_sufficient",
+      "evidence_groups": 2,
+      "matrix_path": "matrices/case_06_selected_04.json",
+      "record_type": "controlled",
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_06_selected_04",
+      "split": "dev",
+      "trajectory_case": "case_06",
+      "trajectory_id": "genmem_40dc9b8b15c0c5b8"
+    },
+    {
+      "candidates": 127,
+      "case_id": "genmem_5c054943b1a987e0:selected_07",
+      "case_path": "cases/case_07_selected_07.json",
+      "case_sha256": "d5bc00507318c08ecad5d62f2eaed3b9f81fdf61cbe30ec3587333a4982c893d",
+      "control": null,
+      "evidence_groups": 1,
+      "matrix_path": "matrices/case_07_selected_07.json",
+      "record_type": "controlled",
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_07_selected_07",
+      "split": "dev",
+      "trajectory_case": "case_07",
+      "trajectory_id": "genmem_5c054943b1a987e0"
+    },
+    {
+      "candidates": 558,
+      "case_id": "genmem_f46a08bc62ee9b37:selected_01",
+      "case_path": "cases/case_10_selected_01.json",
+      "case_sha256": "a028165a6725f07e02c248363ba872a6209402eaabc7880759aba2c9321cab74",
+      "control": null,
+      "evidence_groups": 1,
+      "matrix_path": "matrices/case_10_selected_01.json",
+      "record_type": "controlled",
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_10_selected_01",
+      "split": "dev",
+      "trajectory_case": "case_10",
+      "trajectory_id": "genmem_f46a08bc62ee9b37"
+    }
+  ],
+  "created": "2026-11-06",
+  "final_budget": 10,
+  "hop_budget": 5,
+  "schema": "memoryflow.multiturn_batch.manifest.v1",
+  "totals": {
+    "cases": 8,
+    "controlled": 8,
+    "controls": 1,
+    "dev": 8,
+    "eval": 0,
+    "real_request": 0,
+    "trajectories": 8
+  }
+}

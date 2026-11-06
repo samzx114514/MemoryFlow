@@ -1,0 +1,112 @@
+[
+  {
+    "case": "case_01",
+    "target_id": "genmem_177236211632d6b8:selected_02",
+    "group_id": "genmem_177236211632d6b8:selected_02:support_g03",
+    "A": "genmem_177236211632d6b8:a0024:u133-218",
+    "B": "genmem_177236211632d6b8:a0142:u67-143",
+    "intermediate": "Eric Vasquez played at UCF from 2001 to 2003.",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_02",
+    "target_id": "genmem_874c34ceb20bf193:selected_05",
+    "group_id": "genmem_874c34ceb20bf193:selected_05:support_g01",
+    "A": "genmem_874c34ceb20bf193:a0377:u233-285",
+    "B": "genmem_874c34ceb20bf193:a0247:u225-274",
+    "r1_extras": [
+      "genmem_874c34ceb20bf193:a0377:u0-49",
+      "genmem_874c34ceb20bf193:a0377:u54-116",
+      "genmem_874c34ceb20bf193:a0377:u121-179",
+      "genmem_874c34ceb20bf193:a0377:u184-228"
+    ],
+    "intermediate": "The fifth album in the list is Six Days In Berlin.",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_03",
+    "target_id": "genmem_940c258011aac604:selected_10",
+    "group_id": "genmem_940c258011aac604:selected_10:support_g01",
+    "A": "genmem_940c258011aac604:a0171:u13-143",
+    "B": "genmem_940c258011aac604:a0189:u0-172",
+    "r2_extras": [
+      "genmem_940c258011aac604:a0171:u144-208",
+      "genmem_940c258011aac604:a0171:u505-610"
+    ],
+    "intermediate": "Penny Sharpe was acting Opposition Leader during the 2019 NSW period.",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_04",
+    "target_id": "genmem_9f963d36b4935b97:selected_01",
+    "group_id": "genmem_9f963d36b4935b97:selected_01:support_g01",
+    "A": "genmem_9f963d36b4935b97:a0251:u0-42",
+    "B": "genmem_9f963d36b4935b97:a0243:u224-297",
+    "intermediate": "PostgreSQL's name is a shortened form of Post-Ingres.",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_05",
+    "target_id": "genmem_58452c40de4bdcb9:selected_03",
+    "group_id": "genmem_58452c40de4bdcb9:selected_03:support_g01",
+    "A": "genmem_58452c40de4bdcb9:a0180:u0-83",
+    "B": "genmem_58452c40de4bdcb9:a0047:u0-110",
+    "r2_extras": [
+      "genmem_58452c40de4bdcb9:a0042:u0-54",
+      "genmem_58452c40de4bdcb9:a0047:u111-125",
+      "genmem_58452c40de4bdcb9:a0047:u126-141",
+      "genmem_58452c40de4bdcb9:a0047:u142-159",
+      "genmem_58452c40de4bdcb9:a0047:u160-178",
+      "genmem_58452c40de4bdcb9:a0047:u179-206",
+      "genmem_58452c40de4bdcb9:a0191:u96-205",
+      "genmem_58452c40de4bdcb9:a0185:u0-81",
+      "genmem_58452c40de4bdcb9:a0185:u82-140"
+    ],
+    "intermediate": "The problem is from McQuarrie's General Chemistry, Chapter W11.",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_06",
+    "target_id": "genmem_40dc9b8b15c0c5b8:selected_04",
+    "group_id": "genmem_40dc9b8b15c0c5b8:selected_04:support_g01",
+    "A": "genmem_40dc9b8b15c0c5b8:a0060:u325-427",
+    "B": "genmem_40dc9b8b15c0c5b8:a0082:u0-119",
+    "intermediate": "The area may be the South Hampshire or Portsmouth metropolitan area.",
+    "control": "final_round_sufficient",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_07",
+    "target_id": "genmem_5c054943b1a987e0:selected_07",
+    "group_id": "genmem_5c054943b1a987e0:selected_07:support_g01",
+    "A": "genmem_5c054943b1a987e0:a0036:u102-249",
+    "B": "genmem_5c054943b1a987e0:a0050:u94-135",
+    "r2_extras": [
+      "genmem_5c054943b1a987e0:a0050:u136-260",
+      "genmem_5c054943b1a987e0:a0007:u129-193"
+    ],
+    "intermediate": "Windows pages out inactive memory to disk under RAM pressure.",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_10",
+    "target_id": "genmem_f46a08bc62ee9b37:selected_01",
+    "group_id": "genmem_f46a08bc62ee9b37:selected_01:support_g01",
+    "A": "genmem_f46a08bc62ee9b37:a0194:u0-68",
+    "B": "genmem_f46a08bc62ee9b37:a0205:u0-12",
+    "r1_extras": [
+      "genmem_f46a08bc62ee9b37:a0192:u0-31",
+      "genmem_f46a08bc62ee9b37:a0203:u0-64"
+    ],
+    "intermediate": "The paper 'Application of cryolipolysis in adipose tissue: A systematic review' was published in the Journal of Cosmetic Dermatology.",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  }
+]

@@ -1,0 +1,241 @@
+{
+  "case_id": "genmem_874c34ceb20bf193:selected_05",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0377#233-285",
+          "score": 0.06644442677497864,
+          "text": "Six Days In Berlin + The Berlin Opera Orchestra 1982"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0377#0-49",
+          "score": 0.04790206626057625,
+          "text": "Schizophonia + The London Symphony Orchestra 1978"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0377#54-116",
+          "score": 0.017635058611631393,
+          "text": "Caravans (Soundtrack) + The London Philharmonic Orchestra 1979"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0377#121-179",
+          "score": 0.012670501135289669,
+          "text": "Tarot Suite + Friends + The London Symphony Orchestra 1980"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0377#184-228",
+          "score": 0.01248177420347929,
+          "text": "Waves + The Amsterdam Chamber Orchestra 1981"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0487#479-540",
+          "score": 0.01947442628443241,
+          "text": "Actually, let me re-read the MuSiQue question more carefully."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0270#163-266",
+          "score": 0.027804501354694366,
+          "text": "Also during this time, he composed the music for the film A Merry War and even re-launched the Wombles."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0074#0-62",
+          "score": 0.038212910294532776,
+          "text": "Let me search for Mike Batt's fifth studio album specifically."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0431#28-53",
+          "score": 0.006405930034816265,
+          "text": "Market Day In Guernica 3."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0044#0-65",
+          "score": 0.0036624085623770952,
+          "text": "https://musicbrainz.org/work/8f968432-7b1e-34af-b3ad-40cc8d9c45f7"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0466#0-81",
+          "score": 0.005203634034842253,
+          "text": "George's new album “Except Always” is the new double album from George Marinelli."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0240#0-67",
+          "score": 0.08212169259786606,
+          "text": "https://www.discogs.com/release/336731-Mike-Batt-Six-Days-In-Berlin"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0068#0-67",
+          "score": 0.004107095301151276,
+          "text": "https://musicbrainz.org/artist/2f354cca-0eba-46e2-a716-96f14f47865a"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0247#225-274",
+          "score": 0.39602845907211304,
+          "text": "Six Days in Berlin by Mike Batt released in 1981."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 342,
+      "seconds": 0.04,
+      "target": "5. Six Days In Berlin (1981)",
+      "target_tokens": 12,
+      "total_tokens": 354
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0377#233-285",
+          "score": 0.10645195096731186,
+          "text": "Six Days In Berlin + The Berlin Opera Orchestra 1982"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0377#0-49",
+          "score": 0.017990684136748314,
+          "text": "Schizophonia + The London Symphony Orchestra 1978"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0377#54-116",
+          "score": 0.006085831206291914,
+          "text": "Caravans (Soundtrack) + The London Philharmonic Orchestra 1979"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0377#121-179",
+          "score": 0.0006734760827384889,
+          "text": "Tarot Suite + Friends + The London Symphony Orchestra 1980"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0377#184-228",
+          "score": 0.00019729016639757901,
+          "text": "Waves + The Amsterdam Chamber Orchestra 1981"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0487#479-540",
+          "score": 0.026287302374839783,
+          "text": "Actually, let me re-read the MuSiQue question more carefully."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0270#163-266",
+          "score": 0.026519818231463432,
+          "text": "Also during this time, he composed the music for the film A Merry War and even re-launched the Wombles."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0074#0-62",
+          "score": 0.29210352897644043,
+          "text": "Let me search for Mike Batt's fifth studio album specifically."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0431#28-53",
+          "score": 0.03960280120372772,
+          "text": "Market Day In Guernica 3."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0044#0-65",
+          "score": 0.0026650161016732454,
+          "text": "https://musicbrainz.org/work/8f968432-7b1e-34af-b3ad-40cc8d9c45f7"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0466#0-81",
+          "score": 0.011315660551190376,
+          "text": "George's new album “Except Always” is the new double album from George Marinelli."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0240#0-67",
+          "score": 0.0957256630063057,
+          "text": "https://www.discogs.com/release/336731-Mike-Batt-Six-Days-In-Berlin"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0068#0-67",
+          "score": 0.0013379231095314026,
+          "text": "https://musicbrainz.org/artist/2f354cca-0eba-46e2-a716-96f14f47865a"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 327,
+      "seconds": 0.041,
+      "target": "The fifth album in the list is Six Days In Berlin.",
+      "target_tokens": 12,
+      "total_tokens": 339
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.13863900303840637,
+          "text": "The fifth album in the list is Six Days In Berlin."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0247#225-274",
+          "score": 0.46118927001953125,
+          "text": "Six Days in Berlin by Mike Batt released in 1981."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0487#479-540",
+          "score": 0.0121853556483984,
+          "text": "Actually, let me re-read the MuSiQue question more carefully."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0270#163-266",
+          "score": 0.04596737399697304,
+          "text": "Also during this time, he composed the music for the film A Merry War and even re-launched the Wombles."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0074#0-62",
+          "score": 0.04286738112568855,
+          "text": "Let me search for Mike Batt's fifth studio album specifically."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0431#28-53",
+          "score": 0.014631823636591434,
+          "text": "Market Day In Guernica 3."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0044#0-65",
+          "score": 0.00680890865623951,
+          "text": "https://musicbrainz.org/work/8f968432-7b1e-34af-b3ad-40cc8d9c45f7"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0466#0-81",
+          "score": 0.010003863833844662,
+          "text": "George's new album “Except Always” is the new double album from George Marinelli."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0240#0-67",
+          "score": 0.07788874208927155,
+          "text": "https://www.discogs.com/release/336731-Mike-Batt-Six-Days-In-Berlin"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0068#0-67",
+          "score": 0.0035387049429118633,
+          "text": "https://musicbrainz.org/artist/2f354cca-0eba-46e2-a716-96f14f47865a"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 275,
+      "seconds": 0.04,
+      "target": "5. Six Days In Berlin (1981)",
+      "target_tokens": 12,
+      "total_tokens": 287
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 24.94,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

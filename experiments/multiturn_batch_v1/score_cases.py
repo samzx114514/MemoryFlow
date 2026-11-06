@@ -30,7 +30,7 @@ GENMEM_QUALITY = EXPERIMENT_ROOT / "experiments/genmem_quality_v2"
 YIFENG = EXPERIMENT_ROOT / "artifacts/third_party/yifeng_20261016/AAAI27_supplementary_material"
 
 
-def matrix_rows(case: dict) -> dict[str, dict]:
+def matrix_rows(case: dict, flat_pool: str = "all") -> dict[str, dict]:
     rounds = case["rounds"]
     rows = {}
     for round_record in rounds:
@@ -48,13 +48,22 @@ def matrix_rows(case: dict) -> dict[str, dict]:
             previous = rounds[round_record["round"] - 2]["output"]["text"]
             candidates.insert(0, {"canonical_id": f"transmission:r{round_record['round'] - 1}", "text": previous})
         rows[key] = {"target": round_record["output"]["text"], "candidates": candidates}
-    rows["flat"] = {
-        "target": case["target"]["text"],
-        "candidates": [
+    if flat_pool == "union":
+        seen = set()
+        flat_candidates = []
+        for round_record in rounds:
+            for material in round_record["inputs"]:
+                cid = cases.canonical_id(material["artifact_id"], material["start"], material["end"])
+                if cid in seen:
+                    continue
+                seen.add(cid)
+                flat_candidates.append({"canonical_id": cid, "text": material["text"]})
+    else:
+        flat_candidates = [
             {"canonical_id": candidate["canonical_id"], "text": candidate["text"]}
             for candidate in case["candidates"]
-        ],
-    }
+        ]
+    rows["flat"] = {"target": case["target"]["text"], "candidates": flat_candidates}
     return rows
 
 
@@ -65,6 +74,8 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--physical-gpu", type=int, required=True)
     parser.add_argument("--memory-cap-gib", type=float, default=24.0)
     parser.add_argument("--repeat", type=int, default=1)
+    parser.add_argument("--flat-pool", choices=["all", "union"], default=None,
+                        help="flat candidate pool; default uses case.analysis_pool")
     args = parser.parse_args(argv)
 
     directory = Path(args.dir).resolve()
@@ -86,7 +97,7 @@ def main(argv: list[str] | None = None) -> int:
 
     for row in manifest["cases"]:
         case = cases.read_json(directory / row["case_path"])
-        plans = matrix_rows(case)
+        plans = matrix_rows(case, args.flat_pool or case.get("analysis_pool", "all"))
         results = {}
         for matrix_id, plan in plans.items():
             scoring_row = {

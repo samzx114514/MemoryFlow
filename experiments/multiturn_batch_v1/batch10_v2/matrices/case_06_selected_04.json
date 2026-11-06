@@ -1,0 +1,201 @@
+{
+  "case_id": "genmem_40dc9b8b15c0c5b8:selected_04",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0060#325-427",
+          "score": 0.33404991030693054,
+          "text": "It might be part of the South Hampshire metropolitan area or referred to as the Portsmouth urban area."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca#0-29",
+          "score": 0.007465030532330275,
+          "text": "call_oYdgQLDZaJGAIsXItyCFpSF0"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254#0-29",
+          "score": 0.001889176550321281,
+          "text": "call_3H5tnQWLGnYo3m1ighxq9NvF"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0048#0-31",
+          "score": 0.021369295194745064,
+          "text": "Portsmouth FC » Squad 1903/1904"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0017#0-50",
+          "score": 0.0002719092299230397,
+          "text": "Matt Reilly Football Player Statistics | 11v11.com"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0007#0-44",
+          "score": 0.00012522203905973583,
+          "text": "Players on loan to other clubs are excluded."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#670-726",
+          "score": 0.015908729285001755,
+          "text": "Same with Southampton FC - shares name with Southampton."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0174#173-220",
+          "score": 0.002827639691531658,
+          "text": "Matt Reilly typically writes checks around $1M."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0148#276-328",
+          "score": 0.004447650630027056,
+          "text": "Looking at it - he played for many city-named teams."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0082#0-119",
+          "score": 0.320142924785614,
+          "text": "South Hampshire is a term used mainly to refer to the conurbation formed by the city of Portsmouth, city of Southampton"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 219,
+      "seconds": 0.029,
+      "target": "The metropolitan area in question is likely the \"South Hampshire\" conurbation/region",
+      "target_tokens": 16,
+      "total_tokens": 235
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0060#325-427",
+          "score": 0.7341639995574951,
+          "text": "It might be part of the South Hampshire metropolitan area or referred to as the Portsmouth urban area."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca#0-29",
+          "score": 0.0046114386059343815,
+          "text": "call_oYdgQLDZaJGAIsXItyCFpSF0"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254#0-29",
+          "score": 0.0005264279898256063,
+          "text": "call_3H5tnQWLGnYo3m1ighxq9NvF"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0048#0-31",
+          "score": 0.02073260396718979,
+          "text": "Portsmouth FC » Squad 1903/1904"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0017#0-50",
+          "score": 0.0002656690776348114,
+          "text": "Matt Reilly Football Player Statistics | 11v11.com"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0007#0-44",
+          "score": 0.0009071968961507082,
+          "text": "Players on loan to other clubs are excluded."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#670-726",
+          "score": 0.003209805814549327,
+          "text": "Same with Southampton FC - shares name with Southampton."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0174#173-220",
+          "score": 0.0034689493477344513,
+          "text": "Matt Reilly typically writes checks around $1M."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0148#276-328",
+          "score": 0.005853020586073399,
+          "text": "Looking at it - he played for many city-named teams."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 195,
+      "seconds": 0.035,
+      "target": "The area may be the South Hampshire or Portsmouth metropolitan area.",
+      "target_tokens": 12,
+      "total_tokens": 207
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.4367615282535553,
+          "text": "The area may be the South Hampshire or Portsmouth metropolitan area."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0082#0-119",
+          "score": 0.24541506171226501,
+          "text": "South Hampshire is a term used mainly to refer to the conurbation formed by the city of Portsmouth, city of Southampton"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca#0-29",
+          "score": 0.00431279931217432,
+          "text": "call_oYdgQLDZaJGAIsXItyCFpSF0"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254#0-29",
+          "score": 0.00038506241980940104,
+          "text": "call_3H5tnQWLGnYo3m1ighxq9NvF"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0048#0-31",
+          "score": 0.07032059878110886,
+          "text": "Portsmouth FC » Squad 1903/1904"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0017#0-50",
+          "score": 0.00026152865029871464,
+          "text": "Matt Reilly Football Player Statistics | 11v11.com"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0007#0-44",
+          "score": 5.340061761671677e-05,
+          "text": "Players on loan to other clubs are excluded."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#670-726",
+          "score": 0.0029708887450397015,
+          "text": "Same with Southampton FC - shares name with Southampton."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0174#173-220",
+          "score": 0.0017772484570741653,
+          "text": "Matt Reilly typically writes checks around $1M."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0148#276-328",
+          "score": 0.0035997042432427406,
+          "text": "Looking at it - he played for many city-named teams."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 211,
+      "seconds": 0.028,
+      "target": "The metropolitan area in question is likely the \"South Hampshire\" conurbation/region",
+      "target_tokens": 16,
+      "total_tokens": 227
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 24.94,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

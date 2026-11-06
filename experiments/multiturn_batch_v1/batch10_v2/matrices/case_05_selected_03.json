@@ -1,0 +1,291 @@
+{
+  "case_id": "genmem_58452c40de4bdcb9:selected_03",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0180#0-83",
+          "score": 0.15807875990867615,
+          "text": "I've identified the standard textbook problem (from McQuarrie's General Chemistry)."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0020#0-108",
+          "score": 0.053171660751104355,
+          "text": "https://www.sarthaks.com/3506434/arrange-the-following-gases-in-increasing-order-of-van-der-waals-constant-a"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0050#0-67",
+          "score": 0.011719340458512306,
+          "text": "Which of the following reaction involves free radical substitution?"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0142#4-54",
+          "score": 0.0017372415168210864,
+          "text": "Датчик частиц дизельного топлива — BMW X6 (F16)..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0121#79-160",
+          "score": 0.006029543932527304,
+          "text": "How the surplus electrons are destroyed and how all of this pumps heat into th..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0086#146-195",
+          "score": 0.006795716006308794,
+          "text": "The gas which can be most easily be liquefied is."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0127#104-209",
+          "score": 0.013728134334087372,
+          "text": "Element 8 has a C6 Dispersion Coefficient (CD) of 15.6 a₀, and C6 Dispersion Coefficient (GB) of 16.7 a₀."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0156#0-117",
+          "score": 0.0018449166091158986,
+          "text": "An explanation of the molecular geometry for the H2CO (Formaldehyde) including a description of the H2CO bond angles."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#778-859",
+          "score": 0.029986577108502388,
+          "text": "for each of the following pairs state which species has the greater van der waals"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0047#0-110",
+          "score": 0.05459669604897499,
+          "text": "(a) For each of the following pairs of gases, decide which substance has the larger van der Waals a parameter:"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0042#0-54",
+          "score": 0.08488773554563522,
+          "text": "Solved W11.1 Real gases and vapors have intermolecular"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0047#111-125",
+          "score": 0.0018112437101081014,
+          "text": "(i) He and Ne;"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0047#126-141",
+          "score": 0.0014718767488375306,
+          "text": "(ii) Ne and O2;"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0047#142-159",
+          "score": 0.0024960217997431755,
+          "text": "(iii) CO2 and H2;"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0047#160-178",
+          "score": 0.0008899731328710914,
+          "text": "(iv) H2CO and CH4;"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0047#179-206",
+          "score": 0.0016352493548765779,
+          "text": "(v) C6H6 and CH3(CH2)10CH3."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0191#96-205",
+          "score": 0.0685812309384346,
+          "text": "(b) For each of the following pairs of gases, decide which substance has the larger van der Waals b parameter"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0185#0-81",
+          "score": 0.08137001097202301,
+          "text": "a - parameter that gives a measure of the attractive force between the particles."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0061#0-58",
+          "score": 0.06333509087562561,
+          "text": "b - parameter proportional to the volume of the particles."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 403,
+      "seconds": 0.042,
+      "target": "I've now confirmed the complete problem. It's from McQuarrie's General Chemistry (Chapter W11, problem about real gases). The question asks about BOTH the **a** parameter (intermolecular attraction) AND the **b** parameter (molecular volume) for five pairs of gases:",
+      "target_tokens": 62,
+      "total_tokens": 465
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0180#0-83",
+          "score": 0.44257959723472595,
+          "text": "I've identified the standard textbook problem (from McQuarrie's General Chemistry)."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0020#0-108",
+          "score": 0.11070285737514496,
+          "text": "https://www.sarthaks.com/3506434/arrange-the-following-gases-in-increasing-order-of-van-der-waals-constant-a"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0050#0-67",
+          "score": 0.04085472226142883,
+          "text": "Which of the following reaction involves free radical substitution?"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0142#4-54",
+          "score": 0.0021702698431909084,
+          "text": "Датчик частиц дизельного топлива — BMW X6 (F16)..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0121#79-160",
+          "score": 0.008705138228833675,
+          "text": "How the surplus electrons are destroyed and how all of this pumps heat into th..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0086#146-195",
+          "score": 0.01711636409163475,
+          "text": "The gas which can be most easily be liquefied is."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0127#104-209",
+          "score": 0.006574519444257021,
+          "text": "Element 8 has a C6 Dispersion Coefficient (CD) of 15.6 a₀, and C6 Dispersion Coefficient (GB) of 16.7 a₀."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0156#0-117",
+          "score": 0.003369697602465749,
+          "text": "An explanation of the molecular geometry for the H2CO (Formaldehyde) including a description of the H2CO bond angles."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#778-859",
+          "score": 0.006214499473571777,
+          "text": "for each of the following pairs state which species has the greater van der waals"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 264,
+      "seconds": 0.038,
+      "target": "The problem is from McQuarrie's General Chemistry, Chapter W11.",
+      "target_tokens": 17,
+      "total_tokens": 281
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.1746738702058792,
+          "text": "The problem is from McQuarrie's General Chemistry, Chapter W11."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0047#0-110",
+          "score": 0.08582944422960281,
+          "text": "(a) For each of the following pairs of gases, decide which substance has the larger van der Waals a parameter:"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0042#0-54",
+          "score": 0.06547266244888306,
+          "text": "Solved W11.1 Real gases and vapors have intermolecular"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0047#111-125",
+          "score": 0.0030104676261544228,
+          "text": "(i) He and Ne;"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0047#126-141",
+          "score": 0.002334663877263665,
+          "text": "(ii) Ne and O2;"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0047#142-159",
+          "score": 0.011028300039470196,
+          "text": "(iii) CO2 and H2;"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0047#160-178",
+          "score": 0.0013963327510282397,
+          "text": "(iv) H2CO and CH4;"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0047#179-206",
+          "score": 0.0023984385188668966,
+          "text": "(v) C6H6 and CH3(CH2)10CH3."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0191#96-205",
+          "score": 0.1155870109796524,
+          "text": "(b) For each of the following pairs of gases, decide which substance has the larger van der Waals b parameter"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0185#0-81",
+          "score": 0.09215675294399261,
+          "text": "a - parameter that gives a measure of the attractive force between the particles."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0061#0-58",
+          "score": 0.06259650737047195,
+          "text": "b - parameter proportional to the volume of the particles."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0020#0-108",
+          "score": 0.0323396660387516,
+          "text": "https://www.sarthaks.com/3506434/arrange-the-following-gases-in-increasing-order-of-van-der-waals-constant-a"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0050#0-67",
+          "score": 0.013139755465090275,
+          "text": "Which of the following reaction involves free radical substitution?"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0142#4-54",
+          "score": 0.006495739333331585,
+          "text": "Датчик частиц дизельного топлива — BMW X6 (F16)..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0121#79-160",
+          "score": 0.011055995710194111,
+          "text": "How the surplus electrons are destroyed and how all of this pumps heat into th..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0086#146-195",
+          "score": 0.0036606634967029095,
+          "text": "The gas which can be most easily be liquefied is."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0127#104-209",
+          "score": 0.0026477444916963577,
+          "text": "Element 8 has a C6 Dispersion Coefficient (CD) of 15.6 a₀, and C6 Dispersion Coefficient (GB) of 16.7 a₀."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0156#0-117",
+          "score": 0.0010114816250279546,
+          "text": "An explanation of the molecular geometry for the H2CO (Formaldehyde) including a description of the H2CO bond angles."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#778-859",
+          "score": 0.015074544586241245,
+          "text": "for each of the following pairs state which species has the greater van der waals"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 403,
+      "seconds": 0.053,
+      "target": "I've now confirmed the complete problem. It's from McQuarrie's General Chemistry (Chapter W11, problem about real gases). The question asks about BOTH the **a** parameter (intermolecular attraction) AND the **b** parameter (molecular volume) for five pairs of gases:",
+      "target_tokens": 62,
+      "total_tokens": 465
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 24.94,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

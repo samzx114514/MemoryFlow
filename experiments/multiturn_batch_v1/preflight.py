@@ -53,7 +53,15 @@ def matrix_issues(case: dict, matrix: dict) -> list[str]:
         if flat.get("target") != case["target"]["text"]:
             issues.append("flat matrix target differs from final target")
         flat_ids = {row["canonical_id"] for row in flat["candidates"]}
-        missing = candidate_ids - flat_ids
+        if case.get("analysis_pool") == "union":
+            expected = {
+                cases.canonical_id(material["artifact_id"], material["start"], material["end"])
+                for round_record in case["rounds"]
+                for material in round_record["inputs"]
+            }
+        else:
+            expected = candidate_ids
+        missing = expected - flat_ids
         if missing:
             issues.append(f"flat matrix misses {len(missing)} candidates")
     return issues

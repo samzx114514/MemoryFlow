@@ -161,8 +161,7 @@ def build_case(recipe: dict, units: dict[str, dict], gt_entry: dict, pool: dict[
                             "end": primary["end"], "text": primary["text"]},
                 "alternatives": alternatives,
             })
-        groups.append({"group_id": group["id"], "coverage": group.get("coverage", "full"),
-                       "items": merge_same_source_items(items)})
+        groups.append({"group_id": group["id"], "coverage": group.get("coverage", "full"), "items": merge_same_source_items(items) if recipe.get("merge_same_source", True) else items})
 
     # deterministic distractors from non-evidence, non-A/B sources
     def key_hash(value: str) -> str:
@@ -261,6 +260,7 @@ def build_case(recipe: dict, units: dict[str, dict], gt_entry: dict, pool: dict[
         "split": "dev",
         "record_type": "controlled",
         "control": recipe.get("control"),
+        "analysis_pool": recipe.get("analysis_pool", "all"),
         "target": {
             "text": target["text"], "sha256": cases.sha256_text(target["text"]),
             "origin": "recorded_target",
@@ -357,3 +357,4 @@ def main(argv: list[str] | None = None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

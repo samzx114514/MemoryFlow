@@ -104,9 +104,9 @@ def render_markdown(results: dict) -> str:
     for case_row in results["cases"]:
         for method in methods.METHODS:
             row = case_row["methods"][method]
+            label = f"{case_row['trajectory_case']}:{case_row['case_id'].split(':')[-1]}"
             lines.append(
-                f"| {case_row['case_id'].split(':')[-1] if ':' in case_row['case_id'] else case_row['case_id']}"
-                f"{'（对照）' if case_row.get('control') else ''} | {method} | {len(row['ranked'])} | "
+                f"| {label}{'（对照）' if case_row.get('control') else ''} | {method} | {len(row['ranked'])} | "
                 f"{'是' if row['hit_at_3'] else '否'} | {'是' if row['complete_at_5'] else '否'} | "
                 f"{'是' if row['complete_at_10'] else '否'} | "
                 f"{row['hit_rank'] if row['hit_rank'] is not None else '—'} | "
@@ -139,12 +139,15 @@ def render_markdown(results: dict) -> str:
             )
         lines.append("")
     if has_control:
-        lines.append("### T06 对照说明")
+        controls = [
+            f"{case_row['trajectory_case']}:{case_row['case_id'].split(':')[-1]}"
+            for case_row in results["cases"] if case_row.get("control")
+        ]
+        lines.append("### 对照说明")
         lines.append("")
         lines.append(
-            "T06 的 GT 组仍是原“第 6 张 + 年份”的 ordinal 组（6 个列表项 + `a0282` + `a0284`，共 8 项），"
-            "但受控最终句只要求“专辑 + 发行年”，不再声明第 6。因此它的 Complete@5/@10 只作诊断，"
-            "不进主表宏平均；对照检查是：最终轮 top-5 已含 B（年份）和专辑题名，最终句不需要沿链追到列表项 A。"
+            "带 `control` 的题（" + "、".join(f"`{item}`" for item in controls) + "）最后一轮自身已足够；"
+            "Complete@5/@10 只作诊断，不进主表宏平均。"
         )
         lines.append("")
     lines.append("## 配对胜平负（MemoryFlow 对基线）")
