@@ -4,9 +4,10 @@
 
 - 修正首批：case_03/05/07 补齐组内缺项；case_06 核查为最终轮自足（对照）；case_10 撤销“标题相同”合并，`a0194`/`a0203` 分开保留。
 - 新口径：BM25、同一 7B 固定头平铺、MemoryFlow 共用两轮原始候选并集（同源去重），final top-10 / hop 5；last_round 单列；旧全历史大池另列。
-- 主表 6 题（8 轨迹，case_06 对照、case_05 超预算另列）：MF Hit@3 6/6、完整@5/@10 5/6；head 6/6、5/6、6/6；BM25 6/6、3/6、5/6；last 6/6、0、0。配对完整 W/T/L：MF-last 5/1/0、MF-BM25 2/2/2、MF-head 1/3/2。
-- 诊断：hop1 结论 8/8（1–2），hop2 A 8/8（1–2），hop1 B 8/8（1–4），合并 A/B 8/8 前 5。未完整：case_02 第二跳只展开 5（列表项），case_05 组 11 项超 top-10；case_10 标题分开后第 4 名完整。
-- 100 目标筛选：8 built-v2、3 built-prev、10 candidate-full、43 单事件、11 candidate-partial、25 partial 排除；64 已标注全核对，36 partial 仅列补标候选。
+- 主表 5 题（case_06 对照、case_05 超预算、case_10 日期待核另列）：MF Hit@3 5/5、完整@5/@10 4/5；head 5/5、4/5、5/5；BM25 5/5、3/5、4/5；last 5/5、0、0。配对完整 W/T/L：MF-last 4/1/0、MF-BM25 1/2/2、MF-head 1/2/2。
+- case_10 selected_01 的 `Jul 23, 2022` 只是裸元数据，未明确标注为论文发表日期 → 撤出主表，状态 date-unverified；`a0194`/`a0203` 不按同标题合并。
+- case_02 用已保存矩阵复算 hop=5/10/100：缺的列表项 m1 分 0.018/0.006/0.0007/0.0002，合并名次 11–14，放宽每跳也进不了前 10 → 上游排序失败，不是预算。
+- 100 目标筛选：5 built-v2、1 control、1 excluded-budget、1 excluded-date-unverified、3 built-prev、10 candidate-full、43 单事件、11 candidate-partial、25 partial 排除；64 已标注全核对，36 partial 仅列补标候选。
 - 旧 47、旧全历史池、pilot B04/F11 均不并入；Reserve/Blind 未触碰。
 
 ## 最新推进（2026-11-06 深夜）：batch10 跨轨迹首批 8 题

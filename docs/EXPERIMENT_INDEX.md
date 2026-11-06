@@ -8,9 +8,9 @@
 [四方法输出](../experiments/multiturn_batch_v1/batch10_v2/reports/BATCH10_V2_20261106.md)。
 
 - 新口径：两轮原始候选并集（同源去重）；BM25 / 7B 固定头平铺 / MemoryFlow 共用；final 10、hop 5；last 单列。
-- 主表 6 题（case_05 超预算另列）：MF 完整@5/@10 5/6，head 5/6、6/6，BM25 3/6、5/6，last 0；配对 MF-last 5/1/0、MF-BM25 2/2/2、MF-head 1/3/2。
-- 诊断：hop1/hop2 A/B 8/8；case_02 预算（列表项），case_05 组 11 超 top-10；case_10 标题分开后完整。
-- 筛选：8 built-v2、3 built-prev、10 candidate-full、43 单事件、11 partial 候选、25 partial 排除；36 partial 未完成补标。
+- 主表 5 题（case_06 对照、case_05 超预算、case_10 日期待核另列）：MF 完整@5/@10 4/5，head 4/5、5/5，BM25 3/5、4/5，last 0；配对 MF-last 4/1/0、MF-BM25 1/2/2、MF-head 1/2/2。
+- case_02 hop=5/10/100：缺列表项名次 11–14，放宽每跳也进不了前 10 → 上游排序失败；case_10 日期未明确标注为发表日期，撤出主表。
+- 筛选：5 built-v2、1 control、1 excluded-budget、1 excluded-date-unverified、3 built-prev、10 candidate-full、43 单事件、11 partial 候选、25 partial 排除；36 partial 未完成补标。
 - 旧 47、旧全历史池、pilot B04/F11 不并入。
 
 ## batch10 跨轨迹首批 8 题（2026-11-06 深夜）

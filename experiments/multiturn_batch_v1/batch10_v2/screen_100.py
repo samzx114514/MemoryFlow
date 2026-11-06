@@ -22,6 +22,13 @@ built_prev = {
     "genmem_874c34ceb20bf193:selected_09",
 }
 
+overrides = {
+    "genmem_f46a08bc62ee9b37:selected_01": ("excluded-date-unverified", "日期片段未明确标注为该论文发表日期，标签待核"),
+    "genmem_58452c40de4bdcb9:selected_03": ("excluded-budget", "11 项组，top-10 内无法凑齐"),
+    "genmem_40dc9b8b15c0c5b8:selected_04": ("control-final-sufficient", "最终轮 a0082 直接支持最终句"),
+}
+
+
 def group_stats(groups):
     group_count = len(groups)
     max_items = 0
@@ -41,7 +48,9 @@ for row in rows:
     case = row["case"]
     text = row["target"]["text"]
     status = row["reference_status"]
-    if status == "full_explanation_found":
+    if tid in overrides:
+        code, reason = overrides[tid]
+    elif status == "full_explanation_found":
         groups = row.get("answer_groups") or []
         gc, mi, me = group_stats(groups)
         if tid in built_v2:

@@ -41,7 +41,7 @@ case_04,genmem_9f963d36b4935b97:selected_09,"the ""SQL"" part stands for ""Struc
 case_04,genmem_9f963d36b4935b97:selected_10,"- ""partially named after"" disambiguates MySQL (only the ""My"" prefix is a person's name; the SQL portion is an acronym) — this fits better than alternatives like",partial_explanation_only,candidate-partial,1,3,1,partial 组跨事件（1 组），需补标
 case_05,genmem_58452c40de4bdcb9:selected_01,asking for both the **a** parameter (intermolecular attraction) and the **b** parameter (molecular volume).,partial_explanation_only,candidate-partial,1,2,1,partial 组跨事件（1 组），需补标
 case_05,genmem_58452c40de4bdcb9:selected_02,I've identified the standard textbook problem (from McQuarrie's General Chemistry).,partial_explanation_only,excluded-partial,1,1,0,只有 partial 单事件/待核
-case_05,genmem_58452c40de4bdcb9:selected_03,"I've now confirmed the complete problem. It's from McQuarrie's General Chemistry (Chapter W11, problem about real gases). The question asks about BOTH the **a**",full_explanation_found,built-v2,1,5,1,首批 8 题之一（两轮受控）
+case_05,genmem_58452c40de4bdcb9:selected_03,"I've now confirmed the complete problem. It's from McQuarrie's General Chemistry (Chapter W11, problem about real gases). The question asks about BOTH the **a**",full_explanation_found,excluded-budget,1,1,0,11 项组，top-10 内无法凑齐
 case_05,genmem_58452c40de4bdcb9:selected_04,1. He and Ne → Ne,full_explanation_found,excluded-single-event,2,1,0,无跨事件组
 case_05,genmem_58452c40de4bdcb9:selected_05,2. Ne and O₂ → O₂,full_explanation_found,excluded-single-event,2,1,0,无跨事件组
 case_05,genmem_58452c40de4bdcb9:selected_06,3. CO₂ and H₂ → CO₂,full_explanation_found,excluded-single-event,2,1,0,无跨事件组
@@ -52,7 +52,7 @@ case_05,genmem_58452c40de4bdcb9:selected_10,5. C₆H₆ and CH₃(CH₂)₁₀CH
 case_06,genmem_40dc9b8b15c0c5b8:selected_01,Matt Reilly was an Irish footballer who played for Portsmouth.,full_explanation_found,excluded-single-event,1,1,0,无跨事件组
 case_06,genmem_40dc9b8b15c0c5b8:selected_02,"Portsmouth is a city with the team ""Pompey"" - but the team name doesn't match the city.",partial_explanation_only,excluded-partial,1,1,0,只有 partial 单事件/待核
 case_06,genmem_40dc9b8b15c0c5b8:selected_03,Portsmouth FC is named after Portsmouth the city.,partial_explanation_only,candidate-partial,1,2,1,partial 组跨事件（1 组），需补标
-case_06,genmem_40dc9b8b15c0c5b8:selected_04,"The metropolitan area in question is likely the ""South Hampshire"" conurbation/region",full_explanation_found,built-v2,2,2,1,首批 8 题之一（两轮受控）
+case_06,genmem_40dc9b8b15c0c5b8:selected_04,"The metropolitan area in question is likely the ""South Hampshire"" conurbation/region",full_explanation_found,control-final-sufficient,1,2,1,最终轮 a0082 直接支持最终句
 case_06,genmem_40dc9b8b15c0c5b8:selected_05,"Matt Reilly (footballer) played for Portsmouth, Southampton, Tottenham Hotspur, and Notts County.",full_explanation_found,candidate-full,3,2,2,2 个跨事件组，最大 2 项
 case_06,genmem_40dc9b8b15c0c5b8:selected_06,"""Tottenham Hotspur"" doesn't share the full name with a city (it's a district).",full_explanation_found,excluded-single-event,1,1,0,无跨事件组
 case_06,genmem_40dc9b8b15c0c5b8:selected_07,"this is most likely Portsmouth, as his main/most prominent team.",full_explanation_found,excluded-single-event,4,1,0,无跨事件组
@@ -89,7 +89,7 @@ case_09,genmem_e81701f69088a32d:selected_07,"**NOGG 2024 (National Osteoporosis 
 case_09,genmem_e81701f69088a32d:selected_08,"A grey-level texture metric derived from the same lumbar spine DXA image — no extra radiation, no extra scan time.",partial_explanation_only,candidate-partial,1,3,1,partial 组跨事件（1 组），需补标
 case_09,genmem_e81701f69088a32d:selected_09,Studies in adolescent girls with anorexia nervosa show impaired cortical and trabecular microarchitecture and lower estimated bone strength at the distal radius,partial_explanation_only,excluded-partial,1,2,0,只有 partial 单事件/待核
 case_09,genmem_e81701f69088a32d:selected_10,"pediatric TBS reference data are being published (e.g., Mexican pediatric reference curves)",full_explanation_found,excluded-single-event,1,1,0,无跨事件组
-case_10,genmem_f46a08bc62ee9b37:selected_01,"""Application of cryolipolysis in adipose tissue: A systematic review"" was published in the Journal of Cosmetic Dermatology in July 2022.",full_explanation_found,built-v2,1,4,1,首批 8 题之一（两轮受控）
+case_10,genmem_f46a08bc62ee9b37:selected_01,"""Application of cryolipolysis in adipose tissue: A systematic review"" was published in the Journal of Cosmetic Dermatology in July 2022.",full_explanation_found,excluded-date-unverified,1,1,0,日期片段未明确标注为该论文发表日期，标签待核
 case_10,genmem_f46a08bc62ee9b37:selected_02,"- Cryolipolysis works via controlled cooling that induces a localized panniculitis, followed by adipocyte apoptosis, leading to a gradual decrease in subcutaneo",full_explanation_found,candidate-full,1,2,1,1 个跨事件组，最大 2 项
 case_10,genmem_f46a08bc62ee9b37:selected_03,"Reported fat reductions across included studies ranged approximately **14.67% to 28.5%** in treated areas (abdomen, flanks)",partial_explanation_only,excluded-partial,1,1,0,只有 partial 单事件/待核
 case_10,genmem_f46a08bc62ee9b37:selected_04,"- Most clinical studies were conducted in Caucasian populations; fewer in Asian populations (Fitzpatrick III–V), where higher rates of pigmentary changes were n",full_explanation_found,excluded-single-event,1,2,0,无跨事件组
