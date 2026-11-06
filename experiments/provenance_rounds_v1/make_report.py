@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Render the frozen-run report for the controlled two-round samples."""
 
 from __future__ import annotations
@@ -268,6 +268,12 @@ def main(argv: list[str] | None = None) -> int:
         "为什么三条都来自 `case_02`：`case_08` 的两个开发目标各只有一段主证据"
         "（`a0030[108,222)`、`a0024[164,214)`），第二轮若要不含 A 就无法同时包含同组 B，"
         "因此没有构造两轮样例；这是数据约束，不是漏做。"
+    )
+    lines.append("")
+    lines.append(
+        "另核：三条样例的第二轮原始材料都不含同一目标的其它同文支持位置"
+        "（T03 的 `a0296[259,341)`、`a0302[96,178)`；T09 的 `a0150`；T06 的同组列表项），"
+        "A 的等价出现不是在 R2 里被找到的。"
     )
     lines.append("")
     for sample in samples:
