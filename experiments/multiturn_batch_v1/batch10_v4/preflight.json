@@ -1,8 +1,8 @@
 {
   "cases": [
     {
-      "candidates": 291,
-      "case_id": "genmem_58452c40de4bdcb9:selected_01",
+      "candidates": 326,
+      "case_id": "genmem_940c258011aac604:selected_08",
       "evidence_groups": 1,
       "issues": [],
       "registry": {
@@ -13,10 +13,10 @@
         ]
       },
       "rounds": 2,
-      "short": "case_05_selected_01",
+      "short": "case_03_selected_08",
       "split": "dev",
       "status": "ok",
-      "trajectory_id": "genmem_58452c40de4bdcb9"
+      "trajectory_id": "genmem_940c258011aac604"
     }
   ],
   "schema": "memoryflow.multiturn_batch.preflight.v1",

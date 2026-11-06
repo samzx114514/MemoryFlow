@@ -1,5 +1,15 @@
 # 实验索引
 
+## case_03 criteria 实测：累计 18 题 / 8 轨迹（2026-11-07）
+
+**状态：** case_03 selected_08 新增实测（方法跑丢）；case_08 selected_09 待核。入口：
+[本批报告](../experiments/multiturn_batch_v1/batch10_v4/reports/TURN14_20261107.md)。
+
+- case_03 三窗：上议院反对党领袖 / 2019 代理任职 / 议员资历；MF 失败，head 完整第 6，BM25/last 失败。
+- case_08 selected_09：a0128 只支持检测比例；缺 SNP 芯片与 known variants 原句。
+- 累计 18 题：MF 16/18、16/18；head 16/18、18/18；BM25 13/18、16/18；last 0；配对 MF-last 16/2/0、MF-BM25 7/8/3、MF-head 2/11/5。
+- 100 去向：18 主表、3 待核、2 对照、3 排除、43 单事件、6 partial 待补标、25 partial 排除。
+
 ## 三题证据修正：累计 17 题 / 8 轨迹（2026-11-07）
 
 **状态：** case_05 修正后重跑；case_08/09 待核撤出。入口：

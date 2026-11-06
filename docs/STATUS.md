@@ -1,5 +1,13 @@
 # 当前状态
 
+## 最新推进（2026-11-07）：case_03 criteria 实测，累计 18 题 / 8 轨迹
+
+- case_03 selected_08 拆成“上议院反对党领袖 / 2019 代理任职 / 议员资历”三窗，预检 PASS；MF 失败（A5/B1），head 完整第 6，BM25/last 失败 → 作为方法跑丢题留在分母。
+- case_08 selected_09 待核：a0128 只支持 <0.02% 检测比例，缺 SNP 芯片与 known variants 原句；a0001 只支持检测健康风险变异。
+- 4 个同事件目标：case_07 selected_01 非答案目标；case_07 selected_08、case_10 selected_04 单段已足够列对照候选；case_10 selected_05 的 12 months 待核。
+- 累计 18 题 / 8 轨迹：MF 16/18、16/18；head 16/18、18/18；BM25 13/18、16/18；last 0。配对 MF-last 16/2/0、MF-BM25 7/8/3、MF-head 2/11/5。
+- 100 去向：18 主表、3 待核、2 对照、3 排除、43 单事件、6 partial 待补标、25 partial 排除。
+
 ## 最新推进（2026-11-07）：三题证据修正，累计 17 题 / 8 轨迹
 
 - case_05 selected_01 补入真正 b 问句 `a0191[96,205)` 与 a/b 定义，4 窗组重冻结重跑：MF/head 完整第 4、BM25 第 5、last 缺 A。

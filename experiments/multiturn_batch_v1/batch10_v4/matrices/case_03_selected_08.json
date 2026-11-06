@@ -1,0 +1,211 @@
+{
+  "case_id": "genmem_940c258011aac604:selected_08",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_940c258011aac604:a0185#0-125",
+          "score": 0.031612083315849304,
+          "text": "Penny Sharpe is the ALP Leader of the Opposition in the NSW Parliament’s Upper House and Shadow Minister for the Environment."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0020#0-135",
+          "score": 0.0492679588496685,
+          "text": "Let me clarify who was the Opposition Leader in the 2019 NSW election - this could be Michael Daley (who led Labor into that election)."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0031#203-228",
+          "score": 0.0016270136693492532,
+          "text": "Leader of the Opposition."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0187#0-79",
+          "score": 0.011617534793913364,
+          "text": "https://thehouseinreview.com/2024/11/28/in-the-house-thursday-21-november-2024/"
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0049#0-129",
+          "score": 0.0014240366872400045,
+          "text": "Mark William Latham is an Australian politician and media commentator who is a member of the New South Wales Legislative Council."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0112#0-43",
+          "score": 0.0005654201959259808,
+          "text": "New South Wales | Time To Align - Australia"
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0135#9-34",
+          "score": 0.005065684672445059,
+          "text": "Deirdre Mary GRUSOVIN, AM"
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0041#241-323",
+          "score": 0.03827306255698204,
+          "text": "Let me search more carefully for the Opposition Leader in the Legislative Council."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0001#778-971",
+          "score": 0.04409113898873329,
+          "text": "What is the birthdate of this Australian politician, who was a member of the New South Wales Legislative Council and currently the Opposition Leader in the New South Wales state election, 2019?"
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0155#51-90",
+          "score": 0.0653076246380806,
+          "text": "In office 25 March 2019 – 29 June 2019."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0155#163-274",
+          "score": 0.011762121692299843,
+          "text": "She has served as a member of the New South Wales Legislative Council since 2005, representing the Labor Party."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 304,
+      "seconds": 0.041,
+      "target": "This matches the question criteria perfectly.",
+      "target_tokens": 7,
+      "total_tokens": 311
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_940c258011aac604:a0185#0-125",
+          "score": 0.7330679893493652,
+          "text": "Penny Sharpe is the ALP Leader of the Opposition in the NSW Parliament’s Upper House and Shadow Minister for the Environment."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0020#0-135",
+          "score": 0.06242860481142998,
+          "text": "Let me clarify who was the Opposition Leader in the 2019 NSW election - this could be Michael Daley (who led Labor into that election)."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0031#203-228",
+          "score": 0.008577526547014713,
+          "text": "Leader of the Opposition."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0187#0-79",
+          "score": 0.0035925062838941813,
+          "text": "https://thehouseinreview.com/2024/11/28/in-the-house-thursday-21-november-2024/"
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0049#0-129",
+          "score": 0.046693477779626846,
+          "text": "Mark William Latham is an Australian politician and media commentator who is a member of the New South Wales Legislative Council."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0112#0-43",
+          "score": 0.001258361036889255,
+          "text": "New South Wales | Time To Align - Australia"
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0135#9-34",
+          "score": 0.002396171912550926,
+          "text": "Deirdre Mary GRUSOVIN, AM"
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0041#241-323",
+          "score": 0.026348398998379707,
+          "text": "Let me search more carefully for the Opposition Leader in the Legislative Council."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0001#778-971",
+          "score": 0.02007267251610756,
+          "text": "What is the birthdate of this Australian politician, who was a member of the New South Wales Legislative Council and currently the Opposition Leader in the New South Wales state election, 2019?"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 257,
+      "seconds": 0.12,
+      "target": "Penny Sharpe was ALP Leader of the Opposition in the NSW Parliament's Upper House.",
+      "target_tokens": 19,
+      "total_tokens": 276
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.015654247254133224,
+          "text": "Penny Sharpe was ALP Leader of the Opposition in the NSW Parliament's Upper House."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0155#51-90",
+          "score": 0.10178297013044357,
+          "text": "In office 25 March 2019 – 29 June 2019."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0155#163-274",
+          "score": 0.0023715004790574312,
+          "text": "She has served as a member of the New South Wales Legislative Council since 2005, representing the Labor Party."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0020#0-135",
+          "score": 0.06546870619058609,
+          "text": "Let me clarify who was the Opposition Leader in the 2019 NSW election - this could be Michael Daley (who led Labor into that election)."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0031#203-228",
+          "score": 0.0008264247444458306,
+          "text": "Leader of the Opposition."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0187#0-79",
+          "score": 0.0038584906142205,
+          "text": "https://thehouseinreview.com/2024/11/28/in-the-house-thursday-21-november-2024/"
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0049#0-129",
+          "score": 0.0006610967684537172,
+          "text": "Mark William Latham is an Australian politician and media commentator who is a member of the New South Wales Legislative Council."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0112#0-43",
+          "score": 0.0004884012159891427,
+          "text": "New South Wales | Time To Align - Australia"
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0135#9-34",
+          "score": 0.0005202241009101272,
+          "text": "Deirdre Mary GRUSOVIN, AM"
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0041#241-323",
+          "score": 0.022500837221741676,
+          "text": "Let me search more carefully for the Opposition Leader in the Legislative Council."
+        },
+        {
+          "canonical_id": "genmem_940c258011aac604:a0001#778-971",
+          "score": 0.06748399138450623,
+          "text": "What is the birthdate of this Australian politician, who was a member of the New South Wales Legislative Council and currently the Opposition Leader in the New South Wales state election, 2019?"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 297,
+      "seconds": 0.048,
+      "target": "This matches the question criteria perfectly.",
+      "target_tokens": 7,
+      "total_tokens": 304
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 24.94,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

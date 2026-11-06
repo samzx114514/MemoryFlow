@@ -1,0 +1,3494 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "genmem_940c258011aac604:selected_08",
+ "trajectory_id": "genmem_940c258011aac604",
+ "trajectory_case": "case_03",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "This matches the question criteria perfectly.",
+  "sha256": "c2b184a68d91cefff696bc5cbc5cd33d99738251f1e6c08dda882c9e056e7b1b",
+  "origin": "recorded_target",
+  "artifact_id": "genmem_940c258011aac604:a0189",
+  "start": 173,
+  "end": 218,
+  "original_target": {
+   "text": "This matches the question criteria perfectly.",
+   "artifact_id": "genmem_940c258011aac604:a0189",
+   "start": 173,
+   "end": 218,
+   "event_index": 23
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "According to the materials, what is the key earlier statement?",
+   "inputs": [
+    {
+     "unit_id": "genmem_940c258011aac604:a0185:u0-125",
+     "artifact_id": "genmem_940c258011aac604:a0185",
+     "start": 0,
+     "end": 125,
+     "text": "Penny Sharpe is the ALP Leader of the Opposition in the NSW Parliament’s Upper House and Shadow Minister for the Environment.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    },
+    {
+     "unit_id": "genmem_940c258011aac604:a0020:u0-135",
+     "artifact_id": "genmem_940c258011aac604:a0020",
+     "start": 0,
+     "end": 135,
+     "text": "Let me clarify who was the Opposition Leader in the 2019 NSW election - this could be Michael Daley (who led Labor into that election).",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    },
+    {
+     "unit_id": "genmem_940c258011aac604:a0031:u203-228",
+     "artifact_id": "genmem_940c258011aac604:a0031",
+     "start": 203,
+     "end": 228,
+     "text": "Leader of the Opposition.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    },
+    {
+     "unit_id": "genmem_940c258011aac604:a0187:u0-79",
+     "artifact_id": "genmem_940c258011aac604:a0187",
+     "start": 0,
+     "end": 79,
+     "text": "https://thehouseinreview.com/2024/11/28/in-the-house-thursday-21-november-2024/",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    },
+    {
+     "unit_id": "genmem_940c258011aac604:a0049:u0-129",
+     "artifact_id": "genmem_940c258011aac604:a0049",
+     "start": 0,
+     "end": 129,
+     "text": "Mark William Latham is an Australian politician and media commentator who is a member of the New South Wales Legislative Council.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    },
+    {
+     "unit_id": "genmem_940c258011aac604:a0112:u0-43",
+     "artifact_id": "genmem_940c258011aac604:a0112",
+     "start": 0,
+     "end": 43,
+     "text": "New South Wales | Time To Align - Australia",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    },
+    {
+     "unit_id": "genmem_940c258011aac604:a0135:u9-34",
+     "artifact_id": "genmem_940c258011aac604:a0135",
+     "start": 9,
+     "end": 34,
+     "text": "Deirdre Mary GRUSOVIN, AM",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    },
+    {
+     "unit_id": "genmem_940c258011aac604:a0041:u241-323",
+     "artifact_id": "genmem_940c258011aac604:a0041",
+     "start": 241,
+     "end": 323,
+     "text": "Let me search more carefully for the Opposition Leader in the Legislative Council.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    },
+    {
+     "unit_id": "genmem_940c258011aac604:a0001:u778-971",
+     "artifact_id": "genmem_940c258011aac604:a0001",
+     "start": 778,
+     "end": 971,
+     "text": "What is the birthdate of this Australian politician, who was a member of the New South Wales Legislative Council and currently the Opposition Leader in the New South Wales state election, 2019?",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "output": {
+    "text": "Penny Sharpe was ALP Leader of the Opposition in the NSW Parliament's Upper House.",
+    "sha256": "9cf43b7ac2b07cabf3699e99742be85103f70a485e376f9d7d697b8b5f7e039b",
+    "origin": "controlled_output"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "Using the earlier statement and the new material, write the final sentence.",
+   "inputs": [
+    {
+     "unit_id": "genmem_940c258011aac604:a0155:u51-90",
+     "artifact_id": "genmem_940c258011aac604:a0155",
+     "start": 51,
+     "end": 90,
+     "text": "In office 25 March 2019 – 29 June 2019.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    },
+    {
+     "unit_id": "genmem_940c258011aac604:a0155:u163-274",
+     "artifact_id": "genmem_940c258011aac604:a0155",
+     "start": 163,
+     "end": 274,
+     "text": "She has served as a member of the New South Wales Legislative Council since 2005, representing the Labor Party.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    },
+    {
+     "unit_id": "genmem_940c258011aac604:a0020:u0-135",
+     "artifact_id": "genmem_940c258011aac604:a0020",
+     "start": 0,
+     "end": 135,
+     "text": "Let me clarify who was the Opposition Leader in the 2019 NSW election - this could be Michael Daley (who led Labor into that election).",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    },
+    {
+     "unit_id": "genmem_940c258011aac604:a0031:u203-228",
+     "artifact_id": "genmem_940c258011aac604:a0031",
+     "start": 203,
+     "end": 228,
+     "text": "Leader of the Opposition.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    },
+    {
+     "unit_id": "genmem_940c258011aac604:a0187:u0-79",
+     "artifact_id": "genmem_940c258011aac604:a0187",
+     "start": 0,
+     "end": 79,
+     "text": "https://thehouseinreview.com/2024/11/28/in-the-house-thursday-21-november-2024/",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    },
+    {
+     "unit_id": "genmem_940c258011aac604:a0049:u0-129",
+     "artifact_id": "genmem_940c258011aac604:a0049",
+     "start": 0,
+     "end": 129,
+     "text": "Mark William Latham is an Australian politician and media commentator who is a member of the New South Wales Legislative Council.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    },
+    {
+     "unit_id": "genmem_940c258011aac604:a0112:u0-43",
+     "artifact_id": "genmem_940c258011aac604:a0112",
+     "start": 0,
+     "end": 43,
+     "text": "New South Wales | Time To Align - Australia",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    },
+    {
+     "unit_id": "genmem_940c258011aac604:a0135:u9-34",
+     "artifact_id": "genmem_940c258011aac604:a0135",
+     "start": 9,
+     "end": 34,
+     "text": "Deirdre Mary GRUSOVIN, AM",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    },
+    {
+     "unit_id": "genmem_940c258011aac604:a0041:u241-323",
+     "artifact_id": "genmem_940c258011aac604:a0041",
+     "start": 241,
+     "end": 323,
+     "text": "Let me search more carefully for the Opposition Leader in the Legislative Council.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    },
+    {
+     "unit_id": "genmem_940c258011aac604:a0001:u778-971",
+     "artifact_id": "genmem_940c258011aac604:a0001",
+     "start": 778,
+     "end": 971,
+     "text": "What is the birthdate of this Australian politician, who was a member of the New South Wales Legislative Council and currently the Opposition Leader in the New South Wales state election, 2019?",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 10
+     }
+    }
+   ],
+   "output": {
+    "text": "This matches the question criteria perfectly.",
+    "sha256": "c2b184a68d91cefff696bc5cbc5cd33d99738251f1e6c08dda882c9e056e7b1b",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "Penny Sharpe was ALP Leader of the Opposition in the NSW Parliament's Upper House.",
+     "sha256": "9cf43b7ac2b07cabf3699e99742be85103f70a485e376f9d7d697b8b5f7e039b",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "genmem_940c258011aac604:a0056#0-62",
+   "artifact_id": "genmem_940c258011aac604:a0056",
+   "start": 0,
+   "end": 62,
+   "text": "Balmain Labor candidate and former SRC President Elly Howse...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0162#0-47",
+   "artifact_id": "genmem_940c258011aac604:a0162",
+   "start": 0,
+   "end": 47,
+   "text": "Legislative Council – NSW 2019 | The Tally Room",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0016#0-220",
+   "artifact_id": "genmem_940c258011aac604:a0016",
+   "start": 0,
+   "end": 220,
+   "text": "He left the ALP in 2017 and joined Pauline Hanson's One Nation in 2018, gaining a seat for that party in the New South Wales Legislative Council at the 2019 New South Wales state election and winning re-election in 2023.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0104#0-101",
+   "artifact_id": "genmem_940c258011aac604:a0104",
+   "start": 0,
+   "end": 101,
+   "text": "https://johnmenadue.com/post/2019/03/tony-smith-the-environment-top-issue-for-new-south-wales-voters/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0084#147-172",
+   "artifact_id": "genmem_940c258011aac604:a0084",
+   "start": 147,
+   "end": 172,
+   "text": "NSW Electoral Commission.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0150#629-676",
+   "artifact_id": "genmem_940c258011aac604:a0150",
+   "start": 629,
+   "end": 676,
+   "text": "That would be Adam Searle (born 29 April 1969).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_03bf3432b0990403#0-55",
+   "artifact_id": "genmem_940c258011aac604:arg_03bf3432b0990403",
+   "start": 0,
+   "end": 55,
+   "text": "NSW Labor leader Legislative Council 2018 2019 election",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0067#88-178",
+   "artifact_id": "genmem_940c258011aac604:a0067",
+   "start": 88,
+   "end": 178,
+   "text": "He was a member of the New South Wales Legislative Council from May 2011 until March 2023.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0171#13-143",
+   "artifact_id": "genmem_940c258011aac604:a0171",
+   "start": 13,
+   "end": 143,
+   "text": "Penny Sharpe was Acting Leader of the NSW Labor Party from 25 March 2019 to 29 June 2019 - this was right after the 2019 election!",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_c1a0e1bdf56f68bc#0-29",
+   "artifact_id": "genmem_940c258011aac604:arg_c1a0e1bdf56f68bc",
+   "start": 0,
+   "end": 29,
+   "text": "call_019fc40cf9507e908aeb41b4",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_b2918dddc373346d#0-29",
+   "artifact_id": "genmem_940c258011aac604:arg_b2918dddc373346d",
+   "start": 0,
+   "end": 29,
+   "text": "call_019fc40cf9507e908aeb41c5",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0180#0-65",
+   "artifact_id": "genmem_940c258011aac604:a0180",
+   "start": 0,
+   "end": 65,
+   "text": "Penny Sharpe: Australian politician (1970-) | Biography, Facts...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0000#18-65",
+   "artifact_id": "genmem_940c258011aac604:a0000",
+   "start": 18,
+   "end": 65,
+   "text": "<current_date>2026-08-02, Sunday</current_date>",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0000#0-17",
+   "artifact_id": "genmem_940c258011aac604:a0000",
+   "start": 0,
+   "end": 17,
+   "text": "<system-reminder>",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_c322b10700b363f2#0-29",
+   "artifact_id": "genmem_940c258011aac604:arg_c322b10700b363f2",
+   "start": 0,
+   "end": 29,
+   "text": "call_019fc40b837a7451a68b6c7e",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0181#0-38",
+   "artifact_id": "genmem_940c258011aac604:a0181",
+   "start": 0,
+   "end": 38,
+   "text": "https://peoplepill.com/i/penny-sharpe/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0068#0-68",
+   "artifact_id": "genmem_940c258011aac604:a0068",
+   "start": 0,
+   "end": 68,
+   "text": "NSW election results: One Nation secures two upper house seats in...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0147#5-61",
+   "artifact_id": "genmem_940c258011aac604:a0147",
+   "start": 5,
+   "end": 61,
+   "text": "Dr Steve Thomas MLC - Leader of the Opposition in the...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0041#241-323",
+   "artifact_id": "genmem_940c258011aac604:a0041",
+   "start": 241,
+   "end": 323,
+   "text": "Let me search more carefully for the Opposition Leader in the Legislative Council.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_940c258011aac604:a0041:u241-323",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_940c258011aac604:a0041:u241-323",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_6607c2e07e3f6cf0#0-57",
+   "artifact_id": "genmem_940c258011aac604:arg_6607c2e07e3f6cf0",
+   "start": 0,
+   "end": 57,
+   "text": "\"Leader of the Opposition\" \"Legislative Council\" NSW 2019",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0199#0-64",
+   "artifact_id": "genmem_940c258011aac604:a0199",
+   "start": 0,
+   "end": 64,
+   "text": "Sydney news: Penny Sharpe's first day as Labor leader, hidden...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0132#548-684",
+   "artifact_id": "genmem_940c258011aac604:a0132",
+   "start": 548,
+   "end": 684,
+   "text": "The phrasing \"currently the Opposition Leader in the New South Wales state election, 2019\" might be a quirky translation or description.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0140#138-199",
+   "artifact_id": "genmem_940c258011aac604:a0140",
+   "start": 138,
+   "end": 199,
+   "text": "Mr Blunt’s career in the parliamentary service began in 1990.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0061#0-71",
+   "artifact_id": "genmem_940c258011aac604:a0061",
+   "start": 0,
+   "end": 71,
+   "text": "General Election to Assembly Constituencies: Trends & Results May-2026.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0077#0-53",
+   "artifact_id": "genmem_940c258011aac604:a0077",
+   "start": 0,
+   "end": 53,
+   "text": "ICAC funding stand-off in the NSW Legislative Council",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0150#216-430",
+   "artifact_id": "genmem_940c258011aac604:a0150",
+   "start": 216,
+   "end": 430,
+   "text": "Wait - let me re-read the question one more time: \"Australian politician, who was a member of the New South Wales Legislative Council and currently the Opposition Leader in the New South Wales state election, 2019\"",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0034#135-267",
+   "artifact_id": "genmem_940c258011aac604:a0034",
+   "start": 135,
+   "end": 267,
+   "text": "Key points: Mr Daley yesterday announced he was stepping down but would contest the NSW Labor leadership after the federal election.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0055#0-66",
+   "artifact_id": "genmem_940c258011aac604:a0055",
+   "start": 0,
+   "end": 66,
+   "text": "At the 1894 state election Labor representation was reduced to 18.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0188#206-264",
+   "artifact_id": "genmem_940c258011aac604:a0188",
+   "start": 206,
+   "end": 264,
+   "text": "Read the full Ministerial statement in the Hansard record.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0026#0-51",
+   "artifact_id": "genmem_940c258011aac604:a0026",
+   "start": 0,
+   "end": 51,
+   "text": "Michael Daley won't contest NSW Labor leadership...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0156#0-44",
+   "artifact_id": "genmem_940c258011aac604:a0156",
+   "start": 0,
+   "end": 44,
+   "text": "State leadership – 100 Climate Conversations",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0171#612-730",
+   "artifact_id": "genmem_940c258011aac604:a0171",
+   "start": 612,
+   "end": 730,
+   "text": "However, the title \"Opposition Leader in the Legislative Council\" specifically - let me search for who held that role.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0097#334-365",
+   "artifact_id": "genmem_940c258011aac604:a0097",
+   "start": 334,
+   "end": 365,
+   "text": "Let me reconsider the question.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0188#109-205",
+   "artifact_id": "genmem_940c258011aac604:a0188",
+   "start": 109,
+   "end": 205,
+   "text": "Both members thanked all those who have been involved in the 2024 Bicentenary program of events.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0161#0-222",
+   "artifact_id": "genmem_940c258011aac604:a0161",
+   "start": 0,
+   "end": 222,
+   "text": "First elected to NSW Legislative Council in 2005, Penny has held a variety of Government and Opposition portfolios including Heritage, Transport and Planning, Family and Community Services, as well as Disability Inclusion.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0189#173-218",
+   "artifact_id": "genmem_940c258011aac604:a0189",
+   "start": 173,
+   "end": 218,
+   "text": "This matches the question criteria perfectly.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0085#0-20",
+   "artifact_id": "genmem_940c258011aac604:a0085",
+   "start": 0,
+   "end": 20,
+   "text": "NSW Votes - ABC News",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0092#0-58",
+   "artifact_id": "genmem_940c258011aac604:a0092",
+   "start": 0,
+   "end": 58,
+   "text": "https://www.tallyroom.com.au/archive/aus2019/sydneyfed2019",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0048#0-41",
+   "artifact_id": "genmem_940c258011aac604:a0048",
+   "start": 0,
+   "end": 41,
+   "text": "https://en.wikipedia.org/wiki/Mark_Latham",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0140#0-137",
+   "artifact_id": "genmem_940c258011aac604:a0140",
+   "start": 0,
+   "end": 137,
+   "text": "David has been an adornment to the Legislative Council and the entire Parliament of NSW is better off for his service,” Mr Tudehope said.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0131#0-16",
+   "artifact_id": "genmem_940c258011aac604:a0131",
+   "start": 0,
+   "end": 16,
+   "text": "Adam Searle MLC.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_9ca5aa5ac78ac2c6#0-74",
+   "artifact_id": "genmem_940c258011aac604:arg_9ca5aa5ac78ac2c6",
+   "start": 0,
+   "end": 74,
+   "text": "\"Opposition Leader\" \"New South Wales\" 2019 Legislative Council member born",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0198#0-142",
+   "artifact_id": "genmem_940c258011aac604:a0198",
+   "start": 0,
+   "end": 142,
+   "text": "NSW Labor leader Michael Daley has announced he will stand aside from the party's top job pending a looming ballot to be held later this year.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0110#0-102",
+   "artifact_id": "genmem_940c258011aac604:a0110",
+   "start": 0,
+   "end": 102,
+   "text": "https://www.academia.edu/4720837/Prorogation_as_Partisan_Political_Tool_The_New_South_Wales_Experience",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0062#180-208",
+   "artifact_id": "genmem_940c258011aac604:a0062",
+   "start": 180,
+   "end": 208,
+   "text": "Let me re-read the question.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0184#0-122",
+   "artifact_id": "genmem_940c258011aac604:a0184",
+   "start": 0,
+   "end": 122,
+   "text": "https://wfe.org.au/women-for-election-in-conversation-with-women-for-election-in-conversation-with-penny-sharpe-recording/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0062#210-341",
+   "artifact_id": "genmem_940c258011aac604:a0062",
+   "start": 210,
+   "end": 341,
+   "text": "\"member of the New South Wales Legislative Council and currently the Opposition Leader in the New South Wales state election, 2019\"",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0204#0-101",
+   "artifact_id": "genmem_940c258011aac604:a0204",
+   "start": 0,
+   "end": 101,
+   "text": "Strathfield MP Jodi McKay has been elected as the New South Wales Labor leader with a clear majority.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0200#0-93",
+   "artifact_id": "genmem_940c258011aac604:a0200",
+   "start": 0,
+   "end": 93,
+   "text": "https://www.abc.net.au/news/2019-03-26/sydney-news-morning-briefing-tuesday-march-26/10937962",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_b2a8b229a71c88bc#0-29",
+   "artifact_id": "genmem_940c258011aac604:arg_b2a8b229a71c88bc",
+   "start": 0,
+   "end": 29,
+   "text": "call_019fc40a14b17ea28679a39d",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0066#0-41",
+   "artifact_id": "genmem_940c258011aac604:a0066",
+   "start": 0,
+   "end": 41,
+   "text": "https://en.wikipedia.org/wiki/Adam_Searle",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_86099f45e1731976#0-10",
+   "artifact_id": "genmem_940c258011aac604:arg_86099f45e1731976",
+   "start": 0,
+   "end": 10,
+   "text": "web_search",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0097#12-76",
+   "artifact_id": "genmem_940c258011aac604:a0097",
+   "start": 12,
+   "end": 76,
+   "text": "Adam Searle was the Labor leader in the NSW Legislative Council.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0150#678-749",
+   "artifact_id": "genmem_940c258011aac604:a0150",
+   "start": 678,
+   "end": 749,
+   "text": "But let me also check Penny Sharpe who may have been in a similar role.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0062#806-891",
+   "artifact_id": "genmem_940c258011aac604:a0062",
+   "start": 806,
+   "end": 891,
+   "text": "Let me check if there was a Labor Leader in the Legislative Council during that time.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0001#681-766",
+   "artifact_id": "genmem_940c258011aac604:a0001",
+   "start": 681,
+   "end": 766,
+   "text": "- <answer-format check, entity disambiguation, arithmetic check, or uncertainty note>",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0102#25-216",
+   "artifact_id": "genmem_940c258011aac604:a0102",
+   "start": 25,
+   "end": 216,
+   "text": "Newly elected New South Wales Labor leader Jodi McKay says she is “more than a match” for the premier, Gladys Berejiklian, and she is not going to be pretend the two women are anything alike.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0131#61-264",
+   "artifact_id": "genmem_940c258011aac604:a0131",
+   "start": 61,
+   "end": 264,
+   "text": "NSW Labor Leader Jodi McKay has announced Labor will create a new industrial manslaughter offence with higher penalties including jail time, as part of major reforms to the State’s workplace safety laws.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0017#0-52",
+   "artifact_id": "genmem_940c258011aac604:a0017",
+   "start": 0,
+   "end": 52,
+   "text": "Michael Daley to challenge for NSW opposition leader",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_6d8ca6ab3351e1f5#0-67",
+   "artifact_id": "genmem_940c258011aac604:arg_6d8ca6ab3351e1f5",
+   "start": 0,
+   "end": 67,
+   "text": "Adam Searle \"Leader of the Opposition\" NSW Legislative Council 2019",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0031#177-202",
+   "artifact_id": "genmem_940c258011aac604:a0031",
+   "start": 177,
+   "end": 202,
+   "text": "3 years 9 months 23 days.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0036#0-137",
+   "artifact_id": "genmem_940c258011aac604:a0036",
+   "start": 0,
+   "end": 137,
+   "text": "https://www.smh.com.au/nsw-election-2019/michael-daley-stands-aside-as-nsw-labor-leader-until-after-federal-election-20190325-p517fu.html",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0132#841-929",
+   "artifact_id": "genmem_940c258011aac604:a0132",
+   "start": 841,
+   "end": 929,
+   "text": "Let me check if there's a specific title \"Opposition Leader in the Legislative Council\".",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0164#0-258",
+   "artifact_id": "genmem_940c258011aac604:a0164",
+   "start": 0,
+   "end": 258,
+   "text": "Electoral system The New South Wales Legislative Council is elected using a system of proportional representation, with all MLCs elected to represent the entire state.4Penny Sharpe resigned from the Legislative Council in 2015 to run for the seat of Newtown.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0039#0-16",
+   "artifact_id": "genmem_940c258011aac604:a0039",
+   "start": 0,
+   "end": 16,
+   "text": "No results found",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_e807ee0c6c389d5c#0-71",
+   "artifact_id": "genmem_940c258011aac604:arg_e807ee0c6c389d5c",
+   "start": 0,
+   "end": 71,
+   "text": "NSW Labor Legislative Council leader 2019 state election shadow cabinet",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0185#0-125",
+   "artifact_id": "genmem_940c258011aac604:a0185",
+   "start": 0,
+   "end": 125,
+   "text": "Penny Sharpe is the ALP Leader of the Opposition in the NSW Parliament’s Upper House and Shadow Minister for the Environment.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_940c258011aac604:a0185:u0-125",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0095#0-50",
+   "artifact_id": "genmem_940c258011aac604:a0095",
+   "start": 0,
+   "end": 50,
+   "text": "https://owiki.org/wiki/New_South_Wales_Labor_Party",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0090#0-59",
+   "artifact_id": "genmem_940c258011aac604:a0090",
+   "start": 0,
+   "end": 59,
+   "text": "Jodi McKay was elected as the NSW Labor leader on Saturday.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0138#0-64",
+   "artifact_id": "genmem_940c258011aac604:a0138",
+   "start": 0,
+   "end": 64,
+   "text": "Next NSW Parliamentary clerk appointed - Inside State Government",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0125#198-218",
+   "artifact_id": "genmem_940c258011aac604:a0125",
+   "start": 198,
+   "end": 218,
+   "text": "NSW depends upon it.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_2242c1968529f94d#0-9",
+   "artifact_id": "genmem_940c258011aac604:arg_2242c1968529f94d",
+   "start": 0,
+   "end": 9,
+   "text": "web_fetch",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0041#151-240",
+   "artifact_id": "genmem_940c258011aac604:a0041",
+   "start": 151,
+   "end": 240,
+   "text": "The question specifically asks about someone who was a member of the Legislative Council.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_44cabf3bbb247f2e#0-29",
+   "artifact_id": "genmem_940c258011aac604:arg_44cabf3bbb247f2e",
+   "start": 0,
+   "end": 29,
+   "text": "call_019fc40fd77b7d0080ac8ba0",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0146#0-87",
+   "artifact_id": "genmem_940c258011aac604:a0146",
+   "start": 0,
+   "end": 87,
+   "text": "Leader of the Government in the Legislative Council: 23 September 2008 - 21 March 2013.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0198#142-255",
+   "artifact_id": "genmem_940c258011aac604:a0198",
+   "start": 142,
+   "end": 255,
+   "text": "NSW Leader of the Opposition Michael Daley speaks to the media at Maroubra Beach, Sydney, Sunday, March 24, 2019.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0037#0-226",
+   "artifact_id": "genmem_940c258011aac604:a0037",
+   "start": 0,
+   "end": 226,
+   "text": "Michael Daley has stood aside as NSW Labor leader to give Bill Shorten the best chance to winning the federal election but has not given up his political ambitions and will renominate for the position in ballot after May poll.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0079#218-259",
+   "artifact_id": "genmem_940c258011aac604:a0079",
+   "start": 218,
+   "end": 259,
+   "text": "A late night Legislative Council session.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0008#0-50",
+   "artifact_id": "genmem_940c258011aac604:a0008",
+   "start": 0,
+   "end": 50,
+   "text": "Christian Democratic Party (Australia) - Wikipedia",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0146#87-173",
+   "artifact_id": "genmem_940c258011aac604:a0146",
+   "start": 87,
+   "end": 173,
+   "text": "Shadow Minister for Mines, North West, Goldfields, and Lands (until 24 November 1992).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0189#244-339",
+   "artifact_id": "genmem_940c258011aac604:a0189",
+   "start": 244,
+   "end": 339,
+   "text": "Let me verify this is the right person by confirming her role at the time of the 2019 election.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0126#9-24",
+   "artifact_id": "genmem_940c258011aac604:a0126",
+   "start": 9,
+   "end": 24,
+   "text": "Adam Searle MLC",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0015#0-43",
+   "artifact_id": "genmem_940c258011aac604:a0015",
+   "start": 0,
+   "end": 43,
+   "text": "https://www.famousfix.com/topic/mark-latham",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0186#0-62",
+   "artifact_id": "genmem_940c258011aac604:a0186",
+   "start": 0,
+   "end": 62,
+   "text": "In the House – Thursday 21 November 2024 – The House in Review",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0057#0-130",
+   "artifact_id": "genmem_940c258011aac604:a0057",
+   "start": 0,
+   "end": 130,
+   "text": "https://honisoit.com/2019/03/balmain-labor-candidate-and-former-src-president-elly-howse-attracts-criticism-for-campaign-material/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0135#9-34",
+   "artifact_id": "genmem_940c258011aac604:a0135",
+   "start": 9,
+   "end": 34,
+   "text": "Deirdre Mary GRUSOVIN, AM",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_940c258011aac604:a0135:u9-34",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_940c258011aac604:a0135:u9-34",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0059#0-8",
+   "artifact_id": "genmem_940c258011aac604:a0059",
+   "start": 0,
+   "end": 8,
+   "text": "Election",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0001#504-580",
+   "artifact_id": "genmem_940c258011aac604:a0001",
+   "start": 504,
+   "end": 580,
+   "text": "If no tool is needed or available, still write the evidence/checks you used.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0193#0-63",
+   "artifact_id": "genmem_940c258011aac604:a0193",
+   "start": 0,
+   "end": 63,
+   "text": "Michael Daley elected new NSW Labor leader | The Canberra Times",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0091#0-40",
+   "artifact_id": "genmem_940c258011aac604:a0091",
+   "start": 0,
+   "end": 40,
+   "text": "Sydney – Australia 2019 | The Tally Room",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0052#0-194",
+   "artifact_id": "genmem_940c258011aac604:a0052",
+   "start": 0,
+   "end": 194,
+   "text": "The NSW Labor deputy leader and shadow cabinet is yet to be decided – awaiting a caucus vote on executive roles on Tuesday – but McKay said Minns would “absolutely” be part of her new look team.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0194#0-90",
+   "artifact_id": "genmem_940c258011aac604:a0194",
+   "start": 0,
+   "end": 90,
+   "text": "https://www.canberratimes.com.au/story/5750482/michael-daley-elected-new-nsw-labor-leader/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0149#60-237",
+   "artifact_id": "genmem_940c258011aac604:a0149",
+   "start": 60,
+   "end": 237,
+   "text": "It has been hard to miss the massive budget surpluses the McGowan Government has been announcing in recent years, thanks to the highest revenues any WA Government has ever seen.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0052#195-265",
+   "artifact_id": "genmem_940c258011aac604:a0052",
+   "start": 195,
+   "end": 265,
+   "text": "Daley “certainly hasn’t asked” to be in the shadow ministry, she said.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0137#59-266",
+   "artifact_id": "genmem_940c258011aac604:a0137",
+   "start": 59,
+   "end": 266,
+   "text": "In 2016 appointed a Member in the General Division of the Order of Australia for significant service to the Parliament and the community of New South Wales, to education administration and to social welfare.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0034#0-134",
+   "artifact_id": "genmem_940c258011aac604:a0034",
+   "start": 0,
+   "end": 134,
+   "text": "Former NSW Opposition leader Michael Daley has pulled out of the race for the party's leadership, after Labor lost the state election.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0096#0-59",
+   "artifact_id": "genmem_940c258011aac604:a0096",
+   "start": 0,
+   "end": 59,
+   "text": "First government in New South Wales and internal divisions.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0072#0-91",
+   "artifact_id": "genmem_940c258011aac604:a0072",
+   "start": 0,
+   "end": 91,
+   "text": "https://www.standard.net.au/story/7904855/labor-vet-heads-for-exit-as-election-nears/?cs=12",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0062#671-804",
+   "artifact_id": "genmem_940c258011aac604:a0062",
+   "start": 671,
+   "end": 804,
+   "text": "Michael Daley was the Leader of the Opposition during the 2019 election but he was a member of the Legislative Assembly, not Council.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0203#0-123",
+   "artifact_id": "genmem_940c258011aac604:a0203",
+   "start": 0,
+   "end": 123,
+   "text": "https://theworldobserver.com.au/2019/06/29/jodi-mckay-wins-nsw-labor-leadership-from-chris-minns-after-three-month-process/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_d9c4be36f46eb5f5#0-29",
+   "artifact_id": "genmem_940c258011aac604:arg_d9c4be36f46eb5f5",
+   "start": 0,
+   "end": 29,
+   "text": "call_019fc413c5f37802b2a52e8e",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0058#203-248",
+   "artifact_id": "genmem_940c258011aac604:a0058",
+   "start": 203,
+   "end": 248,
+   "text": "The state election is this Saturday 23 March.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0105#81-188",
+   "artifact_id": "genmem_940c258011aac604:a0105",
+   "start": 81,
+   "end": 188,
+   "text": "Law and order auctions dominated through the late 1990s and corruption has been the theme of several polls.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0001#768-777",
+   "artifact_id": "genmem_940c258011aac604:a0001",
+   "start": 768,
+   "end": 777,
+   "text": "Question:",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0155#163-274",
+   "artifact_id": "genmem_940c258011aac604:a0155",
+   "start": 163,
+   "end": 274,
+   "text": "She has served as a member of the New South Wales Legislative Council since 2005, representing the Labor Party.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "genmem_940c258011aac604:a0155:u163-274",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0132#42-129",
+   "artifact_id": "genmem_940c258011aac604:a0132",
+   "start": 42,
+   "end": 129,
+   "text": "He was a member of the NSW Legislative Council and was the Labor leader in the Council.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0132#520-547",
+   "artifact_id": "genmem_940c258011aac604:a0132",
+   "start": 520,
+   "end": 547,
+   "text": "Wait - I should reconsider.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0171#365-398",
+   "artifact_id": "genmem_940c258011aac604:a0171",
+   "start": 365,
+   "end": 398,
+   "text": "Let me check this more carefully.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_2f1a0d39f5ef07ab#0-29",
+   "artifact_id": "genmem_940c258011aac604:arg_2f1a0d39f5ef07ab",
+   "start": 0,
+   "end": 29,
+   "text": "call_019fc40b837a7451a68b6c6c",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0205#0-60",
+   "artifact_id": "genmem_940c258011aac604:a0205",
+   "start": 0,
+   "end": 60,
+   "text": "Meet the likely Labor contenders: Chris Minns and Jodi McKay",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0179#0-175",
+   "artifact_id": "genmem_940c258011aac604:a0179",
+   "start": 0,
+   "end": 175,
+   "text": "Penny Sharpe is an Australian politician and member of the Australian Labor Party who has served in the New South Wales Legislative Council since her election in October 2005.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0071#0-57",
+   "artifact_id": "genmem_940c258011aac604:a0071",
+   "start": 0,
+   "end": 57,
+   "text": "Labor vet heads for exit as election nears | The Standard",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0185#126-266",
+   "artifact_id": "genmem_940c258011aac604:a0185",
+   "start": 126,
+   "end": 266,
+   "text": "First elected to the NSW Legislative Council in 2005, Penny has held a variety of Government and Opposition portfolios including Heritage...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0001#667-680",
+   "artifact_id": "genmem_940c258011aac604:a0001",
+   "start": 667,
+   "end": 680,
+   "text": "Verification:",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0060#0-27",
+   "artifact_id": "genmem_940c258011aac604:a0060",
+   "start": 0,
+   "end": 27,
+   "text": "https://results.eci.gov.in/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0154#0-42",
+   "artifact_id": "genmem_940c258011aac604:a0154",
+   "start": 0,
+   "end": 42,
+   "text": "https://en.wikipedia.org/wiki/Penny_Sharpe",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0158#0-206",
+   "artifact_id": "genmem_940c258011aac604:a0158",
+   "start": 0,
+   "end": 206,
+   "text": "Penny Sharpe has been a member of the New South Wales Legislative Council since 2005, and in March this year she became the New South Wales Minister for Climate Change, Energy, the Environment and Heritage.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0031#0-69",
+   "artifact_id": "genmem_940c258011aac604:a0031",
+   "start": 0,
+   "end": 69,
+   "text": "Michael Daley, MP Ground Floor, 219 Maroubra Road, MAROUBRA NSW 2035.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0129#0-36",
+   "artifact_id": "genmem_940c258011aac604:a0129",
+   "start": 0,
+   "end": 36,
+   "text": "NSW LABOR PROPOSES NEW INDUSTRIAL...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0001#610-619",
+   "artifact_id": "genmem_940c258011aac604:a0001",
+   "start": 610,
+   "end": 619,
+   "text": "Evidence:",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0137#0-59",
+   "artifact_id": "genmem_940c258011aac604:a0137",
+   "start": 0,
+   "end": 59,
+   "text": "Deputy Leader of the Opposition in the Legislative Council.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_b211d85d1e851690#0-59",
+   "artifact_id": "genmem_940c258011aac604:arg_b211d85d1e851690",
+   "start": 0,
+   "end": 59,
+   "text": "\"Labor\" \"leader\" \"Legislative Council\" NSW 2019 Adam Searle",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0067#0-32",
+   "artifact_id": "genmem_940c258011aac604:a0067",
+   "start": 0,
+   "end": 32,
+   "text": "Adam Searle (born 29 April 1969)",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0187#0-79",
+   "artifact_id": "genmem_940c258011aac604:a0187",
+   "start": 0,
+   "end": 79,
+   "text": "https://thehouseinreview.com/2024/11/28/in-the-house-thursday-21-november-2024/",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_940c258011aac604:a0187:u0-79",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_940c258011aac604:a0187:u0-79",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_d0df9fb11070123f#0-29",
+   "artifact_id": "genmem_940c258011aac604:arg_d0df9fb11070123f",
+   "start": 0,
+   "end": 29,
+   "text": "call_019fc40a14b17ea28679a38b",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0069#0-126",
+   "artifact_id": "genmem_940c258011aac604:a0069",
+   "start": 0,
+   "end": 126,
+   "text": "https://www.brisbanetimes.com.au/politics/nsw/one-nation-wins-two-upper-house-seats-in-the-nsw-parliament-20190415-p51e7i.html",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0013#80-118",
+   "artifact_id": "genmem_940c258011aac604:a0013",
+   "start": 80,
+   "end": 118,
+   "text": "by Antony Green.their official duties.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0093#113-204",
+   "artifact_id": "genmem_940c258011aac604:a0093",
+   "start": 113,
+   "end": 204,
+   "text": "Sydney covers most of the City of Sydney and a small part of the Marrickville council area.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0001#48-94",
+   "artifact_id": "genmem_940c258011aac604:a0001",
+   "start": 48,
+   "end": 94,
+   "text": "Answer the question as accurately as possible.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0109#0-68",
+   "artifact_id": "genmem_940c258011aac604:a0109",
+   "start": 0,
+   "end": 68,
+   "text": "(PDF) Prorogation as Partisan Political Tool: The New South Wales...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0006#0-65",
+   "artifact_id": "genmem_940c258011aac604:a0006",
+   "start": 0,
+   "end": 65,
+   "text": "https://en.wikipedia.org/wiki/2019_New_South_Wales_state_election",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0084#0-146",
+   "artifact_id": "genmem_940c258011aac604:a0084",
+   "start": 0,
+   "end": 146,
+   "text": "The election was conducted by the New South Wales Electoral Commission.\"New South Wales 2019 Election - Legislative Council – Ballot Paper\" (PDF).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0097#107-332",
+   "artifact_id": "genmem_940c258011aac604:a0097",
+   "start": 107,
+   "end": 332,
+   "text": "But the question asks specifically about the \"Opposition Leader in the New South Wales state election, 2019\" - this typically refers to the Leader of the Opposition overall (Michael Daley), not the Legislative Council leader.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0142#0-53",
+   "artifact_id": "genmem_940c258011aac604:a0142",
+   "start": 0,
+   "end": 53,
+   "text": "https://nswliberal.org.au/damien-tudehope/meet-damien",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0120#55-64",
+   "artifact_id": "genmem_940c258011aac604:a0120",
+   "start": 55,
+   "end": 64,
+   "text": "- YouTube",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0001#395-503",
+   "artifact_id": "genmem_940c258011aac604:a0001",
+   "start": 395,
+   "end": 503,
+   "text": "Verify the key entities/attributes with available tools or with explicit evidence from the provided context.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0020#0-135",
+   "artifact_id": "genmem_940c258011aac604:a0020",
+   "start": 0,
+   "end": 135,
+   "text": "Let me clarify who was the Opposition Leader in the 2019 NSW election - this could be Michael Daley (who led Labor into that election).",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_940c258011aac604:a0020:u0-135",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_940c258011aac604:a0020:u0-135",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0031#203-228",
+   "artifact_id": "genmem_940c258011aac604:a0031",
+   "start": 203,
+   "end": 228,
+   "text": "Leader of the Opposition.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_940c258011aac604:a0031:u203-228",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_940c258011aac604:a0031:u203-228",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0130#0-135",
+   "artifact_id": "genmem_940c258011aac604:a0130",
+   "start": 0,
+   "end": 135,
+   "text": "https://adamsearle.org/newsrooom/media/nsw-labor-proposes-new-industrial-manslaughter-offence-in-sweeping-overhaul-of-workplace-safety/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0160#0-40",
+   "artifact_id": "genmem_940c258011aac604:a0160",
+   "start": 0,
+   "end": 40,
+   "text": "https://www.nswlabor.org.au/penny_sharpe",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0171#0-12",
+   "artifact_id": "genmem_940c258011aac604:a0171",
+   "start": 0,
+   "end": 12,
+   "text": "Interesting!",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0132#322-406",
+   "artifact_id": "genmem_940c258011aac604:a0132",
+   "start": 322,
+   "end": 406,
+   "text": "However, the question requires the person to be a member of the Legislative Council.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0013#170-239",
+   "artifact_id": "genmem_940c258011aac604:a0013",
+   "start": 170,
+   "end": 239,
+   "text": "(Includes Appendix: Prospects for 2023 Legislative Council election).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0167#54-223",
+   "artifact_id": "genmem_940c258011aac604:a0167",
+   "start": 54,
+   "end": 223,
+   "text": "NSW Labor leader Michael Daley announces he will stand aside as NSW Opposition Leader — \"the right and proper thing to do\" — until the upcoming federal election is over.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0153#0-24",
+   "artifact_id": "genmem_940c258011aac604:a0153",
+   "start": 0,
+   "end": 24,
+   "text": "Penny Sharpe - Wikipedia",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0013#0-50",
+   "artifact_id": "genmem_940c258011aac604:a0013",
+   "start": 0,
+   "end": 50,
+   "text": "New South Wales Legislative Council Election 2019.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0031#102-150",
+   "artifact_id": "genmem_940c258011aac604:a0031",
+   "start": 102,
+   "end": 150,
+   "text": "Member, Standing Orders and Procedure Committee.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0062#554-669",
+   "artifact_id": "genmem_940c258011aac604:a0062",
+   "start": 554,
+   "end": 669,
+   "text": "But also could be interpreted as a person who is a member of the Legislative Council AND was the Opposition Leader.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0001#582-609",
+   "artifact_id": "genmem_940c258011aac604:a0001",
+   "start": 582,
+   "end": 609,
+   "text": "Use this visible structure:",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0149#0-59",
+   "artifact_id": "genmem_940c258011aac604:a0149",
+   "start": 0,
+   "end": 59,
+   "text": "What will be the legacy of the biggest boom in our history?",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0189#220-242",
+   "artifact_id": "genmem_940c258011aac604:a0189",
+   "start": 220,
+   "end": 242,
+   "text": "Born: 22 October 1970.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0001#778-971",
+   "artifact_id": "genmem_940c258011aac604:a0001",
+   "start": 778,
+   "end": 971,
+   "text": "What is the birthdate of this Australian politician, who was a member of the New South Wales Legislative Council and currently the Opposition Leader in the New South Wales state election, 2019?",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_940c258011aac604:a0001:u778-971",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_940c258011aac604:a0001:u778-971",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 10
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0054#0-84",
+   "artifact_id": "genmem_940c258011aac604:a0054",
+   "start": 0,
+   "end": 84,
+   "text": "https://www.wikiwand.com/en/articles/Australian_Labor_Party_(New_South_Wales_Branch)",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0132#407-517",
+   "artifact_id": "genmem_940c258011aac604:a0132",
+   "start": 407,
+   "end": 517,
+   "text": "Adam Searle fits that criterion and was effectively the de facto opposition leader in the Legislative Council.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0147#0-4",
+   "artifact_id": "genmem_940c258011aac604:a0147",
+   "start": 0,
+   "end": 4,
+   "text": "Hon.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_b30beac9f604ddea#0-72",
+   "artifact_id": "genmem_940c258011aac604:arg_b30beac9f604ddea",
+   "start": 0,
+   "end": 72,
+   "text": "\"2019 NSW state election\" \"Opposition Leader\" Legislative Council member",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0035#0-68",
+   "artifact_id": "genmem_940c258011aac604:a0035",
+   "start": 0,
+   "end": 68,
+   "text": "'I don't want to be a distraction': Michael Daley stands aside as...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0113#0-35",
+   "artifact_id": "genmem_940c258011aac604:a0113",
+   "start": 0,
+   "end": 35,
+   "text": "https://www.timetoalign.org.au/nsw/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0195#0-191",
+   "artifact_id": "genmem_940c258011aac604:a0195",
+   "start": 0,
+   "end": 191,
+   "text": "Newly-elected NSW Labor leader Michael Daley has begun pitching himself as the next premier, with his first public comments as opposition leader addressing voters ahead of the March election.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0132#685-720",
+   "artifact_id": "genmem_940c258011aac604:a0132",
+   "start": 685,
+   "end": 720,
+   "text": "Let me look at this more carefully.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0171#144-208",
+   "artifact_id": "genmem_940c258011aac604:a0171",
+   "start": 144,
+   "end": 208,
+   "text": "And she has been a member of the Legislative Council since 2005.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0120#0-54",
+   "artifact_id": "genmem_940c258011aac604:a0120",
+   "start": 0,
+   "end": 54,
+   "text": "[2SM Radio Sydney] Searle on the Grant Goldman Show...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0128#0-201",
+   "artifact_id": "genmem_940c258011aac604:a0128",
+   "start": 0,
+   "end": 201,
+   "text": "Adam Searle MLC Chair Select Committee on the High Level of First Nations People in Custody and Oversight and Review of Deaths in Custody Parliament of New South Wales Macquarie Street SYDNEY NSW 2000.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_a143f1baae0f53f6#0-29",
+   "artifact_id": "genmem_940c258011aac604:arg_a143f1baae0f53f6",
+   "start": 0,
+   "end": 29,
+   "text": "call_019fc41158de75a288c012f4",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0032#0-64",
+   "artifact_id": "genmem_940c258011aac604:a0032",
+   "start": 0,
+   "end": 64,
+   "text": "Michael Daley abandons bid to remain NSW Labor leader - ABC News",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0087#21-54",
+   "artifact_id": "genmem_940c258011aac604:a0087",
+   "start": 21,
+   "end": 54,
+   "text": "NSW Election 2019 | Full Results.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0075#0-54",
+   "artifact_id": "genmem_940c258011aac604:a0075",
+   "start": 0,
+   "end": 54,
+   "text": "https://www.tallyroom.com.au/archive/nsw2023/lcnsw2023",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_fee9d46086e4b962#0-29",
+   "artifact_id": "genmem_940c258011aac604:arg_fee9d46086e4b962",
+   "start": 0,
+   "end": 29,
+   "text": "call_019fc4089d967b32b21cd7a5",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0062#343-379",
+   "artifact_id": "genmem_940c258011aac604:a0062",
+   "start": 343,
+   "end": 379,
+   "text": "Wait - this might be poorly phrased.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0087#54-246",
+   "artifact_id": "genmem_940c258011aac604:a0087",
+   "start": 54,
+   "end": 246,
+   "text": "NSW Labor leader Michael Daley will face a leadership challenge after a bruising state election result in which the party's primary vote went backwards — with at least one confirmed candidate.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_6955136e13ed096c#0-62",
+   "artifact_id": "genmem_940c258011aac604:arg_6955136e13ed096c",
+   "start": 0,
+   "end": 62,
+   "text": "\"Leader of the Opposition in the Legislative Council\" NSW 2019",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0125#166-197",
+   "artifact_id": "genmem_940c258011aac604:a0125",
+   "start": 166,
+   "end": 197,
+   "text": "We can, and we must, do better.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0129#37-54",
+   "artifact_id": "genmem_940c258011aac604:a0129",
+   "start": 37,
+   "end": 54,
+   "text": "| Adam Searle MLC",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0070#0-170",
+   "artifact_id": "genmem_940c258011aac604:a0070",
+   "start": 0,
+   "end": 170,
+   "text": "Labor and the Animal Justice Party also picked up another seat each after the final distribution of preferences on Monday, more than three weeks after the state election.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0055#67-246",
+   "artifact_id": "genmem_940c258011aac604:a0055",
+   "start": 67,
+   "end": 246,
+   "text": "After the 1898 election, Labor held the balance of power with George Reid's Free Trade government being dependent on Labor to push through New South Wales' adoption of Federation.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_38c4b79f65b38d58#0-29",
+   "artifact_id": "genmem_940c258011aac604:arg_38c4b79f65b38d58",
+   "start": 0,
+   "end": 29,
+   "text": "call_019fc40df45d71f0a9fad32c",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0150#153-214",
+   "artifact_id": "genmem_940c258011aac604:a0150",
+   "start": 153,
+   "end": 214,
+   "text": "Adam Searle was the Labor leader in the Council at that time.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_35120b8f9790483a#0-35",
+   "artifact_id": "genmem_940c258011aac604:arg_35120b8f9790483a",
+   "start": 0,
+   "end": 35,
+   "text": "Adam Searle MLC born 1969 NSW Labor",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0202#0-62",
+   "artifact_id": "genmem_940c258011aac604:a0202",
+   "start": 0,
+   "end": 62,
+   "text": "Jodi McKay wins NSW Labor leadership from Chris Minns after...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0157#0-59",
+   "artifact_id": "genmem_940c258011aac604:a0157",
+   "start": 0,
+   "end": 59,
+   "text": "https://100climateconversations.com/penny-sharpe/index.html",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0097#77-106",
+   "artifact_id": "genmem_940c258011aac604:a0097",
+   "start": 77,
+   "end": 106,
+   "text": "He was born on 29 April 1969.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0097#0-11",
+   "artifact_id": "genmem_940c258011aac604:a0097",
+   "start": 0,
+   "end": 11,
+   "text": "I found it.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0000#66-84",
+   "artifact_id": "genmem_940c258011aac604:a0000",
+   "start": 66,
+   "end": 84,
+   "text": "</system-reminder>",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0093#25-35",
+   "artifact_id": "genmem_940c258011aac604:a0093",
+   "start": 25,
+   "end": 35,
+   "text": "ALP 15.3%.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0171#209-230",
+   "artifact_id": "genmem_940c258011aac604:a0171",
+   "start": 209,
+   "end": 230,
+   "text": "Born 22 October 1970.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0001#0-46",
+   "artifact_id": "genmem_940c258011aac604:a0001",
+   "start": 0,
+   "end": 46,
+   "text": "You are solving a benchmark training question.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0027#0-124",
+   "artifact_id": "genmem_940c258011aac604:a0027",
+   "start": 0,
+   "end": 124,
+   "text": "https://www.theguardian.com/australia-news/2019/mar/26/michael-daley-wont-contest-nsw-labor-leadership-after-losing-election",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0123#0-26",
+   "artifact_id": "genmem_940c258011aac604:a0123",
+   "start": 0,
+   "end": 26,
+   "text": "Address by adam searle MLC",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0001#973-1026",
+   "artifact_id": "genmem_940c258011aac604:a0001",
+   "start": 973,
+   "end": 1026,
+   "text": "Return your final answer in this exact trailing form:",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0139#0-80",
+   "artifact_id": "genmem_940c258011aac604:a0139",
+   "start": 0,
+   "end": 80,
+   "text": "https://www.insidestategovernment.com.au/next-nsw-parliamentary-clerk-appointed/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0058#0-104",
+   "artifact_id": "genmem_940c258011aac604:a0058",
+   "start": 0,
+   "end": 104,
+   "text": "Buckingham is contesting the state election as an independent for a seat in the NSW Legislative Council.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0207#0-213",
+   "artifact_id": "genmem_940c258011aac604:a0207",
+   "start": 0,
+   "end": 213,
+   "text": "After NSW Labor leader Michael Daley’s woeful performance during the state election and his decision to stand aside so he can recontest the leadership ballot, attention has turned to the other possible contenders.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0171#232-364",
+   "artifact_id": "genmem_940c258011aac604:a0171",
+   "start": 232,
+   "end": 364,
+   "text": "Wait, she was \"Acting Leader of the New South Wales Labor Party\" not necessarily the \"Opposition Leader in the Legislative Council\".",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0062#89-179",
+   "artifact_id": "genmem_940c258011aac604:a0062",
+   "start": 89,
+   "end": 179,
+   "text": "This is a bit ambiguous - it could mean the Leader of the Opposition during that election.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0065#0-23",
+   "artifact_id": "genmem_940c258011aac604:a0065",
+   "start": 0,
+   "end": 23,
+   "text": "Adam Searle - Wikipedia",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0031#151-163",
+   "artifact_id": "genmem_940c258011aac604:a0031",
+   "start": 151,
+   "end": 163,
+   "text": "09 May 2019.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0029#0-8",
+   "artifact_id": "genmem_940c258011aac604:a0029",
+   "start": 0,
+   "end": 8,
+   "text": "The Hon.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0001#164-288",
+   "artifact_id": "genmem_940c258011aac604:a0001",
+   "start": 164,
+   "end": 288,
+   "text": "Leave a compact, observable solve trace before the final answer so this run can be distilled into reusable experience later.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_8e380cdea1c2b75c#0-9",
+   "artifact_id": "genmem_940c258011aac604:arg_8e380cdea1c2b75c",
+   "start": 0,
+   "end": 9,
+   "text": "tool_call",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0014#0-66",
+   "artifact_id": "genmem_940c258011aac604:a0014",
+   "start": 0,
+   "end": 66,
+   "text": "Mark Latham Photos, News and Videos, Trivia and Quotes - FamousFix",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0132#0-41",
+   "artifact_id": "genmem_940c258011aac604:a0132",
+   "start": 0,
+   "end": 41,
+   "text": "I found Adam Searle - born 29 April 1969.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0058#104-202",
+   "artifact_id": "genmem_940c258011aac604:a0058",
+   "start": 104,
+   "end": 202,
+   "text": "Sources in NSW Labor and the NSW Greens told Honi the battle for Balmain is set to be a close one.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0114#0-233",
+   "artifact_id": "genmem_940c258011aac604:a0114",
+   "start": 0,
+   "end": 233,
+   "text": "Contact the New South Wales State Premier, Opposition Leader and Transport Ministers in the above table to advise you are disheartened by the state’s mismanagement and misalignment of vehicle modification legislation and standards...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_bcd0059d077570ed#0-73",
+   "artifact_id": "genmem_940c258011aac604:arg_bcd0059d077570ed",
+   "start": 0,
+   "end": 73,
+   "text": "Opposition Leader New South Wales Legislative Council 2019 state election",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0155#134-162",
+   "artifact_id": "genmem_940c258011aac604:a0155",
+   "start": 134,
+   "end": 162,
+   "text": "is an Australian politician.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0141#0-31",
+   "artifact_id": "genmem_940c258011aac604:a0141",
+   "start": 0,
+   "end": 31,
+   "text": "Meet Damien - Liberal Party NSW",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_0ee73a425c44b32b#0-29",
+   "artifact_id": "genmem_940c258011aac604:arg_0ee73a425c44b32b",
+   "start": 0,
+   "end": 29,
+   "text": "call_019fc41158de75a288c01306",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0183#0-68",
+   "artifact_id": "genmem_940c258011aac604:a0183",
+   "start": 0,
+   "end": 68,
+   "text": "Women for Election In Conversation with Penny Sharpe :: Recording...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0143#0-112",
+   "artifact_id": "genmem_940c258011aac604:a0143",
+   "start": 0,
+   "end": 112,
+   "text": "Shadow Attorney General, Shadow Minister for Youth Justice, Leader of the Opposition in the Legislative Council.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0089#0-122",
+   "artifact_id": "genmem_940c258011aac604:a0089",
+   "start": 0,
+   "end": 122,
+   "text": "https://www.theguardian.com/australia-news/2019/jun/29/jodi-mckay-elected-new-south-wales-labor-leader-after-tense-meeting",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_f288d8b523b361c0#0-59",
+   "artifact_id": "genmem_940c258011aac604:arg_f288d8b523b361c0",
+   "start": 0,
+   "end": 59,
+   "text": "Michael Daley NSW Opposition Leader 2019 election birthdate",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0050#0-52",
+   "artifact_id": "genmem_940c258011aac604:a0050",
+   "start": 0,
+   "end": 52,
+   "text": "Jodi McKay: new NSW Labor leader says she's 'more...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0062#0-88",
+   "artifact_id": "genmem_940c258011aac604:a0062",
+   "start": 0,
+   "end": 88,
+   "text": "The question asks about \"Opposition Leader in the New South Wales state election, 2019\".",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0030#0-73",
+   "artifact_id": "genmem_940c258011aac604:a0030",
+   "start": 0,
+   "end": 73,
+   "text": "https://www.parliament.nsw.gov.au/members/Pages/member-details.aspx?pk=27",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0155#90-133",
+   "artifact_id": "genmem_940c258011aac604:a0155",
+   "start": 90,
+   "end": 133,
+   "text": "Penelope Gail Sharpe (born 22 October 1970)",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0079#0-44",
+   "artifact_id": "genmem_940c258011aac604:a0079",
+   "start": 0,
+   "end": 44,
+   "text": "Legislative Council Labor leader Adam Searle",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0062#380-553",
+   "artifact_id": "genmem_940c258011aac604:a0062",
+   "start": 380,
+   "end": 553,
+   "text": "Looking at it again - \"currently the Opposition Leader in the New South Wales state election, 2019\" - this could mean someone who was Opposition Leader AT the 2019 election.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0136#0-96",
+   "artifact_id": "genmem_940c258011aac604:a0136",
+   "start": 0,
+   "end": 96,
+   "text": "https://www.parliament.nsw.gov.au/members/formermembers/Pages/former-member-details.aspx?pk=1954",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0090#131-164",
+   "artifact_id": "genmem_940c258011aac604:a0090",
+   "start": 131,
+   "end": 164,
+   "text": "Photograph: Bianca de Marchi/AAP.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0150#0-78",
+   "artifact_id": "genmem_940c258011aac604:a0150",
+   "start": 0,
+   "end": 78,
+   "text": "The \"Leader of the Opposition in the Legislative Council\" is a separate title.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0011#0-21",
+   "artifact_id": "genmem_940c258011aac604:a0011",
+   "start": 0,
+   "end": 21,
+   "text": "Council Election 2019",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0103#12-66",
+   "artifact_id": "genmem_940c258011aac604:a0103",
+   "start": 12,
+   "end": 66,
+   "text": "The environment - top issue for New South Wales voters",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0107#0-111",
+   "artifact_id": "genmem_940c258011aac604:a0107",
+   "start": 0,
+   "end": 111,
+   "text": "https://www.themidnorthcoaster.com.au/p/12-months-out-from-election-new-south-wales-liberals-vote-in-new-leader",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0155#43-50",
+   "artifact_id": "genmem_940c258011aac604:a0155",
+   "start": 43,
+   "end": 50,
+   "text": "Acting.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0078#0-74",
+   "artifact_id": "genmem_940c258011aac604:a0078",
+   "start": 0,
+   "end": 74,
+   "text": "https://obriensolicitors.com.au/parliamentary-stand-off-more-icac-funding/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0007#0-87",
+   "artifact_id": "genmem_940c258011aac604:a0007",
+   "start": 0,
+   "end": 87,
+   "text": "Main article: Results of the 2019 New South Wales state election (Legislative Council).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0163#0-54",
+   "artifact_id": "genmem_940c258011aac604:a0163",
+   "start": 0,
+   "end": 54,
+   "text": "https://www.tallyroom.com.au/archive/nsw2019/lcnsw2019",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0001#95-163",
+   "artifact_id": "genmem_940c258011aac604:a0001",
+   "start": 95,
+   "end": 163,
+   "text": "Use DeerFlow tools or subagents only when they are genuinely useful.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0012#0-89",
+   "artifact_id": "genmem_940c258011aac604:a0012",
+   "start": 0,
+   "end": 89,
+   "text": "https://www.parliament.nsw.gov.au/researchpapers/Documents/NSW2019_LegislativeCouncil.pdf",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0093#36-77",
+   "artifact_id": "genmem_940c258011aac604:a0093",
+   "start": 36,
+   "end": 77,
+   "text": "Incumbent MP Tanya Plibersek, since 1998.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0096#60-217",
+   "artifact_id": "genmem_940c258011aac604:a0096",
+   "start": 60,
+   "end": 217,
+   "text": "At the 1910 election, the Labor Party first won government in NSW with a slim majority of 46 of 90 seats; as a result, McGowen was premier from 1910 to 1913.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0145#0-91",
+   "artifact_id": "genmem_940c258011aac604:a0145",
+   "start": 0,
+   "end": 91,
+   "text": "https://www.parliament.wa.gov.au/Parliament/Memblist.nsf/1/06A210994B60A784482565D000295567",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0121#0-43",
+   "artifact_id": "genmem_940c258011aac604:a0121",
+   "start": 0,
+   "end": 43,
+   "text": "https://www.youtube.com/watch?v=Y9mEsVfSSuo",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0103#0-11",
+   "artifact_id": "genmem_940c258011aac604:a0103",
+   "start": 0,
+   "end": 11,
+   "text": "TONY SMITH.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0005#0-47",
+   "artifact_id": "genmem_940c258011aac604:a0005",
+   "start": 0,
+   "end": 47,
+   "text": "2019 New South Wales state election - Wikipedia",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0049#130-261",
+   "artifact_id": "genmem_940c258011aac604:a0049",
+   "start": 130,
+   "end": 261,
+   "text": "He previously served as the leader of the Australian Labor Party and leader of the opposition from December 2003 to January 2005...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0026#52-66",
+   "artifact_id": "genmem_940c258011aac604:a0026",
+   "start": 52,
+   "end": 66,
+   "text": "| The Guardian",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0155#51-90",
+   "artifact_id": "genmem_940c258011aac604:a0155",
+   "start": 51,
+   "end": 90,
+   "text": "In office 25 March 2019 – 29 June 2019.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "genmem_940c258011aac604:a0155:u51-90",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0196#0-67",
+   "artifact_id": "genmem_940c258011aac604:a0196",
+   "start": 0,
+   "end": 67,
+   "text": "NSW Election: Michael Daley steps aside ahead of NSW Labor Party...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0019#0-192",
+   "artifact_id": "genmem_940c258011aac604:a0019",
+   "start": 0,
+   "end": 192,
+   "text": "Former NSW opposition leader Michael Daley has put his hand up for a second stint as Labor leader, likely prompting a party leadership ballot, after Jodi McKay quit following by-election loss.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0102#0-25",
+   "artifact_id": "genmem_940c258011aac604:a0102",
+   "start": 0,
+   "end": 25,
+   "text": "New South Wales politics.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0150#79-152",
+   "artifact_id": "genmem_940c258011aac604:a0150",
+   "start": 79,
+   "end": 152,
+   "text": "Since 2019 was a Coalition government win, the Opposition would be Labor.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0148#0-114",
+   "artifact_id": "genmem_940c258011aac604:a0148",
+   "start": 0,
+   "end": 114,
+   "text": "https://www.businessnews.com.au/Author/Hon-Dr-Steve-Thomas-MLC-Leader-of-the-Opposition-in-the-Legislative-Council",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0010#0-190",
+   "artifact_id": "genmem_940c258011aac604:a0010",
+   "start": 0,
+   "end": 190,
+   "text": "During the 2007 New South Wales state election, the CDP called for a moratorium on Muslim immigration to Australia, seeking to replace them with \"persecuted Christians from the Middle East\".",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0207#214-270",
+   "artifact_id": "genmem_940c258011aac604:a0207",
+   "start": 214,
+   "end": 270,
+   "text": "The two frontrunners are MPs Jodi McKay and Chris Minns.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0079#45-217",
+   "artifact_id": "genmem_940c258011aac604:a0079",
+   "start": 45,
+   "end": 217,
+   "text": "said that the ICAC chief commission had stated that if funding was kept up with inflation, they would have been receiving and extra $7.2 million in the last financial year.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0127#0-115",
+   "artifact_id": "genmem_940c258011aac604:a0127",
+   "start": 0,
+   "end": 115,
+   "text": "https://www.parliament.nsw.gov.au/lcdocs/other/14089/Inspector+of+Custodial+Services+-+received+27+January+2021.PDF",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0097#440-475",
+   "artifact_id": "genmem_940c258011aac604:a0097",
+   "start": 440,
+   "end": 475,
+   "text": "Let me search again more carefully.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0111#0-196",
+   "artifact_id": "genmem_940c258011aac604:a0111",
+   "start": 0,
+   "end": 196,
+   "text": "The New South Wales Act 1823 provided that the Governor could appoint a legislative council.4 However, nothing in the Act specified how often the Council was to convene, or how long it should sit.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0051#0-139",
+   "artifact_id": "genmem_940c258011aac604:a0051",
+   "start": 0,
+   "end": 139,
+   "text": "https://www.theguardian.com/australia-news/2019/jun/30/jodi-mckay-new-nsw-labor-leader-says-party-must-regain-the-faith-and-trust-of-voters",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0076#168-264",
+   "artifact_id": "genmem_940c258011aac604:a0076",
+   "start": 168,
+   "end": 264,
+   "text": "There are 42 members of the Legislative Council, with 21 elected at each election for two terms.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0097#366-439",
+   "artifact_id": "genmem_940c258011aac604:a0097",
+   "start": 366,
+   "end": 439,
+   "text": "It might be poorly worded or referring to someone who fits both criteria.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0167#224-254",
+   "artifact_id": "genmem_940c258011aac604:a0167",
+   "start": 224,
+   "end": 254,
+   "text": "Topic:Government and Politics.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_785038b416817add#0-72",
+   "artifact_id": "genmem_940c258011aac604:arg_785038b416817add",
+   "start": 0,
+   "end": 72,
+   "text": "\"Penny Sharpe\" \"Leader of the Opposition\" \"Legislative Council\" NSW born",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0073#0-58",
+   "artifact_id": "genmem_940c258011aac604:a0073",
+   "start": 0,
+   "end": 58,
+   "text": "Ex-Labor leader in the NSW Legislative Council Adam Searle",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0201#0-231",
+   "artifact_id": "genmem_940c258011aac604:a0201",
+   "start": 0,
+   "end": 231,
+   "text": "MORNING BRIEFING: NSW Labor's new interim leader Penny Sharpe will spend her first day hitting the phones and regrouping after the election, while police charge a man after discovering a camera hidden in a deodorant stick at Bondi.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0001#1027-1049",
+   "artifact_id": "genmem_940c258011aac604:a0001",
+   "start": 1027,
+   "end": 1049,
+   "text": "Final answer: <answer>",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0093#0-24",
+   "artifact_id": "genmem_940c258011aac604:a0093",
+   "start": 0,
+   "end": 24,
+   "text": "Sydney – Australia 2019.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0143#113-246",
+   "artifact_id": "genmem_940c258011aac604:a0143",
+   "start": 113,
+   "end": 246,
+   "text": "Damien and his wife Diane have lived in the North West for 25 years, working and raising their nine children in the Epping community.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0049#0-129",
+   "artifact_id": "genmem_940c258011aac604:a0049",
+   "start": 0,
+   "end": 129,
+   "text": "Mark William Latham is an Australian politician and media commentator who is a member of the New South Wales Legislative Council.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_940c258011aac604:a0049:u0-129",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_940c258011aac604:a0049:u0-129",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0206#0-119",
+   "artifact_id": "genmem_940c258011aac604:a0206",
+   "start": 0,
+   "end": 119,
+   "text": "https://www.theage.com.au/politics/nsw/meet-the-likely-labor-contenders-chris-minns-and-jodi-mckay-20190325-p517c2.html",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_b6e289422f60d406#0-29",
+   "artifact_id": "genmem_940c258011aac604:arg_b6e289422f60d406",
+   "start": 0,
+   "end": 29,
+   "text": "call_019fc40df45d71f0a9fad315",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0001#290-394",
+   "artifact_id": "genmem_940c258011aac604:a0001",
+   "start": 290,
+   "end": 394,
+   "text": "For factual, entity-comparison, multi-hop, or time-sensitive questions, do not answer from a bare guess.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0086#0-55",
+   "artifact_id": "genmem_940c258011aac604:a0086",
+   "start": 0,
+   "end": 55,
+   "text": "https://www.abc.net.au/news/elections/nsw-election-2019",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0047#0-23",
+   "artifact_id": "genmem_940c258011aac604:a0047",
+   "start": 0,
+   "end": 23,
+   "text": "Mark Latham - Wikipedia",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0159#0-66",
+   "artifact_id": "genmem_940c258011aac604:a0159",
+   "start": 0,
+   "end": 66,
+   "text": "Penny Sharpe - Leader of the Government in the Legislative Council",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0023#0-25",
+   "artifact_id": "genmem_940c258011aac604:a0023",
+   "start": 0,
+   "end": 25,
+   "text": "Michael Daley - Wikipedia",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0031#70-101",
+   "artifact_id": "genmem_940c258011aac604:a0031",
+   "start": 70,
+   "end": 101,
+   "text": "Postal.1 year 9 months 17 days.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0106#0-68",
+   "artifact_id": "genmem_940c258011aac604:a0106",
+   "start": 0,
+   "end": 68,
+   "text": "12 months out from election, New South Wales Liberals vote in new...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0131#17-61",
+   "artifact_id": "genmem_940c258011aac604:a0131",
+   "start": 17,
+   "end": 61,
+   "text": "Labor Member of the NSW Legislative Council.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0197#0-143",
+   "artifact_id": "genmem_940c258011aac604:a0197",
+   "start": 0,
+   "end": 143,
+   "text": "https://www.nine.com.au/australia-news/nsw-election-michael-daley-to-survive-leadership-spill-until-after-federal-election-20190325-p5wysm.html",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0031#164-176",
+   "artifact_id": "genmem_940c258011aac604:a0031",
+   "start": 164,
+   "end": 176,
+   "text": "03 Mar 2023.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0073#59-100",
+   "artifact_id": "genmem_940c258011aac604:a0073",
+   "start": 59,
+   "end": 100,
+   "text": "has been in parliament for over 11 years.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0028#0-253",
+   "artifact_id": "genmem_940c258011aac604:a0028",
+   "start": 0,
+   "end": 253,
+   "text": "NSW Labor first delayed the party’s leadership ballot for eight weeks – until after the federal election campaign – after the federal Labor leader, Bill Shorten, expressed concerns about how Daley’s gaffe might play out during the looming national vote.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0128#238-264",
+   "artifact_id": "genmem_940c258011aac604:a0128",
+   "start": 238,
+   "end": 264,
+   "text": "Adam Searle, respectively.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0132#721-839",
+   "artifact_id": "genmem_940c258011aac604:a0132",
+   "start": 721,
+   "end": 839,
+   "text": "Perhaps it means someone who was the \"Opposition Leader\" (in the Legislative Council) during/around the 2019 election.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0150#432-628",
+   "artifact_id": "genmem_940c258011aac604:a0150",
+   "start": 432,
+   "end": 628,
+   "text": "I think the question might be a bit garbled - it could mean: a politician who was a member of the NSW Legislative Council, and who was Opposition Leader at the time of the 2019 NSW state election.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0189#0-172",
+   "artifact_id": "genmem_940c258011aac604:a0189",
+   "start": 0,
+   "end": 172,
+   "text": "Penny Sharpe was \"ALP Leader of the Opposition in the NSW Parliament's Upper House\" - she's a member of the Legislative Council and was the Opposition Leader in that house.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0204#102-263",
+   "artifact_id": "genmem_940c258011aac604:a0204",
+   "start": 102,
+   "end": 263,
+   "text": "Ms McKay defeated Kogarah MP Chris Minns in a caucus vote 29 to 21, and sealed the deal by also winning 63 per cent of the votes of 10,800 rank-and-file members.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0074#0-47",
+   "artifact_id": "genmem_940c258011aac604:a0074",
+   "start": 0,
+   "end": 47,
+   "text": "Legislative Council – NSW 2023 | The Tally Room",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0190#0-50",
+   "artifact_id": "genmem_940c258011aac604:a0190",
+   "start": 0,
+   "end": 50,
+   "text": "Error: Request to Jina API failed: ConnectTimeout:",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0018#0-97",
+   "artifact_id": "genmem_940c258011aac604:a0018",
+   "start": 0,
+   "end": 97,
+   "text": "https://www.dailymail.com/news/article-9634251/Michael-Daley-challenge-NSW-opposition-leader.html",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0007#87-269",
+   "artifact_id": "genmem_940c258011aac604:a0007",
+   "start": 87,
+   "end": 269,
+   "text": "The event was attended by federal Labor leader and Leader of the Opposition Bill Shorten, as well as former New South Wales Premiers Kristina Keneally, Bob Carr, and Barrie Unsworth.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0155#0-42",
+   "artifact_id": "genmem_940c258011aac604:a0155",
+   "start": 0,
+   "end": 42,
+   "text": "Leader of the New South Wales Labor Party.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_5ed5b45580c23226#0-67",
+   "artifact_id": "genmem_940c258011aac604:arg_5ed5b45580c23226",
+   "start": 0,
+   "end": 67,
+   "text": "Penny Sharpe Acting Leader NSW Labor March 2019 election opposition",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0171#505-610",
+   "artifact_id": "genmem_940c258011aac604:a0171",
+   "start": 505,
+   "end": 610,
+   "text": "So during this time, Penny Sharpe was acting leader of the Labor Party and thus acting Opposition Leader.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0029#9-38",
+   "artifact_id": "genmem_940c258011aac604:a0029",
+   "start": 9,
+   "end": 38,
+   "text": "Michael John DALEY, DipLaw MP",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0033#0-97",
+   "artifact_id": "genmem_940c258011aac604:a0033",
+   "start": 0,
+   "end": 97,
+   "text": "https://www.abc.net.au/news/2019-03-27/michael-daley-not-contesting-nsw-labor-leadership/10941948",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0002#0-159",
+   "artifact_id": "genmem_940c258011aac604:a0002",
+   "start": 0,
+   "end": 159,
+   "text": "I need to identify the Australian politician who was both a member of the NSW Legislative Council AND the Opposition Leader during the 2019 NSW state election.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0002#160-179",
+   "artifact_id": "genmem_940c258011aac604:a0002",
+   "start": 160,
+   "end": 179,
+   "text": "Let me verify this.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0073#130-254",
+   "artifact_id": "genmem_940c258011aac604:a0073",
+   "start": 130,
+   "end": 254,
+   "text": "A long-serving NSW MP is off Labor's upper house ticket after the party's right faction held a crucial preselection meeting.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0025#0-139",
+   "artifact_id": "genmem_940c258011aac604:a0025",
+   "start": 0,
+   "end": 139,
+   "text": "Michael John Daley (born 1 November 1965) is an Australian politician who has served as the attorney general of New South Wales since 2023.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0024#0-43",
+   "artifact_id": "genmem_940c258011aac604:a0024",
+   "start": 0,
+   "end": 43,
+   "text": "https://en.wikipedia.org/wiki/Michael_Daley",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_435a3063d2b26184#0-29",
+   "artifact_id": "genmem_940c258011aac604:arg_435a3063d2b26184",
+   "start": 0,
+   "end": 29,
+   "text": "call_019fc413f5e275d29924ece2",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0093#78-112",
+   "artifact_id": "genmem_940c258011aac604:a0093",
+   "start": 78,
+   "end": 112,
+   "text": "Geography Inner suburbs of Sydney.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0178#0-40",
+   "artifact_id": "genmem_940c258011aac604:a0178",
+   "start": 0,
+   "end": 40,
+   "text": "https://grokipedia.com/page/Penny_Sharpe",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0053#0-38",
+   "artifact_id": "genmem_940c258011aac604:a0053",
+   "start": 0,
+   "end": 38,
+   "text": "New South Wales Labor Party - Wikiwand",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_91b9d0691b7f3b71#0-29",
+   "artifact_id": "genmem_940c258011aac604:arg_91b9d0691b7f3b71",
+   "start": 0,
+   "end": 29,
+   "text": "call_019fc412cd717d31b05b9a59",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0009#0-111",
+   "artifact_id": "genmem_940c258011aac604:a0009",
+   "start": 0,
+   "end": 111,
+   "text": "https://web.archive.org/web/20250212005047/https://en.wikipedia.org/wiki/Christian_Democratic_Party_(Australia)",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0088#0-50",
+   "artifact_id": "genmem_940c258011aac604:a0088",
+   "start": 0,
+   "end": 50,
+   "text": "Jodi McKay elected New South Wales Labor leader...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0001#620-666",
+   "artifact_id": "genmem_940c258011aac604:a0001",
+   "start": 620,
+   "end": 666,
+   "text": "- <key fact, calculation, or tool result used>",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0146#174-260",
+   "artifact_id": "genmem_940c258011aac604:a0146",
+   "start": 174,
+   "end": 260,
+   "text": "Member of Opposition (later Coalition) Management Team 24 May 1992 – 16 February 1993.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0041#0-150",
+   "artifact_id": "genmem_940c258011aac604:a0041",
+   "start": 0,
+   "end": 150,
+   "text": "Michael Daley was Leader of the Opposition during the 2019 NSW election, but he is a member of the Legislative Assembly (MP), not Legislative Council.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0105#0-81",
+   "artifact_id": "genmem_940c258011aac604:a0105",
+   "start": 0,
+   "end": 81,
+   "text": "Traditionally, New South Wales election campaigns are tightly controlled affairs.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0112#0-43",
+   "artifact_id": "genmem_940c258011aac604:a0112",
+   "start": 0,
+   "end": 43,
+   "text": "New South Wales | Time To Align - Australia",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_940c258011aac604:a0112:u0-43",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_940c258011aac604:a0112:u0-43",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0067#33-87",
+   "artifact_id": "genmem_940c258011aac604:a0067",
+   "start": 33,
+   "end": 87,
+   "text": "is an Australian barrister and Labor Party politician.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0132#130-320",
+   "artifact_id": "genmem_940c258011aac604:a0132",
+   "start": 130,
+   "end": 320,
+   "text": "But the question specifically says \"Opposition Leader in the New South Wales state election, 2019\" - that title (Leader of the Opposition) belonged to Michael Daley during the 2019 election.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0128#201-237",
+   "artifact_id": "genmem_940c258011aac604:a0128",
+   "start": 201,
+   "end": 237,
+   "text": "Penny Sharpe and the Chair, the Hon.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0087#0-20",
+   "artifact_id": "genmem_940c258011aac604:a0087",
+   "start": 0,
+   "end": 20,
+   "text": "Legislative Council.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0124#0-196",
+   "artifact_id": "genmem_940c258011aac604:a0124",
+   "start": 0,
+   "end": 196,
+   "text": "https://d3n8a8pro7vhmx.cloudfront.net/nswlaborlawyers/pages/1349/attachments/original/1631960517/210830_Speech_by_the_Hon_Adam_Searle_MLC_-_COVID-19_and_the_Australian_Labour_Market.pdf?1631960517",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0076#0-167",
+   "artifact_id": "genmem_940c258011aac604:a0076",
+   "start": 0,
+   "end": 167,
+   "text": "Electoral system The New South Wales Legislative Council is elected using a system of proportional representation, with all MLCs elected to represent the entire state.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0188#0-108",
+   "artifact_id": "genmem_940c258011aac604:a0188",
+   "start": 0,
+   "end": 108,
+   "text": "The Leader of the Opposition in the Legislative Council, the Hon Damien Tudehope, made a statement in reply.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0177#0-12",
+   "artifact_id": "genmem_940c258011aac604:a0177",
+   "start": 0,
+   "end": 12,
+   "text": "Penny Sharpe",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0025#140-257",
+   "artifact_id": "genmem_940c258011aac604:a0025",
+   "start": 140,
+   "end": 257,
+   "text": "He previously served as the leader of the opposition and leader of the New South Wales Labor Party from 2018 to 2019.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0171#400-504",
+   "artifact_id": "genmem_940c258011aac604:a0171",
+   "start": 400,
+   "end": 504,
+   "text": "But also note: Michael Daley stood aside on 25 March 2019, and Jodi McKay became leader on 29 June 2019.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0013#51-79",
+   "artifact_id": "genmem_940c258011aac604:a0013",
+   "start": 51,
+   "end": 79,
+   "text": "Background Paper No 04/2022.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0090#60-130",
+   "artifact_id": "genmem_940c258011aac604:a0090",
+   "start": 60,
+   "end": 130,
+   "text": "She has previously served as a junior minister under two NSW premiers.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0094#0-41",
+   "artifact_id": "genmem_940c258011aac604:a0094",
+   "start": 0,
+   "end": 41,
+   "text": "New South Wales Labor Party ::: Open WIKI",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0122#0-183",
+   "artifact_id": "genmem_940c258011aac604:a0122",
+   "start": 0,
+   "end": 183,
+   "text": "Labor Shadow Minister for Energy Adam Searle MLC uncovered the truth – and wants the Minister for Energy to explain why the government was determined to keep the over-charging secret.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0070#171-244",
+   "artifact_id": "genmem_940c258011aac604:a0070",
+   "start": 171,
+   "end": 244,
+   "text": "One Nation's NSW upper house representatives Mark Latham and Rob Roberts.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0073#101-129",
+   "artifact_id": "genmem_940c258011aac604:a0073",
+   "start": 101,
+   "end": 129,
+   "text": "(Dan Himbrechts/AAP PHOTOS).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0105#189-261",
+   "artifact_id": "genmem_940c258011aac604:a0105",
+   "start": 189,
+   "end": 261,
+   "text": "In 2019 the issue which should determine the outcome is the environment.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0108#0-215",
+   "artifact_id": "genmem_940c258011aac604:a0108",
+   "start": 0,
+   "end": 215,
+   "text": "Kellie Sloane, the state Liberal member for Vaucluse, has been elected unopposed as the leader of the New South Wales Liberal party following the resignation of opposition leader Mark Speakman on Thursday afternoon.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0144#0-65",
+   "artifact_id": "genmem_940c258011aac604:a0144",
+   "start": 0,
+   "end": 65,
+   "text": "Find your member and learn how Members of Parliament serve the...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:a0125#0-165",
+   "artifact_id": "genmem_940c258011aac604:a0125",
+   "start": 0,
+   "end": 165,
+   "text": "There is a perception that the NSW Labor Party is not doing this as strongly as is necessary, given the scale of the growing health and economic crisis gripping NSW.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_940c258011aac604:arg_f87078fe9e989c1d#0-56",
+   "artifact_id": "genmem_940c258011aac604:arg_f87078fe9e989c1d",
+   "start": 0,
+   "end": 56,
+   "text": "\"Penny Sharpe\" NSW Legislative Council Labor leader 2019",
+   "occurrences": [],
+   "pool_only": true
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "genmem_940c258011aac604:selected_08:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "genmem_940c258011aac604:a0185",
+      "start": 0,
+      "end": 125,
+      "text": "Penny Sharpe is the ALP Leader of the Opposition in the NSW Parliament’s Upper House and Shadow Minister for the Environment."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "genmem_940c258011aac604:a0185",
+       "start": 0,
+       "end": 125,
+       "text": "Penny Sharpe is the ALP Leader of the Opposition in the NSW Parliament’s Upper House and Shadow Minister for the Environment."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "genmem_940c258011aac604:a0155",
+      "start": 51,
+      "end": 90,
+      "text": "In office 25 March 2019 – 29 June 2019."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "genmem_940c258011aac604:a0155",
+       "start": 51,
+       "end": 90,
+       "text": "In office 25 March 2019 – 29 June 2019."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "genmem_940c258011aac604:a0155",
+      "start": 163,
+      "end": 274,
+      "text": "She has served as a member of the New South Wales Legislative Council since 2005, representing the Labor Party."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "genmem_940c258011aac604:a0155",
+       "start": 163,
+       "end": 274,
+       "text": "She has served as a member of the New South Wales Legislative Council since 2005, representing the Labor Party."
+      },
+      {
+       "artifact_id": "genmem_940c258011aac604:a0176",
+       "start": 73,
+       "end": 184,
+       "text": "She has served as a member of the New South Wales Legislative Council since 2005, representing the Labor Party."
+      },
+      {
+       "artifact_id": "genmem_940c258011aac604:a0182",
+       "start": 73,
+       "end": 184,
+       "text": "She has served as a member of the New South Wales Legislative Council since 2005, representing the Labor Party."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "genmem_940c258011aac604:a0185#0-125"
+  ],
+  "B": [
+   "genmem_940c258011aac604:a0155#51-90"
+  ]
+ },
+ "provenance": {
+  "case_dir": "F:\\CodexProject\\MemoryFlow-research\\artifacts\\raw\\genmem_batch10_v3\\subset\\contextual64_v4\\case_03",
+  "target_id": "genmem_940c258011aac604:selected_08",
+  "group_id": null,
+  "A_unit": "genmem_940c258011aac604:a0185:u0-125",
+  "B_unit": "genmem_940c258011aac604:a0155:u51-90",
+  "same_source_policy": "normalized source text; representative unit + all occurrences",
+  "round2_a_source_leaks": [],
+  "note": "two-round controlled construction from contextual64_v4; not an original request snapshot"
+ }
+}

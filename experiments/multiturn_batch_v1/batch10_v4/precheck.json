@@ -3,10 +3,10 @@
  "total": 1,
  "cases": [
   {
-   "case_id": "genmem_58452c40de4bdcb9:selected_01",
-   "short": "case_05_selected_01",
+   "case_id": "genmem_940c258011aac604:selected_08",
+   "short": "case_03_selected_08",
    "ok": true,
-   "reason": "group support_g01 coverable by 4 windows"
+   "reason": "group support_g01 coverable by 3 windows"
   }
  ]
 }

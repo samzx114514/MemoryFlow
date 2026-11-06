@@ -1,4 +1,4 @@
-﻿import json
+import json
 from pathlib import Path
 import sys
 
@@ -17,15 +17,14 @@ for line in (root / "artifacts/raw/genmem_batch10_v3/gt100/ground_truth_v2/groun
 
 recipes = [
     {
-        "case": "case_05",
-        "target_id": "genmem_58452c40de4bdcb9:selected_01",
-        "A": "genmem_58452c40de4bdcb9:a0047:u0-110",
-        "B": "genmem_58452c40de4bdcb9:a0191:u96-205",
+        "case": "case_03",
+        "target_id": "genmem_940c258011aac604:selected_08",
+        "A": "genmem_940c258011aac604:a0185:u0-125",
+        "B": "genmem_940c258011aac604:a0155:u51-90",
         "r2_extras": [
-            "genmem_58452c40de4bdcb9:a0064:u32-123",
-            "genmem_58452c40de4bdcb9:a0064:u124-143"
+            "genmem_940c258011aac604:a0155:u163-274"
         ],
-        "intermediate": "The problem asks which gas has the larger van der Waals a parameter."
+        "intermediate": "Penny Sharpe was ALP Leader of the Opposition in the NSW Parliament's Upper House."
     },
 ]
 out = HERE
@@ -86,6 +85,7 @@ manifest = {
 }
 (out / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 print(json.dumps(manifest["totals"], ensure_ascii=False))
+
 
 
 

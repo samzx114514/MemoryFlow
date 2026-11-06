@@ -1,4 +1,4 @@
-﻿import csv
+import csv
 import json
 from pathlib import Path
 
@@ -24,7 +24,7 @@ built_v2 = {
     "genmem_874c34ceb20bf193:selected_03",
     "genmem_874c34ceb20bf193:selected_09",
     "genmem_58452c40de4bdcb9:selected_01",
-
+    "genmem_940c258011aac604:selected_08",
 }
 built_prev = set()
 
@@ -33,6 +33,7 @@ overrides = {
     "genmem_f46a08bc62ee9b37:selected_07": ("excluded-semantic", "三月与腰围/体重指标不适用；B 句是瘦素和胰岛素"),
     "genmem_e81701f69088a32d:selected_08": ("pending-evidence", "无灰阶纹理/复用扫描/无额外辐射的明确原句，待核"),
     "genmem_996703de4e5c4aa9:selected_02": ("pending-evidence", "无明确讨论生化活性是否等于生物功能的原句，待核"),
+    "genmem_996703de4e5c4aa9:selected_09": ("pending-evidence", "a0128 只支持检测比例；缺 SNP 芯片与已知变异的原句"),
     "genmem_874c34ceb20bf193:selected_06": ("control-final-sufficient", "T06 旧对照；最终轮自身足够"),
     "genmem_58452c40de4bdcb9:selected_03": ("excluded-budget", "11 项组，top-10 内无法凑齐"),
     "genmem_40dc9b8b15c0c5b8:selected_04": ("control-final-sufficient", "最终轮 a0082 直接支持最终句"),
@@ -124,6 +125,7 @@ for row in out:
     )
 (out_dir / "SCREENING_100_20261106.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 print(json.dumps(dict(counts), ensure_ascii=False, indent=1))
+
 
 
 
