@@ -1,0 +1,844 @@
+{
+  "candidates": [
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0007",
+      "canonical_id": "genmem_874c34ceb20bf193:a0007#0-67",
+      "end": 67,
+      "occurrences": [
+        {
+          "position": {
+            "index": 8,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0007:u0-67"
+        },
+        {
+          "position": {
+            "index": 10,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0007:u0-67"
+        }
+      ],
+      "start": 0,
+      "text": "\"Nine Million Bicycles\" is a song written and produced by Mike Batt"
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0007",
+      "canonical_id": "genmem_874c34ceb20bf193:a0007#68-126",
+      "end": 126,
+      "occurrences": [
+        {
+          "position": {
+            "index": 9,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0007:u68-126"
+        },
+        {
+          "position": {
+            "index": 11,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0007:u68-126"
+        }
+      ],
+      "start": 68,
+      "text": "for the singer Katie Melua's second album, Piece by Piece."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0223",
+      "canonical_id": "genmem_874c34ceb20bf193:a0223#0-149",
+      "end": 149,
+      "occurrences": [
+        {
+          "position": {
+            "index": 10,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0223:u0-149"
+        },
+        {
+          "position": {
+            "index": 12,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0223:u0-149"
+        }
+      ],
+      "start": 0,
+      "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra)."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0236",
+      "canonical_id": "genmem_874c34ceb20bf193:a0236#0-152",
+      "end": 152,
+      "occurrences": [
+        {
+          "position": {
+            "index": 11,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0236:u0-152"
+        }
+      ],
+      "start": 0,
+      "text": "From mikebatt.com, the album list appears to include: Schizophonia, Tarot Suite, Waves, Six Days In Berlin, Zero Zero, Songs Of Love And War, Arabesque."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0291",
+      "canonical_id": "genmem_874c34ceb20bf193:a0291#0-27",
+      "end": 27,
+      "occurrences": [
+        {
+          "position": {
+            "index": 1,
+            "slot": "material"
+          },
+          "role": "locator",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0291:u0-27"
+        }
+      ],
+      "start": 0,
+      "text": "Secret Symphony - Wikipedia"
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0293",
+      "canonical_id": "genmem_874c34ceb20bf193:a0293#0-37",
+      "end": 37,
+      "occurrences": [
+        {
+          "position": {
+            "index": 2,
+            "slot": "material"
+          },
+          "role": "context",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0293:u0-37"
+        }
+      ],
+      "start": 0,
+      "text": "Recorded at Air Studios in London and"
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0293",
+      "canonical_id": "genmem_874c34ceb20bf193:a0293#38-103",
+      "end": 103,
+      "occurrences": [
+        {
+          "position": {
+            "index": 3,
+            "slot": "material"
+          },
+          "role": "evidence_b",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0293:u38-103"
+        }
+      ],
+      "start": 38,
+      "text": "produced in collaboration with longtime musical partner Mike Batt"
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0294",
+      "canonical_id": "genmem_874c34ceb20bf193:a0294#0-142",
+      "end": 142,
+      "occurrences": [
+        {
+          "position": {
+            "index": 3,
+            "slot": "material"
+          },
+          "role": "locator_distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0294:u0-142"
+        }
+      ],
+      "start": 0,
+      "text": "Katie Melua – Secret Symphony | Releases | DiscogsSecret Symphony - Katie MeluaKatie Melua – Secret Symphony – CD (Album), 2012 [r11175324 ..."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0296",
+      "canonical_id": "genmem_874c34ceb20bf193:a0296#0-88",
+      "end": 88,
+      "occurrences": [
+        {
+          "position": {
+            "index": 4,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0296:u0-88"
+        },
+        {
+          "position": {
+            "index": 4,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0296:u0-88"
+        }
+      ],
+      "start": 0,
+      "text": "Explore the tracklist, credits, statistics, and more for Secret Symphony by Katie Melua."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0296",
+      "canonical_id": "genmem_874c34ceb20bf193:a0296#126-258",
+      "end": 258,
+      "occurrences": [
+        {
+          "position": {
+            "index": 5,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0296:u126-258"
+        },
+        {
+          "position": {
+            "index": 5,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0296:u126-258"
+        }
+      ],
+      "start": 126,
+      "text": "All Music Secret Symphony March 2012 View credits, reviews, tracks and shop for the 2012 CD release of \"Secret Symphony\" on Discogs."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0297",
+      "canonical_id": "genmem_874c34ceb20bf193:a0297#0-29",
+      "end": 29,
+      "occurrences": [
+        {
+          "position": {
+            "index": 12,
+            "slot": "material"
+          },
+          "role": "locator_distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0297:u0-29"
+        },
+        {
+          "position": {
+            "index": 6,
+            "slot": "material"
+          },
+          "role": "locator_distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0297:u0-29"
+        }
+      ],
+      "start": 0,
+      "text": "Secret Symphony - Katie Melua"
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0299",
+      "canonical_id": "genmem_874c34ceb20bf193:a0299#0-36",
+      "end": 36,
+      "occurrences": [
+        {
+          "position": {
+            "index": 7,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0299:u0-36"
+        }
+      ],
+      "start": 0,
+      "text": "All Music Secret Symphony March 2012"
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0300",
+      "canonical_id": "genmem_874c34ceb20bf193:a0300#0-63",
+      "end": 63,
+      "occurrences": [
+        {
+          "position": {
+            "index": 6,
+            "slot": "material"
+          },
+          "role": "locator_distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0300:u0-63"
+        },
+        {
+          "position": {
+            "index": 8,
+            "slot": "material"
+          },
+          "role": "locator_distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0300:u0-63"
+        }
+      ],
+      "start": 0,
+      "text": "Katie Melua – Secret Symphony – CD (Album), 2012 [r11175324 ..."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0302",
+      "canonical_id": "genmem_874c34ceb20bf193:a0302#0-95",
+      "end": 95,
+      "occurrences": [
+        {
+          "position": {
+            "index": 7,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0302:u0-95"
+        },
+        {
+          "position": {
+            "index": 9,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0302:u0-95"
+        }
+      ],
+      "start": 0,
+      "text": "View credits, reviews, tracks and shop for the 2012 CD release of \"Secret Symphony\" on Discogs."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0303",
+      "canonical_id": "genmem_874c34ceb20bf193:a0303#0-54",
+      "end": 54,
+      "occurrences": [
+        {
+          "position": {
+            "index": 1,
+            "slot": "material"
+          },
+          "role": "locator",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0303:u0-54"
+        }
+      ],
+      "start": 0,
+      "text": "Secret Symphony - Album by Katie Melua - YouTube Music"
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0305",
+      "canonical_id": "genmem_874c34ceb20bf193:a0305#0-82",
+      "end": 82,
+      "occurrences": [
+        {
+          "position": {
+            "index": 2,
+            "slot": "material"
+          },
+          "role": "evidence_a",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0305:u0-82"
+        }
+      ],
+      "start": 0,
+      "text": "Secret Symphony is the fifth studio album by British singer-songwriter Katie Melua"
+    }
+  ],
+  "case_id": "genmem_874c34ceb20bf193:selected_03",
+  "control": null,
+  "evidence_groups": [
+    {
+      "coverage": "full",
+      "group_id": "genmem_874c34ceb20bf193:selected_03:support_g01",
+      "items": [
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_874c34ceb20bf193:a0305",
+              "end": 82,
+              "start": 0,
+              "text": "Secret Symphony is the fifth studio album by British singer-songwriter Katie Melua"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_874c34ceb20bf193:a0305",
+            "end": 82,
+            "start": 0,
+            "text": "Secret Symphony is the fifth studio album by British singer-songwriter Katie Melua"
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_874c34ceb20bf193:a0293",
+              "end": 103,
+              "start": 38,
+              "text": "produced in collaboration with longtime musical partner Mike Batt"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_874c34ceb20bf193:a0293",
+            "end": 103,
+            "start": 38,
+            "text": "produced in collaboration with longtime musical partner Mike Batt"
+          }
+        }
+      ]
+    },
+    {
+      "coverage": "full",
+      "group_id": "genmem_874c34ceb20bf193:selected_03:support_g02",
+      "items": [
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_874c34ceb20bf193:a0296",
+              "end": 341,
+              "start": 259,
+              "text": "Secret Symphony is the fifth studio album by British singer-songwriter Katie Melua"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_874c34ceb20bf193:a0296",
+            "end": 341,
+            "start": 259,
+            "text": "Secret Symphony is the fifth studio album by British singer-songwriter Katie Melua"
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_874c34ceb20bf193:a0293",
+              "end": 103,
+              "start": 38,
+              "text": "produced in collaboration with longtime musical partner Mike Batt"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_874c34ceb20bf193:a0293",
+            "end": 103,
+            "start": 38,
+            "text": "produced in collaboration with longtime musical partner Mike Batt"
+          }
+        }
+      ]
+    },
+    {
+      "coverage": "full",
+      "group_id": "genmem_874c34ceb20bf193:selected_03:support_g03",
+      "items": [
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_874c34ceb20bf193:a0302",
+              "end": 178,
+              "start": 96,
+              "text": "Secret Symphony is the fifth studio album by British singer-songwriter Katie Melua"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_874c34ceb20bf193:a0302",
+            "end": 178,
+            "start": 96,
+            "text": "Secret Symphony is the fifth studio album by British singer-songwriter Katie Melua"
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_874c34ceb20bf193:a0293",
+              "end": 103,
+              "start": 38,
+              "text": "produced in collaboration with longtime musical partner Mike Batt"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_874c34ceb20bf193:a0293",
+            "end": 103,
+            "start": 38,
+            "text": "produced in collaboration with longtime musical partner Mike Batt"
+          }
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "A": [
+      "genmem_874c34ceb20bf193:a0305#0-82"
+    ],
+    "B": [
+      "genmem_874c34ceb20bf193:a0293#38-103"
+    ]
+  },
+  "provenance": {
+    "archive": "/data2/pkuiti/songzhengxing_intern/memoryflow/artifacts/raw/genmem_batch10_v3/genmem_batch10_selection_v1.zip",
+    "archive_sha256": "f465eb1cd4ff79b2d3de20c0c95562492fdd0bef18b86dc7983fa878bbaf3d33",
+    "frozen_sha256": "b4029d3040048370bc2adab35687a32cd3dc795dc69843484ad03934e1ee5091",
+    "label_member": "genmem_batch10_selection_v1/contextual64_v4/case_02/ground_truth.json",
+    "note": "controlled multi-round reconstruction; not an original request snapshot",
+    "spec_sha256": "4fe2ec26d2168a8f26f187524372e1b6756faf87ed54d6a70ed1e18bb16dace3"
+  },
+  "record_type": "controlled",
+  "rounds": [
+    {
+      "inputs": [
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0303",
+          "end": 54,
+          "position": {
+            "index": 1,
+            "slot": "material"
+          },
+          "role": "locator",
+          "start": 0,
+          "text": "Secret Symphony - Album by Katie Melua - YouTube Music",
+          "unit_id": "genmem_874c34ceb20bf193:a0303:u0-54"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0305",
+          "end": 82,
+          "position": {
+            "index": 2,
+            "slot": "material"
+          },
+          "role": "evidence_a",
+          "start": 0,
+          "text": "Secret Symphony is the fifth studio album by British singer-songwriter Katie Melua",
+          "unit_id": "genmem_874c34ceb20bf193:a0305:u0-82"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0294",
+          "end": 142,
+          "position": {
+            "index": 3,
+            "slot": "material"
+          },
+          "role": "locator_distractor",
+          "start": 0,
+          "text": "Katie Melua – Secret Symphony | Releases | DiscogsSecret Symphony - Katie MeluaKatie Melua – Secret Symphony – CD (Album), 2012 [r11175324 ...",
+          "unit_id": "genmem_874c34ceb20bf193:a0294:u0-142"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0296",
+          "end": 88,
+          "position": {
+            "index": 4,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "Explore the tracklist, credits, statistics, and more for Secret Symphony by Katie Melua.",
+          "unit_id": "genmem_874c34ceb20bf193:a0296:u0-88"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0296",
+          "end": 258,
+          "position": {
+            "index": 5,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 126,
+          "text": "All Music Secret Symphony March 2012 View credits, reviews, tracks and shop for the 2012 CD release of \"Secret Symphony\" on Discogs.",
+          "unit_id": "genmem_874c34ceb20bf193:a0296:u126-258"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0300",
+          "end": 63,
+          "position": {
+            "index": 6,
+            "slot": "material"
+          },
+          "role": "locator_distractor",
+          "start": 0,
+          "text": "Katie Melua – Secret Symphony – CD (Album), 2012 [r11175324 ...",
+          "unit_id": "genmem_874c34ceb20bf193:a0300:u0-63"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0302",
+          "end": 95,
+          "position": {
+            "index": 7,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "View credits, reviews, tracks and shop for the 2012 CD release of \"Secret Symphony\" on Discogs.",
+          "unit_id": "genmem_874c34ceb20bf193:a0302:u0-95"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0007",
+          "end": 67,
+          "position": {
+            "index": 8,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "\"Nine Million Bicycles\" is a song written and produced by Mike Batt",
+          "unit_id": "genmem_874c34ceb20bf193:a0007:u0-67"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0007",
+          "end": 126,
+          "position": {
+            "index": 9,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 68,
+          "text": "for the singer Katie Melua's second album, Piece by Piece.",
+          "unit_id": "genmem_874c34ceb20bf193:a0007:u68-126"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0223",
+          "end": 149,
+          "position": {
+            "index": 10,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra).",
+          "unit_id": "genmem_874c34ceb20bf193:a0223:u0-149"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0236",
+          "end": 152,
+          "position": {
+            "index": 11,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "From mikebatt.com, the album list appears to include: Schizophonia, Tarot Suite, Waves, Six Days In Berlin, Zero Zero, Songs Of Love And War, Arabesque.",
+          "unit_id": "genmem_874c34ceb20bf193:a0236:u0-152"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0297",
+          "end": 29,
+          "position": {
+            "index": 12,
+            "slot": "material"
+          },
+          "role": "locator_distractor",
+          "start": 0,
+          "text": "Secret Symphony - Katie Melua",
+          "unit_id": "genmem_874c34ceb20bf193:a0297:u0-29"
+        }
+      ],
+      "output": {
+        "origin": "model_output",
+        "sha256": "e50b324fcb51d6d6a9bf6838a3bf41740c8b4678bc9b913e7c4764559b4fd6e2",
+        "text": "The title of Katie Melua's fifth studio album is \"Secret Symphony\"."
+      },
+      "question": "What is the title of Katie Melua's fifth studio album?",
+      "round": 1,
+      "transmission": []
+    },
+    {
+      "inputs": [
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0291",
+          "end": 27,
+          "position": {
+            "index": 1,
+            "slot": "material"
+          },
+          "role": "locator",
+          "start": 0,
+          "text": "Secret Symphony - Wikipedia",
+          "unit_id": "genmem_874c34ceb20bf193:a0291:u0-27"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0293",
+          "end": 37,
+          "position": {
+            "index": 2,
+            "slot": "material"
+          },
+          "role": "context",
+          "start": 0,
+          "text": "Recorded at Air Studios in London and",
+          "unit_id": "genmem_874c34ceb20bf193:a0293:u0-37"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0293",
+          "end": 103,
+          "position": {
+            "index": 3,
+            "slot": "material"
+          },
+          "role": "evidence_b",
+          "start": 38,
+          "text": "produced in collaboration with longtime musical partner Mike Batt",
+          "unit_id": "genmem_874c34ceb20bf193:a0293:u38-103"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0296",
+          "end": 88,
+          "position": {
+            "index": 4,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "Explore the tracklist, credits, statistics, and more for Secret Symphony by Katie Melua.",
+          "unit_id": "genmem_874c34ceb20bf193:a0296:u0-88"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0296",
+          "end": 258,
+          "position": {
+            "index": 5,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 126,
+          "text": "All Music Secret Symphony March 2012 View credits, reviews, tracks and shop for the 2012 CD release of \"Secret Symphony\" on Discogs.",
+          "unit_id": "genmem_874c34ceb20bf193:a0296:u126-258"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0297",
+          "end": 29,
+          "position": {
+            "index": 6,
+            "slot": "material"
+          },
+          "role": "locator_distractor",
+          "start": 0,
+          "text": "Secret Symphony - Katie Melua",
+          "unit_id": "genmem_874c34ceb20bf193:a0297:u0-29"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0299",
+          "end": 36,
+          "position": {
+            "index": 7,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "All Music Secret Symphony March 2012",
+          "unit_id": "genmem_874c34ceb20bf193:a0299:u0-36"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0300",
+          "end": 63,
+          "position": {
+            "index": 8,
+            "slot": "material"
+          },
+          "role": "locator_distractor",
+          "start": 0,
+          "text": "Katie Melua – Secret Symphony – CD (Album), 2012 [r11175324 ...",
+          "unit_id": "genmem_874c34ceb20bf193:a0300:u0-63"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0302",
+          "end": 95,
+          "position": {
+            "index": 9,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "View credits, reviews, tracks and shop for the 2012 CD release of \"Secret Symphony\" on Discogs.",
+          "unit_id": "genmem_874c34ceb20bf193:a0302:u0-95"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0007",
+          "end": 67,
+          "position": {
+            "index": 10,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "\"Nine Million Bicycles\" is a song written and produced by Mike Batt",
+          "unit_id": "genmem_874c34ceb20bf193:a0007:u0-67"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0007",
+          "end": 126,
+          "position": {
+            "index": 11,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 68,
+          "text": "for the singer Katie Melua's second album, Piece by Piece.",
+          "unit_id": "genmem_874c34ceb20bf193:a0007:u68-126"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0223",
+          "end": 149,
+          "position": {
+            "index": 12,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra).",
+          "unit_id": "genmem_874c34ceb20bf193:a0223:u0-149"
+        }
+      ],
+      "output": {
+        "origin": "model_output",
+        "sha256": "0c61e26e0ca06b9cb7b2fee0dc400a314fae2b3404301fc624534576a29dd1ac",
+        "text": "Katie Melua's fifth studio album is \"Secret Symphony,\" which was produced in collaboration with her longtime musical partner Mike Batt."
+      },
+      "question": "Name Katie Melua's fifth studio album and the producer it was made with.",
+      "round": 2,
+      "transmission": [
+        {
+          "from_round": 1,
+          "position": {
+            "index": 0,
+            "slot": "earlier_finding"
+          },
+          "sha256": "e50b324fcb51d6d6a9bf6838a3bf41740c8b4678bc9b913e7c4764559b4fd6e2",
+          "text": "The title of Katie Melua's fifth studio album is \"Secret Symphony\".",
+          "unit_id": "round1_output"
+        }
+      ]
+    }
+  ],
+  "schema": "memoryflow.multiturn_case.v1",
+  "split": "dev",
+  "target": {
+    "artifact_id": null,
+    "end": null,
+    "origin": "controlled_output",
+    "original_target": {
+      "artifact_id": "genmem_874c34ceb20bf193:a0323",
+      "end": 101,
+      "event_index": 35,
+      "group_id": "genmem_874c34ceb20bf193:selected_03:support_g01",
+      "start": 0,
+      "text": "I found that \"Secret Symphony\" is Katie Melua's fifth studio album, and it was produced by Mike Batt."
+    },
+    "sha256": "0c61e26e0ca06b9cb7b2fee0dc400a314fae2b3404301fc624534576a29dd1ac",
+    "start": null,
+    "text": "Katie Melua's fifth studio album is \"Secret Symphony,\" which was produced in collaboration with her longtime musical partner Mike Batt."
+  },
+  "trajectory_case": "case_02",
+  "trajectory_id": "genmem_874c34ceb20bf193"
+}

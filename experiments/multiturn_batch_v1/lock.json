@@ -1,0 +1,33 @@
+{
+  "cases": {
+    "T03": {
+      "candidate_ids_sha256": "5aa331cd02ca2e8a3fef19d4456fbd22efac92105314ad2fe06e99e9f309b8b4",
+      "case_id": "genmem_874c34ceb20bf193:selected_03",
+      "case_sha256": "e6bf8bc7b925c77cd298b880f998e0570e7bdcf91d7eef26ac606d0c7efeb57c",
+      "evidence_sha256": "397091db48b963a8fc3c69609afa24c2a573d4de13dbe39878e631bf8165c087",
+      "labels_sha256": "fe089c852bca5a9500d31085223e646834abdabafcc5192ca659a22452a3e3d3",
+      "matrix_sha256": "269e81f02cfc5ccadcef1373278ff3fb4f8c4d7552418cce7421902c3f10d383"
+    },
+    "T06": {
+      "candidate_ids_sha256": "37c639561c9bbf1b45f84710556dc4975b1b6802acdd8e07986527ed637e6019",
+      "case_id": "genmem_874c34ceb20bf193:selected_06",
+      "case_sha256": "825932f05f02db0d1ba9670cb9a6845613f454504dd84ac9ae8d293c96247f2a",
+      "evidence_sha256": "1a07b2856a963dd8108d39f0c5718fb523798a1b8f8a5102c949bc20cd4375e7",
+      "labels_sha256": "39975115b88b7b4ad793c7ef14c6464bc63448901c782fd64286c3c1b7caedd2",
+      "matrix_sha256": "a4936afe418f51d87512b41b484ac097e8c83bec70cc58f202f329d1bdd79f42"
+    },
+    "T09": {
+      "candidate_ids_sha256": "b40e4e05bb56e65b0c7b741c7ec5abce34ea9ac0d35162cd9df4d7b8d4ecde71",
+      "case_id": "genmem_874c34ceb20bf193:selected_09",
+      "case_sha256": "b85217670c0ed3d3f4797c7dbe01befba8a37e04049de716ae2181d17ab6dee3",
+      "evidence_sha256": "119d50dc90f147dc6fc4f4a9c57a528cda7d2cb0b054005f0ea9c012087a7cab",
+      "labels_sha256": "804aaec215ee72a7c8014b951e5c9646b06eb728a8b593d815876d53d5837d03",
+      "matrix_sha256": "3b91bb41efc23281f12f954d7c12fdf950f21700a1d4a589dcc81dbb45a2c24b"
+    }
+  },
+  "created": "2026-11-06",
+  "final_budget": 10,
+  "hop_budget": 5,
+  "manifest_sha256": "6bdea667b4b064a7ac406657c2dceb3533b32ccda33670420aa2b09fb6a0733d",
+  "schema": "memoryflow.multiturn_batch.lock.v1"
+}

@@ -1,0 +1,848 @@
+{
+  "cases": [
+    {
+      "case_id": "genmem_874c34ceb20bf193:selected_03",
+      "control": null,
+      "final_budget": 10,
+      "hop_budget": 5,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": true,
+          "complete_at_5": true,
+          "complete_rank": 2,
+          "group_complete": {
+            "genmem_874c34ceb20bf193:selected_03:support_g01": {
+              "at_10": true,
+              "at_5": true
+            },
+            "genmem_874c34ceb20bf193:selected_03:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_874c34ceb20bf193:selected_03:support_g03": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 2,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_874c34ceb20bf193:a0293#38-103",
+            "genmem_874c34ceb20bf193:a0305#0-82",
+            "genmem_874c34ceb20bf193:a0007#0-67",
+            "genmem_874c34ceb20bf193:a0007#68-126",
+            "genmem_874c34ceb20bf193:a0294#0-142",
+            "genmem_874c34ceb20bf193:a0223#0-149",
+            "genmem_874c34ceb20bf193:a0300#0-63",
+            "genmem_874c34ceb20bf193:a0303#0-54",
+            "genmem_874c34ceb20bf193:a0297#0-29",
+            "genmem_874c34ceb20bf193:a0296#0-88"
+          ]
+        },
+        "head_full_history": {
+          "complete_at_10": true,
+          "complete_at_5": true,
+          "complete_rank": 2,
+          "group_complete": {
+            "genmem_874c34ceb20bf193:selected_03:support_g01": {
+              "at_10": true,
+              "at_5": true
+            },
+            "genmem_874c34ceb20bf193:selected_03:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_874c34ceb20bf193:selected_03:support_g03": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 2,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_874c34ceb20bf193:a0293#38-103",
+            "genmem_874c34ceb20bf193:a0305#0-82",
+            "genmem_874c34ceb20bf193:a0294#0-142",
+            "genmem_874c34ceb20bf193:a0296#126-258",
+            "genmem_874c34ceb20bf193:a0007#68-126",
+            "genmem_874c34ceb20bf193:a0223#0-149",
+            "genmem_874c34ceb20bf193:a0299#0-36",
+            "genmem_874c34ceb20bf193:a0007#0-67",
+            "genmem_874c34ceb20bf193:a0293#0-37",
+            "genmem_874c34ceb20bf193:a0303#0-54"
+          ]
+        },
+        "last_round": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_874c34ceb20bf193:selected_03:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_874c34ceb20bf193:selected_03:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_874c34ceb20bf193:selected_03:support_g03": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": null,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_874c34ceb20bf193:a0293#38-103",
+            "genmem_874c34ceb20bf193:a0293#0-37",
+            "genmem_874c34ceb20bf193:a0296#126-258",
+            "genmem_874c34ceb20bf193:a0296#0-88",
+            "genmem_874c34ceb20bf193:a0007#0-67",
+            "genmem_874c34ceb20bf193:a0302#0-95",
+            "genmem_874c34ceb20bf193:a0300#0-63",
+            "genmem_874c34ceb20bf193:a0291#0-27",
+            "genmem_874c34ceb20bf193:a0223#0-149",
+            "genmem_874c34ceb20bf193:a0007#68-126"
+          ]
+        },
+        "memoryflow": {
+          "complete_at_10": true,
+          "complete_at_5": true,
+          "complete_rank": 2,
+          "group_complete": {
+            "genmem_874c34ceb20bf193:selected_03:support_g01": {
+              "at_10": true,
+              "at_5": true
+            },
+            "genmem_874c34ceb20bf193:selected_03:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_874c34ceb20bf193:selected_03:support_g03": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": [
+            {
+              "factor": 1.0,
+              "path": [
+                "r2"
+              ],
+              "round": "r2",
+              "top": [
+                {
+                  "canonical_id": "transmission:r1",
+                  "score": 0.30335357785224915
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0293#38-103",
+                  "score": 0.21732525527477264
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0293#0-37",
+                  "score": 0.06602472066879272
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0296#126-258",
+                  "score": 0.05057179555296898
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0296#0-88",
+                  "score": 0.035537295043468475
+                }
+              ]
+            },
+            {
+              "factor": 0.303353578,
+              "path": [
+                "r2",
+                "r1"
+              ],
+              "round": "r1",
+              "top": [
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0305#0-82",
+                  "score": 0.3258522152900696
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0294#0-142",
+                  "score": 0.13804396986961365
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0303#0-54",
+                  "score": 0.07478976249694824
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0007#68-126",
+                  "score": 0.041474368423223495
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0296#126-258",
+                  "score": 0.03628220409154892
+                }
+              ]
+            }
+          ],
+          "label_ranks": {
+            "A": 2,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_874c34ceb20bf193:a0293#38-103",
+            "genmem_874c34ceb20bf193:a0305#0-82",
+            "genmem_874c34ceb20bf193:a0293#0-37",
+            "genmem_874c34ceb20bf193:a0296#126-258",
+            "genmem_874c34ceb20bf193:a0294#0-142",
+            "genmem_874c34ceb20bf193:a0296#0-88",
+            "genmem_874c34ceb20bf193:a0303#0-54",
+            "genmem_874c34ceb20bf193:a0007#68-126"
+          ]
+        }
+      },
+      "record_type": "controlled",
+      "split": "dev",
+      "trajectory_case": "case_02",
+      "trajectory_id": "genmem_874c34ceb20bf193"
+    },
+    {
+      "case_id": "genmem_874c34ceb20bf193:selected_09",
+      "control": null,
+      "final_budget": 10,
+      "hop_budget": 5,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": true,
+          "complete_at_5": true,
+          "complete_rank": 2,
+          "group_complete": {
+            "genmem_874c34ceb20bf193:selected_09:support_g01": {
+              "at_10": true,
+              "at_5": true
+            },
+            "genmem_874c34ceb20bf193:selected_09:support_g02": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 2,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_874c34ceb20bf193:a0275#0-109",
+            "genmem_874c34ceb20bf193:a0505#112-200",
+            "genmem_874c34ceb20bf193:a0281#0-34",
+            "genmem_874c34ceb20bf193:a0223#0-149",
+            "genmem_874c34ceb20bf193:a0505#0-111",
+            "genmem_874c34ceb20bf193:a0374#0-152",
+            "genmem_874c34ceb20bf193:a0275#110-223",
+            "genmem_874c34ceb20bf193:a0279#0-42",
+            "genmem_874c34ceb20bf193:a0153#0-63",
+            "genmem_874c34ceb20bf193:a0282#0-43"
+          ]
+        },
+        "head_full_history": {
+          "complete_at_10": true,
+          "complete_at_5": false,
+          "complete_rank": 8,
+          "group_complete": {
+            "genmem_874c34ceb20bf193:selected_09:support_g01": {
+              "at_10": true,
+              "at_5": false
+            },
+            "genmem_874c34ceb20bf193:selected_09:support_g02": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 1,
+            "B": 8
+          },
+          "ranked": [
+            "genmem_874c34ceb20bf193:a0505#112-200",
+            "genmem_874c34ceb20bf193:a0505#0-111",
+            "genmem_874c34ceb20bf193:a0374#0-152",
+            "genmem_874c34ceb20bf193:a0505#201-276",
+            "genmem_874c34ceb20bf193:a0236#0-152",
+            "genmem_874c34ceb20bf193:a0223#0-149",
+            "genmem_874c34ceb20bf193:a0375#0-44",
+            "genmem_874c34ceb20bf193:a0275#0-109",
+            "genmem_874c34ceb20bf193:a0371#0-83",
+            "genmem_874c34ceb20bf193:a0279#0-42"
+          ]
+        },
+        "last_round": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_874c34ceb20bf193:selected_09:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_874c34ceb20bf193:selected_09:support_g02": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": null,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_874c34ceb20bf193:a0275#0-109",
+            "genmem_874c34ceb20bf193:a0223#0-149",
+            "genmem_874c34ceb20bf193:a0279#0-42",
+            "genmem_874c34ceb20bf193:a0281#0-34",
+            "genmem_874c34ceb20bf193:a0236#0-152",
+            "genmem_874c34ceb20bf193:a0275#110-223",
+            "genmem_874c34ceb20bf193:a0282#0-43",
+            "genmem_874c34ceb20bf193:a0273#0-21",
+            "genmem_874c34ceb20bf193:a0310#0-69",
+            "genmem_874c34ceb20bf193:a0371#0-83"
+          ]
+        },
+        "memoryflow": {
+          "complete_at_10": true,
+          "complete_at_5": true,
+          "complete_rank": 2,
+          "group_complete": {
+            "genmem_874c34ceb20bf193:selected_09:support_g01": {
+              "at_10": true,
+              "at_5": true
+            },
+            "genmem_874c34ceb20bf193:selected_09:support_g02": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": [
+            {
+              "factor": 1.0,
+              "path": [
+                "r2"
+              ],
+              "round": "r2",
+              "top": [
+                {
+                  "canonical_id": "transmission:r1",
+                  "score": 0.45070764422416687
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0275#0-109",
+                  "score": 0.15691260993480682
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0223#0-149",
+                  "score": 0.07349371910095215
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0279#0-42",
+                  "score": 0.04115438833832741
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0281#0-34",
+                  "score": 0.03238542377948761
+                }
+              ]
+            },
+            {
+              "factor": 0.450707644,
+              "path": [
+                "r2",
+                "r1"
+              ],
+              "round": "r1",
+              "top": [
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0505#112-200",
+                  "score": 0.6189485192298889
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0374#0-152",
+                  "score": 0.07718049734830856
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0505#0-111",
+                  "score": 0.06530141085386276
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0375#0-44",
+                  "score": 0.024158047512173653
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0371#0-83",
+                  "score": 0.021226713433861732
+                }
+              ]
+            }
+          ],
+          "label_ranks": {
+            "A": 1,
+            "B": 2
+          },
+          "ranked": [
+            "genmem_874c34ceb20bf193:a0505#112-200",
+            "genmem_874c34ceb20bf193:a0275#0-109",
+            "genmem_874c34ceb20bf193:a0223#0-149",
+            "genmem_874c34ceb20bf193:a0279#0-42",
+            "genmem_874c34ceb20bf193:a0374#0-152",
+            "genmem_874c34ceb20bf193:a0281#0-34",
+            "genmem_874c34ceb20bf193:a0505#0-111",
+            "genmem_874c34ceb20bf193:a0375#0-44",
+            "genmem_874c34ceb20bf193:a0371#0-83"
+          ]
+        }
+      },
+      "record_type": "controlled",
+      "split": "dev",
+      "trajectory_case": "case_02",
+      "trajectory_id": "genmem_874c34ceb20bf193"
+    },
+    {
+      "case_id": "genmem_874c34ceb20bf193:selected_06",
+      "control": "final_round_sufficient",
+      "final_budget": 10,
+      "hop_budget": 5,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_874c34ceb20bf193:selected_06:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 5,
+            "B": null
+          },
+          "ranked": [
+            "genmem_874c34ceb20bf193:a0377#233-285",
+            "genmem_874c34ceb20bf193:a0281#0-34",
+            "genmem_874c34ceb20bf193:a0236#0-152",
+            "genmem_874c34ceb20bf193:a0374#0-152",
+            "genmem_874c34ceb20bf193:a0377#290-342",
+            "genmem_874c34ceb20bf193:a0284#17-34",
+            "genmem_874c34ceb20bf193:a0279#0-42",
+            "genmem_874c34ceb20bf193:a0282#0-43",
+            "genmem_874c34ceb20bf193:a0377#184-228",
+            "genmem_874c34ceb20bf193:a0377#0-49"
+          ]
+        },
+        "head_full_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_874c34ceb20bf193:selected_06:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 3,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_874c34ceb20bf193:a0284#137-154",
+            "genmem_874c34ceb20bf193:a0284#0-16",
+            "genmem_874c34ceb20bf193:a0377#290-342",
+            "genmem_874c34ceb20bf193:a0374#0-152",
+            "genmem_874c34ceb20bf193:a0223#0-149",
+            "genmem_874c34ceb20bf193:a0281#0-34",
+            "genmem_874c34ceb20bf193:a0236#0-152",
+            "genmem_874c34ceb20bf193:a0279#0-42",
+            "genmem_874c34ceb20bf193:a0282#0-43",
+            "genmem_874c34ceb20bf193:a0377#0-49"
+          ]
+        },
+        "last_round": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_874c34ceb20bf193:selected_06:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": null,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_874c34ceb20bf193:a0284#137-154",
+            "genmem_874c34ceb20bf193:a0279#0-42",
+            "genmem_874c34ceb20bf193:a0236#0-152",
+            "genmem_874c34ceb20bf193:a0282#0-43",
+            "genmem_874c34ceb20bf193:a0284#0-16",
+            "genmem_874c34ceb20bf193:a0281#0-34",
+            "genmem_874c34ceb20bf193:a0223#0-149",
+            "genmem_874c34ceb20bf193:a0153#0-63",
+            "genmem_874c34ceb20bf193:a0371#0-83",
+            "genmem_874c34ceb20bf193:a0310#0-69"
+          ]
+        },
+        "memoryflow": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_874c34ceb20bf193:selected_06:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": [
+            {
+              "factor": 1.0,
+              "path": [
+                "r2"
+              ],
+              "round": "r2",
+              "top": [
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0284#137-154",
+                  "score": 0.3149983584880829
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0279#0-42",
+                  "score": 0.08709783852100372
+                },
+                {
+                  "canonical_id": "transmission:r1",
+                  "score": 0.07318118214607239
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0236#0-152",
+                  "score": 0.06639310717582703
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0282#0-43",
+                  "score": 0.04829675331711769
+                }
+              ]
+            },
+            {
+              "factor": 0.073181182,
+              "path": [
+                "r2",
+                "r1"
+              ],
+              "round": "r1",
+              "top": [
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0377#290-342",
+                  "score": 0.3938342332839966
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0374#0-152",
+                  "score": 0.03928302228450775
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0371#0-83",
+                  "score": 0.029147718101739883
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0375#0-44",
+                  "score": 0.027551544830203056
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0377#54-116",
+                  "score": 0.02707631140947342
+                }
+              ]
+            }
+          ],
+          "label_ranks": {
+            "A": 5,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_874c34ceb20bf193:a0284#137-154",
+            "genmem_874c34ceb20bf193:a0279#0-42",
+            "genmem_874c34ceb20bf193:a0236#0-152",
+            "genmem_874c34ceb20bf193:a0282#0-43",
+            "genmem_874c34ceb20bf193:a0377#290-342",
+            "genmem_874c34ceb20bf193:a0374#0-152",
+            "genmem_874c34ceb20bf193:a0371#0-83",
+            "genmem_874c34ceb20bf193:a0375#0-44",
+            "genmem_874c34ceb20bf193:a0377#54-116"
+          ]
+        }
+      },
+      "record_type": "controlled",
+      "split": "dev",
+      "trajectory_case": "case_02",
+      "trajectory_id": "genmem_874c34ceb20bf193"
+    }
+  ],
+  "final_budget": 10,
+  "hop_budget": 5,
+  "schema": "memoryflow.multiturn_batch.results.v1",
+  "summary": {
+    "all": {
+      "cases": 3,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": 0.6666666666666666,
+          "complete_at_10_count": 2,
+          "complete_at_5": 0.6666666666666666,
+          "complete_at_5_count": 2,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 3,
+          "mean_complete_rank": 5.0,
+          "mean_hit_rank": 1.0
+        },
+        "head_full_history": {
+          "complete_at_10": 0.6666666666666666,
+          "complete_at_10_count": 2,
+          "complete_at_5": 0.3333333333333333,
+          "complete_at_5_count": 1,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 3,
+          "mean_complete_rank": 7.0,
+          "mean_hit_rank": 1.0
+        },
+        "last_round": {
+          "complete_at_10": 0.0,
+          "complete_at_10_count": 0,
+          "complete_at_5": 0.0,
+          "complete_at_5_count": 0,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 3,
+          "mean_complete_rank": 11.0,
+          "mean_hit_rank": 1.0
+        },
+        "memoryflow": {
+          "complete_at_10": 0.6666666666666666,
+          "complete_at_10_count": 2,
+          "complete_at_5": 0.6666666666666666,
+          "complete_at_5_count": 2,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 3,
+          "mean_complete_rank": 5.0,
+          "mean_hit_rank": 1.0
+        }
+      }
+    },
+    "control": {
+      "cases": 1,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": 0.0,
+          "complete_at_10_count": 0,
+          "complete_at_5": 0.0,
+          "complete_at_5_count": 0,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 1,
+          "mean_complete_rank": 11.0,
+          "mean_hit_rank": 1.0
+        },
+        "head_full_history": {
+          "complete_at_10": 0.0,
+          "complete_at_10_count": 0,
+          "complete_at_5": 0.0,
+          "complete_at_5_count": 0,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 1,
+          "mean_complete_rank": 11.0,
+          "mean_hit_rank": 1.0
+        },
+        "last_round": {
+          "complete_at_10": 0.0,
+          "complete_at_10_count": 0,
+          "complete_at_5": 0.0,
+          "complete_at_5_count": 0,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 1,
+          "mean_complete_rank": 11.0,
+          "mean_hit_rank": 1.0
+        },
+        "memoryflow": {
+          "complete_at_10": 0.0,
+          "complete_at_10_count": 0,
+          "complete_at_5": 0.0,
+          "complete_at_5_count": 0,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 1,
+          "mean_complete_rank": 11.0,
+          "mean_hit_rank": 1.0
+        }
+      }
+    },
+    "control_case_ids": [
+      "genmem_874c34ceb20bf193:selected_06"
+    ],
+    "final_budget": 10,
+    "main": {
+      "cases": 2,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": 1.0,
+          "complete_at_10_count": 2,
+          "complete_at_5": 1.0,
+          "complete_at_5_count": 2,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 2,
+          "mean_complete_rank": 2.0,
+          "mean_hit_rank": 1.0
+        },
+        "head_full_history": {
+          "complete_at_10": 1.0,
+          "complete_at_10_count": 2,
+          "complete_at_5": 0.5,
+          "complete_at_5_count": 1,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 2,
+          "mean_complete_rank": 5.0,
+          "mean_hit_rank": 1.0
+        },
+        "last_round": {
+          "complete_at_10": 0.0,
+          "complete_at_10_count": 0,
+          "complete_at_5": 0.0,
+          "complete_at_5_count": 0,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 2,
+          "mean_complete_rank": 11.0,
+          "mean_hit_rank": 1.0
+        },
+        "memoryflow": {
+          "complete_at_10": 1.0,
+          "complete_at_10_count": 2,
+          "complete_at_5": 1.0,
+          "complete_at_5_count": 2,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 2,
+          "mean_complete_rank": 2.0,
+          "mean_hit_rank": 1.0
+        }
+      }
+    },
+    "main_case_ids": [
+      "genmem_874c34ceb20bf193:selected_03",
+      "genmem_874c34ceb20bf193:selected_09"
+    ],
+    "paired_all": {
+      "bm25_history": {
+        "complete_rank": {
+          "loss": 0,
+          "tie": 3,
+          "win": 0
+        },
+        "hit_rank": {
+          "loss": 0,
+          "tie": 3,
+          "win": 0
+        }
+      },
+      "head_full_history": {
+        "complete_rank": {
+          "loss": 0,
+          "tie": 2,
+          "win": 1
+        },
+        "hit_rank": {
+          "loss": 0,
+          "tie": 3,
+          "win": 0
+        }
+      },
+      "last_round": {
+        "complete_rank": {
+          "loss": 0,
+          "tie": 1,
+          "win": 2
+        },
+        "hit_rank": {
+          "loss": 0,
+          "tie": 3,
+          "win": 0
+        }
+      }
+    },
+    "paired_main": {
+      "bm25_history": {
+        "complete_rank": {
+          "loss": 0,
+          "tie": 2,
+          "win": 0
+        },
+        "hit_rank": {
+          "loss": 0,
+          "tie": 2,
+          "win": 0
+        }
+      },
+      "head_full_history": {
+        "complete_rank": {
+          "loss": 0,
+          "tie": 1,
+          "win": 1
+        },
+        "hit_rank": {
+          "loss": 0,
+          "tie": 2,
+          "win": 0
+        }
+      },
+      "last_round": {
+        "complete_rank": {
+          "loss": 0,
+          "tie": 0,
+          "win": 2
+        },
+        "hit_rank": {
+          "loss": 0,
+          "tie": 2,
+          "win": 0
+        }
+      }
+    }
+  }
+}

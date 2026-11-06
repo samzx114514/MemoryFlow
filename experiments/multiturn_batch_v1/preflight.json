@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "candidates": 16,
+      "case_id": "genmem_874c34ceb20bf193:selected_03",
+      "evidence_groups": 3,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "T03",
+      "status": "ok"
+    },
+    {
+      "candidates": 17,
+      "case_id": "genmem_874c34ceb20bf193:selected_09",
+      "evidence_groups": 2,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "T09",
+      "status": "ok"
+    },
+    {
+      "candidates": 19,
+      "case_id": "genmem_874c34ceb20bf193:selected_06",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "T06",
+      "status": "ok"
+    }
+  ],
+  "schema": "memoryflow.multiturn_batch.preflight.v1",
+  "totals": {
+    "blocked": 0,
+    "cases": 3,
+    "incomplete": 0,
+    "ok": 3
+  }
+}

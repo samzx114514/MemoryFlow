@@ -1,0 +1,773 @@
+{
+  "candidates": [
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0153",
+      "canonical_id": "genmem_874c34ceb20bf193:a0153#0-63",
+      "end": 63,
+      "occurrences": [
+        {
+          "position": {
+            "index": 8,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0153:u0-63"
+        },
+        {
+          "position": {
+            "index": 9,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0153:u0-63"
+        }
+      ],
+      "start": 0,
+      "text": "Explore Mike Batt's biography, discography, and artist credits."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0223",
+      "canonical_id": "genmem_874c34ceb20bf193:a0223#0-149",
+      "end": 149,
+      "occurrences": [
+        {
+          "position": {
+            "index": 11,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0223:u0-149"
+        },
+        {
+          "position": {
+            "index": 8,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0223:u0-149"
+        }
+      ],
+      "start": 0,
+      "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra)."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0236",
+      "canonical_id": "genmem_874c34ceb20bf193:a0236#0-152",
+      "end": 152,
+      "occurrences": [
+        {
+          "position": {
+            "index": 10,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0236:u0-152"
+        },
+        {
+          "position": {
+            "index": 10,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0236:u0-152"
+        }
+      ],
+      "start": 0,
+      "text": "From mikebatt.com, the album list appears to include: Schizophonia, Tarot Suite, Waves, Six Days In Berlin, Zero Zero, Songs Of Love And War, Arabesque."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0273",
+      "canonical_id": "genmem_874c34ceb20bf193:a0273#0-21",
+      "end": 21,
+      "occurrences": [
+        {
+          "position": {
+            "index": 1,
+            "slot": "material"
+          },
+          "role": "locator",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0273:u0-21"
+        }
+      ],
+      "start": 0,
+      "text": "Mike Batt - Wikipedia"
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0275",
+      "canonical_id": "genmem_874c34ceb20bf193:a0275#0-109",
+      "end": 109,
+      "occurrences": [
+        {
+          "position": {
+            "index": 2,
+            "slot": "material"
+          },
+          "role": "evidence_b",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0275:u0-109"
+        }
+      ],
+      "start": 0,
+      "text": "The album, featuring Batt with the Sydney Symphony Orchestra, was released on Epic as a Mike Batt solo album."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0275",
+      "canonical_id": "genmem_874c34ceb20bf193:a0275#110-223",
+      "end": 223,
+      "occurrences": [
+        {
+          "position": {
+            "index": 3,
+            "slot": "material"
+          },
+          "role": "context",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0275:u110-223"
+        }
+      ],
+      "start": 110,
+      "text": "Batt's character \"Number 17\" falls in love and is sent to an emotional decontamination centre called \"Zero Zero\"."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0279",
+      "canonical_id": "genmem_874c34ceb20bf193:a0279#0-42",
+      "end": 42,
+      "occurrences": [
+        {
+          "position": {
+            "index": 4,
+            "slot": "material"
+          },
+          "role": "locator_distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0279:u0-42"
+        }
+      ],
+      "start": 0,
+      "text": "Mike Batt – Zero Zero | Releases | Discogs"
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0281",
+      "canonical_id": "genmem_874c34ceb20bf193:a0281#0-34",
+      "end": 34,
+      "occurrences": [
+        {
+          "position": {
+            "index": 6,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0281:u0-34"
+        }
+      ],
+      "start": 0,
+      "text": "Mike Batt - Zero Zero album cover."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0282",
+      "canonical_id": "genmem_874c34ceb20bf193:a0282#0-43",
+      "end": 43,
+      "occurrences": [
+        {
+          "position": {
+            "index": 5,
+            "slot": "material"
+          },
+          "role": "locator_distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0282:u0-43"
+        }
+      ],
+      "start": 0,
+      "text": "Mike Batt Zero Zero - EXC Vinyl LP FE 38454"
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0310",
+      "canonical_id": "genmem_874c34ceb20bf193:a0310#0-69",
+      "end": 69,
+      "occurrences": [
+        {
+          "position": {
+            "index": 9,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0310:u0-69"
+        },
+        {
+          "position": {
+            "index": 7,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0310:u0-69"
+        }
+      ],
+      "start": 0,
+      "text": "\" Nine Million Bicycles \" is a song written and produced by Mike Batt"
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0371",
+      "canonical_id": "genmem_874c34ceb20bf193:a0371#0-83",
+      "end": 83,
+      "occurrences": [
+        {
+          "position": {
+            "index": 6,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0371:u0-83"
+        },
+        {
+          "position": {
+            "index": 11,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0371:u0-83"
+        }
+      ],
+      "start": 0,
+      "text": "Mike Batt discography and songs: Music profile for Mike Batt, born 6 February 1949."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0374",
+      "canonical_id": "genmem_874c34ceb20bf193:a0374#0-152",
+      "end": 152,
+      "occurrences": [
+        {
+          "position": {
+            "index": 7,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0374:u0-152"
+        }
+      ],
+      "start": 0,
+      "text": "Jan 24, 2018 · In 1977, Batt conducted the all-star symphonic-rock recording Schizophonia, featuring the London Symphony Orchestra and released on Epic."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0375",
+      "canonical_id": "genmem_874c34ceb20bf193:a0375#0-44",
+      "end": 44,
+      "occurrences": [
+        {
+          "position": {
+            "index": 5,
+            "slot": "material"
+          },
+          "role": "locator_distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0375:u0-44"
+        }
+      ],
+      "start": 0,
+      "text": "Mike Batt Short Discography - friedl.heim.at"
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0503",
+      "canonical_id": "genmem_874c34ceb20bf193:a0503#0-20",
+      "end": 20,
+      "occurrences": [
+        {
+          "position": {
+            "index": 1,
+            "slot": "material"
+          },
+          "role": "locator",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0503:u0-20"
+        }
+      ],
+      "start": 0,
+      "text": "Projects — Mike Batt"
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0505",
+      "canonical_id": "genmem_874c34ceb20bf193:a0505#0-111",
+      "end": 111,
+      "occurrences": [
+        {
+          "position": {
+            "index": 2,
+            "slot": "material"
+          },
+          "role": "context",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0505:u0-111"
+        }
+      ],
+      "start": 0,
+      "text": "Six Days In Berlin – 4th solo album for Epic – made at Hansa (Berlin) and Montserrat during is wordwide voyage."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0505",
+      "canonical_id": "genmem_874c34ceb20bf193:a0505#112-200",
+      "end": 200,
+      "occurrences": [
+        {
+          "position": {
+            "index": 3,
+            "slot": "material"
+          },
+          "role": "evidence_a",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0505:u112-200"
+        }
+      ],
+      "start": 112,
+      "text": "Zero Zero – Mike’s quirky futuristic 1982 5th solo album and fantasy album-length video."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0505",
+      "canonical_id": "genmem_874c34ceb20bf193:a0505#201-276",
+      "end": 276,
+      "occurrences": [
+        {
+          "position": {
+            "index": 4,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0505:u201-276"
+        }
+      ],
+      "start": 201,
+      "text": "Songs Of Love And War - 6th solo album (made for RCA in a break from Sony)."
+    }
+  ],
+  "case_id": "genmem_874c34ceb20bf193:selected_09",
+  "control": null,
+  "evidence_groups": [
+    {
+      "coverage": "full",
+      "group_id": "genmem_874c34ceb20bf193:selected_09:support_g01",
+      "items": [
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_874c34ceb20bf193:a0505",
+              "end": 200,
+              "start": 112,
+              "text": "Zero Zero – Mike’s quirky futuristic 1982 5th solo album and fantasy album-length video."
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_874c34ceb20bf193:a0505",
+            "end": 200,
+            "start": 112,
+            "text": "Zero Zero – Mike’s quirky futuristic 1982 5th solo album and fantasy album-length video."
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_874c34ceb20bf193:a0275",
+              "end": 109,
+              "start": 0,
+              "text": "The album, featuring Batt with the Sydney Symphony Orchestra, was released on Epic as a Mike Batt solo album."
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_874c34ceb20bf193:a0275",
+            "end": 109,
+            "start": 0,
+            "text": "The album, featuring Batt with the Sydney Symphony Orchestra, was released on Epic as a Mike Batt solo album."
+          }
+        }
+      ]
+    },
+    {
+      "coverage": "full",
+      "group_id": "genmem_874c34ceb20bf193:selected_09:support_g02",
+      "items": [
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_874c34ceb20bf193:a0505",
+              "end": 200,
+              "start": 112,
+              "text": "Zero Zero – Mike’s quirky futuristic 1982 5th solo album and fantasy album-length video."
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_874c34ceb20bf193:a0505",
+            "end": 200,
+            "start": 112,
+            "text": "Zero Zero – Mike’s quirky futuristic 1982 5th solo album and fantasy album-length video."
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_874c34ceb20bf193:a0150",
+              "end": 109,
+              "start": 0,
+              "text": "The album, featuring Batt with the Sydney Symphony Orchestra, was released on Epic as a Mike Batt solo album."
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_874c34ceb20bf193:a0150",
+            "end": 109,
+            "start": 0,
+            "text": "The album, featuring Batt with the Sydney Symphony Orchestra, was released on Epic as a Mike Batt solo album."
+          }
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "A": [
+      "genmem_874c34ceb20bf193:a0505#112-200"
+    ],
+    "B": [
+      "genmem_874c34ceb20bf193:a0275#0-109"
+    ]
+  },
+  "provenance": {
+    "archive": "/data2/pkuiti/songzhengxing_intern/memoryflow/artifacts/raw/genmem_batch10_v3/genmem_batch10_selection_v1.zip",
+    "archive_sha256": "f465eb1cd4ff79b2d3de20c0c95562492fdd0bef18b86dc7983fa878bbaf3d33",
+    "frozen_sha256": "2445868685ee8c466d461a1a3285beb62b44da382df6466f218e068ade0f7dad",
+    "label_member": "genmem_batch10_selection_v1/contextual64_v4/case_02/ground_truth.json",
+    "note": "controlled multi-round reconstruction; not an original request snapshot",
+    "spec_sha256": "d291309ee66a357799e84256b8defc0bbae4f5f597600615f8c770ae889e493b"
+  },
+  "record_type": "controlled",
+  "rounds": [
+    {
+      "inputs": [
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0503",
+          "end": 20,
+          "position": {
+            "index": 1,
+            "slot": "material"
+          },
+          "role": "locator",
+          "start": 0,
+          "text": "Projects — Mike Batt",
+          "unit_id": "genmem_874c34ceb20bf193:a0503:u0-20"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0505",
+          "end": 111,
+          "position": {
+            "index": 2,
+            "slot": "material"
+          },
+          "role": "context",
+          "start": 0,
+          "text": "Six Days In Berlin – 4th solo album for Epic – made at Hansa (Berlin) and Montserrat during is wordwide voyage.",
+          "unit_id": "genmem_874c34ceb20bf193:a0505:u0-111"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0505",
+          "end": 200,
+          "position": {
+            "index": 3,
+            "slot": "material"
+          },
+          "role": "evidence_a",
+          "start": 112,
+          "text": "Zero Zero – Mike’s quirky futuristic 1982 5th solo album and fantasy album-length video.",
+          "unit_id": "genmem_874c34ceb20bf193:a0505:u112-200"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0505",
+          "end": 276,
+          "position": {
+            "index": 4,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 201,
+          "text": "Songs Of Love And War - 6th solo album (made for RCA in a break from Sony).",
+          "unit_id": "genmem_874c34ceb20bf193:a0505:u201-276"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0375",
+          "end": 44,
+          "position": {
+            "index": 5,
+            "slot": "material"
+          },
+          "role": "locator_distractor",
+          "start": 0,
+          "text": "Mike Batt Short Discography - friedl.heim.at",
+          "unit_id": "genmem_874c34ceb20bf193:a0375:u0-44"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0371",
+          "end": 83,
+          "position": {
+            "index": 6,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "Mike Batt discography and songs: Music profile for Mike Batt, born 6 February 1949.",
+          "unit_id": "genmem_874c34ceb20bf193:a0371:u0-83"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0374",
+          "end": 152,
+          "position": {
+            "index": 7,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "Jan 24, 2018 · In 1977, Batt conducted the all-star symphonic-rock recording Schizophonia, featuring the London Symphony Orchestra and released on Epic.",
+          "unit_id": "genmem_874c34ceb20bf193:a0374:u0-152"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0153",
+          "end": 63,
+          "position": {
+            "index": 8,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "Explore Mike Batt's biography, discography, and artist credits.",
+          "unit_id": "genmem_874c34ceb20bf193:a0153:u0-63"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0310",
+          "end": 69,
+          "position": {
+            "index": 9,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "\" Nine Million Bicycles \" is a song written and produced by Mike Batt",
+          "unit_id": "genmem_874c34ceb20bf193:a0310:u0-69"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0236",
+          "end": 152,
+          "position": {
+            "index": 10,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "From mikebatt.com, the album list appears to include: Schizophonia, Tarot Suite, Waves, Six Days In Berlin, Zero Zero, Songs Of Love And War, Arabesque.",
+          "unit_id": "genmem_874c34ceb20bf193:a0236:u0-152"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0223",
+          "end": 149,
+          "position": {
+            "index": 11,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra).",
+          "unit_id": "genmem_874c34ceb20bf193:a0223:u0-149"
+        }
+      ],
+      "output": {
+        "origin": "model_output",
+        "sha256": "b093e327d82a22c460fa0d7d2c787785f566a54a7420e1104707f4aa00fa6e77",
+        "text": "Mike Batt's fifth solo album was \"Zero Zero,\" released in 1982."
+      },
+      "question": "Which is Mike Batt's fifth solo album, and in what year was it released?",
+      "round": 1,
+      "transmission": []
+    },
+    {
+      "inputs": [
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0273",
+          "end": 21,
+          "position": {
+            "index": 1,
+            "slot": "material"
+          },
+          "role": "locator",
+          "start": 0,
+          "text": "Mike Batt - Wikipedia",
+          "unit_id": "genmem_874c34ceb20bf193:a0273:u0-21"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0275",
+          "end": 109,
+          "position": {
+            "index": 2,
+            "slot": "material"
+          },
+          "role": "evidence_b",
+          "start": 0,
+          "text": "The album, featuring Batt with the Sydney Symphony Orchestra, was released on Epic as a Mike Batt solo album.",
+          "unit_id": "genmem_874c34ceb20bf193:a0275:u0-109"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0275",
+          "end": 223,
+          "position": {
+            "index": 3,
+            "slot": "material"
+          },
+          "role": "context",
+          "start": 110,
+          "text": "Batt's character \"Number 17\" falls in love and is sent to an emotional decontamination centre called \"Zero Zero\".",
+          "unit_id": "genmem_874c34ceb20bf193:a0275:u110-223"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0279",
+          "end": 42,
+          "position": {
+            "index": 4,
+            "slot": "material"
+          },
+          "role": "locator_distractor",
+          "start": 0,
+          "text": "Mike Batt – Zero Zero | Releases | Discogs",
+          "unit_id": "genmem_874c34ceb20bf193:a0279:u0-42"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0282",
+          "end": 43,
+          "position": {
+            "index": 5,
+            "slot": "material"
+          },
+          "role": "locator_distractor",
+          "start": 0,
+          "text": "Mike Batt Zero Zero - EXC Vinyl LP FE 38454",
+          "unit_id": "genmem_874c34ceb20bf193:a0282:u0-43"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0281",
+          "end": 34,
+          "position": {
+            "index": 6,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "Mike Batt - Zero Zero album cover.",
+          "unit_id": "genmem_874c34ceb20bf193:a0281:u0-34"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0310",
+          "end": 69,
+          "position": {
+            "index": 7,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "\" Nine Million Bicycles \" is a song written and produced by Mike Batt",
+          "unit_id": "genmem_874c34ceb20bf193:a0310:u0-69"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0223",
+          "end": 149,
+          "position": {
+            "index": 8,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra).",
+          "unit_id": "genmem_874c34ceb20bf193:a0223:u0-149"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0153",
+          "end": 63,
+          "position": {
+            "index": 9,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "Explore Mike Batt's biography, discography, and artist credits.",
+          "unit_id": "genmem_874c34ceb20bf193:a0153:u0-63"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0236",
+          "end": 152,
+          "position": {
+            "index": 10,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "From mikebatt.com, the album list appears to include: Schizophonia, Tarot Suite, Waves, Six Days In Berlin, Zero Zero, Songs Of Love And War, Arabesque.",
+          "unit_id": "genmem_874c34ceb20bf193:a0236:u0-152"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0371",
+          "end": 83,
+          "position": {
+            "index": 11,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "Mike Batt discography and songs: Music profile for Mike Batt, born 6 February 1949.",
+          "unit_id": "genmem_874c34ceb20bf193:a0371:u0-83"
+        }
+      ],
+      "output": {
+        "origin": "model_output",
+        "sha256": "88096864bbd0f875126be53ea52096d4ae8e54bd52ea387c742b442957d4ec8c",
+        "text": "Epic released Mike Batt's fifth solo album, \"Zero Zero.\""
+      },
+      "question": "Which label released Mike Batt's fifth solo album?",
+      "round": 2,
+      "transmission": [
+        {
+          "from_round": 1,
+          "position": {
+            "index": 0,
+            "slot": "earlier_finding"
+          },
+          "sha256": "b093e327d82a22c460fa0d7d2c787785f566a54a7420e1104707f4aa00fa6e77",
+          "text": "Mike Batt's fifth solo album was \"Zero Zero,\" released in 1982.",
+          "unit_id": "round1_output"
+        }
+      ]
+    }
+  ],
+  "schema": "memoryflow.multiturn_case.v1",
+  "split": "dev",
+  "target": {
+    "artifact_id": null,
+    "end": null,
+    "origin": "controlled_output",
+    "original_target": {
+      "artifact_id": "genmem_874c34ceb20bf193:a0523",
+      "end": 650,
+      "event_index": 58,
+      "group_id": "genmem_874c34ceb20bf193:selected_09:support_g01",
+      "start": 558,
+      "text": "Mike Batt's **fifth studio/solo album** is \"Zero Zero\" (1982), released on **Epic Records**."
+    },
+    "sha256": "88096864bbd0f875126be53ea52096d4ae8e54bd52ea387c742b442957d4ec8c",
+    "start": null,
+    "text": "Epic released Mike Batt's fifth solo album, \"Zero Zero.\""
+  },
+  "trajectory_case": "case_02",
+  "trajectory_id": "genmem_874c34ceb20bf193"
+}

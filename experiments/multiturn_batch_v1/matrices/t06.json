@@ -1,0 +1,248 @@
+{
+  "case_id": "genmem_874c34ceb20bf193:selected_06",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0375#0-44",
+          "score": 0.0007799075683578849,
+          "text": "Mike Batt Short Discography - friedl.heim.at"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0377#0-49",
+          "score": 0.015135370194911957,
+          "text": "Schizophonia + The London Symphony Orchestra 1978"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0377#54-116",
+          "score": 0.004046331625431776,
+          "text": "Caravans (Soundtrack) + The London Philharmonic Orchestra 1979"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0377#121-179",
+          "score": 0.004368721041828394,
+          "text": "Tarot Suite + Friends + The London Symphony Orchestra 1980"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0377#184-228",
+          "score": 0.0009854972595348954,
+          "text": "Waves + The Amsterdam Chamber Orchestra 1981"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0377#233-285",
+          "score": 0.00423244945704937,
+          "text": "Six Days In Berlin + The Berlin Opera Orchestra 1982"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0377#290-342",
+          "score": 0.04965512827038765,
+          "text": "Zero Zero (Musical) + The Sidney Symphonic Orchestra"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0371#0-83",
+          "score": 0.0055703516118228436,
+          "text": "Mike Batt discography and songs: Music profile for Mike Batt, born 6 February 1949."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0374#0-152",
+          "score": 0.0343673937022686,
+          "text": "Jan 24, 2018 · In 1977, Batt conducted the all-star symphonic-rock recording Schizophonia, featuring the London Symphony Orchestra and released on Epic."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0310#0-69",
+          "score": 0.006670998875051737,
+          "text": "\" Nine Million Bicycles \" is a song written and produced by Mike Batt"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0223#0-149",
+          "score": 0.03342491760849953,
+          "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra)."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0153#0-63",
+          "score": 0.0018439345294609666,
+          "text": "Explore Mike Batt's biography, discography, and artist credits."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0279#0-42",
+          "score": 0.017454415559768677,
+          "text": "Mike Batt – Zero Zero | Releases | Discogs"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0282#0-43",
+          "score": 0.017039425671100616,
+          "text": "Mike Batt Zero Zero - EXC Vinyl LP FE 38454"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0284#0-16",
+          "score": 0.05383223667740822,
+          "text": "Epic – FE 38454."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0284#17-34",
+          "score": 0.003850368084385991,
+          "text": "Vinyl, LP, Album."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0284#137-154",
+          "score": 0.1554718315601349,
+          "text": "Release Year1982."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0281#0-34",
+          "score": 0.02079656347632408,
+          "text": "Mike Batt - Zero Zero album cover."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0236#0-152",
+          "score": 0.020770102739334106,
+          "text": "From mikebatt.com, the album list appears to include: Schizophonia, Tarot Suite, Waves, Six Days In Berlin, Zero Zero, Songs Of Love And War, Arabesque."
+        }
+      ],
+      "target": "The album \"Zero Zero\" was released in 1982."
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0375#0-44",
+          "score": 0.027551544830203056,
+          "text": "Mike Batt Short Discography - friedl.heim.at"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0377#0-49",
+          "score": 0.0218366589397192,
+          "text": "Schizophonia + The London Symphony Orchestra 1978"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0377#54-116",
+          "score": 0.02707631140947342,
+          "text": "Caravans (Soundtrack) + The London Philharmonic Orchestra 1979"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0377#121-179",
+          "score": 0.012676937505602837,
+          "text": "Tarot Suite + Friends + The London Symphony Orchestra 1980"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0377#184-228",
+          "score": 0.004213595297187567,
+          "text": "Waves + The Amsterdam Chamber Orchestra 1981"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0377#233-285",
+          "score": 0.006291127298027277,
+          "text": "Six Days In Berlin + The Berlin Opera Orchestra 1982"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0377#290-342",
+          "score": 0.3938342332839966,
+          "text": "Zero Zero (Musical) + The Sidney Symphonic Orchestra"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0371#0-83",
+          "score": 0.029147718101739883,
+          "text": "Mike Batt discography and songs: Music profile for Mike Batt, born 6 February 1949."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0374#0-152",
+          "score": 0.03928302228450775,
+          "text": "Jan 24, 2018 · In 1977, Batt conducted the all-star symphonic-rock recording Schizophonia, featuring the London Symphony Orchestra and released on Epic."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0310#0-69",
+          "score": 0.008140962570905685,
+          "text": "\" Nine Million Bicycles \" is a song written and produced by Mike Batt"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0223#0-149",
+          "score": 0.026827793568372726,
+          "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra)."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0153#0-63",
+          "score": 0.015517578460276127,
+          "text": "Explore Mike Batt's biography, discography, and artist credits."
+        }
+      ],
+      "target": "The musical performed with The Sidney Symphonic Orchestra is is \"Zero Zero.\""
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.07318118214607239,
+          "text": "The musical performed with The Sidney Symphonic Orchestra is is \"Zero Zero.\""
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0279#0-42",
+          "score": 0.08709783852100372,
+          "text": "Mike Batt – Zero Zero | Releases | Discogs"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0282#0-43",
+          "score": 0.04829675331711769,
+          "text": "Mike Batt Zero Zero - EXC Vinyl LP FE 38454"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0284#0-16",
+          "score": 0.0409838892519474,
+          "text": "Epic – FE 38454."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0284#17-34",
+          "score": 0.004186364822089672,
+          "text": "Vinyl, LP, Album."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0284#137-154",
+          "score": 0.3149983584880829,
+          "text": "Release Year1982."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0281#0-34",
+          "score": 0.03324674069881439,
+          "text": "Mike Batt - Zero Zero album cover."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0310#0-69",
+          "score": 0.013556036166846752,
+          "text": "\" Nine Million Bicycles \" is a song written and produced by Mike Batt"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0223#0-149",
+          "score": 0.031364135444164276,
+          "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra)."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0153#0-63",
+          "score": 0.022629715502262115,
+          "text": "Explore Mike Batt's biography, discography, and artist credits."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0236#0-152",
+          "score": 0.06639310717582703,
+          "text": "From mikebatt.com, the album list appears to include: Schizophonia, Tarot Suite, Waves, Six Days In Berlin, Zero Zero, Songs Of Love And War, Arabesque."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0371#0-83",
+          "score": 0.014900948852300644,
+          "text": "Mike Batt discography and songs: Music profile for Mike Batt, born 6 February 1949."
+        }
+      ],
+      "target": "The album \"Zero Zero\" was released in 1982."
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "matrix_keys": {
+      "flat": "mflat",
+      "r1": "m1",
+      "r2": "m2"
+    },
+    "scores_path": "artifacts/raw/genmem_batch10_v3/run2/scores_case_02_selected_06_v2.json",
+    "scores_sha256": "65325e6050a3c19a3be758d5a1807162651f250746d828b118ee779f2055a100"
+  }
+}

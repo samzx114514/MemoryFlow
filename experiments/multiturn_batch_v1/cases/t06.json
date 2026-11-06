@@ -1,0 +1,870 @@
+{
+  "candidates": [
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0153",
+      "canonical_id": "genmem_874c34ceb20bf193:a0153#0-63",
+      "end": 63,
+      "occurrences": [
+        {
+          "position": {
+            "index": 12,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0153:u0-63"
+        },
+        {
+          "position": {
+            "index": 9,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0153:u0-63"
+        }
+      ],
+      "start": 0,
+      "text": "Explore Mike Batt's biography, discography, and artist credits."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0223",
+      "canonical_id": "genmem_874c34ceb20bf193:a0223#0-149",
+      "end": 149,
+      "occurrences": [
+        {
+          "position": {
+            "index": 11,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0223:u0-149"
+        },
+        {
+          "position": {
+            "index": 8,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0223:u0-149"
+        }
+      ],
+      "start": 0,
+      "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra)."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0236",
+      "canonical_id": "genmem_874c34ceb20bf193:a0236#0-152",
+      "end": 152,
+      "occurrences": [
+        {
+          "position": {
+            "index": 10,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0236:u0-152"
+        }
+      ],
+      "start": 0,
+      "text": "From mikebatt.com, the album list appears to include: Schizophonia, Tarot Suite, Waves, Six Days In Berlin, Zero Zero, Songs Of Love And War, Arabesque."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0279",
+      "canonical_id": "genmem_874c34ceb20bf193:a0279#0-42",
+      "end": 42,
+      "occurrences": [
+        {
+          "position": {
+            "index": 1,
+            "slot": "material"
+          },
+          "role": "locator",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0279:u0-42"
+        }
+      ],
+      "start": 0,
+      "text": "Mike Batt – Zero Zero | Releases | Discogs"
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0281",
+      "canonical_id": "genmem_874c34ceb20bf193:a0281#0-34",
+      "end": 34,
+      "occurrences": [
+        {
+          "position": {
+            "index": 6,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0281:u0-34"
+        }
+      ],
+      "start": 0,
+      "text": "Mike Batt - Zero Zero album cover."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0282",
+      "canonical_id": "genmem_874c34ceb20bf193:a0282#0-43",
+      "end": 43,
+      "occurrences": [
+        {
+          "position": {
+            "index": 2,
+            "slot": "material"
+          },
+          "role": "locator_distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0282:u0-43"
+        }
+      ],
+      "start": 0,
+      "text": "Mike Batt Zero Zero - EXC Vinyl LP FE 38454"
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0284",
+      "canonical_id": "genmem_874c34ceb20bf193:a0284#0-16",
+      "end": 16,
+      "occurrences": [
+        {
+          "position": {
+            "index": 3,
+            "slot": "material"
+          },
+          "role": "context",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0284:u0-16"
+        }
+      ],
+      "start": 0,
+      "text": "Epic – FE 38454."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0284",
+      "canonical_id": "genmem_874c34ceb20bf193:a0284#137-154",
+      "end": 154,
+      "occurrences": [
+        {
+          "position": {
+            "index": 5,
+            "slot": "material"
+          },
+          "role": "evidence_b",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0284:u137-154"
+        }
+      ],
+      "start": 137,
+      "text": "Release Year1982."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0284",
+      "canonical_id": "genmem_874c34ceb20bf193:a0284#17-34",
+      "end": 34,
+      "occurrences": [
+        {
+          "position": {
+            "index": 4,
+            "slot": "material"
+          },
+          "role": "context",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0284:u17-34"
+        }
+      ],
+      "start": 17,
+      "text": "Vinyl, LP, Album."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0310",
+      "canonical_id": "genmem_874c34ceb20bf193:a0310#0-69",
+      "end": 69,
+      "occurrences": [
+        {
+          "position": {
+            "index": 10,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0310:u0-69"
+        },
+        {
+          "position": {
+            "index": 7,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0310:u0-69"
+        }
+      ],
+      "start": 0,
+      "text": "\" Nine Million Bicycles \" is a song written and produced by Mike Batt"
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0371",
+      "canonical_id": "genmem_874c34ceb20bf193:a0371#0-83",
+      "end": 83,
+      "occurrences": [
+        {
+          "position": {
+            "index": 8,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0371:u0-83"
+        },
+        {
+          "position": {
+            "index": 11,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_874c34ceb20bf193:a0371:u0-83"
+        }
+      ],
+      "start": 0,
+      "text": "Mike Batt discography and songs: Music profile for Mike Batt, born 6 February 1949."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0374",
+      "canonical_id": "genmem_874c34ceb20bf193:a0374#0-152",
+      "end": 152,
+      "occurrences": [
+        {
+          "position": {
+            "index": 9,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0374:u0-152"
+        }
+      ],
+      "start": 0,
+      "text": "Jan 24, 2018 · In 1977, Batt conducted the all-star symphonic-rock recording Schizophonia, featuring the London Symphony Orchestra and released on Epic."
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0375",
+      "canonical_id": "genmem_874c34ceb20bf193:a0375#0-44",
+      "end": 44,
+      "occurrences": [
+        {
+          "position": {
+            "index": 1,
+            "slot": "material"
+          },
+          "role": "locator",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0375:u0-44"
+        }
+      ],
+      "start": 0,
+      "text": "Mike Batt Short Discography - friedl.heim.at"
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0377",
+      "canonical_id": "genmem_874c34ceb20bf193:a0377#0-49",
+      "end": 49,
+      "occurrences": [
+        {
+          "position": {
+            "index": 2,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0377:u0-49"
+        }
+      ],
+      "start": 0,
+      "text": "Schizophonia + The London Symphony Orchestra 1978"
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0377",
+      "canonical_id": "genmem_874c34ceb20bf193:a0377#121-179",
+      "end": 179,
+      "occurrences": [
+        {
+          "position": {
+            "index": 4,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0377:u121-179"
+        }
+      ],
+      "start": 121,
+      "text": "Tarot Suite + Friends + The London Symphony Orchestra 1980"
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0377",
+      "canonical_id": "genmem_874c34ceb20bf193:a0377#184-228",
+      "end": 228,
+      "occurrences": [
+        {
+          "position": {
+            "index": 5,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0377:u184-228"
+        }
+      ],
+      "start": 184,
+      "text": "Waves + The Amsterdam Chamber Orchestra 1981"
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0377",
+      "canonical_id": "genmem_874c34ceb20bf193:a0377#233-285",
+      "end": 285,
+      "occurrences": [
+        {
+          "position": {
+            "index": 6,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0377:u233-285"
+        }
+      ],
+      "start": 233,
+      "text": "Six Days In Berlin + The Berlin Opera Orchestra 1982"
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0377",
+      "canonical_id": "genmem_874c34ceb20bf193:a0377#290-342",
+      "end": 342,
+      "occurrences": [
+        {
+          "position": {
+            "index": 7,
+            "slot": "material"
+          },
+          "role": "evidence_a",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0377:u290-342"
+        }
+      ],
+      "start": 290,
+      "text": "Zero Zero (Musical) + The Sidney Symphonic Orchestra"
+    },
+    {
+      "artifact_id": "genmem_874c34ceb20bf193:a0377",
+      "canonical_id": "genmem_874c34ceb20bf193:a0377#54-116",
+      "end": 116,
+      "occurrences": [
+        {
+          "position": {
+            "index": 3,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_874c34ceb20bf193:a0377:u54-116"
+        }
+      ],
+      "start": 54,
+      "text": "Caravans (Soundtrack) + The London Philharmonic Orchestra 1979"
+    }
+  ],
+  "case_id": "genmem_874c34ceb20bf193:selected_06",
+  "control": "final_round_sufficient",
+  "evidence_groups": [
+    {
+      "coverage": "full",
+      "group_id": "genmem_874c34ceb20bf193:selected_06:support_g01",
+      "items": [
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_874c34ceb20bf193:a0377",
+              "end": 49,
+              "start": 0,
+              "text": "Schizophonia + The London Symphony Orchestra 1978"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_874c34ceb20bf193:a0377",
+            "end": 49,
+            "start": 0,
+            "text": "Schizophonia + The London Symphony Orchestra 1978"
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_874c34ceb20bf193:a0377",
+              "end": 116,
+              "start": 54,
+              "text": "Caravans (Soundtrack) + The London Philharmonic Orchestra 1979"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_874c34ceb20bf193:a0377",
+            "end": 116,
+            "start": 54,
+            "text": "Caravans (Soundtrack) + The London Philharmonic Orchestra 1979"
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_874c34ceb20bf193:a0377",
+              "end": 179,
+              "start": 121,
+              "text": "Tarot Suite + Friends + The London Symphony Orchestra 1980"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_874c34ceb20bf193:a0377",
+            "end": 179,
+            "start": 121,
+            "text": "Tarot Suite + Friends + The London Symphony Orchestra 1980"
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_874c34ceb20bf193:a0377",
+              "end": 228,
+              "start": 184,
+              "text": "Waves + The Amsterdam Chamber Orchestra 1981"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_874c34ceb20bf193:a0377",
+            "end": 228,
+            "start": 184,
+            "text": "Waves + The Amsterdam Chamber Orchestra 1981"
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_874c34ceb20bf193:a0377",
+              "end": 285,
+              "start": 233,
+              "text": "Six Days In Berlin + The Berlin Opera Orchestra 1982"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_874c34ceb20bf193:a0377",
+            "end": 285,
+            "start": 233,
+            "text": "Six Days In Berlin + The Berlin Opera Orchestra 1982"
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_874c34ceb20bf193:a0377",
+              "end": 342,
+              "start": 290,
+              "text": "Zero Zero (Musical) + The Sidney Symphonic Orchestra"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_874c34ceb20bf193:a0377",
+            "end": 342,
+            "start": 290,
+            "text": "Zero Zero (Musical) + The Sidney Symphonic Orchestra"
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_874c34ceb20bf193:a0282",
+              "end": 43,
+              "start": 0,
+              "text": "Mike Batt Zero Zero - EXC Vinyl LP FE 38454"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_874c34ceb20bf193:a0282",
+            "end": 43,
+            "start": 0,
+            "text": "Mike Batt Zero Zero - EXC Vinyl LP FE 38454"
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_874c34ceb20bf193:a0284",
+              "end": 154,
+              "start": 137,
+              "text": "Release Year1982."
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_874c34ceb20bf193:a0284",
+            "end": 154,
+            "start": 137,
+            "text": "Release Year1982."
+          }
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "A": [
+      "genmem_874c34ceb20bf193:a0377#290-342"
+    ],
+    "B": [
+      "genmem_874c34ceb20bf193:a0284#137-154"
+    ]
+  },
+  "provenance": {
+    "archive": "/data2/pkuiti/songzhengxing_intern/memoryflow/artifacts/raw/genmem_batch10_v3/genmem_batch10_selection_v1.zip",
+    "archive_sha256": "f465eb1cd4ff79b2d3de20c0c95562492fdd0bef18b86dc7983fa878bbaf3d33",
+    "frozen_sha256": "f2df4a3f1023a39b445682952cd59cc64ec82b9492037b0e9afe9cf6754431ef",
+    "label_member": "genmem_batch10_selection_v1/contextual64_v4/case_02/ground_truth.json",
+    "note": "controlled multi-round reconstruction; not an original request snapshot",
+    "spec_sha256": "045396e71fa9c330e2b0120c126a1465a0d9df1af3d4862e637a6dd2b50b2ec9"
+  },
+  "record_type": "controlled",
+  "rounds": [
+    {
+      "inputs": [
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0375",
+          "end": 44,
+          "position": {
+            "index": 1,
+            "slot": "material"
+          },
+          "role": "locator",
+          "start": 0,
+          "text": "Mike Batt Short Discography - friedl.heim.at",
+          "unit_id": "genmem_874c34ceb20bf193:a0375:u0-44"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0377",
+          "end": 49,
+          "position": {
+            "index": 2,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "Schizophonia + The London Symphony Orchestra 1978",
+          "unit_id": "genmem_874c34ceb20bf193:a0377:u0-49"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0377",
+          "end": 116,
+          "position": {
+            "index": 3,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 54,
+          "text": "Caravans (Soundtrack) + The London Philharmonic Orchestra 1979",
+          "unit_id": "genmem_874c34ceb20bf193:a0377:u54-116"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0377",
+          "end": 179,
+          "position": {
+            "index": 4,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 121,
+          "text": "Tarot Suite + Friends + The London Symphony Orchestra 1980",
+          "unit_id": "genmem_874c34ceb20bf193:a0377:u121-179"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0377",
+          "end": 228,
+          "position": {
+            "index": 5,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 184,
+          "text": "Waves + The Amsterdam Chamber Orchestra 1981",
+          "unit_id": "genmem_874c34ceb20bf193:a0377:u184-228"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0377",
+          "end": 285,
+          "position": {
+            "index": 6,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 233,
+          "text": "Six Days In Berlin + The Berlin Opera Orchestra 1982",
+          "unit_id": "genmem_874c34ceb20bf193:a0377:u233-285"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0377",
+          "end": 342,
+          "position": {
+            "index": 7,
+            "slot": "material"
+          },
+          "role": "evidence_a",
+          "start": 290,
+          "text": "Zero Zero (Musical) + The Sidney Symphonic Orchestra",
+          "unit_id": "genmem_874c34ceb20bf193:a0377:u290-342"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0371",
+          "end": 83,
+          "position": {
+            "index": 8,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "Mike Batt discography and songs: Music profile for Mike Batt, born 6 February 1949.",
+          "unit_id": "genmem_874c34ceb20bf193:a0371:u0-83"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0374",
+          "end": 152,
+          "position": {
+            "index": 9,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "Jan 24, 2018 · In 1977, Batt conducted the all-star symphonic-rock recording Schizophonia, featuring the London Symphony Orchestra and released on Epic.",
+          "unit_id": "genmem_874c34ceb20bf193:a0374:u0-152"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0310",
+          "end": 69,
+          "position": {
+            "index": 10,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "\" Nine Million Bicycles \" is a song written and produced by Mike Batt",
+          "unit_id": "genmem_874c34ceb20bf193:a0310:u0-69"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0223",
+          "end": 149,
+          "position": {
+            "index": 11,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra).",
+          "unit_id": "genmem_874c34ceb20bf193:a0223:u0-149"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0153",
+          "end": 63,
+          "position": {
+            "index": 12,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "Explore Mike Batt's biography, discography, and artist credits.",
+          "unit_id": "genmem_874c34ceb20bf193:a0153:u0-63"
+        }
+      ],
+      "output": {
+        "origin": "model_output",
+        "sha256": "3ff57f26e6fa84f3c3216293b1335cabe482144b03bbfd392f9e59b100f14884",
+        "text": "The musical performed with The Sidney Symphonic Orchestra is is \"Zero Zero.\""
+      },
+      "question": "Which Mike Batt album is the musical performed with The Sidney Symphonic Orchestra?",
+      "round": 1,
+      "transmission": []
+    },
+    {
+      "inputs": [
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0279",
+          "end": 42,
+          "position": {
+            "index": 1,
+            "slot": "material"
+          },
+          "role": "locator",
+          "start": 0,
+          "text": "Mike Batt – Zero Zero | Releases | Discogs",
+          "unit_id": "genmem_874c34ceb20bf193:a0279:u0-42"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0282",
+          "end": 43,
+          "position": {
+            "index": 2,
+            "slot": "material"
+          },
+          "role": "locator_distractor",
+          "start": 0,
+          "text": "Mike Batt Zero Zero - EXC Vinyl LP FE 38454",
+          "unit_id": "genmem_874c34ceb20bf193:a0282:u0-43"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0284",
+          "end": 16,
+          "position": {
+            "index": 3,
+            "slot": "material"
+          },
+          "role": "context",
+          "start": 0,
+          "text": "Epic – FE 38454.",
+          "unit_id": "genmem_874c34ceb20bf193:a0284:u0-16"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0284",
+          "end": 34,
+          "position": {
+            "index": 4,
+            "slot": "material"
+          },
+          "role": "context",
+          "start": 17,
+          "text": "Vinyl, LP, Album.",
+          "unit_id": "genmem_874c34ceb20bf193:a0284:u17-34"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0284",
+          "end": 154,
+          "position": {
+            "index": 5,
+            "slot": "material"
+          },
+          "role": "evidence_b",
+          "start": 137,
+          "text": "Release Year1982.",
+          "unit_id": "genmem_874c34ceb20bf193:a0284:u137-154"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0281",
+          "end": 34,
+          "position": {
+            "index": 6,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "Mike Batt - Zero Zero album cover.",
+          "unit_id": "genmem_874c34ceb20bf193:a0281:u0-34"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0310",
+          "end": 69,
+          "position": {
+            "index": 7,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "\" Nine Million Bicycles \" is a song written and produced by Mike Batt",
+          "unit_id": "genmem_874c34ceb20bf193:a0310:u0-69"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0223",
+          "end": 149,
+          "position": {
+            "index": 8,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra).",
+          "unit_id": "genmem_874c34ceb20bf193:a0223:u0-149"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0153",
+          "end": 63,
+          "position": {
+            "index": 9,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "Explore Mike Batt's biography, discography, and artist credits.",
+          "unit_id": "genmem_874c34ceb20bf193:a0153:u0-63"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0236",
+          "end": 152,
+          "position": {
+            "index": 10,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "From mikebatt.com, the album list appears to include: Schizophonia, Tarot Suite, Waves, Six Days In Berlin, Zero Zero, Songs Of Love And War, Arabesque.",
+          "unit_id": "genmem_874c34ceb20bf193:a0236:u0-152"
+        },
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0371",
+          "end": 83,
+          "position": {
+            "index": 11,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "Mike Batt discography and songs: Music profile for Mike Batt, born 6 February 1949.",
+          "unit_id": "genmem_874c34ceb20bf193:a0371:u0-83"
+        }
+      ],
+      "output": {
+        "origin": "model_output",
+        "sha256": "4fb739edea9f2088fd20cb2e4b769fbd89130269803891d8fe9f7d50edc5368c",
+        "text": "The album \"Zero Zero\" was released in 1982."
+      },
+      "question": "State the album and its release year.",
+      "round": 2,
+      "transmission": [
+        {
+          "from_round": 1,
+          "position": {
+            "index": 0,
+            "slot": "earlier_finding"
+          },
+          "sha256": "3ff57f26e6fa84f3c3216293b1335cabe482144b03bbfd392f9e59b100f14884",
+          "text": "The musical performed with The Sidney Symphonic Orchestra is is \"Zero Zero.\"",
+          "unit_id": "round1_output"
+        }
+      ]
+    }
+  ],
+  "schema": "memoryflow.multiturn_case.v1",
+  "split": "dev",
+  "target": {
+    "artifact_id": null,
+    "end": null,
+    "origin": "controlled_output",
+    "original_target": {
+      "artifact_id": "genmem_874c34ceb20bf193:a0398",
+      "end": 262,
+      "event_index": 44,
+      "group_id": "genmem_874c34ceb20bf193:selected_06:support_g01",
+      "start": 243,
+      "text": "6. Zero Zero (1982)"
+    },
+    "sha256": "4fb739edea9f2088fd20cb2e4b769fbd89130269803891d8fe9f7d50edc5368c",
+    "start": null,
+    "text": "The album \"Zero Zero\" was released in 1982."
+  },
+  "trajectory_case": "case_02",
+  "trajectory_id": "genmem_874c34ceb20bf193"
+}

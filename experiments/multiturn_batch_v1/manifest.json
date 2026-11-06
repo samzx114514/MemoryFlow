@@ -1,0 +1,85 @@
+{
+  "cases": [
+    {
+      "candidates": 16,
+      "case_id": "genmem_874c34ceb20bf193:selected_03",
+      "case_path": "cases\\t03.json",
+      "case_sha256": "e6bf8bc7b925c77cd298b880f998e0570e7bdcf91d7eef26ac606d0c7efeb57c",
+      "control": null,
+      "evidence_groups": 3,
+      "matrix_path": "matrices\\t03.json",
+      "matrix_sha256": "269e81f02cfc5ccadcef1373278ff3fb4f8c4d7552418cce7421902c3f10d383",
+      "record_type": "controlled",
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "T03",
+      "split": "dev",
+      "trajectory_case": "case_02",
+      "trajectory_id": "genmem_874c34ceb20bf193"
+    },
+    {
+      "candidates": 17,
+      "case_id": "genmem_874c34ceb20bf193:selected_09",
+      "case_path": "cases\\t09.json",
+      "case_sha256": "b85217670c0ed3d3f4797c7dbe01befba8a37e04049de716ae2181d17ab6dee3",
+      "control": null,
+      "evidence_groups": 2,
+      "matrix_path": "matrices\\t09.json",
+      "matrix_sha256": "3b91bb41efc23281f12f954d7c12fdf950f21700a1d4a589dcc81dbb45a2c24b",
+      "record_type": "controlled",
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "T09",
+      "split": "dev",
+      "trajectory_case": "case_02",
+      "trajectory_id": "genmem_874c34ceb20bf193"
+    },
+    {
+      "candidates": 19,
+      "case_id": "genmem_874c34ceb20bf193:selected_06",
+      "case_path": "cases\\t06.json",
+      "case_sha256": "825932f05f02db0d1ba9670cb9a6845613f454504dd84ac9ae8d293c96247f2a",
+      "control": "final_round_sufficient",
+      "evidence_groups": 1,
+      "matrix_path": "matrices\\t06.json",
+      "matrix_sha256": "a4936afe418f51d87512b41b484ac097e8c83bec70cc58f202f329d1bdd79f42",
+      "record_type": "controlled",
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "T06",
+      "split": "dev",
+      "trajectory_case": "case_02",
+      "trajectory_id": "genmem_874c34ceb20bf193"
+    }
+  ],
+  "created": "2026-11-06",
+  "final_budget": 10,
+  "hop_budget": 5,
+  "schema": "memoryflow.multiturn_batch.manifest.v1",
+  "totals": {
+    "cases": 3,
+    "controlled": 3,
+    "controls": 1,
+    "dev": 3,
+    "eval": 0,
+    "real_request": 0
+  }
+}
