@@ -1,0 +1,405 @@
+{
+  "cases": [
+    {
+      "case_id": "B04",
+      "control": null,
+      "final_budget": 10,
+      "hop_budget": 5,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": true,
+          "complete_at_5": false,
+          "complete_rank": 6,
+          "group_complete": {
+            "B04:g01": {
+              "at_10": true,
+              "at_5": false
+            },
+            "B04:g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "B04:g03": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": false,
+          "hit_rank": 4,
+          "hops": null,
+          "label_ranks": {
+            "A": null,
+            "B": null
+          },
+          "ranked": [
+            "genmem_2709369480c2585e:arg0004_0_0003#1212-1260",
+            "genmem_2709369480c2585e:a0006#845-930",
+            "genmem_2709369480c2585e:a0006#932-977",
+            "genmem_2709369480c2585e:a0000#66-357",
+            "genmem_2709369480c2585e:a0006#125-179",
+            "genmem_2709369480c2585e:a0006#979-1057",
+            "genmem_2709369480c2585e:arg0004_0_0003#622-663",
+            "genmem_2709369480c2585e:a0006#2615-2695",
+            "genmem_2709369480c2585e:arg0002_0_0000#3192-3253",
+            "genmem_2709369480c2585e:arg0004_0_0003#2280-2346"
+          ]
+        },
+        "head_full_history": {
+          "complete_at_10": true,
+          "complete_at_5": true,
+          "complete_rank": 5,
+          "group_complete": {
+            "B04:g01": {
+              "at_10": true,
+              "at_5": true
+            },
+            "B04:g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "B04:g03": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 3,
+            "B": null
+          },
+          "ranked": [
+            "genmem_2709369480c2585e:a0006#979-1057",
+            "genmem_2709369480c2585e:arg0004_0_0003#1212-1260",
+            "genmem_2709369480c2585e:arg0002_0_0000#1044-1093",
+            "genmem_2709369480c2585e:arg0004_0_0003#1261-1278",
+            "genmem_2709369480c2585e:a0000#66-357",
+            "genmem_2709369480c2585e:a0006#1119-1230",
+            "genmem_2709369480c2585e:a0001#3238-6518",
+            "genmem_2709369480c2585e:a0006#2436-2483",
+            "genmem_2709369480c2585e:a0006#845-930",
+            "genmem_2709369480c2585e:a0006#2118-2434"
+          ]
+        },
+        "last_round": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "B04:g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "B04:g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "B04:g03": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": false,
+          "hit_rank": 4,
+          "hops": null,
+          "label_ranks": {
+            "A": null,
+            "B": 4
+          },
+          "ranked": [
+            "genmem_2709369480c2585e:arg0002_0_0000#1422-1440",
+            "genmem_2709369480c2585e:arg0002_0_0000#864-921",
+            "genmem_2709369480c2585e:a0000#370-462",
+            "genmem_2709369480c2585e:arg0002_0_0000#167-184",
+            "genmem_2709369480c2585e:a0000#926-1028",
+            "genmem_2709369480c2585e:arg0002_0_0000#931-986",
+            "genmem_2709369480c2585e:arg0002_0_0000#143-166",
+            "genmem_2709369480c2585e:arg0002_0_0000#186-240",
+            "genmem_2709369480c2585e:a0002#0-66",
+            "genmem_2709369480c2585e:arg0002_0_0000#987-1016"
+          ]
+        },
+        "memoryflow": {
+          "complete_at_10": true,
+          "complete_at_5": true,
+          "complete_rank": 5,
+          "group_complete": {
+            "B04:g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "B04:g02": {
+              "at_10": true,
+              "at_5": true
+            },
+            "B04:g03": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": [
+            {
+              "factor": 1.0,
+              "path": [
+                "r2"
+              ],
+              "round": "r2",
+              "top": [
+                {
+                  "canonical_id": "transmission:r1",
+                  "score": 0.3966678977012634
+                },
+                {
+                  "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1422-1440",
+                  "score": 0.09439767897129059
+                },
+                {
+                  "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#864-921",
+                  "score": 0.06273385137319565
+                },
+                {
+                  "canonical_id": "genmem_2709369480c2585e:a0000#370-462",
+                  "score": 0.04918183013796806
+                },
+                {
+                  "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#167-184",
+                  "score": 0.040450893342494965
+                }
+              ]
+            },
+            {
+              "factor": 0.396667898,
+              "path": [
+                "r2",
+                "r1"
+              ],
+              "round": "r1",
+              "top": [
+                {
+                  "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1044-1093",
+                  "score": 0.6565538644790649
+                },
+                {
+                  "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#143-166",
+                  "score": 0.05253557860851288
+                },
+                {
+                  "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#931-986",
+                  "score": 0.03600038215517998
+                },
+                {
+                  "canonical_id": "genmem_2709369480c2585e:a0000#370-462",
+                  "score": 0.02498263493180275
+                },
+                {
+                  "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#506-538",
+                  "score": 0.018546434119343758
+                }
+              ]
+            }
+          ],
+          "label_ranks": {
+            "A": 1,
+            "B": 5
+          },
+          "ranked": [
+            "genmem_2709369480c2585e:arg0002_0_0000#1044-1093",
+            "genmem_2709369480c2585e:arg0002_0_0000#1422-1440",
+            "genmem_2709369480c2585e:arg0002_0_0000#864-921",
+            "genmem_2709369480c2585e:a0000#370-462",
+            "genmem_2709369480c2585e:arg0002_0_0000#167-184",
+            "genmem_2709369480c2585e:arg0002_0_0000#143-166",
+            "genmem_2709369480c2585e:arg0002_0_0000#931-986",
+            "genmem_2709369480c2585e:arg0002_0_0000#506-538"
+          ]
+        }
+      },
+      "record_type": "controlled",
+      "split": "dev",
+      "trajectory_case": "deepresearch_63_run_1",
+      "trajectory_id": "genmem_2709369480c2585e"
+    }
+  ],
+  "final_budget": 10,
+  "hop_budget": 5,
+  "schema": "memoryflow.multiturn_batch.results.v1",
+  "summary": {
+    "all": {
+      "cases": 1,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": 1.0,
+          "complete_at_10_count": 1,
+          "complete_at_5": 0.0,
+          "complete_at_5_count": 0,
+          "hit_at_3": 0.0,
+          "hit_at_3_count": 0,
+          "mean_complete_rank": 6.0,
+          "mean_hit_rank": 4.0
+        },
+        "head_full_history": {
+          "complete_at_10": 1.0,
+          "complete_at_10_count": 1,
+          "complete_at_5": 1.0,
+          "complete_at_5_count": 1,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 1,
+          "mean_complete_rank": 5.0,
+          "mean_hit_rank": 1.0
+        },
+        "last_round": {
+          "complete_at_10": 0.0,
+          "complete_at_10_count": 0,
+          "complete_at_5": 0.0,
+          "complete_at_5_count": 0,
+          "hit_at_3": 0.0,
+          "hit_at_3_count": 0,
+          "mean_complete_rank": 11.0,
+          "mean_hit_rank": 4.0
+        },
+        "memoryflow": {
+          "complete_at_10": 1.0,
+          "complete_at_10_count": 1,
+          "complete_at_5": 1.0,
+          "complete_at_5_count": 1,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 1,
+          "mean_complete_rank": 5.0,
+          "mean_hit_rank": 1.0
+        }
+      }
+    },
+    "control": {
+      "cases": 0
+    },
+    "control_case_ids": [],
+    "final_budget": 10,
+    "main": {
+      "cases": 1,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": 1.0,
+          "complete_at_10_count": 1,
+          "complete_at_5": 0.0,
+          "complete_at_5_count": 0,
+          "hit_at_3": 0.0,
+          "hit_at_3_count": 0,
+          "mean_complete_rank": 6.0,
+          "mean_hit_rank": 4.0
+        },
+        "head_full_history": {
+          "complete_at_10": 1.0,
+          "complete_at_10_count": 1,
+          "complete_at_5": 1.0,
+          "complete_at_5_count": 1,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 1,
+          "mean_complete_rank": 5.0,
+          "mean_hit_rank": 1.0
+        },
+        "last_round": {
+          "complete_at_10": 0.0,
+          "complete_at_10_count": 0,
+          "complete_at_5": 0.0,
+          "complete_at_5_count": 0,
+          "hit_at_3": 0.0,
+          "hit_at_3_count": 0,
+          "mean_complete_rank": 11.0,
+          "mean_hit_rank": 4.0
+        },
+        "memoryflow": {
+          "complete_at_10": 1.0,
+          "complete_at_10_count": 1,
+          "complete_at_5": 1.0,
+          "complete_at_5_count": 1,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 1,
+          "mean_complete_rank": 5.0,
+          "mean_hit_rank": 1.0
+        }
+      }
+    },
+    "main_case_ids": [
+      "B04"
+    ],
+    "paired_all": {
+      "bm25_history": {
+        "complete_rank": {
+          "loss": 0,
+          "tie": 0,
+          "win": 1
+        },
+        "hit_rank": {
+          "loss": 0,
+          "tie": 0,
+          "win": 1
+        }
+      },
+      "head_full_history": {
+        "complete_rank": {
+          "loss": 0,
+          "tie": 1,
+          "win": 0
+        },
+        "hit_rank": {
+          "loss": 0,
+          "tie": 1,
+          "win": 0
+        }
+      },
+      "last_round": {
+        "complete_rank": {
+          "loss": 0,
+          "tie": 0,
+          "win": 1
+        },
+        "hit_rank": {
+          "loss": 0,
+          "tie": 0,
+          "win": 1
+        }
+      }
+    },
+    "paired_main": {
+      "bm25_history": {
+        "complete_rank": {
+          "loss": 0,
+          "tie": 0,
+          "win": 1
+        },
+        "hit_rank": {
+          "loss": 0,
+          "tie": 0,
+          "win": 1
+        }
+      },
+      "head_full_history": {
+        "complete_rank": {
+          "loss": 0,
+          "tie": 1,
+          "win": 0
+        },
+        "hit_rank": {
+          "loss": 0,
+          "tie": 1,
+          "win": 0
+        }
+      },
+      "last_round": {
+        "complete_rank": {
+          "loss": 0,
+          "tie": 0,
+          "win": 1
+        },
+        "hit_rank": {
+          "loss": 0,
+          "tie": 0,
+          "win": 1
+        }
+      }
+    }
+  }
+}

@@ -135,8 +135,10 @@
 - `rN` 矩阵 = 第 N 轮输出对第 N 轮可见材料；`transmission:r{N-1}` 是中间传递候选，
   MemoryFlow 沿它展开到上一轮矩阵。
 - `flat` 矩阵 = 最终句对全部历史原始候选（同头直接回放）。
+- 矩阵由 `score_cases.py` 在服务器上用固定 7B 头生成；本机只读已保存矩阵。
 - 所有方法共用 `final_budget`（默认 10）；`hop_budget`（默认 5）另记。
 - 候选 id 必须能在 case 的 `candidates` 里找到（`transmission:*` 除外）。
+  只出现在全历史池、没有进入任何一轮的候选允许 `occurrences=[]`（`pool_only`）。
 
 ## 7. 缺失登记
 

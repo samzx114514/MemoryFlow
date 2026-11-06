@@ -78,25 +78,29 @@ def top_list(ranked: list[str], limit: int = 10) -> str:
 
 def render_markdown(results: dict) -> str:
     summary = results["summary"]
+    has_control = any(case_row.get("control") for case_row in results["cases"])
     lines = [
-        "# 多轮批处理验收（统一入口 + 四方法）",
+        "# 多轮批处理：四方法对比",
         "",
-        "数据：`experiments/multiturn_batch_v1` 的三题开发验收；只读已保存矩阵与 CPU BM25，未重跑模型。",
+        f"数据：`{results.get('directory', '')}` 的 {len(results['cases'])} 个目标；"
+        "只读已保存矩阵与 CPU BM25。",
         "",
         "## 口径",
         "",
         f"- 最终返回预算：top-{summary['final_budget']}；每跳展开预算：top-{results['hop_budget']}（另记）。"
-        "\n- 多轮链每跳 5，合并去重后实际返回 8–9 条；其余方法返回 10 条。若要求所有方法恰好 10 条，把 hop 调到 10。",
+        "\n- 多轮链每跳 5，合并去重后实际返回条数见表；其余方法返回 10 条。"
+        "若要求所有方法恰好 10 条，把 hop 调到 10。",
         "- 方法：最后一轮（last_round）、全历史 BM25（bm25_history）、同头全历史直接回放（head_full_history）、MemoryFlow 多轮追踪（memoryflow）。",
         "- 覆盖规则沿用原评测：片段按同 artifact 的非空白字符覆盖，组内 all_of（含等价出现）全中，组间 OR；Hit@3 = 前 3 有任一证据片段；完整@5/@10 = 任一 full 组完整。",
-        "- 同一证据按 (artifact, start, end) 归并；renamed 位置保留在 case JSON 的 occurrences 里。",
-        "- T06 单列为“最终轮自身已有足够证据”的对照，主表宏平均不含它。",
-        "",
-        "## 逐题名次",
-        "",
-        "| 题 | 方法 | 返回 | Hit@3 | 完整@5 | 完整@10 | 首个证据名次 | 完整名次 | A 名次 | B 名次 |",
-        "|---|---|---|---|---|---|---|---|---|---|",
+        "- 同一证据按 (artifact, start, end) 归并；各轮实际位置保留在 case JSON 的 occurrences 里。",
     ]
+    if has_control:
+        lines.append("- 带 `control` 的题单列为“最终轮自身已有足够证据”的对照，主表宏平均不含它。")
+    lines.append("")
+    lines.append("## 逐题名次")
+    lines.append("")
+    lines.append("| 题 | 方法 | 返回 | Hit@3 | 完整@5 | 完整@10 | 首个证据名次 | 完整名次 | A 名次 | B 名次 |")
+    lines.append("|---|---|---|---|---|---|---|---|---|---|")
     for case_row in results["cases"]:
         for method in methods.METHODS:
             row = case_row["methods"][method]
@@ -113,7 +117,11 @@ def render_markdown(results: dict) -> str:
     lines.append("")
     lines.append("## 宏平均")
     lines.append("")
-    for block, label in (("main", "主表（不含对照）"), ("control", "对照"), ("all", "全部")):
+    blocks = [("main", "主表（不含对照）" if has_control else "主表")]
+    if has_control:
+        blocks.append(("control", "对照"))
+        blocks.append(("all", "全部"))
+    for block, label in blocks:
         aggregate = summary[block]
         if not aggregate.get("cases"):
             continue
@@ -130,14 +138,15 @@ def render_markdown(results: dict) -> str:
                 f"{row['mean_complete_rank']:.2f} | {row['mean_hit_rank']:.2f} |"
             )
         lines.append("")
-    lines.append("### T06 对照说明")
-    lines.append("")
-    lines.append(
-        "T06 的 GT 组仍是原“第 6 张 + 年份”的 ordinal 组（6 个列表项 + `a0282` + `a0284`，共 8 项），"
-        "但受控最终句只要求“专辑 + 发行年”，不再声明第 6。因此它的 Complete@5/@10 只作诊断，"
-        "不进主表宏平均；对照检查是：最终轮 top-5 已含 B（年份）和专辑题名，最终句不需要沿链追到列表项 A。"
-    )
-    lines.append("")
+    if has_control:
+        lines.append("### T06 对照说明")
+        lines.append("")
+        lines.append(
+            "T06 的 GT 组仍是原“第 6 张 + 年份”的 ordinal 组（6 个列表项 + `a0282` + `a0284`，共 8 项），"
+            "但受控最终句只要求“专辑 + 发行年”，不再声明第 6。因此它的 Complete@5/@10 只作诊断，"
+            "不进主表宏平均；对照检查是：最终轮 top-5 已含 B（年份）和专辑题名，最终句不需要沿链追到列表项 A。"
+        )
+        lines.append("")
     lines.append("## 配对胜平负（MemoryFlow 对基线）")
     lines.append("")
     lines.append("| 基线 | 完整名次 W/T/L | 首个证据名次 W/T/L |")
@@ -192,7 +201,7 @@ def main(argv: list[str] | None = None) -> int:
     check_lock(directory, cases.read_json(lock_path), manifest)
 
     results = {"schema": "memoryflow.multiturn_batch.results.v1", "final_budget": cases.FINAL_BUDGET,
-               "hop_budget": cases.HOP_BUDGET, "cases": []}
+               "hop_budget": cases.HOP_BUDGET, "directory": str(directory), "cases": []}
     for row in manifest["cases"]:
         case = cases.read_json(directory / row["case_path"])
         matrix = cases.read_json(directory / row["matrix_path"])

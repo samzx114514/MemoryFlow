@@ -1,0 +1,25 @@
+{
+  "cases": {
+    "B04": {
+      "candidate_ids_sha256": "ae4e8cea11a46f79f3d65c552c6b916d58d39e8558b9b829060278bcf0c8b0b6",
+      "case_id": "B04",
+      "case_sha256": "ec4eb5156e55876ff58b5e0150804ac478d8b9fb0787597310de7c94b7557f16",
+      "evidence_sha256": "3b93648d2ebad37f1a1331b2bf2c9d4e6c4d28d9c9ebaeadbf32041a433cc905",
+      "labels_sha256": "138f0ba4e9efe1e9bdde34cd50b8ac4dd92b6d4922f6d052f91565cdbbe632e5",
+      "matrix_sha256": "37d9295cb2c6321fba06285a00a6f72587a696860b65a970c1b616add4ba3390"
+    },
+    "F11": {
+      "candidate_ids_sha256": "721dcd49f1c5659a61b56437eb831fb9f794bdb60b27ad6f2e72c49c4feb8897",
+      "case_id": "F11",
+      "case_sha256": "2aaa0f76ab6887d0485a09bc4e5ebdddf03033058263592370cb275a38490656",
+      "evidence_sha256": "8dd8dc2d64d7b858305e65b5c315615c59c1021cf80c6b8e6360f53cc777a05f",
+      "labels_sha256": "c4fc071ef35f00b769de582b694919e0ecd5198937d844be7dc4dcf3a1fff00a",
+      "matrix_sha256": "72256c48fa65eb8d4a76062ce3449bc13e107036992d173a1135041ae52e5c15"
+    }
+  },
+  "created": "2026-11-06",
+  "final_budget": 10,
+  "hop_budget": 5,
+  "manifest_sha256": "dde4c7201676d13879e62d5ba07a4e8ada9ad88f5f66144a7be89b606825f78f",
+  "schema": "memoryflow.multiturn_batch.lock.v1"
+}

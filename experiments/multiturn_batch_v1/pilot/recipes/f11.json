@@ -1,0 +1,56 @@
+{
+  "case_id": "F11",
+  "trajectory_id": "genmem_2709369480c2585e",
+  "trajectory_case": "deepresearch_63_run_1",
+  "archive": "/data2/pkuiti/songzhengxing_intern/memoryflow/artifacts/raw/genmem63_pilot_v4/deepresearch63_pilot_v4.zip",
+  "archive_sha256": "dd3be99b78dbe3f609a6f9e764825887ec1ac0870507e9d1fb1c98ba03a391c1",
+  "records_sha256": "5ff70f18164c614296afe0720167be7268819f41ef8d5f7d7f5f534c0b4bf003",
+  "reference_sha256": "49ccbaa006f71c7e454e4ff863eca76000b888524bc9f833d4e6dae86ab96db6",
+  "dataset_sha256": "fd13ca3e82d24aa8166c7aecd6abdef2536496a0ab4e597829092f6b2a879abc",
+  "note": "受控两轮：第一轮读新增条件（体积—面积关系同时适用于 2000 与 2020）；第二轮读中间结论与修订后的唯一解证据，旧欠定结论作为干扰项。g01/g02 保留为正向替代组，g03/g04 旧前态组登记在 excluded_groups。",
+  "rounds": [
+    {
+      "question": "According to the materials, where does the volume-area relationship apply?",
+      "output": "The volume-area relationship holds in both 2000 and 2020.",
+      "origin": "controlled_output",
+      "materials": [
+        {"window": "genmem_2709369480c2585e:arg0008_0_0009:line:67:144", "role": "evidence_a"},
+        {"window": "genmem_2709369480c2585e:a0008:line:124:238", "role": "distractor"},
+        {"window": "genmem_2709369480c2585e:a0008:line:0:122", "role": "distractor"},
+        {"window": "genmem_2709369480c2585e:a0008:line:412:447", "role": "distractor"},
+        {"window": "genmem_2709369480c2585e:a0008:line:448:517", "role": "distractor"},
+        {"window": "genmem_2709369480c2585e:a0008:line:518:561", "role": "distractor"},
+        {"window": "genmem_2709369480c2585e:a0008:line:562:627", "role": "distractor"},
+        {"window": "genmem_2709369480c2585e:arg0008_0_0009:line:27:66", "role": "distractor"},
+        {"window": "genmem_2709369480c2585e:arg0008_0_0009:line:0:22", "role": "distractor"},
+        {"window": "genmem_2709369480c2585e:a0000:line:370:462", "role": "distractor"},
+        {"window": "genmem_2709369480c2585e:a0002:line:0:66", "role": "distractor"}
+      ]
+    },
+    {
+      "question": "Why is the system not underdetermined?",
+      "output": "The reason the system is **not** underdetermined is that the volume-area relationship applies to **both** the 2000 state and the 2020 state.",
+      "origin": "recorded_target",
+      "materials": [
+        {"window": "genmem_2709369480c2585e:a0008:line:1069:1142", "role": "evidence_b"},
+        {"window": "genmem_2709369480c2585e:a0000:line:463:649", "role": "distractor"},
+        {"window": "genmem_2709369480c2585e:a0008:line:240:410", "role": "distractor"},
+        {"window": "genmem_2709369480c2585e:a0006:line:1811:1969", "role": "distractor"},
+        {"window": "genmem_2709369480c2585e:a0008:line:676:765", "role": "distractor"},
+        {"window": "genmem_2709369480c2585e:a0008:line:798:836", "role": "distractor"},
+        {"window": "genmem_2709369480c2585e:a0008:line:838:919", "role": "distractor"},
+        {"window": "genmem_2709369480c2585e:a0008:line:921:1067", "role": "distractor"},
+        {"window": "genmem_2709369480c2585e:a0008:line:518:561", "role": "distractor"},
+        {"window": "genmem_2709369480c2585e:a0002:line:0:66", "role": "distractor"},
+        {"window": "genmem_2709369480c2585e:a0000:line:370:462", "role": "distractor"},
+        {"window": "genmem_2709369480c2585e:a0008:line:1144:1200", "role": "distractor"}
+      ]
+    }
+  ],
+  "labels": {
+    "A": ["genmem_2709369480c2585e:arg0008_0_0009:line:67:144"],
+    "B": ["genmem_2709369480c2585e:a0008:line:1069:1142"]
+  },
+  "evidence_group_ids": ["F11:g01", "F11:g02"],
+  "excluded_group_ids": ["F11:g03", "F11:g04"]
+}

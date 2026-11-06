@@ -130,8 +130,12 @@ def validate_case(case: dict) -> list[str]:
                 issues.append(f"candidate {cid} lacks {key}")
         if candidate.get("start", 0) >= candidate.get("end", 0):
             issues.append(f"candidate {cid} has empty span")
-        if not candidate.get("occurrences"):
-            issues.append(f"candidate {cid} lacks occurrences")
+
+    for round_record in rounds:
+        for material in round_record.get("inputs") or []:
+            cid = canonical_id(material["artifact_id"], material["start"], material["end"])
+            if cid not in seen:
+                issues.append(f"round {round_record['round']} material missing from candidates: {cid}")
 
     groups = case.get("evidence_groups") or []
     if not groups:

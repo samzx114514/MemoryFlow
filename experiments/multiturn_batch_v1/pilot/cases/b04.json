@@ -1,0 +1,3455 @@
+{
+  "candidates": [
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0000",
+      "canonical_id": "genmem_2709369480c2585e:a0000#0-46",
+      "end": 46,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Here is a summary of the conversation to date:"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0000",
+      "canonical_id": "genmem_2709369480c2585e:a0000#48-65",
+      "end": 65,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 48,
+      "text": "## SESSION INTENT"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0000",
+      "canonical_id": "genmem_2709369480c2585e:a0000#66-357",
+      "end": 357,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 66,
+      "text": "Compute the average annual surface area change rate (%/yr) of a glacier from 2000 to 2020 given: volume-area relation V = 0.04 S^1.5, mass balance B = −0.6 m w.e. a⁻¹, measured volume in 2020 is 1.028 times predicted volume assuming constant area, linear area change, ice density 917 kg m⁻³."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0000",
+      "canonical_id": "genmem_2709369480c2585e:a0000#359-369",
+      "end": 369,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 359,
+      "text": "## SUMMARY"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0000",
+      "canonical_id": "genmem_2709369480c2585e:a0000#370-462",
+      "end": 462,
+      "occurrences": [
+        {
+          "position": {
+            "index": 10,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_2709369480c2585e:a0000:line:370:462"
+        },
+        {
+          "position": {
+            "index": 9,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_2709369480c2585e:a0000:line:370:462"
+        }
+      ],
+      "pool_only": false,
+      "start": 370,
+      "text": "- The user derived S₀ ≈ 1.642 km² and r = −0.82%/yr by solving two equations simultaneously."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0000",
+      "canonical_id": "genmem_2709369480c2585e:a0000#463-649",
+      "end": 649,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 463,
+      "text": "- AI analysis (via script /mnt/user-data/workspace/glacier_rate.py) indicated that r depends on unknown S₀ unless additional constraints are imposed → the system appears underdetermined."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0000",
+      "canonical_id": "genmem_2709369480c2585e:a0000#650-925",
+      "end": 925,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 650,
+      "text": "- A second script (/mnt/user-data/workspace/glacier_details.py) was created to test three interpretations (mass‑balance integral, volume‑area derivative, direct volume‑area scaling) across a range of S₀ values. Results confirm r varies with S₀, supporting underdetermination."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0000",
+      "canonical_id": "genmem_2709369480c2585e:a0000#926-1028",
+      "end": 1028,
+      "occurrences": [
+        {
+          "position": {
+            "index": 11,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_2709369480c2585e:a0000:line:926:1028"
+        },
+        {
+          "position": {
+            "index": 10,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_2709369480c2585e:a0000:line:926:1028"
+        }
+      ],
+      "pool_only": false,
+      "start": 926,
+      "text": "- The core discrepancy: whether the equations uniquely determine both S₀ and r. This must be resolved."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0000",
+      "canonical_id": "genmem_2709369480c2585e:a0000#1029-1122",
+      "end": 1122,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1029,
+      "text": "- Neither script has been executed (no terminal tool available). Manual verification pending."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0000",
+      "canonical_id": "genmem_2709369480c2585e:a0000#1124-1136",
+      "end": 1136,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1124,
+      "text": "## ARTIFACTS"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0000",
+      "canonical_id": "genmem_2709369480c2585e:a0000#1137-1252",
+      "end": 1252,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1137,
+      "text": "- Created: `/mnt/user-data/workspace/glacier_rate.py` – initial Python script (not executed) for computing r vs S₀."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0000",
+      "canonical_id": "genmem_2709369480c2585e:a0000#1253-1415",
+      "end": 1415,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1253,
+      "text": "- Created: `/mnt/user-data/workspace/glacier_details.py` – expanded script with three methods (integral, derivative, V‑A scaling) and formula check; not executed."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0000",
+      "canonical_id": "genmem_2709369480c2585e:a0000#1417-1430",
+      "end": 1430,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1417,
+      "text": "## NEXT STEPS"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0000",
+      "canonical_id": "genmem_2709369480c2585e:a0000#1431-1524",
+      "end": 1524,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1431,
+      "text": "- Execute the scripts as soon as a terminal tool becomes available to verify numeric results."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0000",
+      "canonical_id": "genmem_2709369480c2585e:a0000#1525-1655",
+      "end": 1655,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1525,
+      "text": "- If terminal remains unavailable, perform manual algebraic verification to determine whether the system is truly underdetermined."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0000",
+      "canonical_id": "genmem_2709369480c2585e:a0000#1656-1756",
+      "end": 1756,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1656,
+      "text": "- If underdetermined, clarify to the user that initial area (or an additional constraint) is needed."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0000",
+      "canonical_id": "genmem_2709369480c2585e:a0000#1757-1843",
+      "end": 1843,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1757,
+      "text": "- If uniquely determined, confirm the user’s r = −0.82%/yr or provide corrected value."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0001",
+      "canonical_id": "genmem_2709369480c2585e:a0001#0-17",
+      "end": 17,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "<system-reminder>"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0001",
+      "canonical_id": "genmem_2709369480c2585e:a0001#18-26",
+      "end": 26,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 18,
+      "text": "<memory>"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0001",
+      "canonical_id": "genmem_2709369480c2585e:a0001#27-40",
+      "end": 40,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 27,
+      "text": "User Context:"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0001",
+      "canonical_id": "genmem_2709369480c2585e:a0001#41-1303",
+      "end": 1303,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 41,
+      "text": "- Work: Continues developing structured knowledge systems for benchmark validation using DeerFlow tools, focusing on trajectory compression refinement with a specific JSON output format. Infrastructure issues persist (ConnectTimeouts, LLM unavailability, trailing asterisks format artifacts, empty trajectory errors, and missing bash tool). Recent benchmark training solves include seismic multiple suppression, UDL-LOC, adaptive virtual events, PhaseNet training, local magnitude calculation, trajectory compression across various domains, climate/sea level budget closure, tropical cyclone wind pressure estimation, hurricane wind-pressure relationship, Super Typhoon Hato wind speed estimation, IAP/CAS ocean heat content trend ratio, global OHC percentage increase calculation, remote sensing kNDVI vegetation index calculation, Fractional Vegetation Cover (FVC) inversion, semi-empirical NDVI model (Relative Abundance algorithm), 1D diffusion-adsorption problem, critical solar zenith angle problem for FVC estimation, Pangu-Weather input variables problem, deepresearch run_id=1 that failed due to LLM provider quota exhaustion (correct answer reference: 0.624 PVU), and now a sea level rise calculation from the Devon Ice Cap (correct answer: 10 mm SLE)."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0001",
+      "canonical_id": "genmem_2709369480c2585e:a0001#1304-2045",
+      "end": 2045,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1304,
+      "text": "- Personal: Demonstrates technical curiosity about AI implementation details, particularly structured knowledge organization patterns like SkillOpt-style external knowledge systems. Maintains multilingual capabilities with preference for precise technical terminology and regional language-specific analysis, including Chinese, Persian, Korean, Vietnamese, French, Portuguese, Dutch, Spanish, Italian, German, Turkish, and Polish sources. Actively communicates in Chinese as shown by recent conversation (trajectory compression analysis in Chinese). Uses multilingual search strategies in trajectory compression runs, now reinforced by bilingual Chinese/English searches for historical figures, and also uses Portuguese and Spanish searches."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0001",
+      "canonical_id": "genmem_2709369480c2585e:a0001#2046-3227",
+      "end": 3227,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2046,
+      "text": "- Current Focus: Ongoing focus on trajectory compression methodology refinement with a specific JSON output format. Recent benchmark training solves continue to accumulate across physics, geophysics, climate science, remote sensing, and now a sea level rise calculation from Devon Ice Cap (correctly computed 10 mm SLE using standard formula). Infrastructure issues persist: ConnectTimeouts, trailing asterisks format artifacts, empty trajectory errors, missing bash tool, and LLM provider quota exhaustion. The latest trajectory compression run on deepresearch dataset (run_id=1) failed due to LLM provider quota exhaustion before any computation; the correct answer was 0.624 PVU. In contrast, a trajectory compression run (run_id=2) for Super Typhoon Hato wind speed was completed successfully: the agent solved it through pure arithmetic derivation without external tools, predicting 14 m/s (matching ground truth). This demonstrates successful low-evidence handling and knowledge-based reasoning. Other recent correct solves continue to be analyzed for evaluation inconsistencies and pipeline improvement. The new sea level rise calculation adds to the climate science domain."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0001",
+      "canonical_id": "genmem_2709369480c2585e:a0001#3229-3237",
+      "end": 3237,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3229,
+      "text": "History:"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0001",
+      "canonical_id": "genmem_2709369480c2585e:a0001#3238-6518",
+      "end": 6518,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3238,
+      "text": "- Recent: Recent activity includes numerous correct benchmark training solves and trajectory compression runs across physics, astrophysics, condensed matter, computational biology, drug design, organic chemistry, geophysics/seismic data processing, GLN, deepresearch dataset, local magnitude calculation, LOC FLOW relocation method, and climate science. On 2026-06-27, a trajectory compression run (run_id=2) for typhoon intensity probability estimation on the deepresearch dataset correctly predicted 93 kt using pure arithmetic derivation without external tools, demonstrating successful low-evidence handling and knowledge-based reasoning. Other recent solves: complex Kuramoto-Sivashinsky equation (M = -375/64), idealized 2D fluid system, one-dimensional diffusion–sorption transport problem (D_eff/D = 0.12945), tropical cyclone fullness (ΔRMW = -13.5 km), tropical cyclone wind pressure estimation (PAI = 111,747), hurricane wind-pressure relationship (Vmax = 93 kt), Super Typhoon Hato wind speed estimation (~14 m/s), IAP/CAS ocean heat content trend ratio (3.17), global OHC percentage increase (93.62%), typhoon intensity probability estimation, kNDVI vegetation index calculation (result 0.5649), Fractional Vegetation Cover (FVC) inversion based on the Dimidiate Pixel Model (DPM), semi-empirical NDVI model (Relative Abundance algorithm) benchmark training question solved correctly yielding f_c = 0.615, and a Pangu-Weather input variables problem (geopotential height channels as 18.84% of total 69 variables). Trajectory compression runs on the deepresearch dataset continued: run_id=3 for hurricane Vmax calculation correctly predicted 93 kt using Bankert & Tag wind-pressure relation; run_id=4 also correctly predicted 93 kt with decisive bias sign interpretation. A trajectory compression run (run_id=1) on the deepresearch dataset for a 1D diffusion-adsorption problem correctly computed D_eff/D = 1.2945e-01, saved to /mnt/user-data/outputs/trajectory_compression_deepresearch_run1.json. However, a later trajectory compression run (run_id=1?) on deepresearch dataset failed due to LLM provider quota exhaustion before any computation; the correct answer reference was 0.624 PVU. A critical solar zenith angle problem for FVC estimation is ongoing with manual calculation and Python scripts (solve_fvc.py, solve_fvc2.py). The latest trajectory compression run (run_id=2 on deepresearch dataset) for the same 1D diffusion-adsorption problem was completed successfully: the agent solved it through pure manual arithmetic without any tool calls, predicting 1.2945e-01 (matching ground truth). Trajectory compression runs continue to be analyzed for evaluation inconsistencies and infrastructure failures. Additionally, a trajectory compression run (run_id=2) for Super Typhoon Hato wind speed estimation was completed successfully, using pure arithmetic: ΔT = 40.0°C, ln(1010/915) ≈ 0.09878, √(40.0×0.09878) ≈ 1.9878, Vmax = 6.8 × 1.9878 ≈ 13.517 → 14 m/s, matching ground truth. Most recently, the user solved a sea level rise calculation from Devon Ice Cap: V=4100 km³, ρ_ice=900 kg/m³, ρ_water=1000 kg/m³, meltwater volume=3690 km³, ocean area=3.62e8 km², SLE=10.19 mm rounded to 10 mm. This demonstrates continued competence in climate science calculations."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0001",
+      "canonical_id": "genmem_2709369480c2585e:a0001#6520-6526",
+      "end": 6526,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 6520,
+      "text": "Facts:"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0001",
+      "canonical_id": "genmem_2709369480c2585e:a0001#6527-6827",
+      "end": 6827,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 6527,
+      "text": "- [context | 1.00] In a trajectory compression run on 2026-06-13 for André Hakim and Harry Hartsell nationality comparison, the assistant correctly answered 'No' (different nationalities: Egyptian/American vs American) using web_search snippets after web_fetch timeouts. Run_id=3, evaluation correct."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0001",
+      "canonical_id": "genmem_2709369480c2585e:a0001#6828-7222",
+      "end": 7222,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 6828,
+      "text": "- [context | 1.00] In a benchmark training question on 2026-06-13, the assistant correctly answered 'November 18, 1890' for the birthday of Irvin Willat, director of Down Home (Film). The assistant verified with Wikipedia, IMDb, Rotten Tomatoes, and Prabook, noting a conflicting older source (Blue Book of the Screen, 1923) that claimed June 23, 1889, but consensus supports November 18, 1890."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0001",
+      "canonical_id": "genmem_2709369480c2585e:a0001#7223-7595",
+      "end": 7595,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 7223,
+      "text": "- [context | 1.00] In a benchmark training question on 2026-06-13, the assistant correctly determined that Nur Serter (born November 10, 1948) was born before Gabe Vincent (born June 14, 1996). Evidence used: Turkish Wikipedia for Nur Serter, Yahoo/Basketball-Reference snippet for Gabe Vincent. This is a correct run demonstrating low-evidence handling with web snippets."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0001",
+      "canonical_id": "genmem_2709369480c2585e:a0001#7596-7856",
+      "end": 7856,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 7596,
+      "text": "- [context | 1.00] In a benchmark training question on 2026-06-13, the assistant correctly answered 'July 18, 1993' for the death date of the director of Scandal At Scourie (Jean Negulesco). Evidence: Wikipedia search and multiple sources confirmed death date."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0001",
+      "canonical_id": "genmem_2709369480c2585e:a0001#7857-8238",
+      "end": 8238,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 7857,
+      "text": "- [context | 1.00] In a benchmark training question on 2026-06-13, the assistant correctly answered 'No' for the question 'Were both Eddie Kelly (Hurler) and Marciano Norman born in the same place?' using Wikipedia and Jakarta Post citations (Eddie Kelly born in Enniscorthy, Ireland; Marciano Norman born in Banjarmasin, Indonesia). This adds to the collection of successful runs."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0001",
+      "canonical_id": "genmem_2709369480c2585e:a0001#8239-8573",
+      "end": 8573,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 8239,
+      "text": "- [context | 1.00] In a benchmark training question on 2026-06-13, the assistant correctly answered 'No' for the question 'Do both films: The Secret Of Madame Blanche and Dasima have the directors from the same country?' (directors: Charles Brabin, British-American vs Tan Tjoei Hock, Indonesian). Evidence from Wikipedia and Prabook."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0001",
+      "canonical_id": "genmem_2709369480c2585e:a0001#8574-8953",
+      "end": 8953,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 8574,
+      "text": "- [context | 1.00] In a benchmark training question on 2026-06-13, the assistant correctly answered 'July 18, 1993' for the death date of the director of Scandal At Scourie (Jean Negulesco). Evidence from Wikipedia and multiple sources confirmed the death date. This run used explicit evidence and verification without tool calls, relying on pre-existing knowledge and citations."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0001",
+      "canonical_id": "genmem_2709369480c2585e:a0001#8954-8963",
+      "end": 8963,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 8954,
+      "text": "</memory>"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0001",
+      "canonical_id": "genmem_2709369480c2585e:a0001#8965-9012",
+      "end": 9012,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 8965,
+      "text": "<current_date>2026-06-26, Friday</current_date>"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0001",
+      "canonical_id": "genmem_2709369480c2585e:a0001#9013-9031",
+      "end": 9031,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 9013,
+      "text": "</system-reminder>"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0002",
+      "canonical_id": "genmem_2709369480c2585e:a0002#0-66",
+      "end": 66,
+      "occurrences": [
+        {
+          "position": {
+            "index": 12,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_2709369480c2585e:a0002:line:0:66"
+        },
+        {
+          "position": {
+            "index": 11,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_2709369480c2585e:a0002:line:0:66"
+        }
+      ],
+      "pool_only": false,
+      "start": 0,
+      "text": "Now let me verify all the unit conversions carefully step by step."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#0-3",
+      "end": 3,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "\"\"\""
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#4-66",
+      "end": 66,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 4,
+      "text": "Glacier problem - step by step verification with unit analysis"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#67-70",
+      "end": 70,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 67,
+      "text": "\"\"\""
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#71-88",
+      "end": 88,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 71,
+      "text": "import json, math"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#90-115",
+      "end": 115,
+      "occurrences": [
+        {
+          "position": {
+            "index": 3,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:90:115"
+        },
+        {
+          "position": {
+            "index": 3,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:90:115"
+        }
+      ],
+      "pool_only": false,
+      "start": 90,
+      "text": "rho_ice = 917.0   # kg/m3"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#116-142",
+      "end": 142,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 116,
+      "text": "rho_water = 1000.0 # kg/m3"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#143-166",
+      "end": 166,
+      "occurrences": [
+        {
+          "position": {
+            "index": 2,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:143:166"
+        },
+        {
+          "position": {
+            "index": 2,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:143:166"
+        }
+      ],
+      "pool_only": false,
+      "start": 143,
+      "text": "B = -0.6  # m w.e./year"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#167-184",
+      "end": 184,
+      "occurrences": [
+        {
+          "position": {
+            "index": 1,
+            "slot": "material"
+          },
+          "role": "evidence_b",
+          "round": 2,
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:167:184"
+        }
+      ],
+      "pool_only": false,
+      "start": 167,
+      "text": "T = 20    # years"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#186-240",
+      "end": 240,
+      "occurrences": [
+        {
+          "position": {
+            "index": 8,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:186:240"
+        },
+        {
+          "position": {
+            "index": 12,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:186:240"
+        }
+      ],
+      "pool_only": false,
+      "start": 186,
+      "text": "# Let me check: what is the actual volume change rate?"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#241-315",
+      "end": 315,
+      "occurrences": [
+        {
+          "position": {
+            "index": 9,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:241:315"
+        }
+      ],
+      "pool_only": false,
+      "start": 241,
+      "text": "# B = -0.6 m w.e./year means the glacier loses the mass of 0.6 m of water "
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#316-354",
+      "end": 354,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 316,
+      "text": "# per year, across its entire surface."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#356-411",
+      "end": 411,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 356,
+      "text": "# Mass loss per year per m2 = 0.6 * 1000 = 600 kg/m2/yr"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#412-502",
+      "end": 502,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 412,
+      "text": "# Ice volume loss per year per m2 = 600/917 = 0.6543 m3/m2/yr = 0.6543 m/yr thickness loss"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#503-505",
+      "end": 505,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 503,
+      "text": "# "
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#506-538",
+      "end": 538,
+      "occurrences": [
+        {
+          "position": {
+            "index": 4,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:506:538"
+        }
+      ],
+      "pool_only": false,
+      "start": 506,
+      "text": "# For a glacier of area S (km2):"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#539-560",
+      "end": 560,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 539,
+      "text": "# S km2 = S * 10^6 m2"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#561-613",
+      "end": 613,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 561,
+      "text": "# Ice volume loss per year = 0.6543 * S * 10^6 m3/yr"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#614-669",
+      "end": 669,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 614,
+      "text": "# = 0.6543 * S * 10^6 / 10^9 = 0.6543 * S / 1000 km3/yr"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#670-694",
+      "end": 694,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 670,
+      "text": "# = 0.0006543 * S km3/yr"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#695-697",
+      "end": 697,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 695,
+      "text": "# "
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#698-728",
+      "end": 728,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 698,
+      "text": "# Check: does B/917 give this?"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#729-762",
+      "end": 762,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 729,
+      "text": "# B/917 = -0.6/917 = -0.0006543 ✓"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#763-764",
+      "end": 764,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 763,
+      "text": "#"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#765-798",
+      "end": 798,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 765,
+      "text": "# So dV/dt = B * S / 917 km3/yr ✓"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#800-820",
+      "end": 820,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 800,
+      "text": "print(\"Unit check:\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#821-863",
+      "end": 863,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 821,
+      "text": "print(f\"B/917 = {B/917:.8f} km3/(km2*yr)\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#864-921",
+      "end": 921,
+      "occurrences": [
+        {
+          "position": {
+            "index": 4,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:864:921"
+        }
+      ],
+      "pool_only": false,
+      "start": 864,
+      "text": "print(f\"Over {T} years with S=1: ΔV = {B*T/917:.6f} km3\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#922-929",
+      "end": 929,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 922,
+      "text": "print()"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#931-986",
+      "end": 986,
+      "occurrences": [
+        {
+          "position": {
+            "index": 5,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:931:986"
+        },
+        {
+          "position": {
+            "index": 5,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:931:986"
+        }
+      ],
+      "pool_only": false,
+      "start": 931,
+      "text": "# For various S0, the predicted V1 and actual V2 differ"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#987-1016",
+      "end": 1016,
+      "occurrences": [
+        {
+          "position": {
+            "index": 6,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:987:1016"
+        },
+        {
+          "position": {
+            "index": 6,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:987:1016"
+        }
+      ],
+      "pool_only": false,
+      "start": 987,
+      "text": "# V1 assumes constant area S0"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1017-1040",
+      "end": 1040,
+      "occurrences": [
+        {
+          "position": {
+            "index": 7,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 1,
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:1017:1040"
+        },
+        {
+          "position": {
+            "index": 7,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:1017:1040"
+        }
+      ],
+      "pool_only": false,
+      "start": 1017,
+      "text": "# V_actual = 1.028 * V1"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1041-1043",
+      "end": 1043,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1041,
+      "text": "# "
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1044-1093",
+      "end": 1093,
+      "occurrences": [
+        {
+          "position": {
+            "index": 1,
+            "slot": "material"
+          },
+          "role": "evidence_a",
+          "round": 1,
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:1044:1093"
+        }
+      ],
+      "pool_only": false,
+      "start": 1044,
+      "text": "# Integral: S(t) = S0 + k*t (linear, k in km2/yr)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1094-1147",
+      "end": 1147,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1094,
+      "text": "# ΔV = ∫ B * S(t) / 917 dt = B/917 * (S0*T + k*T^2/2)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1148-1175",
+      "end": 1175,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1148,
+      "text": "# ΔV_const = B/917 * S0 * T"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1176-1178",
+      "end": 1178,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1176,
+      "text": "# "
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1179-1238",
+      "end": 1238,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1179,
+      "text": "# V_actual - V1 = B/917 * k * T^2/2 = B * k * T^2 / (2*917)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1239-1295",
+      "end": 1295,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1239,
+      "text": "# 0.028 * V1 = B * k * 200 / (2*917) = B * k * 100 / 917"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1296-1297",
+      "end": 1297,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1296,
+      "text": "#"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1298-1368",
+      "end": 1368,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1298,
+      "text": "# k = 0.028 * V1 * 917 / (100 * B) = 0.028 * V1 * 917 / (100 * (-0.6))"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1369-1421",
+      "end": 1421,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1369,
+      "text": "# k = -0.028 * V1 * 917 / 60 = -0.028 * V1 * 15.2833"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1422-1440",
+      "end": 1440,
+      "occurrences": [
+        {
+          "position": {
+            "index": 8,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "round": 2,
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:1422:1440"
+        }
+      ],
+      "pool_only": false,
+      "start": 1422,
+      "text": "# k = -0.4279 * V1"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1442-1454",
+      "end": 1454,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1442,
+      "text": "results = []"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1455-1506",
+      "end": 1506,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1455,
+      "text": "for S0 in [0.2, 1.0, 5.0, 10.0, 20.0, 50.0, 100.0]:"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1507-1530",
+      "end": 1530,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1507,
+      "text": "    V0 = 0.04 * S0**1.5"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1531-1561",
+      "end": 1561,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1531,
+      "text": "    V1 = V0 + B * T * S0 / 917"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1567-1588",
+      "end": 1588,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1567,
+      "text": "    # k from integral"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1589-1625",
+      "end": 1625,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1589,
+      "text": "    k = 0.028 * V1 * 917 / (100 * B)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1626-1646",
+      "end": 1646,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1626,
+      "text": "    r = k / S0 * 100"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1652-1713",
+      "end": 1713,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1652,
+      "text": "    # Also compute using average area method (discrete check)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1714-1749",
+      "end": 1749,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1714,
+      "text": "    # S_avg = S0 + k*T/2 = S0 + 10k"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1750-1797",
+      "end": 1797,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1750,
+      "text": "    # V_actual_check = V0 + B * T * S_avg / 917"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1798-1827",
+      "end": 1827,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1798,
+      "text": "    # = V0 + B*T*(S0+10k)/917"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1828-1852",
+      "end": 1852,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1828,
+      "text": "    # = V1 + B*T*10k/917"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1853-1880",
+      "end": 1880,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1853,
+      "text": "    # = V1 - 0.6*20*10k/917"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1881-1902",
+      "end": 1902,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1881,
+      "text": "    # = V1 - 120k/917"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1903-1909",
+      "end": 1909,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1903,
+      "text": "    # "
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1910-1942",
+      "end": 1942,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1910,
+      "text": "    # This should equal 1.028*V1"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1943-1972",
+      "end": 1972,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1943,
+      "text": "    # So -120k/917 = 0.028*V1"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#1973-2000",
+      "end": 2000,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1973,
+      "text": "    # k = -0.028*V1*917/120"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2001-2007",
+      "end": 2007,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2001,
+      "text": "    # "
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2008-2066",
+      "end": 2066,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2008,
+      "text": "    # WAIT! That's different from k = 0.028*V1*917/(100*B)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2067-2088",
+      "end": 2088,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2067,
+      "text": "    # Let me check..."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2094-2156",
+      "end": 2156,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2094,
+      "text": "    # With integral: ∫(S0+kt)dt = S0*T + k*T^2/2 = 20S0 + 200k"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2157-2189",
+      "end": 2189,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2157,
+      "text": "    # ΔV = B/917 * (20S0 + 200k)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2190-2229",
+      "end": 2229,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2190,
+      "text": "    # V_actual = V0 + B/917*(20S0+200k)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2230-2256",
+      "end": 2256,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2230,
+      "text": "    # V1 = V0 + B/917*20S0"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2257-2291",
+      "end": 2291,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2257,
+      "text": "    # V_actual - V1 = B/917 * 200k"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2292-2321",
+      "end": 2321,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2292,
+      "text": "    # 0.028*V1 = B/917 * 200k"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2322-2352",
+      "end": 2352,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2322,
+      "text": "    # k = 0.028*V1*917/(200*B)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2353-2388",
+      "end": 2388,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2353,
+      "text": "    # k = 0.028*V1*917/(200*(-0.6))"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2389-2416",
+      "end": 2416,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2389,
+      "text": "    # k = -0.028*V1*917/120"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2417-2438",
+      "end": 2438,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2417,
+      "text": "    # k = -0.21397*V1"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2444-2523",
+      "end": 2523,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2444,
+      "text": "    # IN THE PREVIOUS FILE I USED 200 IN DENOMINATOR BUT IN THIS ONE I USED 100"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2524-2541",
+      "end": 2541,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2524,
+      "text": "    # LET ME FIX:"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2542-2578",
+      "end": 2578,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2542,
+      "text": "    k = 0.028 * V1 * 917 / (200 * B)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2579-2599",
+      "end": 2599,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2579,
+      "text": "    r = k / S0 * 100"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2605-2630",
+      "end": 2630,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2605,
+      "text": "    V_actual = 1.028 * V1"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2631-2680",
+      "end": 2680,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2631,
+      "text": "    V_actual_check = V0 + B/917 * (20*S0 + 200*k)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2686-2706",
+      "end": 2706,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2686,
+      "text": "    results.append({"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2707-2764",
+      "end": 2764,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2707,
+      "text": "        \"S0\": S0, \"V0\": round(V0, 6), \"V1\": round(V1, 6),"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2765-2808",
+      "end": 2808,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2765,
+      "text": "        \"k\": round(k, 8), \"r\": round(r, 4),"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2809-2860",
+      "end": 2860,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2809,
+      "text": "        \"V_actual_check\": round(V_actual_check, 6),"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2861-2907",
+      "end": 2907,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2861,
+      "text": "        \"V_actual_target\": round(V_actual, 6),"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2908-2963",
+      "end": 2963,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2908,
+      "text": "        \"match\": abs(V_actual_check - V_actual) < 1e-10"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2964-2970",
+      "end": 2970,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2964,
+      "text": "    })"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2972-2989",
+      "end": 2989,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2972,
+      "text": "for r in results:"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#2990-3056",
+      "end": 3056,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2990,
+      "text": "    print(f\"S0={r['S0']:5.1f}: V0={r['V0']:.4f} V1={r['V1']:.4f} \""
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#3057-3104",
+      "end": 3104,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3057,
+      "text": "          f\"k={r['k']:.8f} r={r['r']:.4f}%/yr \""
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#3105-3137",
+      "end": 3137,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3105,
+      "text": "          f\"check={r['match']}\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#3139-3146",
+      "end": 3146,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3139,
+      "text": "print()"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#3147-3191",
+      "end": 3191,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3147,
+      "text": "print(\"Formula: r = 0.28 - 0.8559*sqrt(S0)\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#3192-3253",
+      "end": 3253,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3192,
+      "text": "for S0 in [0.2, 0.5, 1.0, 2.0, 5.0, 10.0, 20.0, 50.0, 100.0]:"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#3254-3299",
+      "end": 3299,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3254,
+      "text": "    r_formula = 0.28 - 0.8559 * math.sqrt(S0)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#3300-3372",
+      "end": 3372,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3300,
+      "text": "    r_actual = next(x['r'] for x in results if abs(x['S0'] - S0) < 0.01)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#3373-3450",
+      "end": 3450,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3373,
+      "text": "    print(f\"S0={S0:5.1f}: r_formula={r_formula:.4f} r_actual={r_actual:.4f}\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#3452-3459",
+      "end": 3459,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3452,
+      "text": "print()"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#3460-3503",
+      "end": 3503,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3460,
+      "text": "print(\"PROBLEM: The answer depends on S0.\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#3504-3556",
+      "end": 3556,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3504,
+      "text": "print(\"However, note the dimension: S0 must be km2\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#3557-3619",
+      "end": 3619,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3557,
+      "text": "print(\"For a 'certain glacier' with typical area ~1-100 km2:\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#3620-3653",
+      "end": 3653,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3620,
+      "text": "print(\"  S0=1:  r = -0.58%/year\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#3654-3689",
+      "end": 3689,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3654,
+      "text": "print(\"  S0=10: r = -2.43%/year\")  "
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#3690-3723",
+      "end": 3723,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3690,
+      "text": "print(\"  S0=50: r = -5.77%/year\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#3724-3731",
+      "end": 3731,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3724,
+      "text": "print()"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0000#3732-3800",
+      "end": 3800,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3732,
+      "text": "print(\"Without knowing S0, we cannot give a unique numeric answer.\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0001",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0001#0-37",
+      "end": 37,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Complete glacier computation with fix"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0002_0_0002",
+      "canonical_id": "genmem_2709369480c2585e:arg0002_0_0002#0-41",
+      "end": 41,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "/mnt/user-data/workspace/glacier_final.py"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0003",
+      "canonical_id": "genmem_2709369480c2585e:a0003#0-2",
+      "end": 2,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "OK"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0004",
+      "canonical_id": "genmem_2709369480c2585e:a0004#0-112",
+      "end": 112,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Let me carefully compute the exact values by hand and check my algebra one more time, then provide the solution."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#0-22",
+      "end": 22,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "#!/usr/bin/env python3"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#23-26",
+      "end": 26,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 23,
+      "text": "\"\"\""
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#27-87",
+      "end": 87,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 27,
+      "text": "Glacier surface area change rate problem - final computation"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#88-131",
+      "end": 131,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 88,
+      "text": "Re-checks every step with exact arithmetic."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#132-135",
+      "end": 135,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 132,
+      "text": "\"\"\""
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#136-147",
+      "end": 147,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 136,
+      "text": "import math"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#149-164",
+      "end": 164,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 149,
+      "text": "rho_ice = 917.0"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#165-183",
+      "end": 183,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 165,
+      "text": "rho_water = 1000.0"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#184-209",
+      "end": 209,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 184,
+      "text": "B = -0.6  # m w.e. / year"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#210-227",
+      "end": 227,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 210,
+      "text": "T = 20    # years"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#229-282",
+      "end": 282,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 229,
+      "text": "# STEP 1: Volume-area relationship V0 = 0.04 * S0^1.5"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#283-316",
+      "end": 316,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 283,
+      "text": "# STEP 2: Mass balance conversion"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#317-358",
+      "end": 358,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 317,
+      "text": "# B (m w.e./year) -> ice thickness change"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#359-420",
+      "end": 420,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 359,
+      "text": "# ice thickness change B_ice = B * rho_water / rho_ice m/year"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#421-502",
+      "end": 502,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 421,
+      "text": "# ice volume change per year = B_ice * S * 10^6 / 10^9 = B_ice * S / 1000 km^3/yr"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#503-541",
+      "end": 541,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 503,
+      "text": "# = B * rho_water / rho_ice * S / 1000"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#542-574",
+      "end": 574,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 542,
+      "text": "# = -0.6 * 1000 / 917 * S / 1000"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#575-604",
+      "end": 604,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 575,
+      "text": "# = -0.6 * S / 917 km^3/yr  ✓"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#606-621",
+      "end": 621,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 606,
+      "text": "print(\"=\" * 65)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#622-663",
+      "end": 663,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 622,
+      "text": "print(\"GLACIER AREA CHANGE RATE PROBLEM\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#664-679",
+      "end": 679,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 664,
+      "text": "print(\"=\" * 65)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#681-703",
+      "end": 703,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 681,
+      "text": "# Test with S0 = 1 km2"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#704-712",
+      "end": 712,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 704,
+      "text": "S0 = 1.0"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#713-746",
+      "end": 746,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 713,
+      "text": "print(f\"\\n--- S0 = {S0} km2 ---\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#747-766",
+      "end": 766,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 747,
+      "text": "V0 = 0.04 * S0**1.5"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#767-835",
+      "end": 835,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 767,
+      "text": "print(f\"V0 = 0.04 * {S0}^1.5 = 0.04 * {S0**1.5:.6f} = {V0:.8f} km3\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#837-866",
+      "end": 866,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 837,
+      "text": "# Constant-area prediction V1"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#867-921",
+      "end": 921,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 867,
+      "text": "dV_const = -12.0 * S0 / rho_ice  # 20 * 0.6 * S0 / 917"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#922-986",
+      "end": 986,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 922,
+      "text": "print(f\"dV_const = -12 * {S0} / {rho_ice} = {dV_const:.8f} km3\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#987-1005",
+      "end": 1005,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 987,
+      "text": "V1 = V0 + dV_const"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1006-1049",
+      "end": 1049,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1006,
+      "text": "print(f\"V1 = V0 + dV_const = {V1:.8f} km3\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1051-1070",
+      "end": 1070,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1051,
+      "text": "V_meas = 1.028 * V1"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1071-1119",
+      "end": 1119,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1071,
+      "text": "print(f\"V_meas = 1.028 * V1 = {V_meas:.8f} km3\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1120-1176",
+      "end": 1176,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1120,
+      "text": "print(f\"Difference V_meas - V1 = {V_meas - V1:.8f} km3\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1177-1210",
+      "end": 1210,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1177,
+      "text": "print(f\"Ratio = {V_meas/V1:.6f}\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1212-1260",
+      "end": 1260,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1212,
+      "text": "# Now find k (linear area change rate in km2/yr)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1261-1278",
+      "end": 1278,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1261,
+      "text": "# S(t) = S0 + k*t"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1279-1303",
+      "end": 1303,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1279,
+      "text": "# dV/dt = B * S(t) / 917"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1304-1344",
+      "end": 1344,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1304,
+      "text": "# Total ΔV = ∫₀²⁰ B * (S0 + kt) / 917 dt"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1345-1372",
+      "end": 1372,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1345,
+      "text": "# = B/917 * (S0*T + k*T²/2)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1373-1400",
+      "end": 1400,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1373,
+      "text": "# = B/917 * (20*S0 + 200*k)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1401-1402",
+      "end": 1402,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1401,
+      "text": "#"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1403-1457",
+      "end": 1457,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1403,
+      "text": "# V_actual = V0 + B/917 * (20*S0 + 200*k) = 1.028 * V1"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1458-1506",
+      "end": 1506,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1458,
+      "text": "# => V0 + B/917*20*S0 + B/917*200*k = 1.028 * V1"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1507-1541",
+      "end": 1541,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1507,
+      "text": "# => V1 + B/917*200*k = 1.028 * V1"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1542-1571",
+      "end": 1571,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1542,
+      "text": "# => B/917*200*k = 0.028 * V1"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1572-1609",
+      "end": 1609,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1572,
+      "text": "# => k = 0.028 * V1 * 917 / (200 * B)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1611-1643",
+      "end": 1643,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1611,
+      "text": "k = 0.028 * V1 * 917 / (200 * B)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1644-1688",
+      "end": 1688,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1644,
+      "text": "print(f\"\\nk = 0.028 * V1 * 917 / (200 * B)\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1689-1741",
+      "end": 1741,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1689,
+      "text": "print(f\"k = 0.028 * {V1:.8f} * {917} / (200 * {B})\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1742-1785",
+      "end": 1785,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1742,
+      "text": "print(f\"k = {0.028*V1*917:.10f} / {-120})\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1786-1815",
+      "end": 1815,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1786,
+      "text": "print(f\"k = {k:.10f} km2/yr\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1817-1833",
+      "end": 1833,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1817,
+      "text": "r = k / S0 * 100"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1834-1898",
+      "end": 1898,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1834,
+      "text": "print(f\"r = k / S0 * 100 = {k:.6f} / {S0} * 100 = {r:.4f} %/yr\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1900-1914",
+      "end": 1914,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1900,
+      "text": "# Verification"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1915-1954",
+      "end": 1954,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1915,
+      "text": "V_actual = V0 + B/917 * (20*S0 + 200*k)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#1955-2006",
+      "end": 2006,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1955,
+      "text": "print(f\"\\nVerification: V_actual = {V_actual:.8f}\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#2007-2045",
+      "end": 2045,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2007,
+      "text": "print(f\"Target V_meas = {V_meas:.8f}\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#2046-2095",
+      "end": 2095,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2046,
+      "text": "print(f\"Match: {abs(V_actual - V_meas) < 1e-10}\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#2097-2117",
+      "end": 2117,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2097,
+      "text": "# Multiple S0 values"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#2118-2138",
+      "end": 2138,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2118,
+      "text": "print(f\"\\n{'='*65}\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#2139-2223",
+      "end": 2223,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2139,
+      "text": "print(f\"{'S0 (km2)':<10} {'V0':<12} {'V1':<12} {'k (km2/yr)':<15} {'r (%/yr)':<12}\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#2224-2278",
+      "end": 2278,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2224,
+      "text": "print(f\"{'-'*10} {'-'*12} {'-'*12} {'-'*15} {'-'*12}\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#2280-2346",
+      "end": 2346,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2280,
+      "text": "for S0_test in [0.2, 0.5, 1.0, 2.0, 5.0, 10.0, 20.0, 50.0, 100.0]:"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#2347-2377",
+      "end": 2377,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2347,
+      "text": "    V0_t = 0.04 * S0_test**1.5"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#2378-2418",
+      "end": 2418,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2378,
+      "text": "    V1_t = V0_t - 12 * S0_test / rho_ice"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#2419-2476",
+      "end": 2476,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2419,
+      "text": "    k_t = 0.028 * V1_t * 917 / (200 * B)  # B is negative"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#2477-2506",
+      "end": 2506,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2477,
+      "text": "    r_t = k_t / S0_test * 100"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#2507-2591",
+      "end": 2591,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2507,
+      "text": "    print(f\"{S0_test:<10.1f} {V0_t:<12.6f} {V1_t:<12.6f} {k_t:<15.8f} {r_t:<12.4f}\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#2593-2609",
+      "end": 2609,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2593,
+      "text": "# Derive formula"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#2610-2630",
+      "end": 2630,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2610,
+      "text": "print(f\"\\n{'='*65}\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#2631-2660",
+      "end": 2660,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2631,
+      "text": "print(f\"Formula derivation:\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#2661-2745",
+      "end": 2745,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2661,
+      "text": "print(f\"r = -21.397 * V1/S0  [where -21.397 = 0.028*917*100/(200*(-0.6))*(-1)... ]\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#2746-2827",
+      "end": 2827,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2746,
+      "text": "print(f\"Let me verify: 0.028*917*100/(200*B) = {0.028*917*100/(200*(-0.6)):.6f}\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#2828-2885",
+      "end": 2885,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2828,
+      "text": "print(f\"So r = {0.028*917*100/(200*(-0.6)):.6f} * V1/S0\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#2886-2926",
+      "end": 2926,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2886,
+      "text": "print(f\"V1/S0 = 0.04*sqrt(S0) - 12/917\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#2927-3000",
+      "end": 3000,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2927,
+      "text": "print(f\"r = {0.028*917*100/(200*(-0.6)):.6f} * (0.04*sqrt(S0) - 12/917)\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#3001-3106",
+      "end": 3106,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3001,
+      "text": "print(f\"r = {0.028*917*100*0.04/(200*(-0.6)):.6f}*sqrt(S0) + {0.028*917*100*(-12/917)/(200*(-0.6)):.6f}\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#3107-3136",
+      "end": 3136,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3107,
+      "text": "# Compute coefficient exactly"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#3137-3191",
+      "end": 3191,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3137,
+      "text": "coeff_sqrt = 0.028 * 917 * 100 * 0.04 / (200 * (-0.6))"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#3192-3252",
+      "end": 3252,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3192,
+      "text": "coeff_const = 0.028 * 917 * 100 * (-12/917) / (200 * (-0.6))"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#3253-3314",
+      "end": 3314,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3253,
+      "text": "print(f\"r = {coeff_sqrt:.6f} * sqrt(S0) + {coeff_const:.6f}\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#3315-3378",
+      "end": 3378,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3315,
+      "text": "print(f\"r = {coeff_const:.6f} + ({coeff_sqrt:.6f}) * sqrt(S0)\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0003#3379-3445",
+      "end": 3445,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 3379,
+      "text": "print(f\"r = {coeff_const:.4f} - {abs(coeff_sqrt):.4f} * sqrt(S0)\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0004",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0004#0-47",
+      "end": 47,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Final glacier computation with exact derivation"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0004_0_0005",
+      "canonical_id": "genmem_2709369480c2585e:arg0004_0_0005#0-41",
+      "end": 41,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "/mnt/user-data/workspace/glacier_exact.py"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0005",
+      "canonical_id": "genmem_2709369480c2585e:a0005#0-2",
+      "end": 2,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "OK"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#0-83",
+      "end": 83,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Let me work through the full derivation properly, computing all the values by hand."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#85-123",
+      "end": 123,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 85,
+      "text": "**Step 1 — Initial conditions (2000)**"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#125-179",
+      "end": 179,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 125,
+      "text": "Volume-area relationship: $V_0 = 0.04 \\cdot S_0^{1.5}$"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#181-217",
+      "end": 217,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 181,
+      "text": "**Step 2 — Mass balance conversion**"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#219-275",
+      "end": 275,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 219,
+      "text": "$B = -0.6$ m w.e. year⁻¹. Converting to ice volume loss:"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#277-315",
+      "end": 315,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 277,
+      "text": "1 m w.e. per m² = 1000 kg water mass  "
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#316-372",
+      "end": 372,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 316,
+      "text": "Equivalent ice thickness = $1000 / 917 = 1.0905$ m ice  "
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#373-440",
+      "end": 440,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 373,
+      "text": "So $B$ in ice thickness = $-0.6 \\times 1000/917 = -0.6543$ m year⁻¹"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#442-486",
+      "end": 486,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 442,
+      "text": "Ice volume loss rate = ice thickness × area:"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#487-595",
+      "end": 595,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 487,
+      "text": "$$\\frac{dV}{dt} = -0.6543 \\times S \\times 10^{-3} = -\\frac{0.6}{917} \\cdot S \\text{ km}^3\\text{ year}^{-1}$$"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#597-654",
+      "end": 654,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 597,
+      "text": "**Step 3 — Predicted volume $V_1$ (constant area $S_0$)**"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#656-733",
+      "end": 733,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 656,
+      "text": "$$V_1 = V_0 - \\frac{0.6}{917} \\cdot S_0 \\cdot 20 = V_0 - \\frac{12 S_0}{917}$$"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#735-780",
+      "end": 780,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 735,
+      "text": "$$V_1 = 0.04 S_0^{1.5} - \\frac{12 S_0}{917}$$"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#782-810",
+      "end": 810,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 782,
+      "text": "**Step 4 — Measured volume**"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#812-843",
+      "end": 843,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 812,
+      "text": "$$V_{\\text{meas}} = 1.028 V_1$$"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#845-930",
+      "end": 930,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 845,
+      "text": "The excess $0.028 V_1$ above prediction is attributed entirely to linear area change."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#932-977",
+      "end": 977,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 932,
+      "text": "**Step 5 — Solving for the area change rate**"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#979-1057",
+      "end": 1057,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 979,
+      "text": "Let $S(t) = S_0 + kt$ where $k$ is the absolute area change rate (km² year⁻¹)."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#1059-1118",
+      "end": 1118,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1059,
+      "text": "With changing area, the total volume loss over 20 years is:"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#1119-1230",
+      "end": 1230,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1119,
+      "text": "$$\\Delta V = \\int_0^{20} \\frac{-0.6}{917} \\cdot (S_0 + kt) \\, dt = -\\frac{0.6}{917} \\left(20S_0 + 200k\\right)$$"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#1232-1258",
+      "end": 1258,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1232,
+      "text": "The actual volume in 2020:"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#1259-1343",
+      "end": 1343,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1259,
+      "text": "$$V_{\\text{actual}} = V_0 - \\frac{0.6}{917}(20S_0 + 200k) = V_1 - \\frac{120k}{917}$$"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#1345-1391",
+      "end": 1391,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1345,
+      "text": "Setting $V_{\\text{actual}} = V_{\\text{meas}}$:"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#1392-1430",
+      "end": 1430,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1392,
+      "text": "$$V_1 - \\frac{120k}{917} = 1.028 V_1$$"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#1432-1465",
+      "end": 1465,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1432,
+      "text": "$$-\\frac{120k}{917} = 0.028 V_1$$"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#1467-1522",
+      "end": 1522,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1467,
+      "text": "$$k = -0.028 V_1 \\cdot \\frac{917}{120} = -0.21397 V_1$$"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#1524-1559",
+      "end": 1559,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1524,
+      "text": "**Step 6 — Annual percentage rate**"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#1561-1625",
+      "end": 1625,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1561,
+      "text": "$$r = \\frac{k}{S_0} \\times 100 = -21.397 \\cdot \\frac{V_1}{S_0}$$"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#1627-1671",
+      "end": 1671,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1627,
+      "text": "Now $V_1/S_0 = 0.04 S_0^{0.5} - 12/917$, so:"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#1673-1733",
+      "end": 1733,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1673,
+      "text": "$$r = -21.397 \\left(0.04 S_0^{0.5} - \\frac{12}{917}\\right)$$"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#1735-1773",
+      "end": 1773,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1735,
+      "text": "$$r = -0.8559 \\cdot S_0^{0.5} + 0.28$$"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#1775-1809",
+      "end": 1809,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1775,
+      "text": "**Step 7 — This depends on $S_0$**"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#1811-1969",
+      "end": 1969,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1811,
+      "text": "The problem states that $V_0$ and $S_0$ are specific values satisfying the volume-area relation, but neither is given numerically. I need to work around this."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#1971-2116",
+      "end": 2116,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 1971,
+      "text": "Let me check if perhaps the volume-area relationship itself is meant to define a self-consistent $V_0$ and $S_0$ that then leads to a unique $r$."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#2118-2434",
+      "end": 2434,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2118,
+      "text": "Actually, let me reconsider the interpretation. Perhaps when the area changes linearly, it ALSO affects the volume through the geometry (volume-area relationship), not just through the mass balance. Let me try the interpretation where the **measured volume satisfies the volume-area relationship with the new area**:"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#2436-2483",
+      "end": 2483,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2436,
+      "text": "$$V_{\\text{meas}} = 0.04 \\cdot S_{2020}^{1.5}$$"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#2485-2563",
+      "end": 2563,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2485,
+      "text": "And the **predicted volume $V_1$ comes from mass balance** with constant area:"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#2564-2609",
+      "end": 2609,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2564,
+      "text": "$$V_1 = 0.04 S_0^{1.5} - \\frac{12 S_0}{917}$$"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#2611-2614",
+      "end": 2614,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2611,
+      "text": "So:"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#2615-2695",
+      "end": 2695,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2615,
+      "text": "$$0.04 S_{2020}^{1.5} = 1.028 \\left(0.04 S_0^{1.5} - \\frac{12 S_0}{917}\\right)$$"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0006",
+      "canonical_id": "genmem_2709369480c2585e:a0006#2697-2754",
+      "end": 2754,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 2697,
+      "text": "Let me verify this interpretation with a numerical check:"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#0-22",
+      "end": 22,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "#!/usr/bin/env python3"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#23-26",
+      "end": 26,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 23,
+      "text": "\"\"\""
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#27-106",
+      "end": 106,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 27,
+      "text": "Test the interpretation: V_meas satisfies V-A relationship with new area S2020."
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#107-145",
+      "end": 145,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 107,
+      "text": "V_meas = 0.04 * S2020^1.5 = 1.028 * V1"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#146-213",
+      "end": 213,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 146,
+      "text": "where V1 = 0.04 * S0^1.5 - 12*S0/917  (mass balance, constant area)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#214-217",
+      "end": 217,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 214,
+      "text": "\"\"\""
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#218-229",
+      "end": 229,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 218,
+      "text": "import math"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#231-272",
+      "end": 272,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 231,
+      "text": "# Test: for S0 = 1.0, compute S2020 and r"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#273-281",
+      "end": 281,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 273,
+      "text": "S0 = 1.0"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#282-317",
+      "end": 317,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 282,
+      "text": "V1 = 0.04 * S0**1.5 - 12 * S0 / 917"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#318-337",
+      "end": 337,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 318,
+      "text": "V_meas = 1.028 * V1"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#338-368",
+      "end": 368,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 338,
+      "text": "S2020 = (V_meas / 0.04)**(2/3)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#369-403",
+      "end": 403,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 369,
+      "text": "r = (S2020 - S0) / (20 * S0) * 100"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#404-436",
+      "end": 436,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 404,
+      "text": "print(f\"S0={S0}: r={r:.4f}%/yr\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#438-447",
+      "end": 447,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 438,
+      "text": "S0 = 10.0"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#448-483",
+      "end": 483,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 448,
+      "text": "V1 = 0.04 * S0**1.5 - 12 * S0 / 917"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#484-503",
+      "end": 503,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 484,
+      "text": "V_meas = 1.028 * V1"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#504-534",
+      "end": 534,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 504,
+      "text": "S2020 = (V_meas / 0.04)**(2/3)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#535-569",
+      "end": 569,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 535,
+      "text": "r = (S2020 - S0) / (20 * S0) * 100"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#570-602",
+      "end": 602,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 570,
+      "text": "print(f\"S0={S0}: r={r:.4f}%/yr\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#604-614",
+      "end": 614,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 604,
+      "text": "S0 = 100.0"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#615-650",
+      "end": 650,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 615,
+      "text": "V1 = 0.04 * S0**1.5 - 12 * S0 / 917"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#651-670",
+      "end": 670,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 651,
+      "text": "V_meas = 1.028 * V1"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#671-701",
+      "end": 701,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 671,
+      "text": "S2020 = (V_meas / 0.04)**(2/3)"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#702-736",
+      "end": 736,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 702,
+      "text": "r = (S2020 - S0) / (20 * S0) * 100"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#737-769",
+      "end": 769,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 737,
+      "text": "print(f\"S0={S0}: r={r:.4f}%/yr\")"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0006",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0006#771-798",
+      "end": 798,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 771,
+      "text": "# These still depend on S0!"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0007",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0007#0-36",
+      "end": 36,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "Test V-A relationship interpretation"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:arg0006_0_0008",
+      "canonical_id": "genmem_2709369480c2585e:arg0006_0_0008#0-47",
+      "end": 47,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "/mnt/user-data/workspace/test_interpretation.py"
+    },
+    {
+      "artifact_id": "genmem_2709369480c2585e:a0007",
+      "canonical_id": "genmem_2709369480c2585e:a0007#0-2",
+      "end": 2,
+      "occurrences": [],
+      "pool_only": true,
+      "start": 0,
+      "text": "OK"
+    }
+  ],
+  "case_id": "B04",
+  "control": null,
+  "evidence_groups": [
+    {
+      "coverage": "full",
+      "group_id": "B04:g01",
+      "items": [
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_2709369480c2585e:a0000",
+              "end": 357,
+              "start": 66,
+              "text": "Compute the average annual surface area change rate (%/yr) of a glacier from 2000 to 2020 given: volume-area relation V = 0.04 S^1.5, mass balance B = −0.6 m w.e. a⁻¹, measured volume in 2020 is 1.028 times predicted volume assuming constant area, linear area change, ice density 917 kg m⁻³."
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_2709369480c2585e:a0000",
+            "end": 357,
+            "start": 66,
+            "text": "Compute the average annual surface area change rate (%/yr) of a glacier from 2000 to 2020 given: volume-area relation V = 0.04 S^1.5, mass balance B = −0.6 m w.e. a⁻¹, measured volume in 2020 is 1.028 times predicted volume assuming constant area, linear area change, ice density 917 kg m⁻³."
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_2709369480c2585e:a0006",
+              "end": 1057,
+              "start": 979,
+              "text": "Let $S(t) = S_0 + kt$ where $k$ is the absolute area change rate (km² year⁻¹)."
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_2709369480c2585e:a0006",
+            "end": 1057,
+            "start": 979,
+            "text": "Let $S(t) = S_0 + kt$ where $k$ is the absolute area change rate (km² year⁻¹)."
+          }
+        }
+      ]
+    },
+    {
+      "coverage": "full",
+      "group_id": "B04:g02",
+      "items": [
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+              "end": 1093,
+              "start": 1044,
+              "text": "# Integral: S(t) = S0 + k*t (linear, k in km2/yr)"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+            "end": 1093,
+            "start": 1044,
+            "text": "# Integral: S(t) = S0 + k*t (linear, k in km2/yr)"
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+              "end": 184,
+              "start": 167,
+              "text": "T = 20    # years"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+            "end": 184,
+            "start": 167,
+            "text": "T = 20    # years"
+          }
+        }
+      ]
+    },
+    {
+      "coverage": "full",
+      "group_id": "B04:g03",
+      "items": [
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+              "end": 1278,
+              "start": 1261,
+              "text": "# S(t) = S0 + k*t"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+            "end": 1278,
+            "start": 1261,
+            "text": "# S(t) = S0 + k*t"
+          }
+        },
+        {
+          "alternatives": [
+            {
+              "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+              "end": 227,
+              "start": 210,
+              "text": "T = 20    # years"
+            }
+          ],
+          "primary": {
+            "artifact_id": "genmem_2709369480c2585e:arg0004_0_0003",
+            "end": 227,
+            "start": 210,
+            "text": "T = 20    # years"
+          }
+        }
+      ]
+    }
+  ],
+  "excluded_groups": [],
+  "labels": {
+    "A": [
+      "genmem_2709369480c2585e:arg0002_0_0000#1044-1093"
+    ],
+    "B": [
+      "genmem_2709369480c2585e:arg0002_0_0000#167-184"
+    ]
+  },
+  "provenance": {
+    "archive": "/data2/pkuiti/songzhengxing_intern/memoryflow/artifacts/raw/genmem63_pilot_v4/deepresearch63_pilot_v4.zip",
+    "archive_sha256": "dd3be99b78dbe3f609a6f9e764825887ec1ac0870507e9d1fb1c98ba03a391c1",
+    "dataset_sha256": "fd13ca3e82d24aa8166c7aecd6abdef2536496a0ab4e597829092f6b2a879abc",
+    "note": "受控两轮：第一轮读 g02 的线性公式并固定中间结论；第二轮读中间结论与 g02 的 T=20 推导最终句。旧标注 g01/g02/g03 三组全部保留为替代证据组；B04 原目标为 carried_definition。",
+    "records_sha256": "5ff70f18164c614296afe0720167be7268819f41ef8d5f7d7f5f534c0b4bf003",
+    "reference_sha256": "49ccbaa006f71c7e454e4ff863eca76000b888524bc9f833d4e6dae86ab96db6",
+    "target_window": [
+      "genmem_2709369480c2585e:a0008:line:628:675"
+    ]
+  },
+  "record_type": "controlled",
+  "rounds": [
+    {
+      "inputs": [
+        {
+          "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+          "end": 1093,
+          "position": {
+            "index": 1,
+            "slot": "material"
+          },
+          "role": "evidence_a",
+          "start": 1044,
+          "text": "# Integral: S(t) = S0 + k*t (linear, k in km2/yr)",
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:1044:1093"
+        },
+        {
+          "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+          "end": 166,
+          "position": {
+            "index": 2,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 143,
+          "text": "B = -0.6  # m w.e./year",
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:143:166"
+        },
+        {
+          "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+          "end": 115,
+          "position": {
+            "index": 3,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 90,
+          "text": "rho_ice = 917.0   # kg/m3",
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:90:115"
+        },
+        {
+          "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+          "end": 538,
+          "position": {
+            "index": 4,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 506,
+          "text": "# For a glacier of area S (km2):",
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:506:538"
+        },
+        {
+          "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+          "end": 986,
+          "position": {
+            "index": 5,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 931,
+          "text": "# For various S0, the predicted V1 and actual V2 differ",
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:931:986"
+        },
+        {
+          "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+          "end": 1016,
+          "position": {
+            "index": 6,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 987,
+          "text": "# V1 assumes constant area S0",
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:987:1016"
+        },
+        {
+          "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+          "end": 1040,
+          "position": {
+            "index": 7,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 1017,
+          "text": "# V_actual = 1.028 * V1",
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:1017:1040"
+        },
+        {
+          "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+          "end": 240,
+          "position": {
+            "index": 8,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 186,
+          "text": "# Let me check: what is the actual volume change rate?",
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:186:240"
+        },
+        {
+          "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+          "end": 315,
+          "position": {
+            "index": 9,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 241,
+          "text": "# B = -0.6 m w.e./year means the glacier loses the mass of 0.6 m of water ",
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:241:315"
+        },
+        {
+          "artifact_id": "genmem_2709369480c2585e:a0000",
+          "end": 462,
+          "position": {
+            "index": 10,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 370,
+          "text": "- The user derived S₀ ≈ 1.642 km² and r = −0.82%/yr by solving two equations simultaneously.",
+          "unit_id": "genmem_2709369480c2585e:a0000:line:370:462"
+        },
+        {
+          "artifact_id": "genmem_2709369480c2585e:a0000",
+          "end": 1028,
+          "position": {
+            "index": 11,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 926,
+          "text": "- The core discrepancy: whether the equations uniquely determine both S₀ and r. This must be resolved.",
+          "unit_id": "genmem_2709369480c2585e:a0000:line:926:1028"
+        },
+        {
+          "artifact_id": "genmem_2709369480c2585e:a0002",
+          "end": 66,
+          "position": {
+            "index": 12,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "Now let me verify all the unit conversions carefully step by step.",
+          "unit_id": "genmem_2709369480c2585e:a0002:line:0:66"
+        }
+      ],
+      "output": {
+        "origin": "controlled_output",
+        "sha256": "b2eea980f64d7ea60bf6025e19986283c3951101c6a055e62703d5d7b3f89fce",
+        "text": "S(t) = S_0 + k t."
+      },
+      "question": "According to the materials, what is the linear area-change formula?",
+      "round": 1,
+      "transmission": []
+    },
+    {
+      "inputs": [
+        {
+          "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+          "end": 184,
+          "position": {
+            "index": 1,
+            "slot": "material"
+          },
+          "role": "evidence_b",
+          "start": 167,
+          "text": "T = 20    # years",
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:167:184"
+        },
+        {
+          "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+          "end": 166,
+          "position": {
+            "index": 2,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 143,
+          "text": "B = -0.6  # m w.e./year",
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:143:166"
+        },
+        {
+          "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+          "end": 115,
+          "position": {
+            "index": 3,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 90,
+          "text": "rho_ice = 917.0   # kg/m3",
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:90:115"
+        },
+        {
+          "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+          "end": 921,
+          "position": {
+            "index": 4,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 864,
+          "text": "print(f\"Over {T} years with S=1: ΔV = {B*T/917:.6f} km3\")",
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:864:921"
+        },
+        {
+          "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+          "end": 986,
+          "position": {
+            "index": 5,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 931,
+          "text": "# For various S0, the predicted V1 and actual V2 differ",
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:931:986"
+        },
+        {
+          "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+          "end": 1016,
+          "position": {
+            "index": 6,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 987,
+          "text": "# V1 assumes constant area S0",
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:987:1016"
+        },
+        {
+          "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+          "end": 1040,
+          "position": {
+            "index": 7,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 1017,
+          "text": "# V_actual = 1.028 * V1",
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:1017:1040"
+        },
+        {
+          "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+          "end": 1440,
+          "position": {
+            "index": 8,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 1422,
+          "text": "# k = -0.4279 * V1",
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:1422:1440"
+        },
+        {
+          "artifact_id": "genmem_2709369480c2585e:a0000",
+          "end": 462,
+          "position": {
+            "index": 9,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 370,
+          "text": "- The user derived S₀ ≈ 1.642 km² and r = −0.82%/yr by solving two equations simultaneously.",
+          "unit_id": "genmem_2709369480c2585e:a0000:line:370:462"
+        },
+        {
+          "artifact_id": "genmem_2709369480c2585e:a0000",
+          "end": 1028,
+          "position": {
+            "index": 10,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 926,
+          "text": "- The core discrepancy: whether the equations uniquely determine both S₀ and r. This must be resolved.",
+          "unit_id": "genmem_2709369480c2585e:a0000:line:926:1028"
+        },
+        {
+          "artifact_id": "genmem_2709369480c2585e:a0002",
+          "end": 66,
+          "position": {
+            "index": 11,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 0,
+          "text": "Now let me verify all the unit conversions carefully step by step.",
+          "unit_id": "genmem_2709369480c2585e:a0002:line:0:66"
+        },
+        {
+          "artifact_id": "genmem_2709369480c2585e:arg0002_0_0000",
+          "end": 240,
+          "position": {
+            "index": 12,
+            "slot": "material"
+          },
+          "role": "distractor",
+          "start": 186,
+          "text": "# Let me check: what is the actual volume change rate?",
+          "unit_id": "genmem_2709369480c2585e:arg0002_0_0000:line:186:240"
+        }
+      ],
+      "output": {
+        "origin": "recorded_target",
+        "sha256": "13c51484bd59942350eb98f1d59b938340302cd315753e47c86924eed381e4dd",
+        "text": "5. **Linear area change**: $S_{20} = S_0 + 20k$"
+      },
+      "question": "Using the earlier formula and the 20-year condition, what is the area after 20 years?",
+      "round": 2,
+      "transmission": [
+        {
+          "from_round": 1,
+          "position": {
+            "index": 0,
+            "slot": "earlier_finding"
+          },
+          "sha256": "b2eea980f64d7ea60bf6025e19986283c3951101c6a055e62703d5d7b3f89fce",
+          "text": "S(t) = S_0 + k t.",
+          "unit_id": "round1_output"
+        }
+      ]
+    }
+  ],
+  "schema": "memoryflow.multiturn_case.v1",
+  "split": "dev",
+  "target": {
+    "artifact_id": "genmem_2709369480c2585e:a0008",
+    "end": 675,
+    "origin": "recorded_target",
+    "original_target": {
+      "artifact_id": "genmem_2709369480c2585e:a0008",
+      "end": 675,
+      "event_index": 8,
+      "group_id": null,
+      "start": 628,
+      "text": "5. **Linear area change**: $S_{20} = S_0 + 20k$"
+    },
+    "sha256": "13c51484bd59942350eb98f1d59b938340302cd315753e47c86924eed381e4dd",
+    "start": 628,
+    "text": "5. **Linear area change**: $S_{20} = S_0 + 20k$"
+  },
+  "trajectory_case": "deepresearch_63_run_1",
+  "trajectory_id": "genmem_2709369480c2585e"
+}

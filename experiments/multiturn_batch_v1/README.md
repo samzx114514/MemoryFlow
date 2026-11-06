@@ -1,7 +1,12 @@
 # multiturn_batch_v1：多轮目标的统一入口与四方法批处理
 
-**状态（2026-11-06）：** 三题开发验收跑通；新数据（约 40–60 个目标、≥8 条轨迹）尚未到。
-本目录只读已有的冻结输入与矩阵，不重跑模型。
+**状态（2026-11-06）：** 三题开发验收跑通；另用 genmem63 pilot-v4 的 B04/F11
+做了两道不同主题的旧材料受控验证。新数据（约 40–60 个目标、≥8 条轨迹）尚未到。
+本目录只读已有的冻结输入与矩阵，不重跑模型（pilot 的 7B 矩阵在 243 上另算）。
+
+B04/F11 结果见 [B04_F11_20261106](pilot/reports/B04_F11_20261106.md)：
+B04 上 MemoryFlow A1/B5、head 用替代组 g01 完整；F11 上只有 MemoryFlow 完整
+（A1/B3，旧欠定结论第 2）。两题同一轨迹，不是独立任务。
 
 ## 做什么
 
@@ -49,11 +54,14 @@ $PY experiments/multiturn_batch_v1/run_batch.py \
 | `TEMPLATE.md` | case / 矩阵 schema、缺失登记、锁定流程 |
 | `cases.py` | case 校验、canonical 证据身份、覆盖规则 |
 | `import_dev.py` | 把 provenance_rounds_v1 的三题导入为统一 case + matrices |
+| `import_pilot.py` | 把 genmem63 pilot-v4 的目标按 recipe 导入为统一 case（全候选 + 两轮材料） |
+| `score_cases.py` | 在 243 上用固定头 7B 为统一 case 生成 r1/r2/flat 矩阵（GPU） |
 | `preflight.py` | 阻断问题、缺失登记、矩阵一致性检查 |
 | `methods.py` | 四种方法的排序；链式逐跳与路径合并 |
 | `metrics.py` | Hit@3、完整@5/@10、名次、配对胜平负 |
 | `run_batch.py` | 锁定、批量跑方法、写 JSON + Markdown |
 | `cases/`、`matrices/`、`manifest.json` | 三题开发验收的冻结输入 |
+| `pilot/` | genmem63 pilot-v4 的 B04/F11：case、矩阵、锁、报告 |
 | `lock.json`、`preflight.json` | 评分前的候选/标签/矩阵哈希锁与预检结果 |
 | `reports/BATCH_20261106.{md,json}` | 三题批处理输出 |
 | `reports/ACCEPTANCE_20261106.md` | 接入验收、复算说明、缺失登记规则 |

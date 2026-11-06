@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "candidates": 304,
+      "case_id": "B04",
+      "case_path": "cases/b04.json",
+      "case_sha256": "ec4eb5156e55876ff58b5e0150804ac478d8b9fb0787597310de7c94b7557f16",
+      "control": null,
+      "evidence_groups": 3,
+      "excluded_groups": 0,
+      "matrix_path": "matrices/b04.json",
+      "record_type": "controlled",
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "B04",
+      "split": "dev",
+      "trajectory_case": "deepresearch_63_run_1",
+      "trajectory_id": "genmem_2709369480c2585e"
+    },
+    {
+      "candidates": 418,
+      "case_id": "F11",
+      "case_path": "cases/f11.json",
+      "case_sha256": "2aaa0f76ab6887d0485a09bc4e5ebdddf03033058263592370cb275a38490656",
+      "control": null,
+      "evidence_groups": 2,
+      "excluded_groups": 2,
+      "matrix_path": "matrices/f11.json",
+      "record_type": "controlled",
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "F11",
+      "split": "dev",
+      "trajectory_case": "deepresearch_63_run_1",
+      "trajectory_id": "genmem_2709369480c2585e"
+    }
+  ],
+  "created": "2026-11-06",
+  "final_budget": 10,
+  "hop_budget": 5,
+  "schema": "memoryflow.multiturn_batch.manifest.v1",
+  "totals": {
+    "cases": 2,
+    "controlled": 2,
+    "controls": 0,
+    "dev": 2,
+    "eval": 0,
+    "real_request": 0
+  }
+}
