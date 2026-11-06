@@ -1,0 +1,2826 @@
+{
+  "budget": 5,
+  "evidence": {
+    "T03": {
+      "A": [
+        "genmem_874c34ceb20bf193:a0305:u0-82"
+      ],
+      "B": [
+        "genmem_874c34ceb20bf193:a0293:u38-103"
+      ]
+    },
+    "T06": {
+      "A": [
+        "genmem_874c34ceb20bf193:a0377:u290-342"
+      ],
+      "B": [
+        "genmem_874c34ceb20bf193:a0284:u137-154"
+      ]
+    },
+    "T09": {
+      "A": [
+        "genmem_874c34ceb20bf193:a0505:u112-200"
+      ],
+      "B": [
+        "genmem_874c34ceb20bf193:a0275:u0-109"
+      ]
+    }
+  },
+  "hops": {
+    "T03": {
+      "hop1": [
+        {
+          "rank": 1,
+          "score": 0.303354,
+          "unit": "conclusion:r1"
+        },
+        {
+          "rank": 2,
+          "score": 0.217325,
+          "unit": "genmem_874c34ceb20bf193:a0293:u38-103"
+        },
+        {
+          "rank": 3,
+          "score": 0.066025,
+          "unit": "genmem_874c34ceb20bf193:a0293:u0-37"
+        },
+        {
+          "rank": 4,
+          "score": 0.050572,
+          "unit": "genmem_874c34ceb20bf193:a0296:u126-258"
+        },
+        {
+          "rank": 5,
+          "score": 0.035537,
+          "unit": "genmem_874c34ceb20bf193:a0296:u0-88"
+        }
+      ],
+      "hop2": [
+        {
+          "rank": 1,
+          "score": 0.325852,
+          "unit": "genmem_874c34ceb20bf193:a0305:u0-82"
+        },
+        {
+          "rank": 2,
+          "score": 0.138044,
+          "unit": "genmem_874c34ceb20bf193:a0294:u0-142"
+        },
+        {
+          "rank": 3,
+          "score": 0.07479,
+          "unit": "genmem_874c34ceb20bf193:a0303:u0-54"
+        },
+        {
+          "rank": 4,
+          "score": 0.041474,
+          "unit": "genmem_874c34ceb20bf193:a0007:u68-126"
+        },
+        {
+          "rank": 5,
+          "score": 0.036282,
+          "unit": "genmem_874c34ceb20bf193:a0296:u126-258"
+        }
+      ]
+    },
+    "T06": {
+      "hop1": [
+        {
+          "rank": 1,
+          "score": 0.314998,
+          "unit": "genmem_874c34ceb20bf193:a0284:u137-154"
+        },
+        {
+          "rank": 2,
+          "score": 0.087098,
+          "unit": "genmem_874c34ceb20bf193:a0279:u0-42"
+        },
+        {
+          "rank": 3,
+          "score": 0.073181,
+          "unit": "conclusion:r1"
+        },
+        {
+          "rank": 4,
+          "score": 0.066393,
+          "unit": "genmem_874c34ceb20bf193:a0236:u0-152"
+        },
+        {
+          "rank": 5,
+          "score": 0.048297,
+          "unit": "genmem_874c34ceb20bf193:a0282:u0-43"
+        }
+      ],
+      "hop2": [
+        {
+          "rank": 1,
+          "score": 0.393834,
+          "unit": "genmem_874c34ceb20bf193:a0377:u290-342"
+        },
+        {
+          "rank": 2,
+          "score": 0.039283,
+          "unit": "genmem_874c34ceb20bf193:a0374:u0-152"
+        },
+        {
+          "rank": 3,
+          "score": 0.029148,
+          "unit": "genmem_874c34ceb20bf193:a0371:u0-83"
+        },
+        {
+          "rank": 4,
+          "score": 0.027552,
+          "unit": "genmem_874c34ceb20bf193:a0375:u0-44"
+        },
+        {
+          "rank": 5,
+          "score": 0.027076,
+          "unit": "genmem_874c34ceb20bf193:a0377:u54-116"
+        }
+      ]
+    },
+    "T09": {
+      "hop1": [
+        {
+          "rank": 1,
+          "score": 0.450708,
+          "unit": "conclusion:r1"
+        },
+        {
+          "rank": 2,
+          "score": 0.156913,
+          "unit": "genmem_874c34ceb20bf193:a0275:u0-109"
+        },
+        {
+          "rank": 3,
+          "score": 0.073494,
+          "unit": "genmem_874c34ceb20bf193:a0223:u0-149"
+        },
+        {
+          "rank": 4,
+          "score": 0.041154,
+          "unit": "genmem_874c34ceb20bf193:a0279:u0-42"
+        },
+        {
+          "rank": 5,
+          "score": 0.032385,
+          "unit": "genmem_874c34ceb20bf193:a0281:u0-34"
+        }
+      ],
+      "hop2": [
+        {
+          "rank": 1,
+          "score": 0.618949,
+          "unit": "genmem_874c34ceb20bf193:a0505:u112-200"
+        },
+        {
+          "rank": 2,
+          "score": 0.07718,
+          "unit": "genmem_874c34ceb20bf193:a0374:u0-152"
+        },
+        {
+          "rank": 3,
+          "score": 0.065301,
+          "unit": "genmem_874c34ceb20bf193:a0505:u0-111"
+        },
+        {
+          "rank": 4,
+          "score": 0.024158,
+          "unit": "genmem_874c34ceb20bf193:a0375:u0-44"
+        },
+        {
+          "rank": 5,
+          "score": 0.021227,
+          "unit": "genmem_874c34ceb20bf193:a0371:u0-83"
+        }
+      ]
+    }
+  },
+  "rule": "direct=hop1; indirect=hop1(conclusion)*hop2; same text summed; conclusion excluded",
+  "samples": [
+    {
+      "checks": {
+        "claim_phrase_hits_in_round2": [],
+        "ordered_list_hits_in_round2": [],
+        "round2_max_lcs_chars": 16,
+        "round2_max_shared_shingles": 0,
+        "same_claim_in_round2": [],
+        "same_claim_spans": [
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0305",
+            "candidate_ids": [
+              "genmem_874c34ceb20bf193:a0305:u0-82"
+            ],
+            "end": 82,
+            "start": 0
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0296",
+            "candidate_ids": [
+              "genmem_874c34ceb20bf193:a0296:u259-341"
+            ],
+            "end": 341,
+            "start": 259
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0302",
+            "candidate_ids": [
+              "genmem_874c34ceb20bf193:a0302:u96-178"
+            ],
+            "end": 178,
+            "start": 96
+          }
+        ]
+      },
+      "groups": {
+        "flat": {
+          "a_rank": 2,
+          "b_rank": 1,
+          "found_a": true,
+          "found_all": true,
+          "found_b": true,
+          "pool": 16,
+          "top5": [
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 1,
+              "roles": [
+                "evidence_b"
+              ],
+              "score": 0.2446073740720749,
+              "text": "produced in collaboration with longtime musical partner Mike Batt",
+              "units": [
+                "genmem_874c34ceb20bf193:a0293:u38-103"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 2,
+              "roles": [
+                "evidence_a"
+              ],
+              "score": 0.1767367124557495,
+              "text": "Secret Symphony is the fifth studio album by British singer-songwriter Katie Melua",
+              "units": [
+                "genmem_874c34ceb20bf193:a0305:u0-82"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 3,
+              "roles": [
+                "locator_distractor"
+              ],
+              "score": 0.0805368423461914,
+              "text": "Katie Melua – Secret Symphony | Releases | DiscogsSecret Symphony - Katie MeluaKatie Melua – Secret Symphony – CD (Album), 2012 [r11175324 ...",
+              "units": [
+                "genmem_874c34ceb20bf193:a0294:u0-142"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 4,
+              "roles": [
+                "distractor"
+              ],
+              "score": 0.04533969610929489,
+              "text": "All Music Secret Symphony March 2012 View credits, reviews, tracks and shop for the 2012 CD release of \"Secret Symphony\" on Discogs.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0296:u126-258"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 5,
+              "roles": [
+                "distractor"
+              ],
+              "score": 0.03678344935178757,
+              "text": "for the singer Katie Melua's second album, Piece by Piece.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0007:u68-126"
+              ]
+            }
+          ]
+        },
+        "last_round": {
+          "a_rank": null,
+          "b_rank": 1,
+          "found_a": false,
+          "found_all": false,
+          "found_b": true,
+          "pool": 12,
+          "top5": [
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 1,
+              "roles": [
+                "evidence_b"
+              ],
+              "score": 0.21732525527477264,
+              "text": "produced in collaboration with longtime musical partner Mike Batt",
+              "units": [
+                "genmem_874c34ceb20bf193:a0293:u38-103"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 2,
+              "roles": [
+                "context"
+              ],
+              "score": 0.06602472066879272,
+              "text": "Recorded at Air Studios in London and",
+              "units": [
+                "genmem_874c34ceb20bf193:a0293:u0-37"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 3,
+              "roles": [
+                "distractor"
+              ],
+              "score": 0.05057179555296898,
+              "text": "All Music Secret Symphony March 2012 View credits, reviews, tracks and shop for the 2012 CD release of \"Secret Symphony\" on Discogs.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0296:u126-258"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 4,
+              "roles": [
+                "distractor"
+              ],
+              "score": 0.035537295043468475,
+              "text": "Explore the tracklist, credits, statistics, and more for Secret Symphony by Katie Melua.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0296:u0-88"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 5,
+              "roles": [
+                "distractor"
+              ],
+              "score": 0.022634966298937798,
+              "text": "\"Nine Million Bicycles\" is a song written and produced by Mike Batt",
+              "units": [
+                "genmem_874c34ceb20bf193:a0007:u0-67"
+              ]
+            }
+          ]
+        },
+        "merged": {
+          "a_rank": 2,
+          "b_rank": 1,
+          "found_a": true,
+          "found_all": true,
+          "found_b": true,
+          "pool": 16,
+          "top5": [
+            {
+              "direct": 0.21732525527477264,
+              "indirect": 0.0,
+              "rank": 1,
+              "roles": [
+                "evidence_b"
+              ],
+              "score": 0.21732525527477264,
+              "text": "produced in collaboration with longtime musical partner Mike Batt",
+              "units": [
+                "genmem_874c34ceb20bf193:a0293:u38-103"
+              ]
+            },
+            {
+              "direct": 0.0,
+              "indirect": 0.09884843535932397,
+              "rank": 2,
+              "roles": [
+                "evidence_a"
+              ],
+              "score": 0.09884843535932397,
+              "text": "Secret Symphony is the fifth studio album by British singer-songwriter Katie Melua",
+              "units": [
+                "genmem_874c34ceb20bf193:a0305:u0-82"
+              ]
+            },
+            {
+              "direct": 0.06602472066879272,
+              "indirect": 0.0,
+              "rank": 3,
+              "roles": [
+                "context"
+              ],
+              "score": 0.06602472066879272,
+              "text": "Recorded at Air Studios in London and",
+              "units": [
+                "genmem_874c34ceb20bf193:a0293:u0-37"
+              ]
+            },
+            {
+              "direct": 0.05057179555296898,
+              "indirect": 0.011006336423536878,
+              "rank": 4,
+              "roles": [
+                "distractor"
+              ],
+              "score": 0.06157813197650586,
+              "text": "All Music Secret Symphony March 2012 View credits, reviews, tracks and shop for the 2012 CD release of \"Secret Symphony\" on Discogs.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0296:u126-258"
+              ]
+            },
+            {
+              "direct": 0.035537295043468475,
+              "indirect": 0.010763369193312888,
+              "rank": 5,
+              "roles": [
+                "distractor"
+              ],
+              "score": 0.046300664236781364,
+              "text": "Explore the tracklist, credits, statistics, and more for Secret Symphony by Katie Melua.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0296:u0-88"
+              ]
+            }
+          ]
+        }
+      },
+      "inputs": {
+        "round1": [
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0303",
+            "end": 54,
+            "role": "locator",
+            "start": 0,
+            "text": "Secret Symphony - Album by Katie Melua - YouTube Music",
+            "unit_id": "genmem_874c34ceb20bf193:a0303:u0-54"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0305",
+            "end": 82,
+            "role": "evidence_a",
+            "start": 0,
+            "text": "Secret Symphony is the fifth studio album by British singer-songwriter Katie Melua",
+            "unit_id": "genmem_874c34ceb20bf193:a0305:u0-82"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0294",
+            "end": 142,
+            "role": "locator_distractor",
+            "start": 0,
+            "text": "Katie Melua – Secret Symphony | Releases | DiscogsSecret Symphony - Katie MeluaKatie Melua – Secret Symphony – CD (Album), 2012 [r11175324 ...",
+            "unit_id": "genmem_874c34ceb20bf193:a0294:u0-142"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0296",
+            "end": 88,
+            "role": "distractor",
+            "start": 0,
+            "text": "Explore the tracklist, credits, statistics, and more for Secret Symphony by Katie Melua.",
+            "unit_id": "genmem_874c34ceb20bf193:a0296:u0-88"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0296",
+            "end": 258,
+            "role": "distractor",
+            "start": 126,
+            "text": "All Music Secret Symphony March 2012 View credits, reviews, tracks and shop for the 2012 CD release of \"Secret Symphony\" on Discogs.",
+            "unit_id": "genmem_874c34ceb20bf193:a0296:u126-258"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0300",
+            "end": 63,
+            "role": "locator_distractor",
+            "start": 0,
+            "text": "Katie Melua – Secret Symphony – CD (Album), 2012 [r11175324 ...",
+            "unit_id": "genmem_874c34ceb20bf193:a0300:u0-63"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0302",
+            "end": 95,
+            "role": "distractor",
+            "start": 0,
+            "text": "View credits, reviews, tracks and shop for the 2012 CD release of \"Secret Symphony\" on Discogs.",
+            "unit_id": "genmem_874c34ceb20bf193:a0302:u0-95"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0007",
+            "end": 67,
+            "role": "distractor",
+            "start": 0,
+            "text": "\"Nine Million Bicycles\" is a song written and produced by Mike Batt",
+            "unit_id": "genmem_874c34ceb20bf193:a0007:u0-67"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0007",
+            "end": 126,
+            "role": "distractor",
+            "start": 68,
+            "text": "for the singer Katie Melua's second album, Piece by Piece.",
+            "unit_id": "genmem_874c34ceb20bf193:a0007:u68-126"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0223",
+            "end": 149,
+            "role": "distractor",
+            "start": 0,
+            "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra).",
+            "unit_id": "genmem_874c34ceb20bf193:a0223:u0-149"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0236",
+            "end": 152,
+            "role": "distractor",
+            "start": 0,
+            "text": "From mikebatt.com, the album list appears to include: Schizophonia, Tarot Suite, Waves, Six Days In Berlin, Zero Zero, Songs Of Love And War, Arabesque.",
+            "unit_id": "genmem_874c34ceb20bf193:a0236:u0-152"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0297",
+            "end": 29,
+            "role": "locator_distractor",
+            "start": 0,
+            "text": "Secret Symphony - Katie Melua",
+            "unit_id": "genmem_874c34ceb20bf193:a0297:u0-29"
+          }
+        ],
+        "round2": [
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0291",
+            "end": 27,
+            "role": "locator",
+            "start": 0,
+            "text": "Secret Symphony - Wikipedia",
+            "unit_id": "genmem_874c34ceb20bf193:a0291:u0-27"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0293",
+            "end": 37,
+            "role": "context",
+            "start": 0,
+            "text": "Recorded at Air Studios in London and",
+            "unit_id": "genmem_874c34ceb20bf193:a0293:u0-37"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0293",
+            "end": 103,
+            "role": "evidence_b",
+            "start": 38,
+            "text": "produced in collaboration with longtime musical partner Mike Batt",
+            "unit_id": "genmem_874c34ceb20bf193:a0293:u38-103"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0296",
+            "end": 88,
+            "role": "distractor",
+            "start": 0,
+            "text": "Explore the tracklist, credits, statistics, and more for Secret Symphony by Katie Melua.",
+            "unit_id": "genmem_874c34ceb20bf193:a0296:u0-88"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0296",
+            "end": 258,
+            "role": "distractor",
+            "start": 126,
+            "text": "All Music Secret Symphony March 2012 View credits, reviews, tracks and shop for the 2012 CD release of \"Secret Symphony\" on Discogs.",
+            "unit_id": "genmem_874c34ceb20bf193:a0296:u126-258"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0297",
+            "end": 29,
+            "role": "locator_distractor",
+            "start": 0,
+            "text": "Secret Symphony - Katie Melua",
+            "unit_id": "genmem_874c34ceb20bf193:a0297:u0-29"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0299",
+            "end": 36,
+            "role": "distractor",
+            "start": 0,
+            "text": "All Music Secret Symphony March 2012",
+            "unit_id": "genmem_874c34ceb20bf193:a0299:u0-36"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0300",
+            "end": 63,
+            "role": "locator_distractor",
+            "start": 0,
+            "text": "Katie Melua – Secret Symphony – CD (Album), 2012 [r11175324 ...",
+            "unit_id": "genmem_874c34ceb20bf193:a0300:u0-63"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0302",
+            "end": 95,
+            "role": "distractor",
+            "start": 0,
+            "text": "View credits, reviews, tracks and shop for the 2012 CD release of \"Secret Symphony\" on Discogs.",
+            "unit_id": "genmem_874c34ceb20bf193:a0302:u0-95"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0007",
+            "end": 67,
+            "role": "distractor",
+            "start": 0,
+            "text": "\"Nine Million Bicycles\" is a song written and produced by Mike Batt",
+            "unit_id": "genmem_874c34ceb20bf193:a0007:u0-67"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0007",
+            "end": 126,
+            "role": "distractor",
+            "start": 68,
+            "text": "for the singer Katie Melua's second album, Piece by Piece.",
+            "unit_id": "genmem_874c34ceb20bf193:a0007:u68-126"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0223",
+            "end": 149,
+            "role": "distractor",
+            "start": 0,
+            "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra).",
+            "unit_id": "genmem_874c34ceb20bf193:a0223:u0-149"
+          }
+        ]
+      },
+      "max_vs_sum_same_top5": false,
+      "merged_rows": [
+        {
+          "direct": 0.21732525527477264,
+          "indirect": 0.0,
+          "max": 0.21732525527477264,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.21732525527477264,
+              "unit": "genmem_874c34ceb20bf193:a0293:u38-103"
+            }
+          ],
+          "rank": 1,
+          "roles": [
+            "evidence_b"
+          ],
+          "score": 0.21732525527477264,
+          "text": "produced in collaboration with longtime musical partner Mike Batt",
+          "units": [
+            "genmem_874c34ceb20bf193:a0293:u38-103"
+          ]
+        },
+        {
+          "direct": 0.0,
+          "indirect": 0.09884843535932397,
+          "max": 0.09884843535932397,
+          "paths": [
+            {
+              "kind": "indirect",
+              "score": 0.09884843535932397,
+              "unit": "genmem_874c34ceb20bf193:a0305:u0-82"
+            }
+          ],
+          "rank": 2,
+          "roles": [
+            "evidence_a"
+          ],
+          "score": 0.09884843535932397,
+          "text": "Secret Symphony is the fifth studio album by British singer-songwriter Katie Melua",
+          "units": [
+            "genmem_874c34ceb20bf193:a0305:u0-82"
+          ]
+        },
+        {
+          "direct": 0.06602472066879272,
+          "indirect": 0.0,
+          "max": 0.06602472066879272,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.06602472066879272,
+              "unit": "genmem_874c34ceb20bf193:a0293:u0-37"
+            }
+          ],
+          "rank": 3,
+          "roles": [
+            "context"
+          ],
+          "score": 0.06602472066879272,
+          "text": "Recorded at Air Studios in London and",
+          "units": [
+            "genmem_874c34ceb20bf193:a0293:u0-37"
+          ]
+        },
+        {
+          "direct": 0.05057179555296898,
+          "indirect": 0.011006336423536878,
+          "max": 0.05057179555296898,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.05057179555296898,
+              "unit": "genmem_874c34ceb20bf193:a0296:u126-258"
+            },
+            {
+              "kind": "indirect",
+              "score": 0.011006336423536878,
+              "unit": "genmem_874c34ceb20bf193:a0296:u126-258"
+            }
+          ],
+          "rank": 4,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.06157813197650586,
+          "text": "All Music Secret Symphony March 2012 View credits, reviews, tracks and shop for the 2012 CD release of \"Secret Symphony\" on Discogs.",
+          "units": [
+            "genmem_874c34ceb20bf193:a0296:u126-258"
+          ]
+        },
+        {
+          "direct": 0.035537295043468475,
+          "indirect": 0.010763369193312888,
+          "max": 0.035537295043468475,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.035537295043468475,
+              "unit": "genmem_874c34ceb20bf193:a0296:u0-88"
+            },
+            {
+              "kind": "indirect",
+              "score": 0.010763369193312888,
+              "unit": "genmem_874c34ceb20bf193:a0296:u0-88"
+            }
+          ],
+          "rank": 5,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.046300664236781364,
+          "text": "Explore the tracklist, credits, statistics, and more for Secret Symphony by Katie Melua.",
+          "units": [
+            "genmem_874c34ceb20bf193:a0296:u0-88"
+          ]
+        },
+        {
+          "direct": 0.0,
+          "indirect": 0.04187613216087538,
+          "max": 0.04187613216087538,
+          "paths": [
+            {
+              "kind": "indirect",
+              "score": 0.04187613216087538,
+              "unit": "genmem_874c34ceb20bf193:a0294:u0-142"
+            }
+          ],
+          "rank": 6,
+          "roles": [
+            "locator_distractor"
+          ],
+          "score": 0.04187613216087538,
+          "text": "Katie Melua – Secret Symphony | Releases | DiscogsSecret Symphony - Katie MeluaKatie Melua – Secret Symphony – CD (Album), 2012 [r11175324 ...",
+          "units": [
+            "genmem_874c34ceb20bf193:a0294:u0-142"
+          ]
+        },
+        {
+          "direct": 0.022634966298937798,
+          "indirect": 0.003642408764458649,
+          "max": 0.022634966298937798,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.022634966298937798,
+              "unit": "genmem_874c34ceb20bf193:a0007:u0-67"
+            },
+            {
+              "kind": "indirect",
+              "score": 0.003642408764458649,
+              "unit": "genmem_874c34ceb20bf193:a0007:u0-67"
+            }
+          ],
+          "rank": 7,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.026277375063396446,
+          "text": "\"Nine Million Bicycles\" is a song written and produced by Mike Batt",
+          "units": [
+            "genmem_874c34ceb20bf193:a0007:u0-67"
+          ]
+        },
+        {
+          "direct": 0.01338428258895874,
+          "indirect": 0.012581398050347192,
+          "max": 0.01338428258895874,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.01338428258895874,
+              "unit": "genmem_874c34ceb20bf193:a0007:u68-126"
+            },
+            {
+              "kind": "indirect",
+              "score": 0.012581398050347192,
+              "unit": "genmem_874c34ceb20bf193:a0007:u68-126"
+            }
+          ],
+          "rank": 8,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.025965680639305933,
+          "text": "for the singer Katie Melua's second album, Piece by Piece.",
+          "units": [
+            "genmem_874c34ceb20bf193:a0007:u68-126"
+          ]
+        },
+        {
+          "direct": 0.01874770224094391,
+          "indirect": 0.006767696811869894,
+          "max": 0.01874770224094391,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.01874770224094391,
+              "unit": "genmem_874c34ceb20bf193:a0300:u0-63"
+            },
+            {
+              "kind": "indirect",
+              "score": 0.006767696811869894,
+              "unit": "genmem_874c34ceb20bf193:a0300:u0-63"
+            }
+          ],
+          "rank": 9,
+          "roles": [
+            "locator_distractor"
+          ],
+          "score": 0.025515399052813803,
+          "text": "Katie Melua – Secret Symphony – CD (Album), 2012 [r11175324 ...",
+          "units": [
+            "genmem_874c34ceb20bf193:a0300:u0-63"
+          ]
+        },
+        {
+          "direct": 0.02069639228284359,
+          "indirect": 0.0033501790807466403,
+          "max": 0.02069639228284359,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.02069639228284359,
+              "unit": "genmem_874c34ceb20bf193:a0302:u0-95"
+            },
+            {
+              "kind": "indirect",
+              "score": 0.0033501790807466403,
+              "unit": "genmem_874c34ceb20bf193:a0302:u0-95"
+            }
+          ],
+          "rank": 10,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.02404657136359023,
+          "text": "View credits, reviews, tracks and shop for the 2012 CD release of \"Secret Symphony\" on Discogs.",
+          "units": [
+            "genmem_874c34ceb20bf193:a0302:u0-95"
+          ]
+        },
+        {
+          "direct": 0.0,
+          "indirect": 0.022687742040169212,
+          "max": 0.022687742040169212,
+          "paths": [
+            {
+              "kind": "indirect",
+              "score": 0.022687742040169212,
+              "unit": "genmem_874c34ceb20bf193:a0303:u0-54"
+            }
+          ],
+          "rank": 11,
+          "roles": [
+            "locator"
+          ],
+          "score": 0.022687742040169212,
+          "text": "Secret Symphony - Album by Katie Melua - YouTube Music",
+          "units": [
+            "genmem_874c34ceb20bf193:a0303:u0-54"
+          ]
+        },
+        {
+          "direct": 0.017308922484517097,
+          "indirect": 0.002385396609892204,
+          "max": 0.017308922484517097,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.017308922484517097,
+              "unit": "genmem_874c34ceb20bf193:a0223:u0-149"
+            },
+            {
+              "kind": "indirect",
+              "score": 0.002385396609892204,
+              "unit": "genmem_874c34ceb20bf193:a0223:u0-149"
+            }
+          ],
+          "rank": 12,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.0196943190944093,
+          "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra).",
+          "units": [
+            "genmem_874c34ceb20bf193:a0223:u0-149"
+          ]
+        },
+        {
+          "direct": 0.018116608262062073,
+          "indirect": 0.0,
+          "max": 0.018116608262062073,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.018116608262062073,
+              "unit": "genmem_874c34ceb20bf193:a0291:u0-27"
+            }
+          ],
+          "rank": 13,
+          "roles": [
+            "locator"
+          ],
+          "score": 0.018116608262062073,
+          "text": "Secret Symphony - Wikipedia",
+          "units": [
+            "genmem_874c34ceb20bf193:a0291:u0-27"
+          ]
+        },
+        {
+          "direct": 0.00916323997080326,
+          "indirect": 0.0,
+          "max": 0.00916323997080326,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.00916323997080326,
+              "unit": "genmem_874c34ceb20bf193:a0299:u0-36"
+            }
+          ],
+          "rank": 14,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.00916323997080326,
+          "text": "All Music Secret Symphony March 2012",
+          "units": [
+            "genmem_874c34ceb20bf193:a0299:u0-36"
+          ]
+        },
+        {
+          "direct": 0.004447799175977707,
+          "indirect": 0.0033945734315090903,
+          "max": 0.004447799175977707,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.004447799175977707,
+              "unit": "genmem_874c34ceb20bf193:a0297:u0-29"
+            },
+            {
+              "kind": "indirect",
+              "score": 0.0033945734315090903,
+              "unit": "genmem_874c34ceb20bf193:a0297:u0-29"
+            }
+          ],
+          "rank": 15,
+          "roles": [
+            "locator_distractor"
+          ],
+          "score": 0.007842372607486797,
+          "text": "Secret Symphony - Katie Melua",
+          "units": [
+            "genmem_874c34ceb20bf193:a0297:u0-29"
+          ]
+        },
+        {
+          "direct": 0.0,
+          "indirect": 0.001535340581209202,
+          "max": 0.001535340581209202,
+          "paths": [
+            {
+              "kind": "indirect",
+              "score": 0.001535340581209202,
+              "unit": "genmem_874c34ceb20bf193:a0236:u0-152"
+            }
+          ],
+          "rank": 16,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.001535340581209202,
+          "text": "From mikebatt.com, the album list appears to include: Schizophonia, Tarot Suite, Waves, Six Days In Berlin, Zero Zero, Songs Of Love And War, Arabesque.",
+          "units": [
+            "genmem_874c34ceb20bf193:a0236:u0-152"
+          ]
+        }
+      ],
+      "questions": {
+        "round1": "What is the title of Katie Melua's fifth studio album?",
+        "round2": "Name Katie Melua's fifth studio album and the producer it was made with."
+      },
+      "round1_answer": "The title of Katie Melua's fifth studio album is \"Secret Symphony\".",
+      "round2_answer": "Katie Melua's fifth studio album is \"Secret Symphony,\" which was produced in collaboration with her longtime musical partner Mike Batt.",
+      "s_c": 0.30335357785224915,
+      "sample": "T03",
+      "target_id": "genmem_874c34ceb20bf193:selected_03"
+    },
+    {
+      "checks": {
+        "claim_phrase_hits_in_round2": [],
+        "ordered_list_hits_in_round2": [
+          {
+            "text": "From mikebatt.com, the album list appears to include: Schizophonia, Tarot Suite, Waves, Six Days In Berlin, Zero Zero, Songs Of Love And War, Arabesque.",
+            "unit_id": "genmem_874c34ceb20bf193:a0236:u0-152"
+          }
+        ],
+        "round2_max_lcs_chars": 11,
+        "round2_max_shared_shingles": 0,
+        "same_claim_in_round2": [],
+        "same_claim_spans": [
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0505",
+            "candidate_ids": [
+              "genmem_874c34ceb20bf193:a0505:u112-200"
+            ],
+            "end": 200,
+            "start": 112
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0505",
+            "candidate_ids": [
+              "genmem_874c34ceb20bf193:a0505:u112-200"
+            ],
+            "end": 200,
+            "start": 112
+          }
+        ]
+      },
+      "groups": {
+        "flat": {
+          "a_rank": 1,
+          "b_rank": 8,
+          "found_a": true,
+          "found_all": false,
+          "found_b": false,
+          "pool": 17,
+          "top5": [
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 1,
+              "roles": [
+                "evidence_a"
+              ],
+              "score": 0.4720379412174225,
+              "text": "Zero Zero – Mike’s quirky futuristic 1982 5th solo album and fantasy album-length video.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0505:u112-200"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 2,
+              "roles": [
+                "context"
+              ],
+              "score": 0.21775536239147186,
+              "text": "Six Days In Berlin – 4th solo album for Epic – made at Hansa (Berlin) and Montserrat during is wordwide voyage.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0505:u0-111"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 3,
+              "roles": [
+                "distractor"
+              ],
+              "score": 0.05688484013080597,
+              "text": "Jan 24, 2018 · In 1977, Batt conducted the all-star symphonic-rock recording Schizophonia, featuring the London Symphony Orchestra and released on Epic.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0374:u0-152"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 4,
+              "roles": [
+                "distractor"
+              ],
+              "score": 0.0253668874502182,
+              "text": "Songs Of Love And War - 6th solo album (made for RCA in a break from Sony).",
+              "units": [
+                "genmem_874c34ceb20bf193:a0505:u201-276"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 5,
+              "roles": [
+                "distractor"
+              ],
+              "score": 0.025322476401925087,
+              "text": "From mikebatt.com, the album list appears to include: Schizophonia, Tarot Suite, Waves, Six Days In Berlin, Zero Zero, Songs Of Love And War, Arabesque.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0236:u0-152"
+              ]
+            }
+          ]
+        },
+        "last_round": {
+          "a_rank": null,
+          "b_rank": 1,
+          "found_a": false,
+          "found_all": false,
+          "found_b": true,
+          "pool": 11,
+          "top5": [
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 1,
+              "roles": [
+                "evidence_b"
+              ],
+              "score": 0.15691260993480682,
+              "text": "The album, featuring Batt with the Sydney Symphony Orchestra, was released on Epic as a Mike Batt solo album.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0275:u0-109"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 2,
+              "roles": [
+                "distractor"
+              ],
+              "score": 0.07349371910095215,
+              "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra).",
+              "units": [
+                "genmem_874c34ceb20bf193:a0223:u0-149"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 3,
+              "roles": [
+                "locator_distractor"
+              ],
+              "score": 0.04115438833832741,
+              "text": "Mike Batt – Zero Zero | Releases | Discogs",
+              "units": [
+                "genmem_874c34ceb20bf193:a0279:u0-42"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 4,
+              "roles": [
+                "distractor"
+              ],
+              "score": 0.03238542377948761,
+              "text": "Mike Batt - Zero Zero album cover.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0281:u0-34"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 5,
+              "roles": [
+                "distractor"
+              ],
+              "score": 0.030503876507282257,
+              "text": "From mikebatt.com, the album list appears to include: Schizophonia, Tarot Suite, Waves, Six Days In Berlin, Zero Zero, Songs Of Love And War, Arabesque.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0236:u0-152"
+              ]
+            }
+          ]
+        },
+        "merged": {
+          "a_rank": 1,
+          "b_rank": 2,
+          "found_a": true,
+          "found_all": true,
+          "found_b": true,
+          "pool": 17,
+          "top5": [
+            {
+              "direct": 0.0,
+              "indirect": 0.2789648289981397,
+              "rank": 1,
+              "roles": [
+                "evidence_a"
+              ],
+              "score": 0.2789648289981397,
+              "text": "Zero Zero – Mike’s quirky futuristic 1982 5th solo album and fantasy album-length video.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0505:u112-200"
+              ]
+            },
+            {
+              "direct": 0.15691260993480682,
+              "indirect": 0.0,
+              "rank": 2,
+              "roles": [
+                "evidence_b"
+              ],
+              "score": 0.15691260993480682,
+              "text": "The album, featuring Batt with the Sydney Symphony Orchestra, was released on Epic as a Mike Batt solo album.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0275:u0-109"
+              ]
+            },
+            {
+              "direct": 0.07349371910095215,
+              "indirect": 0.0029856533044985978,
+              "rank": 3,
+              "roles": [
+                "distractor"
+              ],
+              "score": 0.07647937240545075,
+              "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra).",
+              "units": [
+                "genmem_874c34ceb20bf193:a0223:u0-149"
+              ]
+            },
+            {
+              "direct": 0.04115438833832741,
+              "indirect": 0.0,
+              "rank": 4,
+              "roles": [
+                "locator_distractor"
+              ],
+              "score": 0.04115438833832741,
+              "text": "Mike Batt – Zero Zero | Releases | Discogs",
+              "units": [
+                "genmem_874c34ceb20bf193:a0279:u0-42"
+              ]
+            },
+            {
+              "direct": 0.030503876507282257,
+              "indirect": 0.008485164163959336,
+              "rank": 5,
+              "roles": [
+                "distractor"
+              ],
+              "score": 0.03898904067124159,
+              "text": "From mikebatt.com, the album list appears to include: Schizophonia, Tarot Suite, Waves, Six Days In Berlin, Zero Zero, Songs Of Love And War, Arabesque.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0236:u0-152"
+              ]
+            }
+          ]
+        }
+      },
+      "inputs": {
+        "round1": [
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0503",
+            "end": 20,
+            "role": "locator",
+            "start": 0,
+            "text": "Projects — Mike Batt",
+            "unit_id": "genmem_874c34ceb20bf193:a0503:u0-20"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0505",
+            "end": 111,
+            "role": "context",
+            "start": 0,
+            "text": "Six Days In Berlin – 4th solo album for Epic – made at Hansa (Berlin) and Montserrat during is wordwide voyage.",
+            "unit_id": "genmem_874c34ceb20bf193:a0505:u0-111"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0505",
+            "end": 200,
+            "role": "evidence_a",
+            "start": 112,
+            "text": "Zero Zero – Mike’s quirky futuristic 1982 5th solo album and fantasy album-length video.",
+            "unit_id": "genmem_874c34ceb20bf193:a0505:u112-200"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0505",
+            "end": 276,
+            "role": "distractor",
+            "start": 201,
+            "text": "Songs Of Love And War - 6th solo album (made for RCA in a break from Sony).",
+            "unit_id": "genmem_874c34ceb20bf193:a0505:u201-276"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0375",
+            "end": 44,
+            "role": "locator_distractor",
+            "start": 0,
+            "text": "Mike Batt Short Discography - friedl.heim.at",
+            "unit_id": "genmem_874c34ceb20bf193:a0375:u0-44"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0371",
+            "end": 83,
+            "role": "distractor",
+            "start": 0,
+            "text": "Mike Batt discography and songs: Music profile for Mike Batt, born 6 February 1949.",
+            "unit_id": "genmem_874c34ceb20bf193:a0371:u0-83"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0374",
+            "end": 152,
+            "role": "distractor",
+            "start": 0,
+            "text": "Jan 24, 2018 · In 1977, Batt conducted the all-star symphonic-rock recording Schizophonia, featuring the London Symphony Orchestra and released on Epic.",
+            "unit_id": "genmem_874c34ceb20bf193:a0374:u0-152"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0153",
+            "end": 63,
+            "role": "distractor",
+            "start": 0,
+            "text": "Explore Mike Batt's biography, discography, and artist credits.",
+            "unit_id": "genmem_874c34ceb20bf193:a0153:u0-63"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0310",
+            "end": 69,
+            "role": "distractor",
+            "start": 0,
+            "text": "\" Nine Million Bicycles \" is a song written and produced by Mike Batt",
+            "unit_id": "genmem_874c34ceb20bf193:a0310:u0-69"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0236",
+            "end": 152,
+            "role": "distractor",
+            "start": 0,
+            "text": "From mikebatt.com, the album list appears to include: Schizophonia, Tarot Suite, Waves, Six Days In Berlin, Zero Zero, Songs Of Love And War, Arabesque.",
+            "unit_id": "genmem_874c34ceb20bf193:a0236:u0-152"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0223",
+            "end": 149,
+            "role": "distractor",
+            "start": 0,
+            "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra).",
+            "unit_id": "genmem_874c34ceb20bf193:a0223:u0-149"
+          }
+        ],
+        "round2": [
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0273",
+            "end": 21,
+            "role": "locator",
+            "start": 0,
+            "text": "Mike Batt - Wikipedia",
+            "unit_id": "genmem_874c34ceb20bf193:a0273:u0-21"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0275",
+            "end": 109,
+            "role": "evidence_b",
+            "start": 0,
+            "text": "The album, featuring Batt with the Sydney Symphony Orchestra, was released on Epic as a Mike Batt solo album.",
+            "unit_id": "genmem_874c34ceb20bf193:a0275:u0-109"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0275",
+            "end": 223,
+            "role": "context",
+            "start": 110,
+            "text": "Batt's character \"Number 17\" falls in love and is sent to an emotional decontamination centre called \"Zero Zero\".",
+            "unit_id": "genmem_874c34ceb20bf193:a0275:u110-223"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0279",
+            "end": 42,
+            "role": "locator_distractor",
+            "start": 0,
+            "text": "Mike Batt – Zero Zero | Releases | Discogs",
+            "unit_id": "genmem_874c34ceb20bf193:a0279:u0-42"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0282",
+            "end": 43,
+            "role": "locator_distractor",
+            "start": 0,
+            "text": "Mike Batt Zero Zero - EXC Vinyl LP FE 38454",
+            "unit_id": "genmem_874c34ceb20bf193:a0282:u0-43"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0281",
+            "end": 34,
+            "role": "distractor",
+            "start": 0,
+            "text": "Mike Batt - Zero Zero album cover.",
+            "unit_id": "genmem_874c34ceb20bf193:a0281:u0-34"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0310",
+            "end": 69,
+            "role": "distractor",
+            "start": 0,
+            "text": "\" Nine Million Bicycles \" is a song written and produced by Mike Batt",
+            "unit_id": "genmem_874c34ceb20bf193:a0310:u0-69"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0223",
+            "end": 149,
+            "role": "distractor",
+            "start": 0,
+            "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra).",
+            "unit_id": "genmem_874c34ceb20bf193:a0223:u0-149"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0153",
+            "end": 63,
+            "role": "distractor",
+            "start": 0,
+            "text": "Explore Mike Batt's biography, discography, and artist credits.",
+            "unit_id": "genmem_874c34ceb20bf193:a0153:u0-63"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0236",
+            "end": 152,
+            "role": "distractor",
+            "start": 0,
+            "text": "From mikebatt.com, the album list appears to include: Schizophonia, Tarot Suite, Waves, Six Days In Berlin, Zero Zero, Songs Of Love And War, Arabesque.",
+            "unit_id": "genmem_874c34ceb20bf193:a0236:u0-152"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0371",
+            "end": 83,
+            "role": "distractor",
+            "start": 0,
+            "text": "Mike Batt discography and songs: Music profile for Mike Batt, born 6 February 1949.",
+            "unit_id": "genmem_874c34ceb20bf193:a0371:u0-83"
+          }
+        ]
+      },
+      "max_vs_sum_same_top5": false,
+      "merged_rows": [
+        {
+          "direct": 0.0,
+          "indirect": 0.2789648289981397,
+          "max": 0.2789648289981397,
+          "paths": [
+            {
+              "kind": "indirect",
+              "score": 0.2789648289981397,
+              "unit": "genmem_874c34ceb20bf193:a0505:u112-200"
+            }
+          ],
+          "rank": 1,
+          "roles": [
+            "evidence_a"
+          ],
+          "score": 0.2789648289981397,
+          "text": "Zero Zero – Mike’s quirky futuristic 1982 5th solo album and fantasy album-length video.",
+          "units": [
+            "genmem_874c34ceb20bf193:a0505:u112-200"
+          ]
+        },
+        {
+          "direct": 0.15691260993480682,
+          "indirect": 0.0,
+          "max": 0.15691260993480682,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.15691260993480682,
+              "unit": "genmem_874c34ceb20bf193:a0275:u0-109"
+            }
+          ],
+          "rank": 2,
+          "roles": [
+            "evidence_b"
+          ],
+          "score": 0.15691260993480682,
+          "text": "The album, featuring Batt with the Sydney Symphony Orchestra, was released on Epic as a Mike Batt solo album.",
+          "units": [
+            "genmem_874c34ceb20bf193:a0275:u0-109"
+          ]
+        },
+        {
+          "direct": 0.07349371910095215,
+          "indirect": 0.0029856533044985978,
+          "max": 0.07349371910095215,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.07349371910095215,
+              "unit": "genmem_874c34ceb20bf193:a0223:u0-149"
+            },
+            {
+              "kind": "indirect",
+              "score": 0.0029856533044985978,
+              "unit": "genmem_874c34ceb20bf193:a0223:u0-149"
+            }
+          ],
+          "rank": 3,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.07647937240545075,
+          "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra).",
+          "units": [
+            "genmem_874c34ceb20bf193:a0223:u0-149"
+          ]
+        },
+        {
+          "direct": 0.04115438833832741,
+          "indirect": 0.0,
+          "max": 0.04115438833832741,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.04115438833832741,
+              "unit": "genmem_874c34ceb20bf193:a0279:u0-42"
+            }
+          ],
+          "rank": 4,
+          "roles": [
+            "locator_distractor"
+          ],
+          "score": 0.04115438833832741,
+          "text": "Mike Batt – Zero Zero | Releases | Discogs",
+          "units": [
+            "genmem_874c34ceb20bf193:a0279:u0-42"
+          ]
+        },
+        {
+          "direct": 0.030503876507282257,
+          "indirect": 0.008485164163959336,
+          "max": 0.030503876507282257,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.030503876507282257,
+              "unit": "genmem_874c34ceb20bf193:a0236:u0-152"
+            },
+            {
+              "kind": "indirect",
+              "score": 0.008485164163959336,
+              "unit": "genmem_874c34ceb20bf193:a0236:u0-152"
+            }
+          ],
+          "rank": 5,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.03898904067124159,
+          "text": "From mikebatt.com, the album list appears to include: Schizophonia, Tarot Suite, Waves, Six Days In Berlin, Zero Zero, Songs Of Love And War, Arabesque.",
+          "units": [
+            "genmem_874c34ceb20bf193:a0236:u0-152"
+          ]
+        },
+        {
+          "direct": 0.0,
+          "indirect": 0.03478584013990571,
+          "max": 0.03478584013990571,
+          "paths": [
+            {
+              "kind": "indirect",
+              "score": 0.03478584013990571,
+              "unit": "genmem_874c34ceb20bf193:a0374:u0-152"
+            }
+          ],
+          "rank": 6,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.03478584013990571,
+          "text": "Jan 24, 2018 · In 1977, Batt conducted the all-star symphonic-rock recording Schizophonia, featuring the London Symphony Orchestra and released on Epic.",
+          "units": [
+            "genmem_874c34ceb20bf193:a0374:u0-152"
+          ]
+        },
+        {
+          "direct": 0.03238542377948761,
+          "indirect": 0.0,
+          "max": 0.03238542377948761,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.03238542377948761,
+              "unit": "genmem_874c34ceb20bf193:a0281:u0-34"
+            }
+          ],
+          "rank": 7,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.03238542377948761,
+          "text": "Mike Batt - Zero Zero album cover.",
+          "units": [
+            "genmem_874c34ceb20bf193:a0281:u0-34"
+          ]
+        },
+        {
+          "direct": 0.029529042541980743,
+          "indirect": 0.0,
+          "max": 0.029529042541980743,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.029529042541980743,
+              "unit": "genmem_874c34ceb20bf193:a0275:u110-223"
+            }
+          ],
+          "rank": 8,
+          "roles": [
+            "context"
+          ],
+          "score": 0.029529042541980743,
+          "text": "Batt's character \"Number 17\" falls in love and is sent to an emotional decontamination centre called \"Zero Zero\".",
+          "units": [
+            "genmem_874c34ceb20bf193:a0275:u110-223"
+          ]
+        },
+        {
+          "direct": 0.0,
+          "indirect": 0.029431845050458927,
+          "max": 0.029431845050458927,
+          "paths": [
+            {
+              "kind": "indirect",
+              "score": 0.029431845050458927,
+              "unit": "genmem_874c34ceb20bf193:a0505:u0-111"
+            }
+          ],
+          "rank": 9,
+          "roles": [
+            "context"
+          ],
+          "score": 0.029431845050458927,
+          "text": "Six Days In Berlin – 4th solo album for Epic – made at Hansa (Berlin) and Montserrat during is wordwide voyage.",
+          "units": [
+            "genmem_874c34ceb20bf193:a0505:u0-111"
+          ]
+        },
+        {
+          "direct": 0.02749607339501381,
+          "indirect": 0.0,
+          "max": 0.02749607339501381,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.02749607339501381,
+              "unit": "genmem_874c34ceb20bf193:a0282:u0-43"
+            }
+          ],
+          "rank": 10,
+          "roles": [
+            "locator_distractor"
+          ],
+          "score": 0.02749607339501381,
+          "text": "Mike Batt Zero Zero - EXC Vinyl LP FE 38454",
+          "units": [
+            "genmem_874c34ceb20bf193:a0282:u0-43"
+          ]
+        },
+        {
+          "direct": 0.0056617301888763905,
+          "indirect": 0.009567042006397297,
+          "max": 0.009567042006397297,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.0056617301888763905,
+              "unit": "genmem_874c34ceb20bf193:a0371:u0-83"
+            },
+            {
+              "kind": "indirect",
+              "score": 0.009567042006397297,
+              "unit": "genmem_874c34ceb20bf193:a0371:u0-83"
+            }
+          ],
+          "rank": 11,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.015228772195273688,
+          "text": "Mike Batt discography and songs: Music profile for Mike Batt, born 6 February 1949.",
+          "units": [
+            "genmem_874c34ceb20bf193:a0371:u0-83"
+          ]
+        },
+        {
+          "direct": 0.005277894902974367,
+          "indirect": 0.005903787886082673,
+          "max": 0.005903787886082673,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.005277894902974367,
+              "unit": "genmem_874c34ceb20bf193:a0153:u0-63"
+            },
+            {
+              "kind": "indirect",
+              "score": 0.005903787886082673,
+              "unit": "genmem_874c34ceb20bf193:a0153:u0-63"
+            }
+          ],
+          "rank": 12,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.01118168278905704,
+          "text": "Explore Mike Batt's biography, discography, and artist credits.",
+          "units": [
+            "genmem_874c34ceb20bf193:a0153:u0-63"
+          ]
+        },
+        {
+          "direct": 0.0,
+          "indirect": 0.010888216683267282,
+          "max": 0.010888216683267282,
+          "paths": [
+            {
+              "kind": "indirect",
+              "score": 0.010888216683267282,
+              "unit": "genmem_874c34ceb20bf193:a0375:u0-44"
+            }
+          ],
+          "rank": 13,
+          "roles": [
+            "locator_distractor"
+          ],
+          "score": 0.010888216683267282,
+          "text": "Mike Batt Short Discography - friedl.heim.at",
+          "units": [
+            "genmem_874c34ceb20bf193:a0375:u0-44"
+          ]
+        },
+        {
+          "direct": 0.009028937667608261,
+          "indirect": 0.0,
+          "max": 0.009028937667608261,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.009028937667608261,
+              "unit": "genmem_874c34ceb20bf193:a0273:u0-21"
+            }
+          ],
+          "rank": 14,
+          "roles": [
+            "locator"
+          ],
+          "score": 0.009028937667608261,
+          "text": "Mike Batt - Wikipedia",
+          "units": [
+            "genmem_874c34ceb20bf193:a0273:u0-21"
+          ]
+        },
+        {
+          "direct": 0.008026963099837303,
+          "indirect": 0.0006622271607007006,
+          "max": 0.008026963099837303,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.008026963099837303,
+              "unit": "genmem_874c34ceb20bf193:a0310:u0-69"
+            },
+            {
+              "kind": "indirect",
+              "score": 0.0006622271607007006,
+              "unit": "genmem_874c34ceb20bf193:a0310:u0-69"
+            }
+          ],
+          "rank": 15,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.008689190260538004,
+          "text": "\" Nine Million Bicycles \" is a song written and produced by Mike Batt",
+          "units": [
+            "genmem_874c34ceb20bf193:a0310:u0-69"
+          ]
+        },
+        {
+          "direct": 0.0,
+          "indirect": 0.005800640006610874,
+          "max": 0.005800640006610874,
+          "paths": [
+            {
+              "kind": "indirect",
+              "score": 0.005800640006610874,
+              "unit": "genmem_874c34ceb20bf193:a0505:u201-276"
+            }
+          ],
+          "rank": 16,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.005800640006610874,
+          "text": "Songs Of Love And War - 6th solo album (made for RCA in a break from Sony).",
+          "units": [
+            "genmem_874c34ceb20bf193:a0505:u201-276"
+          ]
+        },
+        {
+          "direct": 0.0,
+          "indirect": 0.00036296586728738756,
+          "max": 0.00036296586728738756,
+          "paths": [
+            {
+              "kind": "indirect",
+              "score": 0.00036296586728738756,
+              "unit": "genmem_874c34ceb20bf193:a0503:u0-20"
+            }
+          ],
+          "rank": 17,
+          "roles": [
+            "locator"
+          ],
+          "score": 0.00036296586728738756,
+          "text": "Projects — Mike Batt",
+          "units": [
+            "genmem_874c34ceb20bf193:a0503:u0-20"
+          ]
+        }
+      ],
+      "questions": {
+        "round1": "Which is Mike Batt's fifth solo album, and in what year was it released?",
+        "round2": "Which label released Mike Batt's fifth solo album?"
+      },
+      "round1_answer": "Mike Batt's fifth solo album was \"Zero Zero,\" released in 1982.",
+      "round2_answer": "Epic released Mike Batt's fifth solo album, \"Zero Zero.\"",
+      "s_c": 0.45070764422416687,
+      "sample": "T09",
+      "target_id": "genmem_874c34ceb20bf193:selected_09"
+    },
+    {
+      "checks": {
+        "claim_phrase_hits_in_round2": [],
+        "ordered_list_hits_in_round2": [
+          {
+            "text": "From mikebatt.com, the album list appears to include: Schizophonia, Tarot Suite, Waves, Six Days In Berlin, Zero Zero, Songs Of Love And War, Arabesque.",
+            "unit_id": "genmem_874c34ceb20bf193:a0236:u0-152"
+          }
+        ],
+        "round2_max_lcs_chars": 10,
+        "round2_max_shared_shingles": 0,
+        "same_claim_in_round2": [],
+        "same_claim_spans": [
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0377",
+            "candidate_ids": [
+              "genmem_874c34ceb20bf193:a0377:u290-342"
+            ],
+            "end": 342,
+            "start": 290
+          }
+        ]
+      },
+      "groups": {
+        "flat": {
+          "a_rank": 3,
+          "b_rank": 1,
+          "found_a": true,
+          "found_all": true,
+          "found_b": true,
+          "pool": 19,
+          "top5": [
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 1,
+              "roles": [
+                "evidence_b"
+              ],
+              "score": 0.1554718315601349,
+              "text": "Release Year1982.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0284:u137-154"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 2,
+              "roles": [
+                "context"
+              ],
+              "score": 0.05383223667740822,
+              "text": "Epic – FE 38454.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0284:u0-16"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 3,
+              "roles": [
+                "evidence_a"
+              ],
+              "score": 0.04965512827038765,
+              "text": "Zero Zero (Musical) + The Sidney Symphonic Orchestra",
+              "units": [
+                "genmem_874c34ceb20bf193:a0377:u290-342"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 4,
+              "roles": [
+                "distractor"
+              ],
+              "score": 0.0343673937022686,
+              "text": "Jan 24, 2018 · In 1977, Batt conducted the all-star symphonic-rock recording Schizophonia, featuring the London Symphony Orchestra and released on Epic.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0374:u0-152"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 5,
+              "roles": [
+                "distractor"
+              ],
+              "score": 0.03342491760849953,
+              "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra).",
+              "units": [
+                "genmem_874c34ceb20bf193:a0223:u0-149"
+              ]
+            }
+          ]
+        },
+        "last_round": {
+          "a_rank": null,
+          "b_rank": 1,
+          "found_a": false,
+          "found_all": false,
+          "found_b": true,
+          "pool": 11,
+          "top5": [
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 1,
+              "roles": [
+                "evidence_b"
+              ],
+              "score": 0.3149983584880829,
+              "text": "Release Year1982.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0284:u137-154"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 2,
+              "roles": [
+                "locator"
+              ],
+              "score": 0.08709783852100372,
+              "text": "Mike Batt – Zero Zero | Releases | Discogs",
+              "units": [
+                "genmem_874c34ceb20bf193:a0279:u0-42"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 3,
+              "roles": [
+                "distractor"
+              ],
+              "score": 0.06639310717582703,
+              "text": "From mikebatt.com, the album list appears to include: Schizophonia, Tarot Suite, Waves, Six Days In Berlin, Zero Zero, Songs Of Love And War, Arabesque.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0236:u0-152"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 4,
+              "roles": [
+                "locator_distractor"
+              ],
+              "score": 0.04829675331711769,
+              "text": "Mike Batt Zero Zero - EXC Vinyl LP FE 38454",
+              "units": [
+                "genmem_874c34ceb20bf193:a0282:u0-43"
+              ]
+            },
+            {
+              "direct": null,
+              "indirect": null,
+              "rank": 5,
+              "roles": [
+                "context"
+              ],
+              "score": 0.0409838892519474,
+              "text": "Epic – FE 38454.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0284:u0-16"
+              ]
+            }
+          ]
+        },
+        "merged": {
+          "a_rank": 8,
+          "b_rank": 1,
+          "found_a": false,
+          "found_all": false,
+          "found_b": true,
+          "pool": 19,
+          "top5": [
+            {
+              "direct": 0.3149983584880829,
+              "indirect": 0.0,
+              "rank": 1,
+              "roles": [
+                "evidence_b"
+              ],
+              "score": 0.3149983584880829,
+              "text": "Release Year1982.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0284:u137-154"
+              ]
+            },
+            {
+              "direct": 0.08709783852100372,
+              "indirect": 0.0,
+              "rank": 2,
+              "roles": [
+                "locator"
+              ],
+              "score": 0.08709783852100372,
+              "text": "Mike Batt – Zero Zero | Releases | Discogs",
+              "units": [
+                "genmem_874c34ceb20bf193:a0279:u0-42"
+              ]
+            },
+            {
+              "direct": 0.06639310717582703,
+              "indirect": 0.0,
+              "rank": 3,
+              "roles": [
+                "distractor"
+              ],
+              "score": 0.06639310717582703,
+              "text": "From mikebatt.com, the album list appears to include: Schizophonia, Tarot Suite, Waves, Six Days In Berlin, Zero Zero, Songs Of Love And War, Arabesque.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0236:u0-152"
+              ]
+            },
+            {
+              "direct": 0.04829675331711769,
+              "indirect": 0.0,
+              "rank": 4,
+              "roles": [
+                "locator_distractor"
+              ],
+              "score": 0.04829675331711769,
+              "text": "Mike Batt Zero Zero - EXC Vinyl LP FE 38454",
+              "units": [
+                "genmem_874c34ceb20bf193:a0282:u0-43"
+              ]
+            },
+            {
+              "direct": 0.0409838892519474,
+              "indirect": 0.0,
+              "rank": 5,
+              "roles": [
+                "context"
+              ],
+              "score": 0.0409838892519474,
+              "text": "Epic – FE 38454.",
+              "units": [
+                "genmem_874c34ceb20bf193:a0284:u0-16"
+              ]
+            }
+          ]
+        }
+      },
+      "inputs": {
+        "round1": [
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0375",
+            "end": 44,
+            "role": "locator",
+            "start": 0,
+            "text": "Mike Batt Short Discography - friedl.heim.at",
+            "unit_id": "genmem_874c34ceb20bf193:a0375:u0-44"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0377",
+            "end": 49,
+            "role": "distractor",
+            "start": 0,
+            "text": "Schizophonia + The London Symphony Orchestra 1978",
+            "unit_id": "genmem_874c34ceb20bf193:a0377:u0-49"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0377",
+            "end": 116,
+            "role": "distractor",
+            "start": 54,
+            "text": "Caravans (Soundtrack) + The London Philharmonic Orchestra 1979",
+            "unit_id": "genmem_874c34ceb20bf193:a0377:u54-116"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0377",
+            "end": 179,
+            "role": "distractor",
+            "start": 121,
+            "text": "Tarot Suite + Friends + The London Symphony Orchestra 1980",
+            "unit_id": "genmem_874c34ceb20bf193:a0377:u121-179"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0377",
+            "end": 228,
+            "role": "distractor",
+            "start": 184,
+            "text": "Waves + The Amsterdam Chamber Orchestra 1981",
+            "unit_id": "genmem_874c34ceb20bf193:a0377:u184-228"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0377",
+            "end": 285,
+            "role": "distractor",
+            "start": 233,
+            "text": "Six Days In Berlin + The Berlin Opera Orchestra 1982",
+            "unit_id": "genmem_874c34ceb20bf193:a0377:u233-285"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0377",
+            "end": 342,
+            "role": "evidence_a",
+            "start": 290,
+            "text": "Zero Zero (Musical) + The Sidney Symphonic Orchestra",
+            "unit_id": "genmem_874c34ceb20bf193:a0377:u290-342"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0371",
+            "end": 83,
+            "role": "distractor",
+            "start": 0,
+            "text": "Mike Batt discography and songs: Music profile for Mike Batt, born 6 February 1949.",
+            "unit_id": "genmem_874c34ceb20bf193:a0371:u0-83"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0374",
+            "end": 152,
+            "role": "distractor",
+            "start": 0,
+            "text": "Jan 24, 2018 · In 1977, Batt conducted the all-star symphonic-rock recording Schizophonia, featuring the London Symphony Orchestra and released on Epic.",
+            "unit_id": "genmem_874c34ceb20bf193:a0374:u0-152"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0310",
+            "end": 69,
+            "role": "distractor",
+            "start": 0,
+            "text": "\" Nine Million Bicycles \" is a song written and produced by Mike Batt",
+            "unit_id": "genmem_874c34ceb20bf193:a0310:u0-69"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0223",
+            "end": 149,
+            "role": "distractor",
+            "start": 0,
+            "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra).",
+            "unit_id": "genmem_874c34ceb20bf193:a0223:u0-149"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0153",
+            "end": 63,
+            "role": "distractor",
+            "start": 0,
+            "text": "Explore Mike Batt's biography, discography, and artist credits.",
+            "unit_id": "genmem_874c34ceb20bf193:a0153:u0-63"
+          }
+        ],
+        "round2": [
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0279",
+            "end": 42,
+            "role": "locator",
+            "start": 0,
+            "text": "Mike Batt – Zero Zero | Releases | Discogs",
+            "unit_id": "genmem_874c34ceb20bf193:a0279:u0-42"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0282",
+            "end": 43,
+            "role": "locator_distractor",
+            "start": 0,
+            "text": "Mike Batt Zero Zero - EXC Vinyl LP FE 38454",
+            "unit_id": "genmem_874c34ceb20bf193:a0282:u0-43"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0284",
+            "end": 16,
+            "role": "context",
+            "start": 0,
+            "text": "Epic – FE 38454.",
+            "unit_id": "genmem_874c34ceb20bf193:a0284:u0-16"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0284",
+            "end": 34,
+            "role": "context",
+            "start": 17,
+            "text": "Vinyl, LP, Album.",
+            "unit_id": "genmem_874c34ceb20bf193:a0284:u17-34"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0284",
+            "end": 154,
+            "role": "evidence_b",
+            "start": 137,
+            "text": "Release Year1982.",
+            "unit_id": "genmem_874c34ceb20bf193:a0284:u137-154"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0281",
+            "end": 34,
+            "role": "distractor",
+            "start": 0,
+            "text": "Mike Batt - Zero Zero album cover.",
+            "unit_id": "genmem_874c34ceb20bf193:a0281:u0-34"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0310",
+            "end": 69,
+            "role": "distractor",
+            "start": 0,
+            "text": "\" Nine Million Bicycles \" is a song written and produced by Mike Batt",
+            "unit_id": "genmem_874c34ceb20bf193:a0310:u0-69"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0223",
+            "end": 149,
+            "role": "distractor",
+            "start": 0,
+            "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra).",
+            "unit_id": "genmem_874c34ceb20bf193:a0223:u0-149"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0153",
+            "end": 63,
+            "role": "distractor",
+            "start": 0,
+            "text": "Explore Mike Batt's biography, discography, and artist credits.",
+            "unit_id": "genmem_874c34ceb20bf193:a0153:u0-63"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0236",
+            "end": 152,
+            "role": "distractor",
+            "start": 0,
+            "text": "From mikebatt.com, the album list appears to include: Schizophonia, Tarot Suite, Waves, Six Days In Berlin, Zero Zero, Songs Of Love And War, Arabesque.",
+            "unit_id": "genmem_874c34ceb20bf193:a0236:u0-152"
+          },
+          {
+            "artifact_id": "genmem_874c34ceb20bf193:a0371",
+            "end": 83,
+            "role": "distractor",
+            "start": 0,
+            "text": "Mike Batt discography and songs: Music profile for Mike Batt, born 6 February 1949.",
+            "unit_id": "genmem_874c34ceb20bf193:a0371:u0-83"
+          }
+        ]
+      },
+      "max_vs_sum_same_top5": true,
+      "merged_rows": [
+        {
+          "direct": 0.3149983584880829,
+          "indirect": 0.0,
+          "max": 0.3149983584880829,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.3149983584880829,
+              "unit": "genmem_874c34ceb20bf193:a0284:u137-154"
+            }
+          ],
+          "rank": 1,
+          "roles": [
+            "evidence_b"
+          ],
+          "score": 0.3149983584880829,
+          "text": "Release Year1982.",
+          "units": [
+            "genmem_874c34ceb20bf193:a0284:u137-154"
+          ]
+        },
+        {
+          "direct": 0.08709783852100372,
+          "indirect": 0.0,
+          "max": 0.08709783852100372,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.08709783852100372,
+              "unit": "genmem_874c34ceb20bf193:a0279:u0-42"
+            }
+          ],
+          "rank": 2,
+          "roles": [
+            "locator"
+          ],
+          "score": 0.08709783852100372,
+          "text": "Mike Batt – Zero Zero | Releases | Discogs",
+          "units": [
+            "genmem_874c34ceb20bf193:a0279:u0-42"
+          ]
+        },
+        {
+          "direct": 0.06639310717582703,
+          "indirect": 0.0,
+          "max": 0.06639310717582703,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.06639310717582703,
+              "unit": "genmem_874c34ceb20bf193:a0236:u0-152"
+            }
+          ],
+          "rank": 3,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.06639310717582703,
+          "text": "From mikebatt.com, the album list appears to include: Schizophonia, Tarot Suite, Waves, Six Days In Berlin, Zero Zero, Songs Of Love And War, Arabesque.",
+          "units": [
+            "genmem_874c34ceb20bf193:a0236:u0-152"
+          ]
+        },
+        {
+          "direct": 0.04829675331711769,
+          "indirect": 0.0,
+          "max": 0.04829675331711769,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.04829675331711769,
+              "unit": "genmem_874c34ceb20bf193:a0282:u0-43"
+            }
+          ],
+          "rank": 4,
+          "roles": [
+            "locator_distractor"
+          ],
+          "score": 0.04829675331711769,
+          "text": "Mike Batt Zero Zero - EXC Vinyl LP FE 38454",
+          "units": [
+            "genmem_874c34ceb20bf193:a0282:u0-43"
+          ]
+        },
+        {
+          "direct": 0.0409838892519474,
+          "indirect": 0.0,
+          "max": 0.0409838892519474,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.0409838892519474,
+              "unit": "genmem_874c34ceb20bf193:a0284:u0-16"
+            }
+          ],
+          "rank": 5,
+          "roles": [
+            "context"
+          ],
+          "score": 0.0409838892519474,
+          "text": "Epic – FE 38454.",
+          "units": [
+            "genmem_874c34ceb20bf193:a0284:u0-16"
+          ]
+        },
+        {
+          "direct": 0.031364135444164276,
+          "indirect": 0.001963289647704314,
+          "max": 0.031364135444164276,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.031364135444164276,
+              "unit": "genmem_874c34ceb20bf193:a0223:u0-149"
+            },
+            {
+              "kind": "indirect",
+              "score": 0.001963289647704314,
+              "unit": "genmem_874c34ceb20bf193:a0223:u0-149"
+            }
+          ],
+          "rank": 6,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.03332742509186859,
+          "text": "As a singer, Batt's solo albums included Schizophonia[11][12] and Tarot Suite[13][14] (1979, Epic Records) (both with the London Symphony Orchestra).",
+          "units": [
+            "genmem_874c34ceb20bf193:a0223:u0-149"
+          ]
+        },
+        {
+          "direct": 0.03324674069881439,
+          "indirect": 0.0,
+          "max": 0.03324674069881439,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.03324674069881439,
+              "unit": "genmem_874c34ceb20bf193:a0281:u0-34"
+            }
+          ],
+          "rank": 7,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.03324674069881439,
+          "text": "Mike Batt - Zero Zero album cover.",
+          "units": [
+            "genmem_874c34ceb20bf193:a0281:u0-34"
+          ]
+        },
+        {
+          "direct": 0.0,
+          "indirect": 0.02882125476131492,
+          "max": 0.02882125476131492,
+          "paths": [
+            {
+              "kind": "indirect",
+              "score": 0.02882125476131492,
+              "unit": "genmem_874c34ceb20bf193:a0377:u290-342"
+            }
+          ],
+          "rank": 8,
+          "roles": [
+            "evidence_a"
+          ],
+          "score": 0.02882125476131492,
+          "text": "Zero Zero (Musical) + The Sidney Symphonic Orchestra",
+          "units": [
+            "genmem_874c34ceb20bf193:a0377:u290-342"
+          ]
+        },
+        {
+          "direct": 0.022629715502262115,
+          "indirect": 0.0011355947357674367,
+          "max": 0.022629715502262115,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.022629715502262115,
+              "unit": "genmem_874c34ceb20bf193:a0153:u0-63"
+            },
+            {
+              "kind": "indirect",
+              "score": 0.0011355947357674367,
+              "unit": "genmem_874c34ceb20bf193:a0153:u0-63"
+            }
+          ],
+          "rank": 9,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.023765310238029552,
+          "text": "Explore Mike Batt's biography, discography, and artist credits.",
+          "units": [
+            "genmem_874c34ceb20bf193:a0153:u0-63"
+          ]
+        },
+        {
+          "direct": 0.014900948852300644,
+          "indirect": 0.0021330644675457977,
+          "max": 0.014900948852300644,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.014900948852300644,
+              "unit": "genmem_874c34ceb20bf193:a0371:u0-83"
+            },
+            {
+              "kind": "indirect",
+              "score": 0.0021330644675457977,
+              "unit": "genmem_874c34ceb20bf193:a0371:u0-83"
+            }
+          ],
+          "rank": 10,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.01703401331984644,
+          "text": "Mike Batt discography and songs: Music profile for Mike Batt, born 6 February 1949.",
+          "units": [
+            "genmem_874c34ceb20bf193:a0371:u0-83"
+          ]
+        },
+        {
+          "direct": 0.013556036166846752,
+          "indirect": 0.0005957652647458067,
+          "max": 0.013556036166846752,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.013556036166846752,
+              "unit": "genmem_874c34ceb20bf193:a0310:u0-69"
+            },
+            {
+              "kind": "indirect",
+              "score": 0.0005957652647458067,
+              "unit": "genmem_874c34ceb20bf193:a0310:u0-69"
+            }
+          ],
+          "rank": 11,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.014151801431592559,
+          "text": "\" Nine Million Bicycles \" is a song written and produced by Mike Batt",
+          "units": [
+            "genmem_874c34ceb20bf193:a0310:u0-69"
+          ]
+        },
+        {
+          "direct": 0.004186364822089672,
+          "indirect": 0.0,
+          "max": 0.004186364822089672,
+          "paths": [
+            {
+              "kind": "direct",
+              "score": 0.004186364822089672,
+              "unit": "genmem_874c34ceb20bf193:a0284:u17-34"
+            }
+          ],
+          "rank": 12,
+          "roles": [
+            "context"
+          ],
+          "score": 0.004186364822089672,
+          "text": "Vinyl, LP, Album.",
+          "units": [
+            "genmem_874c34ceb20bf193:a0284:u17-34"
+          ]
+        },
+        {
+          "direct": 0.0,
+          "indirect": 0.0028747780090507824,
+          "max": 0.0028747780090507824,
+          "paths": [
+            {
+              "kind": "indirect",
+              "score": 0.0028747780090507824,
+              "unit": "genmem_874c34ceb20bf193:a0374:u0-152"
+            }
+          ],
+          "rank": 13,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.0028747780090507824,
+          "text": "Jan 24, 2018 · In 1977, Batt conducted the all-star symphonic-rock recording Schizophonia, featuring the London Symphony Orchestra and released on Epic.",
+          "units": [
+            "genmem_874c34ceb20bf193:a0374:u0-152"
+          ]
+        },
+        {
+          "direct": 0.0,
+          "indirect": 0.002016254620624769,
+          "max": 0.002016254620624769,
+          "paths": [
+            {
+              "kind": "indirect",
+              "score": 0.002016254620624769,
+              "unit": "genmem_874c34ceb20bf193:a0375:u0-44"
+            }
+          ],
+          "rank": 14,
+          "roles": [
+            "locator"
+          ],
+          "score": 0.002016254620624769,
+          "text": "Mike Batt Short Discography - friedl.heim.at",
+          "units": [
+            "genmem_874c34ceb20bf193:a0375:u0-44"
+          ]
+        },
+        {
+          "direct": 0.0,
+          "indirect": 0.0019814764771004523,
+          "max": 0.0019814764771004523,
+          "paths": [
+            {
+              "kind": "indirect",
+              "score": 0.0019814764771004523,
+              "unit": "genmem_874c34ceb20bf193:a0377:u54-116"
+            }
+          ],
+          "rank": 15,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.0019814764771004523,
+          "text": "Caravans (Soundtrack) + The London Philharmonic Orchestra 1979",
+          "units": [
+            "genmem_874c34ceb20bf193:a0377:u54-116"
+          ]
+        },
+        {
+          "direct": 0.0,
+          "indirect": 0.0015980325153292507,
+          "max": 0.0015980325153292507,
+          "paths": [
+            {
+              "kind": "indirect",
+              "score": 0.0015980325153292507,
+              "unit": "genmem_874c34ceb20bf193:a0377:u0-49"
+            }
+          ],
+          "rank": 16,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.0015980325153292507,
+          "text": "Schizophonia + The London Symphony Orchestra 1978",
+          "units": [
+            "genmem_874c34ceb20bf193:a0377:u0-49"
+          ]
+        },
+        {
+          "direct": 0.0,
+          "indirect": 0.0009277132726518977,
+          "max": 0.0009277132726518977,
+          "paths": [
+            {
+              "kind": "indirect",
+              "score": 0.0009277132726518977,
+              "unit": "genmem_874c34ceb20bf193:a0377:u121-179"
+            }
+          ],
+          "rank": 17,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.0009277132726518977,
+          "text": "Tarot Suite + Friends + The London Symphony Orchestra 1980",
+          "units": [
+            "genmem_874c34ceb20bf193:a0377:u121-179"
+          ]
+        },
+        {
+          "direct": 0.0,
+          "indirect": 0.0004603921327010624,
+          "max": 0.0004603921327010624,
+          "paths": [
+            {
+              "kind": "indirect",
+              "score": 0.0004603921327010624,
+              "unit": "genmem_874c34ceb20bf193:a0377:u233-285"
+            }
+          ],
+          "rank": 18,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.0004603921327010624,
+          "text": "Six Days In Berlin + The Berlin Opera Orchestra 1982",
+          "units": [
+            "genmem_874c34ceb20bf193:a0377:u233-285"
+          ]
+        },
+        {
+          "direct": 0.0,
+          "indirect": 0.00030835588493331734,
+          "max": 0.00030835588493331734,
+          "paths": [
+            {
+              "kind": "indirect",
+              "score": 0.00030835588493331734,
+              "unit": "genmem_874c34ceb20bf193:a0377:u184-228"
+            }
+          ],
+          "rank": 19,
+          "roles": [
+            "distractor"
+          ],
+          "score": 0.00030835588493331734,
+          "text": "Waves + The Amsterdam Chamber Orchestra 1981",
+          "units": [
+            "genmem_874c34ceb20bf193:a0377:u184-228"
+          ]
+        }
+      ],
+      "questions": {
+        "round1": "Which Mike Batt album is the musical performed with The Sidney Symphonic Orchestra?",
+        "round2": "State the album and its release year."
+      },
+      "round1_answer": "The musical performed with The Sidney Symphonic Orchestra is is \"Zero Zero.\"",
+      "round2_answer": "The album \"Zero Zero\" was released in 1982.",
+      "s_c": 0.07318118214607239,
+      "sample": "T06",
+      "target_id": "genmem_874c34ceb20bf193:selected_06"
+    }
+  ],
+  "schema": "provenance_rounds_v1.final_rank.v1",
+  "source_positions": {
+    "T03": {
+      "A": [
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0305",
+          "end": 82,
+          "event_index": 33,
+          "start": 0,
+          "text": "Secret Symphony is the fifth studio album by British singer-songwriter Katie Melua",
+          "unit_id": "genmem_874c34ceb20bf193:a0305:u0-82"
+        }
+      ],
+      "B": [
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0293",
+          "end": 103,
+          "event_index": 33,
+          "start": 38,
+          "text": "produced in collaboration with longtime musical partner Mike Batt",
+          "unit_id": "genmem_874c34ceb20bf193:a0293:u38-103"
+        }
+      ]
+    },
+    "T06": {
+      "A": [
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0377",
+          "end": 342,
+          "event_index": 42,
+          "start": 290,
+          "text": "Zero Zero (Musical) + The Sidney Symphonic Orchestra",
+          "unit_id": "genmem_874c34ceb20bf193:a0377:u290-342"
+        }
+      ],
+      "B": [
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0284",
+          "end": 154,
+          "event_index": 31,
+          "start": 137,
+          "text": "Release Year1982.",
+          "unit_id": "genmem_874c34ceb20bf193:a0284:u137-154"
+        }
+      ]
+    },
+    "T09": {
+      "A": [
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0505",
+          "end": 200,
+          "event_index": 56,
+          "start": 112,
+          "text": "Zero Zero – Mike’s quirky futuristic 1982 5th solo album and fantasy album-length video.",
+          "unit_id": "genmem_874c34ceb20bf193:a0505:u112-200"
+        }
+      ],
+      "B": [
+        {
+          "artifact_id": "genmem_874c34ceb20bf193:a0275",
+          "end": 109,
+          "event_index": 31,
+          "start": 0,
+          "text": "The album, featuring Batt with the Sydney Symphony Orchestra, was released on Epic as a Mike Batt solo album.",
+          "unit_id": "genmem_874c34ceb20bf193:a0275:u0-109"
+        }
+      ]
+    }
+  }
+}

@@ -2,7 +2,8 @@
 
 **状态：** 第一轮执行完成（2026-11-06）。三条样例已跑通：`case_02:selected_03`、
 `case_02:selected_09`（case_02 额外目标）、`case_02:selected_06_v2`。报告见
-[ROUNDS_20261106](reports/ROUNDS_20261106.md)。
+[ROUNDS_20261106](reports/ROUNDS_20261106.md)。最终原文排名（离线复算）见
+[FINAL_RANK_20261106](reports/FINAL_RANK_20261106.md)。
 
 ## 边界与口径
 
@@ -69,6 +70,14 @@ $PY experiments/provenance_rounds_v1/analyze.py \
 `run_case.sh` 把上面四步串起来并写日志；GPU 选卡前先看
 `nvidia-smi --query-gpu=index,memory.free,utilization.gpu --format=csv`，避开当前 SP2 运行。
 
+## 最终原文排名（离线复算）
+
+- 每跳 top-5 与最终 top-5 分开记录；最终列表把直达（hop-1）和经中间结论（hop-1 结论 × hop-2）的路径分数合并，同一原文相加去重，排除中间结论后取全局前 5。
+- 三组：G1 最后一轮、G2 两轮平铺、G3 多轮全局。T09 主例：平铺 B 第 8，多轮全局 A 第 1、B 第 2；T06 标为“最终轮自身已有足够证据”的对照（全局 A 第 8，不需要 A）。
+- 同义检查：T03 第二轮无第五张断言；T09 无显式 fifth，但 `a0236` 是排序清单（去掉 Caravans 时 Zero Zero 第 5），已标注为可计数影子证据。
+- 不同主题样例：`case_08` 两个目标都只有单段主证据，`case_02` 其余目标同主题；本轮不新增。
+- 脚本：`final_rank.py`（只读已保存分数）；测试：`tests/test_final_rank.py`。
+
 ## 文件
 
 | 文件 | 作用 |
@@ -78,6 +87,8 @@ $PY experiments/provenance_rounds_v1/analyze.py \
 | `generate.py` | 两轮 greedy 生成，冻结中间结论与最终句 |
 | `score.py` | 三张固定头矩阵：m1（第一轮）、m2（第二轮）、mflat（平铺） |
 | `analyze.py` | 建 provenance_v2 图、逐跳查询、三组名次与是否找齐 |
+| `final_rank.py` | 离线最终原文排名：每跳 top-5 + 直达/间接路径合并、去重、全局 top-5 |
+| `make_report.py` | 从保存的 spec/frozen/scores/analysis 生成 ROUNDS 报告 |
 | `recipes/` | 每条样例的候选集合、角色、问题；候选和标签在看分数前固定 |
 | `tests/` | 无模型的结构测试 |
 
