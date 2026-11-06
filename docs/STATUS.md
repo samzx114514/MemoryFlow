@@ -1,5 +1,216 @@
 # 当前状态
 
+## 最新推进（2026-11-07 凌晨）：batch10 并集池第一批 + 100 目标筛选
+
+- 修正首批：case_03/05/07 补齐组内缺项；case_06 核查为最终轮自足（对照）；case_10 撤销“标题相同”合并，`a0194`/`a0203` 分开保留。
+- 新口径：BM25、同一 7B 固定头平铺、MemoryFlow 共用两轮原始候选并集（同源去重），final top-10 / hop 5；last_round 单列；旧全历史大池另列。
+- 主表 6 题（8 轨迹，case_06 对照、case_05 超预算另列）：MF Hit@3 6/6、完整@5/@10 5/6；head 6/6、5/6、6/6；BM25 6/6、3/6、5/6；last 6/6、0、0。配对完整 W/T/L：MF-last 5/1/0、MF-BM25 2/2/2、MF-head 1/3/2。
+- 诊断：hop1 结论 8/8（1–2），hop2 A 8/8（1–2），hop1 B 8/8（1–4），合并 A/B 8/8 前 5。未完整：case_02 第二跳只展开 5（列表项），case_05 组 11 项超 top-10；case_10 标题分开后第 4 名完整。
+- 100 目标筛选：8 built-v2、3 built-prev、10 candidate-full、43 单事件、11 candidate-partial、25 partial 排除；64 已标注全核对，36 partial 仅列补标候选。
+- 旧 47、旧全历史池、pilot B04/F11 均不并入；Reserve/Blind 未触碰。
+
+## 最新推进（2026-11-06 深夜）：batch10 跨轨迹首批 8 题
+
+- `contextual64_v4` 64 个目标中 20 个至少一组证据跨事件，覆盖 8 条轨迹；首批每条轨迹一题（case_01/02/03/04/05/06/07/10），共 8 目标。
+- 四方法（final top-10，hop 5）：MemoryFlow Hit@3 8/8、完整@5/@10 4/8；last Hit@3 8/8、完整 0/8；BM25 Hit@3 6/8、完整@10 2/8；head Hit@3 1/8、完整 0/8。
+- 逐跳诊断：hop1 中间结论 8/8 进前 5（第 1–2），hop2 A 8/8（第 1–2），hop1 B 8/8（第 1–3），合并 A/B 8/8 在前 5。未完整 4 题：case_02 是 hop2 只展开前 5（其余列表项未进），case_03/05/07 是构造未含组内其余证据；case_10 同源合并后第 5 名完整。
+- 首批无“最终轮自身足够”的题；T06 仍单列。旧 47 题、pilot B04/F11 表不变；Reserve/Blind 未触碰。
+- 产物：`experiments/multiturn_batch_v1/batch10/reports/BATCH10_FIRST_20261106.md`、`BATCH10_20261106.{md,json}`；矩阵 GPU0/24 GiB。
+
+## 最新推进（2026-11-06 夜）：pilot-v4 B04/F11 旧材料受控验证
+
+- 数据：243 `genmem63_pilot_v4/deepresearch63_pilot_v4.zip`（同一冰川轨迹，不是独立任务）；B04 目标为 `S20=S0+20k`，F11 为“不是欠定”的修订结论。两轮受控，A/B 与旧替代组保留：B04 g01/g02/g03，F11 g01/g02（g03/g04 旧前态登记但不计分）。
+- 四方法（final top-10，hop 5）：B04 MemoryFlow A1/B5（g02@5），head 用 g01@5（A3/B—），BM25 g01@6，last B4/A 不可见；F11 只有 MemoryFlow 完整（A1/B3，旧欠定结论第 2），BM25/head 拿 A 漏 B，last 拿 B 漏 A。
+- 宏平均 n=2：Hit@3 last/BM25 0.500、head/MF 1.000；完整@5 last 0、BM25 0、head 0.500、MF 1.000；完整@10 last 0、BM25 0.500、head 0.500、MF 1.000；配对完整 W/T/L：MF-last 2/0/0、MF-BM25 2/0/0、MF-head 1/1/0。
+- 边界：同轨迹两题、受控构造、单次前向；不作科学结论，旧 47 题与三题 batch10 表不变。
+- 复算：`experiments/multiturn_batch_v1/import_pilot.py`、`score_cases.py`（243 GPU0，24 GiB）、`preflight/lock/run_batch`；报告 `pilot/reports/B04_F11_20261106.md`。
+
+## 最新推进（2026-11-06 晚）：多轮批处理准备，三题开发验收
+
+- 新增 `experiments/multiturn_batch_v1`：统一 case schema（轨迹 ID、目标文本与位置、各轮输入/输出、中间传递位置、原始候选、支持证据组），`real_request` 与 `controlled` 分开统计；T06 单列为“最终轮自身已有足够证据”的对照。
+- 四方法：最后一轮、全历史 BM25、同头全历史直接回放、MemoryFlow 多轮追踪；最终返回 top-10，每跳展开 top-5 另记。证据按 `(artifact,start,end)` 归并，`occurrences` 保留各轮位置；覆盖规则复用原评测。
+- 三题验收（主表 n=2，T06 不计入）：Hit@3 四方法均 1.0；完整@5 last 0/2、BM25 2/2、head 1/2、MF 2/2；完整@10 last 0/2、其余 2/2；配对完整名次 W/T/L：MF-last 2/0/0、MF-BM25 0/2/0、MF-head 1/1/0。
+- T09：head B 第 8，MF A 第 1/B 第 2；BM25 A2/B1。T06 对照的 GT 仍是 ordinal 组（8 项），Complete 只作诊断。
+- 预检 3/3 `ok`；`lock.json` 在评分前冻结候选/标签/矩阵哈希；测试 9/9。
+- 新数据：`real_request` 导入路径未被数据检验；N 轮 7B 回放器（r1…rN + flat）是下一步；旧 47 题协议单列不动。
+
+## 最新推进（2026-11-06 晚）：GenMem 两轮溯源最终原文排名（离线复算）
+
+- 口径：每跳 top-5 与最终 top-5 分开；路径分 = 直达 hop-1，经中间结论 = hop-1(结论) × hop-2；同一原文相加去重，排除结论后取全局前 5。只读已保存分数，无 GPU。
+- 三组最终 top-5：G1 均看不到 A；G2 T03 齐（A2/B1）、T09 缺 B（A1/B8）、T06 齐（A3/B1）；G3 T03 A2/B1、T09 A1/B2、T06 A8/B1。
+- T09 主例复核：平铺 B 第 8，多轮全局 A 第 1、B 第 2（与抽查一致）。T06 标为“最终轮自身已有足够证据”的对照：最终句只要专辑 + 年，最终轮题名与 B 直接支持，全局 A 第 8 不算链失败。
+- 同义检查：T03 第二轮无第五张断言；T09 无显式 fifth，但 `a0236` 是可计数排序清单（去掉 Caravans 时 Zero Zero 第 5），标为影子证据。
+- 不同主题样例：`case_08` 两个目标各只一段主证据，`case_02` 其余目标同主题；无合格样例，本轮不新增。
+- 产物：`experiments/provenance_rounds_v1/final_rank.py`、`reports/FINAL_RANK_20261106.md`、`reports/final_ranks_20261106.json`；测试 7/7 通过。
+
+## 最新推进（2026-11-06）：GenMem 受控两轮溯源，3 条样例跑通
+
+- 新增 `experiments/provenance_rounds_v1`：243 v3 包 `contextual64_v4`，只用开发案例 `case_02`/`case_08`；两轮输入冻结，Qwen2.5-7B-Instruct greedy 生成中间结论与最终句，固定头 L19H15 回放，`provenance_v2` 逐跳连接。报告：[ROUNDS_20261106](../experiments/provenance_rounds_v1/reports/ROUNDS_20261106.md)。
+- 三条：T03（Secret Symphony + Mike Batt）、T09（Zero Zero 1982 + Epic；case_02 额外目标）、T06 v2（Zero Zero + 1982）。
+- top-5 三组：G1 最后一轮都看不到 A；G2 T03 找齐、T09 缺 B（8/17）、T06 找齐；G3 链三条都找齐（结论名次 1/1/3，A 名次 1/1/1，B 名次 2/2/1）。
+- 边界：受控多轮验证，不是原始逐次请求恢复；原 47 题单列。T06 v1 构造歧义（标题行算作第六个）已弃用，v1 文件保留。
+- 验收：归档 SHA `f465eb1c…`；运行目录 `runs/provenance_rounds_v1/20261106_v1`（T06 v2 在 `_v2`）；GPU0（运行前 1/3/5/7 为 100% 利用，0 号卡 ≥20 GiB 空闲）。
+
+## 最新推进（2026-11-05 晚）：黄金案例 YF/MF 实测排序；DCCv2+27B 未接通
+
+- `simple_zh_ix478` 最终 Writer `20261103T160133-056937cc`：prompt 11848、generated 1664、attention **1664×13511**（首行有效 11848，末行 13511）；上一轮 1664×11848 已修正。
+- 已算 T1–T5 的 YF 生成时 L19H15 排序与 MemoryFlow 回放排序；全候选分数、top 表、矩阵在 `outputs/MemoryFlow_执行回传_20261105_03/`。
+- 标签初步：T2/T3 由 S6 正文逐字支持；T1/T4 部分支持/日期待核；T5 有 S3 正文候选但数字日期待核；正式指标未填。
+- DCCv2+7B：7 native iteration、51.1 s、0 工具、unfinished；DCCv2+27B 仍报 `System message must be at the beginning`，无最终交付。
+- 27B 已停止，GPU2 释放；7B 在 GPU1/8100（PID 421790）；GPU0 未占用。
+
+## 最新推进（2026-11-05）：DCCv2/SP2 接入试跑，SP1 回退案例索引
+
+- **DCCv2 + 7B**：`rulearena-nba-comp0-003` 7 次 native iteration、51.1 s、0 次工具调用后 `unfinished`，未接受 FINISH。
+- **DCCv2 + 27B**：同任务卡在 `System message must be at the beginning`，无最终交付。
+- **SP2 + 7B/27B**：仍无 report ledger/最终报告；27B 的 tool parser/context/system message/max_tokens 多处失败。
+- **SP1 回退案例**：`simple_zh_ix478` 完成，9 调用、1 LangSearch、2650 字符、gate true；最终 Writer 调用 `20261103T160133-056937cc`，L19H15，prompt 11848，attention 1664×11848。仅作开发案例，不是首选框架结果。
+- **勘误**：`simple_p8gv695r` 与 `simple_zh_ix478` 是同一黄金 query（hash `52bf4c49…`），旧汇总“中产”标签错误。
+- **指标**：YF 局部读出、MemoryFlow 回放、Gold 均未完成；hit@3 / 完整@10 为空。正式批次暂不启动。
+- 回传：[执行回传 20261105_02](../outputs/MemoryFlow_执行回传_20261105_02/README.md)。
+
+## 最新推进（2026-11-03 第八轮）：SP2 A 阻塞，1.5B 补表与 HTML 完成
+
+- **A（SP2 真实报告对比）阻塞**：本地/242 代码均为 `109f685`，请求提交 `f843873` 不可得，origin SSH 关闭；只有示例配置，无实际 `config.yaml`/`.env`；无可捕获内部状态的本地 7B/vLLM 服务（242:8080 非模型服务）。未选择 query、未生成、未评分；`03_SP2同报告对比.csv` 只有表头。
+- **B（N=47 补 1.5B）完成**：标准 predictor `scores_g4small` 补算 Hit@3 **28/47=59.57%**；完整@10 30/47=63.83%；Hit@1 12/47 与旧 Frag@1 一致。六方法主表已出（7B/1.5B/平均/BM25/D-Full/CLM）。
+- **C（HTML）完成**：CLAUSE v3 支持最终句→路径、原文片段→已分析范围内的反向后续；selftest 五项全过；静态预览、截图与 90 秒讲解稿已交付。
+- **范围**：短例计时支线仍收尾；未重跑 N=47 其他方法，不混 SP2 与旧评测；A 需要模型服务/配置才能继续。
+## 最新口径纠正（2026-11-03 第七轮）：短例成本支线收尾
+
+- **两处措辞已纠正**：第六轮 `answer_s` 是“生成结束时刻”（GPU 同步后、tokenizer.decode 之前，未单独保存答案文件），`extra_wait_s` 是“生成结束至来源矩阵写出”；B 的 18.427 GiB 是**当前生命周期整条路线峰值**，不是“先释放生成 cache 后”的峰值。
+- **可用数字**：总墙钟中位 A **2.024 s**、B-full **2.589 s**；生成结束至矩阵写出 A **0.009 s**、B **0.600 s**；A/B 矩阵 60×142，非空；B 与第五轮独立整段参考 max 5e-9。详见 `outputs/MemoryFlow_执行回传_20261103_07/`。
+- **保留**：第五轮独立配对（0.01513）继续有效，但与本轮计时矩阵差值（0.0206）分开；第五轮全零成本仍作废；N=47、CLAUSE、NBA、HTML、前缀 2.89× 未重跑。
+- **状态**：短例“有效读出 + 完整成本”实验**已收尾**；本轮无新增模型实验，不追加跨样本/部署/内核诊断。
+## 最新推进（2026-11-03 第六轮）：修复计时读出，有效矩阵成本
+
+- **全零原因**：第五轮在 KV cache 合并前抓 K，单 token K 长度 1，按文档区间 [27,3539) 切片为空，静默求和成全零 60×142。第五轮 A/B 成本结论（2.0607 s / 4.1149 s）**撤回**，文件保留。
+- **修复**：改在第19层实际 `eager_attention_forward` 权重上取行，key 轴含完整历史；`readout_checks.slice_doc` 在越界时抛错。A key 3777–3836、B 3836，文档列 3512，A/B 非零 7,651/7,669；B 与第五轮独立整段参考 max 5e-9。测试 2/2。
+- **有效成本**：A 中位 **2.024 s**（答案后 **0.010 s** 就绪，峰值 15.074 GiB）；B-full 中位 **2.589 s**（答案后 **0.599 s**，峰值 18.427 GiB）；A/B 60×142 与 3×142 均非空，矩阵各自三次同 hash。
+- 第五轮独立 `01_eager_pair` 保留；N=47、CLAUSE、NBA、前缀 2.89× 未重算。
+## 最新推进（2026-11-03 第五轮）：同后端配对 + A/B 成本
+
+- **同后端 eager 配对**：冻结 3,777-token prompt / 60-token 输出；生成时读出 vs eager 整段回放：token max **0.01513** / mean **2.23e-5**（最差 token 6）；U00/U01/U02 Spearman **0.9988/0.9983/0.9990**；U00、U01 Top-1 相同，U02 Top-1 不同（极小分数）。U00 两侧 top3 来源已列（第 3 名 66 vs 0）。
+- **A/B 成本**：同输入、同 60-token 输出、eager；A 生成时分析中位 **2.0607 s**（答案后 **0.0067 s** 矩阵就绪）；B 生成后回放中位 **4.1149 s**（答案后 **2.0626 s** 就绪）；峰值 15.124/15.328 GiB；A/B 60×142 与 3×142 矩阵逐元素差 **0.0**。
+- **口径**：A 捕获适配为仅第19层/头15；B 回放为 teacher-forced 增量 KV-cache；模型加载在外；单短例、单 GPU，不外推部署。
+- SDPA token28 仍是后端变化对照，不并入 eager 主表；N=47/CLAUSE 未重算。
+## 最新推进（2026-11-03 第四轮）：读出边界验证 + 真实二维矩阵
+
+- **读出正确性**：真实 SDPA 边界（torch 2.11.0+cu128，transformers 4.57.6，is_causal=True，enable_gqa=True，scale 0.0883883）捕获的 Q/K 与 apply_rotary hook 完全一致（0 差）；同一份 Q/K/V 手动 P·V vs 实际 SDPA：行27 0.0017、行28 0.0039、行29 0.0069，全矩阵 max 0.0173。**读出没有错**；0.111 是 SDPA 路径自身在 token 28 的分布异常，不是 hook/readout bug。
+- **上游**：eager cache vs eager 整段 token28 仅 0.00226；SDPA 行28 doc mass 0.918（eager 0.034–0.042）；逐层 hidden states 自 layer1 起出现差异（row3804 max 0.574），但 all-token max 异常大，仅作粗定位，不能称 kernel bug。
+- **矩阵**：真实导出 60×142 token×来源句矩阵与 3×142 输出单元×来源句矩阵；当前输出 U00/U01(C1)/U02(C2)；旧 C0 与当前 U00 不同，已弃用旧 C0 身份。验证 tokens_all_rows/units_all_rows/unit_restorable 全 true。
+- **计时**：新完整口径（文本准备/编码/范围→前向→读出→2D 导出）3 次总墙钟 **0.3158/0.3141/0.3155 s**，中位 **0.3155 s**，峰值 15.378 GiB；旧 0.27646 保留为预编码整段汇总口径。
+- **第7页**：call10 规则修正为 [3906,4049)；交付整句实为 [1666,1790)（此前 30 字符只是短语）；call10/11 整句未进入后一步请求，仍标语义改写。
+- **影响**：无证据表明 CLAUSE 手动读出实现错误，不重算 CLAUSE 局部矩阵；冻结 N=47 保持 eager 主表身份。
+## 最新推进（2026-11-03 第三轮）：完整分析计时 + token 28 定位
+
+- **完整回放分析**：`full_analysis_timing.py` 封装真实入口（输入准备→SDPA 前向+第19层Q/K捕获→因果softmax→来源句聚合→矩阵JSON导出）；预热2次、计时3次：总 **0.2765 / 0.2754 / 0.2767 s**，中位 **0.2765 s**，峰值 **15.378 GiB**；60行×142句，三次矩阵同 hash。阶段中位：准备1.0ms、前向+捕获272.5ms、读出/聚合2.0ms、写盘0.6ms。
+- **token 28**：同后端 eager cache vs eager 整段 max **0.00537**（token28 **0.00226**），缓存/位置不是主因；0.111 只在 SDPA 侧，且该行 doc mass 0.914 vs eager 0.034–0.042，top key 位置不同；已定位到 SDPA 读出行异常，kernel/手动读出边界未分开。C1/C2 精确映射，C0 仍缺；C2 Top-1 差异保留。
+- **展示**：静态图改为 coder 总结起点，显示两标题 rank1/rank9、top8 限制、直达分支 rank46；第7页后一步只含前一步短语，整句未传递，交付含 call22 结论句。
+- **表 B/HTML**：沿用第二轮结论，不重做。
+## 最新推进（2026-11-03 第二轮）：坐标修复 + token 级配对 + Hit@3 收尾
+
+- **CLAUSE**：`replay_rich` 改为原文扫描取片段，保存消息内/输入/token 三套区间；同文不同位置保留不同 ID，当前输出前文单独身份、不自环；top8 候选不再重复。重算 call07 T1/T2 与 call05 详细句：T1 1.458 → call05 矩阵（`6. Confidentiality.` rank1/4.026；`6. Disclaimer.` rank9/0.764）；T2 未成两矩阵链；call07 直接合同候选最高 rank46（0.0035）。
+- **配对**：同一 CUAD 输入、作者生成 60 token 序列，我们的回放逐 token 对齐：mean abs 1.7e-5，max 0.111（token 28）；子句 Spearman 0.844/0.884/0.901（C0/C1/C2），Top-1 1/1/0。仍不能称等价。计时（3 次同步）：只生成 0.305 s 中位；生成+捕获 1.982 s；回放前向 0.274 s（未含聚合）。
+- **Hit@3**：47 身份按 needs_review 排除；D-Full 3 seed：hit@1 48/141=34.04%（16/17/15），hit@3 90/141=63.83%（30/30/30）；其余 34/33/32/10。
+- **第 7 页**：NBA 题面→call10 规则→call11 改写→call22 报告→交付，原句/位置/关系已提取。
+- **表 B**：两个问句在候选 artifact 内（probe_0 a0001 w778-893；probe_1 a0001 w778-971），但原生成事件/可见上下文仍缺，0/47 完整恢复。
+- **HTML v2**：节点=调用、父关系来自森林；selftest 四点击全 ok，截图已存。
+## 最新推进（2026-11-03）：CLAUSE 真实两矩阵链 + Hit@3 + 离线查看器
+
+- **A（最高优先）**：旧回放把历史 assistant 分析排除在候选外（call07 msg4 9,947 字符未进入旧 67 候选）；新 `replay_rich.py` 全消息候选（call07 T1 426 候选，msg4 85 片段），真实链 call07 T1 → call05 分析（1.458）→ call05 矩阵 → 合同 “6. Confidentiality.”（4.026）。旧结论“已绑定、分数没选中”被推翻。
+- **B**：2 输入/5 子句配对 Spearman 0.752（0.609–0.934），边界 token 全一致、来源覆盖 1.0；差异集中在 CUAD 短/过渡子句；**不能声称等价**。成本仅有资源探针；回放 0.028–0.152s 是单次前向未同步，不作完整耗时。
+- **C**：N=47 `EvidenceFragmentHit@3`：固定头 34/47、平均头 33/47、BM25 32/47、D-Full 30/47、CLM 10/47；固定/平均/BM25/CLM 的 Hit@1 与旧表一致，D-Full Hit@1 重算 15/47 vs 旧表 16/47，待核。
+- **D**：仅最后调用 top8 全为中间分析、未到原文；逐步展开到合同原文；离线 HTML 已生成（headless 截图通过）。
+- **E**：RAG/Agent prompt 摘录、规模小表、NBA 阶段原句已出。
+## 最新推进（2026-11-02 深夜）：长输入资源探针 + 表 B 缺口 + CLAUSE 单跳结论
+
+- **资源探针**（A800-80GB，bf16）：7,837/14,285/37,917 tokens；普通生成三条成功（4.76/4.81/7.71 s，峰值 15.7/16.9/21.3 GiB）；作者捕获 7.8k 成功（~8.35 s），14.3k/38.0k OOM（申请 21.44/75.18 GiB，非峰值）；7B/1.5B 回放三条全成功（分析侧峰值 16.6–25.6 / 5.2–13.9 GiB）。38k 探针不属于原 47 条。
+- **表 B**：原 GenMem 47 条的原始问题、目标生成时刻、当次可见上下文在存储材料中缺失；只有截断的 “Question:” 片段，可恢复 0/47。未伪造 B；旧 13 条保留为探索性。
+- **CLAUSE**：累计尝试 6 个任务、完成 2 个；两条完成轨迹都是直达合同原文/文件转交，没有两张矩阵的真实链。任务 1 的 call05 分析在 call07 请求可见，但矩阵未选中；任务 2 的 coder 写 JSON 时请求不含先前分析。未推荐主/备案例。
+## 最新推进（2026-11-02 晚三轮）：表 B 口径修正 + 长输入边界实测 + CLAUSE 首条真实轨迹
+
+- **表 A**：冻结数值不变（固定回放头 61.70/70.21/48.94 等）。
+- **表 B 修正**：GenMem 原任务 prompt 不含 target 陈述；上一轮 B 把陈述加进 query，属“给定陈述找依据”的探索性对比（原版 9/13@5、10/13@10；7B 5/13、8/13；1.5B 7/13、9/13），不能作自然生成表 B。
+- **长输入边界**：原构造下 7,888 / 14,336 / 37,968 tokens；普通生成 SDPA 三条全成功（4.84/4.76/7.72 s，峰值 15.7/16.9/21.3 GiB）；作者捕获 7.8k 成功（8.35 s），14.3k 与 38.0k 实测 OOM。8k 不是模型上限，上一轮 33 条是 configured_skip。
+- **CLAUSE**：文件模式两任务跑通 1 个（193 s，14 调用）；call05 矩阵 → 合同原文（工具 52%），call07 判断直接指向合同 tool msg[3]；**未构成两张不同调用矩阵的真实链**；第二批 2 任务未完成（工具上限）。未推荐主/备案例，未硬造多跳。
+## 最新推进（2026-11-02 晚二轮）：方法一 B 首跑 + 方法二定向修复
+
+- **方法一 B**：47 源样本中 14 条在 8k 窗口内，全部生成成功（艺峰原版 + 生成时矩阵）；33 条超窗（最大 31,178 tokens）未生成。有效评测 13 条：完整证据@5/@10/首位 —— 原版 9/13、10/13、2/13；7B 5/13、8/13、3/13；1.5B 7/13、9/13、6/13。生成 161 s（14 条，含重载）；回放分析 6.68 s（7B）/2.49 s（1.5B）。未做重叠，GPU 峰值未采集。
+- **方法二修复**：CLI 补 span 候选的 relink（v3 图 42 条候选链接/30 个候选）；删除跨目标矩阵借用；交付句多来源 + preferred 最新；森林同 session 父边、跨 session 记 transfer；片段缺失不默认位置 0；环/汇合区分。测试 7/7（含真实 CLI 跨两矩阵）。
+- **真实 v3**：call22 结论查询 → call11/call12 响应后 no_matrix 停止；v3 尚无跨两矩阵的真实链，未把文本匹配说成矩阵恢复。
+- **新案例**：CLAUSE 有准备脚本/文档但未下载；FinAuditing 依赖 RAGFlow 服务与 key（缺），未产生任务与案例。
+## 最新推进（2026-11-02 晚）：方法二通用原型落地；方法一 B 与新案例未执行
+
+- **方法一 A**：N=47 主表与前缀复用保持原样，未重跑、未改口径。
+- **方法一 B（生成时原版对照）**：未执行。需要 47 条源样本的生成输入、艺峰自然生成+捕获、7B/1.5B 回放与重新标注；本轮时间用于方法二原型，未给半成品数字。
+- **方法二**：`experiments/provenance_v2/` 通用闭环（ingest / forest / query / cli），5 个机制测试通过；在 `g1_v3_20261031b` 上从 `delivery#s08` 查询得到 `delivery → call10#response → call10 矩阵候选` 两跳，停止于材料输入。
+- **新案例（FinAuditing/CLAUSE）**：未运行。适配器在 DCCv2 仓库（CLAUSE 数据准备脚本/文档、FinAuditing 配置），但 `.benchmark-data` 只有 NBA 发布包；缺数据准备与运行时间，未产生候选表。
+- 旧结果保留；修正后的配对与案例分数见 `CAUSAL_CORRECTION_20261102.md`。
+## 最新推进（2026-11-02 下午）：因果遮蔽修正 + 任务级效率预跑
+
+- 三个手动回放脚本加因果遮蔽；短样例核对最大差 0.00184（未加 mask 0.0797）。
+- 配对修正后：均值 Spearman 0.752（0.609–0.934），边界 token 无不一致、来源覆盖 1.0；旧 0.750 仅作修正前记录。
+- 案例修正后（绝对份额/候选内份额）：call10 解释句 工具 1.6%（候选内 1.6%）；call10 VIOLATION 行 工具 0.8%、未覆盖 93.6%；call22 结论 工具 5.3%、未覆盖 75.7%。
+- 任务级预跑（1 任务 comp0-003，未扩 3 任务、未重复）：S 571.9 s；R7-after 24/24 单元、25.4 s、额外等待 +27.5 s、21.4 GB；R7-online 执行失败（490 s、32 调用）；R1.5-online 执行未完成（175 s、12 调用）、分析 4.04 s、6.3 GB；O 无法在 API 执行模型上捕获，未执行。
+- 缺口：3 任务扩展与重复未做；两次 online 无有效答案事件；R7-online 汇总缺失；在线/事后一致性未做。
+## 最新推进（2026-11-02 上午）：艺峰原版对照 + Operation A 完整回查
+
+- **艺峰原版**：不能直接进入 N=47 主表——47 个目标是固定目标回放，没有对应的自然生成 + 生成时捕获；现有完整捕获只有 2 份开放样例。主表四行保持原样。
+- **同输出配对预实验**（2 输入 / 5 子句）：均值 Spearman 0.750（min 0.609，max 0.935）、Pearson 0.651、Top-1 0.60 / Top-3 0.53 / Top-5 0.64；SP1 样例 0.91–0.94，CUAD 样例 0.61–0.67。只作一致性，不作质量分数；无对应语义标签，不计算准确率。
+- **NBA Operation A 回查链**：call10 首次生成“帽下只能用空间 + $7M>$4.588M → VIOLATION”；call11 partial 复制；12–21 文本携带；call22 报告修订；最终交付 A。上游 call06 请求读取规则 200–350 行但无工具结果，call07 为 partial/loop_capped；call10 输入无 Room Teams 特例。
+- 回放：call10 解释句 前文 79.7% / 任务 12.1% / 工具 1.5%；call10 VIOLATION 行 任务 89% / 工具 11%；call22 结论 任务 78% / 工具 22%。
+- 图：`experiments/source_path_v1/figures/operationA_flow.png`；路径：`out/path_operationA.json`。
+## 最新推进（2026-11-01 下午）：yf RAG 与 SP 场景规模对比
+
+- 交付 `experiments/scale_compare_v1/`：Markdown 报告 + 逐任务 CSV + 汇总 JSON；只用已有数据，未跑模型。
+- RAG 侧：`longcite45k_200.jsonl` 前 20 条（文件顺序），Qwen2.5-7B tokenizer 计数；单任务 1 次调用（生成一次，引用由注意力规则添加）。
+- SP 侧：本机唯一完整报告轨迹 SP1.0 `sp1/20261016_smoke_complete`（1 任务、9 调用）；DCCv2 NBA 运行（1 任务、24 调用）单列补充；SP1 保险未完成（15 调用）仅作量级参考。
+- 结果：单次输入 3,696.5 → 9,844.4（中位 4,032.5 → 5,793）；单次输出 301.6 → 342.9（中位 302 → 187）；累计输入 3,696.5 → 88,600（约 24×；DCCv2 267,504）；累计输出 301.6 → 3,086（约 10×）。
+- 边界：SP 完整样本只有 1 个，均值不具代表性；242 不可达未核对；RAG 无逐调用日志（调用数按流程记 1），response 为数据集保存答案。
+## 最新推进（2026-11-01 上午）：长序列回放修通，两条判断矩阵齐备
+
+- 手动捕获（SDPA + 第 19 层 post-RoPE q/k 拦截）解决 call22 的 eager OOM（21,166 tokens）；入口 `replay_manual.py`。
+- call10 验证：与 eager 版本行和 0.9802 一致、top 候选全为前文、类别主次一致（前文 0.797 vs 0.792）。
+- call10：前文 0.7972 / 任务事实 0.1215 / 工具返回 0.0152（按行平均）；前向 0.331 s。
+- call22（Operation B）：任务事实 0.1045 / 前文 0.0580 / 工具返回 0.0415；候选内份额约 51% / 28% / 20%；前向 0.379 s。
+- E1 探针：两条判断串行前向 0.710 s（仅选定判断链，非完整任务成本）。
+- 下一步：E2（真实再执行 + 在线分析器，独立 GPU）；G7 mask 语义与 P/D 小例。
+## 最新推进（2026-11-01 凌晨）：正式调用回放 call10 有效矩阵
+
+- 可复用入口 `replay_call10.py`（REPLAY_CALL/REPLAY_TARGET 参数），对 call10 的**原始消息**做分析侧 chat-template 序列化（prompt 9,444 tokens），保留真实响应前文 1,305 tokens，目标 46 tokens；行位置为 full-sequence 索引 10,748–10,793。
+- 有效性：layer 19/head 15 捕获 shape (28 heads, 82 candidates)，finite，行和 0.9802，逐候选和与行和一致；候选切片解码与原文一致；短正对照形状选择仍需修。
+- 结果：call10 目标句的固定头关联 80.8% 落在**模型自己的前文**、17.7% 任务事实、仅 1.4% 工具返回（真实分数：0.229/0.218/0.093/0.084…）。这是关联观察，不是因果证明；结合规则文件 0 次 Bird 命中，表述为“当前检索尚未定位到支持该解释的具体原文，依据待核查”。
+- 旧 0 分探针已标无效并从路径估计中移除；call22 回放因 prompt 21,166 tokens、eager attention OOM（25.6 GiB），下一步改分块/目标行捕获。
+- E1 只有 1/2 覆盖（3.161 s），不作分析成本；E2 未启动；G7 未动。
+## 最新推进（2026-11-01 凌晨）：新版运行的两条判断链（G2 首接）
+
+- 在新版首条完整运行（`3c98481`，571.9 s、24 调用、答案 True/A/B vs gold True/B/B）上固定两条判断：G2-1 关键规则解释首次出现在 **call10（perception）**，G2-2 “Operation B complies”首次出现在 **call22（reporter）**；调用身份：7 central / 1 memory_recaller / 7 perception / 9 reporter，delegate→子调用映射未记录。
+- **关键结论**：任务提供的规则文件（98,208 字符）中 Bird/Non-Bird/Early Bird 出现 **0 次**，“cap room”短语 0 次；call10 可见输入只有 grep 命中与“无匹配”。报告采用的“under-cap 必须用 cap room、Non-Bird 只适用于超帽队”**在给定材料中找不到依据**（artifact metadata 也自述用了 standard framework）。不作“幻觉”定性。
+- 路径：`out/path_v3.json`（24 calls / 86 units / 81 edges / 9 gaps），查询 `delivery#s08` / `s15` 可展开生成调用与可见工具返回；artifact 版本链 v1→v2 已记录。
+- 回放探针：两条判断各跑 7B 固定头（prompt 1061/589 tokens、21/6 候选、0.634/0.195 s），但候选质量全 0.0——与 G7 同类的区间/位置映射问题，**不作为有效来源关联**。
+- E1 因回放无效暂缓；E2 未启动（需真实再执行＋在线分析器）；G7 待 mask 语义核对。
+## 最新推进（2026-10-31 深夜）：新版 DCCv2 接入与第一条完整运行
+
+- **接入**：确认远端 DCCv2 头 `3c984815…`，新 worktree 检出（旧 `0914afc3` 现场保留，未叠旧补丁）；安装官方 `rulearena-nba-v1` Release（216 任务）；任务映射核对：旧 `comp_0#004` 对应新 **`rulearena-nba-comp0-003`**（document 11/11 行逐字一致，gold True/B/B），单任务清单放入 bundle/public。
+- **记录层**：`dcc_trace.TraceChatOpenAI` 记录完整公开请求/响应/工具调用；`DCC_MODEL_USE` 选择 transport；inline 任务追加交付机制说明（只补机制）。
+- **Run 1**（g1_v3_20261031）：9 调用、162 s，未完成——模型调 `sp_finish` 但引用不存在的 artifact（无 write_file），原生拒绝“requires required artifact type 'report' and a matching final_artifact_ref”。
+- **Run 2**（g1_v3_20261031b）：**completed**，24 调用、8 轮、571.9 s，FINISH 接受，最终交付 `spart_a9627af0556afc2e`（report_revision v2，SHA256 `819cf38e…`）。
+- **正确性**：Accuracy-only 评测 **0.0**（1/216）；交付结论 “True / A / B” 对官方 “True / B / B”——违规判断与球队对、**操作字母错**。只从保存交付评分，未重跑。
+- **待做**：G2 在该 run 上出 1—2 条来源链；G3 E0/E1/E2；G7 mask 语义与 P/D 对齐。
+## 最新推进（2026-10-31 夜）：G2 伪环修正、G3 口径统一、G7 真实探针
+
+- **G2**：修掉“最终报告句因同文早现又回到早期调用”的伪环——更早的同文出现记入 `input_occurrences` 并映射到原文 chunk，`report_span_0` 出边为空；直达 0.3563 与经摘要 0.6437 两条路径保留。森林命名改为“恢复出的链”（14/3/2/1 不是原生会话数），缺口=缺 task/attempt/session/delegate 标识。
+- **G3**：字段口径从记录代码确认（`ts`=完成时刻，`elapsed`=耗时）；v6 无答案事件 → `answer_ready=null`、`trace_end`、`extra_wait=null`，来源提前量 **−246.5 s**；只覆盖 7 句、合计 9.25 s；s5/s6 前缀因产生于更晚被置空并标注。CPU 组件 E1/E2 的 answer/source 事件已分离，测试通过。
+- **G7**：布局已接真实 7B 单次前向。正确性未通过：单分支 P vs D 最大绝对差 0.215、sum 0.946 vs 0.892、top-1 不一致；两分支 0.300/0.179；改 b 影响 a 0.067。可见性检查通过。首个嫌疑=candidate 区间与打包位置的映射（prompt 最后 token 在 D 是 block 首键、在 P 是分支起点）。计时 D 1.20 s / P 单 0.95 s / P 双 1.06 s，正确性未过前不作收益结论。
+- **G1**：仍等新版 DCCv2。
+- 产物：`experiments/source_path_v1/G_ROUND3_20261031.md`、`branch_packing_v1/pack_runner.py`、`task_timing_v1/analysis_queue.py`；服务器 `g3_queue_v6.json`、`g7_pack_probe.json`。
+## 最新推进（2026-10-31 晚）：G2 连接修复、G3 队列、G4 统一口径
+
+- **G2**：`query.py` 现在沿 estimate 边展开且按边防环——一条命令从 `report_span_0` 展开到摘要（0.6437）→ call4 → 13 个上游片段；`compare_views.py` 更正为“最后调用可见摘要+原文 2 个单元”。森林改按角色前缀+工具集 hash+先后顺序：v6 为 Central 14 链 / coder 3 / perception 2 / memory_recaller 1，0 分支；缺口=无原生 session/delegate 标识。三视图已按真实结构重画（B 用 CUAD 有效矩阵，C 补生成/可见/直达箭头）。
+- **G3**：日志驱动队列测试完成：7 个理由句分析约 10 s；answer_ready 1793278637.9、sources_ready 1793278386.5，extra_wait **−251.4 s**（来源先于答案就绪），max backlog 6；标注为日志驱动，非在线。
+- **G4**：标准 predictor 统一口径重跑：1.5B @5 0.5532/@10 0.6383/Frag@1 0.2553，46.54 s、11.87 GB（11.05 GiB）；7B @5 0.6170/@10 0.7021/Frag@1 0.4894，105.43 s、35.24 GB（32.82 GiB）。同流程 1.5B 快 2.27×、省 2.97× 显存，质量低 6.4/6.4/23.4 个百分点。开发集 11 个（比冻结协议多 3 个 case_02 超限目标 selected_07/08/09，full coverage，与 47 评测目标无 case 重叠）；选头 (16,2) 不变。
+- **G7**：未实现，下一轮。
+- 产物：`experiments/source_path_v1/G_ROUND2_20261031.md`、`out/method2_views.{svg,png}`；服务器 `/data1/songzhengxing_intern_dccv2/{g3_queue_v6.json,predict_small.py,metrics_g4small/}`。
 ## 最新推进（2026-10-31 晚）：G2 递归与森林修正、G3 队列、G7 布局
 
 - **G2（本轮完成项）**：`query.py` 现在跨 `estimate` 追溯，防环改为 branch-local；`report_span_0` 可查到 `summary_final`（0.6437）→ 13 个上游片段（含 0.7569），并保留直达原文 0.3563。`compare_views.py` 的最后调用输入从 1 个更正为 2 个：摘要 + 原文。
@@ -198,3 +409,10 @@ uns/genmem_baselines_v2/20261028_v1/。本机无 git，未提交未推送；原�
 - 243 新增的六个散落目录已迁入现有 `memoryflow/`，158 个文件 SHA256 核对一致。位置、方法代码和结果入口见 [目录地图](WORKSPACE_MAP.md)。
 - 提取代码及测试见 [trace_review_v1](../experiments/trace_review_v1/README.md)；组内原文样例只存服务器 `memoryflow/reports/flow_review_20261017/` 和本机已忽略的 `artifacts/raw/flow_review_20261017/review/`，不入 Git。
 - 下一步先请师兄确认标注粒度与双路径可见性的处理；复杂保险任务先修复预算终止/异常传播并合理拆分研究任务，不直接增加预算重跑。本轮未新增模型调用或修改 SP2。
+
+## 多记录 packing（2026-11-05）
+
+- 层一合并：**完成并确认收益**，5 目标句 3.90×，显存基本不变。
+- 层二打包：**完成但 7B 上不划算**；等长时略逊于普通 batch，偏斜时 batch 与打包都远慢于顺序回放。要在 varlen/稀疏内核下才可能翻盘。
+- 正确性：同形状重复性 0.0；逐候选第一名一致；打包残差 0.021–0.492（短记录单键，top-key 一致）。含 11.8k Writer 的打包 2 条 OOM，属 eager 显存成本。
+- 多轮 YF：开发案例锁定 `simple_zh_ix478`（Writer `20261103T160133-056937cc` / Researcher `20261103T160040-61aced06`），覆盖仅 L19/H15、仅 T2/T3、仅 S6/S7；`003` 为单跳不适用。
