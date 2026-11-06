@@ -1,0 +1,201 @@
+{
+  "case_id": "genmem_f46a08bc62ee9b37:selected_02",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0182#12-136",
+          "score": 0.35826024413108826,
+          "text": "Cryolipolysis is characterized by localized and controlled cooling of the subcutaneous adipose tissue, in a non-invasive way"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0278#0-62",
+          "score": 0.0033349262084811926,
+          "text": "https://www.scielo.br/j/abd/a/rPSfHZVSYZNCkwmx4mLTJJr/?lang=en"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0006#0-49",
+          "score": 0.017893189564347267,
+          "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4079633/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0373#0-61",
+          "score": 0.03620433807373047,
+          "text": "Adverse Events Associated With Cryolipolysis: A Systematic..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0066#63-203",
+          "score": 0.03222731128334999,
+          "text": "Noninvasive Body Contouring by Focused Ultrasound: Safety and Efficacy of the Contour I Device in a Multicenter, Controlled, Clinical Study."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0158#0-60",
+          "score": 0.0008507576421834528,
+          "text": "Classification Systems for Knee Osteochondritis Dissecans..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0332#100-151",
+          "score": 0.00305680138990283,
+          "text": "Current Problems in Dermatology: “Skin Tightening”."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_701766854b8e9d98#0-25",
+          "score": 0.0002480994153302163,
+          "text": "call_-7436884822489821235"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_c1a0e1bdf56f68bc#0-25",
+          "score": 0.0002348089183215052,
+          "text": "call_-7436869257528340937"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0235#114-246",
+          "score": 0.3119088411331177,
+          "text": "The treated fat cells undergo natural apoptosis and are gradually eliminated through the body’s lymphatic system over several weeks."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 278,
+      "seconds": 0.038,
+      "target": "- Cryolipolysis works via controlled cooling that induces a localized panniculitis, followed by adipocyte apoptosis, leading to a gradual decrease in subcutaneous adipose tissue in the treated area.",
+      "target_tokens": 43,
+      "total_tokens": 321
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0182#12-136",
+          "score": 0.5208243131637573,
+          "text": "Cryolipolysis is characterized by localized and controlled cooling of the subcutaneous adipose tissue, in a non-invasive way"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0278#0-62",
+          "score": 0.007519238628447056,
+          "text": "https://www.scielo.br/j/abd/a/rPSfHZVSYZNCkwmx4mLTJJr/?lang=en"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0006#0-49",
+          "score": 0.025207599624991417,
+          "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4079633/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0373#0-61",
+          "score": 0.06466546654701233,
+          "text": "Adverse Events Associated With Cryolipolysis: A Systematic..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0066#63-203",
+          "score": 0.022548634558916092,
+          "text": "Noninvasive Body Contouring by Focused Ultrasound: Safety and Efficacy of the Contour I Device in a Multicenter, Controlled, Clinical Study."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0158#0-60",
+          "score": 0.0005546623724512756,
+          "text": "Classification Systems for Knee Osteochondritis Dissecans..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0332#100-151",
+          "score": 0.0007150755263864994,
+          "text": "Current Problems in Dermatology: “Skin Tightening”."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_701766854b8e9d98#0-25",
+          "score": 0.0018891546642407775,
+          "text": "call_-7436884822489821235"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_c1a0e1bdf56f68bc#0-25",
+          "score": 0.001413594582118094,
+          "text": "call_-7436869257528340937"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 256,
+      "seconds": 0.03,
+      "target": "The earlier material states: Cryolipolysis is characterized by localized and controlled cooling of the subcutaneous adipose tissue, in a non-invasive way",
+      "target_tokens": 32,
+      "total_tokens": 288
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.3683849573135376,
+          "text": "The earlier material states: Cryolipolysis is characterized by localized and controlled cooling of the subcutaneous adipose tissue, in a non-invasive way"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0235#114-246",
+          "score": 0.33777111768722534,
+          "text": "The treated fat cells undergo natural apoptosis and are gradually eliminated through the body’s lymphatic system over several weeks."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0278#0-62",
+          "score": 0.0032343189232051373,
+          "text": "https://www.scielo.br/j/abd/a/rPSfHZVSYZNCkwmx4mLTJJr/?lang=en"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0006#0-49",
+          "score": 0.013711598701775074,
+          "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4079633/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0373#0-61",
+          "score": 0.01578795164823532,
+          "text": "Adverse Events Associated With Cryolipolysis: A Systematic..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0066#63-203",
+          "score": 0.025246579200029373,
+          "text": "Noninvasive Body Contouring by Focused Ultrasound: Safety and Efficacy of the Contour I Device in a Multicenter, Controlled, Clinical Study."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0158#0-60",
+          "score": 0.00018032686784863472,
+          "text": "Classification Systems for Knee Osteochondritis Dissecans..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0332#100-151",
+          "score": 0.0011829903814941645,
+          "text": "Current Problems in Dermatology: “Skin Tightening”."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_701766854b8e9d98#0-25",
+          "score": 0.00028599463985301554,
+          "text": "call_-7436884822489821235"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_c1a0e1bdf56f68bc#0-25",
+          "score": 0.0002824793918989599,
+          "text": "call_-7436869257528340937"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 282,
+      "seconds": 0.038,
+      "target": "- Cryolipolysis works via controlled cooling that induces a localized panniculitis, followed by adipocyte apoptosis, leading to a gradual decrease in subcutaneous adipose tissue in the treated area.",
+      "target_tokens": 43,
+      "total_tokens": 325
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 24.94,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

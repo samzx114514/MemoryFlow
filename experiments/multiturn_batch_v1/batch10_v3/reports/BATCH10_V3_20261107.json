@@ -1,0 +1,2675 @@
+{
+  "cases": [
+    {
+      "case_id": "genmem_177236211632d6b8:selected_03",
+      "control": null,
+      "final_budget": 10,
+      "hop_budget": 5,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_177236211632d6b8:selected_03:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_03:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_03:support_g03": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_03:support_g04": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 6,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_177236211632d6b8:a0007#0-120",
+            "genmem_177236211632d6b8:a0487#0-44",
+            "genmem_177236211632d6b8:a0466#150-231",
+            "genmem_177236211632d6b8:a0014#0-64",
+            "genmem_177236211632d6b8:a0477#0-58",
+            "genmem_177236211632d6b8:a0219#73-200",
+            "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
+            "genmem_177236211632d6b8:a0470#0-55",
+            "genmem_177236211632d6b8:arg_ed9e720238fffa10#0-25",
+            "genmem_177236211632d6b8:a0373#0-150"
+          ]
+        },
+        "head_full_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_177236211632d6b8:selected_03:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_03:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_03:support_g03": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_03:support_g04": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 2,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_177236211632d6b8:a0007#0-120",
+            "genmem_177236211632d6b8:a0219#73-200",
+            "genmem_177236211632d6b8:a0487#0-44",
+            "genmem_177236211632d6b8:a0466#150-231",
+            "genmem_177236211632d6b8:a0373#0-150",
+            "genmem_177236211632d6b8:a0014#0-64",
+            "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
+            "genmem_177236211632d6b8:a0470#0-55",
+            "genmem_177236211632d6b8:arg_ed9e720238fffa10#0-25",
+            "genmem_177236211632d6b8:a0477#0-58"
+          ]
+        },
+        "last_round": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_177236211632d6b8:selected_03:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_03:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_03:support_g03": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_03:support_g04": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": null,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_177236211632d6b8:a0007#0-120",
+            "genmem_177236211632d6b8:a0466#150-231",
+            "genmem_177236211632d6b8:a0487#0-44",
+            "genmem_177236211632d6b8:a0373#0-150",
+            "genmem_177236211632d6b8:a0014#0-64",
+            "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
+            "genmem_177236211632d6b8:a0470#0-55",
+            "genmem_177236211632d6b8:arg_ed9e720238fffa10#0-25",
+            "genmem_177236211632d6b8:a0477#0-58"
+          ]
+        },
+        "memoryflow": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_177236211632d6b8:selected_03:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_03:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_03:support_g03": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_03:support_g04": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": [
+            {
+              "factor": 1.0,
+              "path": [
+                "r2"
+              ],
+              "round": "r2",
+              "top": [
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0007#0-120",
+                  "score": 0.392566442489624
+                },
+                {
+                  "canonical_id": "transmission:r1",
+                  "score": 0.21814601123332977
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0466#150-231",
+                  "score": 0.04756657034158707
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0487#0-44",
+                  "score": 0.034059878438711166
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0373#0-150",
+                  "score": 0.027992861345410347
+                }
+              ]
+            },
+            {
+              "factor": 0.218146011,
+              "path": [
+                "r2",
+                "r1"
+              ],
+              "round": "r1",
+              "top": [
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0219#73-200",
+                  "score": 0.6659823656082153
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0373#0-150",
+                  "score": 0.047822289168834686
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
+                  "score": 0.012557489797472954
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0470#0-55",
+                  "score": 0.005504540167748928
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0014#0-64",
+                  "score": 0.00527976406738162
+                }
+              ]
+            }
+          ],
+          "label_ranks": {
+            "A": 2,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_177236211632d6b8:a0007#0-120",
+            "genmem_177236211632d6b8:a0219#73-200",
+            "genmem_177236211632d6b8:a0466#150-231",
+            "genmem_177236211632d6b8:a0373#0-150",
+            "genmem_177236211632d6b8:a0487#0-44",
+            "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
+            "genmem_177236211632d6b8:a0470#0-55",
+            "genmem_177236211632d6b8:a0014#0-64"
+          ]
+        }
+      },
+      "record_type": "controlled",
+      "split": "dev",
+      "trajectory_case": "case_01",
+      "trajectory_id": "genmem_177236211632d6b8"
+    },
+    {
+      "case_id": "genmem_177236211632d6b8:selected_04",
+      "control": null,
+      "final_budget": 10,
+      "hop_budget": 5,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_177236211632d6b8:selected_04:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 3,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_177236211632d6b8:a0289#0-134",
+            "genmem_177236211632d6b8:a0466#150-231",
+            "genmem_177236211632d6b8:a0272#397-522",
+            "genmem_177236211632d6b8:a0373#0-150",
+            "genmem_177236211632d6b8:a0487#0-44",
+            "genmem_177236211632d6b8:a0014#0-64",
+            "genmem_177236211632d6b8:a0470#0-55",
+            "genmem_177236211632d6b8:a0477#0-58",
+            "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
+            "genmem_177236211632d6b8:arg_ed9e720238fffa10#0-25"
+          ]
+        },
+        "head_full_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_177236211632d6b8:selected_04:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 3,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_177236211632d6b8:a0289#0-134",
+            "genmem_177236211632d6b8:a0373#0-150",
+            "genmem_177236211632d6b8:a0272#397-522",
+            "genmem_177236211632d6b8:a0466#150-231",
+            "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
+            "genmem_177236211632d6b8:a0487#0-44",
+            "genmem_177236211632d6b8:a0477#0-58",
+            "genmem_177236211632d6b8:a0014#0-64",
+            "genmem_177236211632d6b8:a0470#0-55",
+            "genmem_177236211632d6b8:arg_ed9e720238fffa10#0-25"
+          ]
+        },
+        "last_round": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_177236211632d6b8:selected_04:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": null,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_177236211632d6b8:a0289#0-134",
+            "genmem_177236211632d6b8:a0373#0-150",
+            "genmem_177236211632d6b8:arg_ed9e720238fffa10#0-25",
+            "genmem_177236211632d6b8:a0466#150-231",
+            "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
+            "genmem_177236211632d6b8:a0470#0-55",
+            "genmem_177236211632d6b8:a0477#0-58",
+            "genmem_177236211632d6b8:a0014#0-64",
+            "genmem_177236211632d6b8:a0487#0-44"
+          ]
+        },
+        "memoryflow": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_177236211632d6b8:selected_04:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": [
+            {
+              "factor": 1.0,
+              "path": [
+                "r2"
+              ],
+              "round": "r2",
+              "top": [
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0289#0-134",
+                  "score": 0.6596083045005798
+                },
+                {
+                  "canonical_id": "transmission:r1",
+                  "score": 0.08802734315395355
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0373#0-150",
+                  "score": 0.07425761222839355
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:arg_ed9e720238fffa10#0-25",
+                  "score": 0.005803768523037434
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0466#150-231",
+                  "score": 0.003960021771490574
+                }
+              ]
+            },
+            {
+              "factor": 0.088027343,
+              "path": [
+                "r2",
+                "r1"
+              ],
+              "round": "r1",
+              "top": [
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0272#397-522",
+                  "score": 0.5422083139419556
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0373#0-150",
+                  "score": 0.21751366555690765
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
+                  "score": 0.00942437443882227
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0477#0-58",
+                  "score": 0.0052183037623763084
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0470#0-55",
+                  "score": 0.005123758222907782
+                }
+              ]
+            }
+          ],
+          "label_ranks": {
+            "A": 3,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_177236211632d6b8:a0289#0-134",
+            "genmem_177236211632d6b8:a0373#0-150",
+            "genmem_177236211632d6b8:a0272#397-522",
+            "genmem_177236211632d6b8:arg_ed9e720238fffa10#0-25",
+            "genmem_177236211632d6b8:a0466#150-231",
+            "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
+            "genmem_177236211632d6b8:a0477#0-58",
+            "genmem_177236211632d6b8:a0470#0-55"
+          ]
+        }
+      },
+      "record_type": "controlled",
+      "split": "dev",
+      "trajectory_case": "case_01",
+      "trajectory_id": "genmem_177236211632d6b8"
+    },
+    {
+      "case_id": "genmem_177236211632d6b8:selected_09",
+      "control": null,
+      "final_budget": 10,
+      "hop_budget": 5,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_177236211632d6b8:selected_09:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_09:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_09:support_g03": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_09:support_g04": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 2,
+          "hops": null,
+          "label_ranks": {
+            "A": 4,
+            "B": 2
+          },
+          "ranked": [
+            "genmem_177236211632d6b8:a0487#0-44",
+            "genmem_177236211632d6b8:a0007#0-120",
+            "genmem_177236211632d6b8:a0470#0-55",
+            "genmem_177236211632d6b8:a0219#73-200",
+            "genmem_177236211632d6b8:a0466#150-231",
+            "genmem_177236211632d6b8:a0477#0-58",
+            "genmem_177236211632d6b8:a0014#0-64",
+            "genmem_177236211632d6b8:a0373#0-150",
+            "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
+            "genmem_177236211632d6b8:arg_ed9e720238fffa10#0-25"
+          ]
+        },
+        "head_full_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_177236211632d6b8:selected_09:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_09:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_09:support_g03": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_09:support_g04": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 2,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_177236211632d6b8:a0007#0-120",
+            "genmem_177236211632d6b8:a0219#73-200",
+            "genmem_177236211632d6b8:a0487#0-44",
+            "genmem_177236211632d6b8:a0373#0-150",
+            "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
+            "genmem_177236211632d6b8:a0466#150-231",
+            "genmem_177236211632d6b8:a0014#0-64",
+            "genmem_177236211632d6b8:a0470#0-55",
+            "genmem_177236211632d6b8:a0477#0-58",
+            "genmem_177236211632d6b8:arg_ed9e720238fffa10#0-25"
+          ]
+        },
+        "last_round": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_177236211632d6b8:selected_09:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_09:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_09:support_g03": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_09:support_g04": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": null,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_177236211632d6b8:a0007#0-120",
+            "genmem_177236211632d6b8:a0487#0-44",
+            "genmem_177236211632d6b8:a0466#150-231",
+            "genmem_177236211632d6b8:a0373#0-150",
+            "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
+            "genmem_177236211632d6b8:a0014#0-64",
+            "genmem_177236211632d6b8:a0477#0-58",
+            "genmem_177236211632d6b8:a0470#0-55",
+            "genmem_177236211632d6b8:arg_ed9e720238fffa10#0-25"
+          ]
+        },
+        "memoryflow": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_177236211632d6b8:selected_09:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_09:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_09:support_g03": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_09:support_g04": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": [
+            {
+              "factor": 1.0,
+              "path": [
+                "r2"
+              ],
+              "round": "r2",
+              "top": [
+                {
+                  "canonical_id": "transmission:r1",
+                  "score": 0.2730688750743866
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0007#0-120",
+                  "score": 0.1965629607439041
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0487#0-44",
+                  "score": 0.04124719277024269
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0466#150-231",
+                  "score": 0.024390563368797302
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0373#0-150",
+                  "score": 0.014955347403883934
+                }
+              ]
+            },
+            {
+              "factor": 0.273068875,
+              "path": [
+                "r2",
+                "r1"
+              ],
+              "round": "r1",
+              "top": [
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0219#73-200",
+                  "score": 0.6659823656082153
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0373#0-150",
+                  "score": 0.047822289168834686
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
+                  "score": 0.012557489797472954
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0470#0-55",
+                  "score": 0.005504540167748928
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0014#0-64",
+                  "score": 0.00527976406738162
+                }
+              ]
+            }
+          ],
+          "label_ranks": {
+            "A": 2,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_177236211632d6b8:a0007#0-120",
+            "genmem_177236211632d6b8:a0219#73-200",
+            "genmem_177236211632d6b8:a0487#0-44",
+            "genmem_177236211632d6b8:a0373#0-150",
+            "genmem_177236211632d6b8:a0466#150-231",
+            "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
+            "genmem_177236211632d6b8:a0470#0-55",
+            "genmem_177236211632d6b8:a0014#0-64"
+          ]
+        }
+      },
+      "record_type": "controlled",
+      "split": "dev",
+      "trajectory_case": "case_01",
+      "trajectory_id": "genmem_177236211632d6b8"
+    },
+    {
+      "case_id": "genmem_177236211632d6b8:selected_10",
+      "control": null,
+      "final_budget": 10,
+      "hop_budget": 5,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_177236211632d6b8:selected_10:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_10:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_10:support_g03": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 2,
+          "hops": null,
+          "label_ranks": {
+            "A": 1,
+            "B": 2
+          },
+          "ranked": [
+            "genmem_177236211632d6b8:a0308#145-254",
+            "genmem_177236211632d6b8:a0425#38-99",
+            "genmem_177236211632d6b8:a0487#0-44",
+            "genmem_177236211632d6b8:a0466#150-231",
+            "genmem_177236211632d6b8:a0470#0-55",
+            "genmem_177236211632d6b8:a0373#0-150",
+            "genmem_177236211632d6b8:a0014#0-64",
+            "genmem_177236211632d6b8:a0477#0-58",
+            "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
+            "genmem_177236211632d6b8:arg_ed9e720238fffa10#0-25"
+          ]
+        },
+        "head_full_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_177236211632d6b8:selected_10:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_10:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_10:support_g03": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 2,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_177236211632d6b8:a0425#38-99",
+            "genmem_177236211632d6b8:a0308#145-254",
+            "genmem_177236211632d6b8:a0466#150-231",
+            "genmem_177236211632d6b8:a0487#0-44",
+            "genmem_177236211632d6b8:a0373#0-150",
+            "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
+            "genmem_177236211632d6b8:a0470#0-55",
+            "genmem_177236211632d6b8:arg_ed9e720238fffa10#0-25",
+            "genmem_177236211632d6b8:a0477#0-58",
+            "genmem_177236211632d6b8:a0014#0-64"
+          ]
+        },
+        "last_round": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_177236211632d6b8:selected_10:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_10:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_10:support_g03": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": null,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_177236211632d6b8:a0425#38-99",
+            "genmem_177236211632d6b8:a0466#150-231",
+            "genmem_177236211632d6b8:a0373#0-150",
+            "genmem_177236211632d6b8:a0487#0-44",
+            "genmem_177236211632d6b8:a0477#0-58",
+            "genmem_177236211632d6b8:a0470#0-55",
+            "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
+            "genmem_177236211632d6b8:arg_ed9e720238fffa10#0-25",
+            "genmem_177236211632d6b8:a0014#0-64"
+          ]
+        },
+        "memoryflow": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_177236211632d6b8:selected_10:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_10:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_177236211632d6b8:selected_10:support_g03": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": [
+            {
+              "factor": 1.0,
+              "path": [
+                "r2"
+              ],
+              "round": "r2",
+              "top": [
+                {
+                  "canonical_id": "transmission:r1",
+                  "score": 0.29381364583969116
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0425#38-99",
+                  "score": 0.29365408420562744
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0466#150-231",
+                  "score": 0.05772487446665764
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0373#0-150",
+                  "score": 0.02818995714187622
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0487#0-44",
+                  "score": 0.02235190011560917
+                }
+              ]
+            },
+            {
+              "factor": 0.293813646,
+              "path": [
+                "r2",
+                "r1"
+              ],
+              "round": "r1",
+              "top": [
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0308#145-254",
+                  "score": 0.6138613820075989
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0373#0-150",
+                  "score": 0.05378206446766853
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0487#0-44",
+                  "score": 0.024022260680794716
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:a0466#150-231",
+                  "score": 0.01802762597799301
+                },
+                {
+                  "canonical_id": "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
+                  "score": 0.015526298433542252
+                }
+              ]
+            }
+          ],
+          "label_ranks": {
+            "A": 2,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_177236211632d6b8:a0425#38-99",
+            "genmem_177236211632d6b8:a0308#145-254",
+            "genmem_177236211632d6b8:a0466#150-231",
+            "genmem_177236211632d6b8:a0373#0-150",
+            "genmem_177236211632d6b8:a0487#0-44",
+            "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25"
+          ]
+        }
+      },
+      "record_type": "controlled",
+      "split": "dev",
+      "trajectory_case": "case_01",
+      "trajectory_id": "genmem_177236211632d6b8"
+    },
+    {
+      "case_id": "genmem_9f963d36b4935b97:selected_04",
+      "control": null,
+      "final_budget": 10,
+      "hop_budget": 5,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_9f963d36b4935b97:selected_04:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_9f963d36b4935b97:selected_04:support_g02": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 1,
+            "B": 4
+          },
+          "ranked": [
+            "genmem_9f963d36b4935b97:a0260#0-103",
+            "genmem_9f963d36b4935b97:a0343#0-197",
+            "genmem_9f963d36b4935b97:arg_5925312a89175880#0-72",
+            "genmem_9f963d36b4935b97:a0261#127-239",
+            "genmem_9f963d36b4935b97:a0242#0-49",
+            "genmem_9f963d36b4935b97:a0269#158-242",
+            "genmem_9f963d36b4935b97:a0223#0-59",
+            "genmem_9f963d36b4935b97:a0014#0-54",
+            "genmem_9f963d36b4935b97:a0104#0-77",
+            "genmem_9f963d36b4935b97:a0078#0-78"
+          ]
+        },
+        "head_full_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_9f963d36b4935b97:selected_04:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_9f963d36b4935b97:selected_04:support_g02": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 1,
+            "B": 5
+          },
+          "ranked": [
+            "genmem_9f963d36b4935b97:a0260#0-103",
+            "genmem_9f963d36b4935b97:a0242#0-49",
+            "genmem_9f963d36b4935b97:a0223#0-59",
+            "genmem_9f963d36b4935b97:a0343#0-197",
+            "genmem_9f963d36b4935b97:a0261#127-239",
+            "genmem_9f963d36b4935b97:a0269#158-242",
+            "genmem_9f963d36b4935b97:arg_5925312a89175880#0-72",
+            "genmem_9f963d36b4935b97:a0104#0-77",
+            "genmem_9f963d36b4935b97:a0078#0-78",
+            "genmem_9f963d36b4935b97:a0014#0-54"
+          ]
+        },
+        "last_round": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_9f963d36b4935b97:selected_04:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_9f963d36b4935b97:selected_04:support_g02": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": false,
+          "hit_rank": null,
+          "hops": null,
+          "label_ranks": {
+            "A": null,
+            "B": 3
+          },
+          "ranked": [
+            "genmem_9f963d36b4935b97:a0242#0-49",
+            "genmem_9f963d36b4935b97:a0343#0-197",
+            "genmem_9f963d36b4935b97:a0261#127-239",
+            "genmem_9f963d36b4935b97:a0223#0-59",
+            "genmem_9f963d36b4935b97:arg_5925312a89175880#0-72",
+            "genmem_9f963d36b4935b97:a0269#158-242",
+            "genmem_9f963d36b4935b97:a0104#0-77",
+            "genmem_9f963d36b4935b97:a0078#0-78",
+            "genmem_9f963d36b4935b97:a0014#0-54"
+          ]
+        },
+        "memoryflow": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_9f963d36b4935b97:selected_04:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_9f963d36b4935b97:selected_04:support_g02": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": [
+            {
+              "factor": 1.0,
+              "path": [
+                "r2"
+              ],
+              "round": "r2",
+              "top": [
+                {
+                  "canonical_id": "transmission:r1",
+                  "score": 0.657676637172699
+                },
+                {
+                  "canonical_id": "genmem_9f963d36b4935b97:a0242#0-49",
+                  "score": 0.14736203849315643
+                },
+                {
+                  "canonical_id": "genmem_9f963d36b4935b97:a0343#0-197",
+                  "score": 0.01039535365998745
+                },
+                {
+                  "canonical_id": "genmem_9f963d36b4935b97:a0261#127-239",
+                  "score": 0.005946310702711344
+                },
+                {
+                  "canonical_id": "genmem_9f963d36b4935b97:a0223#0-59",
+                  "score": 0.003786772955209017
+                }
+              ]
+            },
+            {
+              "factor": 0.657676637,
+              "path": [
+                "r2",
+                "r1"
+              ],
+              "round": "r1",
+              "top": [
+                {
+                  "canonical_id": "genmem_9f963d36b4935b97:a0260#0-103",
+                  "score": 0.7045656442642212
+                },
+                {
+                  "canonical_id": "genmem_9f963d36b4935b97:a0343#0-197",
+                  "score": 0.03319023549556732
+                },
+                {
+                  "canonical_id": "genmem_9f963d36b4935b97:a0269#158-242",
+                  "score": 0.029517216607928276
+                },
+                {
+                  "canonical_id": "genmem_9f963d36b4935b97:a0223#0-59",
+                  "score": 0.023114478215575218
+                },
+                {
+                  "canonical_id": "genmem_9f963d36b4935b97:a0104#0-77",
+                  "score": 0.006219976581633091
+                }
+              ]
+            }
+          ],
+          "label_ranks": {
+            "A": 1,
+            "B": 6
+          },
+          "ranked": [
+            "genmem_9f963d36b4935b97:a0260#0-103",
+            "genmem_9f963d36b4935b97:a0242#0-49",
+            "genmem_9f963d36b4935b97:a0343#0-197",
+            "genmem_9f963d36b4935b97:a0269#158-242",
+            "genmem_9f963d36b4935b97:a0223#0-59",
+            "genmem_9f963d36b4935b97:a0261#127-239",
+            "genmem_9f963d36b4935b97:a0104#0-77"
+          ]
+        }
+      },
+      "record_type": "controlled",
+      "split": "dev",
+      "trajectory_case": "case_04",
+      "trajectory_id": "genmem_9f963d36b4935b97"
+    },
+    {
+      "case_id": "genmem_9f963d36b4935b97:selected_07",
+      "control": null,
+      "final_budget": 10,
+      "hop_budget": 5,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_9f963d36b4935b97:selected_07:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 1,
+            "B": 5
+          },
+          "ranked": [
+            "genmem_9f963d36b4935b97:a0522#69-197",
+            "genmem_9f963d36b4935b97:a0223#0-59",
+            "genmem_9f963d36b4935b97:a0343#0-197",
+            "genmem_9f963d36b4935b97:arg_5925312a89175880#0-72",
+            "genmem_9f963d36b4935b97:a0016#58-215",
+            "genmem_9f963d36b4935b97:a0078#0-78",
+            "genmem_9f963d36b4935b97:a0014#0-54",
+            "genmem_9f963d36b4935b97:a0104#0-77",
+            "genmem_9f963d36b4935b97:a0269#158-242",
+            "genmem_9f963d36b4935b97:a0242#0-49"
+          ]
+        },
+        "head_full_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_9f963d36b4935b97:selected_07:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 1,
+            "B": 4
+          },
+          "ranked": [
+            "genmem_9f963d36b4935b97:a0522#69-197",
+            "genmem_9f963d36b4935b97:arg_5925312a89175880#0-72",
+            "genmem_9f963d36b4935b97:a0343#0-197",
+            "genmem_9f963d36b4935b97:a0016#58-215",
+            "genmem_9f963d36b4935b97:a0269#158-242",
+            "genmem_9f963d36b4935b97:a0223#0-59",
+            "genmem_9f963d36b4935b97:a0078#0-78",
+            "genmem_9f963d36b4935b97:a0104#0-77",
+            "genmem_9f963d36b4935b97:a0014#0-54",
+            "genmem_9f963d36b4935b97:a0242#0-49"
+          ]
+        },
+        "last_round": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_9f963d36b4935b97:selected_07:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": false,
+          "hit_rank": null,
+          "hops": null,
+          "label_ranks": {
+            "A": null,
+            "B": 2
+          },
+          "ranked": [
+            "genmem_9f963d36b4935b97:arg_5925312a89175880#0-72",
+            "genmem_9f963d36b4935b97:a0016#58-215",
+            "genmem_9f963d36b4935b97:a0343#0-197",
+            "genmem_9f963d36b4935b97:a0269#158-242",
+            "genmem_9f963d36b4935b97:a0078#0-78",
+            "genmem_9f963d36b4935b97:a0104#0-77",
+            "genmem_9f963d36b4935b97:a0223#0-59",
+            "genmem_9f963d36b4935b97:a0014#0-54",
+            "genmem_9f963d36b4935b97:a0242#0-49"
+          ]
+        },
+        "memoryflow": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_9f963d36b4935b97:selected_07:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": [
+            {
+              "factor": 1.0,
+              "path": [
+                "r2"
+              ],
+              "round": "r2",
+              "top": [
+                {
+                  "canonical_id": "transmission:r1",
+                  "score": 0.560843288898468
+                },
+                {
+                  "canonical_id": "genmem_9f963d36b4935b97:arg_5925312a89175880#0-72",
+                  "score": 0.06769847869873047
+                },
+                {
+                  "canonical_id": "genmem_9f963d36b4935b97:a0016#58-215",
+                  "score": 0.03302866220474243
+                },
+                {
+                  "canonical_id": "genmem_9f963d36b4935b97:a0343#0-197",
+                  "score": 0.018483011052012444
+                },
+                {
+                  "canonical_id": "genmem_9f963d36b4935b97:a0269#158-242",
+                  "score": 0.005329200066626072
+                }
+              ]
+            },
+            {
+              "factor": 0.560843289,
+              "path": [
+                "r2",
+                "r1"
+              ],
+              "round": "r1",
+              "top": [
+                {
+                  "canonical_id": "genmem_9f963d36b4935b97:a0522#69-197",
+                  "score": 0.6553516387939453
+                },
+                {
+                  "canonical_id": "genmem_9f963d36b4935b97:a0343#0-197",
+                  "score": 0.05144326016306877
+                },
+                {
+                  "canonical_id": "genmem_9f963d36b4935b97:a0223#0-59",
+                  "score": 0.04798322916030884
+                },
+                {
+                  "canonical_id": "genmem_9f963d36b4935b97:a0269#158-242",
+                  "score": 0.012298457324504852
+                },
+                {
+                  "canonical_id": "genmem_9f963d36b4935b97:arg_5925312a89175880#0-72",
+                  "score": 0.009285307489335537
+                }
+              ]
+            }
+          ],
+          "label_ranks": {
+            "A": 1,
+            "B": 4
+          },
+          "ranked": [
+            "genmem_9f963d36b4935b97:a0522#69-197",
+            "genmem_9f963d36b4935b97:arg_5925312a89175880#0-72",
+            "genmem_9f963d36b4935b97:a0343#0-197",
+            "genmem_9f963d36b4935b97:a0016#58-215",
+            "genmem_9f963d36b4935b97:a0223#0-59",
+            "genmem_9f963d36b4935b97:a0269#158-242"
+          ]
+        }
+      },
+      "record_type": "controlled",
+      "split": "dev",
+      "trajectory_case": "case_04",
+      "trajectory_id": "genmem_9f963d36b4935b97"
+    },
+    {
+      "case_id": "genmem_40dc9b8b15c0c5b8:selected_05",
+      "control": null,
+      "final_budget": 10,
+      "hop_budget": 5,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_40dc9b8b15c0c5b8:selected_05:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_40dc9b8b15c0c5b8:selected_05:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_40dc9b8b15c0c5b8:selected_05:support_g03": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 1,
+            "B": 7
+          },
+          "ranked": [
+            "genmem_40dc9b8b15c0c5b8:a0025#0-164",
+            "genmem_40dc9b8b15c0c5b8:a0017#0-50",
+            "genmem_40dc9b8b15c0c5b8:a0174#173-220",
+            "genmem_40dc9b8b15c0c5b8:a0130#670-726",
+            "genmem_40dc9b8b15c0c5b8:a0082#0-119",
+            "genmem_40dc9b8b15c0c5b8:a0048#0-31",
+            "genmem_40dc9b8b15c0c5b8:a0120#101-250",
+            "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254#0-29",
+            "genmem_40dc9b8b15c0c5b8:a0007#0-44",
+            "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca#0-29"
+          ]
+        },
+        "head_full_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_40dc9b8b15c0c5b8:selected_05:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_40dc9b8b15c0c5b8:selected_05:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_40dc9b8b15c0c5b8:selected_05:support_g03": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 1,
+            "B": 7
+          },
+          "ranked": [
+            "genmem_40dc9b8b15c0c5b8:a0025#0-164",
+            "genmem_40dc9b8b15c0c5b8:a0048#0-31",
+            "genmem_40dc9b8b15c0c5b8:a0017#0-50",
+            "genmem_40dc9b8b15c0c5b8:a0082#0-119",
+            "genmem_40dc9b8b15c0c5b8:a0130#670-726",
+            "genmem_40dc9b8b15c0c5b8:a0007#0-44",
+            "genmem_40dc9b8b15c0c5b8:a0120#101-250",
+            "genmem_40dc9b8b15c0c5b8:a0174#173-220",
+            "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca#0-29",
+            "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254#0-29"
+          ]
+        },
+        "last_round": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_40dc9b8b15c0c5b8:selected_05:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_40dc9b8b15c0c5b8:selected_05:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_40dc9b8b15c0c5b8:selected_05:support_g03": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": false,
+          "hit_rank": null,
+          "hops": null,
+          "label_ranks": {
+            "A": null,
+            "B": 5
+          },
+          "ranked": [
+            "genmem_40dc9b8b15c0c5b8:a0048#0-31",
+            "genmem_40dc9b8b15c0c5b8:a0130#670-726",
+            "genmem_40dc9b8b15c0c5b8:a0017#0-50",
+            "genmem_40dc9b8b15c0c5b8:a0007#0-44",
+            "genmem_40dc9b8b15c0c5b8:a0120#101-250",
+            "genmem_40dc9b8b15c0c5b8:a0082#0-119",
+            "genmem_40dc9b8b15c0c5b8:a0174#173-220",
+            "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca#0-29",
+            "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254#0-29"
+          ]
+        },
+        "memoryflow": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_40dc9b8b15c0c5b8:selected_05:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_40dc9b8b15c0c5b8:selected_05:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_40dc9b8b15c0c5b8:selected_05:support_g03": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": [
+            {
+              "factor": 1.0,
+              "path": [
+                "r2"
+              ],
+              "round": "r2",
+              "top": [
+                {
+                  "canonical_id": "transmission:r1",
+                  "score": 0.4416634738445282
+                },
+                {
+                  "canonical_id": "genmem_40dc9b8b15c0c5b8:a0048#0-31",
+                  "score": 0.07319825887680054
+                },
+                {
+                  "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#670-726",
+                  "score": 0.04546375945210457
+                },
+                {
+                  "canonical_id": "genmem_40dc9b8b15c0c5b8:a0017#0-50",
+                  "score": 0.03380999341607094
+                },
+                {
+                  "canonical_id": "genmem_40dc9b8b15c0c5b8:a0007#0-44",
+                  "score": 0.027896208688616753
+                }
+              ]
+            },
+            {
+              "factor": 0.441663474,
+              "path": [
+                "r2",
+                "r1"
+              ],
+              "round": "r1",
+              "top": [
+                {
+                  "canonical_id": "genmem_40dc9b8b15c0c5b8:a0025#0-164",
+                  "score": 0.6997995376586914
+                },
+                {
+                  "canonical_id": "genmem_40dc9b8b15c0c5b8:a0048#0-31",
+                  "score": 0.02460278384387493
+                },
+                {
+                  "canonical_id": "genmem_40dc9b8b15c0c5b8:a0017#0-50",
+                  "score": 0.010196789167821407
+                },
+                {
+                  "canonical_id": "genmem_40dc9b8b15c0c5b8:a0174#173-220",
+                  "score": 0.006484912242740393
+                },
+                {
+                  "canonical_id": "genmem_40dc9b8b15c0c5b8:a0082#0-119",
+                  "score": 0.006436375435441732
+                }
+              ]
+            }
+          ],
+          "label_ranks": {
+            "A": 1,
+            "B": null
+          },
+          "ranked": [
+            "genmem_40dc9b8b15c0c5b8:a0025#0-164",
+            "genmem_40dc9b8b15c0c5b8:a0048#0-31",
+            "genmem_40dc9b8b15c0c5b8:a0130#670-726",
+            "genmem_40dc9b8b15c0c5b8:a0017#0-50",
+            "genmem_40dc9b8b15c0c5b8:a0007#0-44",
+            "genmem_40dc9b8b15c0c5b8:a0174#173-220",
+            "genmem_40dc9b8b15c0c5b8:a0082#0-119"
+          ]
+        }
+      },
+      "record_type": "controlled",
+      "split": "dev",
+      "trajectory_case": "case_06",
+      "trajectory_id": "genmem_40dc9b8b15c0c5b8"
+    },
+    {
+      "case_id": "genmem_40dc9b8b15c0c5b8:selected_09",
+      "control": null,
+      "final_budget": 10,
+      "hop_budget": 5,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_40dc9b8b15c0c5b8:selected_09:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 2,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_40dc9b8b15c0c5b8:a0204#15-114",
+            "genmem_40dc9b8b15c0c5b8:a0082#0-119",
+            "genmem_40dc9b8b15c0c5b8:a0198#73-222",
+            "genmem_40dc9b8b15c0c5b8:a0130#670-726",
+            "genmem_40dc9b8b15c0c5b8:a0048#0-31",
+            "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254#0-29",
+            "genmem_40dc9b8b15c0c5b8:a0148#276-328",
+            "genmem_40dc9b8b15c0c5b8:a0017#0-50",
+            "genmem_40dc9b8b15c0c5b8:a0007#0-44",
+            "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca#0-29"
+          ]
+        },
+        "head_full_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_40dc9b8b15c0c5b8:selected_09:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 2,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_40dc9b8b15c0c5b8:a0204#15-114",
+            "genmem_40dc9b8b15c0c5b8:a0082#0-119",
+            "genmem_40dc9b8b15c0c5b8:a0048#0-31",
+            "genmem_40dc9b8b15c0c5b8:a0130#670-726",
+            "genmem_40dc9b8b15c0c5b8:a0198#73-222",
+            "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca#0-29",
+            "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254#0-29",
+            "genmem_40dc9b8b15c0c5b8:a0148#276-328",
+            "genmem_40dc9b8b15c0c5b8:a0174#173-220",
+            "genmem_40dc9b8b15c0c5b8:a0017#0-50"
+          ]
+        },
+        "last_round": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_40dc9b8b15c0c5b8:selected_09:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": null,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_40dc9b8b15c0c5b8:a0204#15-114",
+            "genmem_40dc9b8b15c0c5b8:a0198#73-222",
+            "genmem_40dc9b8b15c0c5b8:a0048#0-31",
+            "genmem_40dc9b8b15c0c5b8:a0130#670-726",
+            "genmem_40dc9b8b15c0c5b8:a0148#276-328",
+            "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca#0-29",
+            "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254#0-29",
+            "genmem_40dc9b8b15c0c5b8:a0017#0-50",
+            "genmem_40dc9b8b15c0c5b8:a0174#173-220",
+            "genmem_40dc9b8b15c0c5b8:a0007#0-44"
+          ]
+        },
+        "memoryflow": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_40dc9b8b15c0c5b8:selected_09:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": [
+            {
+              "factor": 1.0,
+              "path": [
+                "r2"
+              ],
+              "round": "r2",
+              "top": [
+                {
+                  "canonical_id": "genmem_40dc9b8b15c0c5b8:a0204#15-114",
+                  "score": 0.5961726903915405
+                },
+                {
+                  "canonical_id": "transmission:r1",
+                  "score": 0.22961241006851196
+                },
+                {
+                  "canonical_id": "genmem_40dc9b8b15c0c5b8:a0198#73-222",
+                  "score": 0.029096486046910286
+                },
+                {
+                  "canonical_id": "genmem_40dc9b8b15c0c5b8:a0048#0-31",
+                  "score": 0.00601215660572052
+                },
+                {
+                  "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#670-726",
+                  "score": 0.002517302054911852
+                }
+              ]
+            },
+            {
+              "factor": 0.22961241,
+              "path": [
+                "r2",
+                "r1"
+              ],
+              "round": "r1",
+              "top": [
+                {
+                  "canonical_id": "genmem_40dc9b8b15c0c5b8:a0082#0-119",
+                  "score": 0.48763760924339294
+                },
+                {
+                  "canonical_id": "genmem_40dc9b8b15c0c5b8:a0048#0-31",
+                  "score": 0.0713193491101265
+                },
+                {
+                  "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#670-726",
+                  "score": 0.026368634775280952
+                },
+                {
+                  "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca#0-29",
+                  "score": 0.005992324091494083
+                },
+                {
+                  "canonical_id": "genmem_40dc9b8b15c0c5b8:a0148#276-328",
+                  "score": 0.005377867724746466
+                }
+              ]
+            }
+          ],
+          "label_ranks": {
+            "A": 2,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_40dc9b8b15c0c5b8:a0204#15-114",
+            "genmem_40dc9b8b15c0c5b8:a0082#0-119",
+            "genmem_40dc9b8b15c0c5b8:a0198#73-222",
+            "genmem_40dc9b8b15c0c5b8:a0048#0-31",
+            "genmem_40dc9b8b15c0c5b8:a0130#670-726",
+            "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca#0-29",
+            "genmem_40dc9b8b15c0c5b8:a0148#276-328"
+          ]
+        }
+      },
+      "record_type": "controlled",
+      "split": "dev",
+      "trajectory_case": "case_06",
+      "trajectory_id": "genmem_40dc9b8b15c0c5b8"
+    },
+    {
+      "case_id": "genmem_f46a08bc62ee9b37:selected_02",
+      "control": null,
+      "final_budget": 10,
+      "hop_budget": 5,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_f46a08bc62ee9b37:selected_02:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 1,
+            "B": 3
+          },
+          "ranked": [
+            "genmem_f46a08bc62ee9b37:a0182#12-136",
+            "genmem_f46a08bc62ee9b37:a0066#63-203",
+            "genmem_f46a08bc62ee9b37:a0235#114-246",
+            "genmem_f46a08bc62ee9b37:a0373#0-61",
+            "genmem_f46a08bc62ee9b37:a0332#100-151",
+            "genmem_f46a08bc62ee9b37:a0278#0-62",
+            "genmem_f46a08bc62ee9b37:a0158#0-60",
+            "genmem_f46a08bc62ee9b37:arg_701766854b8e9d98#0-25",
+            "genmem_f46a08bc62ee9b37:arg_c1a0e1bdf56f68bc#0-25",
+            "genmem_f46a08bc62ee9b37:a0006#0-49"
+          ]
+        },
+        "head_full_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_f46a08bc62ee9b37:selected_02:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 1,
+            "B": 2
+          },
+          "ranked": [
+            "genmem_f46a08bc62ee9b37:a0182#12-136",
+            "genmem_f46a08bc62ee9b37:a0235#114-246",
+            "genmem_f46a08bc62ee9b37:a0373#0-61",
+            "genmem_f46a08bc62ee9b37:a0066#63-203",
+            "genmem_f46a08bc62ee9b37:a0006#0-49",
+            "genmem_f46a08bc62ee9b37:a0278#0-62",
+            "genmem_f46a08bc62ee9b37:a0332#100-151",
+            "genmem_f46a08bc62ee9b37:a0158#0-60",
+            "genmem_f46a08bc62ee9b37:arg_701766854b8e9d98#0-25",
+            "genmem_f46a08bc62ee9b37:arg_c1a0e1bdf56f68bc#0-25"
+          ]
+        },
+        "last_round": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_f46a08bc62ee9b37:selected_02:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": null,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_f46a08bc62ee9b37:a0235#114-246",
+            "genmem_f46a08bc62ee9b37:a0066#63-203",
+            "genmem_f46a08bc62ee9b37:a0373#0-61",
+            "genmem_f46a08bc62ee9b37:a0006#0-49",
+            "genmem_f46a08bc62ee9b37:a0278#0-62",
+            "genmem_f46a08bc62ee9b37:a0332#100-151",
+            "genmem_f46a08bc62ee9b37:arg_701766854b8e9d98#0-25",
+            "genmem_f46a08bc62ee9b37:arg_c1a0e1bdf56f68bc#0-25",
+            "genmem_f46a08bc62ee9b37:a0158#0-60"
+          ]
+        },
+        "memoryflow": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_f46a08bc62ee9b37:selected_02:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": [
+            {
+              "factor": 1.0,
+              "path": [
+                "r2"
+              ],
+              "round": "r2",
+              "top": [
+                {
+                  "canonical_id": "transmission:r1",
+                  "score": 0.3683849573135376
+                },
+                {
+                  "canonical_id": "genmem_f46a08bc62ee9b37:a0235#114-246",
+                  "score": 0.33777111768722534
+                },
+                {
+                  "canonical_id": "genmem_f46a08bc62ee9b37:a0066#63-203",
+                  "score": 0.025246579200029373
+                },
+                {
+                  "canonical_id": "genmem_f46a08bc62ee9b37:a0373#0-61",
+                  "score": 0.01578795164823532
+                },
+                {
+                  "canonical_id": "genmem_f46a08bc62ee9b37:a0006#0-49",
+                  "score": 0.013711598701775074
+                }
+              ]
+            },
+            {
+              "factor": 0.368384957,
+              "path": [
+                "r2",
+                "r1"
+              ],
+              "round": "r1",
+              "top": [
+                {
+                  "canonical_id": "genmem_f46a08bc62ee9b37:a0182#12-136",
+                  "score": 0.5208243131637573
+                },
+                {
+                  "canonical_id": "genmem_f46a08bc62ee9b37:a0373#0-61",
+                  "score": 0.06466546654701233
+                },
+                {
+                  "canonical_id": "genmem_f46a08bc62ee9b37:a0006#0-49",
+                  "score": 0.025207599624991417
+                },
+                {
+                  "canonical_id": "genmem_f46a08bc62ee9b37:a0066#63-203",
+                  "score": 0.022548634558916092
+                },
+                {
+                  "canonical_id": "genmem_f46a08bc62ee9b37:a0278#0-62",
+                  "score": 0.007519238628447056
+                }
+              ]
+            }
+          ],
+          "label_ranks": {
+            "A": 2,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_f46a08bc62ee9b37:a0235#114-246",
+            "genmem_f46a08bc62ee9b37:a0182#12-136",
+            "genmem_f46a08bc62ee9b37:a0373#0-61",
+            "genmem_f46a08bc62ee9b37:a0066#63-203",
+            "genmem_f46a08bc62ee9b37:a0006#0-49",
+            "genmem_f46a08bc62ee9b37:a0278#0-62"
+          ]
+        }
+      },
+      "record_type": "controlled",
+      "split": "dev",
+      "trajectory_case": "case_10",
+      "trajectory_id": "genmem_f46a08bc62ee9b37"
+    },
+    {
+      "case_id": "genmem_f46a08bc62ee9b37:selected_07",
+      "control": null,
+      "final_budget": 10,
+      "hop_budget": 5,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": true,
+          "complete_at_5": true,
+          "complete_rank": 2,
+          "group_complete": {
+            "genmem_f46a08bc62ee9b37:selected_07:support_g01": {
+              "at_10": true,
+              "at_5": true
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 1,
+            "B": 2
+          },
+          "ranked": [
+            "genmem_f46a08bc62ee9b37:a0341#115-272",
+            "genmem_f46a08bc62ee9b37:a0323#58-227",
+            "genmem_f46a08bc62ee9b37:a0066#63-203",
+            "genmem_f46a08bc62ee9b37:a0373#0-61",
+            "genmem_f46a08bc62ee9b37:a0158#0-60",
+            "genmem_f46a08bc62ee9b37:arg_701766854b8e9d98#0-25",
+            "genmem_f46a08bc62ee9b37:arg_c1a0e1bdf56f68bc#0-25",
+            "genmem_f46a08bc62ee9b37:a0006#0-49",
+            "genmem_f46a08bc62ee9b37:a0332#100-151",
+            "genmem_f46a08bc62ee9b37:a0278#0-62"
+          ]
+        },
+        "head_full_history": {
+          "complete_at_10": true,
+          "complete_at_5": true,
+          "complete_rank": 2,
+          "group_complete": {
+            "genmem_f46a08bc62ee9b37:selected_07:support_g01": {
+              "at_10": true,
+              "at_5": true
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 1,
+            "B": 2
+          },
+          "ranked": [
+            "genmem_f46a08bc62ee9b37:a0341#115-272",
+            "genmem_f46a08bc62ee9b37:a0323#58-227",
+            "genmem_f46a08bc62ee9b37:a0373#0-61",
+            "genmem_f46a08bc62ee9b37:a0006#0-49",
+            "genmem_f46a08bc62ee9b37:a0278#0-62",
+            "genmem_f46a08bc62ee9b37:a0066#63-203",
+            "genmem_f46a08bc62ee9b37:arg_701766854b8e9d98#0-25",
+            "genmem_f46a08bc62ee9b37:arg_c1a0e1bdf56f68bc#0-25",
+            "genmem_f46a08bc62ee9b37:a0332#100-151",
+            "genmem_f46a08bc62ee9b37:a0158#0-60"
+          ]
+        },
+        "last_round": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_f46a08bc62ee9b37:selected_07:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": null,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_f46a08bc62ee9b37:a0323#58-227",
+            "genmem_f46a08bc62ee9b37:a0006#0-49",
+            "genmem_f46a08bc62ee9b37:a0066#63-203",
+            "genmem_f46a08bc62ee9b37:a0278#0-62",
+            "genmem_f46a08bc62ee9b37:a0373#0-61",
+            "genmem_f46a08bc62ee9b37:arg_c1a0e1bdf56f68bc#0-25",
+            "genmem_f46a08bc62ee9b37:arg_701766854b8e9d98#0-25",
+            "genmem_f46a08bc62ee9b37:a0332#100-151",
+            "genmem_f46a08bc62ee9b37:a0158#0-60"
+          ]
+        },
+        "memoryflow": {
+          "complete_at_10": true,
+          "complete_at_5": true,
+          "complete_rank": 2,
+          "group_complete": {
+            "genmem_f46a08bc62ee9b37:selected_07:support_g01": {
+              "at_10": true,
+              "at_5": true
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": [
+            {
+              "factor": 1.0,
+              "path": [
+                "r2"
+              ],
+              "round": "r2",
+              "top": [
+                {
+                  "canonical_id": "transmission:r1",
+                  "score": 0.5589736700057983
+                },
+                {
+                  "canonical_id": "genmem_f46a08bc62ee9b37:a0323#58-227",
+                  "score": 0.22592660784721375
+                },
+                {
+                  "canonical_id": "genmem_f46a08bc62ee9b37:a0006#0-49",
+                  "score": 0.018137887120246887
+                },
+                {
+                  "canonical_id": "genmem_f46a08bc62ee9b37:a0066#63-203",
+                  "score": 0.01361897774040699
+                },
+                {
+                  "canonical_id": "genmem_f46a08bc62ee9b37:a0278#0-62",
+                  "score": 0.013030493631958961
+                }
+              ]
+            },
+            {
+              "factor": 0.55897367,
+              "path": [
+                "r2",
+                "r1"
+              ],
+              "round": "r1",
+              "top": [
+                {
+                  "canonical_id": "genmem_f46a08bc62ee9b37:a0341#115-272",
+                  "score": 0.6352828145027161
+                },
+                {
+                  "canonical_id": "genmem_f46a08bc62ee9b37:a0066#63-203",
+                  "score": 0.041625749319791794
+                },
+                {
+                  "canonical_id": "genmem_f46a08bc62ee9b37:a0006#0-49",
+                  "score": 0.03333553299307823
+                },
+                {
+                  "canonical_id": "genmem_f46a08bc62ee9b37:a0373#0-61",
+                  "score": 0.030466411262750626
+                },
+                {
+                  "canonical_id": "genmem_f46a08bc62ee9b37:a0278#0-62",
+                  "score": 0.009053558111190796
+                }
+              ]
+            }
+          ],
+          "label_ranks": {
+            "A": 1,
+            "B": 2
+          },
+          "ranked": [
+            "genmem_f46a08bc62ee9b37:a0341#115-272",
+            "genmem_f46a08bc62ee9b37:a0323#58-227",
+            "genmem_f46a08bc62ee9b37:a0066#63-203",
+            "genmem_f46a08bc62ee9b37:a0006#0-49",
+            "genmem_f46a08bc62ee9b37:a0278#0-62",
+            "genmem_f46a08bc62ee9b37:a0373#0-61"
+          ]
+        }
+      },
+      "record_type": "controlled",
+      "split": "dev",
+      "trajectory_case": "case_10",
+      "trajectory_id": "genmem_f46a08bc62ee9b37"
+    },
+    {
+      "case_id": "genmem_874c34ceb20bf193:selected_03",
+      "control": null,
+      "final_budget": 10,
+      "hop_budget": 5,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_874c34ceb20bf193:selected_03:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_874c34ceb20bf193:selected_03:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_874c34ceb20bf193:selected_03:support_g03": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 1,
+            "B": 3
+          },
+          "ranked": [
+            "genmem_874c34ceb20bf193:a0296#259-341",
+            "genmem_874c34ceb20bf193:a0074#0-62",
+            "genmem_874c34ceb20bf193:a0293#103-240",
+            "genmem_874c34ceb20bf193:a0466#0-81",
+            "genmem_874c34ceb20bf193:a0240#0-67",
+            "genmem_874c34ceb20bf193:a0270#163-266",
+            "genmem_874c34ceb20bf193:a0044#0-65",
+            "genmem_874c34ceb20bf193:a0068#0-67",
+            "genmem_874c34ceb20bf193:a0487#479-540",
+            "genmem_874c34ceb20bf193:a0431#28-53"
+          ]
+        },
+        "head_full_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_874c34ceb20bf193:selected_03:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_874c34ceb20bf193:selected_03:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_874c34ceb20bf193:selected_03:support_g03": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 1,
+            "B": 2
+          },
+          "ranked": [
+            "genmem_874c34ceb20bf193:a0296#259-341",
+            "genmem_874c34ceb20bf193:a0293#103-240",
+            "genmem_874c34ceb20bf193:a0074#0-62",
+            "genmem_874c34ceb20bf193:a0270#163-266",
+            "genmem_874c34ceb20bf193:a0487#479-540",
+            "genmem_874c34ceb20bf193:a0240#0-67",
+            "genmem_874c34ceb20bf193:a0466#0-81",
+            "genmem_874c34ceb20bf193:a0431#28-53",
+            "genmem_874c34ceb20bf193:a0044#0-65",
+            "genmem_874c34ceb20bf193:a0068#0-67"
+          ]
+        },
+        "last_round": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_874c34ceb20bf193:selected_03:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_874c34ceb20bf193:selected_03:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_874c34ceb20bf193:selected_03:support_g03": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": false,
+          "hit_rank": null,
+          "hops": null,
+          "label_ranks": {
+            "A": null,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_874c34ceb20bf193:a0293#103-240",
+            "genmem_874c34ceb20bf193:a0074#0-62",
+            "genmem_874c34ceb20bf193:a0487#479-540",
+            "genmem_874c34ceb20bf193:a0240#0-67",
+            "genmem_874c34ceb20bf193:a0270#163-266",
+            "genmem_874c34ceb20bf193:a0466#0-81",
+            "genmem_874c34ceb20bf193:a0431#28-53",
+            "genmem_874c34ceb20bf193:a0044#0-65",
+            "genmem_874c34ceb20bf193:a0068#0-67"
+          ]
+        },
+        "memoryflow": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_874c34ceb20bf193:selected_03:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_874c34ceb20bf193:selected_03:support_g02": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_874c34ceb20bf193:selected_03:support_g03": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 2,
+          "hops": [
+            {
+              "factor": 1.0,
+              "path": [
+                "r2"
+              ],
+              "round": "r2",
+              "top": [
+                {
+                  "canonical_id": "transmission:r1",
+                  "score": 0.30371737480163574
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0293#103-240",
+                  "score": 0.211984321475029
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0074#0-62",
+                  "score": 0.07212354987859726
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0487#479-540",
+                  "score": 0.024256784468889236
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0240#0-67",
+                  "score": 0.0228060781955719
+                }
+              ]
+            },
+            {
+              "factor": 0.303717375,
+              "path": [
+                "r2",
+                "r1"
+              ],
+              "round": "r1",
+              "top": [
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0296#259-341",
+                  "score": 0.39663881063461304
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0487#479-540",
+                  "score": 0.06711374223232269
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0074#0-62",
+                  "score": 0.04093011096119881
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0270#163-266",
+                  "score": 0.012215209193527699
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0431#28-53",
+                  "score": 0.004827837459743023
+                }
+              ]
+            }
+          ],
+          "label_ranks": {
+            "A": 2,
+            "B": 1
+          },
+          "ranked": [
+            "genmem_874c34ceb20bf193:a0293#103-240",
+            "genmem_874c34ceb20bf193:a0296#259-341",
+            "genmem_874c34ceb20bf193:a0074#0-62",
+            "genmem_874c34ceb20bf193:a0487#479-540",
+            "genmem_874c34ceb20bf193:a0240#0-67",
+            "genmem_874c34ceb20bf193:a0270#163-266",
+            "genmem_874c34ceb20bf193:a0431#28-53"
+          ]
+        }
+      },
+      "record_type": "controlled",
+      "split": "dev",
+      "trajectory_case": "case_02",
+      "trajectory_id": "genmem_874c34ceb20bf193"
+    },
+    {
+      "case_id": "genmem_874c34ceb20bf193:selected_09",
+      "control": null,
+      "final_budget": 10,
+      "hop_budget": 5,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_874c34ceb20bf193:selected_09:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_874c34ceb20bf193:selected_09:support_g02": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": false,
+          "hit_rank": null,
+          "hops": null,
+          "label_ranks": {
+            "A": 3,
+            "B": 2
+          },
+          "ranked": [
+            "genmem_874c34ceb20bf193:a0074#0-62",
+            "genmem_874c34ceb20bf193:a0275#110-223",
+            "genmem_874c34ceb20bf193:a0505#0-111",
+            "genmem_874c34ceb20bf193:a0466#0-81",
+            "genmem_874c34ceb20bf193:a0240#0-67",
+            "genmem_874c34ceb20bf193:a0270#163-266",
+            "genmem_874c34ceb20bf193:a0044#0-65",
+            "genmem_874c34ceb20bf193:a0068#0-67",
+            "genmem_874c34ceb20bf193:a0487#479-540",
+            "genmem_874c34ceb20bf193:a0431#28-53"
+          ]
+        },
+        "head_full_history": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_874c34ceb20bf193:selected_09:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_874c34ceb20bf193:selected_09:support_g02": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": false,
+          "hit_rank": null,
+          "hops": null,
+          "label_ranks": {
+            "A": 1,
+            "B": 5
+          },
+          "ranked": [
+            "genmem_874c34ceb20bf193:a0505#0-111",
+            "genmem_874c34ceb20bf193:a0074#0-62",
+            "genmem_874c34ceb20bf193:a0431#28-53",
+            "genmem_874c34ceb20bf193:a0240#0-67",
+            "genmem_874c34ceb20bf193:a0275#110-223",
+            "genmem_874c34ceb20bf193:a0270#163-266",
+            "genmem_874c34ceb20bf193:a0466#0-81",
+            "genmem_874c34ceb20bf193:a0044#0-65",
+            "genmem_874c34ceb20bf193:a0487#479-540",
+            "genmem_874c34ceb20bf193:a0068#0-67"
+          ]
+        },
+        "last_round": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_874c34ceb20bf193:selected_09:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_874c34ceb20bf193:selected_09:support_g02": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": false,
+          "hit_rank": null,
+          "hops": null,
+          "label_ranks": {
+            "A": null,
+            "B": 4
+          },
+          "ranked": [
+            "genmem_874c34ceb20bf193:a0074#0-62",
+            "genmem_874c34ceb20bf193:a0431#28-53",
+            "genmem_874c34ceb20bf193:a0240#0-67",
+            "genmem_874c34ceb20bf193:a0275#110-223",
+            "genmem_874c34ceb20bf193:a0044#0-65",
+            "genmem_874c34ceb20bf193:a0270#163-266",
+            "genmem_874c34ceb20bf193:a0466#0-81",
+            "genmem_874c34ceb20bf193:a0487#479-540",
+            "genmem_874c34ceb20bf193:a0068#0-67"
+          ]
+        },
+        "memoryflow": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "genmem_874c34ceb20bf193:selected_09:support_g01": {
+              "at_10": false,
+              "at_5": false
+            },
+            "genmem_874c34ceb20bf193:selected_09:support_g02": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": false,
+          "hit_rank": null,
+          "hops": [
+            {
+              "factor": 1.0,
+              "path": [
+                "r2"
+              ],
+              "round": "r2",
+              "top": [
+                {
+                  "canonical_id": "transmission:r1",
+                  "score": 0.46537548303604126
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0074#0-62",
+                  "score": 0.15557549893856049
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0431#28-53",
+                  "score": 0.10002827644348145
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0240#0-67",
+                  "score": 0.0443606972694397
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0275#110-223",
+                  "score": 0.037101663649082184
+                }
+              ]
+            },
+            {
+              "factor": 0.465375483,
+              "path": [
+                "r2",
+                "r1"
+              ],
+              "round": "r1",
+              "top": [
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0505#0-111",
+                  "score": 0.6867626309394836
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0270#163-266",
+                  "score": 0.053914379328489304
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0074#0-62",
+                  "score": 0.03623313456773758
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0487#479-540",
+                  "score": 0.023027459159493446
+                },
+                {
+                  "canonical_id": "genmem_874c34ceb20bf193:a0240#0-67",
+                  "score": 0.017674455419182777
+                }
+              ]
+            }
+          ],
+          "label_ranks": {
+            "A": 1,
+            "B": 5
+          },
+          "ranked": [
+            "genmem_874c34ceb20bf193:a0505#0-111",
+            "genmem_874c34ceb20bf193:a0074#0-62",
+            "genmem_874c34ceb20bf193:a0431#28-53",
+            "genmem_874c34ceb20bf193:a0240#0-67",
+            "genmem_874c34ceb20bf193:a0275#110-223",
+            "genmem_874c34ceb20bf193:a0270#163-266",
+            "genmem_874c34ceb20bf193:a0487#479-540"
+          ]
+        }
+      },
+      "record_type": "controlled",
+      "split": "dev",
+      "trajectory_case": "case_02",
+      "trajectory_id": "genmem_874c34ceb20bf193"
+    }
+  ],
+  "directory": "F:\\CodexProject\\MemoryFlow-research\\experiments\\multiturn_batch_v1\\batch10_v3",
+  "final_budget": 10,
+  "hop_budget": 5,
+  "schema": "memoryflow.multiturn_batch.results.v1",
+  "summary": {
+    "all": {
+      "cases": 12,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": 0.08333333333333333,
+          "complete_at_10_count": 1,
+          "complete_at_5": 0.08333333333333333,
+          "complete_at_5_count": 1,
+          "hit_at_3": 0.9166666666666666,
+          "hit_at_3_count": 11,
+          "mean_complete_rank": 10.25,
+          "mean_hit_rank": 2.0
+        },
+        "head_full_history": {
+          "complete_at_10": 0.08333333333333333,
+          "complete_at_10_count": 1,
+          "complete_at_5": 0.08333333333333333,
+          "complete_at_5_count": 1,
+          "hit_at_3": 0.9166666666666666,
+          "hit_at_3_count": 11,
+          "mean_complete_rank": 10.25,
+          "mean_hit_rank": 1.8333333333333333
+        },
+        "last_round": {
+          "complete_at_10": 0.0,
+          "complete_at_10_count": 0,
+          "complete_at_5": 0.0,
+          "complete_at_5_count": 0,
+          "hit_at_3": 0.5833333333333334,
+          "hit_at_3_count": 7,
+          "mean_complete_rank": 11.0,
+          "mean_hit_rank": 5.166666666666667
+        },
+        "memoryflow": {
+          "complete_at_10": 0.08333333333333333,
+          "complete_at_10_count": 1,
+          "complete_at_5": 0.08333333333333333,
+          "complete_at_5_count": 1,
+          "hit_at_3": 0.9166666666666666,
+          "hit_at_3_count": 11,
+          "mean_complete_rank": 10.25,
+          "mean_hit_rank": 1.9166666666666667
+        }
+      }
+    },
+    "control": {
+      "cases": 0
+    },
+    "control_case_ids": [],
+    "final_budget": 10,
+    "main": {
+      "cases": 12,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": 0.08333333333333333,
+          "complete_at_10_count": 1,
+          "complete_at_5": 0.08333333333333333,
+          "complete_at_5_count": 1,
+          "hit_at_3": 0.9166666666666666,
+          "hit_at_3_count": 11,
+          "mean_complete_rank": 10.25,
+          "mean_hit_rank": 2.0
+        },
+        "head_full_history": {
+          "complete_at_10": 0.08333333333333333,
+          "complete_at_10_count": 1,
+          "complete_at_5": 0.08333333333333333,
+          "complete_at_5_count": 1,
+          "hit_at_3": 0.9166666666666666,
+          "hit_at_3_count": 11,
+          "mean_complete_rank": 10.25,
+          "mean_hit_rank": 1.8333333333333333
+        },
+        "last_round": {
+          "complete_at_10": 0.0,
+          "complete_at_10_count": 0,
+          "complete_at_5": 0.0,
+          "complete_at_5_count": 0,
+          "hit_at_3": 0.5833333333333334,
+          "hit_at_3_count": 7,
+          "mean_complete_rank": 11.0,
+          "mean_hit_rank": 5.166666666666667
+        },
+        "memoryflow": {
+          "complete_at_10": 0.08333333333333333,
+          "complete_at_10_count": 1,
+          "complete_at_5": 0.08333333333333333,
+          "complete_at_5_count": 1,
+          "hit_at_3": 0.9166666666666666,
+          "hit_at_3_count": 11,
+          "mean_complete_rank": 10.25,
+          "mean_hit_rank": 1.9166666666666667
+        }
+      }
+    },
+    "main_case_ids": [
+      "genmem_177236211632d6b8:selected_03",
+      "genmem_177236211632d6b8:selected_04",
+      "genmem_177236211632d6b8:selected_09",
+      "genmem_177236211632d6b8:selected_10",
+      "genmem_9f963d36b4935b97:selected_04",
+      "genmem_9f963d36b4935b97:selected_07",
+      "genmem_40dc9b8b15c0c5b8:selected_05",
+      "genmem_40dc9b8b15c0c5b8:selected_09",
+      "genmem_f46a08bc62ee9b37:selected_02",
+      "genmem_f46a08bc62ee9b37:selected_07",
+      "genmem_874c34ceb20bf193:selected_03",
+      "genmem_874c34ceb20bf193:selected_09"
+    ],
+    "paired_all": {
+      "bm25_history": {
+        "complete_rank": {
+          "loss": 0,
+          "tie": 12,
+          "win": 0
+        },
+        "hit_rank": {
+          "loss": 1,
+          "tie": 9,
+          "win": 2
+        }
+      },
+      "head_full_history": {
+        "complete_rank": {
+          "loss": 0,
+          "tie": 12,
+          "win": 0
+        },
+        "hit_rank": {
+          "loss": 1,
+          "tie": 11,
+          "win": 0
+        }
+      },
+      "last_round": {
+        "complete_rank": {
+          "loss": 0,
+          "tie": 11,
+          "win": 1
+        },
+        "hit_rank": {
+          "loss": 0,
+          "tie": 8,
+          "win": 4
+        }
+      }
+    },
+    "paired_main": {
+      "bm25_history": {
+        "complete_rank": {
+          "loss": 0,
+          "tie": 12,
+          "win": 0
+        },
+        "hit_rank": {
+          "loss": 1,
+          "tie": 9,
+          "win": 2
+        }
+      },
+      "head_full_history": {
+        "complete_rank": {
+          "loss": 0,
+          "tie": 12,
+          "win": 0
+        },
+        "hit_rank": {
+          "loss": 1,
+          "tie": 11,
+          "win": 0
+        }
+      },
+      "last_round": {
+        "complete_rank": {
+          "loss": 0,
+          "tie": 11,
+          "win": 1
+        },
+        "hit_rank": {
+          "loss": 0,
+          "tie": 8,
+          "win": 4
+        }
+      }
+    }
+  }
+}

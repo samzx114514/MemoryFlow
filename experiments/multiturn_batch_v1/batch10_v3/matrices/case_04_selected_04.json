@@ -1,0 +1,201 @@
+{
+  "case_id": "genmem_9f963d36b4935b97:selected_04",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0260#0-103",
+          "score": 0.49037620425224304,
+          "text": "and the name postgres is from post-ingres, which stood for \"INteractive Graphics and REtrieval System\"."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0223#0-59",
+          "score": 0.019973181188106537,
+          "text": "This is one of several SQL commands added in Visual FoxPro."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0343#0-197",
+          "score": 0.019900934770703316,
+          "text": "Two scientists at Berkeley, Michael Stonebraker and Eugene Wong, became interested in the concept after reading the papers, and decided to start a relational database research project of their own."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0104#0-77",
+          "score": 0.002216303488239646,
+          "text": "https://rexxinfo.org/reference/articles/application_programming_sql_guide.pdf"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:arg_5925312a89175880#0-72",
+          "score": 0.00450359471142292,
+          "text": "SQL name origin Donald Chamberlin Raymond Boyce \"Ray\" SEQUEL after Boyce"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0269#158-242",
+          "score": 0.00900349859148264,
+          "text": "[27][28] In 1996, the project was renamed PostgreSQL to reflect its support for SQL."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0014#0-54",
+          "score": 4.800580791197717e-05,
+          "text": "Free SQL Code Fixer - Fix Broken Code | CodeConvert AI"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0078#0-78",
+          "score": 0.0005011200555600226,
+          "text": "https://www.relationaldbdesign.com/basic-sql/module2/sql-defined-conceived.php"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0242#0-49",
+          "score": 0.1778942495584488,
+          "text": "https://www.britannica.com/biography/J-A-D-Ingres"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0261#127-239",
+          "score": 0.009410847909748554,
+          "text": "Let me verify if PostgreSQL is the programming language in question, since SQL (which it implements) has UPDATE."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 267,
+      "seconds": 0.037,
+      "target": "The Ingres database name has two interpretations - an acronym (INteractive Graphics and REtrieval System) or named after the painter.",
+      "target_tokens": 28,
+      "total_tokens": 295
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0260#0-103",
+          "score": 0.7045656442642212,
+          "text": "and the name postgres is from post-ingres, which stood for \"INteractive Graphics and REtrieval System\"."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0223#0-59",
+          "score": 0.023114478215575218,
+          "text": "This is one of several SQL commands added in Visual FoxPro."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0343#0-197",
+          "score": 0.03319023549556732,
+          "text": "Two scientists at Berkeley, Michael Stonebraker and Eugene Wong, became interested in the concept after reading the papers, and decided to start a relational database research project of their own."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0104#0-77",
+          "score": 0.006219976581633091,
+          "text": "https://rexxinfo.org/reference/articles/application_programming_sql_guide.pdf"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:arg_5925312a89175880#0-72",
+          "score": 0.0022543722297996283,
+          "text": "SQL name origin Donald Chamberlin Raymond Boyce \"Ray\" SEQUEL after Boyce"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0269#158-242",
+          "score": 0.029517216607928276,
+          "text": "[27][28] In 1996, the project was renamed PostgreSQL to reflect its support for SQL."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0014#0-54",
+          "score": 4.641015766537748e-05,
+          "text": "Free SQL Code Fixer - Fix Broken Code | CodeConvert AI"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0078#0-78",
+          "score": 0.0006590970442630351,
+          "text": "https://www.relationaldbdesign.com/basic-sql/module2/sql-defined-conceived.php"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0242#0-49",
+          "score": 0.0031949260737746954,
+          "text": "https://www.britannica.com/biography/J-A-D-Ingres"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 245,
+      "seconds": 0.029,
+      "target": "The earlier material states: and the name postgres is from post-ingres, which stood for \"INteractive Graphics and REtrieval System\".",
+      "target_tokens": 29,
+      "total_tokens": 274
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.657676637172699,
+          "text": "The earlier material states: and the name postgres is from post-ingres, which stood for \"INteractive Graphics and REtrieval System\"."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0261#127-239",
+          "score": 0.005946310702711344,
+          "text": "Let me verify if PostgreSQL is the programming language in question, since SQL (which it implements) has UPDATE."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0223#0-59",
+          "score": 0.003786772955209017,
+          "text": "This is one of several SQL commands added in Visual FoxPro."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0343#0-197",
+          "score": 0.01039535365998745,
+          "text": "Two scientists at Berkeley, Michael Stonebraker and Eugene Wong, became interested in the concept after reading the papers, and decided to start a relational database research project of their own."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0104#0-77",
+          "score": 0.0006377131794579327,
+          "text": "https://rexxinfo.org/reference/articles/application_programming_sql_guide.pdf"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:arg_5925312a89175880#0-72",
+          "score": 0.0032095846254378557,
+          "text": "SQL name origin Donald Chamberlin Raymond Boyce \"Ray\" SEQUEL after Boyce"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0269#158-242",
+          "score": 0.002585657173767686,
+          "text": "[27][28] In 1996, the project was renamed PostgreSQL to reflect its support for SQL."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0014#0-54",
+          "score": 4.8691512347431853e-05,
+          "text": "Free SQL Code Fixer - Fix Broken Code | CodeConvert AI"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0078#0-78",
+          "score": 0.00021233658480923623,
+          "text": "https://www.relationaldbdesign.com/basic-sql/module2/sql-defined-conceived.php"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0242#0-49",
+          "score": 0.14736203849315643,
+          "text": "https://www.britannica.com/biography/J-A-D-Ingres"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 271,
+      "seconds": 0.038,
+      "target": "The Ingres database name has two interpretations - an acronym (INteractive Graphics and REtrieval System) or named after the painter.",
+      "target_tokens": 28,
+      "total_tokens": 299
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 24.94,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

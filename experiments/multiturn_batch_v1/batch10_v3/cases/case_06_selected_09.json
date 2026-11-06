@@ -1,0 +1,4004 @@
+{
+ "analysis_pool": "union",
+ "candidates": [
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0035",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0035#0-19",
+   "end": 19,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Where Are They Now?"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0136",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0136#0-58",
+   "end": 58,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Copero Game — Free Football Career Simulator | Career Mode"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0060",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0060#283-324",
+   "end": 324,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 283,
+   "text": "Portsmouth is a city itself in Hampshire."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0050",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0050#25-33",
+   "end": 33,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 25,
+   "text": "Ireland."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0103",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0103#17-58",
+   "end": 58,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 17,
+   "text": "First try clicking Pause then Play again."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0199",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0199#0-42",
+   "end": 42,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "List of conurbations in the United Kingdom"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0111",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0111#0-57",
+   "end": 57,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.ebay.com.au/shop/matt-reilly?_nkw=matt+reilly"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0109",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0109#5-50",
+   "end": 50,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 5,
+   "text": "Reilly (@matt.reilly) on TikTok | 5.4K Likes."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0198",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0198#73-222",
+   "end": 222,
+   "occurrences": [
+    {
+     "position": {
+      "index": 2,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "round": 2,
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0198:u73-222"
+    }
+   ],
+   "pool_only": false,
+   "start": 73,
+   "text": "A metropolitan area is generally defined as consisting of an urban area, conurbation or agglomeration, together with the surrounding area to which it"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0000",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0000#18-65",
+   "end": 65,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 18,
+   "text": "<current_date>2026-08-02, Sunday</current_date>"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0000",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0000#0-17",
+   "end": 17,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "<system-reminder>"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0196",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0196#0-58",
+   "end": 58,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "ESPON metropolitan areas in the United Kingdom - Wikipedia"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0071",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0071#0-18",
+   "end": 18,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "england south pub."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0130",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#438-576",
+   "end": 576,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 438,
+   "text": "\"The city that has a sports team by the same name, that Matt Reilly once played for.\" The phrasing suggests there's one team and one city."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0072",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0072#0-65",
+   "end": 65,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "How Far is it Between Birmingham, England and Portsmouth, England"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0190",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0190#422-454",
+   "end": 454,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 422,
+   "text": "Portsmouth is a standalone city."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0056",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0056#0-80",
+   "end": 80,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Frank Brettell became Portsmouth Football Club's first manager in February 1899."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0077",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0077#46-57",
+   "end": 57,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 46,
+   "text": ", 840 Pins."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0002",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0002#77-112",
+   "end": 112,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 77,
+   "text": "Let me search for this information."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_16a3c65d6f1e7fa7",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_16a3c65d6f1e7fa7#0-62",
+   "end": 62,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Reilly Portsmouth footballer clubs career Southern League"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0050",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0050#0-11",
+   "end": 11,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Goalkeeper."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0007",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0007#183-187",
+   "end": 187,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 183,
+   "text": "5.1."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0094",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0094#0-137",
+   "end": 137,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "It covers the Hampshire Economic Area: defined as the County Council’s administrative area plus the cities of Portsmouth and Southampton."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0147",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0147#95-98",
+   "end": 98,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 95,
+   "text": "51."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0155",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0155#0-28",
+   "end": 28,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://twitter.com/realnubs"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0085",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0085#25-70",
+   "end": 70,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 25,
+   "text": "Partnership for Urban South Hampshire (PUSH)."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0095",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0095#300-458",
+   "end": 458,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 300,
+   "text": "The metropolitan area in question is likely the \"South Hampshire\" conurbation/region, but more typically the city itself is part of the Portsmouth urban area."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0148",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0148#237-275",
+   "end": 275,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 237,
+   "text": "There must be one specific identifier."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0147",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0147#32-57",
+   "end": 57,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 32,
+   "text": "Brasileirão séries A e B."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0204",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0204#115-163",
+   "end": 163,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 115,
+   "text": "including Eastleigh and other surrounding towns."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0007",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0007#115-124",
+   "end": 124,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 115,
+   "text": "outline2."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0195",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0195#0-76",
+   "end": 76,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Southampton and Portsmouth are the largest urban centres of South Hampshire."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_d0d8ac2d110a7c1f",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_d0d8ac2d110a7c1f#0-29",
+   "end": 29,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "call_UROUOSApAT3NSJWiW68bn1jk"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0109",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0109#93-126",
+   "end": 126,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 93,
+   "text": "Watch the latest video from Matt."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_44cabf3bbb247f2e",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_44cabf3bbb247f2e#0-29",
+   "end": 29,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "call_oXQ8Zce4f96bcVCf3QdVpA5l"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0204",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0204#15-114",
+   "end": 114,
+   "occurrences": [
+    {
+     "position": {
+      "index": 1,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "round": 2,
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0204:u15-114"
+    }
+   ],
+   "pool_only": false,
+   "start": 15,
+   "text": "South Hampshire Conurbation, Portsmouth and Southampton are one metropolitan area (the solent city)"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0112",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0112#0-50",
+   "end": 50,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Explore a wide range of our Matt Reilly selection."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0164",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0164#0-51",
+   "end": 51,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.tiktok.com/discover/matt-reilly-podcast"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0156",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0156#38-60",
+   "end": 60,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 38,
+   "text": "Matt Reilly Retweeted."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0007",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0007#125-138",
+   "end": 138,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 125,
+   "text": "club career3."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0123",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0123#165-248",
+   "end": 248,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 165,
+   "text": "He also had spells with Southampton and Tottenham Hotspur in the Southern League..."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0048",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0048#0-31",
+   "end": 31,
+   "occurrences": [
+    {
+     "position": {
+      "index": 4,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "round": 1,
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0048:u0-31"
+    },
+    {
+     "position": {
+      "index": 5,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "round": 2,
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0048:u0-31"
+    }
+   ],
+   "pool_only": false,
+   "start": 0,
+   "text": "Portsmouth FC » Squad 1903/1904"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0030",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0030#0-80",
+   "end": 80,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.wikiwand.com/en/Category:Irish_association_footballers_(before_1923)"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0017",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0017#0-50",
+   "end": 50,
+   "occurrences": [
+    {
+     "position": {
+      "index": 5,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "round": 1,
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0017:u0-50"
+    },
+    {
+     "position": {
+      "index": 6,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "round": 2,
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0017:u0-50"
+    }
+   ],
+   "pool_only": false,
+   "start": 0,
+   "text": "Matt Reilly Football Player Statistics | 11v11.com"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0060",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0060#641-668",
+   "end": 668,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 641,
+   "text": "Now what metropolitan area?"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0082",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0082#0-119",
+   "end": 119,
+   "occurrences": [
+    {
+     "position": {
+      "index": 1,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "round": 1,
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0082:u0-119"
+    }
+   ],
+   "pool_only": false,
+   "start": 0,
+   "text": "South Hampshire is a term used mainly to refer to the conurbation formed by the city of Portsmouth, city of Southampton"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_f288d8b523b361c0",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_f288d8b523b361c0#0-31",
+   "end": 31,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "\"Matt Reilly\" footballer soccer"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0181",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0181#0-58",
+   "end": 58,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matthew Reilly's blog | Hatch Magazine - Fly Fishing, etc."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_1c429cf599c7e6c4",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_1c429cf599c7e6c4#0-29",
+   "end": 29,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "call_ViqhRnZRyaliLuH8qOvjn6h0"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0148",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0148#331-367",
+   "end": 367,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 331,
+   "text": "Hmm, let me reconsider the question."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0084",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0084#0-106",
+   "end": 106,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.researchgate.net/publication/337445376_South_Hampshire_Green_Infrastructure_Strategy_2017-2034"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0112",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0112#51-116",
+   "end": 116,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 51,
+   "text": "Find top brands, exclusive offers, and unbeatable prices on eBay."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0016",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0016#113-187",
+   "end": 187,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 113,
+   "text": "It will be updated when the player is rostered and attends with each team."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0157",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0157#0-11",
+   "end": 11,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Reilly"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0159",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0159#0-157",
+   "end": 157,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matthew Michael \"Matt\" Reilly, Plays forShelbourne FC, Tottenham Hotspur, Notts County, Dundee FC, Portsmouth FC, Royal Artillery Portsmouth, Southampton FC."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0033",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0033#0-38",
+   "end": 38,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.linkedin.com/in/mattreilly"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0126",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0126#0-32",
+   "end": 32,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "What does Matt Reilly invest in?"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0190",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0190#0-48",
+   "end": 48,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "OK, so no strong US sports link for Matt Reilly."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0130",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#264-329",
+   "end": 329,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 264,
+   "text": "Tottenham (technically a district of London, not the city itself)"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0109",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0109#51-65",
+   "end": 65,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 51,
+   "text": "771 Followers."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_6955136e13ed096c",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_6955136e13ed096c#0-47",
+   "end": 47,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "\"Matt Reilly\" NFL basketball hockey player team"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0007",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0007#90-114",
+   "end": 114,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 90,
+   "text": "tour frame collection.1."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0053",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0053#139-179",
+   "end": 179,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 139,
+   "text": "• Jack Reynolds (footballer, born 1869)."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_86099f45e1731976",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_86099f45e1731976#0-10",
+   "end": 10,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "web_search"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0205",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0205#0-43",
+   "end": 43,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "sporcle.com/games/petebrant/uk-conurbations"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0177",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0177#33-96",
+   "end": 96,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 33,
+   "text": "Fionn Hargreaves chats to the artist who skateboards on canvas."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0077",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0077#120-149",
+   "end": 149,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 120,
+   "text": "Visit Portsmouth Attractions."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0093",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0093#0-108",
+   "end": 108,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.hants.gov.uk/get-decision-document?documentId=4434&file=Item+7+_A_+Eco+Assess+Appdx.pdf&type=pdf"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0037",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0037#0-31",
+   "end": 31,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Reilly, former footballer."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0169",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0169#40-61",
+   "end": 61,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 40,
+   "text": "The most notable one."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0129",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0129#0-57",
+   "end": 57,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Reilly is Matt Reilly at Matt Reilly in Matt Reilly."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0001",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0001#681-766",
+   "end": 766,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 681,
+   "text": "- <answer-format check, entity disambiguation, arithmetic check, or uncertainty note>"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0120",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0120#101-250",
+   "end": 250,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 101,
+   "text": "Since he was Irish Matt was an accomplished at Gaelic football which is very similar to the modern Australian Rules game except a round ball is used."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254#0-29",
+   "end": 29,
+   "occurrences": [
+    {
+     "position": {
+      "index": 3,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "round": 1,
+     "unit_id": "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254:u0-29"
+    },
+    {
+     "position": {
+      "index": 4,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "round": 2,
+     "unit_id": "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254:u0-29"
+    }
+   ],
+   "pool_only": false,
+   "start": 0,
+   "text": "call_3H5tnQWLGnYo3m1ighxq9NvF"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0045",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0045#0-49",
+   "end": 49,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Reilly (footballer) | Military Wiki | Fandom"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0031",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0031#102-141",
+   "end": 141,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 102,
+   "text": "Contents.• Paddy O'Reilly (footballer)."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0104",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0104#0-55",
+   "end": 55,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "‘#SaveTheTurtles’ Matt Reilly (@MattReilly01) / Twitter"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0077",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0077#57-88",
+   "end": 88,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 57,
+   "text": "Where Is Portsmouth In England."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0144",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0144#128-167",
+   "end": 167,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 128,
+   "text": "Our 2027 F1 Driver Line-Up Predictions."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0165",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0165#0-126",
+   "end": 126,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Reilly talks about the balance of creativity, logistics, and personalities it takes to keep productions running smoothly."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0190",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0190#49-92",
+   "end": 92,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 49,
+   "text": "The Irish footballer is the main reference."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0031",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0031#0-35",
+   "end": 35,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "chrome Install Wikiwand for Chrome."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0020",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0020#0-196",
+   "end": 196,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "The question references \"a city\" with \"a sports team by the same name\" - this implies the city and team share a name (like \"Manchester\" for Manchester United/City, or \"Boston\" for Boston Celtics)."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0197",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0197#0-121",
+   "end": 121,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://web.archive.org/web/20210818115651/https://en.wikipedia.org/wiki/List_of_metropolitan_areas_in_the_United_Kingdom"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0041",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0041#0-16",
+   "end": 16,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "No results found"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0086",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0086#0-15",
+   "end": 15,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "South Hampshire"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_c4a35cb035b7d391",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_c4a35cb035b7d391#0-29",
+   "end": 29,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "call_vdoYL3IHqFlGKBcWAbJEiHbb"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0095",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0095#225-272",
+   "end": 272,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 225,
+   "text": "Portsmouth FC is named after Portsmouth (city)."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0007",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0007#175-182",
+   "end": 182,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 175,
+   "text": "record."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0032",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0032#0-70",
+   "end": 70,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Reilly - Greater Tampa Bay Area | Professional Profile | LinkedIn"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0049",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0049#0-57",
+   "end": 57,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.worldfootball.net/teams/portsmouth-fc/1904/2/"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0169",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0169#0-39",
+   "end": 39,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Let me go back to the Irish footballer."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0109",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0109#126-148",
+   "end": 148,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 126,
+   "text": "Reilly (@matt.reilly)."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0146",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0146#0-48",
+   "end": 48,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://tiermaker.com/categories/football-soccer"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0190",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0190#95-276",
+   "end": 276,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 95,
+   "text": "Given the question structure: \"the city that has a sports team by the same name, that Matt Reilly once played for\" - this is most likely Portsmouth, as his main/most prominent team."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0028",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0028#0-174",
+   "end": 174,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Biography: Matt Reilly, more usually known by the nicknames “Gunner”, \"Ginger\" or “Ginge”, had only played Gaelic football before leaving Ireland behind to serve in the army."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0169",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0169#1018-1050",
+   "end": 1050,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 1018,
+   "text": "Let me check Tampa sports teams."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0103",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0103#0-16",
+   "end": 16,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Player troubles?"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0054",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0054#24-26",
+   "end": 26,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 24,
+   "text": "C."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_a9bbce1c6dc70009",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_a9bbce1c6dc70009#0-9",
+   "end": 9,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "web_fetch"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0038",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0038#0-62",
+   "end": 62,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Reilly was an Irish footballer who played for Portsmouth."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0154",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0154#0-33",
+   "end": 33,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Reilly (@realnubs) / Twitter"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0178",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0178#63-71",
+   "end": 71,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 63,
+   "text": "| TikTok"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0060",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0060#51-122",
+   "end": 122,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 51,
+   "text": "Portsmouth is a city in England with the team \"Pompey\" / Portsmouth FC."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0169",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0169#682-757",
+   "end": 757,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 682,
+   "text": "The main referenced team is Portsmouth - where he spent most of his career."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0016",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0016#21-31",
+   "end": 31,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 21,
+   "text": "2003 GRAD."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0088",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0088#17-55",
+   "end": 55,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 17,
+   "text": "Portsmouth Urban Area and City Centre."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0129",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0129#58-158",
+   "end": 158,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 58,
+   "text": "The AdForum talent profile is part of the social network dedicated to advertising and creative pr..."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0130",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#577-669",
+   "end": 669,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 577,
+   "text": "Looking at \"Portsmouth FC\" - this most directly shares its name with the city of Portsmouth."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0095",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0095#539-644",
+   "end": 644,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 539,
+   "text": "Let me check if there's a US-based Matt Reilly who played for a sports team that shares name with a city."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0012",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0012#0-73",
+   "end": 73,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://bucknellbison.com/sports/mens-basketball/roster/matt-oreilly/3815"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0138",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0138#139-273",
+   "end": 273,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 139,
+   "text": "The idea is simple and a little bit evil: instead of grinding a created player through years of training menus, you steal your talent."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0076",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0076#0-76",
+   "end": 76,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.pinterest.com/ideas/england---portsmouth---tourist/960111779268/"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca#0-29",
+   "end": 29,
+   "occurrences": [
+    {
+     "position": {
+      "index": 2,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "round": 1,
+     "unit_id": "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca:u0-29"
+    },
+    {
+     "position": {
+      "index": 3,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "round": 2,
+     "unit_id": "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca:u0-29"
+    }
+   ],
+   "pool_only": false,
+   "start": 0,
+   "text": "call_oYdgQLDZaJGAIsXItyCFpSF0"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0095",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0095#273-299",
+   "end": 299,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 273,
+   "text": "So the city is Portsmouth."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0008",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0008#0-44",
+   "end": 44,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Reilly - Player profile | Transfermarkt"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0013",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0013#95-160",
+   "end": 160,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 95,
+   "text": "has outstanding shooting range and can also put the ball on th..."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0125",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0125#0-51",
+   "end": 51,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.roundfunded.com/en/investor/matt-reilly"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0087",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0087#0-98",
+   "end": 98,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.push.gov.uk/wp-content/uploads/2018/08/South-Hampshire-GI-Strategy-2017-2034-FINAL.pdf"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0005",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0005#0-24",
+   "end": 24,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt O'Reilly - NamuWiki"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0108",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0108#0-35",
+   "end": 35,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.tiktok.com/@matt.reilly"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0010",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0010#13-43",
+   "end": 43,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 13,
+   "text": "Date of birth/Age: 10/04/1872."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0095",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0095#55-126",
+   "end": 126,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 55,
+   "text": "Let me think again about whether Matt Reilly played for any other team."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_e83ac26781929b3f",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_e83ac26781929b3f#0-44",
+   "end": 44,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "\"Matthew Reilly\" cricketer rugby player team"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0074",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0074#87-163",
+   "end": 163,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 87,
+   "text": "This map shows the distance from Birmingham, England to Portsmouth, England."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0001",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0001#504-580",
+   "end": 580,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 504,
+   "text": "If no tool is needed or available, still write the evidence/checks you used."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0147",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0147#99-154",
+   "end": 154,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 99,
+   "text": "Polskie kluby: Ekstraklasa, 1.liga, 2.liga (2023/2024)."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0019",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0019#38-165",
+   "end": 165,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 38,
+   "text": "Please note: Career stats are based on performances in the Premier and Football Leagues and (in most cases all) internationals."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0103",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0103#71-88",
+   "end": 88,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 71,
+   "text": "Program Director."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_3e68698950ac2685",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_3e68698950ac2685#0-36",
+   "end": 36,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Portsmouth England metropolitan area"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0163",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0163#0-11",
+   "end": 11,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "4.2M posts."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_7cb0d6f7215beda3",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_7cb0d6f7215beda3#0-51",
+   "end": 51,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "\"Matt Reilly\" Australian rules football player team"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0099",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0099#0-44",
+   "end": 44,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.linkedin.com/pub/dir/Matt/Reilly"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0145",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0145#0-49",
+   "end": 49,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Football (Soccer) Tier List Templates - TierMaker"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0101",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0101#0-18",
+   "end": 18,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Reilly - KUTX"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0077",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0077#35-45",
+   "end": 45,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 35,
+   "text": "Sristevro."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0060",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0060#428-441",
+   "end": 441,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 428,
+   "text": "Let me check."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0007",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0007#0-44",
+   "end": 44,
+   "occurrences": [
+    {
+     "position": {
+      "index": 6,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "round": 1,
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0007:u0-44"
+    },
+    {
+     "position": {
+      "index": 7,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "round": 2,
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0007:u0-44"
+    }
+   ],
+   "pool_only": false,
+   "start": 0,
+   "text": "Players on loan to other clubs are excluded."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0046",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0046#0-65",
+   "end": 65,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://military-history.fandom.com/wiki/Matt_Reilly_(footballer)"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0174",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0174#131-172",
+   "end": 172,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 131,
+   "text": "What is Matt Reilly's typical check size?"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0001",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0001#768-777",
+   "end": 777,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 768,
+   "text": "Question:"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0174",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0174#221-280",
+   "end": 280,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 221,
+   "text": "Use it as a signal for whether your raise fits their stage."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0010",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0010#43-222",
+   "end": 222,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 43,
+   "text": "Name in home country: Matthew Reilly Date of birth/Age: 10/04/1872 Place of birth: Donnybrook Date of death: 09.12.1954 (82) Citizenship: Ireland Position: Goalkeeper Current club"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0195",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0195#204-251",
+   "end": 251,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 204,
+   "text": "ESPON metropolitan areas in the United Kingdom."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0069",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0069#0-59",
+   "end": 59,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "3 Beautiful Places in the South of England Tourists Neglect"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0060",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0060#249-282",
+   "end": 282,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 249,
+   "text": "The metropolitan area would be..."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0001",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0001#667-680",
+   "end": 680,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 667,
+   "text": "Verification:"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0060",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0060#0-12",
+   "end": 12,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Interesting."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0019",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0019#12-19",
+   "end": 19,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 12,
+   "text": "Season."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0094",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0094#138-185",
+   "end": 185,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 138,
+   "text": "It is based on comprehensive data and analysis."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0056",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0056#166-254",
+   "end": 254,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 166,
+   "text": "He also brought in many talented players from northern clubs like Everton and Liverpool."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0141",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0141#13-172",
+   "end": 172,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 13,
+   "text": "Clubs played for: Benburb, Royal Artillery, Southampton (loan), Freemantle (loan), Portsmouth, Dundee, Notts County, Tottenham Hotspur, Shelbourne (1893-1909)."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0026",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0026#0-20",
+   "end": 20,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt “Gunner” Reilly"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0142",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0142#33-64",
+   "end": 64,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 33,
+   "text": "| Grill The Grid 2026 - YouTube"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0001",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0001#610-619",
+   "end": 619,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 610,
+   "text": "Evidence:"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0100",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0100#0-67",
+   "end": 67,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "View the profiles of professionals named \"Matt Reilly\" on LinkedIn."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0130",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#101-121",
+   "end": 121,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 101,
+   "text": "All have city names!"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_b211d85d1e851690",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_b211d85d1e851690#0-51",
+   "end": 51,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "\"Matt Reilly\" footballer Wikipedia Portsmouth teams"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_b959a0ef3ddcfa68",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_b959a0ef3ddcfa68#0-70",
+   "end": 70,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "\"Portsmouth\" \"South Hampshire\" OR \"Portsmouth urban area\" metropolitan"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0198",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0198#264-274",
+   "end": 274,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 264,
+   "text": "1,547,000."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0102",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0102#0-41",
+   "end": 41,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://kutx.org/?hosts-staff=matt-reilly"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0001",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0001#48-94",
+   "end": 94,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 48,
+   "text": "Answer the question as accurately as possible."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0198",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0198#222-263",
+   "end": 263,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 222,
+   "text": "Portsmouth-Southampton metropolitan area."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0163",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0163#12-69",
+   "end": 69,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 12,
+   "text": "Discover videos related to Matt Reilly Podcast on TikTok."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0195",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0195#186-203",
+   "end": 203,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 186,
+   "text": "BBC Radio Solent."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0204",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0204#0-14",
+   "end": 14,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "You missed out"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0050",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0050#45-70",
+   "end": 70,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 45,
+   "text": "Portsmouth Football Club."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0038",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0038#63-150",
+   "end": 150,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 63,
+   "text": "Portsmouth is a city with the team \"Pompey\" - but the team name doesn't match the city."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_b8caef8b4be0be5d",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_b8caef8b4be0be5d#0-29",
+   "end": 29,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "call_diNLx7Ft73h0KLqEi2ugjEOD"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0190",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0190#277-322",
+   "end": 322,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 277,
+   "text": "Portsmouth FC is named after Portsmouth city."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0055",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0055#0-49",
+   "end": 49,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://kids.kiddle.co/History_of_Portsmouth_F.C."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0066",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0066#58-67",
+   "end": 67,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 58,
+   "text": "- YouTube"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0169",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0169#758-785",
+   "end": 785,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 758,
+   "text": "Let me focus on Portsmouth."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0024",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0024#0-54",
+   "end": 54,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://en.wikipedia.org/wiki/Matt_Reilly_(footballer)"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0098",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0098#0-38",
+   "end": 38,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "500+ \"Matt Reilly\" profiles | LinkedIn"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0007",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0007#69-89",
+   "end": 89,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 69,
+   "text": "[ Expand/Collapse ]."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0001",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0001#395-503",
+   "end": 503,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 395,
+   "text": "Verify the key entities/attributes with available tools or with explicit evidence from the provided context."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0129",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0129#158-234",
+   "end": 234,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 158,
+   "text": "This profile was created because Matt Reilly has been referenced on AdForum."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0037",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0037#82-151",
+   "end": 151,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 82,
+   "text": "He was known \"Gunner Reilly\" and later became a publican in Southsea."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0147",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0147#28-31",
+   "end": 31,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 28,
+   "text": "40."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0088",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0088#0-16",
+   "end": 16,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Local Authority."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0029",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0029#0-63",
+   "end": 63,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Category:Irish association footballers (before 1923) - Wikiwand"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0148",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0148#368-507",
+   "end": 507,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 368,
+   "text": "Maybe the question is referencing a specific well-known Matt Reilly, perhaps an Australian rugby league player, or something else specific."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0198",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0198#0-72",
+   "end": 72,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "The 20 largest ESPON metropolitan areas in the UK, ranked by population."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0165",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0165#126-255",
+   "end": 255,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 126,
+   "text": "Lagerbielke scores a last gasp winner after some magic from Matt O’Reilly to stop Celtics unwanted winless Champions League run!!"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0148",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0148#508-573",
+   "end": 573,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 508,
+   "text": "Let me check if there's a more contemporary/relevant Matt Reilly."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0077",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0077#89-119",
+   "end": 119,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 89,
+   "text": "Planning A Trip To Portsmouth."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0001",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0001#582-609",
+   "end": 609,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 582,
+   "text": "Use this visible structure:"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0067",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0067#0-43",
+   "end": 43,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.youtube.com/watch?v=jxP-acuj6Uk"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0031",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0031#145-158",
+   "end": 158,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 145,
+   "text": "• Jack Peden."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0064",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0064#0-47",
+   "end": 47,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://en.wikipedia.org/wiki/Metropolitan_area"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_fee9d46086e4b962",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_fee9d46086e4b962#0-29",
+   "end": 29,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "call_qM1Yi1HrMMmwYXlte1bK8E2M"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0148",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0148#156-236",
+   "end": 236,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 156,
+   "text": "The question asks \"the city that has a sports team by the same name\" - singular."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0025",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0025#0-164",
+   "end": 164,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matthew Michael Reilly (22 March 1874 – 9 December 1954) was an Irish international goalkeeper who played most of his career with Portsmouth in the Southern League."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0130",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#828-901",
+   "end": 901,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 828,
+   "text": "Let me verify which one is THE team that has \"the same name\" as the city."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0184",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0184#0-38",
+   "end": 38,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Reilly | Interlochen Public Radio"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0027",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0027#0-63",
+   "end": 63,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://nifootball.blogspot.com/2008/01/matt-gunner-reilly.html"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0085",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0085#70-159",
+   "end": 159,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 70,
+   "text": "Portsmouth, Southampton and the Isle of Wight; Hampshire County Council and the district."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0009",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0009#0-65",
+   "end": 65,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.transfermarkt.co.in/matt-reilly/profil/spieler/977422"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0190",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0190#455-561",
+   "end": 561,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 455,
+   "text": "But it might be considered part of the South Hampshire conurbation or \"South Hampshire metropolitan area\"."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0206",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0206#0-55",
+   "end": 55,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.sporcle.com/games/petebrant/uk-conurbations"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0060",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0060#223-248",
+   "end": 248,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 223,
+   "text": "The \"city\" is Portsmouth."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_785038b416817add",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_785038b416817add#0-38",
+   "end": 38,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "\"Matt Reilly\" rugby league player team"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0002",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0002#0-76",
+   "end": 76,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "I need to identify Matt Reilly the sports player and the team he played for."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0148",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0148#0-153",
+   "end": 153,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "So Matt Reilly played for many clubs: Benburb, Royal Artillery, Southampton, Freemantle, Portsmouth, Dundee, Notts County, Tottenham Hotspur, Shelbourne."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0082",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0082#120-238",
+   "end": 238,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 120,
+   "text": "and the non-metropolitan boroughs of Gosport, Fareham, Havant and Eastleigh in southern Hampshire, South East England."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0031",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0031#142-144",
+   "end": 144,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 142,
+   "text": "P."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0085",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0085#0-24",
+   "end": 24,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Portsmouth City Council."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0201",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0201#0-120",
+   "end": 120,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Geography of the United Kingdom — The United Kingdom of Great Britain and Northern Ireland, or UK, is in Western Europe."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0183",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0183#0-48",
+   "end": 48,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Photo: Matt Reilly | Illustration: Andrea Larko."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0169",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0169#256-433",
+   "end": 433,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 256,
+   "text": "Actually, I should re-read: \"the city that has a sports team by the same name, that Matt Reilly once played for.\" So the city has a sports team \"by the same name [as the city]\"."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0074",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0074#164-224",
+   "end": 224,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 164,
+   "text": "You can also see the distance in miles and km below the map."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0130",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#218-263",
+   "end": 263,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 218,
+   "text": "All four teams fit - Portsmouth, Southampton,"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0050",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0050#71-88",
+   "end": 88,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 71,
+   "text": "Country: England."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0106",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0106#0-29",
+   "end": 29,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Click to Follow MattReilly01."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0073",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0073#0-98",
+   "end": 98,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.freemaptools.com/how-far-is-it-between-birmingham_-england-and-portsmouth_-england.htm"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0141",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0141#173-184",
+   "end": 184,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 173,
+   "text": "Born: 1874."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0050",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0050#34-45",
+   "end": 45,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 34,
+   "text": "22/03/1874."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0185",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0185#0-57",
+   "end": 57,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.interlochenpublicradio.org/people/matt-reilly"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0000",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0000#66-84",
+   "end": 84,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 66,
+   "text": "</system-reminder>"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0100",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0100#68-185",
+   "end": 185,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 68,
+   "text": "There are 500+ professionals named \"Matt Reilly\", who use LinkedIn to exchange information, ideas, and opportunities."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0059",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0059#102-254",
+   "end": 254,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 102,
+   "text": "He made an inauspicious start in a 3-0 defeat at Stoke and lost his place mid-season to Albert Iremonger (who at 6’ 5½“ was to become a Magpies legend)."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0070",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0070#0-109",
+   "end": 109,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://thecollector-frontend-nextjs-git-master-thecollector.vercel.app/places-south-england-tourist-neglect/"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0066",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0066#0-57",
+   "end": 57,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Portsmouth English Costal City | 4K HDR 60 FPS Walking..."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0130",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#331-376",
+   "end": 376,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 331,
+   "text": "But which is THE team the question refers to?"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0001",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0001#0-46",
+   "end": 46,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "You are solving a benchmark training question."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0090",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0090#0-68",
+   "end": 68,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://studylib.net/doc/18663906/south-hampshire-town-centres-–-sub"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0001",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0001#895-948",
+   "end": 948,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 895,
+   "text": "Return your final answer in this exact trailing form:"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0107",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0107#0-5",
+   "end": 5,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0010",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0010#0-12",
+   "end": 12,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Reilly."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0107",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0107#5-35",
+   "end": 35,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 5,
+   "text": "Reilly (@matt.reilly) | TikTok"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0176",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0176#0-53",
+   "end": 53,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://uclpimedia.com/online/introducing-matt-reilly"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0068",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0068#0-159",
+   "end": 159,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Todays walk was filmed in Portsmouth England 4K HDR 60 FPS - City Walking Tour around PortsmouthPortsmouth, a port city and naval base on England's south co..."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0035",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0035#20-47",
+   "end": 47,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 20,
+   "text": "| Footballers | Matt Reilly"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0175",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0175#0-34",
+   "end": 34,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Introducing Matt Reilly — Pi Media"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0007",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0007#188-210",
+   "end": 210,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 188,
+   "text": "competition record5.2."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_35914a14dbfd31b0",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_35914a14dbfd31b0#0-29",
+   "end": 29,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "call_c7CxQqjyYejL7b2OVG5AvBSd"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0103",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0103#89-159",
+   "end": 159,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 89,
+   "text": "What musical experience most set you on the path to a career in radio?"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0001",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0001#164-288",
+   "end": 288,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 164,
+   "text": "Leave a compact, observable solve trace before the final answer so this run can be distilled into reusable experience later."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_8e380cdea1c2b75c",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_8e380cdea1c2b75c#0-9",
+   "end": 9,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "tool_call"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0169",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0169#474-591",
+   "end": 591,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 474,
+   "text": "All of these teams (Portsmouth, Southampton, Dundee, Tottenham, Notts County) are named after their cities/districts."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0071",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0071#65-92",
+   "end": 92,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 65,
+   "text": "Photograph by Gary Houston."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0144",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0144#168-189",
+   "end": 189,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 168,
+   "text": "P1 with Matt & Tommy."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0088",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0088#55-231",
+   "end": 231,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 55,
+   "text": "The Portsmouth Plan adopted in 2012 provides a Core Strategy to the area and subsequently has made no changes in its guidance or policies since the publication of the HRA-lite."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0054",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0054#27-41",
+   "end": 41,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 27,
+   "text": "Facts for Kids"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0001",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0001#778-893",
+   "end": 893,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 778,
+   "text": "What metropolitan area includes the city that has a sports team by the same name, that Matt Reilly once played for?"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0060",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0060#325-427",
+   "end": 427,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 325,
+   "text": "It might be part of the South Hampshire metropolitan area or referred to as the Portsmouth urban area."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0130",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#378-437",
+   "end": 437,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 378,
+   "text": "Let me focus on what the question is asking more carefully."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0071",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0071#19-64",
+   "end": 64,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 19,
+   "text": "Britain’s oldest pub, Ye Olde Fighting Cocks."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0177",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0177#0-24",
+   "end": 24,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Introducing Matt Reilly."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0169",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0169#592-679",
+   "end": 679,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 592,
+   "text": "However, \"Tottenham Hotspur\" doesn't share the full name with a city (it's a district)."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0169",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0169#143-254",
+   "end": 254,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 143,
+   "text": "Looking at this, the question might be ambiguous, but let me consider which is the most likely intended answer."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0080",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0080#0-27",
+   "end": 27,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "South Hampshire - Wikipedia"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0007",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0007#211-226",
+   "end": 226,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 211,
+   "text": "personal award."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0144",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0144#0-121",
+   "end": 121,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Damon and Tom Holland: The Pizza Interview | NYT CookingNYT Cooking2.2M views • 2 weeks agoLivePlaylist ()Mix (50+)."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0077",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0077#0-34",
+   "end": 34,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Portsmouth (and surrounding area)."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0156",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0156#0-25",
+   "end": 25,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Click to Follow realnubs."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0126",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0126#33-201",
+   "end": 201,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 33,
+   "text": "Matt Reilly invests in Healthcare & Biotech, SaaS & Enterprise, Manufacturing & Industrial and Mobility & Logistics, typically at Pre Seed, Seed, Series A and Series B."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0183",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0183#213-298",
+   "end": 298,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 213,
+   "text": "The fly fishing community as a whole, sortof likewise, is a small and transient band."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0060",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0060#562-611",
+   "end": 611,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 562,
+   "text": "Portsmouth FC is named after Portsmouth the city."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0031",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0031#36-101",
+   "end": 101,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 36,
+   "text": "IntroductionCategory:Irish association footballers (before 1923)."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0074",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0074#46-87",
+   "end": 87,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 46,
+   "text": "Meeting Centre of Gravity for Post Codes."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0204",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0204#164-230",
+   "end": 230,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 164,
+   "text": "I think it is the 7th largest metropolitan area and still growing."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0124",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0124#0-52",
+   "end": 52,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Reilly, Associate at Angeles Equity Partners..."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0105",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0105#0-32",
+   "end": 32,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://twitter.com/MattReilly01"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0128",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0128#0-48",
+   "end": 48,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.adforum.com/talent/64397-matt-reilly"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0130",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#122-215",
+   "end": 215,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 122,
+   "text": "The question is asking about a \"sports team by the same name\" - by the same name as the city."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_ee524abc8ca95d69",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_ee524abc8ca95d69#0-38",
+   "end": 38,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "\"Matt Reilly\" athlete Tampa Bay sports"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0011",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0011#0-64",
+   "end": 64,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt O'Reilly - Men's Basketball - Bucknell University Athletics"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_d0df9fb11070123f",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_d0df9fb11070123f#0-29",
+   "end": 29,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "call_8WXf32YJNYI34vUZ6GNJFKHo"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0169",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0169#62-142",
+   "end": 142,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 62,
+   "text": "The question is interesting because Reilly played for multiple city-named teams."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0110",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0110#0-18",
+   "end": 18,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Reilly | eBay"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0130",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#0-100",
+   "end": 100,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "So Matt Reilly (footballer) played for Portsmouth, Southampton, Tottenham Hotspur, and Notts County."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0001",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0001#95-163",
+   "end": 163,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 95,
+   "text": "Use DeerFlow tools or subagents only when they are genuinely useful."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0203",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0203#0-74",
+   "end": 74,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://ukcityfacts.blogspot.com/2008/08/urban-areas-and-conurbations.html"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0016",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0016#13-20",
+   "end": 20,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 13,
+   "text": "Follow."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0089",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0089#0-34",
+   "end": 34,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "South Hampshire town centres – sub"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0207",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0207#0-16",
+   "end": 16,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "UK conurbations."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0094",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0094#186-286",
+   "end": 286,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 186,
+   "text": "Preparing a LEA is not a one-off task; rather the legislation requires that it be regularly updated."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0060",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0060#469-561",
+   "end": 561,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 469,
+   "text": "The question says \"sports team by the same name\" - meaning the team's name matches the city."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0056",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0056#81-165",
+   "end": 165,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 81,
+   "text": "He signed players from the former Royal Artillery team, like goalkeeper Matt Reilly."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0106",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0106#30-60",
+   "end": 60,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 30,
+   "text": "‘#SaveTheTurtles’ Matt Reilly."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0037",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0037#32-82",
+   "end": 82,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 32,
+   "text": "Find out what happened after he hung up his boots."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_91b9d0691b7f3b71",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_91b9d0691b7f3b71#0-29",
+   "end": 29,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "call_K1XRHWkLtUp6MtjovbNsBNab"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0034",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0034#0-63",
+   "end": 63,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Location: Greater Tampa Bay Area · 477 connections on LinkedIn."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0124",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0124#53-67",
+   "end": 67,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 53,
+   "text": "| Round Funded"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0065",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0065#0-216",
+   "end": 216,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "A metropolitan area or metro is a region consisting of a densely populated urban agglomeration and its surrounding territories; which share industries, commercial areas, transport network, infrastructure and housing."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0130",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#728-827",
+   "end": 827,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 728,
+   "text": "Looking at the search results, his primary career was with Portsmouth (the most prominent mention)."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0127",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0127#0-60",
+   "end": 60,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Reilly | AdForum Talent: The creative industry network."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0007",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0007#162-174",
+   "end": 174,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 162,
+   "text": "play style5."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0037",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0037#151-206",
+   "end": 206,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 151,
+   "text": "He died in his native Dublin in December 1954, aged 80."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0025",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0025#246-267",
+   "end": 267,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 246,
+   "text": "Personal information."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0091",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0091#0-191",
+   "end": 191,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "74 South Hampshire Town Centres Sub-Regional Study: Volume 2 March 2006 SOUTHSEA 5.59 Southsea town centre, within the Portsmouth conurbation, is situated in a predominantly residential area."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0169",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0169#434-471",
+   "end": 471,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 434,
+   "text": "And Matt Reilly played for that team."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0007",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0007#139-161",
+   "end": 161,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 139,
+   "text": "national team career4."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0143",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0143#0-43",
+   "end": 43,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.youtube.com/watch?v=hLaE1Nfp210"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0007",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0007#45-68",
+   "end": 68,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 45,
+   "text": "Matt O'Reilly's Awards."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0169",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0169#978-1017",
+   "end": 1017,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 978,
+   "text": "There's Tampa Bay area (from LinkedIn)."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0014",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0014#0-61",
+   "end": 61,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Reilly Class of 2003 - Player Profile | Perfect Game USA"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0085",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0085#160-256",
+   "end": 256,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 160,
+   "text": "authorities of Eastleigh, East Hampshire, Fareham, Gosport, Havant, New Forest, Test Valley and."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0156",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0156#61-76",
+   "end": 76,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 61,
+   "text": "Rebekah Marine."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0190",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0190#369-421",
+   "end": 421,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 369,
+   "text": "In the UK, \"metropolitan area\" typically isn't used."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0025",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0025#164-202",
+   "end": 202,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 164,
+   "text": "From Wikipedia, the free encyclopedia."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0137",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0137#0-28",
+   "end": 28,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.coperojuego.com/"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0190",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0190#324-368",
+   "end": 368,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 324,
+   "text": "Now what metropolitan area is Portsmouth in?"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0130",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#670-726",
+   "end": 726,
+   "occurrences": [
+    {
+     "position": {
+      "index": 7,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "round": 1,
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0130:u670-726"
+    },
+    {
+     "position": {
+      "index": 8,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "round": 2,
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0130:u670-726"
+    }
+   ],
+   "pool_only": false,
+   "start": 670,
+   "text": "Same with Southampton FC - shares name with Southampton."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0071",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0071#93-170",
+   "end": 170,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 93,
+   "text": "It wouldn’t be a trip to the UK without squeezing in an afternoon at the pub."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0019",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0019#0-11",
+   "end": 11,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Club stats."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0177",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0177#25-32",
+   "end": 32,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 25,
+   "text": "m1.png."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_b8983540cfc8cd33",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_b8983540cfc8cd33#0-29",
+   "end": 29,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "call_TEjJt74vZAKTFDUpDAi6N1fN"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0006",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0006#0-29",
+   "end": 29,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://en.namu.wiki/w/맷+오라일리"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0083",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0083#55-69",
+   "end": 69,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 55,
+   "text": "| ResearchGate"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0071",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0071#171-238",
+   "end": 238,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 171,
+   "text": "This is an area where St Albans offers a fine selection of options."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0053",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0053#102-138",
+   "end": 138,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 102,
+   "text": "Contents.• Matt Reilly (footballer)."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0001",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0001#949-971",
+   "end": 971,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 949,
+   "text": "Final answer: <answer>"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0092",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0092#0-44",
+   "end": 44,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Microsoft Word - Item 7 _A_ Eco Assess Appdx"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0025",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0025#203-232",
+   "end": 232,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 203,
+   "text": "Irish footballer (1874-1954)."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0130",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#329-330",
+   "end": 330,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 329,
+   "text": "."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0106",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0106#61-253",
+   "end": 253,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 61,
+   "text": "NFL: New York Giants NCAAF: LSU Tigers (OBJ was my favorite player in 2018 then Burrowmania happened) NBA: New York Knicks NHL: New York Rangers NCAAB: Rutgers Scarlet Knights MLB: New York..."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0177",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0177#97-268",
+   "end": 268,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 97,
+   "text": "New-York based performance artist Matt Reilly enjoys creating a spectacle – he has performed alongside synchronised swimmers and played a gig atop the Williamsburg Bridge."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0147",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0147#0-27",
+   "end": 27,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "All England Football Clubs."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0063",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0063#0-29",
+   "end": 29,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Metropolitan area - Wikipedia"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0142",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0142#0-32",
+   "end": 32,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Guess The Driver By Team Career!"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0174",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0174#173-220",
+   "end": 220,
+   "occurrences": [
+    {
+     "position": {
+      "index": 8,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "round": 1,
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0174:u173-220"
+    },
+    {
+     "position": {
+      "index": 9,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "round": 2,
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0174:u173-220"
+    }
+   ],
+   "pool_only": false,
+   "start": 173,
+   "text": "Matt Reilly typically writes checks around $1M."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0109",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0109#66-93",
+   "end": 93,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 66,
+   "text": "Lebron the goat God first ."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0001",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0001#290-394",
+   "end": 394,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 290,
+   "text": "For factual, entity-comparison, multi-hop, or time-sensitive questions, do not answer from a bare guess."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_88d0760d540e8bc8",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_88d0760d540e8bc8#0-55",
+   "end": 55,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Portsmouth-Southampton metropolitan area UK conurbation"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0186",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0186#13-192",
+   "end": 192,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 13,
+   "text": "Choc Quib Town, a hip-hop act from Colombia's Pacific coast, mixes in marimba and other traditional instruments with turntables and keyboards, creating a world beat-infused sound."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_c1a0e1bdf56f68bc",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_c1a0e1bdf56f68bc#0-29",
+   "end": 29,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "call_T5IwNXuAUnhe2VyVX9leFQFt"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0060",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0060#443-468",
+   "end": 468,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 443,
+   "text": "Wait - let me reconsider."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0081",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0081#0-45",
+   "end": 45,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://en.wikipedia.org/wiki/South_Hampshire"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_c9021e7d2144cb2a",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_c9021e7d2144cb2a#0-29",
+   "end": 29,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "\"Matt Reilly\" baseball player"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0095",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0095#0-54",
+   "end": 54,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Hmm, this might also refer to a different Matt Reilly."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_f093e4c349d65af6",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_f093e4c349d65af6#0-29",
+   "end": 29,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "call_CJqEe7dKCYP07sSZBmvJ2Hlt"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0019",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0019#26-38",
+   "end": 38,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 26,
+   "text": "Competition."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0195",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0195#77-186",
+   "end": 186,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 77,
+   "text": "The region can be subdivided into two conurbations, one centred around Southampton and one around Portsmouth."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0156",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0156#77-92",
+   "end": 92,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 77,
+   "text": "@rebekahmarine."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0158",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0158#0-57",
+   "end": 57,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.worldfootball.net/player_summary/matt-reilly/"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0202",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0202#0-62",
+   "end": 62,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "UK Cities: The Facts and Figures: Urban Areas and Conurbations"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0169",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0169#836-906",
+   "end": 906,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 836,
+   "text": "Actually, in the US context, there's also Matt Reilly in other sports."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_e4be8ce1689665ed",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_e4be8ce1689665ed#0-68",
+   "end": 68,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Reilly footballer career clubs list 1874 Portsmouth Southampton"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0036",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0036#0-65",
+   "end": 65,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.where-are-they-now.co.uk/footballer/Reilly+Matt/17412"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0054",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0054#0-24",
+   "end": 24,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "History of Portsmouth F."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0028",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0028#174-275",
+   "end": 275,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 174,
+   "text": "Reilly played the only Football League matches of his career with Notts County in the 1905/06 season."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0074",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0074#0-45",
+   "end": 45,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Find UK Postcodes Inside a User Defined Area."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0183",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0183#49-212",
+   "end": 212,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 49,
+   "text": "Fly fishing, as I have come to know it, is a sport defined by local flavor and knowledge; its micro-cultures and idiosyncrasies strongly tied to elements of place."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0200",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0200#0-45",
+   "end": 45,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://en-academic.com/dic.nsf/enwiki/358691"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0095",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0095#127-224",
+   "end": 224,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 127,
+   "text": "The question hint says \"the city that has a sports team by the same name\" - this is the key clue."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0039",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0039#0-50",
+   "end": 50,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Error: Request to Jina API failed: ConnectTimeout:"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0144",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0144#122-128",
+   "end": 128,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 122,
+   "text": "22:40."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0129",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0129#235-273",
+   "end": 273,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 235,
+   "text": "It's my profile and I want to edit it."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0201",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0201#120-264",
+   "end": 264,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 120,
+   "text": "List of largest United Kingdom settlements by population — For a list of the largest contiguous urban areas or conurbations in the UK, see here."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0179",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0179#0-71",
+   "end": 71,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.tiktok.com/@mattreillyproductions/video/6692511795266981125"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0095",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0095#460-538",
+   "end": 538,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 460,
+   "text": "Wait, the UK doesn't really use \"metropolitan area\" in the same way as the US."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0182",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0182#0-35",
+   "end": 35,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.hatchmag.com/blog/11624"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_bcd0059d077570ed",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_bcd0059d077570ed#0-37",
+   "end": 37,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Reilly sports player team career"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0126",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0126#202-272",
+   "end": 272,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 202,
+   "text": "Match your sector and stage, then reach out with a personalized pitch."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0147",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0147#57-94",
+   "end": 94,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 57,
+   "text": "Maiores clubes do brasil - tier list."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0138",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0138#0-138",
+   "end": 138,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Rey de Copas is a free football career simulator you can play in your browser in about three minutes — no download, no login, no tutorial."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0001",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0001#620-666",
+   "end": 666,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 620,
+   "text": "- <key fact, calculation, or tool result used>"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0034",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0034#64-150",
+   "end": 150,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 64,
+   "text": "View Matt Reilly’s profile on LinkedIn, a professional community of 1 billion members."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0019",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0019#20-25",
+   "end": 25,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 20,
+   "text": "Team."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0013",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0013#0-94",
+   "end": 94,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt O'Reilly (22) Guard - Talented perimeter player who committed to Bucknell in May 2015 ..."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_766495f517c5c640",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_766495f517c5c640#0-29",
+   "end": 29,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "call_4RD7hGjANWBCBMmMquhUi0dF"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0174",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0174#0-71",
+   "end": 71,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Reilly typically invests at Pre Seed, Seed, Series A and Series B."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0190",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0190#563-633",
+   "end": 633,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 563,
+   "text": "Let me check if Portsmouth has a specifically named metropolitan area."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0060",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0060#123-222",
+   "end": 222,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 123,
+   "text": "The question says \"the city that has a sports team by the same name.\" Portsmouth has Portsmouth FC."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0019",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0019#166-179",
+   "end": 179,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 166,
+   "text": "Club matches."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0060",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0060#612-640",
+   "end": 640,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 612,
+   "text": "So the answer is Portsmouth."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0148",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0148#276-328",
+   "end": 328,
+   "occurrences": [
+    {
+     "position": {
+      "index": 9,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "round": 1,
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0148:u276-328"
+    },
+    {
+     "position": {
+      "index": 10,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "round": 2,
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0148:u276-328"
+    }
+   ],
+   "pool_only": false,
+   "start": 276,
+   "text": "Looking at it - he played for many city-named teams."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0174",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0174#72-130",
+   "end": 130,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 72,
+   "text": "Lead with traction that fits the stage when you reach out."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0180",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0180#0-46",
+   "end": 46,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Reilly's short video with original sound."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0083",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0083#0-54",
+   "end": 54,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "(PDF) South Hampshire Green Infrastructure Strategy..."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0178",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0178#0-62",
+   "end": 62,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Reilly (@mattreillyproductions)’s videos with original..."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0020",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0020#197-274",
+   "end": 274,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 197,
+   "text": "Let me search more specifically for \"Matt Reilly\" player with city-name team."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0060",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0060#13-50",
+   "end": 50,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 13,
+   "text": "So Matt Reilly played for Portsmouth."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0075",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0075#0-70",
+   "end": 70,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Find and save ideas about england / portsmouth / tourist on Pinterest."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0169",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0169#786-834",
+   "end": 834,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 786,
+   "text": "The metropolitan area for Portsmouth, England..."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0169",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0169#907-977",
+   "end": 977,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 907,
+   "text": "Let me think about whether the question may be referring to a US city."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0015",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0015#0-64",
+   "end": 64,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.perfectgame.org/Players/PlayerProfile.aspx?ID=110546"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0038",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0038#151-189",
+   "end": 189,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 151,
+   "text": "Let me check Wikipedia more carefully."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0016",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0016#31-112",
+   "end": 112,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 31,
+   "text": "Team Last Played is the team with which the player last attended a PG tournament."
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0018",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0018#0-49",
+   "end": 49,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "https://www.11v11.com/players/matt-reilly-142449/"
+  },
+  {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0023",
+   "canonical_id": "genmem_40dc9b8b15c0c5b8:a0023#0-36",
+   "end": 36,
+   "occurrences": [],
+   "pool_only": true,
+   "start": 0,
+   "text": "Matt Reilly (footballer) - Wikipedia"
+  }
+ ],
+ "case_id": "genmem_40dc9b8b15c0c5b8:selected_09",
+ "control": null,
+ "evidence_groups": [
+  {
+   "coverage": "full",
+   "group_id": "genmem_40dc9b8b15c0c5b8:selected_09:support_g01",
+   "items": [
+    {
+     "alternatives": [
+      {
+       "artifact_id": "genmem_40dc9b8b15c0c5b8:a0082",
+       "end": 119,
+       "start": 0,
+       "text": "South Hampshire is a term used mainly to refer to the conurbation formed by the city of Portsmouth, city of Southampton"
+      }
+     ],
+     "primary": {
+      "artifact_id": "genmem_40dc9b8b15c0c5b8:a0082",
+      "end": 119,
+      "start": 0,
+      "text": "South Hampshire is a term used mainly to refer to the conurbation formed by the city of Portsmouth, city of Southampton"
+     }
+    },
+    {
+     "alternatives": [
+      {
+       "artifact_id": "genmem_40dc9b8b15c0c5b8:a0204",
+       "end": 114,
+       "start": 15,
+       "text": "South Hampshire Conurbation, Portsmouth and Southampton are one metropolitan area (the solent city)"
+      }
+     ],
+     "primary": {
+      "artifact_id": "genmem_40dc9b8b15c0c5b8:a0204",
+      "end": 114,
+      "start": 15,
+      "text": "South Hampshire Conurbation, Portsmouth and Southampton are one metropolitan area (the solent city)"
+     }
+    },
+    {
+     "alternatives": [
+      {
+       "artifact_id": "genmem_40dc9b8b15c0c5b8:a0198",
+       "end": 263,
+       "start": 222,
+       "text": "Portsmouth-Southampton metropolitan area."
+      }
+     ],
+     "primary": {
+      "artifact_id": "genmem_40dc9b8b15c0c5b8:a0198",
+      "end": 263,
+      "start": 222,
+      "text": "Portsmouth-Southampton metropolitan area."
+     }
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "genmem_40dc9b8b15c0c5b8:a0082#0-119"
+  ],
+  "B": [
+   "genmem_40dc9b8b15c0c5b8:a0204#15-114"
+  ]
+ },
+ "provenance": {
+  "A_unit": "genmem_40dc9b8b15c0c5b8:a0082:u0-119",
+  "B_unit": "genmem_40dc9b8b15c0c5b8:a0204:u15-114",
+  "case_dir": "artifacts\\raw\\genmem_batch10_v3\\subset\\contextual64_v4\\case_06",
+  "group_id": "genmem_40dc9b8b15c0c5b8:selected_09:support_g01",
+  "note": "two-round controlled construction from contextual64_v4; not an original request snapshot",
+  "round2_a_source_leaks": [],
+  "same_source_policy": "normalized source text; representative unit + all occurrences",
+  "target_id": "genmem_40dc9b8b15c0c5b8:selected_09"
+ },
+ "record_type": "controlled",
+ "rounds": [
+  {
+   "inputs": [
+    {
+     "artifact_id": "genmem_40dc9b8b15c0c5b8:a0082",
+     "end": 119,
+     "position": {
+      "index": 1,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "start": 0,
+     "text": "South Hampshire is a term used mainly to refer to the conurbation formed by the city of Portsmouth, city of Southampton",
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0082:u0-119"
+    },
+    {
+     "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca",
+     "end": 29,
+     "position": {
+      "index": 2,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "start": 0,
+     "text": "call_oYdgQLDZaJGAIsXItyCFpSF0",
+     "unit_id": "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca:u0-29"
+    },
+    {
+     "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254",
+     "end": 29,
+     "position": {
+      "index": 3,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "start": 0,
+     "text": "call_3H5tnQWLGnYo3m1ighxq9NvF",
+     "unit_id": "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254:u0-29"
+    },
+    {
+     "artifact_id": "genmem_40dc9b8b15c0c5b8:a0048",
+     "end": 31,
+     "position": {
+      "index": 4,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "start": 0,
+     "text": "Portsmouth FC » Squad 1903/1904",
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0048:u0-31"
+    },
+    {
+     "artifact_id": "genmem_40dc9b8b15c0c5b8:a0017",
+     "end": 50,
+     "position": {
+      "index": 5,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "start": 0,
+     "text": "Matt Reilly Football Player Statistics | 11v11.com",
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0017:u0-50"
+    },
+    {
+     "artifact_id": "genmem_40dc9b8b15c0c5b8:a0007",
+     "end": 44,
+     "position": {
+      "index": 6,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "start": 0,
+     "text": "Players on loan to other clubs are excluded.",
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0007:u0-44"
+    },
+    {
+     "artifact_id": "genmem_40dc9b8b15c0c5b8:a0130",
+     "end": 726,
+     "position": {
+      "index": 7,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "start": 670,
+     "text": "Same with Southampton FC - shares name with Southampton.",
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0130:u670-726"
+    },
+    {
+     "artifact_id": "genmem_40dc9b8b15c0c5b8:a0174",
+     "end": 220,
+     "position": {
+      "index": 8,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "start": 173,
+     "text": "Matt Reilly typically writes checks around $1M.",
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0174:u173-220"
+    },
+    {
+     "artifact_id": "genmem_40dc9b8b15c0c5b8:a0148",
+     "end": 328,
+     "position": {
+      "index": 9,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "start": 276,
+     "text": "Looking at it - he played for many city-named teams.",
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0148:u276-328"
+    }
+   ],
+   "output": {
+    "origin": "controlled_output",
+    "sha256": "ea0a83281574f8711d2486f9a4afe9f2624065bc4948f1d856a4f39cfef0ca4a",
+    "text": "The earlier material states: South Hampshire is a term used mainly to refer to the conurbation formed by the city of Portsmouth, city of Southampton"
+   },
+   "question": "According to the materials, what is the key earlier statement?",
+   "round": 1,
+   "transmission": []
+  },
+  {
+   "inputs": [
+    {
+     "artifact_id": "genmem_40dc9b8b15c0c5b8:a0204",
+     "end": 114,
+     "position": {
+      "index": 1,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "start": 15,
+     "text": "South Hampshire Conurbation, Portsmouth and Southampton are one metropolitan area (the solent city)",
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0204:u15-114"
+    },
+    {
+     "artifact_id": "genmem_40dc9b8b15c0c5b8:a0198",
+     "end": 222,
+     "position": {
+      "index": 2,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "start": 73,
+     "text": "A metropolitan area is generally defined as consisting of an urban area, conurbation or agglomeration, together with the surrounding area to which it",
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0198:u73-222"
+    },
+    {
+     "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca",
+     "end": 29,
+     "position": {
+      "index": 3,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "start": 0,
+     "text": "call_oYdgQLDZaJGAIsXItyCFpSF0",
+     "unit_id": "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca:u0-29"
+    },
+    {
+     "artifact_id": "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254",
+     "end": 29,
+     "position": {
+      "index": 4,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "start": 0,
+     "text": "call_3H5tnQWLGnYo3m1ighxq9NvF",
+     "unit_id": "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254:u0-29"
+    },
+    {
+     "artifact_id": "genmem_40dc9b8b15c0c5b8:a0048",
+     "end": 31,
+     "position": {
+      "index": 5,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "start": 0,
+     "text": "Portsmouth FC » Squad 1903/1904",
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0048:u0-31"
+    },
+    {
+     "artifact_id": "genmem_40dc9b8b15c0c5b8:a0017",
+     "end": 50,
+     "position": {
+      "index": 6,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "start": 0,
+     "text": "Matt Reilly Football Player Statistics | 11v11.com",
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0017:u0-50"
+    },
+    {
+     "artifact_id": "genmem_40dc9b8b15c0c5b8:a0007",
+     "end": 44,
+     "position": {
+      "index": 7,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "start": 0,
+     "text": "Players on loan to other clubs are excluded.",
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0007:u0-44"
+    },
+    {
+     "artifact_id": "genmem_40dc9b8b15c0c5b8:a0130",
+     "end": 726,
+     "position": {
+      "index": 8,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "start": 670,
+     "text": "Same with Southampton FC - shares name with Southampton.",
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0130:u670-726"
+    },
+    {
+     "artifact_id": "genmem_40dc9b8b15c0c5b8:a0174",
+     "end": 220,
+     "position": {
+      "index": 9,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "start": 173,
+     "text": "Matt Reilly typically writes checks around $1M.",
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0174:u173-220"
+    },
+    {
+     "artifact_id": "genmem_40dc9b8b15c0c5b8:a0148",
+     "end": 328,
+     "position": {
+      "index": 10,
+      "slot": "material"
+     },
+     "role": "distractor",
+     "start": 276,
+     "text": "Looking at it - he played for many city-named teams.",
+     "unit_id": "genmem_40dc9b8b15c0c5b8:a0148:u276-328"
+    }
+   ],
+   "output": {
+    "origin": "recorded_target",
+    "sha256": "112a2679d76aeae0f8be86f2e5067f3d70f47977b555077af2e209d2f1c362e8",
+    "text": "- Portsmouth is part of the Portsmouth-Southampton metropolitan area (also called South Hampshire)"
+   },
+   "question": "Using the earlier statement and the new material, write the final sentence.",
+   "round": 2,
+   "transmission": [
+    {
+     "from_round": 1,
+     "position": {
+      "index": 0,
+      "slot": "earlier_finding"
+     },
+     "sha256": "ea0a83281574f8711d2486f9a4afe9f2624065bc4948f1d856a4f39cfef0ca4a",
+     "text": "The earlier material states: South Hampshire is a term used mainly to refer to the conurbation formed by the city of Portsmouth, city of Southampton",
+     "unit_id": "round1_output"
+    }
+   ]
+  }
+ ],
+ "schema": "memoryflow.multiturn_case.v1",
+ "split": "dev",
+ "target": {
+  "artifact_id": "genmem_40dc9b8b15c0c5b8:a0208",
+  "end": 357,
+  "origin": "recorded_target",
+  "original_target": {
+   "artifact_id": "genmem_40dc9b8b15c0c5b8:a0208",
+   "end": 357,
+   "event_index": 29,
+   "start": 259,
+   "text": "- Portsmouth is part of the Portsmouth-Southampton metropolitan area (also called South Hampshire)"
+  },
+  "sha256": "112a2679d76aeae0f8be86f2e5067f3d70f47977b555077af2e209d2f1c362e8",
+  "start": 259,
+  "text": "- Portsmouth is part of the Portsmouth-Southampton metropolitan area (also called South Hampshire)"
+ },
+ "trajectory_case": "case_06",
+ "trajectory_id": "genmem_40dc9b8b15c0c5b8"
+}

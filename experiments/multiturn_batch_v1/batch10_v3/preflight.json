@@ -1,0 +1,228 @@
+{
+  "cases": [
+    {
+      "candidates": 670,
+      "case_id": "genmem_177236211632d6b8:selected_03",
+      "evidence_groups": 4,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_01_selected_03",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "genmem_177236211632d6b8"
+    },
+    {
+      "candidates": 670,
+      "case_id": "genmem_177236211632d6b8:selected_04",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_01_selected_04",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "genmem_177236211632d6b8"
+    },
+    {
+      "candidates": 670,
+      "case_id": "genmem_177236211632d6b8:selected_09",
+      "evidence_groups": 4,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_01_selected_09",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "genmem_177236211632d6b8"
+    },
+    {
+      "candidates": 670,
+      "case_id": "genmem_177236211632d6b8:selected_10",
+      "evidence_groups": 3,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_01_selected_10",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "genmem_177236211632d6b8"
+    },
+    {
+      "candidates": 790,
+      "case_id": "genmem_9f963d36b4935b97:selected_04",
+      "evidence_groups": 2,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_04_selected_04",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "genmem_9f963d36b4935b97"
+    },
+    {
+      "candidates": 790,
+      "case_id": "genmem_9f963d36b4935b97:selected_07",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_04_selected_07",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "genmem_9f963d36b4935b97"
+    },
+    {
+      "candidates": 384,
+      "case_id": "genmem_40dc9b8b15c0c5b8:selected_05",
+      "evidence_groups": 3,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_06_selected_05",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "genmem_40dc9b8b15c0c5b8"
+    },
+    {
+      "candidates": 384,
+      "case_id": "genmem_40dc9b8b15c0c5b8:selected_09",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_06_selected_09",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "genmem_40dc9b8b15c0c5b8"
+    },
+    {
+      "candidates": 558,
+      "case_id": "genmem_f46a08bc62ee9b37:selected_02",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_10_selected_02",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "genmem_f46a08bc62ee9b37"
+    },
+    {
+      "candidates": 558,
+      "case_id": "genmem_f46a08bc62ee9b37:selected_07",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_10_selected_07",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "genmem_f46a08bc62ee9b37"
+    },
+    {
+      "candidates": 709,
+      "case_id": "genmem_874c34ceb20bf193:selected_03",
+      "evidence_groups": 3,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_02_selected_03",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "genmem_874c34ceb20bf193"
+    },
+    {
+      "candidates": 709,
+      "case_id": "genmem_874c34ceb20bf193:selected_09",
+      "evidence_groups": 2,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_02_selected_09",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "genmem_874c34ceb20bf193"
+    }
+  ],
+  "schema": "memoryflow.multiturn_batch.preflight.v1",
+  "totals": {
+    "blocked": 0,
+    "cases": 12,
+    "incomplete": 0,
+    "ok": 12
+  },
+  "trajectory_split_issues": []
+}

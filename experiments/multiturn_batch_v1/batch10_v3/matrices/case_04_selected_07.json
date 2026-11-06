@@ -1,0 +1,201 @@
+{
+  "case_id": "genmem_9f963d36b4935b97:selected_07",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0522#69-197",
+          "score": 0.44233450293540955,
+          "text": "the statements means Mr. Michael Widenius have a daughter, her name is 'My', based on which he named the query language 'MySQL'."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0223#0-59",
+          "score": 0.00799056701362133,
+          "text": "This is one of several SQL commands added in Visual FoxPro."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0343#0-197",
+          "score": 0.029086222872138023,
+          "text": "Two scientists at Berkeley, Michael Stonebraker and Eugene Wong, became interested in the concept after reading the papers, and decided to start a relational database research project of their own."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0104#0-77",
+          "score": 0.004608668386936188,
+          "text": "https://rexxinfo.org/reference/articles/application_programming_sql_guide.pdf"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:arg_5925312a89175880#0-72",
+          "score": 0.15424278378486633,
+          "text": "SQL name origin Donald Chamberlin Raymond Boyce \"Ray\" SEQUEL after Boyce"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0269#158-242",
+          "score": 0.014340315945446491,
+          "text": "[27][28] In 1996, the project was renamed PostgreSQL to reflect its support for SQL."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0014#0-54",
+          "score": 0.0020129855256527662,
+          "text": "Free SQL Code Fixer - Fix Broken Code | CodeConvert AI"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0078#0-78",
+          "score": 0.006455587688833475,
+          "text": "https://www.relationaldbdesign.com/basic-sql/module2/sql-defined-conceived.php"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0242#0-49",
+          "score": 0.0006341546541079879,
+          "text": "https://www.britannica.com/biography/J-A-D-Ingres"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0016#58-215",
+          "score": 0.015101921744644642,
+          "text": "is a powerful, domain-specific programming language designed for managing, querying, and manipulating data in relational database management systems (RDBMS)."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 278,
+      "seconds": 0.038,
+      "target": "MySQL's name is composed of two parts: \"My\" + \"SQL\".",
+      "target_tokens": 16,
+      "total_tokens": 294
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0522#69-197",
+          "score": 0.6553516387939453,
+          "text": "the statements means Mr. Michael Widenius have a daughter, her name is 'My', based on which he named the query language 'MySQL'."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0223#0-59",
+          "score": 0.04798322916030884,
+          "text": "This is one of several SQL commands added in Visual FoxPro."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0343#0-197",
+          "score": 0.05144326016306877,
+          "text": "Two scientists at Berkeley, Michael Stonebraker and Eugene Wong, became interested in the concept after reading the papers, and decided to start a relational database research project of their own."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0104#0-77",
+          "score": 0.000604057393502444,
+          "text": "https://rexxinfo.org/reference/articles/application_programming_sql_guide.pdf"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:arg_5925312a89175880#0-72",
+          "score": 0.009285307489335537,
+          "text": "SQL name origin Donald Chamberlin Raymond Boyce \"Ray\" SEQUEL after Boyce"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0269#158-242",
+          "score": 0.012298457324504852,
+          "text": "[27][28] In 1996, the project was renamed PostgreSQL to reflect its support for SQL."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0014#0-54",
+          "score": 0.0005958291003480554,
+          "text": "Free SQL Code Fixer - Fix Broken Code | CodeConvert AI"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0078#0-78",
+          "score": 0.0006072833202779293,
+          "text": "https://www.relationaldbdesign.com/basic-sql/module2/sql-defined-conceived.php"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0242#0-49",
+          "score": 0.00017838258645497262,
+          "text": "https://www.britannica.com/biography/J-A-D-Ingres"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 251,
+      "seconds": 0.03,
+      "target": "The earlier material states: the statements means Mr. Michael Widenius have a daughter, her name is 'My', based on which he named the query language 'MySQL'.",
+      "target_tokens": 35,
+      "total_tokens": 286
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.560843288898468,
+          "text": "The earlier material states: the statements means Mr. Michael Widenius have a daughter, her name is 'My', based on which he named the query language 'MySQL'."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0016#58-215",
+          "score": 0.03302866220474243,
+          "text": "is a powerful, domain-specific programming language designed for managing, querying, and manipulating data in relational database management systems (RDBMS)."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0223#0-59",
+          "score": 0.002719731302931905,
+          "text": "This is one of several SQL commands added in Visual FoxPro."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0343#0-197",
+          "score": 0.018483011052012444,
+          "text": "Two scientists at Berkeley, Michael Stonebraker and Eugene Wong, became interested in the concept after reading the papers, and decided to start a relational database research project of their own."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0104#0-77",
+          "score": 0.002783300122246146,
+          "text": "https://rexxinfo.org/reference/articles/application_programming_sql_guide.pdf"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:arg_5925312a89175880#0-72",
+          "score": 0.06769847869873047,
+          "text": "SQL name origin Donald Chamberlin Raymond Boyce \"Ray\" SEQUEL after Boyce"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0269#158-242",
+          "score": 0.005329200066626072,
+          "text": "[27][28] In 1996, the project was renamed PostgreSQL to reflect its support for SQL."
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0014#0-54",
+          "score": 0.0012514156987890601,
+          "text": "Free SQL Code Fixer - Fix Broken Code | CodeConvert AI"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0078#0-78",
+          "score": 0.003268722677603364,
+          "text": "https://www.relationaldbdesign.com/basic-sql/module2/sql-defined-conceived.php"
+        },
+        {
+          "canonical_id": "genmem_9f963d36b4935b97:a0242#0-49",
+          "score": 0.0004696521791629493,
+          "text": "https://www.britannica.com/biography/J-A-D-Ingres"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 282,
+      "seconds": 0.04,
+      "target": "MySQL's name is composed of two parts: \"My\" + \"SQL\".",
+      "target_tokens": 16,
+      "total_tokens": 298
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 24.94,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

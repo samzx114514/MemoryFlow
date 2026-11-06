@@ -1,0 +1,125 @@
+[
+  {
+    "case": "case_01",
+    "target_id": "genmem_177236211632d6b8:selected_03",
+    "group_id": "genmem_177236211632d6b8:selected_03:support_g01",
+    "A": "genmem_177236211632d6b8:a0219:u73-200",
+    "B": "genmem_177236211632d6b8:a0007:u0-120",
+    "intermediate": "The earlier material states: , leading UCF to three ASUN Championships and trips to NCAA Tournament (2002-2004), reaching the 2nd round twice (‘03 and ‘04).",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_01",
+    "target_id": "genmem_177236211632d6b8:selected_04",
+    "group_id": "genmem_177236211632d6b8:selected_04:support_g01",
+    "A": "genmem_177236211632d6b8:a0272:u397-522",
+    "B": "genmem_177236211632d6b8:a0289:u0-134",
+    "intermediate": "The earlier material states: The question asks \"where is the coach going to?\" which might mean his next destination after UCF, or his current destination.",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_01",
+    "target_id": "genmem_177236211632d6b8:selected_09",
+    "group_id": "genmem_177236211632d6b8:selected_09:support_g02",
+    "A": "genmem_177236211632d6b8:a0219:u73-200",
+    "B": "genmem_177236211632d6b8:a0007:u0-120",
+    "intermediate": "The earlier material states: , leading UCF to three ASUN Championships and trips to NCAA Tournament (2002-2004), reaching the 2nd round twice (‘03 and ‘04).",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_01",
+    "target_id": "genmem_177236211632d6b8:selected_10",
+    "group_id": "genmem_177236211632d6b8:selected_10:support_g01",
+    "A": "genmem_177236211632d6b8:a0308:u145-254",
+    "B": "genmem_177236211632d6b8:a0425:u38-99",
+    "intermediate": "The earlier material states: EXPERIENCE: Served as head coach for the University of Central Florida[apos]s men[apos]s team from 1993-2004.",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_04",
+    "target_id": "genmem_9f963d36b4935b97:selected_04",
+    "group_id": "genmem_9f963d36b4935b97:selected_04:support_g01",
+    "A": "genmem_9f963d36b4935b97:a0260:u0-103",
+    "B": "genmem_9f963d36b4935b97:a0261:u127-239",
+    "intermediate": "The earlier material states: and the name postgres is from post-ingres, which stood for \"INteractive Graphics and REtrieval System\".",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_04",
+    "target_id": "genmem_9f963d36b4935b97:selected_07",
+    "group_id": "genmem_9f963d36b4935b97:selected_07:support_g01",
+    "A": "genmem_9f963d36b4935b97:a0522:u69-197",
+    "B": "genmem_9f963d36b4935b97:a0016:u58-215",
+    "intermediate": "The earlier material states: the statements means Mr. Michael Widenius have a daughter, her name is 'My', based on which he named the query language 'MySQL'.",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_06",
+    "target_id": "genmem_40dc9b8b15c0c5b8:selected_05",
+    "group_id": "genmem_40dc9b8b15c0c5b8:selected_05:support_g01",
+    "A": "genmem_40dc9b8b15c0c5b8:a0123:u0-164",
+    "B": "genmem_40dc9b8b15c0c5b8:a0120:u101-250",
+    "intermediate": "The earlier material states: Matthew Michael Reilly (22 March 1874 – 9 December 1954) was an Irish international goalkeeper who played most of his career with Portsmouth in the Southern League.",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_06",
+    "target_id": "genmem_40dc9b8b15c0c5b8:selected_09",
+    "group_id": "genmem_40dc9b8b15c0c5b8:selected_09:support_g01",
+    "A": "genmem_40dc9b8b15c0c5b8:a0082:u0-119",
+    "B": "genmem_40dc9b8b15c0c5b8:a0204:u15-114",
+    "intermediate": "The earlier material states: South Hampshire is a term used mainly to refer to the conurbation formed by the city of Portsmouth, city of Southampton",
+    "analysis_pool": "union",
+    "merge_same_source": false,
+    "r2_extras": [
+      "genmem_40dc9b8b15c0c5b8:a0198:u73-222"
+    ]
+  },
+  {
+    "case": "case_10",
+    "target_id": "genmem_f46a08bc62ee9b37:selected_02",
+    "group_id": "genmem_f46a08bc62ee9b37:selected_02:support_g01",
+    "A": "genmem_f46a08bc62ee9b37:a0182:u12-136",
+    "B": "genmem_f46a08bc62ee9b37:a0235:u114-246",
+    "intermediate": "The earlier material states: Cryolipolysis is characterized by localized and controlled cooling of the subcutaneous adipose tissue, in a non-invasive way",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_10",
+    "target_id": "genmem_f46a08bc62ee9b37:selected_07",
+    "group_id": "genmem_f46a08bc62ee9b37:selected_07:support_g01",
+    "A": "genmem_f46a08bc62ee9b37:a0341:u115-272",
+    "B": "genmem_f46a08bc62ee9b37:a0323:u58-227",
+    "intermediate": "The earlier material states: This study results revealed the superi-ority of cavitation and radiofrequency over cryolipolysis on waist circumference, skinfold, weight reduction, and BMI.",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_02",
+    "target_id": "genmem_874c34ceb20bf193:selected_03",
+    "group_id": "genmem_874c34ceb20bf193:selected_03:support_g01",
+    "A": "genmem_874c34ceb20bf193:a0305:u0-82",
+    "B": "genmem_874c34ceb20bf193:a0293:u103-240",
+    "intermediate": "The earlier material states: Secret Symphony is the fifth studio album by British singer-songwriter Katie Melua",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  },
+  {
+    "case": "case_02",
+    "target_id": "genmem_874c34ceb20bf193:selected_09",
+    "group_id": "genmem_874c34ceb20bf193:selected_09:support_g01",
+    "A": "genmem_874c34ceb20bf193:a0505:u0-111",
+    "B": "genmem_874c34ceb20bf193:a0275:u110-223",
+    "intermediate": "The earlier material states: Six Days In Berlin – 4th solo album for Epic – made at Hansa (Berlin) and Montserrat during is wordwide voyage.",
+    "analysis_pool": "union",
+    "merge_same_source": false
+  }
+]

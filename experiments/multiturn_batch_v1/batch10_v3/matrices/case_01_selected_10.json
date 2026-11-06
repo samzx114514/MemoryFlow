@@ -1,0 +1,201 @@
+{
+  "case_id": "genmem_177236211632d6b8:selected_10",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_177236211632d6b8:a0308#145-254",
+          "score": 0.2830198407173157,
+          "text": "EXPERIENCE: Served as head coach for the University of Central Florida[apos]s men[apos]s team from 1993-2004."
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:arg_ed9e720238fffa10#0-25",
+          "score": 0.0023859560023993254,
+          "text": "call_-7436862694818315117"
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:a0470#0-55",
+          "score": 0.002401625970378518,
+          "text": "Ranking The 25 Best American Soccer Players Of All Time"
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:a0373#0-150",
+          "score": 0.016407864168286324,
+          "text": "Sep 10, 2024 · The ex-Spurs and Chelsea boss takes over a young USA team eager to take the next step forward ahead of the 2026 World Cup on home soil."
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:a0477#0-58",
+          "score": 0.0020295092836022377,
+          "text": "https://www.footballtransfers.com/en/players/erick-vasquez"
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:a0466#150-231",
+          "score": 0.07051608711481094,
+          "text": "He played two more years there, serving as team captain in his final two seasons."
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:a0014#0-64",
+          "score": 0.0010595549829304218,
+          "text": "Eric Vasquez - Positive Mental Attitude-”I didn’t wake up to ..."
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:a0487#0-44",
+          "score": 0.03459741175174713,
+          "text": "One-on-One with Bob Winch - Post and Courier"
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
+          "score": 0.01159498281776905,
+          "text": "call_-7436821291333576094"
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:a0425#38-99",
+          "score": 0.3317611813545227,
+          "text": "and he would serve one season as an assistant coach at Auburn"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 280,
+      "seconds": 0.038,
+      "target": "After leaving UCF in 2004, Bob Winch went to **Auburn University** as an assistant coach for the women's soccer team for the 2005 season",
+      "target_tokens": 40,
+      "total_tokens": 320
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_177236211632d6b8:a0308#145-254",
+          "score": 0.6138613820075989,
+          "text": "EXPERIENCE: Served as head coach for the University of Central Florida[apos]s men[apos]s team from 1993-2004."
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:arg_ed9e720238fffa10#0-25",
+          "score": 0.0110007980838418,
+          "text": "call_-7436862694818315117"
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:a0470#0-55",
+          "score": 0.005771088879555464,
+          "text": "Ranking The 25 Best American Soccer Players Of All Time"
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:a0373#0-150",
+          "score": 0.05378206446766853,
+          "text": "Sep 10, 2024 · The ex-Spurs and Chelsea boss takes over a young USA team eager to take the next step forward ahead of the 2026 World Cup on home soil."
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:a0477#0-58",
+          "score": 0.0043703182600438595,
+          "text": "https://www.footballtransfers.com/en/players/erick-vasquez"
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:a0466#150-231",
+          "score": 0.01802762597799301,
+          "text": "He played two more years there, serving as team captain in his final two seasons."
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:a0014#0-64",
+          "score": 0.004539486952126026,
+          "text": "Eric Vasquez - Positive Mental Attitude-”I didn’t wake up to ..."
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:a0487#0-44",
+          "score": 0.024022260680794716,
+          "text": "One-on-One with Bob Winch - Post and Courier"
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
+          "score": 0.015526298433542252,
+          "text": "call_-7436821291333576094"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 267,
+      "seconds": 0.038,
+      "target": "The earlier material states: EXPERIENCE: Served as head coach for the University of Central Florida[apos]s men[apos]s team from 1993-2004.",
+      "target_tokens": 41,
+      "total_tokens": 308
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.29381364583969116,
+          "text": "The earlier material states: EXPERIENCE: Served as head coach for the University of Central Florida[apos]s men[apos]s team from 1993-2004."
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:a0425#38-99",
+          "score": 0.29365408420562744,
+          "text": "and he would serve one season as an assistant coach at Auburn"
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:arg_ed9e720238fffa10#0-25",
+          "score": 0.004591210279613733,
+          "text": "call_-7436862694818315117"
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:a0470#0-55",
+          "score": 0.005851243622601032,
+          "text": "Ranking The 25 Best American Soccer Players Of All Time"
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:a0373#0-150",
+          "score": 0.02818995714187622,
+          "text": "Sep 10, 2024 · The ex-Spurs and Chelsea boss takes over a young USA team eager to take the next step forward ahead of the 2026 World Cup on home soil."
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:a0477#0-58",
+          "score": 0.005960685666650534,
+          "text": "https://www.footballtransfers.com/en/players/erick-vasquez"
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:a0466#150-231",
+          "score": 0.05772487446665764,
+          "text": "He played two more years there, serving as team captain in his final two seasons."
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:a0014#0-64",
+          "score": 0.00440056249499321,
+          "text": "Eric Vasquez - Positive Mental Attitude-”I didn’t wake up to ..."
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:a0487#0-44",
+          "score": 0.02235190011560917,
+          "text": "One-on-One with Bob Winch - Post and Courier"
+        },
+        {
+          "canonical_id": "genmem_177236211632d6b8:arg_a39b4e45e40beeb9#0-25",
+          "score": 0.005091895814985037,
+          "text": "call_-7436821291333576094"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 283,
+      "seconds": 0.038,
+      "target": "After leaving UCF in 2004, Bob Winch went to **Auburn University** as an assistant coach for the women's soccer team for the 2005 season",
+      "target_tokens": 40,
+      "total_tokens": 323
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 24.94,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

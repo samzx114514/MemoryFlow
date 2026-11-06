@@ -1,0 +1,201 @@
+{
+  "case_id": "genmem_874c34ceb20bf193:selected_09",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0505#0-111",
+          "score": 0.4534074664115906,
+          "text": "Six Days In Berlin – 4th solo album for Epic – made at Hansa (Berlin) and Montserrat during is wordwide voyage."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0487#479-540",
+          "score": 0.004399703349918127,
+          "text": "Actually, let me re-read the MuSiQue question more carefully."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0270#163-266",
+          "score": 0.01282696146517992,
+          "text": "Also during this time, he composed the music for the film A Merry War and even re-launched the Wombles."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0074#0-62",
+          "score": 0.13373389840126038,
+          "text": "Let me search for Mike Batt's fifth studio album specifically."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0431#28-53",
+          "score": 0.08302463591098785,
+          "text": "Market Day In Guernica 3."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0044#0-65",
+          "score": 0.00724421814084053,
+          "text": "https://musicbrainz.org/work/8f968432-7b1e-34af-b3ad-40cc8d9c45f7"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0466#0-81",
+          "score": 0.01011587679386139,
+          "text": "George's new album “Except Always” is the new double album from George Marinelli."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0240#0-67",
+          "score": 0.07528427243232727,
+          "text": "https://www.discogs.com/release/336731-Mike-Batt-Six-Days-In-Berlin"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0068#0-67",
+          "score": 0.002153651090338826,
+          "text": "https://musicbrainz.org/artist/2f354cca-0eba-46e2-a716-96f14f47865a"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0275#110-223",
+          "score": 0.05782002583146095,
+          "text": "Batt's character \"Number 17\" falls in love and is sent to an emotional decontamination centre called \"Zero Zero\"."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 307,
+      "seconds": 0.038,
+      "target": "Mike Batt's **fifth studio/solo album** is \"Zero Zero\" (1982), released on **Epic Records**.",
+      "target_tokens": 30,
+      "total_tokens": 337
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0505#0-111",
+          "score": 0.6867626309394836,
+          "text": "Six Days In Berlin – 4th solo album for Epic – made at Hansa (Berlin) and Montserrat during is wordwide voyage."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0487#479-540",
+          "score": 0.023027459159493446,
+          "text": "Actually, let me re-read the MuSiQue question more carefully."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0270#163-266",
+          "score": 0.053914379328489304,
+          "text": "Also during this time, he composed the music for the film A Merry War and even re-launched the Wombles."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0074#0-62",
+          "score": 0.03623313456773758,
+          "text": "Let me search for Mike Batt's fifth studio album specifically."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0431#28-53",
+          "score": 0.0010960649233311415,
+          "text": "Market Day In Guernica 3."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0044#0-65",
+          "score": 0.0007185305585153401,
+          "text": "https://musicbrainz.org/work/8f968432-7b1e-34af-b3ad-40cc8d9c45f7"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0466#0-81",
+          "score": 0.000323609565384686,
+          "text": "George's new album “Except Always” is the new double album from George Marinelli."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0240#0-67",
+          "score": 0.017674455419182777,
+          "text": "https://www.discogs.com/release/336731-Mike-Batt-Six-Days-In-Berlin"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0068#0-67",
+          "score": 0.0004772173997480422,
+          "text": "https://musicbrainz.org/artist/2f354cca-0eba-46e2-a716-96f14f47865a"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 278,
+      "seconds": 0.038,
+      "target": "The earlier material states: Six Days In Berlin – 4th solo album for Epic – made at Hansa (Berlin) and Montserrat during is wordwide voyage.",
+      "target_tokens": 34,
+      "total_tokens": 312
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.46537548303604126,
+          "text": "The earlier material states: Six Days In Berlin – 4th solo album for Epic – made at Hansa (Berlin) and Montserrat during is wordwide voyage."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0275#110-223",
+          "score": 0.037101663649082184,
+          "text": "Batt's character \"Number 17\" falls in love and is sent to an emotional decontamination centre called \"Zero Zero\"."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0487#479-540",
+          "score": 0.0015347364824265242,
+          "text": "Actually, let me re-read the MuSiQue question more carefully."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0270#163-266",
+          "score": 0.011748362332582474,
+          "text": "Also during this time, he composed the music for the film A Merry War and even re-launched the Wombles."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0074#0-62",
+          "score": 0.15557549893856049,
+          "text": "Let me search for Mike Batt's fifth studio album specifically."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0431#28-53",
+          "score": 0.10002827644348145,
+          "text": "Market Day In Guernica 3."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0044#0-65",
+          "score": 0.015411382541060448,
+          "text": "https://musicbrainz.org/work/8f968432-7b1e-34af-b3ad-40cc8d9c45f7"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0466#0-81",
+          "score": 0.0073384386487305164,
+          "text": "George's new album “Except Always” is the new double album from George Marinelli."
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0240#0-67",
+          "score": 0.0443606972694397,
+          "text": "https://www.discogs.com/release/336731-Mike-Batt-Six-Days-In-Berlin"
+        },
+        {
+          "canonical_id": "genmem_874c34ceb20bf193:a0068#0-67",
+          "score": 0.0013642950216308236,
+          "text": "https://musicbrainz.org/artist/2f354cca-0eba-46e2-a716-96f14f47865a"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 310,
+      "seconds": 0.039,
+      "target": "Mike Batt's **fifth studio/solo album** is \"Zero Zero\" (1982), released on **Epic Records**.",
+      "target_tokens": 30,
+      "total_tokens": 340
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 24.94,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

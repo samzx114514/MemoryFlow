@@ -1,0 +1,201 @@
+{
+  "case_id": "genmem_40dc9b8b15c0c5b8:selected_05",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0025#0-164",
+          "score": 0.4009883403778076,
+          "text": "Matthew Michael Reilly (22 March 1874 – 9 December 1954) was an Irish international goalkeeper who played most of his career with Portsmouth in the Southern League."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca#0-29",
+          "score": 0.0042199608869850636,
+          "text": "call_oYdgQLDZaJGAIsXItyCFpSF0"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254#0-29",
+          "score": 0.00028529262635856867,
+          "text": "call_3H5tnQWLGnYo3m1ighxq9NvF"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0082#0-119",
+          "score": 0.030323071405291557,
+          "text": "South Hampshire is a term used mainly to refer to the conurbation formed by the city of Portsmouth, city of Southampton"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0048#0-31",
+          "score": 0.06598293781280518,
+          "text": "Portsmouth FC » Squad 1903/1904"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0017#0-50",
+          "score": 0.044503506273031235,
+          "text": "Matt Reilly Football Player Statistics | 11v11.com"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0007#0-44",
+          "score": 0.021395502611994743,
+          "text": "Players on loan to other clubs are excluded."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#670-726",
+          "score": 0.028546342626214027,
+          "text": "Same with Southampton FC - shares name with Southampton."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0174#173-220",
+          "score": 0.013830569572746754,
+          "text": "Matt Reilly typically writes checks around $1M."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0120#101-250",
+          "score": 0.016896920278668404,
+          "text": "Since he was Irish Matt was an accomplished at Gaelic football which is very similar to the modern Australian Rules game except a round ball is used."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 257,
+      "seconds": 0.029,
+      "target": "Matt Reilly (footballer) played for Portsmouth, Southampton, Tottenham Hotspur, and Notts County.",
+      "target_tokens": 23,
+      "total_tokens": 280
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0025#0-164",
+          "score": 0.6997995376586914,
+          "text": "Matthew Michael Reilly (22 March 1874 – 9 December 1954) was an Irish international goalkeeper who played most of his career with Portsmouth in the Southern League."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca#0-29",
+          "score": 0.003295142902061343,
+          "text": "call_oYdgQLDZaJGAIsXItyCFpSF0"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254#0-29",
+          "score": 0.00036759910290129483,
+          "text": "call_3H5tnQWLGnYo3m1ighxq9NvF"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0082#0-119",
+          "score": 0.006436375435441732,
+          "text": "South Hampshire is a term used mainly to refer to the conurbation formed by the city of Portsmouth, city of Southampton"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0048#0-31",
+          "score": 0.02460278384387493,
+          "text": "Portsmouth FC » Squad 1903/1904"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0017#0-50",
+          "score": 0.010196789167821407,
+          "text": "Matt Reilly Football Player Statistics | 11v11.com"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0007#0-44",
+          "score": 0.00365561549551785,
+          "text": "Players on loan to other clubs are excluded."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#670-726",
+          "score": 0.0033741146326065063,
+          "text": "Same with Southampton FC - shares name with Southampton."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0174#173-220",
+          "score": 0.006484912242740393,
+          "text": "Matt Reilly typically writes checks around $1M."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 228,
+      "seconds": 0.029,
+      "target": "The earlier material states: Matthew Michael Reilly (22 March 1874 – 9 December 1954) was an Irish international goalkeeper who played most of his career with Portsmouth in the Southern League.",
+      "target_tokens": 46,
+      "total_tokens": 274
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.4416634738445282,
+          "text": "The earlier material states: Matthew Michael Reilly (22 March 1874 – 9 December 1954) was an Irish international goalkeeper who played most of his career with Portsmouth in the Southern League."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0120#101-250",
+          "score": 0.020416412502527237,
+          "text": "Since he was Irish Matt was an accomplished at Gaelic football which is very similar to the modern Australian Rules game except a round ball is used."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_8acb489520aba0ca#0-29",
+          "score": 0.002446669153869152,
+          "text": "call_oYdgQLDZaJGAIsXItyCFpSF0"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:arg_56ace72f6d38a254#0-29",
+          "score": 0.00016715243691578507,
+          "text": "call_3H5tnQWLGnYo3m1ighxq9NvF"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0082#0-119",
+          "score": 0.016952112317085266,
+          "text": "South Hampshire is a term used mainly to refer to the conurbation formed by the city of Portsmouth, city of Southampton"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0048#0-31",
+          "score": 0.07319825887680054,
+          "text": "Portsmouth FC » Squad 1903/1904"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0017#0-50",
+          "score": 0.03380999341607094,
+          "text": "Matt Reilly Football Player Statistics | 11v11.com"
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0007#0-44",
+          "score": 0.027896208688616753,
+          "text": "Players on loan to other clubs are excluded."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0130#670-726",
+          "score": 0.04546375945210457,
+          "text": "Same with Southampton FC - shares name with Southampton."
+        },
+        {
+          "canonical_id": "genmem_40dc9b8b15c0c5b8:a0174#173-220",
+          "score": 0.005693437531590462,
+          "text": "Matt Reilly typically writes checks around $1M."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 261,
+      "seconds": 0.038,
+      "target": "Matt Reilly (footballer) played for Portsmouth, Southampton, Tottenham Hotspur, and Notts County.",
+      "target_tokens": 23,
+      "total_tokens": 284
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 24.94,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

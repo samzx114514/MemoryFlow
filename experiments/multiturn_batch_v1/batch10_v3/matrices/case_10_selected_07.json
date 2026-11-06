@@ -1,0 +1,201 @@
+{
+  "case_id": "genmem_f46a08bc62ee9b37:selected_07",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0341#115-272",
+          "score": 0.5239813923835754,
+          "text": "This study results revealed the superi-ority of cavitation and radiofrequency over cryolipolysis on waist circumference, skinfold, weight reduction, and BMI."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0278#0-62",
+          "score": 0.012965426780283451,
+          "text": "https://www.scielo.br/j/abd/a/rPSfHZVSYZNCkwmx4mLTJJr/?lang=en"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0006#0-49",
+          "score": 0.020008893683552742,
+          "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4079633/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0373#0-61",
+          "score": 0.032570913434028625,
+          "text": "Adverse Events Associated With Cryolipolysis: A Systematic..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0066#63-203",
+          "score": 0.0116227762773633,
+          "text": "Noninvasive Body Contouring by Focused Ultrasound: Safety and Efficacy of the Contour I Device in a Multicenter, Controlled, Clinical Study."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0158#0-60",
+          "score": 0.00032374641159549356,
+          "text": "Classification Systems for Knee Osteochondritis Dissecans..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0332#100-151",
+          "score": 0.0004366287321317941,
+          "text": "Current Problems in Dermatology: “Skin Tightening”."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_701766854b8e9d98#0-25",
+          "score": 0.0006993217393755913,
+          "text": "call_-7436884822489821235"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_c1a0e1bdf56f68bc#0-25",
+          "score": 0.0005472287302836776,
+          "text": "call_-7436869257528340937"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0323#58-227",
+          "score": 0.20791903138160706,
+          "text": "There were no statistically significant differences between cavitation plus radiofrequency and cryolipolysis on leptin and insulin levels after 3 months of intervention."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 292,
+      "seconds": 0.038,
+      "target": "- **Cavitation + RF showed superiority over cryolipolysis** on waist circumference, skinfold thickness, weight reduction, and BMI reduction after 3 months of intervention.",
+      "target_tokens": 37,
+      "total_tokens": 329
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0341#115-272",
+          "score": 0.6352828145027161,
+          "text": "This study results revealed the superi-ority of cavitation and radiofrequency over cryolipolysis on waist circumference, skinfold, weight reduction, and BMI."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0278#0-62",
+          "score": 0.009053558111190796,
+          "text": "https://www.scielo.br/j/abd/a/rPSfHZVSYZNCkwmx4mLTJJr/?lang=en"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0006#0-49",
+          "score": 0.03333553299307823,
+          "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4079633/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0373#0-61",
+          "score": 0.030466411262750626,
+          "text": "Adverse Events Associated With Cryolipolysis: A Systematic..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0066#63-203",
+          "score": 0.041625749319791794,
+          "text": "Noninvasive Body Contouring by Focused Ultrasound: Safety and Efficacy of the Contour I Device in a Multicenter, Controlled, Clinical Study."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0158#0-60",
+          "score": 0.0002802582166623324,
+          "text": "Classification Systems for Knee Osteochondritis Dissecans..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0332#100-151",
+          "score": 0.0008632863755337894,
+          "text": "Current Problems in Dermatology: “Skin Tightening”."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_701766854b8e9d98#0-25",
+          "score": 0.0010302956216037273,
+          "text": "call_-7436884822489821235"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_c1a0e1bdf56f68bc#0-25",
+          "score": 0.0006112316623330116,
+          "text": "call_-7436869257528340937"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 261,
+      "seconds": 0.038,
+      "target": "The earlier material states: This study results revealed the superi-ority of cavitation and radiofrequency over cryolipolysis on waist circumference, skinfold, weight reduction, and BMI.",
+      "target_tokens": 39,
+      "total_tokens": 300
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.5589736700057983,
+          "text": "The earlier material states: This study results revealed the superi-ority of cavitation and radiofrequency over cryolipolysis on waist circumference, skinfold, weight reduction, and BMI."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0323#58-227",
+          "score": 0.22592660784721375,
+          "text": "There were no statistically significant differences between cavitation plus radiofrequency and cryolipolysis on leptin and insulin levels after 3 months of intervention."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0278#0-62",
+          "score": 0.013030493631958961,
+          "text": "https://www.scielo.br/j/abd/a/rPSfHZVSYZNCkwmx4mLTJJr/?lang=en"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0006#0-49",
+          "score": 0.018137887120246887,
+          "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4079633/"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0373#0-61",
+          "score": 0.011336359195411205,
+          "text": "Adverse Events Associated With Cryolipolysis: A Systematic..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0066#63-203",
+          "score": 0.01361897774040699,
+          "text": "Noninvasive Body Contouring by Focused Ultrasound: Safety and Efficacy of the Contour I Device in a Multicenter, Controlled, Clinical Study."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0158#0-60",
+          "score": 7.363803160842508e-05,
+          "text": "Classification Systems for Knee Osteochondritis Dissecans..."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:a0332#100-151",
+          "score": 0.00018674541206564754,
+          "text": "Current Problems in Dermatology: “Skin Tightening”."
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_701766854b8e9d98#0-25",
+          "score": 0.0006681944942101836,
+          "text": "call_-7436884822489821235"
+        },
+        {
+          "canonical_id": "genmem_f46a08bc62ee9b37:arg_c1a0e1bdf56f68bc#0-25",
+          "score": 0.0010094522731378675,
+          "text": "call_-7436869257528340937"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 297,
+      "seconds": 0.037,
+      "target": "- **Cavitation + RF showed superiority over cryolipolysis** on waist circumference, skinfold thickness, weight reduction, and BMI reduction after 3 months of intervention.",
+      "target_tokens": 37,
+      "total_tokens": 334
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 24.94,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}
