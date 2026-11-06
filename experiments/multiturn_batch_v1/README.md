@@ -1,9 +1,10 @@
-# multiturn_batch_v1：多轮目标的统一入口与四方法批处理
+﻿# multiturn_batch_v1：多轮目标的统一入口与四方法批处理
 
 **状态（2026-11-07）：** 映射修正后的新增批 11 题全部跑完，累计主表 16 题 / 7 轨迹；
 100 目标筛选第一版已出，剩余 11 个 partial 候选待补标。
 
-- 新增批与累计：[EXPANDED_20261107](batch10_v3/reports/EXPANDED_20261107.md)
+- 新增批与累计（16 题）：[EXPANDED_20261107](batch10_v3/reports/EXPANDED_20261107.md)
+- partial 补标新增（19 题）：[PARTIAL_20261107](batch10_v4/reports/PARTIAL_20261107.md)
 - 旧全历史池首批：[BATCH10_FIRST_20261106](batch10/reports/BATCH10_FIRST_20261106.md)
 
 ## 做什么
@@ -73,3 +74,4 @@ $PY experiments/multiturn_batch_v1/run_batch.py \
 - 真实请求（`record_type=real_request`）的导入器尚未被数据检验；schema 已支持。
 - 新数据的 7B 矩阵需要先由回放侧生成，接口见 `TEMPLATE.md` 第 6 节。
 - T06 的 GT 组仍是原 ordinal 组（8 项），与受控最终句不完全同构；它只作对照，不进主表。
+

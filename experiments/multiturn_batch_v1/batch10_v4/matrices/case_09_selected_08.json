@@ -1,0 +1,211 @@
+{
+  "case_id": "genmem_e81701f69088a32d:selected_08",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0222#23-154",
+          "score": 0.1941714584827423,
+          "text": "TBS measurements were obtained from DXA spinal images using TBS iNsight Software version 2.1 (Medimaps Group, Geneva, Switzerland)."
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0225#0-81",
+          "score": 0.030375288799405098,
+          "text": "First trabecular bone score reference curves for Mexican children and adolescents"
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0002#97-138",
+          "score": 0.006855403538793325,
+          "text": "Let me search several angles in parallel."
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:arg_7d5d8ec88177a694#0-70",
+          "score": 0.0020511841867119074,
+          "text": "UK NICE NOGG bone density screening adolescents steroid use guidelines"
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0033#103-191",
+          "score": 0.0002400898520136252,
+          "text": "Read about osteoporosis causes, symptoms, diagnosis, treatment, medications, prevention."
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0047#92-138",
+          "score": 0.0013087204424664378,
+          "text": "Contents of the Clinical Guideline: NOGG 2024."
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0085#0-60",
+          "score": 0.00276258890517056,
+          "text": "https://link.springer.com/article/10.1007/s40124-025-00365-7"
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0052#0-70",
+          "score": 0.00015008679474703968,
+          "text": "https://www.nottsapc.nhs.uk/media/rcwdeffe/osteoporosis-guidelines.pdf"
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0030#118-181",
+          "score": 0.0002796312910504639,
+          "text": "Endorsed by the American Society for Bone and Mineral Research."
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0070#0-133",
+          "score": 0.15229535102844238,
+          "text": "Trabecular bone score evaluates bone mineral variations in lumbar DXA images in order to describe the internal structure of the bone."
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0061#75-219",
+          "score": 0.180370032787323,
+          "text": "Trabecular bone score (TBS) derived from secondary analysis of lumbar spine DXA scans improves fracture prediction independent of BMD in adults."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 288,
+      "seconds": 0.039,
+      "target": "A grey-level texture metric derived from the same lumbar spine DXA image — no extra radiation, no extra scan time.",
+      "target_tokens": 25,
+      "total_tokens": 313
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0222#23-154",
+          "score": 0.5519425272941589,
+          "text": "TBS measurements were obtained from DXA spinal images using TBS iNsight Software version 2.1 (Medimaps Group, Geneva, Switzerland)."
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0225#0-81",
+          "score": 0.03278711065649986,
+          "text": "First trabecular bone score reference curves for Mexican children and adolescents"
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0002#97-138",
+          "score": 0.009930268861353397,
+          "text": "Let me search several angles in parallel."
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:arg_7d5d8ec88177a694#0-70",
+          "score": 0.011551068164408207,
+          "text": "UK NICE NOGG bone density screening adolescents steroid use guidelines"
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0033#103-191",
+          "score": 0.0007134901825338602,
+          "text": "Read about osteoporosis causes, symptoms, diagnosis, treatment, medications, prevention."
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0047#92-138",
+          "score": 0.006271711550652981,
+          "text": "Contents of the Clinical Guideline: NOGG 2024."
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0085#0-60",
+          "score": 0.005128005985170603,
+          "text": "https://link.springer.com/article/10.1007/s40124-025-00365-7"
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0052#0-70",
+          "score": 0.0004213257343508303,
+          "text": "https://www.nottsapc.nhs.uk/media/rcwdeffe/osteoporosis-guidelines.pdf"
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0030#118-181",
+          "score": 0.0038535217754542828,
+          "text": "Endorsed by the American Society for Bone and Mineral Research."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 230,
+      "seconds": 0.03,
+      "target": "TBS is derived from the same lumbar spine DXA image, without extra radiation.",
+      "target_tokens": 18,
+      "total_tokens": 248
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.4273156225681305,
+          "text": "TBS is derived from the same lumbar spine DXA image, without extra radiation."
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0070#0-133",
+          "score": 0.12355846166610718,
+          "text": "Trabecular bone score evaluates bone mineral variations in lumbar DXA images in order to describe the internal structure of the bone."
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0061#75-219",
+          "score": 0.1457425057888031,
+          "text": "Trabecular bone score (TBS) derived from secondary analysis of lumbar spine DXA scans improves fracture prediction independent of BMD in adults."
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0225#0-81",
+          "score": 0.007260706275701523,
+          "text": "First trabecular bone score reference curves for Mexican children and adolescents"
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0002#97-138",
+          "score": 0.005317801143974066,
+          "text": "Let me search several angles in parallel."
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:arg_7d5d8ec88177a694#0-70",
+          "score": 0.0017541388515383005,
+          "text": "UK NICE NOGG bone density screening adolescents steroid use guidelines"
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0033#103-191",
+          "score": 0.00019368118955753744,
+          "text": "Read about osteoporosis causes, symptoms, diagnosis, treatment, medications, prevention."
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0047#92-138",
+          "score": 0.000922618608456105,
+          "text": "Contents of the Clinical Guideline: NOGG 2024."
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0085#0-60",
+          "score": 0.0011367894476279616,
+          "text": "https://link.springer.com/article/10.1007/s40124-025-00365-7"
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0052#0-70",
+          "score": 8.126618922688067e-05,
+          "text": "https://www.nottsapc.nhs.uk/media/rcwdeffe/osteoporosis-guidelines.pdf"
+        },
+        {
+          "canonical_id": "genmem_e81701f69088a32d:a0030#118-181",
+          "score": 0.00018453765369486064,
+          "text": "Endorsed by the American Society for Bone and Mineral Research."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 274,
+      "seconds": 0.038,
+      "target": "A grey-level texture metric derived from the same lumbar spine DXA image — no extra radiation, no extra scan time.",
+      "target_tokens": 25,
+      "total_tokens": 299
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 24.94,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

@@ -1,0 +1,3464 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "genmem_e81701f69088a32d:selected_08",
+ "trajectory_id": "genmem_e81701f69088a32d",
+ "trajectory_case": "case_09",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "A grey-level texture metric derived from the same lumbar spine DXA image — no extra radiation, no extra scan time.",
+  "sha256": "a970e13574980091f7818338852cc23a39eb9c12f692364b9ee16c7b2f7a7aef",
+  "origin": "recorded_target",
+  "artifact_id": "genmem_e81701f69088a32d:a0229",
+  "start": 10284,
+  "end": 10398,
+  "original_target": {
+   "text": "A grey-level texture metric derived from the same lumbar spine DXA image — no extra radiation, no extra scan time.",
+   "artifact_id": "genmem_e81701f69088a32d:a0229",
+   "start": 10284,
+   "end": 10398,
+   "event_index": 23
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "According to the materials, what is the key earlier statement?",
+   "inputs": [
+    {
+     "unit_id": "genmem_e81701f69088a32d:a0222:u23-154",
+     "artifact_id": "genmem_e81701f69088a32d:a0222",
+     "start": 23,
+     "end": 154,
+     "text": "TBS measurements were obtained from DXA spinal images using TBS iNsight Software version 2.1 (Medimaps Group, Geneva, Switzerland).",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    },
+    {
+     "unit_id": "genmem_e81701f69088a32d:a0225:u0-81",
+     "artifact_id": "genmem_e81701f69088a32d:a0225",
+     "start": 0,
+     "end": 81,
+     "text": "First trabecular bone score reference curves for Mexican children and adolescents",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    },
+    {
+     "unit_id": "genmem_e81701f69088a32d:a0002:u97-138",
+     "artifact_id": "genmem_e81701f69088a32d:a0002",
+     "start": 97,
+     "end": 138,
+     "text": "Let me search several angles in parallel.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    },
+    {
+     "unit_id": "genmem_e81701f69088a32d:arg_7d5d8ec88177a694:u0-70",
+     "artifact_id": "genmem_e81701f69088a32d:arg_7d5d8ec88177a694",
+     "start": 0,
+     "end": 70,
+     "text": "UK NICE NOGG bone density screening adolescents steroid use guidelines",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    },
+    {
+     "unit_id": "genmem_e81701f69088a32d:a0033:u103-191",
+     "artifact_id": "genmem_e81701f69088a32d:a0033",
+     "start": 103,
+     "end": 191,
+     "text": "Read about osteoporosis causes, symptoms, diagnosis, treatment, medications, prevention.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    },
+    {
+     "unit_id": "genmem_e81701f69088a32d:a0047:u92-138",
+     "artifact_id": "genmem_e81701f69088a32d:a0047",
+     "start": 92,
+     "end": 138,
+     "text": "Contents of the Clinical Guideline: NOGG 2024.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    },
+    {
+     "unit_id": "genmem_e81701f69088a32d:a0085:u0-60",
+     "artifact_id": "genmem_e81701f69088a32d:a0085",
+     "start": 0,
+     "end": 60,
+     "text": "https://link.springer.com/article/10.1007/s40124-025-00365-7",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    },
+    {
+     "unit_id": "genmem_e81701f69088a32d:a0052:u0-70",
+     "artifact_id": "genmem_e81701f69088a32d:a0052",
+     "start": 0,
+     "end": 70,
+     "text": "https://www.nottsapc.nhs.uk/media/rcwdeffe/osteoporosis-guidelines.pdf",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    },
+    {
+     "unit_id": "genmem_e81701f69088a32d:a0030:u118-181",
+     "artifact_id": "genmem_e81701f69088a32d:a0030",
+     "start": 118,
+     "end": 181,
+     "text": "Endorsed by the American Society for Bone and Mineral Research.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "output": {
+    "text": "TBS is derived from the same lumbar spine DXA image, without extra radiation.",
+    "sha256": "c37de07c395b0da26b3dc5d60d8c1c262d3094695b6a4f1e05e89303b3ff557e",
+    "origin": "controlled_output"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "Using the earlier statement and the new material, write the final sentence.",
+   "inputs": [
+    {
+     "unit_id": "genmem_e81701f69088a32d:a0070:u0-133",
+     "artifact_id": "genmem_e81701f69088a32d:a0070",
+     "start": 0,
+     "end": 133,
+     "text": "Trabecular bone score evaluates bone mineral variations in lumbar DXA images in order to describe the internal structure of the bone.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    },
+    {
+     "unit_id": "genmem_e81701f69088a32d:a0061:u75-219",
+     "artifact_id": "genmem_e81701f69088a32d:a0061",
+     "start": 75,
+     "end": 219,
+     "text": "Trabecular bone score (TBS) derived from secondary analysis of lumbar spine DXA scans improves fracture prediction independent of BMD in adults.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    },
+    {
+     "unit_id": "genmem_e81701f69088a32d:a0225:u0-81",
+     "artifact_id": "genmem_e81701f69088a32d:a0225",
+     "start": 0,
+     "end": 81,
+     "text": "First trabecular bone score reference curves for Mexican children and adolescents",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    },
+    {
+     "unit_id": "genmem_e81701f69088a32d:a0002:u97-138",
+     "artifact_id": "genmem_e81701f69088a32d:a0002",
+     "start": 97,
+     "end": 138,
+     "text": "Let me search several angles in parallel.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    },
+    {
+     "unit_id": "genmem_e81701f69088a32d:arg_7d5d8ec88177a694:u0-70",
+     "artifact_id": "genmem_e81701f69088a32d:arg_7d5d8ec88177a694",
+     "start": 0,
+     "end": 70,
+     "text": "UK NICE NOGG bone density screening adolescents steroid use guidelines",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    },
+    {
+     "unit_id": "genmem_e81701f69088a32d:a0033:u103-191",
+     "artifact_id": "genmem_e81701f69088a32d:a0033",
+     "start": 103,
+     "end": 191,
+     "text": "Read about osteoporosis causes, symptoms, diagnosis, treatment, medications, prevention.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    },
+    {
+     "unit_id": "genmem_e81701f69088a32d:a0047:u92-138",
+     "artifact_id": "genmem_e81701f69088a32d:a0047",
+     "start": 92,
+     "end": 138,
+     "text": "Contents of the Clinical Guideline: NOGG 2024.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    },
+    {
+     "unit_id": "genmem_e81701f69088a32d:a0085:u0-60",
+     "artifact_id": "genmem_e81701f69088a32d:a0085",
+     "start": 0,
+     "end": 60,
+     "text": "https://link.springer.com/article/10.1007/s40124-025-00365-7",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    },
+    {
+     "unit_id": "genmem_e81701f69088a32d:a0052:u0-70",
+     "artifact_id": "genmem_e81701f69088a32d:a0052",
+     "start": 0,
+     "end": 70,
+     "text": "https://www.nottsapc.nhs.uk/media/rcwdeffe/osteoporosis-guidelines.pdf",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    },
+    {
+     "unit_id": "genmem_e81701f69088a32d:a0030:u118-181",
+     "artifact_id": "genmem_e81701f69088a32d:a0030",
+     "start": 118,
+     "end": 181,
+     "text": "Endorsed by the American Society for Bone and Mineral Research.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 10
+     }
+    }
+   ],
+   "output": {
+    "text": "A grey-level texture metric derived from the same lumbar spine DXA image — no extra radiation, no extra scan time.",
+    "sha256": "a970e13574980091f7818338852cc23a39eb9c12f692364b9ee16c7b2f7a7aef",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "TBS is derived from the same lumbar spine DXA image, without extra radiation.",
+     "sha256": "c37de07c395b0da26b3dc5d60d8c1c262d3094695b6a4f1e05e89303b3ff557e",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0145#0-40",
+   "artifact_id": "genmem_e81701f69088a32d:a0145",
+   "start": 0,
+   "end": 40,
+   "text": "Executive Summary – Clinical Practice...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0024#0-82",
+   "artifact_id": "genmem_e81701f69088a32d:a0024",
+   "start": 0,
+   "end": 82,
+   "text": "Canadian Association of Radiologists and Osteoporosis Canada Risk Assessment tool.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0014#0-49",
+   "artifact_id": "genmem_e81701f69088a32d:a0014",
+   "start": 0,
+   "end": 49,
+   "text": "What are the criteria for bone density screening?",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0035#0-82",
+   "artifact_id": "genmem_e81701f69088a32d:a0035",
+   "start": 0,
+   "end": 82,
+   "text": "https://www.canada.ca/en/public-health/services/chronic-diseases/osteoporosis.html",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0001#1622-1680",
+   "artifact_id": "genmem_e81701f69088a32d:a0001",
+   "start": 1622,
+   "end": 1680,
+   "text": "focusing on differences across the US canada and the UK 2.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0001#501-514",
+   "artifact_id": "genmem_e81701f69088a32d:a0001",
+   "start": 501,
+   "end": 514,
+   "text": "Conversation:",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0089#94-257",
+   "artifact_id": "genmem_e81701f69088a32d:a0089",
+   "start": 94,
+   "end": 257,
+   "text": "in children recommend DXA assessment in diseases affecting bone health when the child. may beneﬁt from interventions to reduce clinically signiﬁcant fracture risk.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0101#0-70",
+   "artifact_id": "genmem_e81701f69088a32d:a0101",
+   "start": 0,
+   "end": 70,
+   "text": "Deficits in volumetric bone mineral density, bone microarchitecture...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0197#0-108",
+   "artifact_id": "genmem_e81701f69088a32d:a0197",
+   "start": 0,
+   "end": 108,
+   "text": "https://reference.medscape.com/cc2/p10/clinical-guideline-prevention-and-treatment-osteoporosis-2022a1001jsu",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0223#0-57",
+   "artifact_id": "genmem_e81701f69088a32d:a0223",
+   "start": 0,
+   "end": 57,
+   "text": "TBS Reference Curves for Mexican Children and Adolescents",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0002#0-96",
+   "artifact_id": "genmem_e81701f69088a32d:a0002",
+   "start": 0,
+   "end": 96,
+   "text": "I'll research the latest guidelines and emerging measurement methods across those three regions.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0044#0-14",
+   "artifact_id": "genmem_e81701f69088a32d:a0044",
+   "start": 0,
+   "end": 14,
+   "text": "NICE guidance.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0001#162-198",
+   "artifact_id": "genmem_e81701f69088a32d:a0001",
+   "start": 162,
+   "end": 198,
+   "text": "Prioritize urgent warning signs when",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0117#88-255",
+   "artifact_id": "genmem_e81701f69088a32d:a0117",
+   "start": 88,
+   "end": 255,
+   "text": "measure BMD using DXA when it will alter clinical managementShould I prescribe licensed treatments to younger patients e.g., glucocorticoid induced osteoporosis (GIO)?",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0193#104-238",
+   "artifact_id": "genmem_e81701f69088a32d:a0193",
+   "start": 104,
+   "end": 238,
+   "text": "While younger patients may not reach peak bone mass, there are interventions to help rebuild bone even in those with severe bone loss.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0084#0-70",
+   "artifact_id": "genmem_e81701f69088a32d:a0084",
+   "start": 0,
+   "end": 70,
+   "text": "Building Strong Foundations: Bone Health in Pediatric Patients with...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0000#0-17",
+   "artifact_id": "genmem_e81701f69088a32d:a0000",
+   "start": 0,
+   "end": 17,
+   "text": "<system-reminder>",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0138#0-80",
+   "artifact_id": "genmem_e81701f69088a32d:a0138",
+   "start": 0,
+   "end": 80,
+   "text": "https://rheumnow.com/news/acr-2022-guideline-glucocorticoid-induced-osteoporosis",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0182#0-4",
+   "artifact_id": "genmem_e81701f69088a32d:a0182",
+   "start": 0,
+   "end": 4,
+   "text": "161.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0111#0-102",
+   "artifact_id": "genmem_e81701f69088a32d:a0111",
+   "start": 0,
+   "end": 102,
+   "text": "Fracture Risk Assessment Tool - Calculate 10-year probability of major osteoporotic and hip fractures.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0167#0-215",
+   "artifact_id": "genmem_e81701f69088a32d:a0167",
+   "start": 0,
+   "end": 215,
+   "text": "May 28, 2019 · DXA measurements at the 33% radius (also called 1/3 radius) may be used clinically in ambulatory children who cannot be scanned at other skeletal sites, provided adequate reference data are available.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0118#0-67",
+   "artifact_id": "genmem_e81701f69088a32d:a0118",
+   "start": 0,
+   "end": 67,
+   "text": "Glucocorticoid-induced osteoporosis in rheumatic diseases | Clinics",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0103#0-117",
+   "artifact_id": "genmem_e81701f69088a32d:a0103",
+   "start": 0,
+   "end": 117,
+   "text": "Low BMD is common in atypical anorexia nervosa, in which criteria for anorexia nervosa are met except for low weight.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0159#201-281",
+   "artifact_id": "genmem_e81701f69088a32d:a0159",
+   "start": 201,
+   "end": 281,
+   "text": "Analysis, interpretation and integration of the data into surveillance products.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0099#0-60",
+   "artifact_id": "genmem_e81701f69088a32d:a0099",
+   "start": 0,
+   "end": 60,
+   "text": "https://link.springer.com/article/10.1007/s00198-026-07846-5",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0034#0-24",
+   "artifact_id": "genmem_e81701f69088a32d:a0034",
+   "start": 0,
+   "end": 24,
+   "text": "Osteoporosis - Canada.ca",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0215#0-54",
+   "artifact_id": "genmem_e81701f69088a32d:a0215",
+   "start": 0,
+   "end": 54,
+   "text": "https://www.endocrine-abstracts.org/ea/0110/ea0110p298",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0153#0-59",
+   "artifact_id": "genmem_e81701f69088a32d:a0153",
+   "start": 0,
+   "end": 59,
+   "text": "Developed by the Osteoporosis Canada 2023 Guideline Update.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0181#0-285",
+   "artifact_id": "genmem_e81701f69088a32d:a0181",
+   "start": 0,
+   "end": 285,
+   "text": "Our 31-item survey, distributed to adolescent clinicians in the United States via the Society for Adolescent Health and Medicine (SAHM) listserv, assessed clinician confidence and practices for assessing bone mineral density in both male and female adolescents with an eating disorder.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0000#18-65",
+   "artifact_id": "genmem_e81701f69088a32d:a0000",
+   "start": 18,
+   "end": 65,
+   "text": "<current_date>2026-07-20, Monday</current_date>",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0217#0-68",
+   "artifact_id": "genmem_e81701f69088a32d:a0217",
+   "start": 0,
+   "end": 68,
+   "text": "Prednisolone impairs trabecular bone score changes in adolescents...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0041#0-112",
+   "artifact_id": "genmem_e81701f69088a32d:a0041",
+   "start": 0,
+   "end": 112,
+   "text": "Osteopenia, known as \"low bone mass\" or \"low bone density\", is a condition in which bone mineral density is low.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0146#0-70",
+   "artifact_id": "genmem_e81701f69088a32d:a0146",
+   "start": 0,
+   "end": 70,
+   "text": "https://osteoporosis.ca/executive-summary-clinical-practice-guideline/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0080#0-70",
+   "artifact_id": "genmem_e81701f69088a32d:a0080",
+   "start": 0,
+   "end": 70,
+   "text": "These are the Adult Official Positions of the ISCD as updated in 2023.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0062#0-66",
+   "artifact_id": "genmem_e81701f69088a32d:a0062",
+   "start": 0,
+   "end": 66,
+   "text": "ORBi: Trabecular bone score to assess bone microarchitecture in...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0131#0-118",
+   "artifact_id": "genmem_e81701f69088a32d:a0131",
+   "start": 0,
+   "end": 118,
+   "text": "2022 American College of Rheumatology Guideline for the ...2022 American College of Rheumatology Guideline for the ...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0131#118-233",
+   "artifact_id": "genmem_e81701f69088a32d:a0131",
+   "start": 118,
+   "end": 233,
+   "text": "ACR 2022 Guideline on Glucocorticoid-Induced OsteoporosisACR Prevention and Treatment of Glucocorticoid‐Induced ...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0164#0-200",
+   "artifact_id": "genmem_e81701f69088a32d:a0164",
+   "start": 0,
+   "end": 200,
+   "text": "DXA measurements at the 33% radius (also called 1/3 radius) may be used clinically in ambulatory children who cannot be scanned at other skeletal sites, provided adequate reference data are available.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0083#146-176",
+   "artifact_id": "genmem_e81701f69088a32d:a0083",
+   "start": 146,
+   "end": 176,
+   "text": "J Clin Densitom 2008;11:75–91.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_766495f517c5c640#0-25",
+   "artifact_id": "genmem_e81701f69088a32d:arg_766495f517c5c640",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436846511381536826",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0133#1027-1200",
+   "artifact_id": "genmem_e81701f69088a32d:a0133",
+   "start": 1027,
+   "end": 1200,
+   "text": "Initial treatment in special populations, including children, people with organ transplants, people who may become pregnant, and people receiving very high-dose GC treatment",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_0487faad383c823e#0-25",
+   "artifact_id": "genmem_e81701f69088a32d:arg_0487faad383c823e",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436833592119914009",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0001#1284-1385",
+   "artifact_id": "genmem_e81701f69088a32d:a0001",
+   "start": 1284,
+   "end": 1385,
+   "text": "**Do you need epidemiological data on prevalence or just the screening protocols and thresholds?** 6.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0116#0-108",
+   "artifact_id": "genmem_e81701f69088a32d:a0116",
+   "start": 0,
+   "end": 108,
+   "text": "https://northeast.devonformularyguidance.nhs.uk/referral-guidance/eastern-locality/rheumatology/osteoporosis",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0172#0-186",
+   "artifact_id": "genmem_e81701f69088a32d:a0172",
+   "start": 0,
+   "end": 186,
+   "text": "https://www.researchgate.net/publication/357011990_ISCD_2019_Official_Position_Bone_Densitometry_in_Pediatrics_Update_on_new_recommendationsPuesta_al_dia_sobre_las_nuevas_recomendaciones",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0145#41-62",
+   "artifact_id": "genmem_e81701f69088a32d:a0145",
+   "start": 41,
+   "end": 62,
+   "text": "| Osteoporosis Canada",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0104#0-50",
+   "artifact_id": "genmem_e81701f69088a32d:a0104",
+   "start": 0,
+   "end": 50,
+   "text": "Bone Microarchitecture Evaluation by HR-pQCT in...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0052#0-70",
+   "artifact_id": "genmem_e81701f69088a32d:a0052",
+   "start": 0,
+   "end": 70,
+   "text": "https://www.nottsapc.nhs.uk/media/rcwdeffe/osteoporosis-guidelines.pdf",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_e81701f69088a32d:a0052:u0-70",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_e81701f69088a32d:a0052:u0-70",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0057#0-50",
+   "artifact_id": "genmem_e81701f69088a32d:a0057",
+   "start": 0,
+   "end": 50,
+   "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12609002/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0001#850-993",
+   "artifact_id": "genmem_e81701f69088a32d:a0001",
+   "start": 850,
+   "end": 993,
+   "text": "**Do you have any particular medical organizations’ recommendations you want to focus on (e.g., pediatric societies, endocrine societies)?** 3.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0103#118-269",
+   "artifact_id": "genmem_e81701f69088a32d:a0103",
+   "start": 118,
+   "end": 269,
+   "text": "We investigated whether women with atypical anorexia nervosa have deficits in bone microarchitecture and estimated strength at the peripheral skeleton.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0201#0-29",
+   "artifact_id": "genmem_e81701f69088a32d:a0201",
+   "start": 0,
+   "end": 29,
+   "text": "Ireland Bone Protection Tool.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0226#0-65",
+   "artifact_id": "genmem_e81701f69088a32d:a0226",
+   "start": 0,
+   "end": 65,
+   "text": "Archives Trabecular bone score - Archives of Endocrinology and...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0182#5-64",
+   "artifact_id": "genmem_e81701f69088a32d:a0182",
+   "start": 5,
+   "end": 64,
+   "text": "Assessing Clinician Comfort and Screening Practices for ...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0039#0-22",
+   "artifact_id": "genmem_e81701f69088a32d:a0039",
+   "start": 0,
+   "end": 22,
+   "text": "Osteopenia - Wikipedia",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0119#0-130",
+   "artifact_id": "genmem_e81701f69088a32d:a0119",
+   "start": 0,
+   "end": 130,
+   "text": "https://www.elsevier.es/es-revista-clinics-22-articulo-glucocorticoid-induced-osteoporosis-in-rheumatic-diseases-S1807593222029088",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0123#0-81",
+   "artifact_id": "genmem_e81701f69088a32d:a0123",
+   "start": 0,
+   "end": 81,
+   "text": "Glucocorticoid-induced osteoporosis is a type of osteoporosis caused by steroids.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0134#0-59",
+   "artifact_id": "genmem_e81701f69088a32d:a0134",
+   "start": 0,
+   "end": 59,
+   "text": "2022 American College of Rheumatology Guideline for the ...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0168#0-59",
+   "artifact_id": "genmem_e81701f69088a32d:a0168",
+   "start": 0,
+   "end": 59,
+   "text": "Executive Summary of the 2019 ISCD Position Development ...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0044#15-196",
+   "artifact_id": "genmem_e81701f69088a32d:a0044",
+   "start": 15,
+   "end": 196,
+   "text": "Evidence-based recommendations for the health and social care sector, developed by independent committees, including professionals and lay members, and consulted on by stakeholders.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_4044d2b00ac3247e#0-10",
+   "artifact_id": "genmem_e81701f69088a32d:arg_4044d2b00ac3247e",
+   "start": 0,
+   "end": 10,
+   "text": "web_search",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0001#1753-1857",
+   "artifact_id": "genmem_e81701f69088a32d:a0001",
+   "start": 1753,
+   "end": 1857,
+   "text": "i want info on new measurement methods beyond standard DXA particularly if there's cutting edge research",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0133#1269-1383",
+   "artifact_id": "genmem_e81701f69088a32d:a0133",
+   "start": 1269,
+   "end": 1383,
+   "text": ", people with organ transplants, people who may become pregnant, and people receiving very high‐dose GC treatment.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0093#0-49",
+   "artifact_id": "genmem_e81701f69088a32d:a0093",
+   "start": 0,
+   "end": 49,
+   "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3644600/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0029#0-70",
+   "artifact_id": "genmem_e81701f69088a32d:a0029",
+   "start": 0,
+   "end": 70,
+   "text": "https://rheumatology.org/glucocorticoid-induced-osteoporosis-guideline",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0036#0-132",
+   "artifact_id": "genmem_e81701f69088a32d:a0036",
+   "start": 0,
+   "end": 132,
+   "text": "Osteoporosis is a bone disease where bone loss occurs more rapidly than normal causing bones to become very thin and weak over time.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_9ffc161ed397882d#0-73",
+   "artifact_id": "genmem_e81701f69088a32d:arg_9ffc161ed397882d",
+   "start": 0,
+   "end": 73,
+   "text": "NOGG 2024 glucocorticoid young adults adolescents bone density monitoring",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0204#0-156",
+   "artifact_id": "genmem_e81701f69088a32d:a0204",
+   "start": 0,
+   "end": 156,
+   "text": "Maintaining bone health whilst taking Ozempic involves a multifaceted approach focusing on nutrition, physical activity, and appropriate medical monitoring.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0071#0-95",
+   "artifact_id": "genmem_e81701f69088a32d:a0071",
+   "start": 0,
+   "end": 95,
+   "text": "Let me dig deeper into a few key sources for adolescent-specific and steroid-specific guidance.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0210#0-45",
+   "artifact_id": "genmem_e81701f69088a32d:a0210",
+   "start": 0,
+   "end": 45,
+   "text": "Canadian Symposia on Rare Bone Diseases 2025.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_6209dcd79fc862cc#0-25",
+   "artifact_id": "genmem_e81701f69088a32d:arg_6209dcd79fc862cc",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436846511381536824",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0058#0-269",
+   "artifact_id": "genmem_e81701f69088a32d:a0058",
+   "start": 0,
+   "end": 269,
+   "text": "Methods: PRISMA-conform systematic review (2000–2025) of randomized, cohort, and cross-sectional studies assessing HR-pQCT (±finite-element analysis), trabecular bone score (TBS), impact microindentation (BMSi), femoral QCT/MRI, and VF imaging (DXA-VFA or radiography).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0089#0-93",
+   "artifact_id": "genmem_e81701f69088a32d:a0089",
+   "start": 0,
+   "end": 93,
+   "text": "Clinical Densitometry Ofﬁcial Position (Paediatric) statement for skeletal health assessment.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0184#0-216",
+   "artifact_id": "genmem_e81701f69088a32d:a0184",
+   "start": 0,
+   "end": 216,
+   "text": "To our knowledge, this is the first study to examine specific clinician practices for assessing bone mineral density in patients with an eating disorder and the first to assess comfort level for obtaining a DXA scan.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0123#81-143",
+   "artifact_id": "genmem_e81701f69088a32d:a0123",
+   "start": 81,
+   "end": 143,
+   "text": "A doctor may also complete the Fracture Risk Assessment Tool .",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0086#205-212",
+   "artifact_id": "genmem_e81701f69088a32d:a0086",
+   "start": 205,
+   "end": 212,
+   "text": "(2024).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0219#0-129",
+   "artifact_id": "genmem_e81701f69088a32d:a0219",
+   "start": 0,
+   "end": 129,
+   "text": "Trabecular bone score (TBS), an indirect measurement of bone microarchitecture, was analyzed using iNsight™ software version 3.0.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0137#0-57",
+   "artifact_id": "genmem_e81701f69088a32d:a0137",
+   "start": 0,
+   "end": 57,
+   "text": "ACR 2022 Guideline on Glucocorticoid-Induced Osteoporosis",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0219#130-183",
+   "artifact_id": "genmem_e81701f69088a32d:a0219",
+   "start": 130,
+   "end": 183,
+   "text": "Impaired BMD and TBS were defined at Z-scores ≤ -1.5.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0001#515-667",
+   "artifact_id": "genmem_e81701f69088a32d:a0001",
+   "start": 515,
+   "end": 667,
+   "text": "User: ask me questions so i can gather details on bone density screening guidelines for adolescents at risk from eating disorders or chronic steroid use",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0120#159-187",
+   "artifact_id": "genmem_e81701f69088a32d:a0120",
+   "start": 159,
+   "end": 187,
+   "text": "Technical Report Series, No.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0227#0-63",
+   "artifact_id": "genmem_e81701f69088a32d:a0227",
+   "start": 0,
+   "end": 63,
+   "text": "https://www.aem-sbem.com/article-keyword/trabecular-bone-score/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0198#37-295",
+   "artifact_id": "genmem_e81701f69088a32d:a0198",
+   "start": 37,
+   "end": 295,
+   "text": "Because bone loss and increased fracture risk occur early after initiation of oral glucocorticoids, bone-protective treatment should be started in the following people, at the same time as glucocorticoid therapy without waiting for bone density assessment...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0061#75-219",
+   "artifact_id": "genmem_e81701f69088a32d:a0061",
+   "start": 75,
+   "end": 219,
+   "text": "Trabecular bone score (TBS) derived from secondary analysis of lumbar spine DXA scans improves fracture prediction independent of BMD in adults.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "genmem_e81701f69088a32d:a0061:u75-219",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0077#0-58",
+   "artifact_id": "genmem_e81701f69088a32d:a0077",
+   "start": 0,
+   "end": 58,
+   "text": "Citation: International Society for Clinical Densitometry.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0045#0-21",
+   "artifact_id": "genmem_e81701f69088a32d:a0045",
+   "start": 0,
+   "end": 21,
+   "text": "Full Guideline | NOGG",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_ba659c342d45e94f#0-9",
+   "artifact_id": "genmem_e81701f69088a32d:arg_ba659c342d45e94f",
+   "start": 0,
+   "end": 9,
+   "text": "web_fetch",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_2f1a0d39f5ef07ab#0-25",
+   "artifact_id": "genmem_e81701f69088a32d:arg_2f1a0d39f5ef07ab",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436886815354646374",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_c322b10700b363f2#0-25",
+   "artifact_id": "genmem_e81701f69088a32d:arg_c322b10700b363f2",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436886815354646373",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0190#0-207",
+   "artifact_id": "genmem_e81701f69088a32d:a0190",
+   "start": 0,
+   "end": 207,
+   "text": "To compare bone mineral density (BMD) and body composition among adolescents: 1) with atypical anorexia nervosa (AAN) versus anorexia nervosa (AN) and 2) those with and without a prior history of overweight.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0159#0-200",
+   "artifact_id": "genmem_e81701f69088a32d:a0159",
+   "start": 0,
+   "end": 200,
+   "text": "The Public Health Agency of Canada's Osteoporosis Surveillance Program measures and monitors the impact of osteoporosis on Canadians through the: Systematic, regular collection of best available data.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0048#0-56",
+   "artifact_id": "genmem_e81701f69088a32d:a0048",
+   "start": 0,
+   "end": 56,
+   "text": "Ozempic and Bone Density: Evidence and Clinical Guidance",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0030#118-181",
+   "artifact_id": "genmem_e81701f69088a32d:a0030",
+   "start": 118,
+   "end": 181,
+   "text": "Endorsed by the American Society for Bone and Mineral Research.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_e81701f69088a32d:a0030:u118-181",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_e81701f69088a32d:a0030:u118-181",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 10
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0123#144-240",
+   "artifact_id": "genmem_e81701f69088a32d:a0123",
+   "start": 144,
+   "end": 240,
+   "text": "This questionnaire helps determine your risk of having a bone fracture within the next 10 years.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0001#1386-1611",
+   "artifact_id": "genmem_e81701f69088a32d:a0001",
+   "start": 1386,
+   "end": 1611,
+   "text": "**Should we look at any recent trials or systematic reviews that compare these screening approaches?** Let me know your thoughts or any details you already have, and I can help craft a structured overview of these guidelines.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0109#0-67",
+   "artifact_id": "genmem_e81701f69088a32d:a0109",
+   "start": 0,
+   "end": 67,
+   "text": "FRAX Calculator | Fracture Risk Assessment Tool | UnitTables [2026]",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0199#0-69",
+   "artifact_id": "genmem_e81701f69088a32d:a0199",
+   "start": 0,
+   "end": 69,
+   "text": "GitHub - AoibhinTB/bone-protection-tool: Personal learning project...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_44cabf3bbb247f2e#0-25",
+   "artifact_id": "genmem_e81701f69088a32d:arg_44cabf3bbb247f2e",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436722850683157759",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0115#0-27",
+   "artifact_id": "genmem_e81701f69088a32d:a0115",
+   "start": 0,
+   "end": 27,
+   "text": "Osteoporosis - North & East",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0059#0-66",
+   "artifact_id": "genmem_e81701f69088a32d:a0059",
+   "start": 0,
+   "end": 66,
+   "text": "Update on bone density measurements and their interpretation in...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0033#103-191",
+   "artifact_id": "genmem_e81701f69088a32d:a0033",
+   "start": 103,
+   "end": 191,
+   "text": "Read about osteoporosis causes, symptoms, diagnosis, treatment, medications, prevention.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_e81701f69088a32d:a0033:u103-191",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_e81701f69088a32d:a0033:u103-191",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0156#40-179",
+   "artifact_id": "genmem_e81701f69088a32d:a0156",
+   "start": 40,
+   "end": 179,
+   "text": "Pediatric to Adult Rheumatology Care Transition.2017 ACR Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0206#0-69",
+   "artifact_id": "genmem_e81701f69088a32d:a0206",
+   "start": 0,
+   "end": 69,
+   "text": "https://www.ekcupchai.in/2025/10/when-bones-betray-bloodline-why.html",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0088#0-103",
+   "artifact_id": "genmem_e81701f69088a32d:a0088",
+   "start": 0,
+   "end": 103,
+   "text": "https://www.researchgate.net/publication/389410168_Bone_Health_in_Paediatric_Inflammatory_Bowel_Disease",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_8faad5c502f60ba6#0-25",
+   "artifact_id": "genmem_e81701f69088a32d:arg_8faad5c502f60ba6",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436886815354646371",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0156#19-39",
+   "artifact_id": "genmem_e81701f69088a32d:a0156",
+   "start": 19,
+   "end": 39,
+   "text": "Quality Measurement.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0202#54-68",
+   "artifact_id": "genmem_e81701f69088a32d:a0202",
+   "start": 54,
+   "end": 68,
+   "text": "| Fella Health",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_131ce8748b5ded76#0-25",
+   "artifact_id": "genmem_e81701f69088a32d:arg_131ce8748b5ded76",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436723159920798314",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_419104ff98a3ce0f#0-25",
+   "artifact_id": "genmem_e81701f69088a32d:arg_419104ff98a3ce0f",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436723159920798316",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_532e43b7a5ccd2a3#0-77",
+   "artifact_id": "genmem_e81701f69088a32d:arg_532e43b7a5ccd2a3",
+   "start": 0,
+   "end": 77,
+   "text": "HR-pQCT adolescent anorexia nervosa bone microarchitecture research 2023 2024",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0104#51-62",
+   "artifact_id": "genmem_e81701f69088a32d:a0104",
+   "start": 51,
+   "end": 62,
+   "text": "- FindTrial",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0192#0-72",
+   "artifact_id": "genmem_e81701f69088a32d:a0192",
+   "start": 0,
+   "end": 72,
+   "text": "https://www.acute.org/resources/osteoporosis-osteopenia-eating-disorders",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0221#0-50",
+   "artifact_id": "genmem_e81701f69088a32d:a0221",
+   "start": 0,
+   "end": 50,
+   "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12187790/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0106#0-216",
+   "artifact_id": "genmem_e81701f69088a32d:a0106",
+   "start": 0,
+   "end": 216,
+   "text": "Monocentric Study Evaluating Bone Microarchitecture by High Resolution Quantitative Computerized Tomography (HR-pQCT) in Young Adults and Adolescents Who Developed Anorexia Nervosa (AN) in Peri or Prepubertal Period.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0147#0-23",
+   "artifact_id": "genmem_e81701f69088a32d:a0147",
+   "start": 0,
+   "end": 23,
+   "text": "Secondary Osteoporosis.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0149#0-50",
+   "artifact_id": "genmem_e81701f69088a32d:a0149",
+   "start": 0,
+   "end": 50,
+   "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10610956/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0025#0-60",
+   "artifact_id": "genmem_e81701f69088a32d:a0025",
+   "start": 0,
+   "end": 60,
+   "text": "Osteoporosis – Canadian Task Force on Preventive Health Care",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0120#188-191",
+   "artifact_id": "genmem_e81701f69088a32d:a0120",
+   "start": 188,
+   "end": 191,
+   "text": "843",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_8de4ac1eed3e990a#0-93",
+   "artifact_id": "genmem_e81701f69088a32d:arg_8de4ac1eed3e990a",
+   "start": 0,
+   "end": 93,
+   "text": "NICE osteoporosis glucocorticoid induced adolescents young people fracture risk assessment UK",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0180#0-50",
+   "artifact_id": "genmem_e81701f69088a32d:a0180",
+   "start": 0,
+   "end": 50,
+   "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10191878/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0047#0-68",
+   "artifact_id": "genmem_e81701f69088a32d:a0047",
+   "start": 0,
+   "end": 68,
+   "text": "Clinical guideline for the prevention and treatment of osteoporosis.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0006#0-84",
+   "artifact_id": "genmem_e81701f69088a32d:a0006",
+   "start": 0,
+   "end": 84,
+   "text": "https://www.icliniq.com/articles/orthopedic-health/osteoporosis-screening-guidelines",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0001#1681-1752",
+   "artifact_id": "genmem_e81701f69088a32d:a0001",
+   "start": 1681,
+   "end": 1752,
+   "text": "looking for how these guidelines address teens on high-dose steroids 3.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_e807ee0c6c389d5c#0-89",
+   "artifact_id": "genmem_e81701f69088a32d:arg_e807ee0c6c389d5c",
+   "start": 0,
+   "end": 89,
+   "text": "ISCD official positions pediatric adolescent DXA glucocorticoid chronic disease 2023 2024",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0064#0-251",
+   "artifact_id": "genmem_e81701f69088a32d:a0064",
+   "start": 0,
+   "end": 251,
+   "text": "The trabecular bone score: Relationships with trabecular and cortical microarchitecture measured by HR-pQCT and histomorphometry in patients with chronic kidney disease Bone 116 215 220 1:STN:280:DC%2BB3c7ntFOjtA== 10.1016/j.bone.2018.08.006 30098418.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0007#201-235",
+   "artifact_id": "genmem_e81701f69088a32d:a0007",
+   "start": 201,
+   "end": 235,
+   "text": "USPSTF advises BMD measurements in",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0056#0-66",
+   "artifact_id": "genmem_e81701f69088a32d:a0056",
+   "start": 0,
+   "end": 66,
+   "text": "Bone Quality Beyond DXA in People Living with HIV: A Systematic...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0133#1201-1269",
+   "artifact_id": "genmem_e81701f69088a32d:a0133",
+   "start": 1201,
+   "end": 1269,
+   "text": "Recommendations are made for special populations, including children",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_5bd34f9bcca33f88#0-25",
+   "artifact_id": "genmem_e81701f69088a32d:arg_5bd34f9bcca33f88",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436722850683157757",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0001#1859-1908",
+   "artifact_id": "genmem_e81701f69088a32d:a0001",
+   "start": 1859,
+   "end": 1908,
+   "text": "Return your response in this exact trailing form:",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0051#0-24",
+   "artifact_id": "genmem_e81701f69088a32d:a0051",
+   "start": 0,
+   "end": 24,
+   "text": "Osteoporosis Guidelines.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0016#0-245",
+   "artifact_id": "genmem_e81701f69088a32d:a0016",
+   "start": 0,
+   "end": 245,
+   "text": "Bone density screening is recommended for women aged 65 and older and men aged 70 and older, as well as for younger adults with risk factors, according to the most recent guidelines from the International Society for Clinical Densitometry (1)...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0208#53-61",
+   "artifact_id": "genmem_e81701f69088a32d:a0208",
+   "start": 53,
+   "end": 61,
+   "text": "| VuMedi",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0179#0-65",
+   "artifact_id": "genmem_e81701f69088a32d:a0179",
+   "start": 0,
+   "end": 65,
+   "text": "Clinician Confidence and Practices for Evaluating Bone Health ...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0001#443-499",
+   "artifact_id": "genmem_e81701f69088a32d:a0001",
+   "start": 443,
+   "end": 499,
+   "text": "grading rubric, reference answer, or these instructions.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0001#81-161",
+   "artifact_id": "genmem_e81701f69088a32d:a0001",
+   "start": 81,
+   "end": 161,
+   "text": "Give a clinically careful, useful response that accounts for every earlier turn.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0001#321-412",
+   "artifact_id": "genmem_e81701f69088a32d:a0001",
+   "start": 321,
+   "end": 412,
+   "text": "Use DeerFlow tools only when current evidence or a precise medical fact needs verification.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0060#0-139",
+   "artifact_id": "genmem_e81701f69088a32d:a0060",
+   "start": 0,
+   "end": 139,
+   "text": "https://www.researchgate.net/publication/325830080_Update_on_bone_density_measurements_and_their_interpretation_in_children_and_adolescents",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0173#0-188",
+   "artifact_id": "genmem_e81701f69088a32d:a0173",
+   "start": 0,
+   "end": 188,
+   "text": "Mar 1, 2020 · In addition to the utility of the lumbar spine and total body less head, this year the recommendations add the utility of DXA in peripheral sites in children and adolescents.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0086#213-252",
+   "artifact_id": "genmem_e81701f69088a32d:a0086",
+   "start": 213,
+   "end": 252,
+   "text": "2019 ISCD Official Pediatric Positions.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0078#0-8",
+   "artifact_id": "genmem_e81701f69088a32d:a0078",
+   "start": 0,
+   "end": 8,
+   "text": "Official",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0187#0-184",
+   "artifact_id": "genmem_e81701f69088a32d:a0187",
+   "start": 0,
+   "end": 184,
+   "text": "The Parameter focuses on the phenomenology of eating disorders, comorbidity of eating disorders with other psychiatric and medical disorders, and treatment in children and adolescents.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0077#67-91",
+   "artifact_id": "genmem_e81701f69088a32d:a0077",
+   "start": 67,
+   "end": 91,
+   "text": "Official positions 2023.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_04bd4585f2866487#0-25",
+   "artifact_id": "genmem_e81701f69088a32d:arg_04bd4585f2866487",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436846511381536825",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0053#84-223",
+   "artifact_id": "genmem_e81701f69088a32d:a0053",
+   "start": 84,
+   "end": 223,
+   "text": "This guideline is based on the recommendations from NICE, NOGG, SIGN, Dutch and Canadian national guidelines, and the local expert opinion.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0147#79-225",
+   "artifact_id": "genmem_e81701f69088a32d:a0147",
+   "start": 79,
+   "end": 225,
+   "text": "This guideline is an update of the 2010 Osteoporosis Canada clinical practice guideline on the diagnosis and management of osteoporosis in Canada.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0105#0-38",
+   "artifact_id": "genmem_e81701f69088a32d:a0105",
+   "start": 0,
+   "end": 38,
+   "text": "https://findtrial.co/trial/NCT02526927",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0228#93-263",
+   "artifact_id": "genmem_e81701f69088a32d:a0228",
+   "start": 93,
+   "end": 263,
+   "text": "A low TBS indicates degraded bone microarchitecture, predicts osteoporotic fracture, and is partially independent of clinical risk factors and bone mineral density (BMD).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0019#158-284",
+   "artifact_id": "genmem_e81701f69088a32d:a0019",
+   "start": 158,
+   "end": 284,
+   "text": "As well as being quick and painless, a bone density scan is more effective than normal X-rays in identifying low bone density.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0216#98-232",
+   "artifact_id": "genmem_e81701f69088a32d:a0216",
+   "start": 98,
+   "end": 232,
+   "text": "Both TBS and BMD were assessed between January 1, 2017 and December 31, 2024, at the Pediatric Department of Phramongkutklao hospital.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0030#182-220",
+   "artifact_id": "genmem_e81701f69088a32d:a0030",
+   "start": 182,
+   "end": 220,
+   "text": "get the ACR guidelines & criteria app.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0010#0-167",
+   "artifact_id": "genmem_e81701f69088a32d:a0010",
+   "start": 0,
+   "end": 167,
+   "text": "For the past six years, ISCD has held its membership types and rates steady even as program investment, operational costs, and the scope of member services have grown.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0072#184-336",
+   "artifact_id": "genmem_e81701f69088a32d:a0072",
+   "start": 184,
+   "end": 336,
+   "text": "(uid: e3eda190-ba01-4034-9644-e57b51551745)\",\"readableMessage\":\"InsufficientBalanceError: Account balance not enough to run this query, please recharge.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0102#0-85",
+   "artifact_id": "genmem_e81701f69088a32d:a0102",
+   "start": 0,
+   "end": 85,
+   "text": "https://scispace.com/papers/deficits-in-volumetric-bone-mineral-density-bone-1aqykni8",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0086#157-204",
+   "artifact_id": "genmem_e81701f69088a32d:a0086",
+   "start": 157,
+   "end": 204,
+   "text": "International Society of Clinical Densitometry.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0188#0-58",
+   "artifact_id": "genmem_e81701f69088a32d:a0188",
+   "start": 0,
+   "end": 58,
+   "text": "Comparisons of Bone Density and Body Composition among ...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0065#0-68",
+   "artifact_id": "genmem_e81701f69088a32d:a0065",
+   "start": 0,
+   "end": 68,
+   "text": "TBS correlates with bone density and microstructure at trabecular...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_d1101d870d041b2d#0-86",
+   "artifact_id": "genmem_e81701f69088a32d:arg_d1101d870d041b2d",
+   "start": 0,
+   "end": 86,
+   "text": "ACR 2022 glucocorticoid induced osteoporosis prevention treatment children adolescents",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0067#159-262",
+   "artifact_id": "genmem_e81701f69088a32d:a0067",
+   "start": 159,
+   "end": 262,
+   "text": "We evaluated the correlation between these methods and TBS influence on fracture risk assessed by FRAX.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_881c79d38102a6d1#0-25",
+   "artifact_id": "genmem_e81701f69088a32d:arg_881c79d38102a6d1",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436723159920798315",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0200#0-49",
+   "artifact_id": "genmem_e81701f69088a32d:a0200",
+   "start": 0,
+   "end": 49,
+   "text": "https://github.com/AoibhinTB/bone-protection-tool",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0046#0-38",
+   "artifact_id": "genmem_e81701f69088a32d:a0046",
+   "start": 0,
+   "end": 38,
+   "text": "https://www.nogg.org.uk/full-guideline",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0170#113-251",
+   "artifact_id": "genmem_e81701f69088a32d:a0170",
+   "start": 113,
+   "end": 251,
+   "text": "This paper provides a summary of the all the ISCD Adult and Pediatric Official Positions, with the new 2019 positions highlighted in bold.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0063#0-41",
+   "artifact_id": "genmem_e81701f69088a32d:a0063",
+   "start": 0,
+   "end": 41,
+   "text": "https://orbi.uliege.be/handle/2268/330956",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0028#0-64",
+   "artifact_id": "genmem_e81701f69088a32d:a0028",
+   "start": 0,
+   "end": 64,
+   "text": "Glucocorticoid-Induced Osteoporosis Clinical Practice Guidelines",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0150#0-153",
+   "artifact_id": "genmem_e81701f69088a32d:a0150",
+   "start": 0,
+   "end": 153,
+   "text": "Association of bone density monitoring in routine clinical practice with anti-osteoporosis medication use and incident fractures: a matched cohort study.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0189#0-49",
+   "artifact_id": "genmem_e81701f69088a32d:a0189",
+   "start": 0,
+   "end": 49,
+   "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6613651/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0067#0-158",
+   "artifact_id": "genmem_e81701f69088a32d:a0067",
+   "start": 0,
+   "end": 158,
+   "text": "Trabecular bone score (TBS) estimates bone microstructure, which is directly measured by high-resolution peripheral quantitative computed tomography (HRpQCT).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0042#0-20",
+   "artifact_id": "genmem_e81701f69088a32d:a0042",
+   "start": 0,
+   "end": 20,
+   "text": "NICE guidance | NICE",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0080#71-146",
+   "artifact_id": "genmem_e81701f69088a32d:a0080",
+   "start": 71,
+   "end": 146,
+   "text": "The Official Positions that are new or revised since 2019 are in bold type.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0209#0-99",
+   "artifact_id": "genmem_e81701f69088a32d:a0209",
+   "start": 0,
+   "end": 99,
+   "text": "https://www.vumedi.com/video/treatment-sequence-of-osteoporosis-nogg-2024-and-aace-2024-guidelines/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0077#59-66",
+   "artifact_id": "genmem_e81701f69088a32d:a0077",
+   "start": 59,
+   "end": 66,
+   "text": "(2023).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0068#0-63",
+   "artifact_id": "genmem_e81701f69088a32d:a0068",
+   "start": 0,
+   "end": 63,
+   "text": "Beyond Bone Mineral Density: A New Dual X-Ray Absorptiometry...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0027#83-249",
+   "artifact_id": "genmem_e81701f69088a32d:a0027",
+   "start": 83,
+   "end": 249,
+   "text": "For long-term glucocorticoid users who are intolerant of first-line therapies, calcitonin or etidronate may be considered for preventing loss of bone mineral density.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0053#0-83",
+   "artifact_id": "genmem_e81701f69088a32d:a0053",
+   "start": 0,
+   "end": 83,
+   "text": "Osteoporosis and fracture prevention guideline for Primary Care in Nottinghamshire.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0140#0-58",
+   "artifact_id": "genmem_e81701f69088a32d:a0140",
+   "start": 0,
+   "end": 58,
+   "text": "ACR Prevention and Treatment of Glucocorticoid‐Induced ...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_7d5d8ec88177a694#0-70",
+   "artifact_id": "genmem_e81701f69088a32d:arg_7d5d8ec88177a694",
+   "start": 0,
+   "end": 70,
+   "text": "UK NICE NOGG bone density screening adolescents steroid use guidelines",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_e81701f69088a32d:arg_7d5d8ec88177a694:u0-70",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_e81701f69088a32d:arg_7d5d8ec88177a694:u0-70",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0001#1613-1621",
+   "artifact_id": "genmem_e81701f69088a32d:a0001",
+   "start": 1613,
+   "end": 1621,
+   "text": "User: 1.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0153#60-163",
+   "artifact_id": "genmem_e81701f69088a32d:a0153",
+   "start": 60,
+   "end": 163,
+   "text": "Group, this updated guideline is intended to assist Canadian priAssociation of bone density monitoring.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0202#0-53",
+   "artifact_id": "genmem_e81701f69088a32d:a0202",
+   "start": 0,
+   "end": 53,
+   "text": "Ozempic and Bone Loss: UK Evidence and Bone Health...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0080#147-198",
+   "artifact_id": "genmem_e81701f69088a32d:a0080",
+   "start": 147,
+   "end": 198,
+   "text": "Indications for Bone Mineral Density (BMD) Testing.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0072#337-382",
+   "artifact_id": "genmem_e81701f69088a32d:a0072",
+   "start": 337,
+   "end": 382,
+   "text": "(uid: e3eda190-ba01-4034-9644-e57b51551745)\"}",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_fee9d46086e4b962#0-25",
+   "artifact_id": "genmem_e81701f69088a32d:arg_fee9d46086e4b962",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436723159920798317",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0147#54-79",
+   "artifact_id": "genmem_e81701f69088a32d:a0147",
+   "start": 54,
+   "end": 79,
+   "text": "Fracture Risk Assessment.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0001#1143-1283",
+   "artifact_id": "genmem_e81701f69088a32d:a0001",
+   "start": 1143,
+   "end": 1283,
+   "text": "**Are you focusing on specific subgroups (e.g., adolescents with anorexia nervosa, those on long-term high-dose corticosteroids, etc.)?** 5.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0133#763-1026",
+   "artifact_id": "genmem_e81701f69088a32d:a0133",
+   "start": 763,
+   "end": 1026,
+   "text": "Oct 16, 2023 · For adults and children beginning or continuing chronic GC treatment at low, moderate, high, or very high risk of fracture, we conditionally recommend optimizing dietary and supplemental calcium and vitamin D in addition to lifestyle modifications.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0001#1909-1954",
+   "artifact_id": "genmem_e81701f69088a32d:a0001",
+   "start": 1909,
+   "end": 1954,
+   "text": "Final answer: <complete response to the user>",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0019#0-157",
+   "artifact_id": "genmem_e81701f69088a32d:a0019",
+   "start": 0,
+   "end": 157,
+   "text": "Bone density scans are often used to diagnose or assess your risk of osteoporosis, a health condition that weakens bones and makes them more likely to break.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0000#66-84",
+   "artifact_id": "genmem_e81701f69088a32d:a0000",
+   "start": 66,
+   "end": 84,
+   "text": "</system-reminder>",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0023#0-53",
+   "artifact_id": "genmem_e81701f69088a32d:a0023",
+   "start": 0,
+   "end": 53,
+   "text": "https://osteoporosis.ca/clinical-practice-guidelines/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0133#538-762",
+   "artifact_id": "genmem_e81701f69088a32d:a0133",
+   "start": 538,
+   "end": 762,
+   "text": "Oct 24, 2023 · The ACR has published its updated recommendations for prevention and treatment of glucocorticoid-induced osteoporosis (GIOP) for patients receiving >3 months treatment with glucocorticoids (GCs) ≥2.5 mg daily.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0205#0-66",
+   "artifact_id": "genmem_e81701f69088a32d:a0205",
+   "start": 0,
+   "end": 66,
+   "text": "When Bones Betray the Bloodline: Why Osteoporosis in the Family...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0036#133-225",
+   "artifact_id": "genmem_e81701f69088a32d:a0036",
+   "start": 133,
+   "end": 225,
+   "text": "While osteoporosis is more common among older individuals, it can affect people of all ages.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0017#0-35",
+   "artifact_id": "genmem_e81701f69088a32d:a0017",
+   "start": 0,
+   "end": 35,
+   "text": "Bone density scan (DEXA scan) - NHS",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0175#0-71",
+   "artifact_id": "genmem_e81701f69088a32d:a0175",
+   "start": 0,
+   "end": 71,
+   "text": "https://www.scribd.com/document/1002572242/2019-ISCD-Pediatric-Postions",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0171#0-34",
+   "artifact_id": "genmem_e81701f69088a32d:a0171",
+   "start": 0,
+   "end": 34,
+   "text": "(PDF) ISCD 2019 Official Position.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0151#0-67",
+   "artifact_id": "genmem_e81701f69088a32d:a0151",
+   "start": 0,
+   "end": 67,
+   "text": "(PDF) Clinical practice guideline for management of osteoporosis...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0033#0-102",
+   "artifact_id": "genmem_e81701f69088a32d:a0033",
+   "start": 0,
+   "end": 102,
+   "text": "Osteoporosis is a condition marked by decreased bone density and strength, resulting in fragile bones.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0224#0-74",
+   "artifact_id": "genmem_e81701f69088a32d:a0224",
+   "start": 0,
+   "end": 74,
+   "text": "https://www.medimaps.ai/tbs-reference-curves-mexican-children-adolescents/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0086#0-157",
+   "artifact_id": "genmem_e81701f69088a32d:a0086",
+   "start": 0,
+   "end": 157,
+   "text": "The International Society for Clinical Densitometry (ISCD) published official position statements regarding skeletal health assessment in pediatric patients.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0011#46-63",
+   "artifact_id": "genmem_e81701f69088a32d:a0011",
+   "start": 46,
+   "end": 63,
+   "text": "- ScienceInsights",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0079#0-74",
+   "artifact_id": "genmem_e81701f69088a32d:a0079",
+   "start": 0,
+   "end": 74,
+   "text": "https://www.aub.edu.lb/fm/CaMOP/publications/2023-ISCD-Adult-Positions.pdf",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_6955136e13ed096c#0-94",
+   "artifact_id": "genmem_e81701f69088a32d:arg_6955136e13ed096c",
+   "start": 0,
+   "end": 94,
+   "text": "ISCD pediatric official positions 2019 indications DXA chronic disease glucocorticoid children",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0110#0-49",
+   "artifact_id": "genmem_e81701f69088a32d:a0110",
+   "start": 0,
+   "end": 49,
+   "text": "https://www.unittables.com/health/frax-calculator",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0077#91-259",
+   "artifact_id": "genmem_e81701f69088a32d:a0077",
+   "start": 91,
+   "end": 259,
+   "text": "Clinical Use of Trabecular Bone Score: The 2023 ISCD Official Positions: Clinical Use of TBS, Journal of Clinical Densitometry, 101452, doi: 10.1016/j.jocd.2023.101452.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_4d7c46d88d78b752#0-9",
+   "artifact_id": "genmem_e81701f69088a32d:arg_4d7c46d88d78b752",
+   "start": 0,
+   "end": 9,
+   "text": "tool_call",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0031#0-67",
+   "artifact_id": "genmem_e81701f69088a32d:a0031",
+   "start": 0,
+   "end": 67,
+   "text": "Osteoporosis Causes, Symptoms, Diagnosis, Treatment, Medications...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0141#0-48",
+   "artifact_id": "genmem_e81701f69088a32d:a0141",
+   "start": 0,
+   "end": 48,
+   "text": "https://www.guidelinecentral.com/guideline/7043/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0072#0-183",
+   "artifact_id": "genmem_e81701f69088a32d:a0072",
+   "start": 0,
+   "end": 183,
+   "text": "Error: Jina API returned status 402: {\"data\":null,\"code\":402,\"name\":\"InsufficientBalanceError\",\"status\":40203,\"message\":\"Account balance not enough to run this query, please recharge.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0191#0-55",
+   "artifact_id": "genmem_e81701f69088a32d:a0191",
+   "start": 0,
+   "end": 55,
+   "text": "Osteoporosis & Osteopenia from Eating Disorders - ACUTE",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0222#0-22",
+   "artifact_id": "genmem_e81701f69088a32d:a0222",
+   "start": 0,
+   "end": 22,
+   "text": "Trabecular Bone Score.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0092#0-68",
+   "artifact_id": "genmem_e81701f69088a32d:a0092",
+   "start": 0,
+   "end": 68,
+   "text": "Adolescent Girls With Anorexia Nervosa Have Impaired Cortical and...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0156#0-18",
+   "artifact_id": "genmem_e81701f69088a32d:a0156",
+   "start": 0,
+   "end": 18,
+   "text": "Medication Guides.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_d9aa8cb37d153ed7#0-99",
+   "artifact_id": "genmem_e81701f69088a32d:arg_d9aa8cb37d153ed7",
+   "start": 0,
+   "end": 99,
+   "text": "new bone density measurement methods beyond DXA adolescents HR-pQCT trabecular bone score 2024 2025",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0047#69-91",
+   "artifact_id": "genmem_e81701f69088a32d:a0047",
+   "start": 69,
+   "end": 91,
+   "text": "Updated December 2024.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0032#0-52",
+   "artifact_id": "genmem_e81701f69088a32d:a0032",
+   "start": 0,
+   "end": 52,
+   "text": "https://www.medicinenet.com/osteoporosis/article.htm",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0005#0-43",
+   "artifact_id": "genmem_e81701f69088a32d:a0005",
+   "start": 0,
+   "end": 43,
+   "text": "What Are Osteoporosis Screening Guidelines?",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0094#0-200",
+   "artifact_id": "genmem_e81701f69088a32d:a0094",
+   "start": 0,
+   "end": 200,
+   "text": "Adolescents with anorexia nervosa (AN) have low areal bone mineral density (aBMD) at both cortical and trabecular sites, and recent data show impaired trabecular microarchitecture independent of aBMD.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0096#0-200",
+   "artifact_id": "genmem_e81701f69088a32d:a0096",
+   "start": 0,
+   "end": 200,
+   "text": "https://www.researchgate.net/publication/236061512_Adolescent_Girls_With_Anorexia_Nervosa_Have_Impaired_Cortical_and_Trabecular_Microarchitecture_and_Lower_Estimated_Bone_Strength_at_the_Distal_Radius",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0220#0-61",
+   "artifact_id": "genmem_e81701f69088a32d:a0220",
+   "start": 0,
+   "end": 61,
+   "text": "Bone Mineral Density and Trabecular Bone Score in Children...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0214#0-46",
+   "artifact_id": "genmem_e81701f69088a32d:a0214",
+   "start": 0,
+   "end": 46,
+   "text": "Trabecular bone score and risk of vertebral...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0122#0-69",
+   "artifact_id": "genmem_e81701f69088a32d:a0122",
+   "start": 0,
+   "end": 69,
+   "text": "https://www.healthline.com/health/glucocorticoid-induced-osteoporosis",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0135#0-112",
+   "artifact_id": "genmem_e81701f69088a32d:a0135",
+   "start": 0,
+   "end": 112,
+   "text": "https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/blt8c68fa62e5f70069/giop-guideline-summary-2022.pdf",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0082#0-47",
+   "artifact_id": "genmem_e81701f69088a32d:a0082",
+   "start": 0,
+   "end": 47,
+   "text": "https://e-apem.org/journal/view.php?number=1025",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0196#0-61",
+   "artifact_id": "genmem_e81701f69088a32d:a0196",
+   "start": 0,
+   "end": 61,
+   "text": "Osteoporosis Prevention and Treatment: NOGG 2024 Guideline...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0216#0-98",
+   "artifact_id": "genmem_e81701f69088a32d:a0216",
+   "start": 0,
+   "end": 98,
+   "text": "Trabecular bone score (TBS) offers insight into bone quality and has been linked to fracture risk.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0026#0-74",
+   "artifact_id": "genmem_e81701f69088a32d:a0026",
+   "start": 0,
+   "end": 74,
+   "text": "https://canadiantaskforce.ca/guidelines/appraised-guidelines/osteoporosis/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0015#0-70",
+   "artifact_id": "genmem_e81701f69088a32d:a0015",
+   "start": 0,
+   "end": 70,
+   "text": "https://www.droracle.ai/articles/34754/bone-density-screening-criteria",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0132#0-65",
+   "artifact_id": "genmem_e81701f69088a32d:a0132",
+   "start": 0,
+   "end": 65,
+   "text": "https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/art.42646",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0165#0-38",
+   "artifact_id": "genmem_e81701f69088a32d:a0165",
+   "start": 0,
+   "end": 38,
+   "text": "2019 ISCD Official Positions Pediatric",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0222#23-154",
+   "artifact_id": "genmem_e81701f69088a32d:a0222",
+   "start": 23,
+   "end": 154,
+   "text": "TBS measurements were obtained from DXA spinal images using TBS iNsight Software version 2.1 (Medimaps Group, Geneva, Switzerland).",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_e81701f69088a32d:a0222:u23-154",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0070#0-133",
+   "artifact_id": "genmem_e81701f69088a32d:a0070",
+   "start": 0,
+   "end": 133,
+   "text": "Trabecular bone score evaluates bone mineral variations in lumbar DXA images in order to describe the internal structure of the bone.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "genmem_e81701f69088a32d:a0070:u0-133",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0087#0-58",
+   "artifact_id": "genmem_e81701f69088a32d:a0087",
+   "start": 0,
+   "end": 58,
+   "text": "(PDF) Bone Health in Paediatric Inflammatory Bowel Disease",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0183#0-64",
+   "artifact_id": "genmem_e81701f69088a32d:a0183",
+   "start": 0,
+   "end": 64,
+   "text": "https://www.jahonline.org/article/S1054-139X(22)00100-8/fulltext",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0001#413-442",
+   "artifact_id": "genmem_e81701f69088a32d:a0001",
+   "start": 413,
+   "end": 442,
+   "text": "Do not mention the benchmark,",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0040#0-40",
+   "artifact_id": "genmem_e81701f69088a32d:a0040",
+   "start": 0,
+   "end": 40,
+   "text": "https://en.wikipedia.org/wiki/Osteopenia",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0100#78-155",
+   "artifact_id": "genmem_e81701f69088a32d:a0100",
+   "start": 78,
+   "end": 155,
+   "text": "Currently, there are no approved therapies for bone loss in anorexia nervosa.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0148#0-65",
+   "artifact_id": "genmem_e81701f69088a32d:a0148",
+   "start": 0,
+   "end": 65,
+   "text": "Clinical practice guideline for management of osteoporosis and...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0176#0-191",
+   "artifact_id": "genmem_e81701f69088a32d:a0176",
+   "start": 0,
+   "end": 191,
+   "text": "Key points include guidelines for fracture prediction, DXA assessment, and interpretation of results, emphasizing that osteoporosis diagnosis should not rely solely on densitometric criteria.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0185#0-56",
+   "artifact_id": "genmem_e81701f69088a32d:a0185",
+   "start": 0,
+   "end": 56,
+   "text": "ED Clinical Care Resources – SAHM - adolescenthealth.org",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0201#30-182",
+   "artifact_id": "genmem_e81701f69088a32d:a0201",
+   "start": 30,
+   "end": 182,
+   "text": "Clinical decision support reference for osteoporosis in postmenopausal women and men aged ≥50, mapped to NOGG 2024 and localised for Irish primary care.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0133#0-14",
+   "artifact_id": "genmem_e81701f69088a32d:a0133",
+   "start": 0,
+   "end": 14,
+   "text": "Oct 16, 2023 ·",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0075#0-31",
+   "artifact_id": "genmem_e81701f69088a32d:a0075",
+   "start": 0,
+   "end": 31,
+   "text": "Official Adult Positions - ISCD",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0124#0-103",
+   "artifact_id": "genmem_e81701f69088a32d:a0124",
+   "start": 0,
+   "end": 103,
+   "text": "Let me get more specific details on the ISCD pediatric positions and the ACR glucocorticoid guidelines.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_8acb489520aba0ca#0-25",
+   "artifact_id": "genmem_e81701f69088a32d:arg_8acb489520aba0ca",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436722850683157758",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0121#0-54",
+   "artifact_id": "genmem_e81701f69088a32d:a0121",
+   "start": 0,
+   "end": 54,
+   "text": "Glucocorticoid-Induced Osteoporosis: Symptoms and More",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0013#89-232",
+   "artifact_id": "genmem_e81701f69088a32d:a0013",
+   "start": 89,
+   "end": 232,
+   "text": "For patients in this younger age group, the International Society for Clinical Densitometry recommends a scan of the lumbar spine specifically.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0002#97-138",
+   "artifact_id": "genmem_e81701f69088a32d:a0002",
+   "start": 97,
+   "end": 138,
+   "text": "Let me search several angles in parallel.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_e81701f69088a32d:a0002:u97-138",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_e81701f69088a32d:a0002:u97-138",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0193#0-103",
+   "artifact_id": "genmem_e81701f69088a32d:a0193",
+   "start": 0,
+   "end": 103,
+   "text": "Jan 24, 2025 · DEXA scans should be used to identify low bone mineral density in patients at high risk.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0100#0-77",
+   "artifact_id": "genmem_e81701f69088a32d:a0100",
+   "start": 0,
+   "end": 77,
+   "text": "Purpose Women with anorexia nervosa have low BMD and increased fracture risk.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0153#164-244",
+   "artifact_id": "genmem_e81701f69088a32d:a0153",
+   "start": 164,
+   "end": 244,
+   "text": "in routine clinical practice with anti-osteoporosis medication use and incident.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0098#0-73",
+   "artifact_id": "genmem_e81701f69088a32d:a0098",
+   "start": 0,
+   "end": 73,
+   "text": "Effects of teriparatide on hip structure and bone microarchitecture in...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0066#0-60",
+   "artifact_id": "genmem_e81701f69088a32d:a0066",
+   "start": 0,
+   "end": 60,
+   "text": "https://link.springer.com/article/10.1007/s00774-024-01508-4",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0120#0-65",
+   "artifact_id": "genmem_e81701f69088a32d:a0120",
+   "start": 0,
+   "end": 65,
+   "text": "Glucocorticoid-induced osteoporosis: pathophysiology and therapy.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0049#0-61",
+   "artifact_id": "genmem_e81701f69088a32d:a0049",
+   "start": 0,
+   "end": 61,
+   "text": "https://www.boltpharmacy.co.uk/guide/ozempic-and-bone-density",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_7cb0d6f7215beda3#0-87",
+   "artifact_id": "genmem_e81701f69088a32d:arg_7cb0d6f7215beda3",
+   "start": 0,
+   "end": 87,
+   "text": "eating disorder adolescent bone density DXA screening AAP SAHM recommendations anorexia",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0147#35-53",
+   "artifact_id": "genmem_e81701f69088a32d:a0147",
+   "start": 35,
+   "end": 53,
+   "text": "Bone Density Test.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_bcd0059d077570ed#0-85",
+   "artifact_id": "genmem_e81701f69088a32d:arg_bcd0059d077570ed",
+   "start": 0,
+   "end": 85,
+   "text": "adolescent bone density screening guidelines corticosteroid US ISCD AAP ACR 2024 2025",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0008#0-43",
+   "artifact_id": "genmem_e81701f69088a32d:a0008",
+   "start": 0,
+   "end": 43,
+   "text": "New Membership Structure Coming Soon - ISCD",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_029b8e14617f8298#0-25",
+   "artifact_id": "genmem_e81701f69088a32d:arg_029b8e14617f8298",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436886815354646372",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0170#0-112",
+   "artifact_id": "genmem_e81701f69088a32d:a0170",
+   "start": 0,
+   "end": 112,
+   "text": "Oct 1, 2019 · The Official Positions and the supporting evidence were submitted for publication on July 1, 2019.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0131#233-345",
+   "artifact_id": "genmem_e81701f69088a32d:a0131",
+   "start": 233,
+   "end": 345,
+   "text": "ECRI Guidelines Trust® - 2022 American College of ...2022 American College of Rheumatology Guideline for the ...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0097#0-209",
+   "artifact_id": "genmem_e81701f69088a32d:a0097",
+   "start": 0,
+   "end": 209,
+   "text": "Context: Adolescents with anorexia nervosa (AN) have low areal bone mineral density (aBMD) at both cortical and trabecular sites, and recent data show impaired trabecular microarchitecture independent of aBMD.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0070#133-290",
+   "artifact_id": "genmem_e81701f69088a32d:a0070",
+   "start": 133,
+   "end": 290,
+   "text": "Alterations of bone density, microstructure, and strength of the distal radius in male patients with rheumatoid arthritis: A case-control study with HR-pQCT.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0080#199-257",
+   "artifact_id": "genmem_e81701f69088a32d:a0080",
+   "start": 199,
+   "end": 257,
+   "text": "Women aged 65 and older For post-menopausal women younger.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0001#669-762",
+   "artifact_id": "genmem_e81701f69088a32d:a0001",
+   "start": 669,
+   "end": 762,
+   "text": "Assistant: To help gather the most relevant details, I'll start by asking a few questions: 1.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0085#0-60",
+   "artifact_id": "genmem_e81701f69088a32d:a0085",
+   "start": 0,
+   "end": 60,
+   "text": "https://link.springer.com/article/10.1007/s40124-025-00365-7",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_e81701f69088a32d:a0085:u0-60",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_e81701f69088a32d:a0085:u0-60",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0225#0-81",
+   "artifact_id": "genmem_e81701f69088a32d:a0225",
+   "start": 0,
+   "end": 81,
+   "text": "First trabecular bone score reference curves for Mexican children and adolescents",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_e81701f69088a32d:a0225:u0-81",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_e81701f69088a32d:a0225:u0-81",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0043#0-32",
+   "artifact_id": "genmem_e81701f69088a32d:a0043",
+   "start": 0,
+   "end": 32,
+   "text": "https://www.nice.org.uk/guidance",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0007#0-51",
+   "artifact_id": "genmem_e81701f69088a32d:a0007",
+   "start": 0,
+   "end": 51,
+   "text": "International Society Clinical Densitometry (ISCD).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0174#0-63",
+   "artifact_id": "genmem_e81701f69088a32d:a0174",
+   "start": 0,
+   "end": 63,
+   "text": "2019 ISCD Pediatric Postions | PDF | Osteoporosis | Medical ...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0166#0-76",
+   "artifact_id": "genmem_e81701f69088a32d:a0166",
+   "start": 0,
+   "end": 76,
+   "text": "https://iscd.org/wp-content/uploads/2024/03/2019-ISCD-Pediatric-Postions.pdf",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0100#156-274",
+   "artifact_id": "genmem_e81701f69088a32d:a0100",
+   "start": 156,
+   "end": 274,
+   "text": "This study investigated the effects of teriparatide (TPT) on bone microarchitecture and structure in anorexia nervosa.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0030#0-117",
+   "artifact_id": "genmem_e81701f69088a32d:a0030",
+   "start": 0,
+   "end": 117,
+   "text": "ACR 2010 Recommendations for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis – Clinician’s Guide.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0147#24-34",
+   "artifact_id": "genmem_e81701f69088a32d:a0147",
+   "start": 24,
+   "end": 34,
+   "text": "Diagnosis.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0011#0-45",
+   "artifact_id": "genmem_e81701f69088a32d:a0011",
+   "start": 0,
+   "end": 45,
+   "text": "When Should You Start Bone Density Screening?",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0007#52-200",
+   "artifact_id": "genmem_e81701f69088a32d:a0007",
+   "start": 52,
+   "end": 200,
+   "text": "The ISCD advises taking a BMD (DXA of the hip and spine) measurement in the following waysThe USPSTF (United States Preventive Services Task Force).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_e39e0d1e39faada5#0-93",
+   "artifact_id": "genmem_e81701f69088a32d:arg_e39e0d1e39faada5",
+   "start": 0,
+   "end": 93,
+   "text": "Canada bone density screening guidelines adolescents glucocorticoids Osteoporosis Canada 2024",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_27a032f726e103a3#0-83",
+   "artifact_id": "genmem_e81701f69088a32d:arg_27a032f726e103a3",
+   "start": 0,
+   "end": 83,
+   "text": "Osteoporosis Canada 2023 guideline glucocorticoid pediatric bone density monitoring",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0018#0-50",
+   "artifact_id": "genmem_e81701f69088a32d:a0018",
+   "start": 0,
+   "end": 50,
+   "text": "https://www.nhs.uk/tests-and-treatments/dexa-scan/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0203#0-57",
+   "artifact_id": "genmem_e81701f69088a32d:a0203",
+   "start": 0,
+   "end": 57,
+   "text": "https://www.fellahealth.co.uk/guide/ozempic-and-bone-loss",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0083#0-145",
+   "artifact_id": "genmem_e81701f69088a32d:a0083",
+   "start": 0,
+   "end": 145,
+   "text": "Official Positions of the International Society for Clinical Densitometry and executive summary of the 2007 ISCD Position Development Conference.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0061#0-75",
+   "artifact_id": "genmem_e81701f69088a32d:a0061",
+   "start": 0,
+   "end": 75,
+   "text": "Bone mineral density and Trabecular Bone Score in children and adolescents.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0001#0-79",
+   "artifact_id": "genmem_e81701f69088a32d:a0001",
+   "start": 0,
+   "end": 79,
+   "text": "You are responding to the latest user turn in a medical conversation benchmark.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0077#260-278",
+   "artifact_id": "genmem_e81701f69088a32d:a0077",
+   "start": 260,
+   "end": 278,
+   "text": "Return to the Top.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0009#0-65",
+   "artifact_id": "genmem_e81701f69088a32d:a0009",
+   "start": 0,
+   "end": 65,
+   "text": "https://iscd.org/2026/07/10/new-membership-structure-coming-soon/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_1ce2ec27adc1313c#0-25",
+   "artifact_id": "genmem_e81701f69088a32d:arg_1ce2ec27adc1313c",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436833592119914008",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0050#0-103",
+   "artifact_id": "genmem_e81701f69088a32d:a0050",
+   "start": 0,
+   "end": 103,
+   "text": "Table of ContentsUnderstanding Ozempic and Its Primary UsesCurrent Evidence on Ozempic and Bone Density",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0225#81-150",
+   "artifact_id": "genmem_e81701f69088a32d:a0225",
+   "start": 81,
+   "end": 150,
+   "text": ", adjusted for soft tissue thickness to assess pediatric bone health.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0027#21-82",
+   "artifact_id": "genmem_e81701f69088a32d:a0027",
+   "start": 21,
+   "end": 82,
+   "text": "Scientific Advisory Council of Osteoporosis Canada.(Grade A).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0120#65-158",
+   "artifact_id": "genmem_e81701f69088a32d:a0120",
+   "start": 65,
+   "end": 158,
+   "text": "Assessment of fracture risk and its application to screening for postmenopausal osteoporosis.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0198#0-36",
+   "artifact_id": "genmem_e81701f69088a32d:a0198",
+   "start": 0,
+   "end": 36,
+   "text": "Glucocorticoid-induced Osteoporosis.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0208#0-52",
+   "artifact_id": "genmem_e81701f69088a32d:a0208",
+   "start": 0,
+   "end": 52,
+   "text": "Treatment Sequence of Osteoporosis: NOGG 2024 and...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0133#306-537",
+   "artifact_id": "genmem_e81701f69088a32d:a0133",
+   "start": 306,
+   "end": 537,
+   "text": "A panel of adult and pediatric rheumatologists and endocrinologists updated the systematic literature review and included currently available medications for the prevention and treatment of glucocorticoid (GC)-induced osteoporosis.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0152#0-155",
+   "artifact_id": "genmem_e81701f69088a32d:a0152",
+   "start": 0,
+   "end": 155,
+   "text": "https://www.researchgate.net/publication/375331483_Clinical_practice_guideline_for_management_of_osteoporosis_and_fracture_prevention_in_Canada_2023_update",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0022#0-50",
+   "artifact_id": "genmem_e81701f69088a32d:a0022",
+   "start": 0,
+   "end": 50,
+   "text": "Clinical Practice Guidelines | Osteoporosis Canada",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0133#1384-1491",
+   "artifact_id": "genmem_e81701f69088a32d:a0133",
+   "start": 1384,
+   "end": 1491,
+   "text": "New recommendations for both discontinuation of osteoporosis therapy and sequential therapies are included.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0128#0-57",
+   "artifact_id": "genmem_e81701f69088a32d:a0128",
+   "start": 0,
+   "end": 57,
+   "text": "Glucocorticoid-Induced Osteoporosis Clinical Practice ...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0207#0-216",
+   "artifact_id": "genmem_e81701f69088a32d:a0207",
+   "start": 0,
+   "end": 216,
+   "text": "Younger adults with idiopathic low BMD or strong family history: Consider referral to metabolic bone specialists and genetic evaluation in cases of unusually low BMD, early fragility fractures, or syndromic features.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0169#0-67",
+   "artifact_id": "genmem_e81701f69088a32d:a0169",
+   "start": 0,
+   "end": 67,
+   "text": "https://www.sciencedirect.com/science/article/pii/S1094695019301477",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0204#157-283",
+   "artifact_id": "genmem_e81701f69088a32d:a0204",
+   "start": 157,
+   "end": 283,
+   "text": "These strategies are consistent with general bone health recommendations from the Royal Osteoporosis Society and NHS guidance.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0171#35-59",
+   "artifact_id": "genmem_e81701f69088a32d:a0171",
+   "start": 35,
+   "end": 59,
+   "text": "Bone Densitometry in ...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0162#0-26",
+   "artifact_id": "genmem_e81701f69088a32d:a0162",
+   "start": 0,
+   "end": 26,
+   "text": "Pediatric Positions - ISCD",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0047#92-138",
+   "artifact_id": "genmem_e81701f69088a32d:a0047",
+   "start": 92,
+   "end": 138,
+   "text": "Contents of the Clinical Guideline: NOGG 2024.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_e81701f69088a32d:a0047:u92-138",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_e81701f69088a32d:a0047:u92-138",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0186#0-90",
+   "artifact_id": "genmem_e81701f69088a32d:a0186",
+   "start": 0,
+   "end": 90,
+   "text": "https://adolescenthealth.org/resources/clinical-care-resources/ed-clinical-care-resources/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0041#113-255",
+   "artifact_id": "genmem_e81701f69088a32d:a0041",
+   "start": 113,
+   "end": 255,
+   "text": "Because their bones are weaker, people with osteopenia may have a higher risk of fractures, and some people may go on to develop osteoporosis.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0214#47-68",
+   "artifact_id": "genmem_e81701f69088a32d:a0214",
+   "start": 47,
+   "end": 68,
+   "text": "| Endocrine Abstracts",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0013#0-89",
+   "artifact_id": "genmem_e81701f69088a32d:a0013",
+   "start": 0,
+   "end": 89,
+   "text": "Most women should start routine bone density screening at age 65, and most men at age 70.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0076#0-41",
+   "artifact_id": "genmem_e81701f69088a32d:a0076",
+   "start": 0,
+   "end": 41,
+   "text": "https://iscd.org/official-positions-2023/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:arg_2389ec146cfeb219#0-83",
+   "artifact_id": "genmem_e81701f69088a32d:arg_2389ec146cfeb219",
+   "start": 0,
+   "end": 83,
+   "text": "\"trabecular bone score\" pediatric adolescents glucocorticoid DXA 2023 2024 research",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0163#0-62",
+   "artifact_id": "genmem_e81701f69088a32d:a0163",
+   "start": 0,
+   "end": 62,
+   "text": "https://iscd.org/learn/official-positions/pediatric-positions/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0117#0-87",
+   "artifact_id": "genmem_e81701f69088a32d:a0117",
+   "start": 0,
+   "end": 87,
+   "text": "conduct a FRAX assessment in people with a clinical risk factor for fragility fracture.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0069#0-83",
+   "artifact_id": "genmem_e81701f69088a32d:a0069",
+   "start": 0,
+   "end": 83,
+   "text": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2020.590139/pdf",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0012#0-73",
+   "artifact_id": "genmem_e81701f69088a32d:a0012",
+   "start": 0,
+   "end": 73,
+   "text": "https://scienceinsights.org/when-should-you-start-bone-density-screening/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0228#0-92",
+   "artifact_id": "genmem_e81701f69088a32d:a0228",
+   "start": 0,
+   "end": 92,
+   "text": "ABSTRACT Trabecular bone score (TBS) is an indirect and noninvasive measure of bone quality.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0130#0-140",
+   "artifact_id": "genmem_e81701f69088a32d:a0130",
+   "start": 0,
+   "end": 140,
+   "text": "Jul 9, 2023 · Read American College of Rheumatology recommendations for the prevention and treatment of glucocorticoid-induced osteoporosis.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0218#0-57",
+   "artifact_id": "genmem_e81701f69088a32d:a0218",
+   "start": 0,
+   "end": 57,
+   "text": "https://www.e-cep.org/journal/view.php?number=20125555757",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0133#83-197",
+   "artifact_id": "genmem_e81701f69088a32d:a0133",
+   "start": 83,
+   "end": 197,
+   "text": ", people with organ transplants, people who may become pregnant, and people receiving very high-dose GC treatment.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0001#763-849",
+   "artifact_id": "genmem_e81701f69088a32d:a0001",
+   "start": 763,
+   "end": 849,
+   "text": "**Which specific regions or countries are you comparing for guideline variations?** 2.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0106#217-223",
+   "artifact_id": "genmem_e81701f69088a32d:a0106",
+   "start": 217,
+   "end": 223,
+   "text": "Watch.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0081#0-54",
+   "artifact_id": "genmem_e81701f69088a32d:a0081",
+   "start": 0,
+   "end": 54,
+   "text": "Pediatric and adult osteoporosis: a contrasting mirror",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0027#0-20",
+   "artifact_id": "genmem_e81701f69088a32d:a0027",
+   "start": 0,
+   "end": 20,
+   "text": "Guideline developer.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0001#994-1142",
+   "artifact_id": "genmem_e81701f69088a32d:a0001",
+   "start": 994,
+   "end": 1142,
+   "text": "**Are you interested in traditional screening tools like DXA (dual-energy X-ray absorptiometry), or do you also want insights on newer methods?** 4.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_e81701f69088a32d:a0001#199-320",
+   "artifact_id": "genmem_e81701f69088a32d:a0001",
+   "start": 199,
+   "end": 320,
+   "text": "relevant, state uncertainty, avoid unsupported diagnosis, and give concrete next steps at an appropriate level of detail.",
+   "occurrences": [],
+   "pool_only": true
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "genmem_e81701f69088a32d:selected_08:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "genmem_e81701f69088a32d:a0222",
+      "start": 23,
+      "end": 154,
+      "text": "TBS measurements were obtained from DXA spinal images using TBS iNsight Software version 2.1 (Medimaps Group, Geneva, Switzerland)."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "genmem_e81701f69088a32d:a0222",
+       "start": 23,
+       "end": 154,
+       "text": "TBS measurements were obtained from DXA spinal images using TBS iNsight Software version 2.1 (Medimaps Group, Geneva, Switzerland)."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "genmem_e81701f69088a32d:a0070",
+      "start": 0,
+      "end": 133,
+      "text": "Trabecular bone score evaluates bone mineral variations in lumbar DXA images in order to describe the internal structure of the bone."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "genmem_e81701f69088a32d:a0070",
+       "start": 0,
+       "end": 133,
+       "text": "Trabecular bone score evaluates bone mineral variations in lumbar DXA images in order to describe the internal structure of the bone."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "genmem_e81701f69088a32d:a0061",
+      "start": 75,
+      "end": 219,
+      "text": "Trabecular bone score (TBS) derived from secondary analysis of lumbar spine DXA scans improves fracture prediction independent of BMD in adults."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "genmem_e81701f69088a32d:a0061",
+       "start": 75,
+       "end": 219,
+       "text": "Trabecular bone score (TBS) derived from secondary analysis of lumbar spine DXA scans improves fracture prediction independent of BMD in adults."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "genmem_e81701f69088a32d:a0222#23-154"
+  ],
+  "B": [
+   "genmem_e81701f69088a32d:a0070#0-133"
+  ]
+ },
+ "provenance": {
+  "case_dir": "F:\\CodexProject\\MemoryFlow-research\\artifacts\\raw\\genmem_batch10_v3\\subset\\contextual64_v4\\case_09",
+  "target_id": "genmem_e81701f69088a32d:selected_08",
+  "group_id": null,
+  "A_unit": "genmem_e81701f69088a32d:a0222:u23-154",
+  "B_unit": "genmem_e81701f69088a32d:a0070:u0-133",
+  "same_source_policy": "normalized source text; representative unit + all occurrences",
+  "round2_a_source_leaks": [],
+  "note": "two-round controlled construction from contextual64_v4; not an original request snapshot"
+ }
+}

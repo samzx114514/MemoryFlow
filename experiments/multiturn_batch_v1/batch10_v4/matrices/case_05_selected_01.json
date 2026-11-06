@@ -1,0 +1,211 @@
+{
+  "case_id": "genmem_58452c40de4bdcb9:selected_01",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0047#0-110",
+          "score": 0.2402464598417282,
+          "text": "(a) For each of the following pairs of gases, decide which substance has the larger van der Waals a parameter:"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0020#0-108",
+          "score": 0.054509520530700684,
+          "text": "https://www.sarthaks.com/3506434/arrange-the-following-gases-in-increasing-order-of-van-der-waals-constant-a"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0050#0-67",
+          "score": 0.019070470705628395,
+          "text": "Which of the following reaction involves free radical substitution?"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0142#4-54",
+          "score": 0.004458429757505655,
+          "text": "Датчик частиц дизельного топлива — BMW X6 (F16)..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0121#79-160",
+          "score": 0.008633541874587536,
+          "text": "How the surplus electrons are destroyed and how all of this pumps heat into th..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0086#146-195",
+          "score": 0.004752922337502241,
+          "text": "The gas which can be most easily be liquefied is."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0127#104-209",
+          "score": 0.02271461673080921,
+          "text": "Element 8 has a C6 Dispersion Coefficient (CD) of 15.6 a₀, and C6 Dispersion Coefficient (GB) of 16.7 a₀."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0156#0-117",
+          "score": 0.002410585293546319,
+          "text": "An explanation of the molecular geometry for the H2CO (Formaldehyde) including a description of the H2CO bond angles."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#778-859",
+          "score": 0.029741672798991203,
+          "text": "for each of the following pairs state which species has the greater van der waals"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0064#32-123",
+          "score": 0.09952211380004883,
+          "text": "Choose presets for your gas (N₂, O₂, CO₂, H₂O) or enter custom a (attraction parameter) and"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0064#124-143",
+          "score": 0.20185531675815582,
+          "text": "b (excluded volume)"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 308,
+      "seconds": 0.039,
+      "target": "asking for both the **a** parameter (intermolecular attraction) and the **b** parameter (molecular volume).",
+      "target_tokens": 25,
+      "total_tokens": 333
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0047#0-110",
+          "score": 0.5206387042999268,
+          "text": "(a) For each of the following pairs of gases, decide which substance has the larger van der Waals a parameter:"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0020#0-108",
+          "score": 0.09462598711252213,
+          "text": "https://www.sarthaks.com/3506434/arrange-the-following-gases-in-increasing-order-of-van-der-waals-constant-a"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0050#0-67",
+          "score": 0.023735880851745605,
+          "text": "Which of the following reaction involves free radical substitution?"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0142#4-54",
+          "score": 0.0014796468894928694,
+          "text": "Датчик частиц дизельного топлива — BMW X6 (F16)..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0121#79-160",
+          "score": 0.007658844348043203,
+          "text": "How the surplus electrons are destroyed and how all of this pumps heat into th..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0086#146-195",
+          "score": 0.006825215183198452,
+          "text": "The gas which can be most easily be liquefied is."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0127#104-209",
+          "score": 0.010485449805855751,
+          "text": "Element 8 has a C6 Dispersion Coefficient (CD) of 15.6 a₀, and C6 Dispersion Coefficient (GB) of 16.7 a₀."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0156#0-117",
+          "score": 0.0006453770911321044,
+          "text": "An explanation of the molecular geometry for the H2CO (Formaldehyde) including a description of the H2CO bond angles."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#778-859",
+          "score": 0.043987005949020386,
+          "text": "for each of the following pairs state which species has the greater van der waals"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 272,
+      "seconds": 0.347,
+      "target": "The problem asks which gas has the larger van der Waals a parameter.",
+      "target_tokens": 15,
+      "total_tokens": 287
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.14319384098052979,
+          "text": "The problem asks which gas has the larger van der Waals a parameter."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0064#32-123",
+          "score": 0.18711629509925842,
+          "text": "Choose presets for your gas (N₂, O₂, CO₂, H₂O) or enter custom a (attraction parameter) and"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0064#124-143",
+          "score": 0.2766124904155731,
+          "text": "b (excluded volume)"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0020#0-108",
+          "score": 0.04773031175136566,
+          "text": "https://www.sarthaks.com/3506434/arrange-the-following-gases-in-increasing-order-of-van-der-waals-constant-a"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0050#0-67",
+          "score": 0.030071578919887543,
+          "text": "Which of the following reaction involves free radical substitution?"
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0142#4-54",
+          "score": 0.004211662337183952,
+          "text": "Датчик частиц дизельного топлива — BMW X6 (F16)..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0121#79-160",
+          "score": 0.012331695295870304,
+          "text": "How the surplus electrons are destroyed and how all of this pumps heat into th..."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0086#146-195",
+          "score": 0.012248928658664227,
+          "text": "The gas which can be most easily be liquefied is."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0127#104-209",
+          "score": 0.004182695876806974,
+          "text": "Element 8 has a C6 Dispersion Coefficient (CD) of 15.6 a₀, and C6 Dispersion Coefficient (GB) of 16.7 a₀."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0156#0-117",
+          "score": 0.0010872373823076487,
+          "text": "An explanation of the molecular geometry for the H2CO (Formaldehyde) including a description of the H2CO bond angles."
+        },
+        {
+          "canonical_id": "genmem_58452c40de4bdcb9:a0001#778-859",
+          "score": 0.009555849246680737,
+          "text": "for each of the following pairs state which species has the greater van der waals"
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 298,
+      "seconds": 0.054,
+      "target": "asking for both the **a** parameter (intermolecular attraction) and the **b** parameter (molecular volume).",
+      "target_tokens": 25,
+      "total_tokens": 323
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 24.94,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

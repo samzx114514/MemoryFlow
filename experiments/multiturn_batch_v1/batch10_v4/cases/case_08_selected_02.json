@@ -1,0 +1,3005 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "genmem_996703de4e5c4aa9:selected_02",
+ "trajectory_id": "genmem_996703de4e5c4aa9",
+ "trajectory_case": "case_08",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "there's an active scientific debate about whether \"biochemical activity\" truly equals \"biological function\"",
+  "sha256": "beb343a3f19f5e2d6b6e15bf228589e52231ffda49d69b77fe5abcf129d6006e",
+  "origin": "recorded_target",
+  "artifact_id": "genmem_996703de4e5c4aa9:a0142",
+  "start": 907,
+  "end": 1014,
+  "original_target": {
+   "text": "there's an active scientific debate about whether \"biochemical activity\" truly equals \"biological function\"",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0142",
+   "start": 907,
+   "end": 1014,
+   "event_index": 16
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "According to the materials, what is the key earlier statement?",
+   "inputs": [
+    {
+     "unit_id": "genmem_996703de4e5c4aa9:a0024:u0-83",
+     "artifact_id": "genmem_996703de4e5c4aa9:a0024",
+     "start": 0,
+     "end": 83,
+     "text": "ENCODE project data comparison showing functional vs non-functional genome regions.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    },
+    {
+     "unit_id": "genmem_996703de4e5c4aa9:a0064:u0-83",
+     "artifact_id": "genmem_996703de4e5c4aa9:a0064",
+     "start": 0,
+     "end": 83,
+     "text": "https://www.soundmedicineacademy.com/pages/sound-healing-blog/solfeggio-frequencies",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    },
+    {
+     "unit_id": "genmem_996703de4e5c4aa9:a0037:u0-147",
+     "artifact_id": "genmem_996703de4e5c4aa9:a0037",
+     "start": 0,
+     "end": 147,
+     "text": "Let me get a clearer picture of the scientific consensus on the ENCODE interpretation and the evidence quality for the meditation-epigenetics link.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    },
+    {
+     "unit_id": "genmem_996703de4e5c4aa9:a0002:u0-69",
+     "artifact_id": "genmem_996703de4e5c4aa9:a0002",
+     "start": 0,
+     "end": 69,
+     "text": "I want to give you an honest, well-grounded answer with real sources.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    },
+    {
+     "unit_id": "genmem_996703de4e5c4aa9:a0067:u0-46",
+     "artifact_id": "genmem_996703de4e5c4aa9:a0067",
+     "start": 0,
+     "end": 46,
+     "text": "https://royaltyfreemusichub.com/sound-healing/",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    },
+    {
+     "unit_id": "genmem_996703de4e5c4aa9:a0076:u1134-1349",
+     "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+     "start": 1134,
+     "end": 1349,
+     "text": "See full list on mindvibrations.com On a related note, Dr. James Gimzewski of UCLA has discovered that individual cells actually create sounds, and that different cells have different sonic signatures or vibrations.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    },
+    {
+     "unit_id": "genmem_996703de4e5c4aa9:arg_1c429cf599c7e6c4:u0-25",
+     "artifact_id": "genmem_996703de4e5c4aa9:arg_1c429cf599c7e6c4",
+     "start": 0,
+     "end": 25,
+     "text": "call_-7436857300339390192",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    },
+    {
+     "unit_id": "genmem_996703de4e5c4aa9:a0060:u25-51",
+     "artifact_id": "genmem_996703de4e5c4aa9:a0060",
+     "start": 25,
+     "end": 51,
+     "text": "The Claims and the Science",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    },
+    {
+     "unit_id": "genmem_996703de4e5c4aa9:a0091:u0-61",
+     "artifact_id": "genmem_996703de4e5c4aa9:a0091",
+     "start": 0,
+     "end": 61,
+     "text": "Effect of an 18-Month Meditation Training on Telomeres in ...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "output": {
+    "text": "The debate asks whether biochemical activity is the same as biological function.",
+    "sha256": "9513c453411ba2beed61ebd006aa872df0cef70b47defe263c039b1f095b02f9",
+    "origin": "controlled_output"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "Using the earlier statement and the new material, write the final sentence.",
+   "inputs": [
+    {
+     "unit_id": "genmem_996703de4e5c4aa9:a0045:u0-82",
+     "artifact_id": "genmem_996703de4e5c4aa9:a0045",
+     "start": 0,
+     "end": 82,
+     "text": "(Assuming true junk-DNA is precisely neutral in terms of selection co-efficients).",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    },
+    {
+     "unit_id": "genmem_996703de4e5c4aa9:a0030:u108-222",
+     "artifact_id": "genmem_996703de4e5c4aa9:a0030",
+     "start": 108,
+     "end": 222,
+     "text": "ENCODE found that at least 80% (or 85%?) of the non-coding portion of DNA was copied & expressed as RNA molecules.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    },
+    {
+     "unit_id": "genmem_996703de4e5c4aa9:a0064:u0-83",
+     "artifact_id": "genmem_996703de4e5c4aa9:a0064",
+     "start": 0,
+     "end": 83,
+     "text": "https://www.soundmedicineacademy.com/pages/sound-healing-blog/solfeggio-frequencies",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    },
+    {
+     "unit_id": "genmem_996703de4e5c4aa9:a0037:u0-147",
+     "artifact_id": "genmem_996703de4e5c4aa9:a0037",
+     "start": 0,
+     "end": 147,
+     "text": "Let me get a clearer picture of the scientific consensus on the ENCODE interpretation and the evidence quality for the meditation-epigenetics link.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    },
+    {
+     "unit_id": "genmem_996703de4e5c4aa9:a0002:u0-69",
+     "artifact_id": "genmem_996703de4e5c4aa9:a0002",
+     "start": 0,
+     "end": 69,
+     "text": "I want to give you an honest, well-grounded answer with real sources.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    },
+    {
+     "unit_id": "genmem_996703de4e5c4aa9:a0067:u0-46",
+     "artifact_id": "genmem_996703de4e5c4aa9:a0067",
+     "start": 0,
+     "end": 46,
+     "text": "https://royaltyfreemusichub.com/sound-healing/",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    },
+    {
+     "unit_id": "genmem_996703de4e5c4aa9:a0076:u1134-1349",
+     "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+     "start": 1134,
+     "end": 1349,
+     "text": "See full list on mindvibrations.com On a related note, Dr. James Gimzewski of UCLA has discovered that individual cells actually create sounds, and that different cells have different sonic signatures or vibrations.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    },
+    {
+     "unit_id": "genmem_996703de4e5c4aa9:arg_1c429cf599c7e6c4:u0-25",
+     "artifact_id": "genmem_996703de4e5c4aa9:arg_1c429cf599c7e6c4",
+     "start": 0,
+     "end": 25,
+     "text": "call_-7436857300339390192",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    },
+    {
+     "unit_id": "genmem_996703de4e5c4aa9:a0060:u25-51",
+     "artifact_id": "genmem_996703de4e5c4aa9:a0060",
+     "start": 25,
+     "end": 51,
+     "text": "The Claims and the Science",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    },
+    {
+     "unit_id": "genmem_996703de4e5c4aa9:a0091:u0-61",
+     "artifact_id": "genmem_996703de4e5c4aa9:a0091",
+     "start": 0,
+     "end": 61,
+     "text": "Effect of an 18-Month Meditation Training on Telomeres in ...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 10
+     }
+    }
+   ],
+   "output": {
+    "text": "there's an active scientific debate about whether \"biochemical activity\" truly equals \"biological function\"",
+    "sha256": "beb343a3f19f5e2d6b6e15bf228589e52231ffda49d69b77fe5abcf129d6006e",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "The debate asks whether biochemical activity is the same as biological function.",
+     "sha256": "9513c453411ba2beed61ebd006aa872df0cef70b47defe263c039b1f095b02f9",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0037#0-147",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0037",
+   "start": 0,
+   "end": 147,
+   "text": "Let me get a clearer picture of the scientific consensus on the ENCODE interpretation and the evidence quality for the meditation-epigenetics link.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_996703de4e5c4aa9:a0037:u0-147",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_996703de4e5c4aa9:a0037:u0-147",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:arg_365464f8fecb521b#0-25",
+   "artifact_id": "genmem_996703de4e5c4aa9:arg_365464f8fecb521b",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436887262031242992",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0101#0-67",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0101",
+   "start": 0,
+   "end": 67,
+   "text": "https://www.sciencedirect.com/science/article/pii/S2666497622000431",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#501-514",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 501,
+   "end": 514,
+   "text": "Conversation:",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0029#0-115",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0029",
+   "start": 0,
+   "end": 115,
+   "text": "https://uncommondescent.com/junk-dna/what-darwins-followers-did-not-use-junk-dna-as-an-argument-for-their-position/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0010#206-260",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0010",
+   "start": 206,
+   "end": 260,
+   "text": "Study reveals gene expression changes with meditation.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0086#0-6",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0086",
+   "start": 0,
+   "end": 6,
+   "text": "PubMed",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0036#171-267",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0036",
+   "start": 171,
+   "end": 267,
+   "text": "The hypothesis asserts the DNA molecule contains not one, but two separate modes of inheritance.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0035#0-53",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0035",
+   "start": 0,
+   "end": 53,
+   "text": "https://www.academia.edu/166232309/No_joy_for_junkies",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0060#0-24",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0060",
+   "start": 0,
+   "end": 24,
+   "text": "What Is 528 Hz Good For?",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#162-198",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 162,
+   "end": 198,
+   "text": "Prioritize urgent warning signs when",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0123#73-259",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0123",
+   "start": 73,
+   "end": 259,
+   "text": "Building on the observation that mindfulness practices can quickly alter gene expression, Kaliman's group investigated whether these effects might be mediated by epigenetic mechanisms...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#1386-1492",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 1386,
+   "end": 1492,
+   "text": "While this form of study (known as sonocytology) is relatively new, the theoretical implications are vast.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0000#0-17",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0000",
+   "start": 0,
+   "end": 17,
+   "text": "<system-reminder>",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0016#75-140",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0016",
+   "start": 75,
+   "end": 140,
+   "text": "in the pre-frontal cortex and hippocampus has also been observed.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0136#0-47",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0136",
+   "start": 0,
+   "end": 47,
+   "text": "https://www.dimeadozen.ai/sample-report/23andme",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0085#0-80",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0085",
+   "start": 0,
+   "end": 80,
+   "text": "Google Scholar provides a simple way to broadly search for scholarly literature.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0013#0-90",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0013",
+   "start": 0,
+   "end": 90,
+   "text": "Gene expression is controlled by epigenetic modification, influenced by intracellular and.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0093#125-275",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0093",
+   "start": 125,
+   "end": 275,
+   "text": "Here, we investigated the effect of an 18-month meditation intervention on telomere length (TL) measures in older people without cognitive impairment.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0123#0-72",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0123",
+   "start": 0,
+   "end": 72,
+   "text": "epigenetic changes following meditation practice (Kaliman et al., 2014).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:arg_16a3c65d6f1e7fa7#0-66",
+   "artifact_id": "genmem_996703de4e5c4aa9:arg_16a3c65d6f1e7fa7",
+   "start": 0,
+   "end": 66,
+   "text": "Black CDXR Creon DNA repair 528 Hz study 1998 in vitro replication",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0000#18-65",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0000",
+   "start": 18,
+   "end": 65,
+   "text": "<current_date>2026-07-20, Monday</current_date>",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0117#0-140",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0117",
+   "start": 0,
+   "end": 140,
+   "text": "You know all about how DNA bases can code for an organism's traits, but did you know there's more influencing phenotype than just the bases?",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0103#60-123",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0103",
+   "start": 60,
+   "end": 123,
+   "text": "Rapid changes in histone deacetylases and inflammatory gene ...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0036#109-170",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0036",
+   "start": 109,
+   "end": 170,
+   "text": "Here a new model of DNA is proposed to explain this function.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0114#0-20",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0114",
+   "start": 0,
+   "end": 20,
+   "text": "073/pnas.1806781116.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0028#49-67",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0028",
+   "start": 49,
+   "end": 67,
+   "text": "| Uncommon Descent",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:arg_56ace72f6d38a254#0-25",
+   "artifact_id": "genmem_996703de4e5c4aa9:arg_56ace72f6d38a254",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436887262031242993",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#1350-1380",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 1350,
+   "end": 1380,
+   "text": "More law of vibration at work?",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0018#0-101",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0018",
+   "start": 0,
+   "end": 101,
+   "text": "https://eocinstitute.org/meditation/epigenetics-how-meditation-upgrades-gene-expression-slows-cancer/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0048#0-160",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0048",
+   "start": 0,
+   "end": 160,
+   "text": "Support Stated Clearly on Patreon: https://www.patreon.com/statedclearlyIssues of genetics and DNA are constantly cropping up in the news from food productio...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#1381-1385",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 1381,
+   "end": 1385,
+   "text": "(8).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#2894-2994",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 2894,
+   "end": 2994,
+   "text": "Though this effect is indirect, it’s the most notable example of 528 Hz’s potential to heal our DNA.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#824-891",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 824,
+   "end": 891,
+   "text": "do you think there's actual science behind this or is it just hype?",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0015#0-79",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0015",
+   "start": 0,
+   "end": 79,
+   "text": "https://gurukul.edu/wp-content/uploads/2022/05/40Meditation-and-Epigenetics.pdf",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0112#0-41",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0112",
+   "start": 0,
+   "end": 41,
+   "text": "pnas.org/doi/full/10.1073/pnas.1806781116",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0128#127-256",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0128",
+   "start": 127,
+   "end": 256,
+   "text": "That difference matters for rare disease diagnosis, medication safety, and detecting variants that snippet tests miss completely.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0054#0-104",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0054",
+   "start": 0,
+   "end": 104,
+   "text": "DNA is an organic chemical of complex molecular structure found in all prokaryotic and eukaryotic cells.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0061#0-79",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0061",
+   "start": 0,
+   "end": 79,
+   "text": "https://biologyinsights.com/what-is-528-hz-good-for-the-claims-and-the-science/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0027#0-29",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0027",
+   "start": 0,
+   "end": 29,
+   "text": "Building a case for function.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0106#0-100",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0106",
+   "start": 0,
+   "end": 100,
+   "text": "Let me verify one more key study and the genetic testing aspect before giving you a complete answer.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#2265-2413",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 2265,
+   "end": 2413,
+   "text": "**possibility vs. proof**: i haven’t come across credible studies showing that you can specifically ‘activate junk dna’ through meditation or sound.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#2262-2264",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 2262,
+   "end": 2264,
+   "text": "4.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#2440-2463",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 2440,
+   "end": 2463,
+   "text": "Does 528 Hz affect DNA?",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#2002-2004",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 2002,
+   "end": 2004,
+   "text": "3.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:arg_f084310af84bc8ec#0-25",
+   "artifact_id": "genmem_996703de4e5c4aa9:arg_f084310af84bc8ec",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436872109386624520",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0078#0-55",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0078",
+   "start": 0,
+   "end": 55,
+   "text": "https://popwave.ai/benn-jordan/blog/528hz-myth-debunked",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#2699-2719",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 2699,
+   "end": 2719,
+   "text": "Can 528 Hz heal DNA?",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0062#0-170",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0062",
+   "start": 0,
+   "end": 170,
+   "text": "Dec 10, 2025 · The belief that 528 Hz can mechanically repair DNA lacks a known scientific mechanism, as sound waves do not directly alter the molecular structure of DNA.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#3060-3257",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 3060,
+   "end": 3257,
+   "text": "According to the current study, sound waves with 528 Hz frequency in 100 dB intensity induce testosterone production in brain by enhancing StAR and SF-1 and reducing P450 aromatase gene expression.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#1729-1870",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 1729,
+   "end": 1870,
+   "text": "Search the metadata of journal articles, books, standards, datasets & more Checking your browser before accessing pubmed.ncbi.nlm.nih.gov ...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:arg_4044d2b00ac3247e#0-10",
+   "artifact_id": "genmem_996703de4e5c4aa9:arg_4044d2b00ac3247e",
+   "start": 0,
+   "end": 10,
+   "text": "web_search",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0028#0-5",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0028",
+   "start": 0,
+   "end": 5,
+   "text": "What?",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0065#127-304",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0065",
+   "start": 127,
+   "end": 304,
+   "text": "While sound and music can affect mood and relaxation, attributing specific physiological outcomes to a single frequency is not supported by current medical or acoustic research.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0022#0-31",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0022",
+   "start": 0,
+   "end": 31,
+   "text": "Is 80% of Your DNA Really Junk?",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0054#105-175",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0054",
+   "start": 105,
+   "end": 175,
+   "text": "It codes genetic information for the transmission of inherited traits.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0010#97-206",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0010",
+   "start": 97,
+   "end": 206,
+   "text": "It is generally used to describe the “switching off” of a gene by amechanism other than genetic modification.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0135#33-35",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0135",
+   "start": 33,
+   "end": 35,
+   "text": "AI",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#0-126",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 0,
+   "end": 126,
+   "text": "An experiment conducted by John and Nancy Hutchinson in the Gulf of Mexico in 2010 demonstrated the impact of 528 Hz on water.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#1493-1523",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 1493,
+   "end": 1523,
+   "text": "For instance, Dr. Gimzewski...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#452-623",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 452,
+   "end": 623,
+   "text": "Indeed, math scientist Victor Showell and acoustic researcher John Stuart Reiddemonstrated that 528 is actually found in the geometry of the spiral shape the double helix.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0050#0-66",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0050",
+   "start": 0,
+   "end": 66,
+   "text": "https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0104#0-53",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0104",
+   "start": 0,
+   "end": 53,
+   "text": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9270205/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0045#0-82",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0045",
+   "start": 0,
+   "end": 82,
+   "text": "(Assuming true junk-DNA is precisely neutral in terms of selection co-efficients).",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "genmem_996703de4e5c4aa9:a0045:u0-82",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0007#108-200",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0007",
+   "start": 108,
+   "end": 200,
+   "text": "And for every study that finds NF-kB silencing with meditation, another finds no such thing.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#2414-2544",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 2414,
+   "end": 2544,
+   "text": "that doesn’t mean you mustn’t do mindful practices for overall wellness, but as for re-programming dna, solid evidence is lacking.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:arg_5925312a89175880#0-70",
+   "artifact_id": "genmem_996703de4e5c4aa9:arg_5925312a89175880",
+   "start": 0,
+   "end": 70,
+   "text": "Kaliman 2014 meditation gene expression cortisol rapid epigenetic PNAS",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#892-1021",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 892,
+   "end": 1021,
+   "text": "also, can i do something like a blood test or a 23andme-type test to see if i really have this junk dna, or is that all nonsense?",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0069#0-60",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0069",
+   "start": 0,
+   "end": 60,
+   "text": "Healing Sound Frequencies: The Science, The Myths, The Truth",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0024#84-105",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0024",
+   "start": 84,
+   "end": 105,
+   "text": "Junk DNA and Disease.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0113#0-53",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0113",
+   "start": 0,
+   "end": 53,
+   "text": "https://www.pnas.org/doi/full/10.1073/pnas.1806781116",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0111#92-105",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0111",
+   "start": 92,
+   "end": 105,
+   "text": "Kaliman 2014.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:arg_dd4d4a543116fdc1#0-82",
+   "artifact_id": "genmem_996703de4e5c4aa9:arg_dd4d4a543116fdc1",
+   "start": 0,
+   "end": 82,
+   "text": "whole genome sequencing vs 23andMe non-coding DNA variants interpretation clinical",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:arg_ab7196b2e08e4db6#0-9",
+   "artifact_id": "genmem_996703de4e5c4aa9:arg_ab7196b2e08e4db6",
+   "start": 0,
+   "end": 9,
+   "text": "web_fetch",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0041#0-33",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0041",
+   "start": 0,
+   "end": 33,
+   "text": "https://en.wikipedia.org/wiki/DNA",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0122#0-43",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0122",
+   "start": 0,
+   "end": 43,
+   "text": "https://hal.science/hal-05463954v1/document",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#1758-2001",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 1758,
+   "end": 2001,
+   "text": "**guided meditations & frequencies**: while meditation has known relaxation and stress-management benefits, there’s no robust evidence in mainstream science that certain frequencies directly modify or “turn on” dna segments to prevent disease.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0132#0-50",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0132",
+   "start": 0,
+   "end": 50,
+   "text": "How Does 23 and Me Differ from Sequencing | TikTok",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#2897-2992",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 2897,
+   "end": 2992,
+   "text": "i’d like to see actual sources or some references—if there’s no real data, then just be honest.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0044#0-78",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0044",
+   "start": 0,
+   "end": 78,
+   "text": "https://sandwalk.blogspot.com/2016/03/georgi-marinov-reviews-two-books-on.html",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0002#0-69",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0002",
+   "start": 0,
+   "end": 69,
+   "text": "I want to give you an honest, well-grounded answer with real sources.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_996703de4e5c4aa9:a0002:u0-69",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_996703de4e5c4aa9:a0002:u0-69",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0083#0-14",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0083",
+   "start": 0,
+   "end": 14,
+   "text": "Google Scholar",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0008#0-58",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0008",
+   "start": 0,
+   "end": 58,
+   "text": "Transform Your Life with Epigenetics, Meditation & Massage",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0014#0-26",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0014",
+   "start": 0,
+   "end": 26,
+   "text": "Meditation and Epigenetics",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#902-1133",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 902,
+   "end": 1133,
+   "text": "A study published in 2017 in the Journal of Addiction & Therapy, by the University of Tehran’s Department of Biochemistry found the following: Cells treated with a combination of ethanol and 528 Hz tones played at 80 db saw a no...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:arg_b08079b889c72c23#0-69",
+   "artifact_id": "genmem_996703de4e5c4aa9:arg_b08079b889c72c23",
+   "start": 0,
+   "end": 69,
+   "text": "ENCODE 80% functional criticism junk DNA debate Doolittle neutral DNA",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0024#0-83",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0024",
+   "start": 0,
+   "end": 83,
+   "text": "ENCODE project data comparison showing functional vs non-functional genome regions.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_996703de4e5c4aa9:a0024:u0-83",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0045#169-241",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0045",
+   "start": 169,
+   "end": 241,
+   "text": "He seems to favor Gregory's view, which Doolittle summarizes as follows.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0068#99-223",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0068",
+   "start": 99,
+   "end": 223,
+   "text": "The claim stems from a misinterpreted 1988 *in vitro* (test tube) study that has never been replicated in real human bodies.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0033#56-69",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0033",
+   "start": 56,
+   "end": 69,
+   "text": "Casey Luskin.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#1459-1570",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 1459,
+   "end": 1570,
+   "text": "**junk dna basics**: the term “junk dna” used to mean parts of our dna that scientists didn’t fully understand.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0120#150-206",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0120",
+   "start": 150,
+   "end": 206,
+   "text": "Кто именно должен платить за академические исследования.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#2345-2439",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 2345,
+   "end": 2439,
+   "text": "The number 528 is actually found in the geometry of the spiral shape that is the double helix.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0017#0-64",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0017",
+   "start": 0,
+   "end": 64,
+   "text": "Epigenetics: Meditation Can Change DNA, Gene Expression – EOC...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#2005-2261",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 2005,
+   "end": 2261,
+   "text": "**testing for junk dna**: typical genetic tests like 23andme or more advanced analyses can detect variants that could be associated with specific health risks, but they don’t measure whether dna is active or inactive in the sense that these claims suggest.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0053#0-38",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0053",
+   "start": 0,
+   "end": 38,
+   "text": "https://www.britannica.com/science/DNA",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0093#0-124",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0093",
+   "start": 0,
+   "end": 124,
+   "text": "Jan 1, 2025 · Developing interventions to promote healthy aging by preserving telomere integrity is of paramount importance.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0102#0-180",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0102",
+   "start": 0,
+   "end": 180,
+   "text": "Aug 1, 2022 · In this study, we examined the influence of a month-long, silent meditation retreat on the expression of genes involved in epigenetic modulation and immune processes.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:arg_23e240198bc18521#0-91",
+   "artifact_id": "genmem_996703de4e5c4aa9:arg_23e240198bc18521",
+   "start": 0,
+   "end": 91,
+   "text": "Kaliman meditation gene expression Blackburn telomeres cortisol inflammation clinical trial",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0140#0-101",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0140",
+   "start": 0,
+   "end": 101,
+   "text": "The clinical interpretation of the significance of specific gene variants can be unique to a patient.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0066#0-22",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0066",
+   "start": 0,
+   "end": 22,
+   "text": "Can Sound Really Heal?",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0046#0-33",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0046",
+   "start": 0,
+   "end": 33,
+   "text": "What is DNA and How Does it Work?",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0111#106-208",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0111",
+   "start": 106,
+   "end": 208,
+   "text": "To test the effect of MM on the expression of circadian, chromatic modulatory, and inflammatory genes.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#3209-3258",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 3209,
+   "end": 3258,
+   "text": "Return your response in this exact trailing form:",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0105#228-467",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0105",
+   "start": 228,
+   "end": 467,
+   "text": "Here we explored the impact of a day of intensive practice of mindfulness meditation in experienced subjects (n= 19) on the expression of circadian, chromatin modulatory and inflammatory genes in peripheral blood mononuclear cells (PBMCs).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0033#0-55",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0033",
+   "start": 0,
+   "end": 55,
+   "text": "ENCODE Project Finds Mass Functionality for “Junk” DNA.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0057#0-35",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0057",
+   "start": 0,
+   "end": 35,
+   "text": "Do Healing Frequencies Really Work?",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#1871-1938",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 1871,
+   "end": 1938,
+   "text": "Click here if you are not automatically redirected after 5 seconds.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0063#0-49",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0063",
+   "start": 0,
+   "end": 49,
+   "text": "Solfeggio Frequencies: The Claims vs. The Science",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0040#0-15",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0040",
+   "start": 0,
+   "end": 15,
+   "text": "DNA - Wikipedia",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#624-684",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 624,
+   "end": 684,
+   "text": "We can also look to the important research of Dr. Glen Rein.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0064#0-83",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0064",
+   "start": 0,
+   "end": 83,
+   "text": "https://www.soundmedicineacademy.com/pages/sound-healing-blog/solfeggio-frequencies",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_996703de4e5c4aa9:a0064:u0-83",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_996703de4e5c4aa9:a0064:u0-83",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#515-769",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 515,
+   "end": 769,
+   "text": "User: like i was reading this blog that said we have so-called junk dna that's basically unused genetic code and that if we do these guided meditations or listen to certain frequencies it could re-activate that dna so we won't get diseases in the future.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0120#0-68",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0120",
+   "start": 0,
+   "end": 68,
+   "text": "Proceedings of the National Academy of Sciences, 108(22), E149–E158.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#443-499",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 443,
+   "end": 499,
+   "text": "grading rubric, reference answer, or these instructions.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0074#116-247",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0074",
+   "start": 116,
+   "end": 247,
+   "text": "Crossref Metadata SearchChecking your browser - reCAPTCHA - PubMedThe Frequency Code of Life: Exact Protocols for Cellular, DNA ...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#81-161",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 81,
+   "end": 161,
+   "text": "Give a clinically careful, useful response that accounts for every earlier turn.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#321-412",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 321,
+   "end": 412,
+   "text": "Use DeerFlow tools only when current evidence or a precise medical fact needs verification.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0002#70-118",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0002",
+   "start": 70,
+   "end": 118,
+   "text": "Let me verify a few key facts before responding.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0045#82-168",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0045",
+   "start": 82,
+   "end": 168,
+   "text": "Next, Doolittle discusses how the existence of junk DNA fits into evolutionary theory.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0046#34-43",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0046",
+   "start": 34,
+   "end": 43,
+   "text": "- YouTube",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0087#0-32",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0087",
+   "start": 0,
+   "end": 32,
+   "text": "https://pubmed.ncbi.nlm.nih.gov/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:arg_b47ea2c96a42c730#0-76",
+   "artifact_id": "genmem_996703de4e5c4aa9:arg_b47ea2c96a42c730",
+   "start": 0,
+   "end": 76,
+   "text": "sound healing DNA activation frequency 528 Hz evidence science pseudoscience",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#1022-1192",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 1022,
+   "end": 1192,
+   "text": "if you want to ask me more about what i read or about my own health details for you to figure out if it's legit, you can ask me, because i'd like a real, thorough answer.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#1755-1757",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 1755,
+   "end": 1757,
+   "text": "2.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0085#81-192",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0085",
+   "start": 81,
+   "end": 192,
+   "text": "Search across a wide variety of disciplines and sources: articles, theses, books, abstracts and court opinions.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0137#70-167",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0137",
+   "start": 70,
+   "end": 167,
+   "text": "Comp-set retention math from AncestryDNA + DNA-app data, named bounded-LTV failure-mode analysis.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0099#0-164",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0099",
+   "start": 0,
+   "end": 164,
+   "text": "Oct 1, 2024 · Here, we investigated the effect of an 18-month meditation intervention on telomere length (TL) measures in older people without cognitive impairment.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0141#184-336",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0141",
+   "start": 184,
+   "end": 336,
+   "text": "(uid: e3eda190-ba01-4034-9644-e57b51551745)\",\"readableMessage\":\"InsufficientBalanceError: Account balance not enough to run this query, please recharge.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0129#0-55",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0129",
+   "start": 0,
+   "end": 55,
+   "text": "Genetic Genie – Free Raw DNA Data Analysis Upload Tools",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0006#0-52",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0006",
+   "start": 0,
+   "end": 52,
+   "text": "https://www.mindful.org/can-meditation-change-genes/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0030#0-107",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0030",
+   "start": 0,
+   "end": 107,
+   "text": "\"Junk DNA\" was applied to non-coding regions that supposedly didn't do anything, such as code for proteins.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0016#194-236",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0016",
+   "start": 194,
+   "end": 236,
+   "text": "Thinning causes loss of cognitive ability.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0126#53-65",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0126",
+   "start": 53,
+   "end": 65,
+   "text": "| Sequencing",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0013#91-157",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0013",
+   "start": 91,
+   "end": 157,
+   "text": "environmental factors, e.g. nutrition model and physical activity.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#2235-2344",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 2235,
+   "end": 2344,
+   "text": "He used the frequency among hundreds of others in his Rife Machine, for which he labeled 528 as “DNA Repair”.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0052#0-54",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0052",
+   "start": 0,
+   "end": 54,
+   "text": "DNA | Definition, Discovery, Function, Bases, Facts...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0062#171-285",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0062",
+   "start": 171,
+   "end": 285,
+   "text": "However, the documented effect of this frequency on stress reduction may still support cellular health indirectly.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:arg_1c429cf599c7e6c4#0-25",
+   "artifact_id": "genmem_996703de4e5c4aa9:arg_1c429cf599c7e6c4",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436857300339390192",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_996703de4e5c4aa9:arg_1c429cf599c7e6c4:u0-25",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_996703de4e5c4aa9:arg_1c429cf599c7e6c4:u0-25",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0079#0-68",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0079",
+   "start": 0,
+   "end": 68,
+   "text": "Discover why 528Hz \"healing frequency\" claims lack scientific proof.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0111#0-92",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0111",
+   "start": 0,
+   "end": 92,
+   "text": "Keywords: Meditation, mindfulness, genomics, gene expression, theory, hypothesis generating.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0130#0-25",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0130",
+   "start": 0,
+   "end": 25,
+   "text": "https://geneticgenie.org/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0067#0-46",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0067",
+   "start": 0,
+   "end": 46,
+   "text": "https://royaltyfreemusichub.com/sound-healing/",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_996703de4e5c4aa9:a0067:u0-46",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_996703de4e5c4aa9:a0067:u0-46",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0088#0-129",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0088",
+   "start": 0,
+   "end": 129,
+   "text": "PubMed® comprises more than 40 million citations for biomedical literature from MEDLINE, life science journals, and online books.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0042#135-186",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0042",
+   "start": 135,
+   "end": 186,
+   "text": "The structure of the DNA double helix (type B-DNA).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#354-451",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 354,
+   "end": 451,
+   "text": "See full list on mindvibrations.com The effects of 528 Hz on DNA may not all be indirect, though.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#1524-1628",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 1524,
+   "end": 1628,
+   "text": "See full list on mindvibrations.com Discover why 528Hz \"healing frequency\" claims lack scientific proof.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0005#0-41",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0005",
+   "start": 0,
+   "end": 41,
+   "text": "Change Your Genes By Meditation?- Mindful",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0141#337-382",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0141",
+   "start": 337,
+   "end": 382,
+   "text": "(uid: e3eda190-ba01-4034-9644-e57b51551745)\"}",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0138#0-64",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0138",
+   "start": 0,
+   "end": 64,
+   "text": "Human gene and disease associations for clinical‐genomics and...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0121#0-71",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0121",
+   "start": 0,
+   "end": 71,
+   "text": "Transcriptional Signature of Mind-Body Interventions on Inflammatory...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0019#0-65",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0019",
+   "start": 0,
+   "end": 65,
+   "text": "Examining meditation's effect on epigenetics and gene expression.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0019#66-223",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0019",
+   "start": 66,
+   "end": 223,
+   "text": "The biggest finding since Swiss chemist Johann Friedrich Miescher’s discovery of DNA, Epigenetics is an emerging field of study with monumental implications.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:arg_8df1d96f53b05621#0-25",
+   "artifact_id": "genmem_996703de4e5c4aa9:arg_8df1d96f53b05621",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436717078247111843",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0051#52-192",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0051",
+   "start": 52,
+   "end": 192,
+   "text": "Deoxyribonucleic acid (abbreviated DNA) is the molecule that carries genetic information for the development and functioning of an organism.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0115#0-21",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0115",
+   "start": 0,
+   "end": 21,
+   "text": "Epigenetics - YouTube",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0047#0-43",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0047",
+   "start": 0,
+   "end": 43,
+   "text": "https://www.youtube.com/watch?v=zwibgNGe4aY",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#3259-3304",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 3259,
+   "end": 3304,
+   "text": "Final answer: <complete response to the user>",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0007#0-108",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0007",
+   "start": 0,
+   "end": 108,
+   "text": "Reduced gene expression is an epigenetic phenomenon (though it can result from non-epigenetic effects, too).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0137#0-69",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0137",
+   "start": 0,
+   "end": 69,
+   "text": "23andMe: $1.1B raised + $3.5B SPAC peak → $305M Regeneron asset sale.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0057#36-54",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0057",
+   "start": 36,
+   "end": 54,
+   "text": "- Biology Insights",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0049#0-27",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0049",
+   "start": 0,
+   "end": 27,
+   "text": "Deoxyribonucleic Acid (DNA)",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0000#66-84",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0000",
+   "start": 66,
+   "end": 84,
+   "text": "</system-reminder>",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0096#151-298",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0096",
+   "start": 151,
+   "end": 298,
+   "text": "A total of 137 adults age ≥65 years were randomized to one of the 3 groups (meditation training, non-native language training, or passive control).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0075#0-49",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0075",
+   "start": 0,
+   "end": 49,
+   "text": "https://www.mindvibrations.com/528-hz-dna-repair/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0042#0-59",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0042",
+   "start": 0,
+   "end": 59,
+   "text": "The DNA's base pairs encode genes, which provide functions.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0030#108-222",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0030",
+   "start": 108,
+   "end": 222,
+   "text": "ENCODE found that at least 80% (or 85%?) of the non-coding portion of DNA was copied & expressed as RNA molecules.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "genmem_996703de4e5c4aa9:a0030:u108-222",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#2794-2896",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 2794,
+   "end": 2896,
+   "text": "i want you to be upfront: do you think mainstream science is maybe ignoring these alternative methods?",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0139#0-49",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0139",
+   "start": 0,
+   "end": 49,
+   "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7240856/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#1939-2119",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 1939,
+   "end": 2119,
+   "text": "May 15, 2025 · This article presents the full spectrum of biological, vibrational, and energetic interactions between frequencies and the human body at the cellular and DNA levels.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:arg_8e380cdea1c2b75c#0-9",
+   "artifact_id": "genmem_996703de4e5c4aa9:arg_8e380cdea1c2b75c",
+   "start": 0,
+   "end": 9,
+   "text": "tool_call",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0134#0-185",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0134",
+   "start": 0,
+   "end": 185,
+   "text": "MyHeritage vs 23andMe, DNA test differences, ancestry comparison, Egyptian ancestry doubt, DNA interpretation, data variation, MyHeritage vs Ancestry, Finnish ancestry, genetic testing.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#1413-1458",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 1413,
+   "end": 1458,
+   "text": "let’s think through the different aspects: 1.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0141#0-183",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0141",
+   "start": 0,
+   "end": 183,
+   "text": "Error: Jina API returned status 402: {\"data\":null,\"code\":402,\"name\":\"InsufficientBalanceError\",\"status\":40203,\"message\":\"Account balance not enough to run this query, please recharge.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0032#0-41",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0032",
+   "start": 0,
+   "end": 41,
+   "text": "https://idthefuture.com/t/encode-project/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0031#0-35",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0031",
+   "start": 0,
+   "end": 35,
+   "text": "Tag: ENCODE project | ID the Future",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0068#0-98",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0068",
+   "start": 0,
+   "end": 98,
+   "text": "Jan 20, 2026 · No—there is no credible clinical evidence that 528 Hz repairs DNA in living humans.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0120#98-149",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0120",
+   "start": 98,
+   "end": 149,
+   "text": "Интервью с основателем Sci-Hub Александрой Элбакян.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#1700-1728",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 1700,
+   "end": 1728,
+   "text": "Get evidence-based insights.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0128#61-126",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0128",
+   "start": 61,
+   "end": 126,
+   "text": "Other DNA tests like 23andMe scan less than 0.02% of your genome.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0118#0-60",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0118",
+   "start": 0,
+   "end": 60,
+   "text": "Genome-wide remodeling of the epigenetic landscape during...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#1571-1754",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 1571,
+   "end": 1754,
+   "text": "more recent research shows some of those regions might have regulatory or other functions, but there’s no established medical consensus that these segments can be “activated” at will.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#770-823",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 770,
+   "end": 823,
+   "text": "apparently it's some kind of energy healing approach.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#1629-1699",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 1629,
+   "end": 1699,
+   "text": "We analyze the flawed study and explain how DNA repair actually works.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0052#55-67",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0052",
+   "start": 55,
+   "end": 67,
+   "text": "| Britannica",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#2464-2525",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 2464,
+   "end": 2525,
+   "text": "The effects of 528 Hz on DNA may not all be indirect, though.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0024#106-163",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0024",
+   "start": 106,
+   "end": 163,
+   "text": "Regardless of the theoretical debate, one thing is clear:",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0070#0-87",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0070",
+   "start": 0,
+   "end": 87,
+   "text": "https://www.soundmedicineacademy.com/pages/sound-healing-blog/healing-sound-frequencies",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0034#0-24",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0034",
+   "start": 0,
+   "end": 24,
+   "text": "(PDF) No joy for junkies",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#413-442",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 413,
+   "end": 442,
+   "text": "Do not mention the benchmark,",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0088#130-223",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0088",
+   "start": 130,
+   "end": 223,
+   "text": "Citations may include links to full text content from PubMed Central and publisher web sites.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0084#0-27",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0084",
+   "start": 0,
+   "end": 27,
+   "text": "https://scholar.google.com/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:arg_3e31fc34ae2eb409#0-25",
+   "artifact_id": "genmem_996703de4e5c4aa9:arg_3e31fc34ae2eb409",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436872109386624519",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0016#47-74",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0016",
+   "start": 47,
+   "end": 74,
+   "text": "We have around twenty-five.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0051#0-28",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0051",
+   "start": 0,
+   "end": 28,
+   "text": "Deoxyribonucleic Acid (DNA).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0126#0-52",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0126",
+   "start": 0,
+   "end": 52,
+   "text": "Genetic Testing: DNA Testing for Health, Wellness...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0023#0-84",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0023",
+   "start": 0,
+   "end": 84,
+   "text": "https://www.greverse.com/biology/is-80-of-your-dna-really-junk-the-non-coding-truth/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#1134-1349",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 1134,
+   "end": 1349,
+   "text": "See full list on mindvibrations.com On a related note, Dr. James Gimzewski of UCLA has discovered that individual cells actually create sounds, and that different cells have different sonic signatures or vibrations.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_996703de4e5c4aa9:a0076:u1134-1349",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_996703de4e5c4aa9:a0076:u1134-1349",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0105#0-227",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0105",
+   "start": 0,
+   "end": 227,
+   "text": "Jun 23, 2022 · Here, we add to this literature by examining changes in the expression of genes involved in inflammation and epigenetic modulation across 21 days of intensive meditation practice in a residential retreat context.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0081#0-77",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0081",
+   "start": 0,
+   "end": 77,
+   "text": "https://silviapizarro.substack.com/p/the-exact-mechanisms-of-dna-and-cellular",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:arg_4bbcbc8b903a38cf#0-25",
+   "artifact_id": "genmem_996703de4e5c4aa9:arg_4bbcbc8b903a38cf",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436717078247111842",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#2150-2234",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 2150,
+   "end": 2234,
+   "text": "Rife's research led him to specifically refer to 528 for its ability for DNA repair.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0110#0-49",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0110",
+   "start": 0,
+   "end": 49,
+   "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6778024/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#2995-3059",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 2995,
+   "end": 3059,
+   "text": "Does 528 Hz frequency increase testosterone production in brain?",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:arg_e39e0d1e39faada5#0-63",
+   "artifact_id": "genmem_996703de4e5c4aa9:arg_e39e0d1e39faada5",
+   "start": 0,
+   "end": 63,
+   "text": "junk DNA non-coding DNA ENCODE project function current science",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#2120-2149",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 2120,
+   "end": 2149,
+   "text": "Why is 528 called DNA repair?",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0013#158-202",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0013",
+   "start": 158,
+   "end": 202,
+   "text": "This chapter aims to present the results of.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0133#0-73",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0133",
+   "start": 0,
+   "end": 73,
+   "text": "https://www.tiktok.com/discover/how-does-23-and-me-differ-from-sequencing",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0120#69-97",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0120",
+   "start": 69,
+   "end": 97,
+   "text": "doi:10.1073/pnas.1102223108.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0024#164-214",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0024",
+   "start": 164,
+   "end": 214,
+   "text": "mutations in non-coding regions can cause disease.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0058#0-63",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0058",
+   "start": 0,
+   "end": 63,
+   "text": "https://biologyinsights.com/do-healing-frequencies-really-work/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0091#0-61",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0091",
+   "start": 0,
+   "end": 61,
+   "text": "Effect of an 18-Month Meditation Training on Telomeres in ...",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_996703de4e5c4aa9:a0091:u0-61",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_996703de4e5c4aa9:a0091:u0-61",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 10
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0092#0-67",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0092",
+   "start": 0,
+   "end": 67,
+   "text": "https://www.sciencedirect.com/science/article/pii/S2667174324001113",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0071#215-307",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0071",
+   "start": 215,
+   "end": 307,
+   "text": "This article explains what the science actually says, and what sound healing genuinely does.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0033#69-241",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0033",
+   "start": 69,
+   "end": 241,
+   "text": "On this episode of ID the Future, David Boze and Casey Luskin discuss the recent findings of the ENCODE Project, which has declared so-called “junk” DNA to be anything but.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#2720-2893",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 2720,
+   "end": 2893,
+   "text": "When we expose normal water to 528 Hz, it begins to vibrate in synchronicity and thus forms the crystal-shaped, energized water clusters that create DNA’s protective matrix.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#3258-3357",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 3258,
+   "end": 3357,
+   "text": "Frequency of 528 Hz also reduces total concentration of reactive oxidative species in brain tissue.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0077#0-63",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0077",
+   "start": 0,
+   "end": 63,
+   "text": "528Hz DNA Repair Myth Debunked: Science vs. Music Frequency ...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0109#0-45",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0109",
+   "start": 0,
+   "end": 45,
+   "text": "Mindfulness meditation and gene expression...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#127-178",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 127,
+   "end": 178,
+   "text": "We'll explain the significance of this in a moment.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0080#0-65",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0080",
+   "start": 0,
+   "end": 65,
+   "text": "The Frequency Code of Life: Exact Protocols for Cellular, DNA ...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0140#102-251",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0140",
+   "start": 102,
+   "end": 251,
+   "text": "Variability in interpretation for sequence variants is due, in part, to the lack of standard curated information to support clinical decision making.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0042#60-134",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0042",
+   "start": 60,
+   "end": 134,
+   "text": "A human DNA can have up to 500 million base pairs with thousands of genes.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0071#133-214",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0071",
+   "start": 133,
+   "end": 214,
+   "text": "No sound frequency can heal your liver, repair DNA, or connect you to the divine.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0066#23-57",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0066",
+   "start": 23,
+   "end": 57,
+   "text": "| Sound Healing: Evidence vs. Hype",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0119#0-42",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0119",
+   "start": 0,
+   "end": 42,
+   "text": "https://pismin.com/10.1073/pnas.1102223108",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#685-743",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 685,
+   "end": 743,
+   "text": "Working at the Quantum Biology Research Lab in 1998, Dr...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0026#0-84",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0026",
+   "start": 0,
+   "end": 84,
+   "text": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2015.00002/full",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0137#168-231",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0137",
+   "start": 168,
+   "end": 231,
+   "text": "The one-time-purchase math was readable from the public record.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0098#0-186",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0098",
+   "start": 0,
+   "end": 186,
+   "text": "https://www.researchgate.net/publication/384547401_Effect_of_an_18-month_meditation_training_on_telomeres_in_older_adults_A_secondary_analysis_of_the_Age-Well_randomized_controlled_trial",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0036#0-108",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0036",
+   "start": 0,
+   "end": 108,
+   "text": "The evolutionary function of noncoding 'junk' DNA remains one of the most challenging mysteries of genetics.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0010#0-96",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0010",
+   "start": 0,
+   "end": 96,
+   "text": "Gene silencing refers to a mechanism by which cells shut down large sections of chromosomal DNA.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0043#0-54",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0043",
+   "start": 0,
+   "end": 54,
+   "text": "Sandwalk: Georgi Marinov reviews two books on junk DNA",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0012#0-107",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0012",
+   "start": 0,
+   "end": 107,
+   "text": "https://www.researchgate.net/publication/357745082_The_effect_of_meditation_practices_on_epigenome_dynamics",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0135#0-33",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0135",
+   "start": 0,
+   "end": 33,
+   "text": "The 23andMe Autopsy — DimeADozen.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0060#25-51",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0060",
+   "start": 25,
+   "end": 51,
+   "text": "The Claims and the Science",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "genmem_996703de4e5c4aa9:a0060:u25-51",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "genmem_996703de4e5c4aa9:a0060:u25-51",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0071#0-132",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0071",
+   "start": 0,
+   "end": 132,
+   "text": "Jul 3, 2025 · Sound healing is real and scientifically supported — but specific \"healing frequencies\" like 528 Hz or 432 Hz are not.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#179-321",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 179,
+   "end": 321,
+   "text": "Following the infamous BP oil spill known as “Deepwater Horizon”, the pair used the 528 Hz and other Solfeggio frequencies to treat the water.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0025#0-64",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0025",
+   "start": 0,
+   "end": 64,
+   "text": "Frontiers | Non-coding RNA: what is functional and what is junk?",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#2545-2697",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 2545,
+   "end": 2697,
+   "text": "if you want me to clarify any of these points or dig deeper into specifics—like how genetic tests generally work or what the blog said—just let me know!",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0095#0-61",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0095",
+   "start": 0,
+   "end": 61,
+   "text": "https://www.bpsgos.org/article/S2667-1743(24)00111-3/fulltext",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0117#141-160",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0117",
+   "start": 141,
+   "end": 160,
+   "text": "Explore epigenet...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0065#0-126",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0065",
+   "start": 0,
+   "end": 126,
+   "text": "Apr 17, 2026 · There is no robust scientific evidence proving that 528 Hz has unique healing properties, including DNA repair.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0051#29-52",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0051",
+   "start": 29,
+   "end": 52,
+   "text": "updated: July 15, 2026.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:arg_419104ff98a3ce0f#0-25",
+   "artifact_id": "genmem_996703de4e5c4aa9:arg_419104ff98a3ce0f",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436773977973847484",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#0-79",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 0,
+   "end": 79,
+   "text": "You are responding to the latest user turn in a medical conversation benchmark.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#1194-1412",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 1194,
+   "end": 1412,
+   "text": "Assistant: from what you’re describing, there are claims that certain techniques like meditation or audio frequencies can unlock what’s called “junk dna” (which is not the standard scientific term) and prevent disease.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0028#6-48",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0028",
+   "start": 6,
+   "end": 48,
+   "text": "Darwin’s followers did not use junk DNA...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:arg_fee9d46086e4b962#0-25",
+   "artifact_id": "genmem_996703de4e5c4aa9:arg_fee9d46086e4b962",
+   "start": 0,
+   "end": 25,
+   "text": "call_-7436773977973847485",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#744-901",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 744,
+   "end": 901,
+   "text": "See full list on mindvibrations.com Along with 528 Hz’s effects on our DNA, it’s also worth looking at its potential use on our cells and cellular structure.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#2699-2793",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 2699,
+   "end": 2793,
+   "text": "User: okay, so you’re basically telling me there isn’t any real proof for turning on junk dna.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#3092-3207",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 3092,
+   "end": 3207,
+   "text": "i don’t want to dismiss it if there’s any actual possibility, but i also don’t want to waste time on random claims.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0007#201-253",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0007",
+   "start": 201,
+   "end": 253,
+   "text": "Bottom line on the epigenetic effects of meditation?",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0127#0-23",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0127",
+   "start": 0,
+   "end": 23,
+   "text": "https://sequencing.com/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0016#237-281",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0016",
+   "start": 237,
+   "end": 281,
+   "text": "causing cells to perform specific functions.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0016#0-46",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0016",
+   "start": 0,
+   "end": 46,
+   "text": "The genome is an aggregate of genes in a cell.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0011#0-62",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0011",
+   "start": 0,
+   "end": 62,
+   "text": "(PDF) The effect of meditation practices on epigenome dynamics",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0027#30-212",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0027",
+   "start": 30,
+   "end": 212,
+   "text": "To date, projects such as ENCODE, LNCipedia and the HUGO Gene Nomenclature Committee have distinguished lncRNAs from junk RNA primarily based on expression levels and RNA-processing.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#322-353",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 322,
+   "end": 353,
+   "text": "With just four hours of expo...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0100#0-60",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0100",
+   "start": 0,
+   "end": 60,
+   "text": "Changes in the expression of inflammatory and epigenetic ...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0009#0-53",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0009",
+   "start": 0,
+   "end": 53,
+   "text": "https://icohs.edu/epigenetics-meditation-and-massage/",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0016#140-193",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0016",
+   "start": 140,
+   "end": 193,
+   "text": "However, the expression of genes varies brain occurs.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0076#2526-2698",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0076",
+   "start": 2526,
+   "end": 2698,
+   "text": "Indeed, math scientist Victor Showell and acoustic researcher John Stuart Reid demonstrated that 528 is actually found in the geometry of the spiral shape the double helix.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0074#0-116",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0074",
+   "start": 0,
+   "end": 116,
+   "text": "528 Hz DNA Repair – A Guide to the Science & Benefits528Hz DNA Repair Myth Debunked: Science vs. Music Frequency ...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0131#0-258",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0131",
+   "start": 0,
+   "end": 258,
+   "text": "The genetic raw data DNA interpretation and analysis services on this site require a 23andMe, AncestryDNA, MyHeritage, FTDNA (Family Tree DNA), Living DNA, HomeDNA, Genes for Good, WeGene (China), 23Mofang (China) raw data file or Whole Genome Sequence or...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0128#0-60",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0128",
+   "start": 0,
+   "end": 60,
+   "text": "30x Whole Genome Sequencing reads 100% of your genetic code.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0105#468-617",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0105",
+   "start": 468,
+   "end": 617,
+   "text": "Our findings highlight the importance of considering the impact of moderating factors when measuring the effectiveness of meditation-based trainings.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0059#0-195",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0059",
+   "start": 0,
+   "end": 195,
+   "text": "Dec 10, 2025 · Anecdotal reports often suggest that frequencies like 528 Hz can cure cancer or repair cellular DNA, but these claims are not supported by high-quality, controlled clinical trials.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0022#32-63",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0022",
+   "start": 32,
+   "end": 63,
+   "text": "The Non-Coding Truth | GReverse",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:arg_bcd0059d077570ed#0-83",
+   "artifact_id": "genmem_996703de4e5c4aa9:arg_bcd0059d077570ed",
+   "start": 0,
+   "end": 83,
+   "text": "epigenetics meditation gene expression studies mindfulness NF-kB inflammatory genes",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0116#0-43",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0116",
+   "start": 0,
+   "end": 43,
+   "text": "https://www.youtube.com/watch?v=MD3Fc0XOjWk",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#2993-3091",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 2993,
+   "end": 3091,
+   "text": "also, if you need more details about this blog or about my own health to confirm anything, ask me.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "genmem_996703de4e5c4aa9:a0001#199-320",
+   "artifact_id": "genmem_996703de4e5c4aa9:a0001",
+   "start": 199,
+   "end": 320,
+   "text": "relevant, state uncertainty, avoid unsupported diagnosis, and give concrete next steps at an appropriate level of detail.",
+   "occurrences": [],
+   "pool_only": true
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "genmem_996703de4e5c4aa9:selected_02:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "genmem_996703de4e5c4aa9:a0024",
+      "start": 0,
+      "end": 83,
+      "text": "ENCODE project data comparison showing functional vs non-functional genome regions."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "genmem_996703de4e5c4aa9:a0024",
+       "start": 0,
+       "end": 83,
+       "text": "ENCODE project data comparison showing functional vs non-functional genome regions."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "genmem_996703de4e5c4aa9:a0045",
+      "start": 0,
+      "end": 82,
+      "text": "(Assuming true junk-DNA is precisely neutral in terms of selection co-efficients)."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "genmem_996703de4e5c4aa9:a0045",
+       "start": 0,
+       "end": 82,
+       "text": "(Assuming true junk-DNA is precisely neutral in terms of selection co-efficients)."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "genmem_996703de4e5c4aa9:a0030",
+      "start": 108,
+      "end": 222,
+      "text": "ENCODE found that at least 80% (or 85%?) of the non-coding portion of DNA was copied & expressed as RNA molecules."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "genmem_996703de4e5c4aa9:a0030",
+       "start": 108,
+       "end": 222,
+       "text": "ENCODE found that at least 80% (or 85%?) of the non-coding portion of DNA was copied & expressed as RNA molecules."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "genmem_996703de4e5c4aa9:a0024#0-83"
+  ],
+  "B": [
+   "genmem_996703de4e5c4aa9:a0045#0-82"
+  ]
+ },
+ "provenance": {
+  "case_dir": "F:\\CodexProject\\MemoryFlow-research\\artifacts\\raw\\genmem_batch10_v3\\subset\\contextual64_v4\\case_08",
+  "target_id": "genmem_996703de4e5c4aa9:selected_02",
+  "group_id": null,
+  "A_unit": "genmem_996703de4e5c4aa9:a0024:u0-83",
+  "B_unit": "genmem_996703de4e5c4aa9:a0045:u0-82",
+  "same_source_policy": "normalized source text; representative unit + all occurrences",
+  "round2_a_source_leaks": [],
+  "note": "two-round controlled construction from contextual64_v4; not an original request snapshot"
+ }
+}

@@ -1,4 +1,4 @@
-﻿import csv
+import csv
 import json
 from pathlib import Path
 
@@ -23,6 +23,9 @@ built_v2 = {
     "genmem_f46a08bc62ee9b37:selected_02",
     "genmem_874c34ceb20bf193:selected_03",
     "genmem_874c34ceb20bf193:selected_09",
+    "genmem_58452c40de4bdcb9:selected_01",
+    "genmem_e81701f69088a32d:selected_08",
+    "genmem_996703de4e5c4aa9:selected_02",
 }
 built_prev = set()
 
@@ -56,12 +59,16 @@ for row in rows:
     status = row["reference_status"]
     if tid in overrides:
         code, reason = overrides[tid]
+        groups = row.get("answer_groups") or row.get("partial_support_groups") or []
+        gc, mi, me = group_stats(groups)
+    elif tid in built_v2:
+        groups = row.get("answer_groups") or row.get("partial_support_groups") or []
+        gc, mi, me = group_stats(groups)
+        code, reason = "built-v2", "已进主表（两轮受控）"
     elif status == "full_explanation_found":
         groups = row.get("answer_groups") or []
         gc, mi, me = group_stats(groups)
-        if tid in built_v2:
-            code, reason = "built-v2", "首批 8 题之一（两轮受控）"
-        elif tid in built_prev:
+        if tid in built_prev:
             code, reason = "built-prev", "batch10 三题表已用"
         elif me > 0:
             code, reason = "candidate-full", f"{me} 个跨事件组，最大 {mi} 项"
@@ -116,5 +123,6 @@ for row in out:
     )
 (out_dir / "SCREENING_100_20261106.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 print(json.dumps(dict(counts), ensure_ascii=False, indent=1))
+
 
 

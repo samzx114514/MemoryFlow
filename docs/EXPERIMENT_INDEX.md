@@ -1,5 +1,16 @@
 # 实验索引
 
+## partial 补标新增 3 题：累计 19 题 / 10 轨迹（2026-11-07）
+
+**状态：** case_05 selected_01、case_09 selected_08、case_08 selected_02 补标并跑通；
+累计主表 19 题、10 条轨迹。入口：
+[partial 报告](../experiments/multiturn_batch_v1/batch10_v4/reports/PARTIAL_20261107.md)、
+[批明细](../experiments/multiturn_batch_v1/batch10_v4/reports/BATCH10_V4_20261107.md)。
+
+- 三题 precheck 3/3 PASS，MF/head/BM25 全完整；MF 完整名次 3/3/7。
+- 累计：MF 17/19、18/19；head 18/19、19/19；BM25 14/19、18/19；last 0；配对 MF-last 18/1/0、MF-BM25 8/8/3、MF-head 2/12/5。
+- 100 去向：19 主表、2 对照、3 排除、43 单事件、8 partial 待补标、25 partial 排除。
+
 ## 映射修正后的新增批：累计 16 题 / 7 轨迹（2026-11-07）
 
 **状态：11 道新题全部跑完并完整；累计主表 16 题。** 入口：

@@ -1,5 +1,13 @@
 # 当前状态
 
+## 最新推进（2026-11-07）：partial 补标新增 3 题，累计 19 题 / 10 轨迹
+
+- 从 11 个 candidate-partial 中补标并跑通 case_05 selected_01、case_09 selected_08、case_08 selected_02；三题跑前检查 3/3 PASS，MF/head/BM25 全部完整（完整名次 3/3/7、3/3/9、3/3/3）。
+- 累计 19 题 / 10 条轨迹：MF Hit@3 19/19、完整@5/@10 17/19、18/19；head 19/19、18/19、19/19；BM25 18/19、14/19、18/19；last 18/19、0、0。配对 MF-last 18/1/0、MF-BM25 8/8/3、MF-head 2/12/5。
+- `case_02 selected_05` 留分母（列表项 m1 排 11–14）；case_10 selected_01 日期待核、case_10 selected_07 语义排除、case_05 selected_03 超预算。
+- 100 去向：19 主表、2 对照、3 排除、43 单事件、8 个 partial 待补标、25 个 partial 排除；共 100。
+- 剩余 8 个 partial 候选和 4 个同事件多证据目标待做。
+
 ## 最新推进（2026-11-07）：映射修正后的新增批，累计 16 题 / 7 轨迹
 
 - `batch10_v3` 改为读取 contextual64_v4 逐轨迹 `ground_truth.json`，主证据按原文 ID/起止/文本精确匹配；停用选最长子段和 `fix_group_windows.py`。

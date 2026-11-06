@@ -1,0 +1,211 @@
+{
+  "case_id": "genmem_996703de4e5c4aa9:selected_02",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0024#0-83",
+          "score": 0.14728859066963196,
+          "text": "ENCODE project data comparison showing functional vs non-functional genome regions."
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0064#0-83",
+          "score": 0.0023104443680495024,
+          "text": "https://www.soundmedicineacademy.com/pages/sound-healing-blog/solfeggio-frequencies"
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0037#0-147",
+          "score": 0.08747239410877228,
+          "text": "Let me get a clearer picture of the scientific consensus on the ENCODE interpretation and the evidence quality for the meditation-epigenetics link."
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0002#0-69",
+          "score": 0.006440265104174614,
+          "text": "I want to give you an honest, well-grounded answer with real sources."
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0067#0-46",
+          "score": 0.0017744494834914804,
+          "text": "https://royaltyfreemusichub.com/sound-healing/"
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0076#1134-1349",
+          "score": 0.007087369449436665,
+          "text": "See full list on mindvibrations.com On a related note, Dr. James Gimzewski of UCLA has discovered that individual cells actually create sounds, and that different cells have different sonic signatures or vibrations."
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:arg_1c429cf599c7e6c4#0-25",
+          "score": 0.013937899842858315,
+          "text": "call_-7436857300339390192"
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0060#25-51",
+          "score": 0.004000361543148756,
+          "text": "The Claims and the Science"
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0091#0-61",
+          "score": 0.005694860126823187,
+          "text": "Effect of an 18-Month Meditation Training on Telomeres in ..."
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0045#0-82",
+          "score": 0.17508837580680847,
+          "text": "(Assuming true junk-DNA is precisely neutral in terms of selection co-efficients)."
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0030#108-222",
+          "score": 0.10311540216207504,
+          "text": "ENCODE found that at least 80% (or 85%?) of the non-coding portion of DNA was copied & expressed as RNA molecules."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 292,
+      "seconds": 0.039,
+      "target": "there's an active scientific debate about whether \"biochemical activity\" truly equals \"biological function\"",
+      "target_tokens": 20,
+      "total_tokens": 312
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0024#0-83",
+          "score": 0.177165687084198,
+          "text": "ENCODE project data comparison showing functional vs non-functional genome regions."
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0064#0-83",
+          "score": 0.0029958311934024096,
+          "text": "https://www.soundmedicineacademy.com/pages/sound-healing-blog/solfeggio-frequencies"
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0037#0-147",
+          "score": 0.264338880777359,
+          "text": "Let me get a clearer picture of the scientific consensus on the ENCODE interpretation and the evidence quality for the meditation-epigenetics link."
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0002#0-69",
+          "score": 0.020088380202651024,
+          "text": "I want to give you an honest, well-grounded answer with real sources."
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0067#0-46",
+          "score": 0.003070235252380371,
+          "text": "https://royaltyfreemusichub.com/sound-healing/"
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0076#1134-1349",
+          "score": 0.05220616236329079,
+          "text": "See full list on mindvibrations.com On a related note, Dr. James Gimzewski of UCLA has discovered that individual cells actually create sounds, and that different cells have different sonic signatures or vibrations."
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:arg_1c429cf599c7e6c4#0-25",
+          "score": 0.0010350041557103395,
+          "text": "call_-7436857300339390192"
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0060#25-51",
+          "score": 0.01733202114701271,
+          "text": "The Claims and the Science"
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0091#0-61",
+          "score": 0.05462677404284477,
+          "text": "Effect of an 18-Month Meditation Training on Telomeres in ..."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 242,
+      "seconds": 0.03,
+      "target": "The debate asks whether biochemical activity is the same as biological function.",
+      "target_tokens": 13,
+      "total_tokens": 255
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.5149796605110168,
+          "text": "The debate asks whether biochemical activity is the same as biological function."
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0045#0-82",
+          "score": 0.05611186474561691,
+          "text": "(Assuming true junk-DNA is precisely neutral in terms of selection co-efficients)."
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0030#108-222",
+          "score": 0.015814339742064476,
+          "text": "ENCODE found that at least 80% (or 85%?) of the non-coding portion of DNA was copied & expressed as RNA molecules."
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0064#0-83",
+          "score": 0.001959575107321143,
+          "text": "https://www.soundmedicineacademy.com/pages/sound-healing-blog/solfeggio-frequencies"
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0037#0-147",
+          "score": 0.08375786244869232,
+          "text": "Let me get a clearer picture of the scientific consensus on the ENCODE interpretation and the evidence quality for the meditation-epigenetics link."
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0002#0-69",
+          "score": 0.00899684801697731,
+          "text": "I want to give you an honest, well-grounded answer with real sources."
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0067#0-46",
+          "score": 0.001177546102553606,
+          "text": "https://royaltyfreemusichub.com/sound-healing/"
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0076#1134-1349",
+          "score": 0.006027886178344488,
+          "text": "See full list on mindvibrations.com On a related note, Dr. James Gimzewski of UCLA has discovered that individual cells actually create sounds, and that different cells have different sonic signatures or vibrations."
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:arg_1c429cf599c7e6c4#0-25",
+          "score": 0.00840857531875372,
+          "text": "call_-7436857300339390192"
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0060#25-51",
+          "score": 0.003251626156270504,
+          "text": "The Claims and the Science"
+        },
+        {
+          "canonical_id": "genmem_996703de4e5c4aa9:a0091#0-61",
+          "score": 0.0010693707736209035,
+          "text": "Effect of an 18-Month Meditation Training on Telomeres in ..."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 292,
+      "seconds": 0.039,
+      "target": "there's an active scientific debate about whether \"biochemical activity\" truly equals \"biological function\"",
+      "target_tokens": 20,
+      "total_tokens": 312
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 24.94,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}
