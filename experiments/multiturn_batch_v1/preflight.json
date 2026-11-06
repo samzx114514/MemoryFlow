@@ -14,7 +14,9 @@
       },
       "rounds": 2,
       "short": "T03",
-      "status": "ok"
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "genmem_874c34ceb20bf193"
     },
     {
       "candidates": 17,
@@ -30,7 +32,9 @@
       },
       "rounds": 2,
       "short": "T09",
-      "status": "ok"
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "genmem_874c34ceb20bf193"
     },
     {
       "candidates": 19,
@@ -46,7 +50,9 @@
       },
       "rounds": 2,
       "short": "T06",
-      "status": "ok"
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "genmem_874c34ceb20bf193"
     }
   ],
   "schema": "memoryflow.multiturn_batch.preflight.v1",
@@ -55,5 +61,6 @@
     "cases": 3,
     "incomplete": 0,
     "ok": 3
-  }
+  },
+  "trajectory_split_issues": []
 }

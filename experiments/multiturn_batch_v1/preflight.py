@@ -83,6 +83,8 @@ def main(argv: list[str] | None = None) -> int:
             {
                 "short": row["short"],
                 "case_id": case["case_id"],
+                "trajectory_id": case["trajectory_id"],
+                "split": case["split"],
                 "status": status,
                 "issues": issues,
                 "registry": registry,
@@ -95,6 +97,7 @@ def main(argv: list[str] | None = None) -> int:
     payload = {
         "schema": "memoryflow.multiturn_batch.preflight.v1",
         "cases": entries,
+        "trajectory_split_issues": [],
         "totals": {
             "cases": len(entries),
             "ok": sum(1 for entry in entries if entry["status"] == "ok"),
@@ -102,9 +105,21 @@ def main(argv: list[str] | None = None) -> int:
             "blocked": blocked,
         },
     }
+    by_trajectory: dict[str, set[str]] = {}
+    for entry in entries:
+        by_trajectory.setdefault(entry["trajectory_id"], set()).add(entry["split"])
+    for trajectory, splits in sorted(by_trajectory.items()):
+        if len(splits) > 1:
+            payload["trajectory_split_issues"].append(
+                {"trajectory_id": trajectory, "splits": sorted(splits)}
+            )
+    if payload["trajectory_split_issues"]:
+        blocked += len(payload["trajectory_split_issues"])
+        payload["totals"]["blocked"] = blocked
     cases.write_json(out_path, payload)
     print(json.dumps({"out": str(out_path), "totals": payload["totals"],
-                      "statuses": {entry["short"]: entry["status"] for entry in entries}},
+                      "statuses": {entry["short"]: entry["status"] for entry in entries},
+                      "trajectory_split_issues": payload["trajectory_split_issues"]},
                      ensure_ascii=False, indent=1))
     return 1 if blocked else 0
 

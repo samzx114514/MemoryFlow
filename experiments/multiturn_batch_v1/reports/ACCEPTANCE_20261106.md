@@ -25,7 +25,8 @@
 | T06 | `genmem_874c34ceb20bf193:selected_06` | `genmem_874c34ceb20bf193` | dev | controlled | `final_round_sufficient` | 2 | 19 | 1 |
 
 - 合计：3 题，controlled 3 / real_request 0，dev 3 / eval 0，对照 1。预检 3 题全部 `ok`，无阻断。
-- 三题都来自同一条轨迹（case_02），所以 dev 隔离没有跨轨迹混用；新数据按 `trajectory_id` 分配 split。
+- 三题都来自同一条轨迹（case_02），所以 dev 隔离没有跨轨迹混用；新数据按 `trajectory_id` 分配 split，
+  预检会拒绝同一轨迹跨 dev/eval 的批次。
 - 重复证据已合并：T03 有 8 个候选在两轮重复出现（如 `a0296#126-258`
   在两轮各有一次，`occurrences` 记录 round 1/2 与材料序号）；评分只按一个 canonical 身份计数。
 - 中间传递：T03/T09/T06 的第二轮都有 `transmission:r1`，文本与第一轮输出逐字一致；
