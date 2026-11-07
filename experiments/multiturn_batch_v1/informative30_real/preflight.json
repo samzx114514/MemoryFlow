@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "candidates": 16,
+      "case_id": "case_01:T10",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_01_T10",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_01"
+    },
+    {
+      "candidates": 16,
+      "case_id": "case_03:T04",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_03_T04",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_03"
+    },
+    {
+      "candidates": 20,
+      "case_id": "case_06:T10",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_06_T10",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_06"
+    }
+  ],
+  "schema": "memoryflow.multiturn_batch.preflight.v1",
+  "totals": {
+    "blocked": 0,
+    "cases": 3,
+    "incomplete": 0,
+    "ok": 3
+  },
+  "trajectory_split_issues": []
+}

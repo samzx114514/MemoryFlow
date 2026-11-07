@@ -1,5 +1,15 @@
 # 实验索引
 
+## informative30 真实中间消息首批：2 题 / 2 轨迹（2026-11-07）
+
+**状态：** 36 优先清单已定位；3 条真实消息核对，2 条合格、1 条诊断。入口：
+[真实批报告](../experiments/multiturn_batch_v1/informative30_real/reports/REAL_FIRST_20261107.md)。
+
+- case_01:T10（ev29 父亲身份 → ev30/31 → ev32 结论）与 case_03:T04（ev4 alias → ev8 → ev10/12 → ev14）合格。
+- case_06:T10 的 ev8 未承接 A 内容，只作诊断。
+- MF 完整 2/2、2/2；head 2/2、2/2（名次 8/7）；BM25 0/2、2/2；last 0；配对 MF-BM25 1/1/0、MF-head 2/0/0。
+- 人工构造首批 3 题单列；旧 batch10 17 题复用。
+
 ## informative30_v1 接入：首批 3 题（2026-11-07）
 
 **状态：** 新包接入并跑完首批 3 题（3 轨迹，受控中间句）。入口：

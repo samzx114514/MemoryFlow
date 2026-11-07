@@ -1,0 +1,206 @@
+{
+  "case_id": "case_06:T10",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "case_06:C0008#0-221",
+          "score": 0.15720608830451965,
+          "text": "Corsaut first appeared on the long-running The Andy Griffith Show, in \"Andy Discovers America\" as schoolteacher Helen Crump, who later became the Mayberry sheriff's wife on the first episode of the spinoff Mayberry R.F.D."
+        },
+        {
+          "canonical_id": "case_06:C0007#0-225",
+          "score": 0.09224150329828262,
+          "text": "Helen Crump is a fictional dramatic character on the American television program The Andy Griffith Show (1960–1968). Helen was a schoolteacher and became main character Sheriff Andy Taylor 's girlfriend, and eventually, wife."
+        },
+        {
+          "canonical_id": "case_06:C0009#0-304",
+          "score": 0.0677109882235527,
+          "text": "Sep 29, 2025 · Many fans know and love Aneta Corsaut as Helen Crump on The Andy Griffith Show, but her career didn’t end in Mayberry. After the series wrapped, she went on to appear in other television shows, reunited with Andy Griffith on Matlock and even reprised her role as Helen in reunion specials."
+        },
+        {
+          "canonical_id": "case_06:C0010#0-214",
+          "score": 0.0237423162907362,
+          "text": "Jan 26, 2026 · Helen Crump the character wasn’t based on a real-life person. But there was a real-life Helen Crump, who happened to live in North Carolina, during the same time period The Andy Griffith Show was on."
+        },
+        {
+          "canonical_id": "case_06:C0011#0-311",
+          "score": 0.06235622987151146,
+          "text": "Jul 5, 2023 · She made her mark as little Ronny Howard's TV teacher and Andy Griffith's on-screen girlfriend-turned-wife on The Andy Griffith Show, and then left this world all too soon at only 62 years old. Her name was Aneta Corsaut, and the actress died from cancer in 1995. This is her story. A Closer Look."
+        },
+        {
+          "canonical_id": "case_06:C0012#0-248",
+          "score": 0.06102720648050308,
+          "text": "Sadly, Corsaut’s life was cut short when she died of cancer on November 6, 1995, just three days after her 62nd birthday. She was laid to rest at Valhalla Memorial Park Cemetery in North Hollywood, California. Where to Watch The Andy Griffith Show."
+        },
+        {
+          "canonical_id": "case_06:C0013#0-271",
+          "score": 0.06371136009693146,
+          "text": "Aneta Corsaut brought Helen Crump to life on 'The Andy Griffith Show' but what happened to the actress after the show ended?She passed away from cancer in 1995 in Los Angeles but we will always remember her as Helen Crump, the woman who stole Sheriff Andy Taylor's heart."
+        },
+        {
+          "canonical_id": "case_06:C0014#0-264",
+          "score": 0.04253174737095833,
+          "text": "After this, Aneta reprised her role as Helen Crump in 1993’s The Andy Griffith Show Reunion before passing away from cancer in 1995.Aneta Corsaut was an American television actress that was best known for her role alongside Andy Griffith in The Andy Griffith Show."
+        },
+        {
+          "canonical_id": "case_06:C0015#0-201",
+          "score": 0.015682123601436615,
+          "text": "She is best known for playing Helen Crump on The Andy Griffith Show (1963–1968), Judge Cynthia Justin on Matlock (1991–1992), and Jane in The Blob (1958). #hollywood #tv #actress #birthday #movieclips."
+        },
+        {
+          "canonical_id": "case_06:C0017#0-253",
+          "score": 0.2904168665409088,
+          "text": "Sheriff Andy Taylor and his sweetheart, Helen Crump (Aneta Corsaut), marry in the new title's first episode. Both Andy and Helen make additional appearances during the first season (mostly Andy, who remains Sheriff of Mayberry in the early appearances.)"
+        },
+        {
+          "canonical_id": "case_06:C0023#0-248",
+          "score": 0.035592708736658096,
+          "text": "Sadly, Corsaut’s life was cut short when she died of cancer on November 6, 1995, just three days after her 62nd birthday. She was laid to rest at Valhalla Memorial Park Cemetery in North Hollywood, California. Where to Watch The Andy Griffith Show."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 745,
+      "seconds": 0.158,
+      "target": "Helen (Helen Crump) married Sheriff Andy Taylor — the wedding takes place in the first episode of the spinoff \"Mayberry R.F.D.\" (The actress who played her, Aneta Corsaut, later died of cancer in 1995.)",
+      "target_tokens": 55,
+      "total_tokens": 800
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "case_06:C0008#0-221",
+          "score": 0.011017921380698681,
+          "text": "Corsaut first appeared on the long-running The Andy Griffith Show, in \"Andy Discovers America\" as schoolteacher Helen Crump, who later became the Mayberry sheriff's wife on the first episode of the spinoff Mayberry R.F.D."
+        },
+        {
+          "canonical_id": "case_06:C0007#0-225",
+          "score": 0.020446140319108963,
+          "text": "Helen Crump is a fictional dramatic character on the American television program The Andy Griffith Show (1960–1968). Helen was a schoolteacher and became main character Sheriff Andy Taylor 's girlfriend, and eventually, wife."
+        },
+        {
+          "canonical_id": "case_06:C0009#0-304",
+          "score": 0.03561456501483917,
+          "text": "Sep 29, 2025 · Many fans know and love Aneta Corsaut as Helen Crump on The Andy Griffith Show, but her career didn’t end in Mayberry. After the series wrapped, she went on to appear in other television shows, reunited with Andy Griffith on Matlock and even reprised her role as Helen in reunion specials."
+        },
+        {
+          "canonical_id": "case_06:C0010#0-214",
+          "score": 0.0487607903778553,
+          "text": "Jan 26, 2026 · Helen Crump the character wasn’t based on a real-life person. But there was a real-life Helen Crump, who happened to live in North Carolina, during the same time period The Andy Griffith Show was on."
+        },
+        {
+          "canonical_id": "case_06:C0011#0-311",
+          "score": 0.02664252556860447,
+          "text": "Jul 5, 2023 · She made her mark as little Ronny Howard's TV teacher and Andy Griffith's on-screen girlfriend-turned-wife on The Andy Griffith Show, and then left this world all too soon at only 62 years old. Her name was Aneta Corsaut, and the actress died from cancer in 1995. This is her story. A Closer Look."
+        },
+        {
+          "canonical_id": "case_06:C0012#0-248",
+          "score": 0.03022881969809532,
+          "text": "Sadly, Corsaut’s life was cut short when she died of cancer on November 6, 1995, just three days after her 62nd birthday. She was laid to rest at Valhalla Memorial Park Cemetery in North Hollywood, California. Where to Watch The Andy Griffith Show."
+        },
+        {
+          "canonical_id": "case_06:C0013#0-271",
+          "score": 0.12314707785844803,
+          "text": "Aneta Corsaut brought Helen Crump to life on 'The Andy Griffith Show' but what happened to the actress after the show ended?She passed away from cancer in 1995 in Los Angeles but we will always remember her as Helen Crump, the woman who stole Sheriff Andy Taylor's heart."
+        },
+        {
+          "canonical_id": "case_06:C0014#0-264",
+          "score": 0.015240788459777832,
+          "text": "After this, Aneta reprised her role as Helen Crump in 1993’s The Andy Griffith Show Reunion before passing away from cancer in 1995.Aneta Corsaut was an American television actress that was best known for her role alongside Andy Griffith in The Andy Griffith Show."
+        },
+        {
+          "canonical_id": "case_06:C0015#0-201",
+          "score": 0.0034362676087766886,
+          "text": "She is best known for playing Helen Crump on The Andy Griffith Show (1963–1968), Judge Cynthia Justin on Matlock (1991–1992), and Jane in The Blob (1958). #hollywood #tv #actress #birthday #movieclips."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 631,
+      "seconds": 0.126,
+      "target": "Let me search for more details on both the character's fate and the actress's fate to determine the best answer.",
+      "target_tokens": 23,
+      "total_tokens": 654
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.00898681953549385,
+          "text": "Let me search for more details on both the character's fate and the actress's fate to determine the best answer."
+        },
+        {
+          "canonical_id": "case_06:C0017#0-253",
+          "score": 0.46475785970687866,
+          "text": "Sheriff Andy Taylor and his sweetheart, Helen Crump (Aneta Corsaut), marry in the new title's first episode. Both Andy and Helen make additional appearances during the first season (mostly Andy, who remains Sheriff of Mayberry in the early appearances.)"
+        },
+        {
+          "canonical_id": "case_06:C0023#0-248",
+          "score": 0.1050168052315712,
+          "text": "Sadly, Corsaut’s life was cut short when she died of cancer on November 6, 1995, just three days after her 62nd birthday. She was laid to rest at Valhalla Memorial Park Cemetery in North Hollywood, California. Where to Watch The Andy Griffith Show."
+        },
+        {
+          "canonical_id": "case_06:C0007#0-225",
+          "score": 0.06195322051644325,
+          "text": "Helen Crump is a fictional dramatic character on the American television program The Andy Griffith Show (1960–1968). Helen was a schoolteacher and became main character Sheriff Andy Taylor 's girlfriend, and eventually, wife."
+        },
+        {
+          "canonical_id": "case_06:C0009#0-304",
+          "score": 0.07213778793811798,
+          "text": "Sep 29, 2025 · Many fans know and love Aneta Corsaut as Helen Crump on The Andy Griffith Show, but her career didn’t end in Mayberry. After the series wrapped, she went on to appear in other television shows, reunited with Andy Griffith on Matlock and even reprised her role as Helen in reunion specials."
+        },
+        {
+          "canonical_id": "case_06:C0010#0-214",
+          "score": 0.02168859913945198,
+          "text": "Jan 26, 2026 · Helen Crump the character wasn’t based on a real-life person. But there was a real-life Helen Crump, who happened to live in North Carolina, during the same time period The Andy Griffith Show was on."
+        },
+        {
+          "canonical_id": "case_06:C0011#0-311",
+          "score": 0.02905287779867649,
+          "text": "Jul 5, 2023 · She made her mark as little Ronny Howard's TV teacher and Andy Griffith's on-screen girlfriend-turned-wife on The Andy Griffith Show, and then left this world all too soon at only 62 years old. Her name was Aneta Corsaut, and the actress died from cancer in 1995. This is her story. A Closer Look."
+        },
+        {
+          "canonical_id": "case_06:C0012#0-248",
+          "score": 0.05136279761791229,
+          "text": "Sadly, Corsaut’s life was cut short when she died of cancer on November 6, 1995, just three days after her 62nd birthday. She was laid to rest at Valhalla Memorial Park Cemetery in North Hollywood, California. Where to Watch The Andy Griffith Show."
+        },
+        {
+          "canonical_id": "case_06:C0013#0-271",
+          "score": 0.044352542608976364,
+          "text": "Aneta Corsaut brought Helen Crump to life on 'The Andy Griffith Show' but what happened to the actress after the show ended?She passed away from cancer in 1995 in Los Angeles but we will always remember her as Helen Crump, the woman who stole Sheriff Andy Taylor's heart."
+        },
+        {
+          "canonical_id": "case_06:C0014#0-264",
+          "score": 0.0294684749096632,
+          "text": "After this, Aneta reprised her role as Helen Crump in 1993’s The Andy Griffith Show Reunion before passing away from cancer in 1995.Aneta Corsaut was an American television actress that was best known for her role alongside Andy Griffith in The Andy Griffith Show."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 649,
+      "seconds": 0.147,
+      "target": "Helen (Helen Crump) married Sheriff Andy Taylor — the wedding takes place in the first episode of the spinoff \"Mayberry R.F.D.\" (The actress who played her, Aneta Corsaut, later died of cancer in 1995.)",
+      "target_tokens": 55,
+      "total_tokens": 704
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 17.61,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

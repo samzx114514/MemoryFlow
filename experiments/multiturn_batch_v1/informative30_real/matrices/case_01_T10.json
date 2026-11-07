@@ -1,0 +1,206 @@
+{
+  "case_id": "case_01:T10",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "case_01:C0036#0-351",
+          "score": 0.21863196790218353,
+          "text": "Excellent! I found the key information. From prabook.com, Andronikos Angelos Palaiologos was born to:\n- Father: Demetrios Doukas Komnenos Koutroules (son of Michael II Komnenos Doukas of Epirus)\n- Mother: Anna Komnene Palaiologina (daughter of Michael VIII Palaiologos)\n\nNow I need to find Demetrios's mother (the paternal grandmother). Let me verify."
+        },
+        {
+          "canonical_id": "case_01:C0031#0-195",
+          "score": 0.11075496673583984,
+          "text": "Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos was the third son of the ruler of Epirus, Michael II Komnenos Doukas, also surnamed Koutroules, and his wife Theodora of Arta."
+        },
+        {
+          "canonical_id": "case_01:C0032#0-270",
+          "score": 0.00995316356420517,
+          "text": "Andronikos Doukas Angelos Palaiologos Medieval Greek: Ἀνδρόνικος Δούκας Ἄγγελος Κομνηνὸς Παλαιολόγος.Demetrios Palaiologos (1297–1343), a despotēs. Isaakios Palaiologos (born 1299), who died young. Andronikos II also had at least three daughters born outside of marriage"
+        },
+        {
+          "canonical_id": "case_01:C0033#0-139",
+          "score": 0.0064339968375861645,
+          "text": "Demetrios Angelos Doukas Palaiologos was a son of the Byzantine emperor Andronikos II Palaiologos and his second wife, Irene of Montferrat."
+        },
+        {
+          "canonical_id": "case_01:C0034#0-204",
+          "score": 0.0636594370007515,
+          "text": "1282 to Demetrios Doukas Komnenos Koutroules, son of the ruler of Epirus, Michael II Komnenos Doukas, and Anna Komnene Palaiologina, the daughter of the Byzantine emperor Michael VIII Palaiologos. Career."
+        },
+        {
+          "canonical_id": "case_01:C0035#0-235",
+          "score": 0.00011683944467222318,
+          "text": "Andronikos II Doukas Angelos Palaiologos.Andronikos II Palaiologos was born at Nicaea. He was acclaimed co-emperor in 1261, after his father Michael VIII recovered Constantinople from the Latin Empire, but he wasn't crowned until 1272."
+        },
+        {
+          "canonical_id": "case_01:C0038#0-195",
+          "score": 0.06482570618391037,
+          "text": "Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos was the third son of the ruler of Epirus, Michael II Komnenos Doukas, also surnamed Koutroules, and his wife Theodora of Arta."
+        },
+        {
+          "canonical_id": "case_01:C0039#0-304",
+          "score": 0.07396197319030762,
+          "text": "Jan 30, 2026 · Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos (Greek: Δημήτριος (Μιχαήλ) Δούκας Κομνηνός Κουτρούλης Ἄγγελος; fl. 1278–1304) was the third son of the ruler of Epirus, Michael II Komnenos Doukas (ruled 1230–68), also surnamed Koutroules, and his wife Theodora of Arta."
+        },
+        {
+          "canonical_id": "case_01:C0040#0-289",
+          "score": 0.057531289756298065,
+          "text": "Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos (Greek: Δημήτριος (Μιχαήλ) Δούκας Κομνηνός Κουτρούλης Ἄγγελος; fl. 1278–1304) was the third son of the ruler of Epirus, Michael II Komnenos Doukas (ruled 1230–68), also surnamed Koutroules, and his wife Theodora of Arta."
+        },
+        {
+          "canonical_id": "case_01:C0042#0-202",
+          "score": 0.31253454089164734,
+          "text": "Theodora Petraliphaina (Greek: Θεοδώρα Πετραλίφαινα), canonized as Saint Theodora of Arta (Greek: Αγία Θεοδώρα της Άρτας; ca. 1225 – after 1270), was a consort of Epirus and an Orthodox Christian saint."
+        },
+        {
+          "canonical_id": "case_01:C0037#0-289",
+          "score": 0.034843869507312775,
+          "text": "Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos (Greek: Δημήτριος (Μιχαήλ) Δούκας Κομνηνός Κουτρούλης Ἄγγελος; fl. 1278–1304) was the third son of the ruler of Epirus, Michael II Komnenos Doukas (ruled 1230–68), also surnamed Koutroules, and his wife Theodora of Arta."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 1081,
+      "seconds": 0.207,
+      "target": "Paternal grandmother = Theodora of Arta (Theodora Petraliphaina), wife of Michael II Komnenos Doukas",
+      "target_tokens": 28,
+      "total_tokens": 1109
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "case_01:C0036#0-351",
+          "score": 0.5888491868972778,
+          "text": "Excellent! I found the key information. From prabook.com, Andronikos Angelos Palaiologos was born to:\n- Father: Demetrios Doukas Komnenos Koutroules (son of Michael II Komnenos Doukas of Epirus)\n- Mother: Anna Komnene Palaiologina (daughter of Michael VIII Palaiologos)\n\nNow I need to find Demetrios's mother (the paternal grandmother). Let me verify."
+        },
+        {
+          "canonical_id": "case_01:C0031#0-195",
+          "score": 0.09795625507831573,
+          "text": "Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos was the third son of the ruler of Epirus, Michael II Komnenos Doukas, also surnamed Koutroules, and his wife Theodora of Arta."
+        },
+        {
+          "canonical_id": "case_01:C0032#0-270",
+          "score": 0.03795461729168892,
+          "text": "Andronikos Doukas Angelos Palaiologos Medieval Greek: Ἀνδρόνικος Δούκας Ἄγγελος Κομνηνὸς Παλαιολόγος.Demetrios Palaiologos (1297–1343), a despotēs. Isaakios Palaiologos (born 1299), who died young. Andronikos II also had at least three daughters born outside of marriage"
+        },
+        {
+          "canonical_id": "case_01:C0033#0-139",
+          "score": 0.02695631794631481,
+          "text": "Demetrios Angelos Doukas Palaiologos was a son of the Byzantine emperor Andronikos II Palaiologos and his second wife, Irene of Montferrat."
+        },
+        {
+          "canonical_id": "case_01:C0034#0-204",
+          "score": 0.09371352940797806,
+          "text": "1282 to Demetrios Doukas Komnenos Koutroules, son of the ruler of Epirus, Michael II Komnenos Doukas, and Anna Komnene Palaiologina, the daughter of the Byzantine emperor Michael VIII Palaiologos. Career."
+        },
+        {
+          "canonical_id": "case_01:C0035#0-235",
+          "score": 0.002178872236981988,
+          "text": "Andronikos II Doukas Angelos Palaiologos.Andronikos II Palaiologos was born at Nicaea. He was acclaimed co-emperor in 1261, after his father Michael VIII recovered Constantinople from the Latin Empire, but he wasn't crowned until 1272."
+        },
+        {
+          "canonical_id": "case_01:C0038#0-195",
+          "score": 0.024487493559718132,
+          "text": "Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos was the third son of the ruler of Epirus, Michael II Komnenos Doukas, also surnamed Koutroules, and his wife Theodora of Arta."
+        },
+        {
+          "canonical_id": "case_01:C0039#0-304",
+          "score": 0.017759324982762337,
+          "text": "Jan 30, 2026 · Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos (Greek: Δημήτριος (Μιχαήλ) Δούκας Κομνηνός Κουτρούλης Ἄγγελος; fl. 1278–1304) was the third son of the ruler of Epirus, Michael II Komnenos Doukas (ruled 1230–68), also surnamed Koutroules, and his wife Theodora of Arta."
+        },
+        {
+          "canonical_id": "case_01:C0040#0-289",
+          "score": 0.019996318966150284,
+          "text": "Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos (Greek: Δημήτριος (Μιχαήλ) Δούκας Κομνηνός Κουτρούλης Ἄγγελος; fl. 1278–1304) was the third son of the ruler of Epirus, Michael II Komnenos Doukas (ruled 1230–68), also surnamed Koutroules, and his wife Theodora of Arta."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 849,
+      "seconds": 0.167,
+      "target": "Excellent! I found the key information. From prabook.com, Andronikos Angelos Palaiologos was born to:\n- Father: Demetrios Doukas Komnenos Koutroules (son of Michael II Komnenos Doukas of Epirus)\n- Mother: Anna Komnene Palaiologina (daughter of Michael VIII Palaiologos)\n\nNow I need to find Demetrios's mother (the paternal grandmother). Let me verify.",
+      "target_tokens": 98,
+      "total_tokens": 947
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.20036190748214722,
+          "text": "Excellent! I found the key information. From prabook.com, Andronikos Angelos Palaiologos was born to:\n- Father: Demetrios Doukas Komnenos Koutroules (son of Michael II Komnenos Doukas of Epirus)\n- Mother: Anna Komnene Palaiologina (daughter of Michael VIII Palaiologos)\n\nNow I need to find Demetrios's mother (the paternal grandmother). Let me verify."
+        },
+        {
+          "canonical_id": "case_01:C0042#0-202",
+          "score": 0.382596880197525,
+          "text": "Theodora Petraliphaina (Greek: Θεοδώρα Πετραλίφαινα), canonized as Saint Theodora of Arta (Greek: Αγία Θεοδώρα της Άρτας; ca. 1225 – after 1270), was a consort of Epirus and an Orthodox Christian saint."
+        },
+        {
+          "canonical_id": "case_01:C0037#0-289",
+          "score": 0.1895706206560135,
+          "text": "Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos (Greek: Δημήτριος (Μιχαήλ) Δούκας Κομνηνός Κουτρούλης Ἄγγελος; fl. 1278–1304) was the third son of the ruler of Epirus, Michael II Komnenos Doukas (ruled 1230–68), also surnamed Koutroules, and his wife Theodora of Arta."
+        },
+        {
+          "canonical_id": "case_01:C0031#0-195",
+          "score": 0.038283996284008026,
+          "text": "Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos was the third son of the ruler of Epirus, Michael II Komnenos Doukas, also surnamed Koutroules, and his wife Theodora of Arta."
+        },
+        {
+          "canonical_id": "case_01:C0032#0-270",
+          "score": 0.0011859198566526175,
+          "text": "Andronikos Doukas Angelos Palaiologos Medieval Greek: Ἀνδρόνικος Δούκας Ἄγγελος Κομνηνὸς Παλαιολόγος.Demetrios Palaiologos (1297–1343), a despotēs. Isaakios Palaiologos (born 1299), who died young. Andronikos II also had at least three daughters born outside of marriage"
+        },
+        {
+          "canonical_id": "case_01:C0033#0-139",
+          "score": 0.0024204666260629892,
+          "text": "Demetrios Angelos Doukas Palaiologos was a son of the Byzantine emperor Andronikos II Palaiologos and his second wife, Irene of Montferrat."
+        },
+        {
+          "canonical_id": "case_01:C0034#0-204",
+          "score": 0.04385363310575485,
+          "text": "1282 to Demetrios Doukas Komnenos Koutroules, son of the ruler of Epirus, Michael II Komnenos Doukas, and Anna Komnene Palaiologina, the daughter of the Byzantine emperor Michael VIII Palaiologos. Career."
+        },
+        {
+          "canonical_id": "case_01:C0035#0-235",
+          "score": 2.4942910386016592e-05,
+          "text": "Andronikos II Doukas Angelos Palaiologos.Andronikos II Palaiologos was born at Nicaea. He was acclaimed co-emperor in 1261, after his father Michael VIII recovered Constantinople from the Latin Empire, but he wasn't crowned until 1272."
+        },
+        {
+          "canonical_id": "case_01:C0038#0-195",
+          "score": 0.03433435037732124,
+          "text": "Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos was the third son of the ruler of Epirus, Michael II Komnenos Doukas, also surnamed Koutroules, and his wife Theodora of Arta."
+        },
+        {
+          "canonical_id": "case_01:C0039#0-304",
+          "score": 0.027406655251979828,
+          "text": "Jan 30, 2026 · Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos (Greek: Δημήτριος (Μιχαήλ) Δούκας Κομνηνός Κουτρούλης Ἄγγελος; fl. 1278–1304) was the third son of the ruler of Epirus, Michael II Komnenos Doukas (ruled 1230–68), also surnamed Koutroules, and his wife Theodora of Arta."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 944,
+      "seconds": 0.214,
+      "target": "Paternal grandmother = Theodora of Arta (Theodora Petraliphaina), wife of Michael II Komnenos Doukas",
+      "target_tokens": 28,
+      "total_tokens": 972
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 17.61,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "case": "case_01",
+    "target": "T10",
+    "A": "C0036",
+    "B": "C0042",
+    "extras": ["C0037"],
+    "intermediate_event": 29,
+    "intermediate": "Excellent! I found the key information. From prabook.com, Andronikos Angelos Palaiologos was born to:\n- Father: Demetrios Doukas Komnenos Koutroules (son of Michael II Komnenos Doukas of Epirus)\n- Mother: Anna Komnene Palaiologina (daughter of Michael VIII Palaiologos)\n\nNow I need to find Demetrios's mother (the paternal grandmother). Let me verify."
+  },
+  {
+    "case": "case_03",
+    "target": "T04",
+    "A": "C0008",
+    "B": "C0028",
+    "extras": ["C0024"],
+    "intermediate_event": 8,
+    "intermediate": "Let me dig deeper. Ruby has `alias` as a keyword, but Ruby is named after a gemstone, not a person. Let me check other candidates."
+  },
+  {
+    "case": "case_06",
+    "target": "T10",
+    "A": "C0008",
+    "B": "C0017",
+    "extras": ["C0023"],
+    "intermediate_event": 8,
+    "intermediate": "Let me search for more details on both the character's fate and the actress's fate to determine the best answer."
+  }
+]

@@ -1,0 +1,206 @@
+{
+  "case_id": "case_03:T04",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "case_03:C0008#0-286",
+          "score": 0.10675951838493347,
+          "text": "Mar 13, 2024 · At the core of Ruby aliasing lies the `alias` keyword, a versatile tool for method renaming. The article navigates through its syntax and practical usage, providing clear examples to solidify the understanding of how `alias` operates within the Ruby programming paradigm."
+        },
+        {
+          "canonical_id": "case_03:C0006#0-182",
+          "score": 0.061916228383779526,
+          "text": "Ruby is a general-purpose programming language designed with an emphasis on programming productivity and simplicity. In Ruby, everything is an object, including primitive data types."
+        },
+        {
+          "canonical_id": "case_03:C0007#0-145",
+          "score": 0.022339483723044395,
+          "text": "Sep 4, 2017 · A comprehensive guide to using alias and alias_method in Ruby for method aliasing, metaprogramming, code reuse, and Rails patterns."
+        },
+        {
+          "canonical_id": "case_03:C0009#0-90",
+          "score": 0.011402050033211708,
+          "text": "Ruby alias keyword tutorial explains how to create method aliases with practical examples."
+        },
+        {
+          "canonical_id": "case_03:C0010#0-292",
+          "score": 0.037920109927654266,
+          "text": "Sep 4, 2017 · Ruby provides two ways to create method aliases: the alias keyword and the alias_method method. Both create a new name for an existing method, but they differ in syntax, scope, and flexibility. Understanding when to use each is important for clean Ruby code and metaprogramming."
+        },
+        {
+          "canonical_id": "case_03:C0022#0-211",
+          "score": 0.09620393067598343,
+          "text": "Ruby is a pinkish -red to blood-red-colored gemstone, a variety of the mineral corundum, consisting of aluminium oxide (α- Al 2 O 3). Ruby is one of the most popular traditional jewelry gems and is very durable."
+        },
+        {
+          "canonical_id": "case_03:C0023#0-204",
+          "score": 0.22247859835624695,
+          "text": "> \"Influenced by Perl, Matz wanted to use a jewel name for his new language, so he named Ruby after a colleague's birthstone.\" > \"Later, he realized that Ruby comes right after Perl in several situations."
+        },
+        {
+          "canonical_id": "case_03:C0025#0-206",
+          "score": 0.027137845754623413,
+          "text": "In various birthstone sequences, the ruby follows the pearl, and alphabetically \"R\" follows \"P.\" These factors were calculated to position Ruby as the natural and more valuable successor to the Perl legacy."
+        },
+        {
+          "canonical_id": "case_03:C0026#0-313",
+          "score": 0.19151277840137482,
+          "text": "Mar 19, 2024 · Influenced by Perl, Matz wanted to use a jewel name for his new language, so he named Ruby after a colleague’s birthstone. Later, he realized that Ruby comes right after Perl in several situations. In birthstones, pearl is June, ruby is July. When measuring font sizes, pearl is 5pt, ruby is 5.5pt."
+        },
+        {
+          "canonical_id": "case_03:C0028#0-247",
+          "score": 0.06184308975934982,
+          "text": "Is Ruby called Ruby because it’s shiny and pink? No, a programming language doesn’t have a color, silly. Then why the name Ruby?Later, he realized that Ruby comes right after Perl in several situations. In birthstones, pearl is June, ruby is July."
+        },
+        {
+          "canonical_id": "case_03:C0024#0-197",
+          "score": 0.07267866283655167,
+          "text": "Influenced by Perl, Matz wanted to use a jewel name for his new language, so he named Ruby after a colleague’s birthstone. Later, he realized that Ruby comes right after Perl in several situations."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 599,
+      "seconds": 0.124,
+      "target": "Ruby is the programming language that includes the `alias` keyword, and it was named after a colleague's birthstone (the ruby, July birthstone).",
+      "target_tokens": 31,
+      "total_tokens": 630
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "case_03:C0008#0-286",
+          "score": 0.13901662826538086,
+          "text": "Mar 13, 2024 · At the core of Ruby aliasing lies the `alias` keyword, a versatile tool for method renaming. The article navigates through its syntax and practical usage, providing clear examples to solidify the understanding of how `alias` operates within the Ruby programming paradigm."
+        },
+        {
+          "canonical_id": "case_03:C0006#0-182",
+          "score": 0.027422329410910606,
+          "text": "Ruby is a general-purpose programming language designed with an emphasis on programming productivity and simplicity. In Ruby, everything is an object, including primitive data types."
+        },
+        {
+          "canonical_id": "case_03:C0007#0-145",
+          "score": 0.037390854209661484,
+          "text": "Sep 4, 2017 · A comprehensive guide to using alias and alias_method in Ruby for method aliasing, metaprogramming, code reuse, and Rails patterns."
+        },
+        {
+          "canonical_id": "case_03:C0009#0-90",
+          "score": 0.015072306618094444,
+          "text": "Ruby alias keyword tutorial explains how to create method aliases with practical examples."
+        },
+        {
+          "canonical_id": "case_03:C0010#0-292",
+          "score": 0.07436463236808777,
+          "text": "Sep 4, 2017 · Ruby provides two ways to create method aliases: the alias keyword and the alias_method method. Both create a new name for an existing method, but they differ in syntax, scope, and flexibility. Understanding when to use each is important for clean Ruby code and metaprogramming."
+        },
+        {
+          "canonical_id": "case_03:C0022#0-211",
+          "score": 0.11487185209989548,
+          "text": "Ruby is a pinkish -red to blood-red-colored gemstone, a variety of the mineral corundum, consisting of aluminium oxide (α- Al 2 O 3). Ruby is one of the most popular traditional jewelry gems and is very durable."
+        },
+        {
+          "canonical_id": "case_03:C0023#0-204",
+          "score": 0.11842094361782074,
+          "text": "> \"Influenced by Perl, Matz wanted to use a jewel name for his new language, so he named Ruby after a colleague's birthstone.\" > \"Later, he realized that Ruby comes right after Perl in several situations."
+        },
+        {
+          "canonical_id": "case_03:C0025#0-206",
+          "score": 0.015851842239499092,
+          "text": "In various birthstone sequences, the ruby follows the pearl, and alphabetically \"R\" follows \"P.\" These factors were calculated to position Ruby as the natural and more valuable successor to the Perl legacy."
+        },
+        {
+          "canonical_id": "case_03:C0026#0-313",
+          "score": 0.08461899310350418,
+          "text": "Mar 19, 2024 · Influenced by Perl, Matz wanted to use a jewel name for his new language, so he named Ruby after a colleague’s birthstone. Later, he realized that Ruby comes right after Perl in several situations. In birthstones, pearl is June, ruby is July. When measuring font sizes, pearl is 5pt, ruby is 5.5pt."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 499,
+      "seconds": 0.112,
+      "target": "Let me dig deeper. Ruby has `alias` as a keyword, but Ruby is named after a gemstone, not a person. Let me check other candidates.",
+      "target_tokens": 33,
+      "total_tokens": 532
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.19259364902973175,
+          "text": "Let me dig deeper. Ruby has `alias` as a keyword, but Ruby is named after a gemstone, not a person. Let me check other candidates."
+        },
+        {
+          "canonical_id": "case_03:C0028#0-247",
+          "score": 0.19046910107135773,
+          "text": "Is Ruby called Ruby because it’s shiny and pink? No, a programming language doesn’t have a color, silly. Then why the name Ruby?Later, he realized that Ruby comes right after Perl in several situations. In birthstones, pearl is June, ruby is July."
+        },
+        {
+          "canonical_id": "case_03:C0024#0-197",
+          "score": 0.22981777787208557,
+          "text": "Influenced by Perl, Matz wanted to use a jewel name for his new language, so he named Ruby after a colleague’s birthstone. Later, he realized that Ruby comes right after Perl in several situations."
+        },
+        {
+          "canonical_id": "case_03:C0006#0-182",
+          "score": 0.038479529321193695,
+          "text": "Ruby is a general-purpose programming language designed with an emphasis on programming productivity and simplicity. In Ruby, everything is an object, including primitive data types."
+        },
+        {
+          "canonical_id": "case_03:C0007#0-145",
+          "score": 0.055250342935323715,
+          "text": "Sep 4, 2017 · A comprehensive guide to using alias and alias_method in Ruby for method aliasing, metaprogramming, code reuse, and Rails patterns."
+        },
+        {
+          "canonical_id": "case_03:C0009#0-90",
+          "score": 0.02358522079885006,
+          "text": "Ruby alias keyword tutorial explains how to create method aliases with practical examples."
+        },
+        {
+          "canonical_id": "case_03:C0010#0-292",
+          "score": 0.04821481555700302,
+          "text": "Sep 4, 2017 · Ruby provides two ways to create method aliases: the alias keyword and the alias_method method. Both create a new name for an existing method, but they differ in syntax, scope, and flexibility. Understanding when to use each is important for clean Ruby code and metaprogramming."
+        },
+        {
+          "canonical_id": "case_03:C0022#0-211",
+          "score": 0.0448441244661808,
+          "text": "Ruby is a pinkish -red to blood-red-colored gemstone, a variety of the mineral corundum, consisting of aluminium oxide (α- Al 2 O 3). Ruby is one of the most popular traditional jewelry gems and is very durable."
+        },
+        {
+          "canonical_id": "case_03:C0023#0-204",
+          "score": 0.0973934605717659,
+          "text": "> \"Influenced by Perl, Matz wanted to use a jewel name for his new language, so he named Ruby after a colleague's birthstone.\" > \"Later, he realized that Ruby comes right after Perl in several situations."
+        },
+        {
+          "canonical_id": "case_03:C0025#0-206",
+          "score": 0.014546019956469536,
+          "text": "In various birthstone sequences, the ruby follows the pearl, and alphabetically \"R\" follows \"P.\" These factors were calculated to position Ruby as the natural and more valuable successor to the Perl legacy."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 484,
+      "seconds": 0.112,
+      "target": "Ruby is the programming language that includes the `alias` keyword, and it was named after a colleague's birthstone (the ruby, July birthstone).",
+      "target_tokens": 31,
+      "total_tokens": 515
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 17.61,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}
