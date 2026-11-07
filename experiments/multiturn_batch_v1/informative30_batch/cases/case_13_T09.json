@@ -1,0 +1,535 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_13:T09",
+ "trajectory_id": "case_13",
+ "trajectory_case": "case_13",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "Malta ≠ Malaysia, so the directors are NOT from the same country.",
+  "sha256": "22117dc1ba0312eb016d4fd57d8be14525ab281fd914efbfb18217253edc1de2",
+  "origin": "recorded_target",
+  "artifact_id": "case_13:T09",
+  "start": 0,
+  "end": 65,
+  "original_target": {
+   "text": "Malta ≠ Malaysia, so the directors are NOT from the same country.",
+   "artifact_id": "case_13:T09"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "Are the directors of films Free Fall (1999 film) and He Is My Brother both from the same country?",
+   "inputs": [
+    {
+     "unit_id": "case_13:C0018#0-287",
+     "artifact_id": "case_13:C0018",
+     "start": 0,
+     "end": 287,
+     "text": "Mario Azzopardi ماريو أزوباردي. Biography. A Maltese-Canadian director and writer, born in Malta. He was educated at St. Aloysius College and the University of Malta. In 1971, while still a university student, he directed the film Il-Gaġġa, based on Frans Sammut's novel Il-Gaġġa, and...",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_13:C0017#0-190",
+     "artifact_id": "case_13:C0017",
+     "start": 0,
+     "end": 190,
+     "text": "Mario Azzopardi. November 19, 1950 • 75 y.o. Director Director. Writer Writer.1987 — (live action director). Animation, Short, Sci-Fi, 18 min United States • Mario Azzopardi, Yasuo Hasegawa.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_13:C0019#0-274",
+     "artifact_id": "case_13:C0019",
+     "start": 0,
+     "end": 274,
+     "text": "Mario Azzopardi, poet and theatre director, has died, aged 77. Azzopardi, a teacher by profession, is one of Malta’s leading poets, a theatre director and cultural journalist. For many years he taught at the Sixth Form in Msida. He also wrote short stories for young adults.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_13:C0020#0-97",
+     "artifact_id": "case_13:C0020",
+     "start": 0,
+     "end": 97,
+     "text": "Category:Films directed by Mario Philip Azzopardi.National Library of Spain SpMaBN ID (BNE v1.0).",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_13:C0021#0-270",
+     "artifact_id": "case_13:C0021",
+     "start": 0,
+     "end": 270,
+     "text": "Mario Philip Azzopardi is a Maltese television and film director and writer.Mario Philip Azzopardi should not be confused with Maltese poet, short story writer and columnist Mario Azzopardi (born 1944), who is also involved in theatre and directs the Malta Drama Centre.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 7
+    }
+   ],
+   "output": {
+    "text": "I found that \"He Is My Brother\" was directed by Quek Shio Chuan (郭修篆). Let me verify this director's nationality.",
+    "sha256": "e4487ad544cdd3018e6206f66da156aba31279173b2d5e36cadad73cfd77d6c8",
+    "origin": "recorded_agent_message"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "Are the directors of films Free Fall (1999 film) and He Is My Brother both from the same country?",
+   "inputs": [
+    {
+     "unit_id": "case_13:C0034#0-98",
+     "artifact_id": "case_13:C0034",
+     "start": 0,
+     "end": 98,
+     "text": "郭修篆（Quek Shio Chuan），马来西亚导演，毕业于拉曼大学大众传播系。 早期从事商业广告拍摄，2011年以自闭症哥哥真实经历创作微电影《光》获得BMW Shorties微电影大赛冠军。",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 14
+    },
+    {
+     "unit_id": "case_13:C0035#0-222",
+     "artifact_id": "case_13:C0035",
+     "start": 0,
+     "end": 222,
+     "text": "\"郭修篆 (Quek Shio Chuan) 毕业于拉曼大学大众传播系，为马来西亚著名的商业广告影片导演。 曾经参与2011年BMW Shorties微电影比赛，当时的主题是“快乐”，因此他就利用他哥哥的真实故事拍摄了微电影《光》，后荣获冠军。 在拍摄完毕后，心想这部微电影是否可以再次攀上高峰，以电影的方式呈献，最终在2015年拍摄《光》晋身电影导演。 拍摄完毕后，一直拖延到2018年才上映。 目前MM2娱乐全面投资他的个人导演电影《光》。",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 14
+    },
+    {
+     "unit_id": "case_13:C0036#0-112",
+     "artifact_id": "case_13:C0036",
+     "start": 0,
+     "end": 112,
+     "text": "Shio Chuan Quek. Director: Guang. Shio Chuan Quek is known for Guang (2018), Guang (2011) and Sunflowers (2015).",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 14
+    },
+    {
+     "unit_id": "case_13:C0037#0-133",
+     "artifact_id": "case_13:C0037",
+     "start": 0,
+     "end": 133,
+     "text": "Quek Shio Chuan Name: Quek Shio Chuan Native name: Quek Shio Chuan Also Known as: Quek Shio-Chuan Nationality: Malaysian Gender: Male",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 14
+    },
+    {
+     "unit_id": "case_13:C0038#0-149",
+     "artifact_id": "case_13:C0038",
+     "start": 0,
+     "end": 149,
+     "text": "Jan 3, 2026 · As a Penang-born Malaysian director, Quek has been steadily building his influence in the Chinese-language film market in recent years.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 14
+    }
+   ],
+   "output": {
+    "text": "Malta ≠ Malaysia, so the directors are NOT from the same country.",
+    "sha256": "22117dc1ba0312eb016d4fd57d8be14525ab281fd914efbfb18217253edc1de2",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "I found that \"He Is My Brother\" was directed by Quek Shio Chuan (郭修篆). Let me verify this director's nationality.",
+     "sha256": "e4487ad544cdd3018e6206f66da156aba31279173b2d5e36cadad73cfd77d6c8",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_13:C0017#0-190",
+   "artifact_id": "case_13:C0017",
+   "start": 0,
+   "end": 190,
+   "text": "Mario Azzopardi. November 19, 1950 • 75 y.o. Director Director. Writer Writer.1987 — (live action director). Animation, Short, Sci-Fi, 18 min United States • Mario Azzopardi, Yasuo Hasegawa.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_13:C0017#0-190",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0018#0-287",
+   "artifact_id": "case_13:C0018",
+   "start": 0,
+   "end": 287,
+   "text": "Mario Azzopardi ماريو أزوباردي. Biography. A Maltese-Canadian director and writer, born in Malta. He was educated at St. Aloysius College and the University of Malta. In 1971, while still a university student, he directed the film Il-Gaġġa, based on Frans Sammut's novel Il-Gaġġa, and...",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_13:C0018#0-287",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0019#0-274",
+   "artifact_id": "case_13:C0019",
+   "start": 0,
+   "end": 274,
+   "text": "Mario Azzopardi, poet and theatre director, has died, aged 77. Azzopardi, a teacher by profession, is one of Malta’s leading poets, a theatre director and cultural journalist. For many years he taught at the Sixth Form in Msida. He also wrote short stories for young adults.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_13:C0019#0-274",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0020#0-97",
+   "artifact_id": "case_13:C0020",
+   "start": 0,
+   "end": 97,
+   "text": "Category:Films directed by Mario Philip Azzopardi.National Library of Spain SpMaBN ID (BNE v1.0).",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_13:C0020#0-97",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0021#0-270",
+   "artifact_id": "case_13:C0021",
+   "start": 0,
+   "end": 270,
+   "text": "Mario Philip Azzopardi is a Maltese television and film director and writer.Mario Philip Azzopardi should not be confused with Maltese poet, short story writer and columnist Mario Azzopardi (born 1944), who is also involved in theatre and directs the Malta Drama Centre.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_13:C0021#0-270",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0034#0-98",
+   "artifact_id": "case_13:C0034",
+   "start": 0,
+   "end": 98,
+   "text": "郭修篆（Quek Shio Chuan），马来西亚导演，毕业于拉曼大学大众传播系。 早期从事商业广告拍摄，2011年以自闭症哥哥真实经历创作微电影《光》获得BMW Shorties微电影大赛冠军。",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_13:C0034#0-98",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0035#0-222",
+   "artifact_id": "case_13:C0035",
+   "start": 0,
+   "end": 222,
+   "text": "\"郭修篆 (Quek Shio Chuan) 毕业于拉曼大学大众传播系，为马来西亚著名的商业广告影片导演。 曾经参与2011年BMW Shorties微电影比赛，当时的主题是“快乐”，因此他就利用他哥哥的真实故事拍摄了微电影《光》，后荣获冠军。 在拍摄完毕后，心想这部微电影是否可以再次攀上高峰，以电影的方式呈献，最终在2015年拍摄《光》晋身电影导演。 拍摄完毕后，一直拖延到2018年才上映。 目前MM2娱乐全面投资他的个人导演电影《光》。",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_13:C0035#0-222",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0036#0-112",
+   "artifact_id": "case_13:C0036",
+   "start": 0,
+   "end": 112,
+   "text": "Shio Chuan Quek. Director: Guang. Shio Chuan Quek is known for Guang (2018), Guang (2011) and Sunflowers (2015).",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_13:C0036#0-112",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0037#0-133",
+   "artifact_id": "case_13:C0037",
+   "start": 0,
+   "end": 133,
+   "text": "Quek Shio Chuan Name: Quek Shio Chuan Native name: Quek Shio Chuan Also Known as: Quek Shio-Chuan Nationality: Malaysian Gender: Male",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_13:C0037#0-133",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0038#0-149",
+   "artifact_id": "case_13:C0038",
+   "start": 0,
+   "end": 149,
+   "text": "Jan 3, 2026 · As a Penang-born Malaysian director, Quek has been steadily building his influence in the Chinese-language film market in recent years.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_13:C0038#0-149",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_13:T09:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_13:C0018",
+      "start": 0,
+      "end": 287,
+      "text": "Mario Azzopardi ماريو أزوباردي. Biography. A Maltese-Canadian director and writer, born in Malta. He was educated at St. Aloysius College and the University of Malta. In 1971, while still a university student, he directed the film Il-Gaġġa, based on Frans Sammut's novel Il-Gaġġa, and..."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_13:C0018",
+       "start": 0,
+       "end": 287,
+       "text": "Mario Azzopardi ماريو أزوباردي. Biography. A Maltese-Canadian director and writer, born in Malta. He was educated at St. Aloysius College and the University of Malta. In 1971, while still a university student, he directed the film Il-Gaġġa, based on Frans Sammut's novel Il-Gaġġa, and..."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_13:C0034",
+      "start": 0,
+      "end": 98,
+      "text": "郭修篆（Quek Shio Chuan），马来西亚导演，毕业于拉曼大学大众传播系。 早期从事商业广告拍摄，2011年以自闭症哥哥真实经历创作微电影《光》获得BMW Shorties微电影大赛冠军。"
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_13:C0034",
+       "start": 0,
+       "end": 98,
+       "text": "郭修篆（Quek Shio Chuan），马来西亚导演，毕业于拉曼大学大众传播系。 早期从事商业广告拍摄，2011年以自闭症哥哥真实经历创作微电影《光》获得BMW Shorties微电影大赛冠军。"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_13:C0018#0-287"
+  ],
+  "B": [
+   "case_13:C0034#0-98"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T09",
+   "case": "case_13",
+   "question": "Are the directors of films Free Fall (1999 film) and He Is My Brother both from the same country?",
+   "target_event": 15,
+   "target_start": 672,
+   "target_end": 737,
+   "target": "Malta ≠ Malaysia, so the directors are NOT from the same country.",
+   "candidate_ids": [
+    "C0017",
+    "C0018",
+    "C0019",
+    "C0020",
+    "C0021",
+    "C0034",
+    "C0035",
+    "C0036",
+    "C0037",
+    "C0038"
+   ],
+   "annotation_status": "model_annotated_pending_human_review"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0018",
+     "start": 43,
+     "end": 98,
+     "text": "A Maltese-Canadian director and writer, born in Malta. "
+    },
+    {
+     "candidate_id": "C0034",
+     "start": 0,
+     "end": 98,
+     "text": "郭修篆（Quek Shio Chuan），马来西亚导演，毕业于拉曼大学大众传播系。 早期从事商业广告拍摄，2011年以自闭症哥哥真实经历创作微电影《光》获得BMW Shorties微电影大赛冠军。"
+    }
+   ]
+  },
+  "intermediate_origin": "recorded_agent_message",
+  "intermediate_event": 13,
+  "time_order_audit": [
+   {
+    "round": 1,
+    "event": 7,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 7,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 7,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 7,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 7,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 14,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 14,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 14,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 14,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 14,
+    "cut": 15,
+    "ok": true
+   }
+  ],
+  "note": "time-order checked for evidence and distractors"
+ }
+}

@@ -1,0 +1,699 @@
+{
+ "schema": "memoryflow.multiturn_batch.manifest.v1",
+ "created": "2026-11-07",
+ "final_budget": 10,
+ "hop_budget": 5,
+ "cases": [
+  {
+   "short": "case_01_T04",
+   "case_id": "case_01:T04",
+   "trajectory_id": "case_01",
+   "trajectory_case": "case_01",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 11,
+   "evidence_groups": 1,
+   "case_path": "cases/case_01_T04.json",
+   "matrix_path": "matrices/case_01_T04.json",
+   "case_sha256": "f077c6568a5c69f4db8ef006a20a2d3e69260c3091b89cb7c5ecaf1762df2d53",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_01_T05",
+   "case_id": "case_01:T05",
+   "trajectory_id": "case_01",
+   "trajectory_case": "case_01",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 11,
+   "evidence_groups": 1,
+   "case_path": "cases/case_01_T05.json",
+   "matrix_path": "matrices/case_01_T05.json",
+   "case_sha256": "e2bdea74d2947ff17dff8a2cba438fe319a75c0b46769cb855e0d852cd29a76b",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_03_T04",
+   "case_id": "case_03:T04",
+   "trajectory_id": "case_03",
+   "trajectory_case": "case_03",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 16,
+   "evidence_groups": 1,
+   "case_path": "cases/case_03_T04.json",
+   "matrix_path": "matrices/case_03_T04.json",
+   "case_sha256": "13f16e8aa613d4c1b7418a8e0d284ed7962235a2c65d9215217bbd527d725448",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_04_T06",
+   "case_id": "case_04:T06",
+   "trajectory_id": "case_04",
+   "trajectory_case": "case_04",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 15,
+   "evidence_groups": 1,
+   "case_path": "cases/case_04_T06.json",
+   "matrix_path": "matrices/case_04_T06.json",
+   "case_sha256": "d2aeff74aff080f5c24939f6f6cc428b8796c8fc459da9119022df5a9f33b214",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_05_T10",
+   "case_id": "case_05:T10",
+   "trajectory_id": "case_05",
+   "trajectory_case": "case_05",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 32,
+   "evidence_groups": 1,
+   "case_path": "cases/case_05_T10.json",
+   "matrix_path": "matrices/case_05_T10.json",
+   "case_sha256": "c5e695bdc4f80323c29dc42e519fbf487f4354d44a1d425f0d5aa0927a7eb72b",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_06_T10",
+   "case_id": "case_06:T10",
+   "trajectory_id": "case_06",
+   "trajectory_case": "case_06",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 20,
+   "evidence_groups": 1,
+   "case_path": "cases/case_06_T10.json",
+   "matrix_path": "matrices/case_06_T10.json",
+   "case_sha256": "b44c311c449fdfbf7ff5fdbb0ee4e15a277f4168e9ac3eeb0f763ad0d4543f90",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_07_T10",
+   "case_id": "case_07:T10",
+   "trajectory_id": "case_07",
+   "trajectory_case": "case_07",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 10,
+   "evidence_groups": 1,
+   "case_path": "cases/case_07_T10.json",
+   "matrix_path": "matrices/case_07_T10.json",
+   "case_sha256": "e05d483d660f91217802fcf442c62a8fd8e12b71f4677b114e2d5bc7d9b5a5ef",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_08_T07",
+   "case_id": "case_08:T07",
+   "trajectory_id": "case_08",
+   "trajectory_case": "case_08",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 20,
+   "evidence_groups": 1,
+   "case_path": "cases/case_08_T07.json",
+   "matrix_path": "matrices/case_08_T07.json",
+   "case_sha256": "d41ebfefef8c5782a75f6b7aa2b62aa5e86f30267a24555fce6acd8d3caa6241",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_10_T05",
+   "case_id": "case_10:T05",
+   "trajectory_id": "case_10",
+   "trajectory_case": "case_10",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 35,
+   "evidence_groups": 1,
+   "case_path": "cases/case_10_T05.json",
+   "matrix_path": "matrices/case_10_T05.json",
+   "case_sha256": "d4fe04b90a0229a15f41b7d1ca0a9efb3cf8555eab10a3eb83295a4d06c8c6d8",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_13_T06",
+   "case_id": "case_13:T06",
+   "trajectory_id": "case_13",
+   "trajectory_case": "case_13",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 25,
+   "evidence_groups": 2,
+   "case_path": "cases/case_13_T06.json",
+   "matrix_path": "matrices/case_13_T06.json",
+   "case_sha256": "9dbc7b692315535c6a2a61eda13e301c4253715406fc0ac02d18dfb7aadc3ee8",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_13_T09",
+   "case_id": "case_13:T09",
+   "trajectory_id": "case_13",
+   "trajectory_case": "case_13",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 10,
+   "evidence_groups": 1,
+   "case_path": "cases/case_13_T09.json",
+   "matrix_path": "matrices/case_13_T09.json",
+   "case_sha256": "73c35311f302d8ed6b9bef3959ae581ee40ecd0c991e0b92e22d06e3c6fa6f2f",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_21_T04",
+   "case_id": "case_21:T04",
+   "trajectory_id": "case_21",
+   "trajectory_case": "case_21",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 20,
+   "evidence_groups": 1,
+   "case_path": "cases/case_21_T04.json",
+   "matrix_path": "matrices/case_21_T04.json",
+   "case_sha256": "65f6bbb0cb2cfa2d7a2b01a04dfaa248d0cf5fed3ccd47d48d5345486ac64acf",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_23_T04",
+   "case_id": "case_23:T04",
+   "trajectory_id": "case_23",
+   "trajectory_case": "case_23",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 55,
+   "evidence_groups": 1,
+   "case_path": "cases/case_23_T04.json",
+   "matrix_path": "matrices/case_23_T04.json",
+   "case_sha256": "37c4597b36ab70a23421896be858e64c5c37bd6c76b4739e75ee453face5d903",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_23_T07",
+   "case_id": "case_23:T07",
+   "trajectory_id": "case_23",
+   "trajectory_case": "case_23",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 16,
+   "evidence_groups": 1,
+   "case_path": "cases/case_23_T07.json",
+   "matrix_path": "matrices/case_23_T07.json",
+   "case_sha256": "1f6374590dd643a251df171960fdc8001f2dc24602acf171670e826dcfcc855d",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_24_T03",
+   "case_id": "case_24:T03",
+   "trajectory_id": "case_24",
+   "trajectory_case": "case_24",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 28,
+   "evidence_groups": 3,
+   "case_path": "cases/case_24_T03.json",
+   "matrix_path": "matrices/case_24_T03.json",
+   "case_sha256": "aeaf542b3a2869d13e931dc23ca4b4d33f5c580a4811eeeada7d7dd9f174f583",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_29_T02",
+   "case_id": "case_29:T02",
+   "trajectory_id": "case_29",
+   "trajectory_case": "case_29",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 26,
+   "evidence_groups": 1,
+   "case_path": "cases/case_29_T02.json",
+   "matrix_path": "matrices/case_29_T02.json",
+   "case_sha256": "d10bdc2bfe4e80c9ae1a94b9b90316202231c2026cb11d1227e1d9a29a80489e",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_30_T05",
+   "case_id": "case_30:T05",
+   "trajectory_id": "case_30",
+   "trajectory_case": "case_30",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 19,
+   "evidence_groups": 2,
+   "case_path": "cases/case_30_T05.json",
+   "matrix_path": "matrices/case_30_T05.json",
+   "case_sha256": "e008139335ef39ea228a197e29d673dda80086b8b8215fb8e4ce5d8755de721a",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_32_T01",
+   "case_id": "case_32:T01",
+   "trajectory_id": "case_32",
+   "trajectory_case": "case_32",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 15,
+   "evidence_groups": 3,
+   "case_path": "cases/case_32_T01.json",
+   "matrix_path": "matrices/case_32_T01.json",
+   "case_sha256": "8dcc7072715839215fafc407e44b647aa6d777791f957d3e1cf26e1c33f67e52",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_32_T02",
+   "case_id": "case_32:T02",
+   "trajectory_id": "case_32",
+   "trajectory_case": "case_32",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 15,
+   "evidence_groups": 3,
+   "case_path": "cases/case_32_T02.json",
+   "matrix_path": "matrices/case_32_T02.json",
+   "case_sha256": "31e9fc301073b23e149e81e354f36e18b4b6c2f4d4b731c36d891e0dd87197c8",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_32_T03",
+   "case_id": "case_32:T03",
+   "trajectory_id": "case_32",
+   "trajectory_case": "case_32",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 20,
+   "evidence_groups": 3,
+   "case_path": "cases/case_32_T03.json",
+   "matrix_path": "matrices/case_32_T03.json",
+   "case_sha256": "0b80b766ac6efa271865937cfed682a6b030d01795517b3378d0eaa8203cc161",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_32_T04",
+   "case_id": "case_32:T04",
+   "trajectory_id": "case_32",
+   "trajectory_case": "case_32",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 25,
+   "evidence_groups": 1,
+   "case_path": "cases/case_32_T04.json",
+   "matrix_path": "matrices/case_32_T04.json",
+   "case_sha256": "57a102ad015fe296fbe50045aac8487c492934e849b205f9e4db0e3150378c5e",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_38_T05",
+   "case_id": "case_38:T05",
+   "trajectory_id": "case_38",
+   "trajectory_case": "case_38",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 32,
+   "evidence_groups": 2,
+   "case_path": "cases/case_38_T05.json",
+   "matrix_path": "matrices/case_38_T05.json",
+   "case_sha256": "d65de6fd56052892b72e57b7a3583a57ba31531861900d9cfecfc8aa44762197",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_39_T01",
+   "case_id": "case_39:T01",
+   "trajectory_id": "case_39",
+   "trajectory_case": "case_39",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 60,
+   "evidence_groups": 3,
+   "case_path": "cases/case_39_T01.json",
+   "matrix_path": "matrices/case_39_T01.json",
+   "case_sha256": "540e8911bf0e13f0f7310e0ec5a048c530614dace50ae8a63143dd907c868166",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_39_T04",
+   "case_id": "case_39:T04",
+   "trajectory_id": "case_39",
+   "trajectory_case": "case_39",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 57,
+   "evidence_groups": 3,
+   "case_path": "cases/case_39_T04.json",
+   "matrix_path": "matrices/case_39_T04.json",
+   "case_sha256": "af68ff50264454471b31186012aa687724d6b75a3329f9acee3bf4649aab10eb",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_46_T02",
+   "case_id": "case_46:T02",
+   "trajectory_id": "case_46",
+   "trajectory_case": "case_46",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 35,
+   "evidence_groups": 1,
+   "case_path": "cases/case_46_T02.json",
+   "matrix_path": "matrices/case_46_T02.json",
+   "case_sha256": "d176680f87c4b8d2b7feda8eaca4fbe905dad7ed95a2175d8d92b27019744f3b",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_01_T08",
+   "case_id": "case_01:T08",
+   "trajectory_id": "case_01",
+   "trajectory_case": "case_01",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 10,
+   "evidence_groups": 1,
+   "case_path": "cases/case_01_T08.json",
+   "matrix_path": "matrices/case_01_T08.json",
+   "case_sha256": "00121e3e266200ee866bb313589d9ecaa73f31153aa12bef97c269be63060d00",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_03_T02",
+   "case_id": "case_03:T02",
+   "trajectory_id": "case_03",
+   "trajectory_case": "case_03",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 10,
+   "evidence_groups": 1,
+   "case_path": "cases/case_03_T02.json",
+   "matrix_path": "matrices/case_03_T02.json",
+   "case_sha256": "c53fcf07cd6569c090a882f97c1eb4059fd0f2521a429cb3f2394058244c8007",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_04_T03",
+   "case_id": "case_04:T03",
+   "trajectory_id": "case_04",
+   "trajectory_case": "case_04",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 15,
+   "evidence_groups": 1,
+   "case_path": "cases/case_04_T03.json",
+   "matrix_path": "matrices/case_04_T03.json",
+   "case_sha256": "b8379bc36b9ea90e9752fab5972ea1b38b2708c72c16c325e6a4f77cd36cf2e4",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_22_T05",
+   "case_id": "case_22:T05",
+   "trajectory_id": "case_22",
+   "trajectory_case": "case_22",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 35,
+   "evidence_groups": 2,
+   "case_path": "cases/case_22_T05.json",
+   "matrix_path": "matrices/case_22_T05.json",
+   "case_sha256": "eeae44c9ce733870a620710a7fb7f97918cc271a24faf5b1222c81b870da431a",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_25_T05",
+   "case_id": "case_25:T05",
+   "trajectory_id": "case_25",
+   "trajectory_case": "case_25",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 15,
+   "evidence_groups": 1,
+   "case_path": "cases/case_25_T05.json",
+   "matrix_path": "matrices/case_25_T05.json",
+   "case_sha256": "68f997a73375aa459371dc5e32dd9c33b02b216d3e22dfeb7e20ed1eb4e5562a",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_34_T06",
+   "case_id": "case_34:T06",
+   "trajectory_id": "case_34",
+   "trajectory_case": "case_34",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 25,
+   "evidence_groups": 2,
+   "case_path": "cases/case_34_T06.json",
+   "matrix_path": "matrices/case_34_T06.json",
+   "case_sha256": "90a224444dcd89b4c7a12ac190a837dc1f95a5e599549f5b17ac0469ec185310",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  }
+ ],
+ "totals": {
+  "cases": 31,
+  "controlled": 34,
+  "real": 0,
+  "dev": 31,
+  "eval": 0,
+  "controls": 0,
+  "trajectories": 21
+ }
+}

@@ -1,0 +1,241 @@
+{
+  "case_id": "case_46:T02",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "case_46:C0028#0-277",
+          "score": 0.08369705826044083,
+          "text": "Ferric maltol increases haemoglobin and iron indices and is generally well tolerated in patients with IBD and IDA treated in clinical practice. These real-world data support findings from randomised controlled trials.Median (IQR). 109 (104–116). 119 (112–124). 4 (2–15). Range."
+        },
+        {
+          "canonical_id": "case_46:C0011#0-186",
+          "score": 0.007877740077674389,
+          "text": "Keywords: adult, anemia, chronic kidney disease, ferric maltol, hemoglobin, inflammatory bowel disease, iron deficiency, pediatric, pulmonary hypertension, tolerability. 1. Introduction."
+        },
+        {
+          "canonical_id": "case_46:C0012#0-269",
+          "score": 0.02403777651488781,
+          "text": "Ferric maltol is a new oral iron replacement therapy designed to optimize iron absorption while reducing the gastrointestinal adverse events associated with unabsorbed free iron.A real-life cohort study investigated IBD patient′s tolerability toward ferric maltol [24]."
+        },
+        {
+          "canonical_id": "case_46:C0013#0-206",
+          "score": 0.00516057014465332,
+          "text": "Introduction Anaemia is common in inflammatory bowel disease (IBD).Data was collected from medical records and patients were contacted at least 1 month after prescription of Feraccru to assess tolerability."
+        },
+        {
+          "canonical_id": "case_46:C0014#0-146",
+          "score": 0.0016682505374774337,
+          "text": "Oral ferric maltol for the treatment of iron-deficiency anemia in patients with CKD: a randomized trial and open-label extension. Am J Kidney Dis."
+        },
+        {
+          "canonical_id": "case_46:C0015#0-249",
+          "score": 0.0014920909889042377,
+          "text": "Ferric maltol, an oral iron replacement therapy. Used for iron containing supplementation.Application of Ferric Maltol. Gastrointestinal Disorders. Treatment of Iron-Deficiency Anemia. Increased Iron Absorption. Reducing Fatigue and Anemia Symptoms."
+        },
+        {
+          "canonical_id": "case_46:C0016#0-198",
+          "score": 0.004400031641125679,
+          "text": "Apr 9, 2025 · A systematic literature review and meta-analysis of the incidence of serious or severe hypersensitivity reactions after administration of ferric derisomaltose or ferric carboxymaltose."
+        },
+        {
+          "canonical_id": "case_46:C0017#0-252",
+          "score": 0.0022856651339679956,
+          "text": "Nov 1, 2025 · Abstract Intravenous (IV) iron-carbohydrate nanoparticles like ferric carboxymaltose (FCM) and ferric derisomaltose (FDI) are used to treat iron deficiency anemia (IDA); however, they differ in their side-effects (e.g., hypophosphatemia)."
+        },
+        {
+          "canonical_id": "case_46:C0018#0-211",
+          "score": 0.0022111092694103718,
+          "text": "Nov 7, 2022 · This study provides real-world clinical evidence for the low risk of adverse reactions with FDI across diverse patient populations, providing reassurance that intravenous iron is not associated ..."
+        },
+        {
+          "canonical_id": "case_46:C0044#0-230",
+          "score": 0.6480430960655212,
+          "text": "Adverse events considered related to ferric maltol were recorded in 27/111 (24%) patients: 8/18 discontinuations due to adverse events were treatment-related. One patient was withdrawn due to increased ulcerative colitis activity."
+        },
+        {
+          "canonical_id": "case_46:C0019#0-293",
+          "score": 0.004718633834272623,
+          "text": "Adult patients (≥18 years) with iron deficiency anemia received 1 or 2 infusions of intravenous ferric derisomaltose (up to 1000 mg per infusion). Hematologic and iron parameters were measured at baseline, Week 4, and Week 8. Safety outcomes included adverse events and serum phosphate levels."
+        },
+        {
+          "canonical_id": "case_46:C0020#0-344",
+          "score": 0.004504554904997349,
+          "text": "Nov 5, 2021 · The most common mild adverse events reported were hypersensitivity reaction (HSR) seen in 3 patients. 2 patients discontinued due to mild HSR. There were no reports of death due to side effects of the drug. Conclusion Ferric derisomaltose has demonstrated a substantial increment in iron parameters in anemia in patients with IBD."
+        },
+        {
+          "canonical_id": "case_46:C0021#0-233",
+          "score": 0.0003341320843901485,
+          "text": "Risk factors for iron deficiency anemia include low socioeconomic status, female sex, age younger than 5 years, and chronic inflammation. Underlying causes should be investigated. Recurrent blood loss is responsible for 94% of cases."
+        },
+        {
+          "canonical_id": "case_46:C0022#0-176",
+          "score": 0.0005110201891511679,
+          "text": "Find patient medical information for Monoferric (ferric derisomaltose) on WebMD including its uses, side effects and safety, interactions, pictures, warnings, and user ratings."
+        },
+        {
+          "canonical_id": "case_46:C0023#0-250",
+          "score": 0.0026205640751868486,
+          "text": "By Week 8, 81% achieved a hemoglobin increase ≥2 g/dL, and 54% achieved an increase of ≥3 g/dL. Four (8%) mild adverse events occurred and three patients (10%) experienced transient, asymptomatic hypophosphatemia, which resolved without intervention."
+        },
+        {
+          "canonical_id": "case_46:C0024#0-214",
+          "score": 0.00023550839978270233,
+          "text": "Medscape - Iron deficiency anemia dosing for Monoferric (ferric derisomaltose), frequency-based adverse effects, comprehensive interactions, contraindications, pregnancy & lactation schedules, and cost information."
+        },
+        {
+          "canonical_id": "case_46:C0025#0-238",
+          "score": 0.0001295922847930342,
+          "text": "Untreated iron deficiency anemia (IDA) in pregnancy is associated with adverse maternal outcomes such as post-partum anemia. Adverse pregnancy outcomes associated with IDA includes increased risk for preterm delivery and low birth weight."
+        },
+        {
+          "canonical_id": "case_46:C0026#0-235",
+          "score": 0.06754662096500397,
+          "text": "... A real-life cohort study investigated IBD patient′s tolerability toward ferric maltol [24]. It was well tolerated by 67% of patients, and 50% of patients, who did not tolerate other oral forms of iron, tolerated ferric maltol [24]."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 1043,
+      "seconds": 0.217,
+      "target": "**Tolerability:** Generally well tolerated, but **adverse events considered related to ferric maltol occurred in 27/111 (24%) of patients**.",
+      "target_tokens": 38,
+      "total_tokens": 1081
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "case_46:C0028#0-277",
+          "score": 0.6827168464660645,
+          "text": "Ferric maltol increases haemoglobin and iron indices and is generally well tolerated in patients with IBD and IDA treated in clinical practice. These real-world data support findings from randomised controlled trials.Median (IQR). 109 (104–116). 119 (112–124). 4 (2–15). Range."
+        },
+        {
+          "canonical_id": "case_46:C0011#0-186",
+          "score": 0.027610821649432182,
+          "text": "Keywords: adult, anemia, chronic kidney disease, ferric maltol, hemoglobin, inflammatory bowel disease, iron deficiency, pediatric, pulmonary hypertension, tolerability. 1. Introduction."
+        },
+        {
+          "canonical_id": "case_46:C0012#0-269",
+          "score": 0.074103444814682,
+          "text": "Ferric maltol is a new oral iron replacement therapy designed to optimize iron absorption while reducing the gastrointestinal adverse events associated with unabsorbed free iron.A real-life cohort study investigated IBD patient′s tolerability toward ferric maltol [24]."
+        },
+        {
+          "canonical_id": "case_46:C0013#0-206",
+          "score": 0.019519681110978127,
+          "text": "Introduction Anaemia is common in inflammatory bowel disease (IBD).Data was collected from medical records and patients were contacted at least 1 month after prescription of Feraccru to assess tolerability."
+        },
+        {
+          "canonical_id": "case_46:C0014#0-146",
+          "score": 0.01906224526464939,
+          "text": "Oral ferric maltol for the treatment of iron-deficiency anemia in patients with CKD: a randomized trial and open-label extension. Am J Kidney Dis."
+        },
+        {
+          "canonical_id": "case_46:C0015#0-249",
+          "score": 0.02602681703865528,
+          "text": "Ferric maltol, an oral iron replacement therapy. Used for iron containing supplementation.Application of Ferric Maltol. Gastrointestinal Disorders. Treatment of Iron-Deficiency Anemia. Increased Iron Absorption. Reducing Fatigue and Anemia Symptoms."
+        },
+        {
+          "canonical_id": "case_46:C0016#0-198",
+          "score": 0.011952396482229233,
+          "text": "Apr 9, 2025 · A systematic literature review and meta-analysis of the incidence of serious or severe hypersensitivity reactions after administration of ferric derisomaltose or ferric carboxymaltose."
+        },
+        {
+          "canonical_id": "case_46:C0017#0-252",
+          "score": 0.004805132746696472,
+          "text": "Nov 1, 2025 · Abstract Intravenous (IV) iron-carbohydrate nanoparticles like ferric carboxymaltose (FCM) and ferric derisomaltose (FDI) are used to treat iron deficiency anemia (IDA); however, they differ in their side-effects (e.g., hypophosphatemia)."
+        },
+        {
+          "canonical_id": "case_46:C0018#0-211",
+          "score": 0.003101194277405739,
+          "text": "Nov 7, 2022 · This study provides real-world clinical evidence for the low risk of adverse reactions with FDI across diverse patient populations, providing reassurance that intravenous iron is not associated ..."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 527,
+      "seconds": 0.129,
+      "target": "The earlier material states: Ferric maltol increases haemoglobin and iron indices and is generally well tolerated in patients with IBD and IDA treated in clinical practice. These real-world data support findings from randomised controlled trials.Median (IQR). 109 (104–",
+      "target_tokens": 60,
+      "total_tokens": 587
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.14368481934070587,
+          "text": "The earlier material states: Ferric maltol increases haemoglobin and iron indices and is generally well tolerated in patients with IBD and IDA treated in clinical practice. These real-world data support findings from randomised controlled trials.Median (IQR). 109 (104–"
+        },
+        {
+          "canonical_id": "case_46:C0044#0-230",
+          "score": 0.5933951735496521,
+          "text": "Adverse events considered related to ferric maltol were recorded in 27/111 (24%) patients: 8/18 discontinuations due to adverse events were treatment-related. One patient was withdrawn due to increased ulcerative colitis activity."
+        },
+        {
+          "canonical_id": "case_46:C0019#0-293",
+          "score": 0.012891782447695732,
+          "text": "Adult patients (≥18 years) with iron deficiency anemia received 1 or 2 infusions of intravenous ferric derisomaltose (up to 1000 mg per infusion). Hematologic and iron parameters were measured at baseline, Week 4, and Week 8. Safety outcomes included adverse events and serum phosphate levels."
+        },
+        {
+          "canonical_id": "case_46:C0020#0-344",
+          "score": 0.022486234083771706,
+          "text": "Nov 5, 2021 · The most common mild adverse events reported were hypersensitivity reaction (HSR) seen in 3 patients. 2 patients discontinued due to mild HSR. There were no reports of death due to side effects of the drug. Conclusion Ferric derisomaltose has demonstrated a substantial increment in iron parameters in anemia in patients with IBD."
+        },
+        {
+          "canonical_id": "case_46:C0021#0-233",
+          "score": 0.0023239669390022755,
+          "text": "Risk factors for iron deficiency anemia include low socioeconomic status, female sex, age younger than 5 years, and chronic inflammation. Underlying causes should be investigated. Recurrent blood loss is responsible for 94% of cases."
+        },
+        {
+          "canonical_id": "case_46:C0022#0-176",
+          "score": 0.000810361176263541,
+          "text": "Find patient medical information for Monoferric (ferric derisomaltose) on WebMD including its uses, side effects and safety, interactions, pictures, warnings, and user ratings."
+        },
+        {
+          "canonical_id": "case_46:C0023#0-250",
+          "score": 0.0021759772207587957,
+          "text": "By Week 8, 81% achieved a hemoglobin increase ≥2 g/dL, and 54% achieved an increase of ≥3 g/dL. Four (8%) mild adverse events occurred and three patients (10%) experienced transient, asymptomatic hypophosphatemia, which resolved without intervention."
+        },
+        {
+          "canonical_id": "case_46:C0024#0-214",
+          "score": 0.0012555825524032116,
+          "text": "Medscape - Iron deficiency anemia dosing for Monoferric (ferric derisomaltose), frequency-based adverse effects, comprehensive interactions, contraindications, pregnancy & lactation schedules, and cost information."
+        },
+        {
+          "canonical_id": "case_46:C0025#0-238",
+          "score": 8.74677425599657e-05,
+          "text": "Untreated iron deficiency anemia (IDA) in pregnancy is associated with adverse maternal outcomes such as post-partum anemia. Adverse pregnancy outcomes associated with IDA includes increased risk for preterm delivery and low birth weight."
+        },
+        {
+          "canonical_id": "case_46:C0026#0-235",
+          "score": 0.09024041146039963,
+          "text": "... A real-life cohort study investigated IBD patient′s tolerability toward ferric maltol [24]. It was well tolerated by 67% of patients, and 50% of patients, who did not tolerate other oral forms of iron, tolerated ferric maltol [24]."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 638,
+      "seconds": 0.131,
+      "target": "**Tolerability:** Generally well tolerated, but **adverse events considered related to ferric maltol occurred in 27/111 (24%) of patients**.",
+      "target_tokens": 38,
+      "total_tokens": 676
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 17.4,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "cases": {
+    "case_01_T04": {
+      "candidate_ids_sha256": "2771879c9d52f246a7d3d6863a9967f3657be69224e5edd562a8e83216d3ad62",
+      "case_id": "case_01:T04",
+      "case_sha256": "f077c6568a5c69f4db8ef006a20a2d3e69260c3091b89cb7c5ecaf1762df2d53",
+      "evidence_sha256": "8f799e7f5fccffc216e20e8fb6dfbcd0862126e297916268a7fcb9cc2c3f4977",
+      "labels_sha256": "068bff17e4bd9d5c41f3152f7346438d0ca2420c2313a46a397e19e7f369a846",
+      "matrix_sha256": "07380ec102aeef7ba085b77125d43b55c1b40d951043ea8644aa7ebb18994b4a"
+    },
+    "case_01_T05": {
+      "candidate_ids_sha256": "49d11f495e0b0d9c93fd0deeb2dcbaa078284b6db593e6b30d443b7eada2b50e",
+      "case_id": "case_01:T05",
+      "case_sha256": "e2bdea74d2947ff17dff8a2cba438fe319a75c0b46769cb855e0d852cd29a76b",
+      "evidence_sha256": "bc09fd61f73abf8c6716a4df2be8c7990d936b6570963867f602e4f44af296c2",
+      "labels_sha256": "068bff17e4bd9d5c41f3152f7346438d0ca2420c2313a46a397e19e7f369a846",
+      "matrix_sha256": "458759abcb134a50de15aa7e4b701ba324029dbfa3d2e9ba2c4e893fb0ed7e73"
+    },
+    "case_01_T08": {
+      "candidate_ids_sha256": "4ab64b1b4856dfdf7c2807f9d3d87b82e8b45486df9e24acc5e3d0888071e7b1",
+      "case_id": "case_01:T08",
+      "case_sha256": "00121e3e266200ee866bb313589d9ecaa73f31153aa12bef97c269be63060d00",
+      "evidence_sha256": "ba1b6b59b04efc0677beb63feeb41e71a94b26ab066389c1631d8bf48cf6fd3b",
+      "labels_sha256": "92868927bf94a8be9a46b491828cd9765e8fd9d756b3a4d5a08328965b83d1e1",
+      "matrix_sha256": "0e7f59031e887eff18a4195118e1f133ef6435895551e9359757dcab7c6f285b"
+    },
+    "case_03_T02": {
+      "candidate_ids_sha256": "44e2a0f6458a912a7f4ea1db67042184460093bd7d2f3ecf4c75e7c0c12846f8",
+      "case_id": "case_03:T02",
+      "case_sha256": "c53fcf07cd6569c090a882f97c1eb4059fd0f2521a429cb3f2394058244c8007",
+      "evidence_sha256": "d57f322525bff7d2031ded9e4e46ef4259a1bb875ced485d961d2402d1aeb9aa",
+      "labels_sha256": "7f700c7dbe2fbde8a8be4b7aa07a91f98f3b5d7de1b6705a8060bd9f200eaf3e",
+      "matrix_sha256": "ea763241291ffc66f2ea6d896a9cf8125f9ea2029675f46d12f295e8544b9c90"
+    },
+    "case_03_T04": {
+      "candidate_ids_sha256": "216d2a25f1cb4cde5c28ad0b07c62353b98edec70236be256c8c2af438bffc7b",
+      "case_id": "case_03:T04",
+      "case_sha256": "13f16e8aa613d4c1b7418a8e0d284ed7962235a2c65d9215217bbd527d725448",
+      "evidence_sha256": "6844778a544d8412e51ebe7205c6d6e901f63adc8a12e0c306fb341139786a75",
+      "labels_sha256": "5d160c6e518f4c72de891fb464e97a8ce60f1bb86668ff4afb1bb5959bdc76b7",
+      "matrix_sha256": "68473b4935254b83df0a44f4371e5335ce2f7d3916c0485fa889042547bfad1c"
+    },
+    "case_04_T03": {
+      "candidate_ids_sha256": "439978e5b2a146541d3cad1c783ec76894d92033e7c7f70084572291266aad6a",
+      "case_id": "case_04:T03",
+      "case_sha256": "b8379bc36b9ea90e9752fab5972ea1b38b2708c72c16c325e6a4f77cd36cf2e4",
+      "evidence_sha256": "80224a2113ec1dab701222f0188e1bbca69efb234d65048a2a47862d1f125426",
+      "labels_sha256": "6fc9603e8a14513ba6f638d1e9c54a543da296127d416e253707b2c39892a4dc",
+      "matrix_sha256": "a454841adf38bdbdcfee8c6acd89080d7e83380efad05daf195092ec5ec6e3dc"
+    },
+    "case_04_T06": {
+      "candidate_ids_sha256": "a002a2e921b503e9577ddad6cc09c79506e802d3dd07618e505fbd32c944d85f",
+      "case_id": "case_04:T06",
+      "case_sha256": "d2aeff74aff080f5c24939f6f6cc428b8796c8fc459da9119022df5a9f33b214",
+      "evidence_sha256": "748b8a71763c4f71b7e7015249c78a921991a368c066c6219a24ad48fffce494",
+      "labels_sha256": "d5634b230be9cb348f5658e9bcf4c032c23074b0b04559e109e4508eb550d61d",
+      "matrix_sha256": "69b7edb35f704ad222f67a6c018a1e73239f78f0be6f56056815190ff9571914"
+    },
+    "case_05_T10": {
+      "candidate_ids_sha256": "5719f725fc5b9fe058f351132ca4c38685bd009bb1992b42410e3aecb444e142",
+      "case_id": "case_05:T10",
+      "case_sha256": "c5e695bdc4f80323c29dc42e519fbf487f4354d44a1d425f0d5aa0927a7eb72b",
+      "evidence_sha256": "efaa6bb283ed5df9ed714995a1e55c9dbde2adc81afc2bae1586084aa9446bec",
+      "labels_sha256": "52b7f091667b58438c681353a132471faee31054110ca0d0dacb16c5c3f71578",
+      "matrix_sha256": "6466d93ec9e18196f4da1ee45329beddad37c76e1f329c5650361f0bc379f895"
+    },
+    "case_06_T10": {
+      "candidate_ids_sha256": "4a1958239137e26d482e02c92a8816822000a4c30ec7f92c552cb832572f8fa8",
+      "case_id": "case_06:T10",
+      "case_sha256": "b44c311c449fdfbf7ff5fdbb0ee4e15a277f4168e9ac3eeb0f763ad0d4543f90",
+      "evidence_sha256": "5489d79cd09839bf4886e9434bceda816a912d7a82adb86eed09bd698c6729e3",
+      "labels_sha256": "c5deea13596a61ecbbe2a473936cb3bc0ed73f5429d1b93ddfde233fef5d37bc",
+      "matrix_sha256": "16b4966d3cdbbf8acbe3470f7235b7c495a18b1a9f51f5a42ccfbc134e80283f"
+    },
+    "case_07_T10": {
+      "candidate_ids_sha256": "fcb6b8a5947d49b60dab9a7edd8c4d5d544bcd0bfa8e01e4356ebacd310bd039",
+      "case_id": "case_07:T10",
+      "case_sha256": "e05d483d660f91217802fcf442c62a8fd8e12b71f4677b114e2d5bc7d9b5a5ef",
+      "evidence_sha256": "72e67d97a8c7577193d1608ebd0a4e7b5644f6a52fbbc58cf8a5576b78782438",
+      "labels_sha256": "f383910d4f7c810377de72b4acdb2eb2618436bb7a317bac9e65e0245ec5df8b",
+      "matrix_sha256": "6d29cc3b76480dcb3244351c9300d9e4c9ddf51c6f263cdfd658fa91d3fa9f27"
+    },
+    "case_08_T07": {
+      "candidate_ids_sha256": "9fad3ebdc96fd8fa04ab94415f1b6f89d0e7c169a1f05b20f1f64c0adce90185",
+      "case_id": "case_08:T07",
+      "case_sha256": "d41ebfefef8c5782a75f6b7aa2b62aa5e86f30267a24555fce6acd8d3caa6241",
+      "evidence_sha256": "091a83b060f269928c20519904dceffcde745ff0269bd44bea9b1d16f33a26f0",
+      "labels_sha256": "00dfd2e58782fbd79905e59fd947fc836dd3e843525b16f46d0daaa8e4ffbe4d",
+      "matrix_sha256": "11a6e59e19072ea11c9b167a8579b875b2c1d007bb4afb643355e9ffb76c4a09"
+    },
+    "case_10_T05": {
+      "candidate_ids_sha256": "ad106f4213c4610105f0af5cc1df84a4968d9dddb020d6ba650d8f81d5bb6099",
+      "case_id": "case_10:T05",
+      "case_sha256": "d4fe04b90a0229a15f41b7d1ca0a9efb3cf8555eab10a3eb83295a4d06c8c6d8",
+      "evidence_sha256": "58ac7d917566629c2b22fa631a447f368d94bc03a2bb11ff40eb3b48db48fc0a",
+      "labels_sha256": "a0dfa7998d708f7c5163510829ce6a13b9af53371515a29865c063d5692300e2",
+      "matrix_sha256": "a5685aa9b54fb66f21942671e19b95043d20fc8bb4e916d8c0da3c8b1ea81243"
+    },
+    "case_13_T06": {
+      "candidate_ids_sha256": "99b95bf2eba239d88e26889479a4aaaf63bf5a374ce6ed4652f563dfd437fea3",
+      "case_id": "case_13:T06",
+      "case_sha256": "9dbc7b692315535c6a2a61eda13e301c4253715406fc0ac02d18dfb7aadc3ee8",
+      "evidence_sha256": "3d1c38224d434118851794739dfcd8b078345a9b955ada6b92e413b4dc45ce41",
+      "labels_sha256": "a363d1762002251c853f9abfcfcf665bcb00dd68dc6c2f5bee7ed40155a746c2",
+      "matrix_sha256": "c378ffb0b3a33538007b2114e1bdd378d0d002563c6efa80504f69eb0bfbc718"
+    },
+    "case_13_T09": {
+      "candidate_ids_sha256": "ff2ca9f4770228956f5354b4a7eb623967ffe4539e09eb5c50fc1f71747f3be6",
+      "case_id": "case_13:T09",
+      "case_sha256": "73c35311f302d8ed6b9bef3959ae581ee40ecd0c991e0b92e22d06e3c6fa6f2f",
+      "evidence_sha256": "5147a669635fda63d272f2408502fe98c454e05f1387d9211e1916ae8c1f9f08",
+      "labels_sha256": "e6a0b2c575355ab5b5ce820dda14f42bdac413b70cc829edaa71e150dde8ad1f",
+      "matrix_sha256": "fac581a870e8ef8a155642b74c2d2b3fc7efd33efc3e93c14a4e16aba4797ecd"
+    },
+    "case_21_T04": {
+      "candidate_ids_sha256": "d0d6bdde16d17531e175ccd3d15be1476f769a3bfed602c893d7a18b49232866",
+      "case_id": "case_21:T04",
+      "case_sha256": "65f6bbb0cb2cfa2d7a2b01a04dfaa248d0cf5fed3ccd47d48d5345486ac64acf",
+      "evidence_sha256": "81adec0eeabe53e3b5b7c7399ba83a173bf0753b409b266b529260d551c35d44",
+      "labels_sha256": "301ff5278c6a4d23c477c4ff1c70ff0b35ad7fdfae571b0c39aafc1a625fe036",
+      "matrix_sha256": "bfb9b6574ad9daf6cd7bd8f46897160183aebcad6bff4f079bb79fff9b4077fc"
+    },
+    "case_22_T05": {
+      "candidate_ids_sha256": "6c80270d7efd793a43ef08f6cfab9504bfd9170b26a72814484406c56ce099c6",
+      "case_id": "case_22:T05",
+      "case_sha256": "eeae44c9ce733870a620710a7fb7f97918cc271a24faf5b1222c81b870da431a",
+      "evidence_sha256": "955bae6f6f47bcc378fe0f58c64fac92072fd5110d5e7c86f966e81199bfed33",
+      "labels_sha256": "f092f1f5d1b665d43d5fab3774d7269ca2bf5c0f9d5785c2154071286ad4a9e2",
+      "matrix_sha256": "9fa9d85de22324d012976f2a7ff001fd1f58242f3df1da58e0014d895699d145"
+    },
+    "case_23_T04": {
+      "candidate_ids_sha256": "e278823c3126402ee1572aa8d25881edfad2ee30c614cf8431b12d6e78572383",
+      "case_id": "case_23:T04",
+      "case_sha256": "37c4597b36ab70a23421896be858e64c5c37bd6c76b4739e75ee453face5d903",
+      "evidence_sha256": "b15b18d876a60e1bd76410f302c84e2a521d5a7397f48cf0e6532d0793835394",
+      "labels_sha256": "83084981b123d8a4e1e8c90b7be81d6014a00b1403b195645f422b4767f61193",
+      "matrix_sha256": "14fea983407585009a93029802aae31f72252bad494c5b254ece4f786fa6448f"
+    },
+    "case_23_T07": {
+      "candidate_ids_sha256": "6396f73e9164050561d3c954bb63d27340e5d9c3983cc7bebad8355c0ea8bcca",
+      "case_id": "case_23:T07",
+      "case_sha256": "1f6374590dd643a251df171960fdc8001f2dc24602acf171670e826dcfcc855d",
+      "evidence_sha256": "05eeea9676c0dd19bfeeeaac78a2f5956f6ecabd43beecfc8cb42346ea2e28c3",
+      "labels_sha256": "e313dcb2e7c750c7bf981555223d8f70c0ef855f1990152d0fec6825f1b65c84",
+      "matrix_sha256": "16ba6c7337f4a5a3d3e2142f1d19ecbcf853c187275264f48e81f501f73804d5"
+    },
+    "case_24_T03": {
+      "candidate_ids_sha256": "9d4e30e4dba41f31008dff20dccaa2c04a8bf3683d9db40eac7a8f1d3ae1fa91",
+      "case_id": "case_24:T03",
+      "case_sha256": "aeaf542b3a2869d13e931dc23ca4b4d33f5c580a4811eeeada7d7dd9f174f583",
+      "evidence_sha256": "72f7b447d62011a81c79ef42bb645ddd7095658e7661cc0b47d80bec1aedec55",
+      "labels_sha256": "398acd9046659f7e505f6bbb3b85a796d283179767f7cb176027a377ce96d981",
+      "matrix_sha256": "8454adf80c5ff75a10d057b0b1ae62bde0a065e3131fc4710516893ab4ba65a9"
+    },
+    "case_25_T05": {
+      "candidate_ids_sha256": "ae13d12fdadc982461e08f6b107017df7559a70bbb87240a114f88d30c655af6",
+      "case_id": "case_25:T05",
+      "case_sha256": "68f997a73375aa459371dc5e32dd9c33b02b216d3e22dfeb7e20ed1eb4e5562a",
+      "evidence_sha256": "96dd9abe5eca22bfb08c3def616273e390f800f7a397261e8bec7eac66027646",
+      "labels_sha256": "6351929cad46c93b576b13281f17242c8fb8163c684a83ca7d541f637939ea24",
+      "matrix_sha256": "c85736fb0919327dc05f3d85105c42722fff18e922ceaf23888a29bcdcb1c83d"
+    },
+    "case_29_T02": {
+      "candidate_ids_sha256": "fee8643b85138e849dbda16babfb6ad08ab85c67a042b4a6f6734284bdd228a6",
+      "case_id": "case_29:T02",
+      "case_sha256": "d10bdc2bfe4e80c9ae1a94b9b90316202231c2026cb11d1227e1d9a29a80489e",
+      "evidence_sha256": "ce46c8933bdd67bd20b10b6db24ee5bbfe4a2cd852c7939f0c943ec74fa60bc3",
+      "labels_sha256": "363ab749e67e9b346657bbc7d694d5a8120268cee804878e0b53d3325e71ac68",
+      "matrix_sha256": "ff80ce966a027e0db572f43c9adafe30be325fcdd23852c7d8983d8e8d8f97c7"
+    },
+    "case_30_T05": {
+      "candidate_ids_sha256": "91c61ad940c69cea0bad9372b2041348274c120a0cee75a7088337f8283e6749",
+      "case_id": "case_30:T05",
+      "case_sha256": "e008139335ef39ea228a197e29d673dda80086b8b8215fb8e4ce5d8755de721a",
+      "evidence_sha256": "d85cfd0c1fc603395db10b6788944b686d1c5a400a5b71a28123da69df4e9bc8",
+      "labels_sha256": "fbe639dfc3556ca65c079478759be97513a0c39481f8081ededd493e655f62f7",
+      "matrix_sha256": "b3cca4ca7aa1a5522587cac285f06f19702bbaa3f3d4f2b35cb0bfb98336981b"
+    },
+    "case_32_T01": {
+      "candidate_ids_sha256": "4cf64281ceeb226da98daa3c3278322d5cde7836c7343ab76611f07b24d8e63b",
+      "case_id": "case_32:T01",
+      "case_sha256": "8dcc7072715839215fafc407e44b647aa6d777791f957d3e1cf26e1c33f67e52",
+      "evidence_sha256": "78376d9e126fd07ef0a137fc8518618b34728b7a8eb5a3269210cbf40bcad4a9",
+      "labels_sha256": "5c40e86c352534937c3237f99e13f93cddfc7a1f6cda9f2ca15349c32010d5ca",
+      "matrix_sha256": "96d9c86635caf773e564b02d4d1afa467ddb72b25aece5b1506564cfeb16698f"
+    },
+    "case_32_T02": {
+      "candidate_ids_sha256": "702e74839761e5c65ed71c5e56c5537f5e2a8cd52847e7375f07509898b8f0a0",
+      "case_id": "case_32:T02",
+      "case_sha256": "31e9fc301073b23e149e81e354f36e18b4b6c2f4d4b731c36d891e0dd87197c8",
+      "evidence_sha256": "558c4c3099bbfada5d4c36455db65add2a3b130f224a63a29846f5d675af1db9",
+      "labels_sha256": "946d7939b4a19754c4153fd624f5fdbf6efce1eb6a29b3920a029157a16e81fd",
+      "matrix_sha256": "c9c9cb08f231bc80a69e0101abbaf4eaa049c38c60d063be224d7ae77ed6969b"
+    },
+    "case_32_T03": {
+      "candidate_ids_sha256": "6450d2574a99c81bcf84f6b7569d9e54ab7ca3587f7a32cf6ca252a85444de24",
+      "case_id": "case_32:T03",
+      "case_sha256": "0b80b766ac6efa271865937cfed682a6b030d01795517b3378d0eaa8203cc161",
+      "evidence_sha256": "71b3670488ad36b5bab6aa31396b82d0744e179c2c583fbda65585b2518e96d3",
+      "labels_sha256": "7249737ab6d36c8dc238a44df859435978956dc064af660fcd2127eec7446e5a",
+      "matrix_sha256": "2f8e1f23ccf15a8921464ab41d74457cd163e30333bad7f503953e53892079dd"
+    },
+    "case_32_T04": {
+      "candidate_ids_sha256": "435e5f391c8c7c67d317d813e8bb0f00d5f7c11735dc47070e46e565c2205d78",
+      "case_id": "case_32:T04",
+      "case_sha256": "57a102ad015fe296fbe50045aac8487c492934e849b205f9e4db0e3150378c5e",
+      "evidence_sha256": "cec1f5b33d8459a124d54c428d44a783b6c2ca46b39b73cb2a4ce5435b3b8bdb",
+      "labels_sha256": "56c5d212f94d5f2f9c334e13f7d8b3cf0261e0f69cb1826d1625cca5a8750fc7",
+      "matrix_sha256": "2f8f6ef76e017d5c48dc20aa5cd18e44a32b72954980d967aa99a43d97d06be4"
+    },
+    "case_34_T06": {
+      "candidate_ids_sha256": "5fab6661bd201470e03ae749c6ee32e24f8fad081105659d159b3cfb53a21519",
+      "case_id": "case_34:T06",
+      "case_sha256": "90a224444dcd89b4c7a12ac190a837dc1f95a5e599549f5b17ac0469ec185310",
+      "evidence_sha256": "c1d9504dfe39e5bb9608fca75dd56a2680593b0946349ab58dfb8f903c74c18f",
+      "labels_sha256": "2a80c3b4a7411b54d6922b50cc92d0979e626e082e60030a88e1bceecc9eb2b0",
+      "matrix_sha256": "25b09937fd972601cf62b8acb9526b10cde1389495fa5bd2cf04f9ab3bead662"
+    },
+    "case_38_T05": {
+      "candidate_ids_sha256": "f8de87d3b50f5aa26c7268f6bafa6438a6cd56e97750baf67b08161845929b69",
+      "case_id": "case_38:T05",
+      "case_sha256": "d65de6fd56052892b72e57b7a3583a57ba31531861900d9cfecfc8aa44762197",
+      "evidence_sha256": "e87d96b5752834c325550aa26b95235a338d34e3f92855da7cd1a0fa6f25eb44",
+      "labels_sha256": "673f7574d53db5e08e15eae98cb452df554564b8101b63b6c614f8f74cb813fe",
+      "matrix_sha256": "bf622af7be0a07cd73a2706934ce01fbc250d103231e03239547fcb90a6e1176"
+    },
+    "case_39_T01": {
+      "candidate_ids_sha256": "7c7511bf0a3f6157f6e98088d7cfb4b6f3ac2772678322f473013d1554f47e56",
+      "case_id": "case_39:T01",
+      "case_sha256": "540e8911bf0e13f0f7310e0ec5a048c530614dace50ae8a63143dd907c868166",
+      "evidence_sha256": "1affa481ca65a4f1c9999a99d4f18df9e8c230f32c2f7c4388383f2a1184d245",
+      "labels_sha256": "b24603f2d50e5a91d2c6ce1ffc5bed4cefdcbc655104661f6f00dc359e8cc512",
+      "matrix_sha256": "26ccfefc69c9afc18c27e0403e0593dbf5262c47a97af69e05bcca2fadfe1032"
+    },
+    "case_39_T04": {
+      "candidate_ids_sha256": "1963c66eb7612a8dca2a3643cb316b3fdb8016500c037c1e7ac715f9cf92afc9",
+      "case_id": "case_39:T04",
+      "case_sha256": "af68ff50264454471b31186012aa687724d6b75a3329f9acee3bf4649aab10eb",
+      "evidence_sha256": "a07fc8fa92962b4214dd5651e256b49eeeb44fc37a8e223d20f89272f27475ce",
+      "labels_sha256": "66a0cb08fb72d74403dbecd24bc5b803546e38117c54ac98fe9125da6fe60055",
+      "matrix_sha256": "51f2767f11c263da81acfd6f35b8dbb82ef315f3307e0afb4e44eda22e769596"
+    },
+    "case_46_T02": {
+      "candidate_ids_sha256": "cc65bb575680e702cf4f52c0f026c3ecff2955d6773998885c41e7fe77821c4a",
+      "case_id": "case_46:T02",
+      "case_sha256": "d176680f87c4b8d2b7feda8eaca4fbe905dad7ed95a2175d8d92b27019744f3b",
+      "evidence_sha256": "1840944ac0a3fe1779fc64deb9ace4037814d9e9e0d69a246b46b913f68207c1",
+      "labels_sha256": "ea139797a0c86a778300152a5bec800dfebfbc1b1fe116ce812290be56ed07ee",
+      "matrix_sha256": "d4d4c05520d0552665bbce1750c952f8c518deeda6f15a6de7683402d2f87cc1"
+    }
+  },
+  "created": "2026-11-06",
+  "final_budget": 10,
+  "hop_budget": 5,
+  "manifest_sha256": "d574b8e0598ca49b0a10286ea17fd23a3a0a56169aa8a1860d3210705d1d2c75",
+  "schema": "memoryflow.multiturn_batch.lock.v1"
+}

@@ -1,0 +1,956 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_13:T06",
+ "trajectory_id": "case_13",
+ "trajectory_case": "case_13",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "**He Is My Brother (2023)**: Directed by Quek Shio Chuan (郭修篆), a Malaysian director",
+  "sha256": "9f30d31568c74a7a73ed17e4fc0bb3e7081762460fa73553734f689474cfea88",
+  "origin": "recorded_target",
+  "artifact_id": "case_13:T06",
+  "start": 0,
+  "end": 84,
+  "original_target": {
+   "text": "**He Is My Brother (2023)**: Directed by Quek Shio Chuan (郭修篆), a Malaysian director",
+   "artifact_id": "case_13:T06"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "Are the directors of films Free Fall (1999 film) and He Is My Brother both from the same country?",
+   "inputs": [
+    {
+     "unit_id": "case_13:C0028#0-934",
+     "artifact_id": "case_13:C0028",
+     "start": 0,
+     "end": 934,
+     "text": "Mar 3, 2023 · He Is My Brother is a 2023 Chinese Movie China Native title: 不二兄弟. Wen Xiu shouldered the responsibility of taking care of his autistic brother Wen Guang, Bu er xiong di: Directed by Shio Chuan Quek. With Mao Li, J.C. Lin, Hongshan He, Tu Ba. Mar 3, 2023 · All about Movie: directors and actors, reviews and ratings, trailers, stills, backstage. Mao Li, J.C. Lin, Hongshan He, Tu Ba, Meng Li...Drama. China. Feb 20, 2023 · Starring: Li Mao (李茂), J.C. Lin (林哲熹), He Hongshan (何泓姗), Ying Batu (巴图), and Li Meng (李梦). Director: Quek Shio Chuan (郭修篆). Bu er xiong di Cast Shio Chuan Quek Director Mao Li Wen Guang J.C. Lin Wen Xiu He Hongshan Su En Tu Ba Li Meng Cast and crew of «He Is My Brother» (Bu er xiong di, 2023). Roles and the main characters. Mao Li, J.C. Lin, Hongshan He Also known as (AKA) Edit (original title) Bu er xiong di Brazil Irmãos China 不二兄弟(Mandarin) Taiwan 不二兄弟 World-wide He Is My Brother(English)",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 12
+    },
+    {
+     "unit_id": "case_13:C0006#0-174",
+     "artifact_id": "case_13:C0006",
+     "start": 0,
+     "end": 174,
+     "text": "Смотрите онлайн Bernhoft - He is my brother (The Hollies cover) 7 мин 38 с. Видео от 27 августа 2013 в хорошем качестве, без регистрации в бесплатном видеокаталоге ВКонтакте!",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_13:C0007#0-238",
+     "artifact_id": "case_13:C0007",
+     "start": 0,
+     "end": 238,
+     "text": "Part 1: “He Is My Brother”. Chapter 1 Summary: “Have You Enjoyed Your Life?” In July 2004, Edwidge, the 35-year-old narrator, learns she is pregnant the same day her father receives a diagnosis of pulmonary fibrosis, an incurable illness.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_13:C0008#0-260",
+     "artifact_id": "case_13:C0008",
+     "start": 0,
+     "end": 260,
+     "text": "He points to the disciples and says, “Here are my mother and my brothers. For whoever does the will of my father in heaven is my brother and sister and mother.”Who’s Your Neighbor? is a 1917 silent American propaganda and drama film directed by S. Rankin Drew.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_13:C0009#0-194",
+     "artifact_id": "case_13:C0009",
+     "start": 0,
+     "end": 194,
+     "text": "He is my brother, Hermann would say, reminding the Gestapo thugs that family members were off-limits. The madness of the Nazi era could easily be told from the perspective of these two brothers.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_13:C0017#0-190",
+     "artifact_id": "case_13:C0017",
+     "start": 0,
+     "end": 190,
+     "text": "Mario Azzopardi. November 19, 1950 • 75 y.o. Director Director. Writer Writer.1987 — (live action director). Animation, Short, Sci-Fi, 18 min United States • Mario Azzopardi, Yasuo Hasegawa.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_13:C0018#0-287",
+     "artifact_id": "case_13:C0018",
+     "start": 0,
+     "end": 287,
+     "text": "Mario Azzopardi ماريو أزوباردي. Biography. A Maltese-Canadian director and writer, born in Malta. He was educated at St. Aloysius College and the University of Malta. In 1971, while still a university student, he directed the film Il-Gaġġa, based on Frans Sammut's novel Il-Gaġġa, and...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_13:C0019#0-274",
+     "artifact_id": "case_13:C0019",
+     "start": 0,
+     "end": 274,
+     "text": "Mario Azzopardi, poet and theatre director, has died, aged 77. Azzopardi, a teacher by profession, is one of Malta’s leading poets, a theatre director and cultural journalist. For many years he taught at the Sixth Form in Msida. He also wrote short stories for young adults.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_13:C0020#0-97",
+     "artifact_id": "case_13:C0020",
+     "start": 0,
+     "end": 97,
+     "text": "Category:Films directed by Mario Philip Azzopardi.National Library of Spain SpMaBN ID (BNE v1.0).",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 7
+    }
+   ],
+   "output": {
+    "text": "I found that \"He Is My Brother\" was directed by Quek Shio Chuan (郭修篆). Let me verify this director's nationality.",
+    "sha256": "e4487ad544cdd3018e6206f66da156aba31279173b2d5e36cadad73cfd77d6c8",
+    "origin": "recorded_agent_message"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "Are the directors of films Free Fall (1999 film) and He Is My Brother both from the same country?",
+   "inputs": [
+    {
+     "unit_id": "case_13:C0034#0-98",
+     "artifact_id": "case_13:C0034",
+     "start": 0,
+     "end": 98,
+     "text": "郭修篆（Quek Shio Chuan），马来西亚导演，毕业于拉曼大学大众传播系。 早期从事商业广告拍摄，2011年以自闭症哥哥真实经历创作微电影《光》获得BMW Shorties微电影大赛冠军。",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 14
+    },
+    {
+     "unit_id": "case_13:C0021#0-270",
+     "artifact_id": "case_13:C0021",
+     "start": 0,
+     "end": 270,
+     "text": "Mario Philip Azzopardi is a Maltese television and film director and writer.Mario Philip Azzopardi should not be confused with Maltese poet, short story writer and columnist Mario Azzopardi (born 1944), who is also involved in theatre and directs the Malta Drama Centre.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_13:C0023#0-230",
+     "artifact_id": "case_13:C0023",
+     "start": 0,
+     "end": 230,
+     "text": "He Is My Brother (Chinese Movie); 不二兄弟; Bu Er Xiong Di;It is My Brother; Wen Xiu shouldered the responsibility of taking care of his autistic brother Wen.Details. Movie: He Is My Brother. Country: China. Release Date: Mar 3, 2023.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_13:C0024#0-187",
+     "artifact_id": "case_13:C0024",
+     "start": 0,
+     "end": 187,
+     "text": "CPOP HOME features a list of the best 2023 Chinese movie. Here you can easily find your favorite film. Whether it's a youthful romance or a historical fantasy.He Is My Brother 2023-03-03.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_13:C0025#0-149",
+     "artifact_id": "case_13:C0025",
+     "start": 0,
+     "end": 149,
+     "text": "He is my brother-The Hollies.This is \"He is my brother-The Hollies\" by aipaf on Vimeo, the home for high quality videos and the people who love them.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_13:C0026#0-34",
+     "artifact_id": "case_13:C0026",
+     "start": 0,
+     "end": 34,
+     "text": "不二兄弟 He is My Brother 線上看電影(2023).",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_13:C0027#0-252",
+     "artifact_id": "case_13:C0027",
+     "start": 0,
+     "end": 252,
+     "text": "He Is My Brother tagyourbrother #fyp #brotherlove #brothersister #fyppppppppppppppppppppppp #brothersisterlove Brotherly Love and Sisterly Bond. He ain’t heavy, he’s my brother - Hollies The origin of the sentence used as the song’s title is dispute...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_13:C0029#0-765",
+     "artifact_id": "case_13:C0029",
+     "start": 0,
+     "end": 765,
+     "text": "Bu er xiong di: Directed by Shio Chuan Quek. With Mao Li, J.C. Lin, Hongshan He, Tu Ba. Mar 3, 2023 · All about Movie: directors and actors, reviews and ratings, trailers, stills, backstage. Mao Li, J.C. Lin, Hongshan He, Tu Ba, Meng Li...Drama. China. Feb 20, 2023 · Starring: Li Mao (李茂), J.C. Lin (林哲熹), He Hongshan (何泓姗), Ying Batu (巴图), and Li Meng (李梦). Director: Quek Shio Chuan (郭修篆). Bu er xiong di Cast Shio Chuan Quek Director Mao Li Wen Guang J.C. Lin Wen Xiu He Hongshan Su En Tu Ba Li Meng Cast and crew of «He Is My Brother» (Bu er xiong di, 2023). Roles and the main characters. Mao Li, J.C. Lin, Hongshan He Also known as (AKA) Edit (original title) Bu er xiong di Brazil Irmãos China 不二兄弟(Mandarin) Taiwan 不二兄弟 World-wide He Is My Brother(English)",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 12
+    },
+    {
+     "unit_id": "case_13:C0030#0-164",
+     "artifact_id": "case_13:C0030",
+     "start": 0,
+     "end": 164,
+     "text": "Mar 3, 2023 · All about Movie: directors and actors, reviews and ratings, trailers, stills, backstage. Mao Li, J.C. Lin, Hongshan He, Tu Ba, Meng Li...Drama. China.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 12
+    }
+   ],
+   "output": {
+    "text": "**He Is My Brother (2023)**: Directed by Quek Shio Chuan (郭修篆), a Malaysian director",
+    "sha256": "9f30d31568c74a7a73ed17e4fc0bb3e7081762460fa73553734f689474cfea88",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "I found that \"He Is My Brother\" was directed by Quek Shio Chuan (郭修篆). Let me verify this director's nationality.",
+     "sha256": "e4487ad544cdd3018e6206f66da156aba31279173b2d5e36cadad73cfd77d6c8",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_13:C0006#0-174",
+   "artifact_id": "case_13:C0006",
+   "start": 0,
+   "end": 174,
+   "text": "Смотрите онлайн Bernhoft - He is my brother (The Hollies cover) 7 мин 38 с. Видео от 27 августа 2013 в хорошем качестве, без регистрации в бесплатном видеокаталоге ВКонтакте!",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_13:C0006#0-174",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0007#0-238",
+   "artifact_id": "case_13:C0007",
+   "start": 0,
+   "end": 238,
+   "text": "Part 1: “He Is My Brother”. Chapter 1 Summary: “Have You Enjoyed Your Life?” In July 2004, Edwidge, the 35-year-old narrator, learns she is pregnant the same day her father receives a diagnosis of pulmonary fibrosis, an incurable illness.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_13:C0007#0-238",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0008#0-260",
+   "artifact_id": "case_13:C0008",
+   "start": 0,
+   "end": 260,
+   "text": "He points to the disciples and says, “Here are my mother and my brothers. For whoever does the will of my father in heaven is my brother and sister and mother.”Who’s Your Neighbor? is a 1917 silent American propaganda and drama film directed by S. Rankin Drew.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_13:C0008#0-260",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0009#0-194",
+   "artifact_id": "case_13:C0009",
+   "start": 0,
+   "end": 194,
+   "text": "He is my brother, Hermann would say, reminding the Gestapo thugs that family members were off-limits. The madness of the Nazi era could easily be told from the perspective of these two brothers.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_13:C0009#0-194",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0017#0-190",
+   "artifact_id": "case_13:C0017",
+   "start": 0,
+   "end": 190,
+   "text": "Mario Azzopardi. November 19, 1950 • 75 y.o. Director Director. Writer Writer.1987 — (live action director). Animation, Short, Sci-Fi, 18 min United States • Mario Azzopardi, Yasuo Hasegawa.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_13:C0017#0-190",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0018#0-287",
+   "artifact_id": "case_13:C0018",
+   "start": 0,
+   "end": 287,
+   "text": "Mario Azzopardi ماريو أزوباردي. Biography. A Maltese-Canadian director and writer, born in Malta. He was educated at St. Aloysius College and the University of Malta. In 1971, while still a university student, he directed the film Il-Gaġġa, based on Frans Sammut's novel Il-Gaġġa, and...",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_13:C0018#0-287",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0019#0-274",
+   "artifact_id": "case_13:C0019",
+   "start": 0,
+   "end": 274,
+   "text": "Mario Azzopardi, poet and theatre director, has died, aged 77. Azzopardi, a teacher by profession, is one of Malta’s leading poets, a theatre director and cultural journalist. For many years he taught at the Sixth Form in Msida. He also wrote short stories for young adults.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_13:C0019#0-274",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0020#0-97",
+   "artifact_id": "case_13:C0020",
+   "start": 0,
+   "end": 97,
+   "text": "Category:Films directed by Mario Philip Azzopardi.National Library of Spain SpMaBN ID (BNE v1.0).",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_13:C0020#0-97",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0021#0-270",
+   "artifact_id": "case_13:C0021",
+   "start": 0,
+   "end": 270,
+   "text": "Mario Philip Azzopardi is a Maltese television and film director and writer.Mario Philip Azzopardi should not be confused with Maltese poet, short story writer and columnist Mario Azzopardi (born 1944), who is also involved in theatre and directs the Malta Drama Centre.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_13:C0021#0-270",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0023#0-230",
+   "artifact_id": "case_13:C0023",
+   "start": 0,
+   "end": 230,
+   "text": "He Is My Brother (Chinese Movie); 不二兄弟; Bu Er Xiong Di;It is My Brother; Wen Xiu shouldered the responsibility of taking care of his autistic brother Wen.Details. Movie: He Is My Brother. Country: China. Release Date: Mar 3, 2023.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_13:C0023#0-230",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0024#0-187",
+   "artifact_id": "case_13:C0024",
+   "start": 0,
+   "end": 187,
+   "text": "CPOP HOME features a list of the best 2023 Chinese movie. Here you can easily find your favorite film. Whether it's a youthful romance or a historical fantasy.He Is My Brother 2023-03-03.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_13:C0024#0-187",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0025#0-149",
+   "artifact_id": "case_13:C0025",
+   "start": 0,
+   "end": 149,
+   "text": "He is my brother-The Hollies.This is \"He is my brother-The Hollies\" by aipaf on Vimeo, the home for high quality videos and the people who love them.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_13:C0025#0-149",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0026#0-34",
+   "artifact_id": "case_13:C0026",
+   "start": 0,
+   "end": 34,
+   "text": "不二兄弟 He is My Brother 線上看電影(2023).",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_13:C0026#0-34",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0027#0-252",
+   "artifact_id": "case_13:C0027",
+   "start": 0,
+   "end": 252,
+   "text": "He Is My Brother tagyourbrother #fyp #brotherlove #brothersister #fyppppppppppppppppppppppp #brothersisterlove Brotherly Love and Sisterly Bond. He ain’t heavy, he’s my brother - Hollies The origin of the sentence used as the song’s title is dispute...",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_13:C0027#0-252",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0028#0-934",
+   "artifact_id": "case_13:C0028",
+   "start": 0,
+   "end": 934,
+   "text": "Mar 3, 2023 · He Is My Brother is a 2023 Chinese Movie China Native title: 不二兄弟. Wen Xiu shouldered the responsibility of taking care of his autistic brother Wen Guang, Bu er xiong di: Directed by Shio Chuan Quek. With Mao Li, J.C. Lin, Hongshan He, Tu Ba. Mar 3, 2023 · All about Movie: directors and actors, reviews and ratings, trailers, stills, backstage. Mao Li, J.C. Lin, Hongshan He, Tu Ba, Meng Li...Drama. China. Feb 20, 2023 · Starring: Li Mao (李茂), J.C. Lin (林哲熹), He Hongshan (何泓姗), Ying Batu (巴图), and Li Meng (李梦). Director: Quek Shio Chuan (郭修篆). Bu er xiong di Cast Shio Chuan Quek Director Mao Li Wen Guang J.C. Lin Wen Xiu He Hongshan Su En Tu Ba Li Meng Cast and crew of «He Is My Brother» (Bu er xiong di, 2023). Roles and the main characters. Mao Li, J.C. Lin, Hongshan He Also known as (AKA) Edit (original title) Bu er xiong di Brazil Irmãos China 不二兄弟(Mandarin) Taiwan 不二兄弟 World-wide He Is My Brother(English)",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_13:C0028#0-934",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0029#0-765",
+   "artifact_id": "case_13:C0029",
+   "start": 0,
+   "end": 765,
+   "text": "Bu er xiong di: Directed by Shio Chuan Quek. With Mao Li, J.C. Lin, Hongshan He, Tu Ba. Mar 3, 2023 · All about Movie: directors and actors, reviews and ratings, trailers, stills, backstage. Mao Li, J.C. Lin, Hongshan He, Tu Ba, Meng Li...Drama. China. Feb 20, 2023 · Starring: Li Mao (李茂), J.C. Lin (林哲熹), He Hongshan (何泓姗), Ying Batu (巴图), and Li Meng (李梦). Director: Quek Shio Chuan (郭修篆). Bu er xiong di Cast Shio Chuan Quek Director Mao Li Wen Guang J.C. Lin Wen Xiu He Hongshan Su En Tu Ba Li Meng Cast and crew of «He Is My Brother» (Bu er xiong di, 2023). Roles and the main characters. Mao Li, J.C. Lin, Hongshan He Also known as (AKA) Edit (original title) Bu er xiong di Brazil Irmãos China 不二兄弟(Mandarin) Taiwan 不二兄弟 World-wide He Is My Brother(English)",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_13:C0029#0-765",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0030#0-164",
+   "artifact_id": "case_13:C0030",
+   "start": 0,
+   "end": 164,
+   "text": "Mar 3, 2023 · All about Movie: directors and actors, reviews and ratings, trailers, stills, backstage. Mao Li, J.C. Lin, Hongshan He, Tu Ba, Meng Li...Drama. China.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_13:C0030#0-164",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0031#0-512",
+   "artifact_id": "case_13:C0031",
+   "start": 0,
+   "end": 512,
+   "text": "Feb 20, 2023 · Starring: Li Mao (李茂), J.C. Lin (林哲熹), He Hongshan (何泓姗), Ying Batu (巴图), and Li Meng (李梦). Director: Quek Shio Chuan (郭修篆). Bu er xiong di Cast Shio Chuan Quek Director Mao Li Wen Guang J.C. Lin Wen Xiu He Hongshan Su En Tu Ba Li Meng Cast and crew of «He Is My Brother» (Bu er xiong di, 2023). Roles and the main characters. Mao Li, J.C. Lin, Hongshan He Also known as (AKA) Edit (original title) Bu er xiong di Brazil Irmãos China 不二兄弟(Mandarin) Taiwan 不二兄弟 World-wide He Is My Brother(English)",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_13:C0032#0-110",
+   "artifact_id": "case_13:C0032",
+   "start": 0,
+   "end": 110,
+   "text": "Bu er xiong di Cast Shio Chuan Quek Director Mao Li Wen Guang J.C. Lin Wen Xiu He Hongshan Su En Tu Ba Li Meng",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_13:C0033#0-113",
+   "artifact_id": "case_13:C0033",
+   "start": 0,
+   "end": 113,
+   "text": "I found that \"He Is My Brother\" was directed by Quek Shio Chuan (郭修篆). Let me verify this director's nationality.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_13:C0034#0-98",
+   "artifact_id": "case_13:C0034",
+   "start": 0,
+   "end": 98,
+   "text": "郭修篆（Quek Shio Chuan），马来西亚导演，毕业于拉曼大学大众传播系。 早期从事商业广告拍摄，2011年以自闭症哥哥真实经历创作微电影《光》获得BMW Shorties微电影大赛冠军。",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_13:C0034#0-98",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_13:C0035#0-222",
+   "artifact_id": "case_13:C0035",
+   "start": 0,
+   "end": 222,
+   "text": "\"郭修篆 (Quek Shio Chuan) 毕业于拉曼大学大众传播系，为马来西亚著名的商业广告影片导演。 曾经参与2011年BMW Shorties微电影比赛，当时的主题是“快乐”，因此他就利用他哥哥的真实故事拍摄了微电影《光》，后荣获冠军。 在拍摄完毕后，心想这部微电影是否可以再次攀上高峰，以电影的方式呈献，最终在2015年拍摄《光》晋身电影导演。 拍摄完毕后，一直拖延到2018年才上映。 目前MM2娱乐全面投资他的个人导演电影《光》。",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_13:C0036#0-112",
+   "artifact_id": "case_13:C0036",
+   "start": 0,
+   "end": 112,
+   "text": "Shio Chuan Quek. Director: Guang. Shio Chuan Quek is known for Guang (2018), Guang (2011) and Sunflowers (2015).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_13:C0037#0-133",
+   "artifact_id": "case_13:C0037",
+   "start": 0,
+   "end": 133,
+   "text": "Quek Shio Chuan Name: Quek Shio Chuan Native name: Quek Shio Chuan Also Known as: Quek Shio-Chuan Nationality: Malaysian Gender: Male",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_13:C0038#0-149",
+   "artifact_id": "case_13:C0038",
+   "start": 0,
+   "end": 149,
+   "text": "Jan 3, 2026 · As a Penang-born Malaysian director, Quek has been steadily building his influence in the Chinese-language film market in recent years.",
+   "occurrences": [],
+   "pool_only": true
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_13:T06:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_13:C0028",
+      "start": 0,
+      "end": 934,
+      "text": "Mar 3, 2023 · He Is My Brother is a 2023 Chinese Movie China Native title: 不二兄弟. Wen Xiu shouldered the responsibility of taking care of his autistic brother Wen Guang, Bu er xiong di: Directed by Shio Chuan Quek. With Mao Li, J.C. Lin, Hongshan He, Tu Ba. Mar 3, 2023 · All about Movie: directors and actors, reviews and ratings, trailers, stills, backstage. Mao Li, J.C. Lin, Hongshan He, Tu Ba, Meng Li...Drama. China. Feb 20, 2023 · Starring: Li Mao (李茂), J.C. Lin (林哲熹), He Hongshan (何泓姗), Ying Batu (巴图), and Li Meng (李梦). Director: Quek Shio Chuan (郭修篆). Bu er xiong di Cast Shio Chuan Quek Director Mao Li Wen Guang J.C. Lin Wen Xiu He Hongshan Su En Tu Ba Li Meng Cast and crew of «He Is My Brother» (Bu er xiong di, 2023). Roles and the main characters. Mao Li, J.C. Lin, Hongshan He Also known as (AKA) Edit (original title) Bu er xiong di Brazil Irmãos China 不二兄弟(Mandarin) Taiwan 不二兄弟 World-wide He Is My Brother(English)"
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_13:C0028",
+       "start": 0,
+       "end": 934,
+       "text": "Mar 3, 2023 · He Is My Brother is a 2023 Chinese Movie China Native title: 不二兄弟. Wen Xiu shouldered the responsibility of taking care of his autistic brother Wen Guang, Bu er xiong di: Directed by Shio Chuan Quek. With Mao Li, J.C. Lin, Hongshan He, Tu Ba. Mar 3, 2023 · All about Movie: directors and actors, reviews and ratings, trailers, stills, backstage. Mao Li, J.C. Lin, Hongshan He, Tu Ba, Meng Li...Drama. China. Feb 20, 2023 · Starring: Li Mao (李茂), J.C. Lin (林哲熹), He Hongshan (何泓姗), Ying Batu (巴图), and Li Meng (李梦). Director: Quek Shio Chuan (郭修篆). Bu er xiong di Cast Shio Chuan Quek Director Mao Li Wen Guang J.C. Lin Wen Xiu He Hongshan Su En Tu Ba Li Meng Cast and crew of «He Is My Brother» (Bu er xiong di, 2023). Roles and the main characters. Mao Li, J.C. Lin, Hongshan He Also known as (AKA) Edit (original title) Bu er xiong di Brazil Irmãos China 不二兄弟(Mandarin) Taiwan 不二兄弟 World-wide He Is My Brother(English)"
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_13:C0034",
+      "start": 0,
+      "end": 98,
+      "text": "郭修篆（Quek Shio Chuan），马来西亚导演，毕业于拉曼大学大众传播系。 早期从事商业广告拍摄，2011年以自闭症哥哥真实经历创作微电影《光》获得BMW Shorties微电影大赛冠军。"
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_13:C0034",
+       "start": 0,
+       "end": 98,
+       "text": "郭修篆（Quek Shio Chuan），马来西亚导演，毕业于拉曼大学大众传播系。 早期从事商业广告拍摄，2011年以自闭症哥哥真实经历创作微电影《光》获得BMW Shorties微电影大赛冠军。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "group_id": "case_13:T06:support_g02",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_13:C0029",
+      "start": 0,
+      "end": 765,
+      "text": "Bu er xiong di: Directed by Shio Chuan Quek. With Mao Li, J.C. Lin, Hongshan He, Tu Ba. Mar 3, 2023 · All about Movie: directors and actors, reviews and ratings, trailers, stills, backstage. Mao Li, J.C. Lin, Hongshan He, Tu Ba, Meng Li...Drama. China. Feb 20, 2023 · Starring: Li Mao (李茂), J.C. Lin (林哲熹), He Hongshan (何泓姗), Ying Batu (巴图), and Li Meng (李梦). Director: Quek Shio Chuan (郭修篆). Bu er xiong di Cast Shio Chuan Quek Director Mao Li Wen Guang J.C. Lin Wen Xiu He Hongshan Su En Tu Ba Li Meng Cast and crew of «He Is My Brother» (Bu er xiong di, 2023). Roles and the main characters. Mao Li, J.C. Lin, Hongshan He Also known as (AKA) Edit (original title) Bu er xiong di Brazil Irmãos China 不二兄弟(Mandarin) Taiwan 不二兄弟 World-wide He Is My Brother(English)"
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_13:C0029",
+       "start": 0,
+       "end": 765,
+       "text": "Bu er xiong di: Directed by Shio Chuan Quek. With Mao Li, J.C. Lin, Hongshan He, Tu Ba. Mar 3, 2023 · All about Movie: directors and actors, reviews and ratings, trailers, stills, backstage. Mao Li, J.C. Lin, Hongshan He, Tu Ba, Meng Li...Drama. China. Feb 20, 2023 · Starring: Li Mao (李茂), J.C. Lin (林哲熹), He Hongshan (何泓姗), Ying Batu (巴图), and Li Meng (李梦). Director: Quek Shio Chuan (郭修篆). Bu er xiong di Cast Shio Chuan Quek Director Mao Li Wen Guang J.C. Lin Wen Xiu He Hongshan Su En Tu Ba Li Meng Cast and crew of «He Is My Brother» (Bu er xiong di, 2023). Roles and the main characters. Mao Li, J.C. Lin, Hongshan He Also known as (AKA) Edit (original title) Bu er xiong di Brazil Irmãos China 不二兄弟(Mandarin) Taiwan 不二兄弟 World-wide He Is My Brother(English)"
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_13:C0037",
+      "start": 0,
+      "end": 133,
+      "text": "Quek Shio Chuan Name: Quek Shio Chuan Native name: Quek Shio Chuan Also Known as: Quek Shio-Chuan Nationality: Malaysian Gender: Male"
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_13:C0037",
+       "start": 0,
+       "end": 133,
+       "text": "Quek Shio Chuan Name: Quek Shio Chuan Native name: Quek Shio Chuan Also Known as: Quek Shio-Chuan Nationality: Malaysian Gender: Male"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_13:C0028#0-934"
+  ],
+  "B": [
+   "case_13:C0034#0-98"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T06",
+   "case": "case_13",
+   "question": "Are the directors of films Free Fall (1999 film) and He Is My Brother both from the same country?",
+   "target_event": 15,
+   "target_start": 302,
+   "target_end": 386,
+   "target": "**He Is My Brother (2023)**: Directed by Quek Shio Chuan (郭修篆), a Malaysian director",
+   "candidate_ids": [
+    "C0006",
+    "C0007",
+    "C0008",
+    "C0009",
+    "C0010",
+    "C0017",
+    "C0018",
+    "C0019",
+    "C0020",
+    "C0021",
+    "C0023",
+    "C0024",
+    "C0025",
+    "C0026",
+    "C0027",
+    "C0028",
+    "C0029",
+    "C0030",
+    "C0031",
+    "C0032",
+    "C0034",
+    "C0035",
+    "C0036",
+    "C0037",
+    "C0038",
+    "C0033"
+   ],
+   "annotation_status": "model_annotated_pending_human_review"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0028",
+     "start": 529,
+     "end": 562,
+     "text": "Director: Quek Shio Chuan (郭修篆). "
+    },
+    {
+     "candidate_id": "C0034",
+     "start": 0,
+     "end": 98,
+     "text": "郭修篆（Quek Shio Chuan），马来西亚导演，毕业于拉曼大学大众传播系。 早期从事商业广告拍摄，2011年以自闭症哥哥真实经历创作微电影《光》获得BMW Shorties微电影大赛冠军。"
+    }
+   ]
+  },
+  "intermediate_origin": "recorded_agent_message",
+  "intermediate_event": 13,
+  "time_order_audit": [
+   {
+    "round": 1,
+    "event": 12,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 7,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 7,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 7,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 7,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 14,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 10,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 10,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 10,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 10,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 10,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 12,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 12,
+    "cut": 15,
+    "ok": true
+   }
+  ],
+  "note": "time-order checked for evidence and distractors"
+ }
+}

@@ -1,0 +1,1366 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_39:T04",
+ "trajectory_id": "case_39",
+ "trajectory_case": "case_39",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "However, there's also Boyce College (formerly Boyce Bible School) which is the actual \"Bible college\" affiliated with SBTS in Louisville.",
+  "sha256": "c3b24cea73a5a472b3da2beaea94c67bb91ecc29b87c41e2503de6396e39c7d1",
+  "origin": "recorded_target",
+  "artifact_id": "case_39:T04",
+  "start": 0,
+  "end": 137,
+  "original_target": {
+   "text": "However, there's also Boyce College (formerly Boyce Bible School) which is the actual \"Bible college\" affiliated with SBTS in Louisville.",
+   "artifact_id": "case_39:T04"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "What Bible college located in Louisville, Kentucky, was attended by Paul R. House who served for a time as president of the Evangelical Theological Society?",
+   "inputs": [
+    {
+     "unit_id": "case_39:C0042#0-242",
+     "artifact_id": "case_39:C0042",
+     "start": 0,
+     "end": 242,
+     "text": "The Southern Baptist Theological Seminary (SBTS), in Louisville, Kentucky, is the oldest of the six seminaries affiliated with the Southern Baptist Convention (SBC).The Billy Graham School of Missions, Evangelism, and Ministry. Boyce College.",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 26
+    },
+    {
+     "unit_id": "case_39:C0001#0-103",
+     "artifact_id": "case_39:C0001",
+     "start": 0,
+     "end": 103,
+     "text": "This is a list of evangelical Christian seminaries, bible colleges, and other theological institutions.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_39:C0002#0-249",
+     "artifact_id": "case_39:C0002",
+     "start": 0,
+     "end": 249,
+     "text": "Southern Baptist Theological Seminary in Louisville, Kentucky is the largest seminary in the United States. It’s the flagship institution of the Southern Baptist Convention, though students representing myriad denominations make up the student body.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_39:C0003#0-244",
+     "artifact_id": "case_39:C0003",
+     "start": 0,
+     "end": 244,
+     "text": "Paul R. House.Along the way he was elected president of the Evangelical Theological Society and the American Theological Society. He participated in the International Council on Biblical Inerrancy and in the Evangelical Affirmations conference.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_39:C0004#0-262",
+     "artifact_id": "case_39:C0004",
+     "start": 0,
+     "end": 262,
+     "text": "Boyce College. School of Theology. The Billy Graham School.Four temptations frame the past, present, and future of the Evangelical Theological, Albert Mohler said Wednesday night in his presidential address at the 73rd annual meeting of ETS in Fort Worth, Texas.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_39:C0005#0-246",
+     "artifact_id": "case_39:C0005",
+     "start": 0,
+     "end": 246,
+     "text": "Paul House Audible Logo Podcast – Original recording. About the podcast. In this episode, I sit down with Old Testament scholar Paul R. House to explore his book \"The Minor Prophets: Seek the Lord and Live\" and the message of the Twelve Prophets.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_39:C0011#0-175",
+     "artifact_id": "case_39:C0011",
+     "start": 0,
+     "end": 175,
+     "text": "Home · Publications · Journals · The Southern Baptist Journal of Theology · SBJT 1/3 (Fall 1997) · Editorial: The Promise and Promises of a Christian College.By Paul R. House.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_39:C0012#0-271",
+     "artifact_id": "case_39:C0012",
+     "start": 0,
+     "end": 271,
+     "text": "Daune Garrett, Paul R. House. Best For. Layperson.The collaborative work of Dr. Duane Garrett and Dr. Paul R. House on Song of Songs and Lamentations in the prestigious Word Biblical Commentary series represents a significant scholarly achievement that brings together...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_39:C0013#0-230",
+     "artifact_id": "case_39:C0013",
+     "start": 0,
+     "end": 230,
+     "text": "In 1857, Boyce convinced members of the convention in Louisville, Kentucky , to approve a motion to establish The Southern Baptist Theological Seminary. In the fall of 1859, Southern began its first academic year with 26 students.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 6
+    }
+   ],
+   "output": {
+    "text": "I now have sufficient evidence to answer the question. Based on the Wikipedia article on Paul R. House, confirmed by the ESV translators list: \"B.A., Southwest Baptist University; M.A., University of Missouri-Columbia; M.Div., The Southern Baptist Theological Seminary; Ph.D. [Southern Baptist Theological Seminary]\"\n\nThe Southern Baptist Theological Seminary is located in Louisville, Kentucky. However, the question specifically asks about a \"Bible college\" in Louisville that Paul R. House attended. There's also Boyce College, which is a Bible college affiliated with SBTS in Louisville.\n\nLet me verify whether Paul R. House specifically attended Boyce College, as that is the actual \"Bible college\" in Louisville (SBTS being a seminary, not a Bible college).",
+    "sha256": "c554d6db0415476716df31086a2fc86eb935be0ba5ee83caf208e11424342152",
+    "origin": "recorded_agent_message"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "What Bible college located in Louisville, Kentucky, was attended by Paul R. House who served for a time as president of the Evangelical Theological Society?",
+   "inputs": [
+    {
+     "unit_id": "case_39:C0103#0-395",
+     "artifact_id": "case_39:C0103",
+     "start": 0,
+     "end": 395,
+     "text": "Boyce College is the successor of Boyce Bible School, which was formed in 1974 and offered an associate of arts degree. It is named for James Petigru Boyce, the first president of Southern Seminary. [1] In 1998, under the guidance of the seminary's ninth president, Albert Mohler, Boyce Bible School became Boyce College and began offering six bachelor's degrees in addition to the associate ...",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 52
+    },
+    {
+     "unit_id": "case_39:C0103#0-395",
+     "artifact_id": "case_39:C0103",
+     "start": 0,
+     "end": 395,
+     "text": "Boyce College is the successor of Boyce Bible School, which was formed in 1974 and offered an associate of arts degree. It is named for James Petigru Boyce, the first president of Southern Seminary. [1] In 1998, under the guidance of the seminary's ninth president, Albert Mohler, Boyce Bible School became Boyce College and began offering six bachelor's degrees in addition to the associate ...",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 52
+    },
+    {
+     "unit_id": "case_39:C0014#0-272",
+     "artifact_id": "case_39:C0014",
+     "start": 0,
+     "end": 272,
+     "text": "Paul House provides a holistic sketch of creation in Old Testa-ment Theology, while Russell Fuller sets forth a proper hermeneutical method.Dr. Charles W. Draper, Associate Professor of New Testament at Boyce College, discovered these letters and provides the commen-tary.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_39:C0015#0-281",
+     "artifact_id": "case_39:C0015",
+     "start": 0,
+     "end": 281,
+     "text": "Owen Strachan (PhD, Trinity Evangelical Divinity School) teaches at Boyce College and Southern Baptist Theological Seminary in Louisville, Kentucky, where he also directs the Carl F. H. Henry Institute for Evangelical Engagement and serves as a Fellow with the Center for Pastor...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_39:C0016#0-142",
+     "artifact_id": "case_39:C0016",
+     "start": 0,
+     "end": 142,
+     "text": "Boyce College is a private Christian college in Louisville, Kentucky, that trains, educates, and prepares students to serve Christ faithfully.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 8
+    },
+    {
+     "unit_id": "case_39:C0017#0-349",
+     "artifact_id": "case_39:C0017",
+     "start": 0,
+     "end": 349,
+     "text": "During this period, he focused on undergraduate instruction in biblical languages and theology, contributing to the university's Christian liberal arts curriculum.In 1996, House joined the faculty of The Southern Baptist Theological Seminary in Louisville, Kentucky, as a professor of Old Testament, where he taught graduate-level courses in Old ...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 8
+    },
+    {
+     "unit_id": "case_39:C0018#0-228",
+     "artifact_id": "case_39:C0018",
+     "start": 0,
+     "end": 228,
+     "text": "5 days ago · It’s also the gap Southern and Boyce College train worship leaders to fill. Worship musicians practice their tempos, their keys, their arrangements, not to impress a congregation but to carry it in biblical worship.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 8
+    },
+    {
+     "unit_id": "case_39:C0019#0-232",
+     "artifact_id": "case_39:C0019",
+     "start": 0,
+     "end": 232,
+     "text": "OUR MISSION The mission of Kentucky Christian University is to engage students in a transformative educational experience that equips them as effective Christian professionals providing servant leadership for the church and society.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 8
+    },
+    {
+     "unit_id": "case_39:C0020#0-191",
+     "artifact_id": "case_39:C0020",
+     "start": 0,
+     "end": 191,
+     "text": "I studied rehabilitation counseling and family therapy at the University of Cincinnati during that time, and received a masters degree. I lived in Covington, KY, and even learned how to cook!",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 8
+    }
+   ],
+   "output": {
+    "text": "However, there's also Boyce College (formerly Boyce Bible School) which is the actual \"Bible college\" affiliated with SBTS in Louisville.",
+    "sha256": "c3b24cea73a5a472b3da2beaea94c67bb91ecc29b87c41e2503de6396e39c7d1",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "I now have sufficient evidence to answer the question. Based on the Wikipedia article on Paul R. House, confirmed by the ESV translators list: \"B.A., Southwest Baptist University; M.A., University of Missouri-Columbia; M.Div., The Southern Baptist Theological Seminary; Ph.D. [Southern Baptist Theological Seminary]\"\n\nThe Southern Baptist Theological Seminary is located in Louisville, Kentucky. However, the question specifically asks about a \"Bible college\" in Louisville that Paul R. House attended. There's also Boyce College, which is a Bible college affiliated with SBTS in Louisville.\n\nLet me verify whether Paul R. House specifically attended Boyce College, as that is the actual \"Bible college\" in Louisville (SBTS being a seminary, not a Bible college).",
+     "sha256": "c554d6db0415476716df31086a2fc86eb935be0ba5ee83caf208e11424342152",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_39:C0001#0-103",
+   "artifact_id": "case_39:C0001",
+   "start": 0,
+   "end": 103,
+   "text": "This is a list of evangelical Christian seminaries, bible colleges, and other theological institutions.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_39:C0001#0-103",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_39:C0002#0-249",
+   "artifact_id": "case_39:C0002",
+   "start": 0,
+   "end": 249,
+   "text": "Southern Baptist Theological Seminary in Louisville, Kentucky is the largest seminary in the United States. It’s the flagship institution of the Southern Baptist Convention, though students representing myriad denominations make up the student body.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_39:C0002#0-249",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_39:C0003#0-244",
+   "artifact_id": "case_39:C0003",
+   "start": 0,
+   "end": 244,
+   "text": "Paul R. House.Along the way he was elected president of the Evangelical Theological Society and the American Theological Society. He participated in the International Council on Biblical Inerrancy and in the Evangelical Affirmations conference.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_39:C0003#0-244",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_39:C0004#0-262",
+   "artifact_id": "case_39:C0004",
+   "start": 0,
+   "end": 262,
+   "text": "Boyce College. School of Theology. The Billy Graham School.Four temptations frame the past, present, and future of the Evangelical Theological, Albert Mohler said Wednesday night in his presidential address at the 73rd annual meeting of ETS in Fort Worth, Texas.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_39:C0004#0-262",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_39:C0005#0-246",
+   "artifact_id": "case_39:C0005",
+   "start": 0,
+   "end": 246,
+   "text": "Paul House Audible Logo Podcast – Original recording. About the podcast. In this episode, I sit down with Old Testament scholar Paul R. House to explore his book \"The Minor Prophets: Seek the Lord and Live\" and the message of the Twelve Prophets.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_39:C0005#0-246",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_39:C0011#0-175",
+   "artifact_id": "case_39:C0011",
+   "start": 0,
+   "end": 175,
+   "text": "Home · Publications · Journals · The Southern Baptist Journal of Theology · SBJT 1/3 (Fall 1997) · Editorial: The Promise and Promises of a Christian College.By Paul R. House.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_39:C0011#0-175",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_39:C0012#0-271",
+   "artifact_id": "case_39:C0012",
+   "start": 0,
+   "end": 271,
+   "text": "Daune Garrett, Paul R. House. Best For. Layperson.The collaborative work of Dr. Duane Garrett and Dr. Paul R. House on Song of Songs and Lamentations in the prestigious Word Biblical Commentary series represents a significant scholarly achievement that brings together...",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_39:C0012#0-271",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_39:C0013#0-230",
+   "artifact_id": "case_39:C0013",
+   "start": 0,
+   "end": 230,
+   "text": "In 1857, Boyce convinced members of the convention in Louisville, Kentucky , to approve a motion to establish The Southern Baptist Theological Seminary. In the fall of 1859, Southern began its first academic year with 26 students.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_39:C0013#0-230",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_39:C0014#0-272",
+   "artifact_id": "case_39:C0014",
+   "start": 0,
+   "end": 272,
+   "text": "Paul House provides a holistic sketch of creation in Old Testa-ment Theology, while Russell Fuller sets forth a proper hermeneutical method.Dr. Charles W. Draper, Associate Professor of New Testament at Boyce College, discovered these letters and provides the commen-tary.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_39:C0014#0-272",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_39:C0015#0-281",
+   "artifact_id": "case_39:C0015",
+   "start": 0,
+   "end": 281,
+   "text": "Owen Strachan (PhD, Trinity Evangelical Divinity School) teaches at Boyce College and Southern Baptist Theological Seminary in Louisville, Kentucky, where he also directs the Carl F. H. Henry Institute for Evangelical Engagement and serves as a Fellow with the Center for Pastor...",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_39:C0015#0-281",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_39:C0016#0-142",
+   "artifact_id": "case_39:C0016",
+   "start": 0,
+   "end": 142,
+   "text": "Boyce College is a private Christian college in Louisville, Kentucky, that trains, educates, and prepares students to serve Christ faithfully.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_39:C0016#0-142",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_39:C0017#0-349",
+   "artifact_id": "case_39:C0017",
+   "start": 0,
+   "end": 349,
+   "text": "During this period, he focused on undergraduate instruction in biblical languages and theology, contributing to the university's Christian liberal arts curriculum.In 1996, House joined the faculty of The Southern Baptist Theological Seminary in Louisville, Kentucky, as a professor of Old Testament, where he taught graduate-level courses in Old ...",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_39:C0017#0-349",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_39:C0018#0-228",
+   "artifact_id": "case_39:C0018",
+   "start": 0,
+   "end": 228,
+   "text": "5 days ago · It’s also the gap Southern and Boyce College train worship leaders to fill. Worship musicians practice their tempos, their keys, their arrangements, not to impress a congregation but to carry it in biblical worship.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_39:C0018#0-228",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_39:C0019#0-232",
+   "artifact_id": "case_39:C0019",
+   "start": 0,
+   "end": 232,
+   "text": "OUR MISSION The mission of Kentucky Christian University is to engage students in a transformative educational experience that equips them as effective Christian professionals providing servant leadership for the church and society.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_39:C0019#0-232",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_39:C0020#0-191",
+   "artifact_id": "case_39:C0020",
+   "start": 0,
+   "end": 191,
+   "text": "I studied rehabilitation counseling and family therapy at the University of Cincinnati during that time, and received a masters degree. I lived in Covington, KY, and even learned how to cook!",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_39:C0020#0-191",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_39:C0021#0-256",
+   "artifact_id": "case_39:C0021",
+   "start": 0,
+   "end": 256,
+   "text": "Scholars have spoken of the idea of “holy war” to describe a large complex of motifs in the Old Testament, in which the Lord fights for his people and gives them the victory.28 A more precise term. for this would be “Yahweh war,” using the Bible’s own term",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0022#0-245",
+   "artifact_id": "case_39:C0022",
+   "start": 0,
+   "end": 245,
+   "text": "Closing the conference was House, an Old Testament professor at Beeson Divinity School who formerly taught at Southern Seminary. His paper was titled, “Hope, Discipline and the Incarnational Scholar: Carl Henry’s Theological Method and Manners.”",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0023#0-239",
+   "artifact_id": "case_39:C0023",
+   "start": 0,
+   "end": 239,
+   "text": "Paul R. House is Professor of Old Testament and Chair of the Dept. of Bible and Theology at Wheaton College. Pre-viously he taught at Trinity Episcopal School for Ministry, The Southern Bap-tist Theological Seminary, and Taylor University.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0024#0-244",
+   "artifact_id": "case_39:C0024",
+   "start": 0,
+   "end": 244,
+   "text": "Old Testament Peter Lau Malaysian Theological Seminary Seremban, Malaysia peter.lau@thegospelcoalition.org. New Testament David Starling Morling College 120 Herring Road Macquarie Park, NSW 2113, Australia david.starling@thegospelcoalition.org.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0025#0-211",
+   "artifact_id": "case_39:C0025",
+   "start": 0,
+   "end": 211,
+   "text": "Shefeld A OLD TESTAMENT Moderator: J. Michael Thigpen (Hebrew Union College).Timothy George (Beeson Divinity School). Ralph MacKenzie (Bethel Theological Seminary—West). Mark Brumley (President, Ignatius Press).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0040#0-175",
+   "artifact_id": "case_39:C0040",
+   "start": 0,
+   "end": 175,
+   "text": "Home · Publications · Journals · The Southern Baptist Journal of Theology · SBJT 1/3 (Fall 1997) · Editorial: The Promise and Promises of a Christian College.By Paul R. House.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0041#0-259",
+   "artifact_id": "case_39:C0041",
+   "start": 0,
+   "end": 259,
+   "text": "Chad Brand is associate professor of Christian Theology at Boyce College of the Southern Baptist Theological Seminary in Louisville, Kentucky.Exegetical Guide to the Greek New Testament. Hobbs College Library. Perspectives. Selections from Spurgeon's Library.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0042#0-242",
+   "artifact_id": "case_39:C0042",
+   "start": 0,
+   "end": 242,
+   "text": "The Southern Baptist Theological Seminary (SBTS), in Louisville, Kentucky, is the oldest of the six seminaries affiliated with the Southern Baptist Convention (SBC).The Billy Graham School of Missions, Evangelism, and Ministry. Boyce College.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_39:C0042#0-242",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_39:C0043#0-286",
+   "artifact_id": "case_39:C0043",
+   "start": 0,
+   "end": 286,
+   "text": "Paul House provides a holistic sketch of creation in Old Testa-ment Theology, while Russell Fuller sets forth a proper hermeneutical method. Duane Garrett demonstrates the bank-ruptcy of the documentary hypothesis, and Ken Mathews refutes an erroneous hermeneutic that justifies racism.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0044#0-168",
+   "artifact_id": "case_39:C0044",
+   "start": 0,
+   "end": 168,
+   "text": "As Henry’s citation of Paul’s letter to the Romans shows, this model, propounded by Isaiah, became the emphasis, albeit an enlarged one, of Paul and the NT apostles.16.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0060#0-209",
+   "artifact_id": "case_39:C0060",
+   "start": 0,
+   "end": 209,
+   "text": "Our research looks closely at the college education of the professors and staff. Many decades ago the Roman Catholic church had meetings about how to destroy MBI and Dwight Moody’s Northfield hometown schools.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0061#0-208",
+   "artifact_id": "case_39:C0061",
+   "start": 0,
+   "end": 208,
+   "text": "Theological Seminary and Boyce College. Abstract: This study seeks to discern what connection—if any—there might be between the use of “tree of life” (םייִּּחַַ ץעֵֵ) in the books of Proverbs and Genesis 1–3.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0062#0-163",
+   "artifact_id": "case_39:C0062",
+   "start": 0,
+   "end": 163,
+   "text": "Jerry Hwang Singapore Bible College Republic of Singapore Iain M. Duguid. The Song of Songs: An Introduction and Commentary. Tyndale Old Testament Commentaries 19.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0063#0-299",
+   "artifact_id": "case_39:C0063",
+   "start": 0,
+   "end": 299,
+   "text": "On the other hand, today it is not uncommon to find Christians saying that they refuse to talk about biblical authority or biblical inerrancy or the like, but simply get on with preaching what the Bible says. History shows that such groups tend rather quickly to drift away from what the Bible says.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0064#0-178",
+   "artifact_id": "case_39:C0064",
+   "start": 0,
+   "end": 178,
+   "text": "Moderator: Paul R. House (Beeson Divinity School).Paul R. Shockley (College of Biblical Studies—Houston) Teaching Them to Obey with Style: The Role of Virtue in Christian Ethics.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0065#0-172",
+   "artifact_id": "case_39:C0065",
+   "start": 0,
+   "end": 172,
+   "text": "He earned his B.A. from Southwest Baptist University, his M.A. from the University of Missouri, and his M.Div. and Ph.D. from the Southern Baptist Theological Seminary. [2]",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0066#0-284",
+   "artifact_id": "case_39:C0066",
+   "start": 0,
+   "end": 284,
+   "text": "Paul R. House is an American Old Testament scholar, author, and seminary professor who served as 2012 president of the Evangelical Theological Society. From the University of Missouri, and his Master of Divinity and Doctor of Philosophy from The Southern Baptist Theological Seminary.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0067#0-215",
+   "artifact_id": "case_39:C0067",
+   "start": 0,
+   "end": 215,
+   "text": "Paul R. House began his formal academic training with a Bachelor of Arts degree from Southwest Baptist University, where he laid the foundational groundwork for his future scholarly pursuits in biblical studies. [9]",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0068#0-178",
+   "artifact_id": "case_39:C0068",
+   "start": 0,
+   "end": 178,
+   "text": "Feb 15, 2026 · Paul R. House (born 1958) is an American Old Testament scholar, author, and seminary professor who served as 2012 president of the Evangelical Theological Society.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0069#0-179",
+   "artifact_id": "case_39:C0069",
+   "start": 0,
+   "end": 179,
+   "text": "Dr. Paul House is a renowned Old Testament scholar and Hebrew professor at Beeson Divinity School. He has taught at institutions like Wheaton College, SBTS, and Taylor University.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0075#0-118",
+   "artifact_id": "case_39:C0075",
+   "start": 0,
+   "end": 118,
+   "text": "Louisville Bible College. Louisville Presbyterian Theological Seminary.Saint Paul College. San Diego State University.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0076#0-277",
+   "artifact_id": "case_39:C0076",
+   "start": 0,
+   "end": 277,
+   "text": "Since 1998, when Boyce Bible School became Boyce College under Mohler’s leadership, Boyce has grown from six bachelor’s degree programs to 13 and the enrollment expanded to 1,235 students in the 2014-2015 academic year. In May, Boyce conferred degrees to a record 149 students.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0077#0-91",
+   "artifact_id": "case_39:C0077",
+   "start": 0,
+   "end": 91,
+   "text": "Dr. Mohler delivers a word from the heart in chapel to Southern Seminary and Boyce College.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0078#0-286",
+   "artifact_id": "case_39:C0078",
+   "start": 0,
+   "end": 286,
+   "text": "At Louisville Collegiate School, we believe that athletics go hand in hand with our strong academic programming. Its purpose is to contribute and enhance all facets of the student while teaching valuable life skills such as teamwork, hard work, goal setting, commitment, and dedication.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0079#0-161",
+   "artifact_id": "case_39:C0079",
+   "start": 0,
+   "end": 161,
+   "text": "Read God’s Word at anytime, anywhere using the YouVersion Bible App. Share Scripture with friends, highlight passages, and create a daily habit with Bible Plans.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0085#0-244",
+   "artifact_id": "case_39:C0085",
+   "start": 0,
+   "end": 244,
+   "text": "I have confirmation that Paul R. House earned his M.Div. and Ph.D. from The Southern Baptist Theological Seminary in Louisville, Kentucky. Let me verify whether the question is referring to SBTS or Boyce College (the Bible college within SBTS).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0086#0-188",
+   "artifact_id": "case_39:C0086",
+   "start": 0,
+   "end": 188,
+   "text": "In 1998, Boyce Bible School was transformed into Boyce College and began offering a bachelor’s degree in addition to an associate’s degree. The Billy Graham School of Missions, Evangelism.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0087#0-188",
+   "artifact_id": "case_39:C0087",
+   "start": 0,
+   "end": 188,
+   "text": "In 1998, Boyce Bible School was transformed into Boyce College and began offering a bachelor’s degree in addition to an associate’s degree. The Billy Graham School of Missions, Evangelism.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0088#0-246",
+   "artifact_id": "case_39:C0088",
+   "start": 0,
+   "end": 246,
+   "text": "A.A. in Adult Education from Boyce College (Boyce Bible School) B.A. in Religion in Christian Studies Ambrose University (Canadian Bible College) Baptist history Cary Theological Seminary - Stanley Grenz Mdiv for 30 hours but changed major M.A...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0089#0-276",
+   "artifact_id": "case_39:C0089",
+   "start": 0,
+   "end": 276,
+   "text": "Boyce College is a private Christian college in Louisville, Kentucky.History. Boyce College is the successor of Boyce Bible School, which was formed in 1974 and offered an associate of arts degree. It is named for James Petigru Boyce, the first president of Southern Seminary.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0090#0-283",
+   "artifact_id": "case_39:C0090",
+   "start": 0,
+   "end": 283,
+   "text": "In 1974, Boyce Bible School opened at the seminary to provide theological education for ministers without college degrees; those who completed the program received associate degrees. It did not become a baccalaureate college until 1998; it was accredited from the start through SBTS.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0092#0-172",
+   "artifact_id": "case_39:C0092",
+   "start": 0,
+   "end": 172,
+   "text": "Louisville Bible College is a private, co-educational college located in southeast Louisville, Kentucky. It was founded in September 1948. Life at Louisville Bible College.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0093#0-285",
+   "artifact_id": "case_39:C0093",
+   "start": 0,
+   "end": 285,
+   "text": "Louisville Bible College | 333 followers on LinkedIn. Louisville Bible College is a private non-denominational Christian college, catering to students who have family responsibilities, busy lives, full-time employment, ministry careers, or who are transitioning to vocational ministry.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0094#0-157",
+   "artifact_id": "case_39:C0094",
+   "start": 0,
+   "end": 157,
+   "text": "69 rental listings are currently available. Compare rentals, see map views and save your favorite Houses.Rent Houses in Cities Near Louisville Bible College.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0095#0-276",
+   "artifact_id": "case_39:C0095",
+   "start": 0,
+   "end": 276,
+   "text": "Related. Louisville Bible College. Abilene Christian University. Abilene Christian University Former name Childers Classical Institute (1906–1920) Abilene Christian College (1920–1976) Motto People With A Purpose Type Private university Established 1906 Religious affiliation.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0096#0-216",
+   "artifact_id": "case_39:C0096",
+   "start": 0,
+   "end": 216,
+   "text": "Louisville Bible College is an accredited, private, co-educational college located in southeast Louisville, Kentucky. It was founded in September 1948 for the purpose of preparing ministers for service to the church.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0102#0-763",
+   "artifact_id": "case_39:C0102",
+   "start": 0,
+   "end": 763,
+   "text": "I now have sufficient evidence to answer the question. Based on the Wikipedia article on Paul R. House, confirmed by the ESV translators list: \"B.A., Southwest Baptist University; M.A., University of Missouri-Columbia; M.Div., The Southern Baptist Theological Seminary; Ph.D. [Southern Baptist Theological Seminary]\"\n\nThe Southern Baptist Theological Seminary is located in Louisville, Kentucky. However, the question specifically asks about a \"Bible college\" in Louisville that Paul R. House attended. There's also Boyce College, which is a Bible college affiliated with SBTS in Louisville.\n\nLet me verify whether Paul R. House specifically attended Boyce College, as that is the actual \"Bible college\" in Louisville (SBTS being a seminary, not a Bible college).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0103#0-395",
+   "artifact_id": "case_39:C0103",
+   "start": 0,
+   "end": 395,
+   "text": "Boyce College is the successor of Boyce Bible School, which was formed in 1974 and offered an associate of arts degree. It is named for James Petigru Boyce, the first president of Southern Seminary. [1] In 1998, under the guidance of the seminary's ninth president, Albert Mohler, Boyce Bible School became Boyce College and began offering six bachelor's degrees in addition to the associate ...",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_39:C0103#0-395",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_39:C0103#0-395",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_39:C0104#0-341",
+   "artifact_id": "case_39:C0104",
+   "start": 0,
+   "end": 341,
+   "text": "This is a list of colleges and universities operated or sponsored by Baptist organizations. Many of these organizations are members of the International Association of Baptist Colleges and Universities (IABCU), which has 47 member schools in 16 states, including 44 colleges and universities, 2 Bible schools, and 1 theological seminary. [1]",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0105#0-142",
+   "artifact_id": "case_39:C0105",
+   "start": 0,
+   "end": 142,
+   "text": "Boyce College is a private Christian college in Louisville, Kentucky, that trains, educates, and prepares students to serve Christ faithfully.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0106#0-394",
+   "artifact_id": "case_39:C0106",
+   "start": 0,
+   "end": 394,
+   "text": "The roots of Boyce College date back to 1974, when Southern Seminary launched the Boyce Bible School as a non-degree granting undergraduate program in ministerial training for pastors (primarily professional adults) without college prerequisites such as high school. The school’s first dean was David Q. Byrd, Jr., a prominent Southern Baptist preacher and seminary alumnus with a heart for ...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_39:C0107#0-305",
+   "artifact_id": "case_39:C0107",
+   "start": 0,
+   "end": 305,
+   "text": "Kentucky Mountain Bible College's history is characterized by hardship, sacrifice, unwavering commitment, heroic faith, and joyful service. Out of this rich, godly heritage KMBC has grown to be the great school it is today. God’s leadership is evident throughout the history of the school and its leaders.",
+   "occurrences": [],
+   "pool_only": true
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_39:T04:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_39:C0089",
+      "start": 0,
+      "end": 276,
+      "text": "Boyce College is a private Christian college in Louisville, Kentucky.History. Boyce College is the successor of Boyce Bible School, which was formed in 1974 and offered an associate of arts degree. It is named for James Petigru Boyce, the first president of Southern Seminary."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_39:C0089",
+       "start": 0,
+       "end": 276,
+       "text": "Boyce College is a private Christian college in Louisville, Kentucky.History. Boyce College is the successor of Boyce Bible School, which was formed in 1974 and offered an associate of arts degree. It is named for James Petigru Boyce, the first president of Southern Seminary."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_39:C0089",
+      "start": 0,
+      "end": 276,
+      "text": "Boyce College is a private Christian college in Louisville, Kentucky.History. Boyce College is the successor of Boyce Bible School, which was formed in 1974 and offered an associate of arts degree. It is named for James Petigru Boyce, the first president of Southern Seminary."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_39:C0089",
+       "start": 0,
+       "end": 276,
+       "text": "Boyce College is a private Christian college in Louisville, Kentucky.History. Boyce College is the successor of Boyce Bible School, which was formed in 1974 and offered an associate of arts degree. It is named for James Petigru Boyce, the first president of Southern Seminary."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_39:C0042",
+      "start": 0,
+      "end": 242,
+      "text": "The Southern Baptist Theological Seminary (SBTS), in Louisville, Kentucky, is the oldest of the six seminaries affiliated with the Southern Baptist Convention (SBC).The Billy Graham School of Missions, Evangelism, and Ministry. Boyce College."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_39:C0042",
+       "start": 0,
+       "end": 242,
+       "text": "The Southern Baptist Theological Seminary (SBTS), in Louisville, Kentucky, is the oldest of the six seminaries affiliated with the Southern Baptist Convention (SBC).The Billy Graham School of Missions, Evangelism, and Ministry. Boyce College."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "group_id": "case_39:T04:support_g02",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_39:C0103",
+      "start": 0,
+      "end": 395,
+      "text": "Boyce College is the successor of Boyce Bible School, which was formed in 1974 and offered an associate of arts degree. It is named for James Petigru Boyce, the first president of Southern Seminary. [1] In 1998, under the guidance of the seminary's ninth president, Albert Mohler, Boyce Bible School became Boyce College and began offering six bachelor's degrees in addition to the associate ..."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_39:C0103",
+       "start": 0,
+       "end": 395,
+       "text": "Boyce College is the successor of Boyce Bible School, which was formed in 1974 and offered an associate of arts degree. It is named for James Petigru Boyce, the first president of Southern Seminary. [1] In 1998, under the guidance of the seminary's ninth president, Albert Mohler, Boyce Bible School became Boyce College and began offering six bachelor's degrees in addition to the associate ..."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_39:C0103",
+      "start": 0,
+      "end": 395,
+      "text": "Boyce College is the successor of Boyce Bible School, which was formed in 1974 and offered an associate of arts degree. It is named for James Petigru Boyce, the first president of Southern Seminary. [1] In 1998, under the guidance of the seminary's ninth president, Albert Mohler, Boyce Bible School became Boyce College and began offering six bachelor's degrees in addition to the associate ..."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_39:C0103",
+       "start": 0,
+       "end": 395,
+       "text": "Boyce College is the successor of Boyce Bible School, which was formed in 1974 and offered an associate of arts degree. It is named for James Petigru Boyce, the first president of Southern Seminary. [1] In 1998, under the guidance of the seminary's ninth president, Albert Mohler, Boyce Bible School became Boyce College and began offering six bachelor's degrees in addition to the associate ..."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_39:C0042",
+      "start": 0,
+      "end": 242,
+      "text": "The Southern Baptist Theological Seminary (SBTS), in Louisville, Kentucky, is the oldest of the six seminaries affiliated with the Southern Baptist Convention (SBC).The Billy Graham School of Missions, Evangelism, and Ministry. Boyce College."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_39:C0042",
+       "start": 0,
+       "end": 242,
+       "text": "The Southern Baptist Theological Seminary (SBTS), in Louisville, Kentucky, is the oldest of the six seminaries affiliated with the Southern Baptist Convention (SBC).The Billy Graham School of Missions, Evangelism, and Ministry. Boyce College."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "group_id": "case_39:T04:support_g03",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_39:C0076",
+      "start": 0,
+      "end": 277,
+      "text": "Since 1998, when Boyce Bible School became Boyce College under Mohler’s leadership, Boyce has grown from six bachelor’s degree programs to 13 and the enrollment expanded to 1,235 students in the 2014-2015 academic year. In May, Boyce conferred degrees to a record 149 students."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_39:C0076",
+       "start": 0,
+       "end": 277,
+       "text": "Since 1998, when Boyce Bible School became Boyce College under Mohler’s leadership, Boyce has grown from six bachelor’s degree programs to 13 and the enrollment expanded to 1,235 students in the 2014-2015 academic year. In May, Boyce conferred degrees to a record 149 students."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_39:C0016",
+      "start": 0,
+      "end": 142,
+      "text": "Boyce College is a private Christian college in Louisville, Kentucky, that trains, educates, and prepares students to serve Christ faithfully."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_39:C0016",
+       "start": 0,
+       "end": 142,
+       "text": "Boyce College is a private Christian college in Louisville, Kentucky, that trains, educates, and prepares students to serve Christ faithfully."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_39:C0042",
+      "start": 0,
+      "end": 242,
+      "text": "The Southern Baptist Theological Seminary (SBTS), in Louisville, Kentucky, is the oldest of the six seminaries affiliated with the Southern Baptist Convention (SBC).The Billy Graham School of Missions, Evangelism, and Ministry. Boyce College."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_39:C0042",
+       "start": 0,
+       "end": 242,
+       "text": "The Southern Baptist Theological Seminary (SBTS), in Louisville, Kentucky, is the oldest of the six seminaries affiliated with the Southern Baptist Convention (SBC).The Billy Graham School of Missions, Evangelism, and Ministry. Boyce College."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_39:C0042#0-242"
+  ],
+  "B": [
+   "case_39:C0103#0-395"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T04",
+   "case": "case_39",
+   "question": "What Bible college located in Louisville, Kentucky, was attended by Paul R. House who served for a time as president of the Evangelical Theological Society?",
+   "target_event": 57,
+   "target_start": 455,
+   "target_end": 592,
+   "target": "However, there's also Boyce College (formerly Boyce Bible School) which is the actual \"Bible college\" affiliated with SBTS in Louisville.",
+   "candidate_ids": [
+    "C0001",
+    "C0002",
+    "C0003",
+    "C0004",
+    "C0005",
+    "C0011",
+    "C0012",
+    "C0013",
+    "C0014",
+    "C0015",
+    "C0016",
+    "C0017",
+    "C0018",
+    "C0019",
+    "C0020",
+    "C0021",
+    "C0022",
+    "C0023",
+    "C0024",
+    "C0025",
+    "C0040",
+    "C0041",
+    "C0042",
+    "C0043",
+    "C0044",
+    "C0060",
+    "C0061",
+    "C0062",
+    "C0063",
+    "C0064",
+    "C0065",
+    "C0066",
+    "C0067",
+    "C0068",
+    "C0069",
+    "C0075",
+    "C0076",
+    "C0077",
+    "C0078",
+    "C0079",
+    "C0086",
+    "C0087",
+    "C0088",
+    "C0089",
+    "C0090",
+    "C0092",
+    "C0093",
+    "C0094",
+    "C0095",
+    "C0096",
+    "C0103",
+    "C0104",
+    "C0105",
+    "C0106",
+    "C0107",
+    "C0085",
+    "C0102"
+   ],
+   "annotation_status": "model_annotated_pending_human_review"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0103",
+     "start": 0,
+     "end": 120,
+     "text": "Boyce College is the successor of Boyce Bible School, which was formed in 1974 and offered an associate of arts degree. "
+    },
+    {
+     "candidate_id": "C0103",
+     "start": 120,
+     "end": 395,
+     "text": "It is named for James Petigru Boyce, the first president of Southern Seminary. [1] In 1998, under the guidance of the seminary's ninth president, Albert Mohler, Boyce Bible School became Boyce College and began offering six bachelor's degrees in addition to the associate ..."
+    },
+    {
+     "candidate_id": "C0042",
+     "start": 228,
+     "end": 242,
+     "text": "Boyce College."
+    }
+   ]
+  },
+  "intermediate_origin": "recorded_agent_message",
+  "intermediate_event": 51,
+  "time_order_audit": [
+   {
+    "round": 1,
+    "event": 26,
+    "cut": 51,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 51,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 51,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 51,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 51,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 51,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 51,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 51,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 51,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 52,
+    "cut": 57,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 52,
+    "cut": 57,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 6,
+    "cut": 57,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 6,
+    "cut": 57,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 8,
+    "cut": 57,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 8,
+    "cut": 57,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 8,
+    "cut": 57,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 8,
+    "cut": 57,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 8,
+    "cut": 57,
+    "ok": true
+   }
+  ],
+  "note": "time-order checked for evidence and distractors"
+ }
+}

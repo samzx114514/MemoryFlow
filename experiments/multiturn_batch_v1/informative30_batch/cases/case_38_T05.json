@@ -1,0 +1,1025 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_38:T05",
+ "trajectory_id": "case_38",
+ "trajectory_case": "case_38",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "He was also honored with the DGA Lifetime Achievement Award in 1973, but his Oscar win was specifically \"Academy Award for Best Story\" ✓",
+  "sha256": "891afdedc10a3d2224bd53094365ba947667a8884402cb4a26d7acfe3ebbb742",
+  "origin": "recorded_target",
+  "artifact_id": "case_38:T05",
+  "start": 0,
+  "end": 136,
+  "original_target": {
+   "text": "He was also honored with the DGA Lifetime Achievement Award in 1973, but his Oscar win was specifically \"Academy Award for Best Story\" ✓",
+   "artifact_id": "case_38:T05"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "What is the award that the director of film Young Eagles (Film) won?",
+   "inputs": [
+    {
+     "unit_id": "case_38:C0029#0-2232",
+     "artifact_id": "case_38:C0029",
+     "start": 0,
+     "end": 2232,
+     "text": "Louis B. Mayer 's daughter Irene Mayer Selznick, the first wife of David O. Selznick, said that Wellman was \"a terror, a shoot-up-the-town fellow, trying to be a great big masculine I-don't-know-what\". The Directors Guild of America in 1973 honored him with its Lifetime Achievement Award. William Wellman died (from leukemia) in 1975. An Overview of the DGA Awards In 1948, George Marshall, the President of the Screen Directors Guild (which became the Directors Guild of America, Inc. in 1960) announced to its senior members that the Guild would begin an Awards program to honor directors for their directorial achievement. MSN An archive of Jeopardy! clues and players for Show #1564. Custom Maltego transforms. Contribute to michenriksen/maltego development by creating an account on GitHub. Contribute to ValineDragon/-GloVe-jieba- development by creating an account on GitHub. CHiPs (TV Series 1977–1983) - Cast and crew credits, including actors, actresses, directors, writers and more. How many times has a DGA Award won the Academy Award? The DGA Award for Outstanding Directorial Achievement in Feature Film has traditionally been a near perfect barometer for the Best Director Academy Award. Only eight times since the DGA Award's inception has the DGA Award winner not won the Academy Award: Who won a DGA Award for 'pianist'? In 2003 Roman Polanski received the Academy Award for The Pianist, but the DGA Award went to Rob Marshall for Chicago. 2012: Ben Affleck won the DGA Award for Argo, while the Academy chose Ang Lee for Life of Pi. For the year of 2019, Sam Mendes won the DGA Award for 1917 but the Oscar® went to Bong Joon-ho for Parasite. Did Ang Lee win a DGA Award? In 2001 Ang Lee took home the DGA Award for Crouching Tiger, Hidden Dragon, while the Oscar® went to Steven Soderbergh for Traffic. In 2003 Roman Polanski received the Academy Award for The Pianist, but the DGA Award went to Rob Marshall for Chicago. 2012: Ben Affleck won the DGA Award for Argo, while the Academy chose Ang Lee for Life of Pi. What happened at the 1963 DGA Awards? The 1963 DGA Awards dinner and dance. The selection process was envisioned as a Guild family affair, free from prejudice and unhampered by outside influence.",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 13
+    },
+    {
+     "unit_id": "case_38:C0006#0-254",
+     "artifact_id": "case_38:C0006",
+     "start": 0,
+     "end": 254,
+     "text": "Young Eagles is a 1930 American pre-Code romantic drama film directed by William A. Wellman for Paramount Pictures. It stars Charles \"Buddy\" Rogers, Jean Arthur, and Paul Lukas. The story is based on the stories \"The One Who Was Clever\" and \"Sky-High\"...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_38:C0007#0-275",
+     "artifact_id": "case_38:C0007",
+     "start": 0,
+     "end": 275,
+     "text": "The director had hoped that the film would prove as popular as his acclaimed World War I aviation drama Wings, which had won the first Academy Award for Best Picture in 1927. Wellman cast Buddy Rogers again as his lead in the new film, but Young Eagles proved to be not as...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_38:C0008#0-294",
+     "artifact_id": "case_38:C0008",
+     "start": 0,
+     "end": 294,
+     "text": "Lieut. Robert Banks, an American aviator on leave in Paris, meets Mary Gordon, a young American who lives abroad, but their romance is cut short by his return to the front. In an air battle, Robert brings down and captures the Grey Eagle, Baden, and takes him to American Intelligence in Paris.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_38:C0009#0-254",
+     "artifact_id": "case_38:C0009",
+     "start": 0,
+     "end": 254,
+     "text": "Young Eagles is a 1930 American pre-Code romantic drama film directed by William A. Wellman for Paramount Pictures. It stars Charles \"Buddy\" Rogers, Jean Arthur, and Paul Lukas. The story is based on the stories \"The One Who Was Clever\" and \"Sky-High\"...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_38:C0010#0-235",
+     "artifact_id": "case_38:C0010",
+     "start": 0,
+     "end": 235,
+     "text": "Drama ., romance ., war. Director: William A. Wellman. Starring: Charles 'Buddy' Rogers, Jean Arthur, Paul Lukas and others. Lt. Robert Banks (Charles Rogers) shoots down and captures a German ace and is betrayed by the woman he loves.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_38:C0012#0-240",
+     "artifact_id": "case_38:C0012",
+     "start": 0,
+     "end": 240,
+     "text": "In 1946 Wellman won the Ellery Queen Mystery Magazine Award over William Faulkner for his Native American detective tale \"A Star for a Warrior\". Apparently Faulkner was quite upset to be second fiddle to a science fiction and horror writer.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_38:C0013#0-287",
+     "artifact_id": "case_38:C0013",
+     "start": 0,
+     "end": 287,
+     "text": "William Augustus Wellman was an American film director, producer, screenwriter, actor and military pilot.He also directed several well-regarded satirical comedies. His 1927 film, Wings , was the first film to win an Academy Award for Best Picture at the 1st Academy Awards ceremony. [1].",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_38:C0014#0-133",
+     "artifact_id": "case_38:C0014",
+     "start": 0,
+     "end": 133,
+     "text": "William A. Wellman. Date of Birth: Feb 29, 1896 Birth Place: Brookline, Massachusetts, USA.Academy Award Directing - Nominated. 1950.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 6
+    }
+   ],
+   "output": {
+    "text": "The earlier material states: Louis B. Mayer 's daughter Irene Mayer Selznick, the first wife of David O. Selznick, said that Wellman was \"a terror, a shoot-up-the-town fellow, trying to be a great big masculine I-don't-know-what\". The Directors Guild of America in 1973",
+    "sha256": "92ac3af6f76057fa3ffd1fdc08119a6556f9b950b3188fc4af691acec935642e",
+    "origin": "controlled"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "What is the award that the director of film Young Eagles (Film) won?",
+   "inputs": [
+    {
+     "unit_id": "case_38:C0040#0-1579",
+     "artifact_id": "case_38:C0040",
+     "start": 0,
+     "end": 1579,
+     "text": "William Wellman, the Oscar-winning screenwriter-director of the original A Star Is Born (1937), was called \"Wild Bill\" during his World War I service as an aviator, a nickname that persisted in Hollywood due to his larger-than-life personality and lifestyle. A leap-year baby born in 1896 on the 29th of February in Brookline, MA, Wellman was the great-great-great grandson of Francis Lewis, one ... In 1927, Wellman famously directed Wings, which became the first film to win an Academy Award for Best Picture at the 1st Academy Awards ceremony. He also won the Academy Award for Best Story for his film A Star Is Born. In 1927, Wellman famously directed Wings, which became the first film to win an Academy Award for Best Picture at the 1st Academy Awards ceremony. He also won the Academy Award for Best Story for his film A Star Is Born. Wellman won a single Academy Award, for the story of A Star Is Born. He was nominated as best director three times: for A Star Is Born, Battleground and The High and Mighty, for which he was also nominated by the Directors Guild of America as best director. He was nominated for four Academy Awards: three Best Director Oscars for the original A Star Is Born (1937), Battleground (1949), and The High and the Mighty (1954) and one in Best Original Story for A Star Is Born, which he won. Wellman won a single Oscar, for the story of A Star Is Born. He was nominated as best director three times: for A Star Is Born, Battleground and The High and Mighty, for which he was also nominated by the Directors Guild of America as best director.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 17
+    },
+    {
+     "unit_id": "case_38:C0015#0-233",
+     "artifact_id": "case_38:C0015",
+     "start": 0,
+     "end": 233,
+     "text": "Tag Archives: William A. Wellman. Wings (1927). In my task of watching all Best Picture Oscar-winners, I finished up my introductory weekend of viewing with Wings, directed by DGA Lifetime Achievement award-winner William A. Wellman.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_38:C0016#0-178",
+     "artifact_id": "case_38:C0016",
+     "start": 0,
+     "end": 178,
+     "text": "A Fall in Autumn by Michael G. Williams (Falstaff) won the 2020 Manly Wade Wellman Award, announced by the North Carolina Speculative Fiction Foundation (NCSFF) on July 27, 2020.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_38:C0017#0-265",
+     "artifact_id": "case_38:C0017",
+     "start": 0,
+     "end": 265,
+     "text": "William Wellman was a no nonsense top Hollywood movie director known as 'Wild Bill and famous for his crime and action movies, often focusing on aviation themes.In his career, Wellman personally won just one Academy Award, for the story of 'A Star Is Born' in 1937.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_38:C0018#0-253",
+     "artifact_id": "case_38:C0018",
+     "start": 0,
+     "end": 253,
+     "text": "The Oscars should honor the magic of movies that, for almost a century, has been brought to life by stunt coordinators and stunt performers. The 1927 film \"Wings,\" which was the top honoree at the first Academy Awards ceremony, relied heavily on stunts.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_38:C0019#0-63",
+     "artifact_id": "case_38:C0019",
+     "start": 0,
+     "end": 63,
+     "text": "It was the first Best Picture Oscar winner. misc. 26,751 notes.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_38:C0020#0-265",
+     "artifact_id": "case_38:C0020",
+     "start": 0,
+     "end": 265,
+     "text": "William A. Wellman is a popular United States of America screenwriter who is most renowned for his screenwriter,actor,film director.IMDB details. nm0920074. Awards Receieved. Academy Award for Best Story,Academy Award for Best Story. Childrens. William Wellman, Jr.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_38:C0021#0-152",
+     "artifact_id": "case_38:C0021",
+     "start": 0,
+     "end": 152,
+     "text": "The 1st Academy Awards | 1929. Blossom Room of the Hollywood Roosevelt Hotel.Farnham receiving his Oscar from presenter Douglas Fairbanks. Janet Gaynor.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_38:C0022#0-193",
+     "artifact_id": "case_38:C0022",
+     "start": 0,
+     "end": 193,
+     "text": "Wellman wrote the story for A Star Is Born and (with Robert Carson) received the Academy Award for Best Story. Wellman is credited for the story in the remakes released in 1954, 1976, and 2018.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 10
+    }
+   ],
+   "output": {
+    "text": "He was also honored with the DGA Lifetime Achievement Award in 1973, but his Oscar win was specifically \"Academy Award for Best Story\" ✓",
+    "sha256": "891afdedc10a3d2224bd53094365ba947667a8884402cb4a26d7acfe3ebbb742",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "The earlier material states: Louis B. Mayer 's daughter Irene Mayer Selznick, the first wife of David O. Selznick, said that Wellman was \"a terror, a shoot-up-the-town fellow, trying to be a great big masculine I-don't-know-what\". The Directors Guild of America in 1973",
+     "sha256": "92ac3af6f76057fa3ffd1fdc08119a6556f9b950b3188fc4af691acec935642e",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_38:C0006#0-254",
+   "artifact_id": "case_38:C0006",
+   "start": 0,
+   "end": 254,
+   "text": "Young Eagles is a 1930 American pre-Code romantic drama film directed by William A. Wellman for Paramount Pictures. It stars Charles \"Buddy\" Rogers, Jean Arthur, and Paul Lukas. The story is based on the stories \"The One Who Was Clever\" and \"Sky-High\"...",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_38:C0006#0-254",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_38:C0007#0-275",
+   "artifact_id": "case_38:C0007",
+   "start": 0,
+   "end": 275,
+   "text": "The director had hoped that the film would prove as popular as his acclaimed World War I aviation drama Wings, which had won the first Academy Award for Best Picture in 1927. Wellman cast Buddy Rogers again as his lead in the new film, but Young Eagles proved to be not as...",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_38:C0007#0-275",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_38:C0008#0-294",
+   "artifact_id": "case_38:C0008",
+   "start": 0,
+   "end": 294,
+   "text": "Lieut. Robert Banks, an American aviator on leave in Paris, meets Mary Gordon, a young American who lives abroad, but their romance is cut short by his return to the front. In an air battle, Robert brings down and captures the Grey Eagle, Baden, and takes him to American Intelligence in Paris.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_38:C0008#0-294",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_38:C0009#0-254",
+   "artifact_id": "case_38:C0009",
+   "start": 0,
+   "end": 254,
+   "text": "Young Eagles is a 1930 American pre-Code romantic drama film directed by William A. Wellman for Paramount Pictures. It stars Charles \"Buddy\" Rogers, Jean Arthur, and Paul Lukas. The story is based on the stories \"The One Who Was Clever\" and \"Sky-High\"...",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_38:C0009#0-254",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_38:C0010#0-235",
+   "artifact_id": "case_38:C0010",
+   "start": 0,
+   "end": 235,
+   "text": "Drama ., romance ., war. Director: William A. Wellman. Starring: Charles 'Buddy' Rogers, Jean Arthur, Paul Lukas and others. Lt. Robert Banks (Charles Rogers) shoots down and captures a German ace and is betrayed by the woman he loves.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_38:C0010#0-235",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_38:C0012#0-240",
+   "artifact_id": "case_38:C0012",
+   "start": 0,
+   "end": 240,
+   "text": "In 1946 Wellman won the Ellery Queen Mystery Magazine Award over William Faulkner for his Native American detective tale \"A Star for a Warrior\". Apparently Faulkner was quite upset to be second fiddle to a science fiction and horror writer.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_38:C0012#0-240",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_38:C0013#0-287",
+   "artifact_id": "case_38:C0013",
+   "start": 0,
+   "end": 287,
+   "text": "William Augustus Wellman was an American film director, producer, screenwriter, actor and military pilot.He also directed several well-regarded satirical comedies. His 1927 film, Wings , was the first film to win an Academy Award for Best Picture at the 1st Academy Awards ceremony. [1].",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_38:C0013#0-287",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_38:C0014#0-133",
+   "artifact_id": "case_38:C0014",
+   "start": 0,
+   "end": 133,
+   "text": "William A. Wellman. Date of Birth: Feb 29, 1896 Birth Place: Brookline, Massachusetts, USA.Academy Award Directing - Nominated. 1950.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_38:C0014#0-133",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_38:C0015#0-233",
+   "artifact_id": "case_38:C0015",
+   "start": 0,
+   "end": 233,
+   "text": "Tag Archives: William A. Wellman. Wings (1927). In my task of watching all Best Picture Oscar-winners, I finished up my introductory weekend of viewing with Wings, directed by DGA Lifetime Achievement award-winner William A. Wellman.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_38:C0015#0-233",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_38:C0016#0-178",
+   "artifact_id": "case_38:C0016",
+   "start": 0,
+   "end": 178,
+   "text": "A Fall in Autumn by Michael G. Williams (Falstaff) won the 2020 Manly Wade Wellman Award, announced by the North Carolina Speculative Fiction Foundation (NCSFF) on July 27, 2020.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_38:C0016#0-178",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_38:C0017#0-265",
+   "artifact_id": "case_38:C0017",
+   "start": 0,
+   "end": 265,
+   "text": "William Wellman was a no nonsense top Hollywood movie director known as 'Wild Bill and famous for his crime and action movies, often focusing on aviation themes.In his career, Wellman personally won just one Academy Award, for the story of 'A Star Is Born' in 1937.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_38:C0017#0-265",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_38:C0018#0-253",
+   "artifact_id": "case_38:C0018",
+   "start": 0,
+   "end": 253,
+   "text": "The Oscars should honor the magic of movies that, for almost a century, has been brought to life by stunt coordinators and stunt performers. The 1927 film \"Wings,\" which was the top honoree at the first Academy Awards ceremony, relied heavily on stunts.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_38:C0018#0-253",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_38:C0019#0-63",
+   "artifact_id": "case_38:C0019",
+   "start": 0,
+   "end": 63,
+   "text": "It was the first Best Picture Oscar winner. misc. 26,751 notes.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_38:C0019#0-63",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_38:C0020#0-265",
+   "artifact_id": "case_38:C0020",
+   "start": 0,
+   "end": 265,
+   "text": "William A. Wellman is a popular United States of America screenwriter who is most renowned for his screenwriter,actor,film director.IMDB details. nm0920074. Awards Receieved. Academy Award for Best Story,Academy Award for Best Story. Childrens. William Wellman, Jr.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_38:C0020#0-265",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_38:C0021#0-152",
+   "artifact_id": "case_38:C0021",
+   "start": 0,
+   "end": 152,
+   "text": "The 1st Academy Awards | 1929. Blossom Room of the Hollywood Roosevelt Hotel.Farnham receiving his Oscar from presenter Douglas Fairbanks. Janet Gaynor.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_38:C0021#0-152",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_38:C0022#0-193",
+   "artifact_id": "case_38:C0022",
+   "start": 0,
+   "end": 193,
+   "text": "Wellman wrote the story for A Star Is Born and (with Robert Carson) received the Academy Award for Best Story. Wellman is credited for the story in the remakes released in 1954, 1976, and 2018.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_38:C0022#0-193",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_38:C0023#0-261",
+   "artifact_id": "case_38:C0023",
+   "start": 0,
+   "end": 261,
+   "text": "William A. Wellman and Robert Carson won Academy Award For Best Story and also W. Howard Greene won Academy Honorary Award for his color photography at The 10th Academy Awards in 1938. [photos from left to right : the poster for the movie A Star Is Born 1954...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_38:C0029#0-2232",
+   "artifact_id": "case_38:C0029",
+   "start": 0,
+   "end": 2232,
+   "text": "Louis B. Mayer 's daughter Irene Mayer Selznick, the first wife of David O. Selznick, said that Wellman was \"a terror, a shoot-up-the-town fellow, trying to be a great big masculine I-don't-know-what\". The Directors Guild of America in 1973 honored him with its Lifetime Achievement Award. William Wellman died (from leukemia) in 1975. An Overview of the DGA Awards In 1948, George Marshall, the President of the Screen Directors Guild (which became the Directors Guild of America, Inc. in 1960) announced to its senior members that the Guild would begin an Awards program to honor directors for their directorial achievement. MSN An archive of Jeopardy! clues and players for Show #1564. Custom Maltego transforms. Contribute to michenriksen/maltego development by creating an account on GitHub. Contribute to ValineDragon/-GloVe-jieba- development by creating an account on GitHub. CHiPs (TV Series 1977–1983) - Cast and crew credits, including actors, actresses, directors, writers and more. How many times has a DGA Award won the Academy Award? The DGA Award for Outstanding Directorial Achievement in Feature Film has traditionally been a near perfect barometer for the Best Director Academy Award. Only eight times since the DGA Award's inception has the DGA Award winner not won the Academy Award: Who won a DGA Award for 'pianist'? In 2003 Roman Polanski received the Academy Award for The Pianist, but the DGA Award went to Rob Marshall for Chicago. 2012: Ben Affleck won the DGA Award for Argo, while the Academy chose Ang Lee for Life of Pi. For the year of 2019, Sam Mendes won the DGA Award for 1917 but the Oscar® went to Bong Joon-ho for Parasite. Did Ang Lee win a DGA Award? In 2001 Ang Lee took home the DGA Award for Crouching Tiger, Hidden Dragon, while the Oscar® went to Steven Soderbergh for Traffic. In 2003 Roman Polanski received the Academy Award for The Pianist, but the DGA Award went to Rob Marshall for Chicago. 2012: Ben Affleck won the DGA Award for Argo, while the Academy chose Ang Lee for Life of Pi. What happened at the 1963 DGA Awards? The 1963 DGA Awards dinner and dance. The selection process was envisioned as a Guild family affair, free from prejudice and unhampered by outside influence.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_38:C0029#0-2232",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_38:C0030#0-290",
+   "artifact_id": "case_38:C0030",
+   "start": 0,
+   "end": 290,
+   "text": "An Overview of the DGA Awards In 1948, George Marshall, the President of the Screen Directors Guild (which became the Directors Guild of America, Inc. in 1960) announced to its senior members that the Guild would begin an Awards program to honor directors for their directorial achievement.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_38:C0031#0-110",
+   "artifact_id": "case_38:C0031",
+   "start": 0,
+   "end": 110,
+   "text": "CHiPs (TV Series 1977–1983) - Cast and crew credits, including actors, actresses, directors, writers and more.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_38:C0032#0-3",
+   "artifact_id": "case_38:C0032",
+   "start": 0,
+   "end": 3,
+   "text": "MSN",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_38:C0033#0-57",
+   "artifact_id": "case_38:C0033",
+   "start": 0,
+   "end": 57,
+   "text": "An archive of Jeopardy! clues and players for Show #1564.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_38:C0034#0-292",
+   "artifact_id": "case_38:C0034",
+   "start": 0,
+   "end": 292,
+   "text": "William Augustus Wellman was an American film director, producer, screenwriter, actor and military pilot. He was known for his work in crime, adventure, and action genre films, often focusing on aviation themes, a particular passion. He also directed several well-regarded satirical comedies.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_38:C0035#0-274",
+   "artifact_id": "case_38:C0035",
+   "start": 0,
+   "end": 274,
+   "text": "At the 4th Academy Awards, the film was nominated for an Academy Award for Best Story, losing to The Dawn Patrol. Subsequent recognition In 1989, an animatronics version of a scene from The Public Enemy was incorporated into The Great Movie Ride at the Disney-MGM Studios...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_38:C0036#0-261",
+   "artifact_id": "case_38:C0036",
+   "start": 0,
+   "end": 261,
+   "text": "Miracle on 34th Street is a much-loved Christmas story. It is a short novel, called a novella, written by Valentine Davies. He wrote it after creating the story for the famous 1947 movie of the same name. That movie even won him an Academy Award for Best Story!",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_38:C0037#0-177",
+   "artifact_id": "case_38:C0037",
+   "start": 0,
+   "end": 177,
+   "text": "Academy award for best original screenplay wikipedia. Burma storybook is a creative documentary about a country emerging from years of dictatorship, told through burmese poetry.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_38:C0038#0-270",
+   "artifact_id": "case_38:C0038",
+   "start": 0,
+   "end": 270,
+   "text": "Hepburn won an Academy Award for Best Actress; the film also won the Academy Award for Best Story. #romanholiday #1953Directed by William Wyler, this is an iconic love story where a princess escapes her royal life to explore Rome. What do you love about “Roman Holiday”?",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_38:C0039#0-257",
+   "artifact_id": "case_38:C0039",
+   "start": 0,
+   "end": 257,
+   "text": "Wellman won a single Academy Award, for the story of A Star Is Born. He was nominated as best director three times: for A Star Is Born, Battleground and The High and Mighty, for which he was also nominated by the Directors Guild of America as best director.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_38:C0040#0-1579",
+   "artifact_id": "case_38:C0040",
+   "start": 0,
+   "end": 1579,
+   "text": "William Wellman, the Oscar-winning screenwriter-director of the original A Star Is Born (1937), was called \"Wild Bill\" during his World War I service as an aviator, a nickname that persisted in Hollywood due to his larger-than-life personality and lifestyle. A leap-year baby born in 1896 on the 29th of February in Brookline, MA, Wellman was the great-great-great grandson of Francis Lewis, one ... In 1927, Wellman famously directed Wings, which became the first film to win an Academy Award for Best Picture at the 1st Academy Awards ceremony. He also won the Academy Award for Best Story for his film A Star Is Born. In 1927, Wellman famously directed Wings, which became the first film to win an Academy Award for Best Picture at the 1st Academy Awards ceremony. He also won the Academy Award for Best Story for his film A Star Is Born. Wellman won a single Academy Award, for the story of A Star Is Born. He was nominated as best director three times: for A Star Is Born, Battleground and The High and Mighty, for which he was also nominated by the Directors Guild of America as best director. He was nominated for four Academy Awards: three Best Director Oscars for the original A Star Is Born (1937), Battleground (1949), and The High and the Mighty (1954) and one in Best Original Story for A Star Is Born, which he won. Wellman won a single Oscar, for the story of A Star Is Born. He was nominated as best director three times: for A Star Is Born, Battleground and The High and Mighty, for which he was also nominated by the Directors Guild of America as best director.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_38:C0040#0-1579",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_38:C0041#0-220",
+   "artifact_id": "case_38:C0041",
+   "start": 0,
+   "end": 220,
+   "text": "In 1927, Wellman famously directed Wings, which became the first film to win an Academy Award for Best Picture at the 1st Academy Awards ceremony. He also won the Academy Award for Best Story for his film A Star Is Born.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_38:C0042#0-220",
+   "artifact_id": "case_38:C0042",
+   "start": 0,
+   "end": 220,
+   "text": "In 1927, Wellman famously directed Wings, which became the first film to win an Academy Award for Best Picture at the 1st Academy Awards ceremony. He also won the Academy Award for Best Story for his film A Star Is Born.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_38:C0043#0-257",
+   "artifact_id": "case_38:C0043",
+   "start": 0,
+   "end": 257,
+   "text": "Wellman won a single Academy Award, for the story of A Star Is Born. He was nominated as best director three times: for A Star Is Born, Battleground and The High and Mighty, for which he was also nominated by the Directors Guild of America as best director.",
+   "occurrences": [],
+   "pool_only": true
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_38:T05:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_38:C0029",
+      "start": 0,
+      "end": 2232,
+      "text": "Louis B. Mayer 's daughter Irene Mayer Selznick, the first wife of David O. Selznick, said that Wellman was \"a terror, a shoot-up-the-town fellow, trying to be a great big masculine I-don't-know-what\". The Directors Guild of America in 1973 honored him with its Lifetime Achievement Award. William Wellman died (from leukemia) in 1975. An Overview of the DGA Awards In 1948, George Marshall, the President of the Screen Directors Guild (which became the Directors Guild of America, Inc. in 1960) announced to its senior members that the Guild would begin an Awards program to honor directors for their directorial achievement. MSN An archive of Jeopardy! clues and players for Show #1564. Custom Maltego transforms. Contribute to michenriksen/maltego development by creating an account on GitHub. Contribute to ValineDragon/-GloVe-jieba- development by creating an account on GitHub. CHiPs (TV Series 1977–1983) - Cast and crew credits, including actors, actresses, directors, writers and more. How many times has a DGA Award won the Academy Award? The DGA Award for Outstanding Directorial Achievement in Feature Film has traditionally been a near perfect barometer for the Best Director Academy Award. Only eight times since the DGA Award's inception has the DGA Award winner not won the Academy Award: Who won a DGA Award for 'pianist'? In 2003 Roman Polanski received the Academy Award for The Pianist, but the DGA Award went to Rob Marshall for Chicago. 2012: Ben Affleck won the DGA Award for Argo, while the Academy chose Ang Lee for Life of Pi. For the year of 2019, Sam Mendes won the DGA Award for 1917 but the Oscar® went to Bong Joon-ho for Parasite. Did Ang Lee win a DGA Award? In 2001 Ang Lee took home the DGA Award for Crouching Tiger, Hidden Dragon, while the Oscar® went to Steven Soderbergh for Traffic. In 2003 Roman Polanski received the Academy Award for The Pianist, but the DGA Award went to Rob Marshall for Chicago. 2012: Ben Affleck won the DGA Award for Argo, while the Academy chose Ang Lee for Life of Pi. What happened at the 1963 DGA Awards? The 1963 DGA Awards dinner and dance. The selection process was envisioned as a Guild family affair, free from prejudice and unhampered by outside influence."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_38:C0029",
+       "start": 0,
+       "end": 2232,
+       "text": "Louis B. Mayer 's daughter Irene Mayer Selznick, the first wife of David O. Selznick, said that Wellman was \"a terror, a shoot-up-the-town fellow, trying to be a great big masculine I-don't-know-what\". The Directors Guild of America in 1973 honored him with its Lifetime Achievement Award. William Wellman died (from leukemia) in 1975. An Overview of the DGA Awards In 1948, George Marshall, the President of the Screen Directors Guild (which became the Directors Guild of America, Inc. in 1960) announced to its senior members that the Guild would begin an Awards program to honor directors for their directorial achievement. MSN An archive of Jeopardy! clues and players for Show #1564. Custom Maltego transforms. Contribute to michenriksen/maltego development by creating an account on GitHub. Contribute to ValineDragon/-GloVe-jieba- development by creating an account on GitHub. CHiPs (TV Series 1977–1983) - Cast and crew credits, including actors, actresses, directors, writers and more. How many times has a DGA Award won the Academy Award? The DGA Award for Outstanding Directorial Achievement in Feature Film has traditionally been a near perfect barometer for the Best Director Academy Award. Only eight times since the DGA Award's inception has the DGA Award winner not won the Academy Award: Who won a DGA Award for 'pianist'? In 2003 Roman Polanski received the Academy Award for The Pianist, but the DGA Award went to Rob Marshall for Chicago. 2012: Ben Affleck won the DGA Award for Argo, while the Academy chose Ang Lee for Life of Pi. For the year of 2019, Sam Mendes won the DGA Award for 1917 but the Oscar® went to Bong Joon-ho for Parasite. Did Ang Lee win a DGA Award? In 2001 Ang Lee took home the DGA Award for Crouching Tiger, Hidden Dragon, while the Oscar® went to Steven Soderbergh for Traffic. In 2003 Roman Polanski received the Academy Award for The Pianist, but the DGA Award went to Rob Marshall for Chicago. 2012: Ben Affleck won the DGA Award for Argo, while the Academy chose Ang Lee for Life of Pi. What happened at the 1963 DGA Awards? The 1963 DGA Awards dinner and dance. The selection process was envisioned as a Guild family affair, free from prejudice and unhampered by outside influence."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_38:C0022",
+      "start": 0,
+      "end": 193,
+      "text": "Wellman wrote the story for A Star Is Born and (with Robert Carson) received the Academy Award for Best Story. Wellman is credited for the story in the remakes released in 1954, 1976, and 2018."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_38:C0022",
+       "start": 0,
+       "end": 193,
+       "text": "Wellman wrote the story for A Star Is Born and (with Robert Carson) received the Academy Award for Best Story. Wellman is credited for the story in the remakes released in 1954, 1976, and 2018."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "group_id": "case_38:T05:support_g02",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_38:C0029",
+      "start": 0,
+      "end": 2232,
+      "text": "Louis B. Mayer 's daughter Irene Mayer Selznick, the first wife of David O. Selznick, said that Wellman was \"a terror, a shoot-up-the-town fellow, trying to be a great big masculine I-don't-know-what\". The Directors Guild of America in 1973 honored him with its Lifetime Achievement Award. William Wellman died (from leukemia) in 1975. An Overview of the DGA Awards In 1948, George Marshall, the President of the Screen Directors Guild (which became the Directors Guild of America, Inc. in 1960) announced to its senior members that the Guild would begin an Awards program to honor directors for their directorial achievement. MSN An archive of Jeopardy! clues and players for Show #1564. Custom Maltego transforms. Contribute to michenriksen/maltego development by creating an account on GitHub. Contribute to ValineDragon/-GloVe-jieba- development by creating an account on GitHub. CHiPs (TV Series 1977–1983) - Cast and crew credits, including actors, actresses, directors, writers and more. How many times has a DGA Award won the Academy Award? The DGA Award for Outstanding Directorial Achievement in Feature Film has traditionally been a near perfect barometer for the Best Director Academy Award. Only eight times since the DGA Award's inception has the DGA Award winner not won the Academy Award: Who won a DGA Award for 'pianist'? In 2003 Roman Polanski received the Academy Award for The Pianist, but the DGA Award went to Rob Marshall for Chicago. 2012: Ben Affleck won the DGA Award for Argo, while the Academy chose Ang Lee for Life of Pi. For the year of 2019, Sam Mendes won the DGA Award for 1917 but the Oscar® went to Bong Joon-ho for Parasite. Did Ang Lee win a DGA Award? In 2001 Ang Lee took home the DGA Award for Crouching Tiger, Hidden Dragon, while the Oscar® went to Steven Soderbergh for Traffic. In 2003 Roman Polanski received the Academy Award for The Pianist, but the DGA Award went to Rob Marshall for Chicago. 2012: Ben Affleck won the DGA Award for Argo, while the Academy chose Ang Lee for Life of Pi. What happened at the 1963 DGA Awards? The 1963 DGA Awards dinner and dance. The selection process was envisioned as a Guild family affair, free from prejudice and unhampered by outside influence."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_38:C0029",
+       "start": 0,
+       "end": 2232,
+       "text": "Louis B. Mayer 's daughter Irene Mayer Selznick, the first wife of David O. Selznick, said that Wellman was \"a terror, a shoot-up-the-town fellow, trying to be a great big masculine I-don't-know-what\". The Directors Guild of America in 1973 honored him with its Lifetime Achievement Award. William Wellman died (from leukemia) in 1975. An Overview of the DGA Awards In 1948, George Marshall, the President of the Screen Directors Guild (which became the Directors Guild of America, Inc. in 1960) announced to its senior members that the Guild would begin an Awards program to honor directors for their directorial achievement. MSN An archive of Jeopardy! clues and players for Show #1564. Custom Maltego transforms. Contribute to michenriksen/maltego development by creating an account on GitHub. Contribute to ValineDragon/-GloVe-jieba- development by creating an account on GitHub. CHiPs (TV Series 1977–1983) - Cast and crew credits, including actors, actresses, directors, writers and more. How many times has a DGA Award won the Academy Award? The DGA Award for Outstanding Directorial Achievement in Feature Film has traditionally been a near perfect barometer for the Best Director Academy Award. Only eight times since the DGA Award's inception has the DGA Award winner not won the Academy Award: Who won a DGA Award for 'pianist'? In 2003 Roman Polanski received the Academy Award for The Pianist, but the DGA Award went to Rob Marshall for Chicago. 2012: Ben Affleck won the DGA Award for Argo, while the Academy chose Ang Lee for Life of Pi. For the year of 2019, Sam Mendes won the DGA Award for 1917 but the Oscar® went to Bong Joon-ho for Parasite. Did Ang Lee win a DGA Award? In 2001 Ang Lee took home the DGA Award for Crouching Tiger, Hidden Dragon, while the Oscar® went to Steven Soderbergh for Traffic. In 2003 Roman Polanski received the Academy Award for The Pianist, but the DGA Award went to Rob Marshall for Chicago. 2012: Ben Affleck won the DGA Award for Argo, while the Academy chose Ang Lee for Life of Pi. What happened at the 1963 DGA Awards? The 1963 DGA Awards dinner and dance. The selection process was envisioned as a Guild family affair, free from prejudice and unhampered by outside influence."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_38:C0040",
+      "start": 0,
+      "end": 1579,
+      "text": "William Wellman, the Oscar-winning screenwriter-director of the original A Star Is Born (1937), was called \"Wild Bill\" during his World War I service as an aviator, a nickname that persisted in Hollywood due to his larger-than-life personality and lifestyle. A leap-year baby born in 1896 on the 29th of February in Brookline, MA, Wellman was the great-great-great grandson of Francis Lewis, one ... In 1927, Wellman famously directed Wings, which became the first film to win an Academy Award for Best Picture at the 1st Academy Awards ceremony. He also won the Academy Award for Best Story for his film A Star Is Born. In 1927, Wellman famously directed Wings, which became the first film to win an Academy Award for Best Picture at the 1st Academy Awards ceremony. He also won the Academy Award for Best Story for his film A Star Is Born. Wellman won a single Academy Award, for the story of A Star Is Born. He was nominated as best director three times: for A Star Is Born, Battleground and The High and Mighty, for which he was also nominated by the Directors Guild of America as best director. He was nominated for four Academy Awards: three Best Director Oscars for the original A Star Is Born (1937), Battleground (1949), and The High and the Mighty (1954) and one in Best Original Story for A Star Is Born, which he won. Wellman won a single Oscar, for the story of A Star Is Born. He was nominated as best director three times: for A Star Is Born, Battleground and The High and Mighty, for which he was also nominated by the Directors Guild of America as best director."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_38:C0040",
+       "start": 0,
+       "end": 1579,
+       "text": "William Wellman, the Oscar-winning screenwriter-director of the original A Star Is Born (1937), was called \"Wild Bill\" during his World War I service as an aviator, a nickname that persisted in Hollywood due to his larger-than-life personality and lifestyle. A leap-year baby born in 1896 on the 29th of February in Brookline, MA, Wellman was the great-great-great grandson of Francis Lewis, one ... In 1927, Wellman famously directed Wings, which became the first film to win an Academy Award for Best Picture at the 1st Academy Awards ceremony. He also won the Academy Award for Best Story for his film A Star Is Born. In 1927, Wellman famously directed Wings, which became the first film to win an Academy Award for Best Picture at the 1st Academy Awards ceremony. He also won the Academy Award for Best Story for his film A Star Is Born. Wellman won a single Academy Award, for the story of A Star Is Born. He was nominated as best director three times: for A Star Is Born, Battleground and The High and Mighty, for which he was also nominated by the Directors Guild of America as best director. He was nominated for four Academy Awards: three Best Director Oscars for the original A Star Is Born (1937), Battleground (1949), and The High and the Mighty (1954) and one in Best Original Story for A Star Is Born, which he won. Wellman won a single Oscar, for the story of A Star Is Born. He was nominated as best director three times: for A Star Is Born, Battleground and The High and Mighty, for which he was also nominated by the Directors Guild of America as best director."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_38:C0029#0-2232"
+  ],
+  "B": [
+   "case_38:C0040#0-1579"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T05",
+   "case": "case_38",
+   "question": "What is the award that the director of film Young Eagles (Film) won?",
+   "target_event": 18,
+   "target_start": 923,
+   "target_end": 1059,
+   "target": "He was also honored with the DGA Lifetime Achievement Award in 1973, but his Oscar win was specifically \"Academy Award for Best Story\" ✓",
+   "candidate_ids": [
+    "C0006",
+    "C0007",
+    "C0008",
+    "C0009",
+    "C0010",
+    "C0012",
+    "C0013",
+    "C0014",
+    "C0015",
+    "C0016",
+    "C0017",
+    "C0018",
+    "C0019",
+    "C0020",
+    "C0021",
+    "C0022",
+    "C0023",
+    "C0029",
+    "C0030",
+    "C0031",
+    "C0032",
+    "C0033",
+    "C0034",
+    "C0035",
+    "C0036",
+    "C0037",
+    "C0038",
+    "C0039",
+    "C0040",
+    "C0041",
+    "C0042",
+    "C0043"
+   ],
+   "annotation_status": "model_annotated_pending_human_review"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0029",
+     "start": 202,
+     "end": 290,
+     "text": "The Directors Guild of America in 1973 honored him with its Lifetime Achievement Award. "
+    },
+    {
+     "candidate_id": "C0040",
+     "start": 547,
+     "end": 621,
+     "text": "He also won the Academy Award for Best Story for his film A Star Is Born. "
+    }
+   ]
+  },
+  "intermediate_origin": "controlled",
+  "intermediate_event": null,
+  "time_order_audit": [
+   {
+    "round": 1,
+    "event": 13,
+    "cut": 18,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 18,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 18,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 18,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 18,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 18,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 18,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 18,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 18,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 17,
+    "cut": 18,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 6,
+    "cut": 18,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 6,
+    "cut": 18,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 18,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 18,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 18,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 18,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 18,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 10,
+    "cut": 18,
+    "ok": true
+   }
+  ],
+  "note": "time-order checked for evidence and distractors"
+ }
+}

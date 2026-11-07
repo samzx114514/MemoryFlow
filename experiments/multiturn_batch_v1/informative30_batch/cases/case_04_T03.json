@@ -1,0 +1,752 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_04:T03",
+ "trajectory_id": "case_04",
+ "trajectory_case": "case_04",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "Elizabeth Gill (also known as Liz Gill), who is Dublin-born",
+  "sha256": "2968040384b7742e663c5879066f1611d2bc0059ab6b239cd1be0ed3ee3bdfff",
+  "origin": "recorded_target",
+  "artifact_id": "case_04:T03",
+  "start": 0,
+  "end": 59,
+  "original_target": {
+   "text": "Elizabeth Gill (also known as Liz Gill), who is Dublin-born",
+   "artifact_id": "case_04:T03"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "Where was the place of burial of the director of film Gold In The Street?",
+   "inputs": [
+    {
+     "unit_id": "case_04:C0027#0-161",
+     "artifact_id": "case_04:C0027",
+     "start": 0,
+     "end": 161,
+     "text": "Gold in the Streets is a 1997 drama film written by Janet Noble and Noel Pearson, directed by Elizabeth Gill and starring Jim Belushi, Ian Hart and Jared Harris.",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 12
+    },
+    {
+     "unit_id": "case_04:C0021#0-225",
+     "artifact_id": "case_04:C0021",
+     "start": 0,
+     "end": 225,
+     "text": "Discover the surprising reactions to a gold giveaway in NYC! Find out why people turn down free gold bars and how it all happened.The diamond district legend Arsi sweeping the streets for gold #traxnyc #gold #diamonddistrict.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_04:C0022#0-245",
+     "artifact_id": "case_04:C0022",
+     "start": 0,
+     "end": 245,
+     "text": "You may have heard the common Western expression, \"Streets lined with gold.\" It's often used to describe a heavenly place or areas brimming with wealth and luxury. But there is one street in Karachi, Pakistan, where the phrase is literally true.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_04:C0023#0-153",
+     "artifact_id": "case_04:C0023",
+     "start": 0,
+     "end": 153,
+     "text": "Boy of the Streets (1937). William Nigh.Gold Diggers: The Secret of Bear Mountain (1995). Kevin James Dobson. Gold in the Streets (1996). Elizabeth Gill.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_04:C0024#0-199",
+     "artifact_id": "case_04:C0024",
+     "start": 0,
+     "end": 199,
+     "text": "Oh, I've seen them myself and you could not in trath Say if they were bound for a ball or a bath Don't be startin' them fashions now, Mary Macree, Where the mountains of Mourne sweep down to the sea.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_04:C0025#0-158",
+     "artifact_id": "case_04:C0025",
+     "start": 0,
+     "end": 158,
+     "text": "Título original: Gold In The Streets. Lanzamiento: 1997-03-19. Géneros: Drama,Romance,Comedy.Gold In The Streets Película Completa Online 1997 Español Gratis.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_04:C0029#0-216",
+     "artifact_id": "case_04:C0029",
+     "start": 0,
+     "end": 216,
+     "text": "Mar 14, 1997 · Gold in the Streets is a 1997 drama film written by Janet Noble and Noel Pearson, directed by Elizabeth Gill and starring Jim Belushi, Ian Hart and Jared Harris. It is based on Noble’s play Away Alone.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 12
+    },
+    {
+     "unit_id": "case_04:C0030#0-109",
+     "artifact_id": "case_04:C0030",
+     "start": 0,
+     "end": 109,
+     "text": "Gold in the Streets (1997) - Cast and crew credits, including actors, actresses, directors, writers and more.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 12
+    },
+    {
+     "unit_id": "case_04:C0031#0-161",
+     "artifact_id": "case_04:C0031",
+     "start": 0,
+     "end": 161,
+     "text": "Gold in the Streets is a 1997 drama film written by Janet Noble and Noel Pearson, directed by Elizabeth Gill and starring Jim Belushi, Ian Hart and Jared Harris.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 12
+    }
+   ],
+   "output": {
+    "text": "The earlier material states: Gold in the Streets is a 1997 drama film written by Janet Noble and Noel Pearson, directed by Elizabeth Gill and starring Jim Belushi, Ian Hart and Jared Harris.",
+    "sha256": "ab0ec2e1de2d9851a9407d922520c7506264066109d023ec42f591d34a1419d3",
+    "origin": "controlled"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "Where was the place of burial of the director of film Gold In The Street?",
+   "inputs": [
+    {
+     "unit_id": "case_04:C0032#0-214",
+     "artifact_id": "case_04:C0032",
+     "start": 0,
+     "end": 214,
+     "text": "The traditional Irish score by musical group Kila adds some flavor to the proceedings, and Dublin-born, N.Y.-trained Elizabeth Gill directs unobtrusively, without bringing any strong signature to her first feature.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 13
+    },
+    {
+     "unit_id": "case_04:C0028#0-298",
+     "artifact_id": "case_04:C0028",
+     "start": 0,
+     "end": 298,
+     "text": "Gold in the Streets: Directed by Liz Gill. With Karl Geary, Jim Belushi, Ian Hart, Jared Harris. An Irish immigrant lands in the Bronx, working at an Italian-owned bar while living with fellow undocumented immigrants. Fears of deportation and uncertainty about their place haunt him and his cousin.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 12
+    },
+    {
+     "unit_id": "case_04:C0033#0-253",
+     "artifact_id": "case_04:C0033",
+     "start": 0,
+     "end": 253,
+     "text": "New York bartender Mario is not surprised by the arrival of young Liam in his establishment as he sees many a young Irish person walk in his door, fresh faced and eagerly seeking work. Liam quickly fits into this life of little Ireland in the Big Apple.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 13
+    },
+    {
+     "unit_id": "case_04:C0034#0-105",
+     "artifact_id": "case_04:C0034",
+     "start": 0,
+     "end": 105,
+     "text": "Gold in the Streets marked the feature directorial debut for screenwriter and actress Elizabeth Gill. ...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 13
+    },
+    {
+     "unit_id": "case_04:C0035#0-291",
+     "artifact_id": "case_04:C0035",
+     "start": 0,
+     "end": 291,
+     "text": "Gold In The Streets dirigida por Elizabeth Gill. Año: 1997.An Irish immigrant lands in the Bronx, working at an Italian-owned bar while living with fellow undocumented immigrants. Fears of deportation and uncertainty about their place haunt him and his cousin. Póster de Gold In The Streets.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 13
+    },
+    {
+     "unit_id": "case_04:C0036#0-109",
+     "artifact_id": "case_04:C0036",
+     "start": 0,
+     "end": 109,
+     "text": "The person on the left is wearing a striped long-sleeve top and has short hair. Aidan and carrie, Aidan satc.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 13
+    }
+   ],
+   "output": {
+    "text": "Elizabeth Gill (also known as Liz Gill), who is Dublin-born",
+    "sha256": "2968040384b7742e663c5879066f1611d2bc0059ab6b239cd1be0ed3ee3bdfff",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "The earlier material states: Gold in the Streets is a 1997 drama film written by Janet Noble and Noel Pearson, directed by Elizabeth Gill and starring Jim Belushi, Ian Hart and Jared Harris.",
+     "sha256": "ab0ec2e1de2d9851a9407d922520c7506264066109d023ec42f591d34a1419d3",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_04:C0021#0-225",
+   "artifact_id": "case_04:C0021",
+   "start": 0,
+   "end": 225,
+   "text": "Discover the surprising reactions to a gold giveaway in NYC! Find out why people turn down free gold bars and how it all happened.The diamond district legend Arsi sweeping the streets for gold #traxnyc #gold #diamonddistrict.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_04:C0021#0-225",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_04:C0022#0-245",
+   "artifact_id": "case_04:C0022",
+   "start": 0,
+   "end": 245,
+   "text": "You may have heard the common Western expression, \"Streets lined with gold.\" It's often used to describe a heavenly place or areas brimming with wealth and luxury. But there is one street in Karachi, Pakistan, where the phrase is literally true.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_04:C0022#0-245",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_04:C0023#0-153",
+   "artifact_id": "case_04:C0023",
+   "start": 0,
+   "end": 153,
+   "text": "Boy of the Streets (1937). William Nigh.Gold Diggers: The Secret of Bear Mountain (1995). Kevin James Dobson. Gold in the Streets (1996). Elizabeth Gill.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_04:C0023#0-153",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_04:C0024#0-199",
+   "artifact_id": "case_04:C0024",
+   "start": 0,
+   "end": 199,
+   "text": "Oh, I've seen them myself and you could not in trath Say if they were bound for a ball or a bath Don't be startin' them fashions now, Mary Macree, Where the mountains of Mourne sweep down to the sea.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_04:C0024#0-199",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_04:C0025#0-158",
+   "artifact_id": "case_04:C0025",
+   "start": 0,
+   "end": 158,
+   "text": "Título original: Gold In The Streets. Lanzamiento: 1997-03-19. Géneros: Drama,Romance,Comedy.Gold In The Streets Película Completa Online 1997 Español Gratis.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_04:C0025#0-158",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_04:C0027#0-161",
+   "artifact_id": "case_04:C0027",
+   "start": 0,
+   "end": 161,
+   "text": "Gold in the Streets is a 1997 drama film written by Janet Noble and Noel Pearson, directed by Elizabeth Gill and starring Jim Belushi, Ian Hart and Jared Harris.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_04:C0027#0-161",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_04:C0028#0-298",
+   "artifact_id": "case_04:C0028",
+   "start": 0,
+   "end": 298,
+   "text": "Gold in the Streets: Directed by Liz Gill. With Karl Geary, Jim Belushi, Ian Hart, Jared Harris. An Irish immigrant lands in the Bronx, working at an Italian-owned bar while living with fellow undocumented immigrants. Fears of deportation and uncertainty about their place haunt him and his cousin.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_04:C0028#0-298",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_04:C0029#0-216",
+   "artifact_id": "case_04:C0029",
+   "start": 0,
+   "end": 216,
+   "text": "Mar 14, 1997 · Gold in the Streets is a 1997 drama film written by Janet Noble and Noel Pearson, directed by Elizabeth Gill and starring Jim Belushi, Ian Hart and Jared Harris. It is based on Noble’s play Away Alone.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_04:C0029#0-216",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_04:C0030#0-109",
+   "artifact_id": "case_04:C0030",
+   "start": 0,
+   "end": 109,
+   "text": "Gold in the Streets (1997) - Cast and crew credits, including actors, actresses, directors, writers and more.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_04:C0030#0-109",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_04:C0031#0-161",
+   "artifact_id": "case_04:C0031",
+   "start": 0,
+   "end": 161,
+   "text": "Gold in the Streets is a 1997 drama film written by Janet Noble and Noel Pearson, directed by Elizabeth Gill and starring Jim Belushi, Ian Hart and Jared Harris.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_04:C0031#0-161",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_04:C0032#0-214",
+   "artifact_id": "case_04:C0032",
+   "start": 0,
+   "end": 214,
+   "text": "The traditional Irish score by musical group Kila adds some flavor to the proceedings, and Dublin-born, N.Y.-trained Elizabeth Gill directs unobtrusively, without bringing any strong signature to her first feature.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_04:C0032#0-214",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_04:C0033#0-253",
+   "artifact_id": "case_04:C0033",
+   "start": 0,
+   "end": 253,
+   "text": "New York bartender Mario is not surprised by the arrival of young Liam in his establishment as he sees many a young Irish person walk in his door, fresh faced and eagerly seeking work. Liam quickly fits into this life of little Ireland in the Big Apple.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_04:C0033#0-253",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_04:C0034#0-105",
+   "artifact_id": "case_04:C0034",
+   "start": 0,
+   "end": 105,
+   "text": "Gold in the Streets marked the feature directorial debut for screenwriter and actress Elizabeth Gill. ...",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_04:C0034#0-105",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_04:C0035#0-291",
+   "artifact_id": "case_04:C0035",
+   "start": 0,
+   "end": 291,
+   "text": "Gold In The Streets dirigida por Elizabeth Gill. Año: 1997.An Irish immigrant lands in the Bronx, working at an Italian-owned bar while living with fellow undocumented immigrants. Fears of deportation and uncertainty about their place haunt him and his cousin. Póster de Gold In The Streets.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_04:C0035#0-291",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_04:C0036#0-109",
+   "artifact_id": "case_04:C0036",
+   "start": 0,
+   "end": 109,
+   "text": "The person on the left is wearing a striped long-sleeve top and has short hair. Aidan and carrie, Aidan satc.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_04:C0036#0-109",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_04:T03:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_04:C0027",
+      "start": 0,
+      "end": 161,
+      "text": "Gold in the Streets is a 1997 drama film written by Janet Noble and Noel Pearson, directed by Elizabeth Gill and starring Jim Belushi, Ian Hart and Jared Harris."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_04:C0027",
+       "start": 0,
+       "end": 161,
+       "text": "Gold in the Streets is a 1997 drama film written by Janet Noble and Noel Pearson, directed by Elizabeth Gill and starring Jim Belushi, Ian Hart and Jared Harris."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_04:C0028",
+      "start": 0,
+      "end": 298,
+      "text": "Gold in the Streets: Directed by Liz Gill. With Karl Geary, Jim Belushi, Ian Hart, Jared Harris. An Irish immigrant lands in the Bronx, working at an Italian-owned bar while living with fellow undocumented immigrants. Fears of deportation and uncertainty about their place haunt him and his cousin."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_04:C0028",
+       "start": 0,
+       "end": 298,
+       "text": "Gold in the Streets: Directed by Liz Gill. With Karl Geary, Jim Belushi, Ian Hart, Jared Harris. An Irish immigrant lands in the Bronx, working at an Italian-owned bar while living with fellow undocumented immigrants. Fears of deportation and uncertainty about their place haunt him and his cousin."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_04:C0032",
+      "start": 0,
+      "end": 214,
+      "text": "The traditional Irish score by musical group Kila adds some flavor to the proceedings, and Dublin-born, N.Y.-trained Elizabeth Gill directs unobtrusively, without bringing any strong signature to her first feature."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_04:C0032",
+       "start": 0,
+       "end": 214,
+       "text": "The traditional Irish score by musical group Kila adds some flavor to the proceedings, and Dublin-born, N.Y.-trained Elizabeth Gill directs unobtrusively, without bringing any strong signature to her first feature."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_04:C0027#0-161"
+  ],
+  "B": [
+   "case_04:C0032#0-214"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T03",
+   "case": "case_04",
+   "question": "Where was the place of burial of the director of film Gold In The Street?",
+   "target_event": 14,
+   "target_start": 80,
+   "target_end": 139,
+   "target": "Elizabeth Gill (also known as Liz Gill), who is Dublin-born",
+   "candidate_ids": [
+    "C0021",
+    "C0022",
+    "C0023",
+    "C0024",
+    "C0025",
+    "C0027",
+    "C0028",
+    "C0029",
+    "C0030",
+    "C0031",
+    "C0032",
+    "C0033",
+    "C0034",
+    "C0035",
+    "C0036"
+   ],
+   "annotation_status": "assistant_reviewed_pending_human"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0027",
+     "start": 82,
+     "end": 108,
+     "text": "directed by Elizabeth Gill"
+    },
+    {
+     "candidate_id": "C0028",
+     "start": 0,
+     "end": 42,
+     "text": "Gold in the Streets: Directed by Liz Gill."
+    },
+    {
+     "candidate_id": "C0032",
+     "start": 91,
+     "end": 131,
+     "text": "Dublin-born, N.Y.-trained Elizabeth Gill"
+    }
+   ]
+  },
+  "intermediate_origin": "controlled",
+  "intermediate_event": null,
+  "time_order_audit": [
+   {
+    "round": 1,
+    "event": 12,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 10,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 10,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 10,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 10,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 10,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 12,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 12,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 12,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 13,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 12,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 13,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 13,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 13,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 13,
+    "cut": 14,
+    "ok": true
+   }
+  ],
+  "note": "time-order checked for evidence and distractors"
+ }
+}

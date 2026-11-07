@@ -1,0 +1,211 @@
+{
+  "case_id": "case_32:T02",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "case_32:C0006#0-253",
+          "score": 0.12571650743484497,
+          "text": "Crossroads is a 1937 Chinese seriocomedy film directed by Shen Xiling, starring Bai Yang and Zhao Dan. The film exemplified the growing trend of Chinese films by the mid-1930s of incorporating references (both veiled and explicit) to the war with Japan."
+        },
+        {
+          "canonical_id": "case_32:C0007#0-208",
+          "score": 0.06692615896463394,
+          "text": "Director Director. Shen Xiling.Crossroads is a tragi-comedy film by Shen Xiling. Shen Xiling was born in Hangzhou, who studied arts and theatre in Tokyo. Back to China, he was involved into activist threatre."
+        },
+        {
+          "canonical_id": "case_32:C0008#0-253",
+          "score": 0.09047022461891174,
+          "text": "Crossroads is a 1937 Chinese seriocomedy film directed by Shen Xiling, starring Bai Yang and Zhao Dan. The film exemplified the growing trend of Chinese films by the mid-1930s of incorporating references (both veiled and explicit) to the war with Japan."
+        },
+        {
+          "canonical_id": "case_32:C0009#0-226",
+          "score": 0.023413661867380142,
+          "text": "Crossroads is a 1937 Chinese seriocomedy film directed by Shen Xiling, starring Bai Yang and Zhao Dan. The film exemplified the growing trend of Chinese films by the mid-1930s of incorporating references to the war with Japan."
+        },
+        {
+          "canonical_id": "case_32:C0010#0-127",
+          "score": 0.0166007149964571,
+          "text": "Find out how and where to watch \"Crossroads\" online on Netflix, Prime Video, and Disney+ today – including 4K and free options."
+        },
+        {
+          "canonical_id": "case_32:C0017#0-76",
+          "score": 0.06629899144172668,
+          "text": "Shen Xiling. Born. 1904. Hangzhou, Zhejiang, China.Traditional Chinese. 沈西苓."
+        },
+        {
+          "canonical_id": "case_32:C0018#0-241",
+          "score": 0.08352697640657425,
+          "text": "Director: Shen Xiling. Starring: Zhao Dan, Bai Yang. 1937, 110 min.This popular film marked the emergence of Zhao Dan and Bai Yang as major stars. Shen’spromising career was cut short by his early death in wartime Chongquing in 1940.” (via)."
+        },
+        {
+          "canonical_id": "case_32:C0019#0-277",
+          "score": 0.01331302523612976,
+          "text": "Death Date is a mysterious place where you will find out when you are going to die... but do you have the guts?Don't wait any longer, go to the Death Form, enter your (or someone else's) details and click calculate. The site will process your data and calculate the Death Date."
+        },
+        {
+          "canonical_id": "case_32:C0020#0-261",
+          "score": 0.1460382491350174,
+          "text": "Shen Xiling (Chinese沉 西 苓; * 1904 in Hangzhou, Zhejiang, † December 19, 1940 in Chongqing) was a Chinese film director and screenwriter. Shen Xiling learned textile dyeing before turning to art. He first completed an internship as a stage in a Japanese theater."
+        },
+        {
+          "canonical_id": "case_32:C0016#0-205",
+          "score": 0.03481559082865715,
+          "text": "Xiling Shen was born in 1904 in Zhejiang, China. He was a director and writer, known for Перекрёстки (1937), Nu xing de na han (1933) and Xiang chou (1934). He died on 17 December 1940 in Chongqing, China."
+        },
+        {
+          "canonical_id": "case_32:C0026#0-98",
+          "score": 0.07149878889322281,
+          "text": "Shen Xiling (1904 – 17 December 1940) was a Chinese film director.Hangzhou, Zhejiang, China. Died."
+        },
+        {
+          "canonical_id": "case_32:C0027#0-189",
+          "score": 0.007682323921471834,
+          "text": "Shen Xiling de nom original Shen Xuecheng, també va utilitzar el pseudònim de Ye Chen. Va néixer el 1904, a Deqing, província de Zhejiang (Xina) durant els darrers anys de la dinastia Qing."
+        },
+        {
+          "canonical_id": "case_32:C0028#0-206",
+          "score": 0.04694981127977371,
+          "text": "Shen Xiling. b. 1904, Hangzhou, Zhejiang province d. 19 December 1940 Director, screenwriter. An important director of the 1930s, Shen Xiling studied textile coloring technology before turning to fine arts."
+        },
+        {
+          "canonical_id": "case_32:C0029#0-235",
+          "score": 0.027066757902503014,
+          "text": "Shen Xiling died of typhoid fever in Chongqing on 17 December 1940 at the age of 36. [11] [12] Having relocated to the city in November 1937 amid the Japanese invasion of Shanghai, he succumbed to the illness during the wartime period."
+        },
+        {
+          "canonical_id": "case_32:C0030#0-273",
+          "score": 0.01842300407588482,
+          "text": "Director Director. Shen Xiling.He entered Mingxing studios in 1933 and directed a few films before leaving Shanghai during the war to Chongqing in 1939. He died young at the age of 36 in 1940, but the films he left became classics of Chinese cinema. Crossroads is one them."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 950,
+      "seconds": 0.199,
+      "target": "**Crossroads (1937 Film)** — directed by **Shen Xiling** (1904 – **17 December 1940**)",
+      "target_tokens": 35,
+      "total_tokens": 985
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "case_32:C0006#0-253",
+          "score": 0.25996682047843933,
+          "text": "Crossroads is a 1937 Chinese seriocomedy film directed by Shen Xiling, starring Bai Yang and Zhao Dan. The film exemplified the growing trend of Chinese films by the mid-1930s of incorporating references (both veiled and explicit) to the war with Japan."
+        },
+        {
+          "canonical_id": "case_32:C0007#0-208",
+          "score": 0.04357738792896271,
+          "text": "Director Director. Shen Xiling.Crossroads is a tragi-comedy film by Shen Xiling. Shen Xiling was born in Hangzhou, who studied arts and theatre in Tokyo. Back to China, he was involved into activist threatre."
+        },
+        {
+          "canonical_id": "case_32:C0008#0-253",
+          "score": 0.3527296781539917,
+          "text": "Crossroads is a 1937 Chinese seriocomedy film directed by Shen Xiling, starring Bai Yang and Zhao Dan. The film exemplified the growing trend of Chinese films by the mid-1930s of incorporating references (both veiled and explicit) to the war with Japan."
+        },
+        {
+          "canonical_id": "case_32:C0009#0-226",
+          "score": 0.08416184037923813,
+          "text": "Crossroads is a 1937 Chinese seriocomedy film directed by Shen Xiling, starring Bai Yang and Zhao Dan. The film exemplified the growing trend of Chinese films by the mid-1930s of incorporating references to the war with Japan."
+        },
+        {
+          "canonical_id": "case_32:C0010#0-127",
+          "score": 0.011083252727985382,
+          "text": "Find out how and where to watch \"Crossroads\" online on Netflix, Prime Video, and Disney+ today – including 4K and free options."
+        },
+        {
+          "canonical_id": "case_32:C0017#0-76",
+          "score": 0.017907489091157913,
+          "text": "Shen Xiling. Born. 1904. Hangzhou, Zhejiang, China.Traditional Chinese. 沈西苓."
+        },
+        {
+          "canonical_id": "case_32:C0018#0-241",
+          "score": 0.06262636184692383,
+          "text": "Director: Shen Xiling. Starring: Zhao Dan, Bai Yang. 1937, 110 min.This popular film marked the emergence of Zhao Dan and Bai Yang as major stars. Shen’spromising career was cut short by his early death in wartime Chongquing in 1940.” (via)."
+        },
+        {
+          "canonical_id": "case_32:C0019#0-277",
+          "score": 0.00531227421015501,
+          "text": "Death Date is a mysterious place where you will find out when you are going to die... but do you have the guts?Don't wait any longer, go to the Death Form, enter your (or someone else's) details and click calculate. The site will process your data and calculate the Death Date."
+        },
+        {
+          "canonical_id": "case_32:C0020#0-261",
+          "score": 0.016597293317317963,
+          "text": "Shen Xiling (Chinese沉 西 苓; * 1904 in Hangzhou, Zhejiang, † December 19, 1940 in Chongqing) was a Chinese film director and screenwriter. Shen Xiling learned textile dyeing before turning to art. He first completed an internship as a stage in a Japanese theater."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 562,
+      "seconds": 0.136,
+      "target": "The earlier material states: Crossroads is a 1937 Chinese seriocomedy film directed by Shen Xiling, starring Bai Yang and Zhao Dan. The film exemplified the growing trend of Chinese films by the mid-1930s of incorporating references (both veiled and explicit) to the wa",
+      "target_tokens": 64,
+      "total_tokens": 626
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.34073406457901,
+          "text": "The earlier material states: Crossroads is a 1937 Chinese seriocomedy film directed by Shen Xiling, starring Bai Yang and Zhao Dan. The film exemplified the growing trend of Chinese films by the mid-1930s of incorporating references (both veiled and explicit) to the wa"
+        },
+        {
+          "canonical_id": "case_32:C0016#0-205",
+          "score": 0.23872050642967224,
+          "text": "Xiling Shen was born in 1904 in Zhejiang, China. He was a director and writer, known for Перекрёстки (1937), Nu xing de na han (1933) and Xiang chou (1934). He died on 17 December 1940 in Chongqing, China."
+        },
+        {
+          "canonical_id": "case_32:C0026#0-98",
+          "score": 0.13982822000980377,
+          "text": "Shen Xiling (1904 – 17 December 1940) was a Chinese film director.Hangzhou, Zhejiang, China. Died."
+        },
+        {
+          "canonical_id": "case_32:C0027#0-189",
+          "score": 0.029683519154787064,
+          "text": "Shen Xiling de nom original Shen Xuecheng, també va utilitzar el pseudònim de Ye Chen. Va néixer el 1904, a Deqing, província de Zhejiang (Xina) durant els darrers anys de la dinastia Qing."
+        },
+        {
+          "canonical_id": "case_32:C0028#0-206",
+          "score": 0.03924321383237839,
+          "text": "Shen Xiling. b. 1904, Hangzhou, Zhejiang province d. 19 December 1940 Director, screenwriter. An important director of the 1930s, Shen Xiling studied textile coloring technology before turning to fine arts."
+        },
+        {
+          "canonical_id": "case_32:C0029#0-235",
+          "score": 0.06091125309467316,
+          "text": "Shen Xiling died of typhoid fever in Chongqing on 17 December 1940 at the age of 36. [11] [12] Having relocated to the city in November 1937 amid the Japanese invasion of Shanghai, he succumbed to the illness during the wartime period."
+        },
+        {
+          "canonical_id": "case_32:C0030#0-273",
+          "score": 0.005644948687404394,
+          "text": "Director Director. Shen Xiling.He entered Mingxing studios in 1933 and directed a few films before leaving Shanghai during the war to Chongqing in 1939. He died young at the age of 36 in 1940, but the films he left became classics of Chinese cinema. Crossroads is one them."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 514,
+      "seconds": 0.124,
+      "target": "**Crossroads (1937 Film)** — directed by **Shen Xiling** (1904 – **17 December 1940**)",
+      "target_tokens": 35,
+      "total_tokens": 549
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 17.4,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

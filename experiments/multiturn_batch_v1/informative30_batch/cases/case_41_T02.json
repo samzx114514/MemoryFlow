@@ -1,0 +1,1102 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_41:T02",
+ "trajectory_id": "case_41",
+ "trajectory_case": "case_41",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "The Central Naval Museum is in Saint Petersburg, Russia, founded January 24, 1709.",
+  "sha256": "92ad6c9abeff069b674824cd816f8b229122dff31800401f121e80be037c7e78",
+  "origin": "recorded_target",
+  "artifact_id": "case_41:T02",
+  "start": 0,
+  "end": 82,
+  "original_target": {
+   "text": "The Central Naval Museum is in Saint Petersburg, Russia, founded January 24, 1709.",
+   "artifact_id": "case_41:T02"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "When was the brand opened in the city where Central Naval Museum was located?",
+   "inputs": [
+    {
+     "unit_id": "case_41:C0003#0-263",
+     "artifact_id": "case_41:C0003",
+     "start": 0,
+     "end": 263,
+     "text": "The Central Naval Museum is located in St. Petersburg, Russia. Visitors can typically reach it via public transport, including buses and metro lines that serve the city center. Many travelers find it convenient to use ride-sharing apps or taxis for direct access.",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_41:C0002#0-233",
+     "artifact_id": "case_41:C0002",
+     "start": 0,
+     "end": 233,
+     "text": "What is the Central Naval Museum in St Petersburg? A naval museum devoted to the history of the Russian Navy — one of the oldest museums in Russia and one of the largest maritime museums in the world, with more than 700,000 exhibits.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_41:C0004#0-282",
+     "artifact_id": "case_41:C0004",
+     "start": 0,
+     "end": 282,
+     "text": "The Naval Museum was originally at the tip of Vasil'evskly Island in the crumbling old Stock Exchange building. Now in a wonderful updated and modernised old building.Moved to a new location, still hard to picture it not being on Vasilyevsky Island, its home for the last 100 years.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_41:C0005#0-167",
+     "artifact_id": "case_41:C0005",
+     "start": 0,
+     "end": 167,
+     "text": "Located in Saint Petersburg, the Central Naval Museum highlights over three centuries of Russian naval history. Did you know it was founded in 1709 by Peter the Great?",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_41:C0006#0-252",
+     "artifact_id": "case_41:C0006",
+     "start": 0,
+     "end": 252,
+     "text": "The Central Naval Museum has 6 branches. The Cruiser Aurora, the submarine Narodovolets, the Museum in Kronstadt, and the Museum of the Road of Life on Lake Ladoga are located in St. Petersburg. In Novorossiysk, you can see the Cruiser Mikhail Kutuzov.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_41:C0007#0-280",
+     "artifact_id": "case_41:C0007",
+     "start": 0,
+     "end": 280,
+     "text": "The Central Naval Museum originated as the Model-Kammer, founded by Peter the Great on January 24, 1709, in the Main Admiralty of St. Petersburg, initially serving as a repository for ship models, drawings, and naval artifacts to support shipbuilding efforts for the Baltic Fleet.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_41:C0008#0-151",
+     "artifact_id": "case_41:C0008",
+     "start": 0,
+     "end": 151,
+     "text": "Explore Russia's naval legacy at the Central Naval Museum in St. Petersburg, featuring 700,000+ artifacts, ship models, maps, and educational programs.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_41:C0009#0-275",
+     "artifact_id": "case_41:C0009",
+     "start": 0,
+     "end": 275,
+     "text": "Visit the Central Naval Museum in St Petersburg: one of the world's largest maritime museums, with 700,000+ exhibits, ship models, hours and how to visit.When is the Central Naval Museum open? 10:00 to 18:00, with the ticket office closing at 17:15. It is closed on Tuesdays.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_41:C0010#0-265",
+     "artifact_id": "case_41:C0010",
+     "start": 0,
+     "end": 265,
+     "text": "Home Explore Saint Petersburg Central Naval Museum.Following a move to this beautifully repurposed building opposite the former shipyard of New Holland, the Central Naval Museum has moved into the 21st century and is now one of St Petersburg's best history museums.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 4
+    }
+   ],
+   "output": {
+    "text": "Let me search for more details about the Central Naval Museum's Wikipedia article and any brand association.",
+    "sha256": "862b1d52468e9603c5ad859ff7e8e67021650620739f9f7bda51ce9afa6e5f4e",
+    "origin": "recorded_agent_message"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "When was the brand opened in the city where Central Naval Museum was located?",
+   "inputs": [
+    {
+     "unit_id": "case_41:C0028#0-255",
+     "artifact_id": "case_41:C0028",
+     "start": 0,
+     "end": 255,
+     "text": "The museum originates from the St. Petersburg Model Chamber, used to store models and drawings related to shipbuilding. The Model Chamber was first mentioned in records on 24 January 1709 [citation needed], the date now used as the birthday of the museum.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 15
+    },
+    {
+     "unit_id": "case_41:C0003#0-263",
+     "artifact_id": "case_41:C0003",
+     "start": 0,
+     "end": 263,
+     "text": "The Central Naval Museum is located in St. Petersburg, Russia. Visitors can typically reach it via public transport, including buses and metro lines that serve the city center. Many travelers find it convenient to use ride-sharing apps or taxis for direct access.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_41:C0011#0-263",
+     "artifact_id": "case_41:C0011",
+     "start": 0,
+     "end": 263,
+     "text": "The Central Naval Museum is located in St. Petersburg, Russia. Visitors can typically reach it via public transport, including buses and metro lines that serve the city center. Many travelers find it convenient to use ride-sharing apps or taxis for direct access.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_41:C0012#0-208",
+     "artifact_id": "case_41:C0012",
+     "start": 0,
+     "end": 208,
+     "text": "The Central Naval Museum is located in **St. Petersburg, Russia**. The question asks about when a \"brand\" was opened in that city. Let me investigate this further, since the museum itself was founded in 1709.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 5
+    },
+    {
+     "unit_id": "case_41:C0013#0-228",
+     "artifact_id": "case_41:C0013",
+     "start": 0,
+     "end": 228,
+     "text": "Saint Petersburg, formerly known as Petrograd.Moyka River, flowing through Central Saint Petersburg. The Trinity Bridge is a landmark of Art Nouveau design. People walking on the main street of Saint Petersburg, Nevsky Prospekt.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_41:C0014#0-271",
+     "artifact_id": "case_41:C0014",
+     "start": 0,
+     "end": 271,
+     "text": "Admiralteisky, St. Petersburg's historical district, offers a rich tapestry of cultural landmarks and exquisite dining options. Majestic architectural gems such as the Winter Palace, the Hermitage Museum, and the stately Saint Isaac's Cathedral form the neighborhood's...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_41:C0015#0-189",
+     "artifact_id": "case_41:C0015",
+     "start": 0,
+     "end": 189,
+     "text": "The association was founded on March 1, 2009 in St. Petersburg on board museum icebreaker Krasin and is aimed at preservation of Russian maritime heritage for education of young generation.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_41:C0016#0-226",
+     "artifact_id": "case_41:C0016",
+     "start": 0,
+     "end": 226,
+     "text": "› St. Petersburg.Perfect for history lovers, museum enthusiasts, educators, and travelers, Central Naval Museum serves as both an informative companion for visitors and a fascinating armchair exploration for readers worldwide.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_41:C0017#0-245",
+     "artifact_id": "case_41:C0017",
+     "start": 0,
+     "end": 245,
+     "text": "One of St Petersburg's most important historic sites is set to be redeveloped as part of a 12 billion ruble project.While the works are being exhibited at the nearby Central Naval Museum, the island will be open to the public for the first time.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 6
+    }
+   ],
+   "output": {
+    "text": "The Central Naval Museum is in Saint Petersburg, Russia, founded January 24, 1709.",
+    "sha256": "92ad6c9abeff069b674824cd816f8b229122dff31800401f121e80be037c7e78",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "Let me search for more details about the Central Naval Museum's Wikipedia article and any brand association.",
+     "sha256": "862b1d52468e9603c5ad859ff7e8e67021650620739f9f7bda51ce9afa6e5f4e",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_41:C0002#0-233",
+   "artifact_id": "case_41:C0002",
+   "start": 0,
+   "end": 233,
+   "text": "What is the Central Naval Museum in St Petersburg? A naval museum devoted to the history of the Russian Navy — one of the oldest museums in Russia and one of the largest maritime museums in the world, with more than 700,000 exhibits.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_41:C0002#0-233",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_41:C0003#0-263",
+   "artifact_id": "case_41:C0003",
+   "start": 0,
+   "end": 263,
+   "text": "The Central Naval Museum is located in St. Petersburg, Russia. Visitors can typically reach it via public transport, including buses and metro lines that serve the city center. Many travelers find it convenient to use ride-sharing apps or taxis for direct access.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_41:C0003#0-263",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_41:C0003#0-263",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_41:C0004#0-282",
+   "artifact_id": "case_41:C0004",
+   "start": 0,
+   "end": 282,
+   "text": "The Naval Museum was originally at the tip of Vasil'evskly Island in the crumbling old Stock Exchange building. Now in a wonderful updated and modernised old building.Moved to a new location, still hard to picture it not being on Vasilyevsky Island, its home for the last 100 years.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_41:C0004#0-282",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_41:C0005#0-167",
+   "artifact_id": "case_41:C0005",
+   "start": 0,
+   "end": 167,
+   "text": "Located in Saint Petersburg, the Central Naval Museum highlights over three centuries of Russian naval history. Did you know it was founded in 1709 by Peter the Great?",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_41:C0005#0-167",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_41:C0006#0-252",
+   "artifact_id": "case_41:C0006",
+   "start": 0,
+   "end": 252,
+   "text": "The Central Naval Museum has 6 branches. The Cruiser Aurora, the submarine Narodovolets, the Museum in Kronstadt, and the Museum of the Road of Life on Lake Ladoga are located in St. Petersburg. In Novorossiysk, you can see the Cruiser Mikhail Kutuzov.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_41:C0006#0-252",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_41:C0007#0-280",
+   "artifact_id": "case_41:C0007",
+   "start": 0,
+   "end": 280,
+   "text": "The Central Naval Museum originated as the Model-Kammer, founded by Peter the Great on January 24, 1709, in the Main Admiralty of St. Petersburg, initially serving as a repository for ship models, drawings, and naval artifacts to support shipbuilding efforts for the Baltic Fleet.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_41:C0007#0-280",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_41:C0008#0-151",
+   "artifact_id": "case_41:C0008",
+   "start": 0,
+   "end": 151,
+   "text": "Explore Russia's naval legacy at the Central Naval Museum in St. Petersburg, featuring 700,000+ artifacts, ship models, maps, and educational programs.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_41:C0008#0-151",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_41:C0009#0-275",
+   "artifact_id": "case_41:C0009",
+   "start": 0,
+   "end": 275,
+   "text": "Visit the Central Naval Museum in St Petersburg: one of the world's largest maritime museums, with 700,000+ exhibits, ship models, hours and how to visit.When is the Central Naval Museum open? 10:00 to 18:00, with the ticket office closing at 17:15. It is closed on Tuesdays.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_41:C0009#0-275",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_41:C0010#0-265",
+   "artifact_id": "case_41:C0010",
+   "start": 0,
+   "end": 265,
+   "text": "Home Explore Saint Petersburg Central Naval Museum.Following a move to this beautifully repurposed building opposite the former shipyard of New Holland, the Central Naval Museum has moved into the 21st century and is now one of St Petersburg's best history museums.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_41:C0010#0-265",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_41:C0011#0-263",
+   "artifact_id": "case_41:C0011",
+   "start": 0,
+   "end": 263,
+   "text": "The Central Naval Museum is located in St. Petersburg, Russia. Visitors can typically reach it via public transport, including buses and metro lines that serve the city center. Many travelers find it convenient to use ride-sharing apps or taxis for direct access.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_41:C0011#0-263",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_41:C0012#0-208",
+   "artifact_id": "case_41:C0012",
+   "start": 0,
+   "end": 208,
+   "text": "The Central Naval Museum is located in **St. Petersburg, Russia**. The question asks about when a \"brand\" was opened in that city. Let me investigate this further, since the museum itself was founded in 1709.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_41:C0012#0-208",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_41:C0013#0-228",
+   "artifact_id": "case_41:C0013",
+   "start": 0,
+   "end": 228,
+   "text": "Saint Petersburg, formerly known as Petrograd.Moyka River, flowing through Central Saint Petersburg. The Trinity Bridge is a landmark of Art Nouveau design. People walking on the main street of Saint Petersburg, Nevsky Prospekt.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_41:C0013#0-228",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_41:C0014#0-271",
+   "artifact_id": "case_41:C0014",
+   "start": 0,
+   "end": 271,
+   "text": "Admiralteisky, St. Petersburg's historical district, offers a rich tapestry of cultural landmarks and exquisite dining options. Majestic architectural gems such as the Winter Palace, the Hermitage Museum, and the stately Saint Isaac's Cathedral form the neighborhood's...",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_41:C0014#0-271",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_41:C0015#0-189",
+   "artifact_id": "case_41:C0015",
+   "start": 0,
+   "end": 189,
+   "text": "The association was founded on March 1, 2009 in St. Petersburg on board museum icebreaker Krasin and is aimed at preservation of Russian maritime heritage for education of young generation.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_41:C0015#0-189",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_41:C0016#0-226",
+   "artifact_id": "case_41:C0016",
+   "start": 0,
+   "end": 226,
+   "text": "› St. Petersburg.Perfect for history lovers, museum enthusiasts, educators, and travelers, Central Naval Museum serves as both an informative companion for visitors and a fascinating armchair exploration for readers worldwide.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_41:C0016#0-226",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_41:C0017#0-245",
+   "artifact_id": "case_41:C0017",
+   "start": 0,
+   "end": 245,
+   "text": "One of St Petersburg's most important historic sites is set to be redeveloped as part of a 12 billion ruble project.While the works are being exhibited at the nearby Central Naval Museum, the island will be open to the public for the first time.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_41:C0017#0-245",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_41:C0018#0-287",
+   "artifact_id": "case_41:C0018",
+   "start": 0,
+   "end": 287,
+   "text": "Saint Petersburg is home to more than two hundred museums, many of them in historic buildings. The largest is the Hermitage Museum that features the interiors of the former imperial residence and a vast collection of art. The Russian Museum is a large museum devoted to Russian fine art.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_41:C0019#0-169",
+   "artifact_id": "case_41:C0019",
+   "start": 0,
+   "end": 169,
+   "text": "Learn more about the navy museum in St Petersburg.Russia's main naval museum tells the fascinating story of the development, growth and achievements of the Russian navy.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_41:C0020#0-234",
+   "artifact_id": "case_41:C0020",
+   "start": 0,
+   "end": 234,
+   "text": "The Center of Saint Petersburg is the area of main interest to the traveler, home to most attractions of the metropolis. It's bounded by the Neva river and the Obvodny Canal, on a set of islands formed by numerous rivers and channels.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_41:C0021#0-226",
+   "artifact_id": "case_41:C0021",
+   "start": 0,
+   "end": 226,
+   "text": "central naval museum. Imperial era. The museum originates from the St. Petersburg Model Chamber, used to store models and drawings related to shipbuilding. The Model Chamber was first mentioned in records on 24 January 1709...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_41:C0022#0-237",
+   "artifact_id": "case_41:C0022",
+   "start": 0,
+   "end": 237,
+   "text": "Places of interest and businesses with ratings, reviews, and photos on the map of Saint Petersburg. Get driving and public transport directions with real-time traffic and see satellite maps and panoramas of city streets with Yandex Maps.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_41:C0023#0-282",
+   "artifact_id": "case_41:C0023",
+   "start": 0,
+   "end": 282,
+   "text": "Central Naval Museum wikidata:Q190439.BAL364926 The Battle of Grengham on 27th July 1720 (oil on canvas) by Perrot, Ferdinand Victor (1808-41); State Central Navy Museum, St. Petersburg; (add.info.: The battle of Grengham took place in the Aland Islands in the Ledsund strait; It...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_41:C0024#0-263",
+   "artifact_id": "case_41:C0024",
+   "start": 0,
+   "end": 263,
+   "text": "Central Naval Museum, St. Petersburg, Russia.The Battle of Sinop on 18 November, 1853 (Night after Battle), Oil on canvas, Ivan Konstantinovič Ajvazovskij (Russian-Armenian Romantic painter, 1817–1900), 220 x 331 cm., Central Naval Museum, St. Petersburg, Russia.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_41:C0025#0-255",
+   "artifact_id": "case_41:C0025",
+   "start": 0,
+   "end": 255,
+   "text": "Institution page template, intended for use in the \"institution\" field of the {{Artwork}} and {{Photograph}} templates to provide additional information and links for GLAM (Galleries, Libraries, Archives, and Museums) institutions which hold the artworks.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_41:C0026#0-71",
+   "artifact_id": "case_41:C0026",
+   "start": 0,
+   "end": 71,
+   "text": "Recent changes. Random Lexeme. Wikidata.location. Central Naval Museum.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_41:C0027#0-265",
+   "artifact_id": "case_41:C0027",
+   "start": 0,
+   "end": 265,
+   "text": "The Naval Museum is a must do. Amazing vessels that the volunteers are working so hard to preserve. Amazing to walk on and thru these historic vessels.The Naval Museum is well worth the stop! We have taken many visiting family members to the Galveston Naval Museum.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_41:C0028#0-255",
+   "artifact_id": "case_41:C0028",
+   "start": 0,
+   "end": 255,
+   "text": "The museum originates from the St. Petersburg Model Chamber, used to store models and drawings related to shipbuilding. The Model Chamber was first mentioned in records on 24 January 1709 [citation needed], the date now used as the birthday of the museum.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_41:C0028#0-255",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_41:C0029#0-264",
+   "artifact_id": "case_41:C0029",
+   "start": 0,
+   "end": 264,
+   "text": "The museum originates from the St. Petersburg Model Chamber - shipbuilding storage models and drawings. It was on January 24, 1709 when Peter I reading : “Take the Model Chamber out of my house and place it by the shipyard, wherever a proper place is available …”.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_41:C0030#0-275",
+   "artifact_id": "case_41:C0030",
+   "start": 0,
+   "end": 275,
+   "text": "January 13 (24), 1709 - the prototype of the museum, the Camera Model, 1805 - the Maritime Museum. Ruslan Nekhai, Director of the of the Russian Ministry of Defense. The opening hours of the exhibition halls are from: 10.00 to 18.00. The ticket office stops working at 17.15.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_41:C0031#0-284",
+   "artifact_id": "case_41:C0031",
+   "start": 0,
+   "end": 284,
+   "text": "The Central Naval Museum originated as the Model-Kammer, founded by Peter the Great on January 24, 1709, in the Main Admiralty of St. Petersburg, initially serving as a repository for ship models, drawings, and naval artifacts to support shipbuilding efforts for the Baltic Fleet. [1]",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_41:C0032#0-291",
+   "artifact_id": "case_41:C0032",
+   "start": 0,
+   "end": 291,
+   "text": "The Central Naval Museum in Saint Petersburg, Russia, stands as one of the oldest and most prestigious maritime museums in the world. Founded in 1709 by Peter the Great, it originally served as a model chamber for shipbuilding, preserving naval artifacts to support Russia’s expanding fleet.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_41:C0033#0-134",
+   "artifact_id": "case_41:C0033",
+   "start": 0,
+   "end": 134,
+   "text": "naval museum in Saint Petersburg, Russia.Central Naval Museum.jpg 3,700 × 2,450; 3.9 MB. 1 reference. imported from Wikimedia project.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_41:C0034#0-214",
+   "artifact_id": "case_41:C0034",
+   "start": 0,
+   "end": 214,
+   "text": "Following a move to this beautifully repurposed building opposite the former shipyard of New Holland, the Central Naval Museum has moved into the 21st century and is now one of St Petersburg's best history museums.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_41:C0035#0-252",
+   "artifact_id": "case_41:C0035",
+   "start": 0,
+   "end": 252,
+   "text": "The Central Naval Museum has 6 branches. The Cruiser Aurora, the submarine Narodovolets, the Museum in Kronstadt, and the Museum of the Road of Life on Lake Ladoga are located in St. Petersburg. In Novorossiysk, you can see the Cruiser Mikhail Kutuzov.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_41:C0036#0-250",
+   "artifact_id": "case_41:C0036",
+   "start": 0,
+   "end": 250,
+   "text": "The Naval Museum was originally at the tip of Vasil'evskly Island in the crumbling old Stock Exchange building. Now in a wonderful updated and modernised old building. But unfortunately there's no indication on the old building to say where its gone!",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_41:C0037#0-216",
+   "artifact_id": "case_41:C0037",
+   "start": 0,
+   "end": 216,
+   "text": "The Central Naval Museum has 7 branches. In 1956, the Museum opened its first branch on the legendary cruiser Aurora (1), the most famous cruiser in the world, a participant in the Great October Socialist Revolution.",
+   "occurrences": [],
+   "pool_only": true
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_41:T02:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_41:C0003",
+      "start": 0,
+      "end": 263,
+      "text": "The Central Naval Museum is located in St. Petersburg, Russia. Visitors can typically reach it via public transport, including buses and metro lines that serve the city center. Many travelers find it convenient to use ride-sharing apps or taxis for direct access."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_41:C0003",
+       "start": 0,
+       "end": 263,
+       "text": "The Central Naval Museum is located in St. Petersburg, Russia. Visitors can typically reach it via public transport, including buses and metro lines that serve the city center. Many travelers find it convenient to use ride-sharing apps or taxis for direct access."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_41:C0003",
+      "start": 0,
+      "end": 263,
+      "text": "The Central Naval Museum is located in St. Petersburg, Russia. Visitors can typically reach it via public transport, including buses and metro lines that serve the city center. Many travelers find it convenient to use ride-sharing apps or taxis for direct access."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_41:C0003",
+       "start": 0,
+       "end": 263,
+       "text": "The Central Naval Museum is located in St. Petersburg, Russia. Visitors can typically reach it via public transport, including buses and metro lines that serve the city center. Many travelers find it convenient to use ride-sharing apps or taxis for direct access."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_41:C0028",
+      "start": 0,
+      "end": 255,
+      "text": "The museum originates from the St. Petersburg Model Chamber, used to store models and drawings related to shipbuilding. The Model Chamber was first mentioned in records on 24 January 1709 [citation needed], the date now used as the birthday of the museum."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_41:C0028",
+       "start": 0,
+       "end": 255,
+       "text": "The museum originates from the St. Petersburg Model Chamber, used to store models and drawings related to shipbuilding. The Model Chamber was first mentioned in records on 24 January 1709 [citation needed], the date now used as the birthday of the museum."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "group_id": "case_41:T02:support_g02",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_41:C0011",
+      "start": 0,
+      "end": 263,
+      "text": "The Central Naval Museum is located in St. Petersburg, Russia. Visitors can typically reach it via public transport, including buses and metro lines that serve the city center. Many travelers find it convenient to use ride-sharing apps or taxis for direct access."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_41:C0011",
+       "start": 0,
+       "end": 263,
+       "text": "The Central Naval Museum is located in St. Petersburg, Russia. Visitors can typically reach it via public transport, including buses and metro lines that serve the city center. Many travelers find it convenient to use ride-sharing apps or taxis for direct access."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_41:C0011",
+      "start": 0,
+      "end": 263,
+      "text": "The Central Naval Museum is located in St. Petersburg, Russia. Visitors can typically reach it via public transport, including buses and metro lines that serve the city center. Many travelers find it convenient to use ride-sharing apps or taxis for direct access."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_41:C0011",
+       "start": 0,
+       "end": 263,
+       "text": "The Central Naval Museum is located in St. Petersburg, Russia. Visitors can typically reach it via public transport, including buses and metro lines that serve the city center. Many travelers find it convenient to use ride-sharing apps or taxis for direct access."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_41:C0028",
+      "start": 0,
+      "end": 255,
+      "text": "The museum originates from the St. Petersburg Model Chamber, used to store models and drawings related to shipbuilding. The Model Chamber was first mentioned in records on 24 January 1709 [citation needed], the date now used as the birthday of the museum."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_41:C0028",
+       "start": 0,
+       "end": 255,
+       "text": "The museum originates from the St. Petersburg Model Chamber, used to store models and drawings related to shipbuilding. The Model Chamber was first mentioned in records on 24 January 1709 [citation needed], the date now used as the birthday of the museum."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_41:C0003#0-263"
+  ],
+  "B": [
+   "case_41:C0028#0-255"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T02",
+   "case": "case_41",
+   "question": "When was the brand opened in the city where Central Naval Museum was located?",
+   "target_event": 17,
+   "target_start": 0,
+   "target_end": 82,
+   "target": "The Central Naval Museum is in Saint Petersburg, Russia, founded January 24, 1709.",
+   "candidate_ids": [
+    "C0002",
+    "C0003",
+    "C0004",
+    "C0005",
+    "C0006",
+    "C0007",
+    "C0008",
+    "C0009",
+    "C0010",
+    "C0011",
+    "C0013",
+    "C0014",
+    "C0015",
+    "C0016",
+    "C0017",
+    "C0018",
+    "C0019",
+    "C0020",
+    "C0021",
+    "C0022",
+    "C0023",
+    "C0024",
+    "C0025",
+    "C0026",
+    "C0027",
+    "C0028",
+    "C0029",
+    "C0030",
+    "C0031",
+    "C0032",
+    "C0033",
+    "C0034",
+    "C0035",
+    "C0036",
+    "C0037",
+    "C0012"
+   ],
+   "annotation_status": "model_annotated_pending_human_review"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0003",
+     "start": 0,
+     "end": 43,
+     "text": "The Central Naval Museum is located in St. "
+    },
+    {
+     "candidate_id": "C0003",
+     "start": 43,
+     "end": 63,
+     "text": "Petersburg, Russia. "
+    },
+    {
+     "candidate_id": "C0028",
+     "start": 120,
+     "end": 255,
+     "text": "The Model Chamber was first mentioned in records on 24 January 1709 [citation needed], the date now used as the birthday of the museum."
+    }
+   ]
+  },
+  "intermediate_origin": "recorded_agent_message",
+  "intermediate_event": 14,
+  "time_order_audit": [
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 15,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 3,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 4,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 5,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 6,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 6,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 6,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 6,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 6,
+    "cut": 17,
+    "ok": true
+   }
+  ],
+  "note": "time-order checked for evidence and distractors"
+ }
+}

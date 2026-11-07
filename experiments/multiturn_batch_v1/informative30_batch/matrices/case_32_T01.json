@@ -1,0 +1,211 @@
+{
+  "case_id": "case_32:T01",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "case_32:C0001#0-246",
+          "score": 0.18673118948936462,
+          "text": "The Lyons Mail is a 1931 British historical mystery adventure film directed by Arthur Maude and starring John Martin-Harvey, Norah Baring, and Ben Webster. It was written by H. Fowler Mear based on the 1877 play The Lyons Mail by Charles Reade..."
+        },
+        {
+          "canonical_id": "case_32:C0002#0-267",
+          "score": 0.02366499789059162,
+          "text": "Your diary date (if set) and watched status for this film will remain publicly visible if you change the privacy level of this entry. Add members to your Close Friends from their profile. Set your account default in Settings.The Lyons Mail. Where to watch. JustWatch."
+        },
+        {
+          "canonical_id": "case_32:C0003#0-109",
+          "score": 0.05863802880048752,
+          "text": "The Lyons Mail: Directed by Arthur Maude. With John Martin Harvey, Norah Baring, Ben Webster, Moore Marriott."
+        },
+        {
+          "canonical_id": "case_32:C0004#0-223",
+          "score": 0.0688289925456047,
+          "text": "The Lyons Mail is a mystery film directed by Arthur Maude, released in 1931. The film involves a mail coach robbery setting off a series of events that lead to mistaken identities, with a backdrop of intrigue and deception."
+        },
+        {
+          "canonical_id": "case_32:C0005#0-188",
+          "score": 0.016473820433020592,
+          "text": "Mystery, adventure. Director: Arthur Maude. Starring: John Martin Harvey, Norah Baring, Ben Webster and others. Description. A mystery film directed by Arthur Maude. Running time: 1:16:00."
+        },
+        {
+          "canonical_id": "case_32:C0012#0-160",
+          "score": 0.2670525908470154,
+          "text": "Arthur Maude was born on Friday, July 23 1880, and passed away on Monday, January 9 1950 at the age of 69.Arthur Maude was 53 in Borrowed Clothes as 'Director'."
+        },
+        {
+          "canonical_id": "case_32:C0013#0-169",
+          "score": 0.005361163057386875,
+          "text": "“Maude” star Bill Macy died last night at 7:13 p.m. in his Los Angeles home, according to his manager. He was 97 years old. The cause of death has not yet been reported."
+        },
+        {
+          "canonical_id": "case_32:C0014#0-270",
+          "score": 0.002024907385930419,
+          "text": "Bea Arthur in Maude (1972). Trailer for Norman Lear: Just Another Version of You.Just a few days after her death, the Broadway community paid tribute to Arthur by dimming the marquees of New York City's Broadway theater district in her memory for one minute at 8:00 p.m."
+        },
+        {
+          "canonical_id": "case_32:C0015#0-160",
+          "score": 0.0017995857633650303,
+          "text": "Fix DEATH STRANDING DIRECTOR'S CUT Access Violation Error on launch Internal system error occured.An Access Violation (C0000005h) has occurred in thread 'Sys..."
+        },
+        {
+          "canonical_id": "case_32:C0011#0-194",
+          "score": 0.15862315893173218,
+          "text": "Arthur John Maude (23 July 1880 – 9 January 1950) was an English actor, screenwriter, and film director.After Crawley's death in 1919, Maude continued to act, write screenplays and direct films."
+        },
+        {
+          "canonical_id": "case_32:C0021#0-135",
+          "score": 0.04770136997103691,
+          "text": "Arthur John Maude was an English actor, screenwriter, and film director.Died. 9 January 1950(1950-01-09) (aged 69). Paddington, London."
+        },
+        {
+          "canonical_id": "case_32:C0022#0-184",
+          "score": 0.000587784219533205,
+          "text": "Beyond Maude, Arthur’s star continued to shine brightly, gracing both the small and big screens. She bid farewell in 2009, days before her 87th birthday, after bravely battling cancer."
+        },
+        {
+          "canonical_id": "case_32:C0023#0-221",
+          "score": 0.006576096173375845,
+          "text": "0.1 Arthur Maude estimated Net Worth, Biography, Age, Height, Dating, Relationship Records, Salary, Income, Cars, Lifestyles & many more details have been updated below. Let’s check, How Rich is Arthur Maude in 2019-2020?"
+        },
+        {
+          "canonical_id": "case_32:C0024#0-238",
+          "score": 0.00026650953805074096,
+          "text": "Maude's friend Irene, a US Congresswoman, has died, Maude feels bereft. She's also sad, knowing Arthur, Vivian, Carol & Phillip are moving. Maude decides to run for the open position caused by Irene's death, and ends up appointed instead."
+        },
+        {
+          "canonical_id": "case_32:C0025#0-131",
+          "score": 0.00018130794342141598,
+          "text": "Bill Macy, who played the frustrated husband Walter Findlay opposite Bea Arthur on the hit 1970s sitcom Maude, has died. He was 97."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 822,
+      "seconds": 0.167,
+      "target": "**The Lyons Mail** (1931) — directed by **Arthur Maude** (23 July 1880 – **9 January 1950**)",
+      "target_tokens": 38,
+      "total_tokens": 860
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "case_32:C0001#0-246",
+          "score": 0.6508493423461914,
+          "text": "The Lyons Mail is a 1931 British historical mystery adventure film directed by Arthur Maude and starring John Martin-Harvey, Norah Baring, and Ben Webster. It was written by H. Fowler Mear based on the 1877 play The Lyons Mail by Charles Reade..."
+        },
+        {
+          "canonical_id": "case_32:C0002#0-267",
+          "score": 0.022711830213665962,
+          "text": "Your diary date (if set) and watched status for this film will remain publicly visible if you change the privacy level of this entry. Add members to your Close Friends from their profile. Set your account default in Settings.The Lyons Mail. Where to watch. JustWatch."
+        },
+        {
+          "canonical_id": "case_32:C0003#0-109",
+          "score": 0.0617394782602787,
+          "text": "The Lyons Mail: Directed by Arthur Maude. With John Martin Harvey, Norah Baring, Ben Webster, Moore Marriott."
+        },
+        {
+          "canonical_id": "case_32:C0004#0-223",
+          "score": 0.051087260246276855,
+          "text": "The Lyons Mail is a mystery film directed by Arthur Maude, released in 1931. The film involves a mail coach robbery setting off a series of events that lead to mistaken identities, with a backdrop of intrigue and deception."
+        },
+        {
+          "canonical_id": "case_32:C0005#0-188",
+          "score": 0.023068297654390335,
+          "text": "Mystery, adventure. Director: Arthur Maude. Starring: John Martin Harvey, Norah Baring, Ben Webster and others. Description. A mystery film directed by Arthur Maude. Running time: 1:16:00."
+        },
+        {
+          "canonical_id": "case_32:C0012#0-160",
+          "score": 0.05047618970274925,
+          "text": "Arthur Maude was born on Friday, July 23 1880, and passed away on Monday, January 9 1950 at the age of 69.Arthur Maude was 53 in Borrowed Clothes as 'Director'."
+        },
+        {
+          "canonical_id": "case_32:C0013#0-169",
+          "score": 0.003578894305974245,
+          "text": "“Maude” star Bill Macy died last night at 7:13 p.m. in his Los Angeles home, according to his manager. He was 97 years old. The cause of death has not yet been reported."
+        },
+        {
+          "canonical_id": "case_32:C0014#0-270",
+          "score": 0.00153703847900033,
+          "text": "Bea Arthur in Maude (1972). Trailer for Norman Lear: Just Another Version of You.Just a few days after her death, the Broadway community paid tribute to Arthur by dimming the marquees of New York City's Broadway theater district in her memory for one minute at 8:00 p.m."
+        },
+        {
+          "canonical_id": "case_32:C0015#0-160",
+          "score": 0.0013952120207250118,
+          "text": "Fix DEATH STRANDING DIRECTOR'S CUT Access Violation Error on launch Internal system error occured.An Access Violation (C0000005h) has occurred in thread 'Sys..."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 514,
+      "seconds": 0.135,
+      "target": "The earlier material states: The Lyons Mail is a 1931 British historical mystery adventure film directed by Arthur Maude and starring John Martin-Harvey, Norah Baring, and Ben Webster. It was written by H. Fowler Mear based on the 1877 play The Lyons Mail by Charles Re",
+      "target_tokens": 66,
+      "total_tokens": 580
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.37116238474845886,
+          "text": "The earlier material states: The Lyons Mail is a 1931 British historical mystery adventure film directed by Arthur Maude and starring John Martin-Harvey, Norah Baring, and Ben Webster. It was written by H. Fowler Mear based on the 1877 play The Lyons Mail by Charles Re"
+        },
+        {
+          "canonical_id": "case_32:C0011#0-194",
+          "score": 0.2971842586994171,
+          "text": "Arthur John Maude (23 July 1880 – 9 January 1950) was an English actor, screenwriter, and film director.After Crawley's death in 1919, Maude continued to act, write screenplays and direct films."
+        },
+        {
+          "canonical_id": "case_32:C0021#0-135",
+          "score": 0.1547532081604004,
+          "text": "Arthur John Maude was an English actor, screenwriter, and film director.Died. 9 January 1950(1950-01-09) (aged 69). Paddington, London."
+        },
+        {
+          "canonical_id": "case_32:C0022#0-184",
+          "score": 0.009992292150855064,
+          "text": "Beyond Maude, Arthur’s star continued to shine brightly, gracing both the small and big screens. She bid farewell in 2009, days before her 87th birthday, after bravely battling cancer."
+        },
+        {
+          "canonical_id": "case_32:C0023#0-221",
+          "score": 0.028258997946977615,
+          "text": "0.1 Arthur Maude estimated Net Worth, Biography, Age, Height, Dating, Relationship Records, Salary, Income, Cars, Lifestyles & many more details have been updated below. Let’s check, How Rich is Arthur Maude in 2019-2020?"
+        },
+        {
+          "canonical_id": "case_32:C0024#0-238",
+          "score": 0.003056740155443549,
+          "text": "Maude's friend Irene, a US Congresswoman, has died, Maude feels bereft. She's also sad, knowing Arthur, Vivian, Carol & Phillip are moving. Maude decides to run for the open position caused by Irene's death, and ends up appointed instead."
+        },
+        {
+          "canonical_id": "case_32:C0025#0-131",
+          "score": 0.0003068008809350431,
+          "text": "Bill Macy, who played the frustrated husband Walter Findlay opposite Bea Arthur on the hit 1970s sitcom Maude, has died. He was 97."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 436,
+      "seconds": 0.116,
+      "target": "**The Lyons Mail** (1931) — directed by **Arthur Maude** (23 July 1880 – **9 January 1950**)",
+      "target_tokens": 38,
+      "total_tokens": 474
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 17.4,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

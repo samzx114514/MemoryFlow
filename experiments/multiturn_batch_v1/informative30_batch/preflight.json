@@ -1,0 +1,570 @@
+{
+  "cases": [
+    {
+      "candidates": 11,
+      "case_id": "case_01:T04",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_01_T04",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_01"
+    },
+    {
+      "candidates": 11,
+      "case_id": "case_01:T05",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_01_T05",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_01"
+    },
+    {
+      "candidates": 16,
+      "case_id": "case_03:T04",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_03_T04",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_03"
+    },
+    {
+      "candidates": 15,
+      "case_id": "case_04:T06",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_04_T06",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_04"
+    },
+    {
+      "candidates": 32,
+      "case_id": "case_05:T10",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_05_T10",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_05"
+    },
+    {
+      "candidates": 20,
+      "case_id": "case_06:T10",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_06_T10",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_06"
+    },
+    {
+      "candidates": 10,
+      "case_id": "case_07:T10",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_07_T10",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_07"
+    },
+    {
+      "candidates": 20,
+      "case_id": "case_08:T07",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_08_T07",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_08"
+    },
+    {
+      "candidates": 35,
+      "case_id": "case_10:T05",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_10_T05",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_10"
+    },
+    {
+      "candidates": 25,
+      "case_id": "case_13:T06",
+      "evidence_groups": 2,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_13_T06",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_13"
+    },
+    {
+      "candidates": 10,
+      "case_id": "case_13:T09",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_13_T09",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_13"
+    },
+    {
+      "candidates": 20,
+      "case_id": "case_21:T04",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_21_T04",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_21"
+    },
+    {
+      "candidates": 55,
+      "case_id": "case_23:T04",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_23_T04",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_23"
+    },
+    {
+      "candidates": 16,
+      "case_id": "case_23:T07",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_23_T07",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_23"
+    },
+    {
+      "candidates": 28,
+      "case_id": "case_24:T03",
+      "evidence_groups": 3,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_24_T03",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_24"
+    },
+    {
+      "candidates": 26,
+      "case_id": "case_29:T02",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_29_T02",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_29"
+    },
+    {
+      "candidates": 19,
+      "case_id": "case_30:T05",
+      "evidence_groups": 2,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_30_T05",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_30"
+    },
+    {
+      "candidates": 15,
+      "case_id": "case_32:T01",
+      "evidence_groups": 3,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_32_T01",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_32"
+    },
+    {
+      "candidates": 15,
+      "case_id": "case_32:T02",
+      "evidence_groups": 3,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_32_T02",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_32"
+    },
+    {
+      "candidates": 20,
+      "case_id": "case_32:T03",
+      "evidence_groups": 3,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_32_T03",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_32"
+    },
+    {
+      "candidates": 25,
+      "case_id": "case_32:T04",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_32_T04",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_32"
+    },
+    {
+      "candidates": 32,
+      "case_id": "case_38:T05",
+      "evidence_groups": 2,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_38_T05",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_38"
+    },
+    {
+      "candidates": 60,
+      "case_id": "case_39:T01",
+      "evidence_groups": 3,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_39_T01",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_39"
+    },
+    {
+      "candidates": 57,
+      "case_id": "case_39:T04",
+      "evidence_groups": 3,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_39_T04",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_39"
+    },
+    {
+      "candidates": 35,
+      "case_id": "case_46:T02",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_46_T02",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_46"
+    },
+    {
+      "candidates": 10,
+      "case_id": "case_01:T08",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_01_T08",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_01"
+    },
+    {
+      "candidates": 10,
+      "case_id": "case_03:T02",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_03_T02",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_03"
+    },
+    {
+      "candidates": 15,
+      "case_id": "case_04:T03",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_04_T03",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_04"
+    },
+    {
+      "candidates": 35,
+      "case_id": "case_22:T05",
+      "evidence_groups": 2,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_22_T05",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_22"
+    },
+    {
+      "candidates": 15,
+      "case_id": "case_25:T05",
+      "evidence_groups": 1,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_25_T05",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_25"
+    },
+    {
+      "candidates": 25,
+      "case_id": "case_34:T06",
+      "evidence_groups": 2,
+      "issues": [],
+      "registry": {
+        "missing_inputs": [],
+        "missing_labels": [],
+        "warnings": [
+          "controlled construction; not an original request snapshot"
+        ]
+      },
+      "rounds": 2,
+      "short": "case_34_T06",
+      "split": "dev",
+      "status": "ok",
+      "trajectory_id": "case_34"
+    }
+  ],
+  "schema": "memoryflow.multiturn_batch.preflight.v1",
+  "totals": {
+    "blocked": 0,
+    "cases": 31,
+    "incomplete": 0,
+    "ok": 31
+  },
+  "trajectory_split_issues": []
+}

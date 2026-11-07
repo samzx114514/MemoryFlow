@@ -1,0 +1,927 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_29:T02",
+ "trajectory_id": "case_29",
+ "trajectory_case": "case_29",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "The composer Denis Wright was born in Kensington, London.",
+  "sha256": "384f612f98742b31e55fb70f35e80dce8d1ca89cfd7d327dcfe2f58f09a6f89a",
+  "origin": "recorded_target",
+  "artifact_id": "case_29:T02",
+  "start": 0,
+  "end": 57,
+  "original_target": {
+   "text": "The composer Denis Wright was born in Kensington, London.",
+   "artifact_id": "case_29:T02"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "When did the roof gardens above Denis Wright's birthplace open to the public?",
+   "inputs": [
+    {
+     "unit_id": "case_29:C0001#0-111",
+     "artifact_id": "case_29:C0001",
+     "start": 0,
+     "end": 111,
+     "text": "Denis Wright, OBE (22 February 1895 – 20 April 1967) was an English composer and conductor of brass band music.",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_29:C0002#0-143",
+     "artifact_id": "case_29:C0002",
+     "start": 0,
+     "end": 143,
+     "text": "Independent artist Denis Wright drops \"In Da Hood\", a Hip-Hop track on SoundClick. Denis Wright demonstrates a clear artistic voice throughout.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_29:C0003#0-44",
+     "artifact_id": "case_29:C0003",
+     "start": 0,
+     "end": 44,
+     "text": "Book review: ‘Violence 101’ by Denis Wright.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_29:C0004#0-145",
+     "artifact_id": "case_29:C0004",
+     "start": 0,
+     "end": 145,
+     "text": "Denis Wright. British diplomat; Ambassador to Ethiopia and Iran (1911–2005).subject named as. Denis Wright. place of birth. Kingston upon Thames.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_29:C0005#0-175",
+     "artifact_id": "case_29:C0005",
+     "start": 0,
+     "end": 175,
+     "text": "Sir Denis Wright, who has died aged 94, reached the top rank of the British foreign service after an unusual career, ending with eight years as ambassador to Iran (1963-1971).",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_29:C0006#0-301",
+     "artifact_id": "case_29:C0006",
+     "start": 0,
+     "end": 301,
+     "text": "Come discover the birthplace of Wilbur Wright! Along with the homestead, you'll find exciting displays, an authentic replica of the Wright Flyer, an early research wind tunnel, replication of the Kill Devil Hills hangar, bicycle shop, historic documents and artifacts, even an F-84 Jet, and much more!",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_29:C0007#0-284",
+     "artifact_id": "case_29:C0007",
+     "start": 0,
+     "end": 284,
+     "text": "Denis Gardens Apartments: Exquisite 1, 2, and 3 Bed Apartments on Dennis Pritt Road. Location: Ideally situated on Denis Pritt Road in the Kilimani area, the Dennis Garden Apartments offer a serene environment with easy access to social, medical, religious, and educational amenities.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_29:C0008#0-281",
+     "artifact_id": "case_29:C0008",
+     "start": 0,
+     "end": 281,
+     "text": "• Audio source below: Interview with Sir Denis Wright by Habib Ladjevardi for the Iranian Oral History Project at Harvard University, October 10, 1984. Tape 1 is cued to begin with Wright telling of his first steps in Iran and reading the bout de papier, which continues on Tape 2.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_29:C0009#0-183",
+     "artifact_id": "case_29:C0009",
+     "start": 0,
+     "end": 183,
+     "text": "As the birthplace of Wilbur Wright, one half of the pioneering Wright brothers, this museum offers an enriching experience, showcasing early aviation artifacts and the life of Wilbur.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 4
+    }
+   ],
+   "output": {
+    "text": "There are two Denis Wrights. The diplomat was born in Kingston upon Thames. Let me check the Wikipedia article about Denis Wright the composer more carefully, and also look at the diplomat's birthplace details.",
+    "sha256": "ae087a534fb348eb404d7ff7eebeed8baccee8377f94dd7602608dc1896682ca",
+    "origin": "recorded_agent_message"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "When did the roof gardens above Denis Wright's birthplace open to the public?",
+   "inputs": [
+    {
+     "unit_id": "case_29:C0022#0-212",
+     "artifact_id": "case_29:C0022",
+     "start": 0,
+     "end": 212,
+     "text": "Denis Wright, OBE was an English composer and conductor of brass band music.Wright was born in Kensington, London, and moved to Wembley with his family when he was five. He attended St George's School, Harpenden.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_29:C0010#0-167",
+     "artifact_id": "case_29:C0010",
+     "start": 0,
+     "end": 167,
+     "text": "Use AnswerThePublic to uncover the real questions people ask across different platforms. With the new AI Dashboard, you can also discover how AI describe your keyword.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_29:C0011#0-250",
+     "artifact_id": "case_29:C0011",
+     "start": 0,
+     "end": 250,
+     "text": "Denis Arthur Hepworth Wright, diplomat: born Kingston upon Thames, Surrey 23 March 1911; assistant advertising manager, Gallaher & Co 1935-39; Vice-Consul on economic warfare work, Constanta, Romania 1939-41; Vice-Consul-in-charge, Trabzon 1941-43...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_29:C0012#0-207",
+     "artifact_id": "case_29:C0012",
+     "start": 0,
+     "end": 207,
+     "text": "Sir Denis Arthur Hepworth Wright, GCMG (23 March 1911 18 May 2005) was a British diplomat.Wright was born in 1911 in Kingston upon Thames (then in the county of Surrey), at the house of his father's parents.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_29:C0013#0-175",
+     "artifact_id": "case_29:C0013",
+     "start": 0,
+     "end": 175,
+     "text": "Sir Denis Wright, who has died aged 94, reached the top rank of the British foreign service after an unusual career, ending with eight years as ambassador to Iran (1963-1971).",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_29:C0014#0-281",
+     "artifact_id": "case_29:C0014",
+     "start": 0,
+     "end": 281,
+     "text": "• Audio source below: Interview with Sir Denis Wright by Habib Ladjevardi for the Iranian Oral History Project at Harvard University, October 10, 1984. Tape 1 is cued to begin with Wright telling of his first steps in Iran and reading the bout de papier, which continues on Tape 2.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_29:C0015#0-273",
+     "artifact_id": "case_29:C0015",
+     "start": 0,
+     "end": 273,
+     "text": "Denis Wright is a famous British diplomat. He was born on March 23, 1911 and his birthplace is Kingston upon Thames, Surrey. On Buzzlearn.com, Denis is listed as a successful Diplomat who was born in the year of 1911. He is also ranked in the richest person list from Iran.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_29:C0016#0-210",
+     "artifact_id": "case_29:C0016",
+     "start": 0,
+     "end": 210,
+     "text": "There are two Denis Wrights. The diplomat was born in Kingston upon Thames. Let me check the Wikipedia article about Denis Wright the composer more carefully, and also look at the diplomat's birthplace details.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 8
+    },
+    {
+     "unit_id": "case_29:C0017#0-225",
+     "artifact_id": "case_29:C0017",
+     "start": 0,
+     "end": 225,
+     "text": "Kensington Roof Gardens is a private roof garden in London covering an incredible 65,000 sq ft on top of the former Derry & Toms building on Kensington High Street. Derry and Toms new Art Deco department store opened in 1933.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 9
+    }
+   ],
+   "output": {
+    "text": "The composer Denis Wright was born in Kensington, London.",
+    "sha256": "384f612f98742b31e55fb70f35e80dce8d1ca89cfd7d327dcfe2f58f09a6f89a",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "There are two Denis Wrights. The diplomat was born in Kingston upon Thames. Let me check the Wikipedia article about Denis Wright the composer more carefully, and also look at the diplomat's birthplace details.",
+     "sha256": "ae087a534fb348eb404d7ff7eebeed8baccee8377f94dd7602608dc1896682ca",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_29:C0001#0-111",
+   "artifact_id": "case_29:C0001",
+   "start": 0,
+   "end": 111,
+   "text": "Denis Wright, OBE (22 February 1895 – 20 April 1967) was an English composer and conductor of brass band music.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_29:C0001#0-111",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_29:C0002#0-143",
+   "artifact_id": "case_29:C0002",
+   "start": 0,
+   "end": 143,
+   "text": "Independent artist Denis Wright drops \"In Da Hood\", a Hip-Hop track on SoundClick. Denis Wright demonstrates a clear artistic voice throughout.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_29:C0002#0-143",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_29:C0003#0-44",
+   "artifact_id": "case_29:C0003",
+   "start": 0,
+   "end": 44,
+   "text": "Book review: ‘Violence 101’ by Denis Wright.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_29:C0003#0-44",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_29:C0004#0-145",
+   "artifact_id": "case_29:C0004",
+   "start": 0,
+   "end": 145,
+   "text": "Denis Wright. British diplomat; Ambassador to Ethiopia and Iran (1911–2005).subject named as. Denis Wright. place of birth. Kingston upon Thames.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_29:C0004#0-145",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_29:C0005#0-175",
+   "artifact_id": "case_29:C0005",
+   "start": 0,
+   "end": 175,
+   "text": "Sir Denis Wright, who has died aged 94, reached the top rank of the British foreign service after an unusual career, ending with eight years as ambassador to Iran (1963-1971).",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_29:C0005#0-175",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_29:C0006#0-301",
+   "artifact_id": "case_29:C0006",
+   "start": 0,
+   "end": 301,
+   "text": "Come discover the birthplace of Wilbur Wright! Along with the homestead, you'll find exciting displays, an authentic replica of the Wright Flyer, an early research wind tunnel, replication of the Kill Devil Hills hangar, bicycle shop, historic documents and artifacts, even an F-84 Jet, and much more!",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_29:C0006#0-301",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_29:C0007#0-284",
+   "artifact_id": "case_29:C0007",
+   "start": 0,
+   "end": 284,
+   "text": "Denis Gardens Apartments: Exquisite 1, 2, and 3 Bed Apartments on Dennis Pritt Road. Location: Ideally situated on Denis Pritt Road in the Kilimani area, the Dennis Garden Apartments offer a serene environment with easy access to social, medical, religious, and educational amenities.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_29:C0007#0-284",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_29:C0008#0-281",
+   "artifact_id": "case_29:C0008",
+   "start": 0,
+   "end": 281,
+   "text": "• Audio source below: Interview with Sir Denis Wright by Habib Ladjevardi for the Iranian Oral History Project at Harvard University, October 10, 1984. Tape 1 is cued to begin with Wright telling of his first steps in Iran and reading the bout de papier, which continues on Tape 2.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_29:C0008#0-281",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_29:C0009#0-183",
+   "artifact_id": "case_29:C0009",
+   "start": 0,
+   "end": 183,
+   "text": "As the birthplace of Wilbur Wright, one half of the pioneering Wright brothers, this museum offers an enriching experience, showcasing early aviation artifacts and the life of Wilbur.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_29:C0009#0-183",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_29:C0010#0-167",
+   "artifact_id": "case_29:C0010",
+   "start": 0,
+   "end": 167,
+   "text": "Use AnswerThePublic to uncover the real questions people ask across different platforms. With the new AI Dashboard, you can also discover how AI describe your keyword.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_29:C0010#0-167",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_29:C0011#0-250",
+   "artifact_id": "case_29:C0011",
+   "start": 0,
+   "end": 250,
+   "text": "Denis Arthur Hepworth Wright, diplomat: born Kingston upon Thames, Surrey 23 March 1911; assistant advertising manager, Gallaher & Co 1935-39; Vice-Consul on economic warfare work, Constanta, Romania 1939-41; Vice-Consul-in-charge, Trabzon 1941-43...",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_29:C0011#0-250",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_29:C0012#0-207",
+   "artifact_id": "case_29:C0012",
+   "start": 0,
+   "end": 207,
+   "text": "Sir Denis Arthur Hepworth Wright, GCMG (23 March 1911 18 May 2005) was a British diplomat.Wright was born in 1911 in Kingston upon Thames (then in the county of Surrey), at the house of his father's parents.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_29:C0012#0-207",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_29:C0013#0-175",
+   "artifact_id": "case_29:C0013",
+   "start": 0,
+   "end": 175,
+   "text": "Sir Denis Wright, who has died aged 94, reached the top rank of the British foreign service after an unusual career, ending with eight years as ambassador to Iran (1963-1971).",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_29:C0013#0-175",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_29:C0014#0-281",
+   "artifact_id": "case_29:C0014",
+   "start": 0,
+   "end": 281,
+   "text": "• Audio source below: Interview with Sir Denis Wright by Habib Ladjevardi for the Iranian Oral History Project at Harvard University, October 10, 1984. Tape 1 is cued to begin with Wright telling of his first steps in Iran and reading the bout de papier, which continues on Tape 2.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_29:C0014#0-281",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_29:C0015#0-273",
+   "artifact_id": "case_29:C0015",
+   "start": 0,
+   "end": 273,
+   "text": "Denis Wright is a famous British diplomat. He was born on March 23, 1911 and his birthplace is Kingston upon Thames, Surrey. On Buzzlearn.com, Denis is listed as a successful Diplomat who was born in the year of 1911. He is also ranked in the richest person list from Iran.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_29:C0015#0-273",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_29:C0016#0-210",
+   "artifact_id": "case_29:C0016",
+   "start": 0,
+   "end": 210,
+   "text": "There are two Denis Wrights. The diplomat was born in Kingston upon Thames. Let me check the Wikipedia article about Denis Wright the composer more carefully, and also look at the diplomat's birthplace details.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_29:C0016#0-210",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_29:C0017#0-225",
+   "artifact_id": "case_29:C0017",
+   "start": 0,
+   "end": 225,
+   "text": "Kensington Roof Gardens is a private roof garden in London covering an incredible 65,000 sq ft on top of the former Derry & Toms building on Kensington High Street. Derry and Toms new Art Deco department store opened in 1933.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_29:C0017#0-225",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_29:C0018#0-275",
+   "artifact_id": "case_29:C0018",
+   "start": 0,
+   "end": 275,
+   "text": "The place : Kensington Roof Garden, on top of what was once Derry and Toms department store.Derry and Toms department store opened in 1938 with, on the top floor, a restaurant (the art deco Rainbow Room) and 1.5 acres of roof garden, stocked with trees and around 500 shrubs.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_29:C0019#0-230",
+   "artifact_id": "case_29:C0019",
+   "start": 0,
+   "end": 230,
+   "text": "Originally opened in 1938, the Kensington Roof Gardens have long been a unique feature of London’s landscape. Their expansive, themed gardens include a Spanish garden, a Tudor garden, and English woodland, complete with flamingos.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_29:C0020#0-236",
+   "artifact_id": "case_29:C0020",
+   "start": 0,
+   "end": 236,
+   "text": "Kensington Roof Gardens reopened last year (Photo by Oli Scarff/Getty Images). The company behind the revamped Kensington Roof Gardens suffered a £26m loss after the venue reopened as a private members’ club, its latest accounts reveal.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_29:C0021#0-207",
+   "artifact_id": "case_29:C0021",
+   "start": 0,
+   "end": 207,
+   "text": "Kensington Roof Gardens to open free for first ever National Open Gardens Day.Once finished, in 1938, the public could visit for a shilling, which raised more than £120,000 for local charities over 30 years.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_29:C0022#0-212",
+   "artifact_id": "case_29:C0022",
+   "start": 0,
+   "end": 212,
+   "text": "Denis Wright, OBE was an English composer and conductor of brass band music.Wright was born in Kensington, London, and moved to Wembley with his family when he was five. He attended St George's School, Harpenden.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_29:C0022#0-212",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_29:C0023#0-186",
+   "artifact_id": "case_29:C0023",
+   "start": 0,
+   "end": 186,
+   "text": "Denis Wright composer / arranger. date of birth: 22.02.1895 date of death: 22.04.1967.difficulty. composer. Denis Wright Edward Elgar Gustav Holst Percy Aldridge Grainger Richard Wagner.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_29:C0024#0-138",
+   "artifact_id": "case_29:C0024",
+   "start": 0,
+   "end": 138,
+   "text": "Recent Best Sellers: Wright, Denis. Franz Lehár_Denis Wright: Merry Widow Waltz.Sheet Music: $49.75. Denis Wright: Scoring For Brass Band.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_29:C0025#0-225",
+   "artifact_id": "case_29:C0025",
+   "start": 0,
+   "end": 225,
+   "text": "It is one of a large collections of photographs recently accepted into the King’ College London Archives to form the Sir Denis Wright collection. Wright (1911-2005) served as Britain’s ambassador to Iran from 1963 until 1971.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_29:C0026#0-110",
+   "artifact_id": "case_29:C0026",
+   "start": 0,
+   "end": 110,
+   "text": "Capriccio Italien [arr. Wright]. Composer: Pyotr Ilyich Tchaikovsky. Arranger: Denis Wright. Type: Test Piece.",
+   "occurrences": [],
+   "pool_only": true
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_29:T02:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_29:C0001",
+      "start": 0,
+      "end": 111,
+      "text": "Denis Wright, OBE (22 February 1895 – 20 April 1967) was an English composer and conductor of brass band music."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_29:C0001",
+       "start": 0,
+       "end": 111,
+       "text": "Denis Wright, OBE (22 February 1895 – 20 April 1967) was an English composer and conductor of brass band music."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_29:C0022",
+      "start": 0,
+      "end": 212,
+      "text": "Denis Wright, OBE was an English composer and conductor of brass band music.Wright was born in Kensington, London, and moved to Wembley with his family when he was five. He attended St George's School, Harpenden."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_29:C0022",
+       "start": 0,
+       "end": 212,
+       "text": "Denis Wright, OBE was an English composer and conductor of brass band music.Wright was born in Kensington, London, and moved to Wembley with his family when he was five. He attended St George's School, Harpenden."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_29:C0001#0-111"
+  ],
+  "B": [
+   "case_29:C0022#0-212"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T02",
+   "case": "case_29",
+   "question": "When did the roof gardens above Denis Wright's birthplace open to the public?",
+   "target_event": 11,
+   "target_start": 0,
+   "target_end": 57,
+   "target": "The composer Denis Wright was born in Kensington, London.",
+   "candidate_ids": [
+    "C0001",
+    "C0002",
+    "C0003",
+    "C0004",
+    "C0005",
+    "C0006",
+    "C0007",
+    "C0008",
+    "C0009",
+    "C0010",
+    "C0011",
+    "C0012",
+    "C0013",
+    "C0014",
+    "C0015",
+    "C0017",
+    "C0018",
+    "C0019",
+    "C0020",
+    "C0021",
+    "C0022",
+    "C0023",
+    "C0024",
+    "C0025",
+    "C0026",
+    "C0016"
+   ],
+   "annotation_status": "model_annotated_pending_human_review"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0001",
+     "start": 0,
+     "end": 111,
+     "text": "Denis Wright, OBE (22 February 1895 – 20 April 1967) was an English composer and conductor of brass band music."
+    },
+    {
+     "candidate_id": "C0022",
+     "start": 0,
+     "end": 170,
+     "text": "Denis Wright, OBE was an English composer and conductor of brass band music.Wright was born in Kensington, London, and moved to Wembley with his family when he was five. "
+    }
+   ]
+  },
+  "intermediate_origin": "recorded_agent_message",
+  "intermediate_event": 8,
+  "time_order_audit": [
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 8,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 8,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 8,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 8,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 8,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 8,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 8,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 8,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 8,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 10,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 4,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 6,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 6,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 6,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 6,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 6,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 8,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 9,
+    "cut": 11,
+    "ok": true
+   }
+  ],
+  "note": "time-order checked for evidence and distractors"
+ }
+}

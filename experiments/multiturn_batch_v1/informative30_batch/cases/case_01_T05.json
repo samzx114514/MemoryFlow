@@ -1,0 +1,574 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_01:T05",
+ "trajectory_id": "case_01",
+ "trajectory_case": "case_01",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "Mother: Anna Komnene Palaiologina (daughter of Michael VIII Palaiologos)",
+  "sha256": "31e30e45b2dd532f4972d90c3f40f860a5cf91dfb7480f384e2e1a2ef53b44d6",
+  "origin": "recorded_target",
+  "artifact_id": "case_01:T05",
+  "start": 0,
+  "end": 72,
+  "original_target": {
+   "text": "Mother: Anna Komnene Palaiologina (daughter of Michael VIII Palaiologos)",
+   "artifact_id": "case_01:T05"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "Who is the paternal grandmother of Andronikos Angelos Palaiologos?",
+   "inputs": [
+    {
+     "unit_id": "case_01:C0011#0-182",
+     "artifact_id": "case_01:C0011",
+     "start": 0,
+     "end": 182,
+     "text": "Andronikos Angelos Komnenos Doukas Palaiologos (Greek: Ἀνδρόνικος Ἄγγελος Κομνηνός Δούκας Παλαιολόγος, ca. 1282–1328), was a Byzantine aristocrat and military leader. He was born ca.",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 19
+    },
+    {
+     "unit_id": "case_01:C0001#0-209",
+     "artifact_id": "case_01:C0001",
+     "start": 0,
+     "end": 209,
+     "text": "Mother. Anna Palaiologina. Andronikos Angelos Komnenos Doukas Palaiologos (Greek: Ἀνδρόνικος Ἄγγελος Κομνηνός Δούκας Παλαιολόγος, ca. 1282–1328), was a Byzantine aristocrat and military leader. He was born ca.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 9
+    },
+    {
+     "unit_id": "case_01:C0002#0-268",
+     "artifact_id": "case_01:C0002",
+     "start": 0,
+     "end": 268,
+     "text": "Andronikos II Doukas Angelos Palaiologos was born 25 March 1259 in Nicaea, Byzantine Empire to Michael VIII Palaiologos and Theodora Palaiologina and died 13 February 1332 Constantinople, Byzantine Empire of unspecified causes. He married Anna of Hungary (1260–1281) .",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 9
+    },
+    {
+     "unit_id": "case_01:C0003#0-136",
+     "artifact_id": "case_01:C0003",
+     "start": 0,
+     "end": 136,
+     "text": "Discover Andronikos Iii Palaiologos in AstroSafe Search Educational section. Safe, educational content for kids 5-12. Explore fun facts!",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 9
+    },
+    {
+     "unit_id": "case_01:C0004#0-144",
+     "artifact_id": "case_01:C0004",
+     "start": 0,
+     "end": 144,
+     "text": "Temukan tipe 16, Enneagram, dan Zodiak Anna Palaiologina, daughter of Andronikos Angelos Palaiologos di Soulverse, database kepribadian lengkap.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 9
+    },
+    {
+     "unit_id": "case_01:C0005#0-132",
+     "artifact_id": "case_01:C0005",
+     "start": 0,
+     "end": 132,
+     "text": "I.8.12 - ?Andronikos Komnenos Doukas Branas Angelos Palaiologos: The Bath House in the Garden of the Dragon’s Castle from. May 2022.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 9
+    }
+   ],
+   "output": {
+    "text": "Now I'm getting clearer. There's a reference to \"Demetrios (Michael) Doukas, a son of Michael II Komnenos Doukas of Epirus.\" Let me search for more about Andronikos Angelos Palaiologos's father specifically.",
+    "sha256": "01a6aab1d9aa2a39ed3043bc94613b6f671baf3728e4c4c2210004d552d473b3",
+    "origin": "recorded_agent_message"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "Who is the paternal grandmother of Andronikos Angelos Palaiologos?",
+   "inputs": [
+    {
+     "unit_id": "case_01:C0034#0-204",
+     "artifact_id": "case_01:C0034",
+     "start": 0,
+     "end": 204,
+     "text": "1282 to Demetrios Doukas Komnenos Koutroules, son of the ruler of Epirus, Michael II Komnenos Doukas, and Anna Komnene Palaiologina, the daughter of the Byzantine emperor Michael VIII Palaiologos. Career.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 28
+    },
+    {
+     "unit_id": "case_01:C0031#0-195",
+     "artifact_id": "case_01:C0031",
+     "start": 0,
+     "end": 195,
+     "text": "Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos was the third son of the ruler of Epirus, Michael II Komnenos Doukas, also surnamed Koutroules, and his wife Theodora of Arta.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 28
+    },
+    {
+     "unit_id": "case_01:C0032#0-270",
+     "artifact_id": "case_01:C0032",
+     "start": 0,
+     "end": 270,
+     "text": "Andronikos Doukas Angelos Palaiologos Medieval Greek: Ἀνδρόνικος Δούκας Ἄγγελος Κομνηνὸς Παλαιολόγος.Demetrios Palaiologos (1297–1343), a despotēs. Isaakios Palaiologos (born 1299), who died young. Andronikos II also had at least three daughters born outside of marriage",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 28
+    },
+    {
+     "unit_id": "case_01:C0033#0-139",
+     "artifact_id": "case_01:C0033",
+     "start": 0,
+     "end": 139,
+     "text": "Demetrios Angelos Doukas Palaiologos was a son of the Byzantine emperor Andronikos II Palaiologos and his second wife, Irene of Montferrat.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 28
+    },
+    {
+     "unit_id": "case_01:C0035#0-235",
+     "artifact_id": "case_01:C0035",
+     "start": 0,
+     "end": 235,
+     "text": "Andronikos II Doukas Angelos Palaiologos.Andronikos II Palaiologos was born at Nicaea. He was acclaimed co-emperor in 1261, after his father Michael VIII recovered Constantinople from the Latin Empire, but he wasn't crowned until 1272.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 28
+    }
+   ],
+   "output": {
+    "text": "Mother: Anna Komnene Palaiologina (daughter of Michael VIII Palaiologos)",
+    "sha256": "31e30e45b2dd532f4972d90c3f40f860a5cf91dfb7480f384e2e1a2ef53b44d6",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "Now I'm getting clearer. There's a reference to \"Demetrios (Michael) Doukas, a son of Michael II Komnenos Doukas of Epirus.\" Let me search for more about Andronikos Angelos Palaiologos's father specifically.",
+     "sha256": "01a6aab1d9aa2a39ed3043bc94613b6f671baf3728e4c4c2210004d552d473b3",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_01:C0001#0-209",
+   "artifact_id": "case_01:C0001",
+   "start": 0,
+   "end": 209,
+   "text": "Mother. Anna Palaiologina. Andronikos Angelos Komnenos Doukas Palaiologos (Greek: Ἀνδρόνικος Ἄγγελος Κομνηνός Δούκας Παλαιολόγος, ca. 1282–1328), was a Byzantine aristocrat and military leader. He was born ca.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_01:C0001#0-209",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_01:C0002#0-268",
+   "artifact_id": "case_01:C0002",
+   "start": 0,
+   "end": 268,
+   "text": "Andronikos II Doukas Angelos Palaiologos was born 25 March 1259 in Nicaea, Byzantine Empire to Michael VIII Palaiologos and Theodora Palaiologina and died 13 February 1332 Constantinople, Byzantine Empire of unspecified causes. He married Anna of Hungary (1260–1281) .",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_01:C0002#0-268",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_01:C0003#0-136",
+   "artifact_id": "case_01:C0003",
+   "start": 0,
+   "end": 136,
+   "text": "Discover Andronikos Iii Palaiologos in AstroSafe Search Educational section. Safe, educational content for kids 5-12. Explore fun facts!",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_01:C0003#0-136",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_01:C0004#0-144",
+   "artifact_id": "case_01:C0004",
+   "start": 0,
+   "end": 144,
+   "text": "Temukan tipe 16, Enneagram, dan Zodiak Anna Palaiologina, daughter of Andronikos Angelos Palaiologos di Soulverse, database kepribadian lengkap.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_01:C0004#0-144",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_01:C0005#0-132",
+   "artifact_id": "case_01:C0005",
+   "start": 0,
+   "end": 132,
+   "text": "I.8.12 - ?Andronikos Komnenos Doukas Branas Angelos Palaiologos: The Bath House in the Garden of the Dragon’s Castle from. May 2022.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_01:C0005#0-132",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_01:C0011#0-182",
+   "artifact_id": "case_01:C0011",
+   "start": 0,
+   "end": 182,
+   "text": "Andronikos Angelos Komnenos Doukas Palaiologos (Greek: Ἀνδρόνικος Ἄγγελος Κομνηνός Δούκας Παλαιολόγος, ca. 1282–1328), was a Byzantine aristocrat and military leader. He was born ca.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_01:C0011#0-182",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_01:C0031#0-195",
+   "artifact_id": "case_01:C0031",
+   "start": 0,
+   "end": 195,
+   "text": "Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos was the third son of the ruler of Epirus, Michael II Komnenos Doukas, also surnamed Koutroules, and his wife Theodora of Arta.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_01:C0031#0-195",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_01:C0032#0-270",
+   "artifact_id": "case_01:C0032",
+   "start": 0,
+   "end": 270,
+   "text": "Andronikos Doukas Angelos Palaiologos Medieval Greek: Ἀνδρόνικος Δούκας Ἄγγελος Κομνηνὸς Παλαιολόγος.Demetrios Palaiologos (1297–1343), a despotēs. Isaakios Palaiologos (born 1299), who died young. Andronikos II also had at least three daughters born outside of marriage",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_01:C0032#0-270",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_01:C0033#0-139",
+   "artifact_id": "case_01:C0033",
+   "start": 0,
+   "end": 139,
+   "text": "Demetrios Angelos Doukas Palaiologos was a son of the Byzantine emperor Andronikos II Palaiologos and his second wife, Irene of Montferrat.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_01:C0033#0-139",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_01:C0034#0-204",
+   "artifact_id": "case_01:C0034",
+   "start": 0,
+   "end": 204,
+   "text": "1282 to Demetrios Doukas Komnenos Koutroules, son of the ruler of Epirus, Michael II Komnenos Doukas, and Anna Komnene Palaiologina, the daughter of the Byzantine emperor Michael VIII Palaiologos. Career.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_01:C0034#0-204",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_01:C0035#0-235",
+   "artifact_id": "case_01:C0035",
+   "start": 0,
+   "end": 235,
+   "text": "Andronikos II Doukas Angelos Palaiologos.Andronikos II Palaiologos was born at Nicaea. He was acclaimed co-emperor in 1261, after his father Michael VIII recovered Constantinople from the Latin Empire, but he wasn't crowned until 1272.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_01:C0035#0-235",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_01:T05:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_01:C0011",
+      "start": 0,
+      "end": 182,
+      "text": "Andronikos Angelos Komnenos Doukas Palaiologos (Greek: Ἀνδρόνικος Ἄγγελος Κομνηνός Δούκας Παλαιολόγος, ca. 1282–1328), was a Byzantine aristocrat and military leader. He was born ca."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_01:C0011",
+       "start": 0,
+       "end": 182,
+       "text": "Andronikos Angelos Komnenos Doukas Palaiologos (Greek: Ἀνδρόνικος Ἄγγελος Κομνηνός Δούκας Παλαιολόγος, ca. 1282–1328), was a Byzantine aristocrat and military leader. He was born ca."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_01:C0034",
+      "start": 0,
+      "end": 204,
+      "text": "1282 to Demetrios Doukas Komnenos Koutroules, son of the ruler of Epirus, Michael II Komnenos Doukas, and Anna Komnene Palaiologina, the daughter of the Byzantine emperor Michael VIII Palaiologos. Career."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_01:C0034",
+       "start": 0,
+       "end": 204,
+       "text": "1282 to Demetrios Doukas Komnenos Koutroules, son of the ruler of Epirus, Michael II Komnenos Doukas, and Anna Komnene Palaiologina, the daughter of the Byzantine emperor Michael VIII Palaiologos. Career."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_01:C0011#0-182"
+  ],
+  "B": [
+   "case_01:C0034#0-204"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T05",
+   "case": "case_01",
+   "question": "Who is the paternal grandmother of Andronikos Angelos Palaiologos?",
+   "target_event": 29,
+   "target_start": 197,
+   "target_end": 269,
+   "target": "Mother: Anna Komnene Palaiologina (daughter of Michael VIII Palaiologos)",
+   "candidate_ids": [
+    "C0001",
+    "C0002",
+    "C0003",
+    "C0004",
+    "C0005",
+    "C0031",
+    "C0032",
+    "C0033",
+    "C0034",
+    "C0035",
+    "C0011"
+   ],
+   "annotation_status": "assistant_reviewed_pending_human"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0011",
+     "start": 0,
+     "end": 182,
+     "text": "Andronikos Angelos Komnenos Doukas Palaiologos (Greek: Ἀνδρόνικος Ἄγγελος Κομνηνός Δούκας Παλαιολόγος, ca. 1282–1328), was a Byzantine aristocrat and military leader. He was born ca."
+    },
+    {
+     "candidate_id": "C0034",
+     "start": 0,
+     "end": 197,
+     "text": "1282 to Demetrios Doukas Komnenos Koutroules, son of the ruler of Epirus, Michael II Komnenos Doukas, and Anna Komnene Palaiologina, the daughter of the Byzantine emperor Michael VIII Palaiologos. "
+    }
+   ]
+  },
+  "intermediate_origin": "recorded_agent_message",
+  "intermediate_event": 26,
+  "time_order_audit": [
+   {
+    "round": 1,
+    "event": 19,
+    "cut": 26,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 9,
+    "cut": 26,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 9,
+    "cut": 26,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 9,
+    "cut": 26,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 9,
+    "cut": 26,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 9,
+    "cut": 26,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 28,
+    "cut": 29,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 28,
+    "cut": 29,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 28,
+    "cut": 29,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 28,
+    "cut": 29,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 28,
+    "cut": 29,
+    "ok": true
+   }
+  ],
+  "note": "time-order checked for evidence and distractors"
+ }
+}

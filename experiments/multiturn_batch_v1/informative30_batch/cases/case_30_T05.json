@@ -1,0 +1,934 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_30:T05",
+ "trajectory_id": "case_30",
+ "trajectory_case": "case_30",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "Stanley Kramer died 19 February 2001 ≈ 2001. 1989 < 2001, so Michele Lupo (Seven Rebel Gladiators' director) died earlier.",
+  "sha256": "d6ead3b3acc85277fd0807e5112fc3ca3ed0aec6360b789e8639ed2c19f2bcfd",
+  "origin": "recorded_target",
+  "artifact_id": "case_30:T05",
+  "start": 0,
+  "end": 122,
+  "original_target": {
+   "text": "Stanley Kramer died 19 February 2001 ≈ 2001. 1989 < 2001, so Michele Lupo (Seven Rebel Gladiators' director) died earlier.",
+   "artifact_id": "case_30:T05"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "Which film has the director who died earlier, Seven Rebel Gladiators or On The Beach (1959 Film)?",
+   "inputs": [
+    {
+     "unit_id": "case_30:C0001#0-144",
+     "artifact_id": "case_30:C0001",
+     "start": 0,
+     "end": 144,
+     "text": "Seven Rebel Gladiators (Italian: Sette contro tutti, lit. 'Seven against all') is a 1965 Italian sword-and-sandal film directed by Michele Lupo.",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_30:C0002#0-260",
+     "artifact_id": "case_30:C0002",
+     "start": 0,
+     "end": 260,
+     "text": "Director Director. Michele Lupo.Seven Rebel Gladiators, a quasi-clone of Seven Samurai in mainly name only is a smattering of pretty awesome sets, costumes, and moments of musical and cinematographic flair…and lots of messy tumbling and even messier slapstick.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_30:C0003#0-204",
+     "artifact_id": "case_30:C0003",
+     "start": 0,
+     "end": 204,
+     "text": "Seven Rebel Gladiators (1965) released on August 26, 1965 starring Roger Browne, José Greci, Alfio Caltabiano and directed by Michele Lupo. Get notified when Seven Rebel Gladiators is available to stream!",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_30:C0004#0-253",
+     "artifact_id": "case_30:C0004",
+     "start": 0,
+     "end": 253,
+     "text": "Adventure, history. Director: Michele Lupo. Starring: Roger Browne, José Greci, Alfio Caltabiano and others. Description. The ruthless Roman tribune, Vadio, joins forces with the evil Morakeb to take over the throne of Aristea, usurping King Krontal ...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_30:C0005#0-253",
+     "artifact_id": "case_30:C0005",
+     "start": 0,
+     "end": 253,
+     "text": "Adventure. Director: Michele Lupo. Starring: Roger Browne, José Greci, Alfio Caltabiano and others. The ruthless Roman tribune, Vadio, joins forces with the evil Morakeb to take over the throne of Aristea, usurping King Krontal and stealing away his ...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_30:C0011#0-86",
+     "artifact_id": "case_30:C0011",
+     "start": 0,
+     "end": 86,
+     "text": "Michele Lupo was an Italian film director. He directed 23 films between 1962 and 1982.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_30:C0012#0-226",
+     "artifact_id": "case_30:C0012",
+     "start": 0,
+     "end": 226,
+     "text": "Lupo directed 23 films between 1962 and 1982, spanning various genres including peplum, westerns, and comedies. Notable works include Goliath and the Sins of Babylon (1963), The Master Touch (1972), and Buddy Goes West (1981).",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_30:C0013#0-226",
+     "artifact_id": "case_30:C0013",
+     "start": 0,
+     "end": 226,
+     "text": "Michele Lupo was born on Sunday, 4 December 1932 in Corleone, Italy. She was best known as a director. Lupo's country of citizenship (nationality) was Italian. She died on Tuesday, 27 June 1989 in Rome, Italy at the age of 56.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_30:C0014#0-220",
+     "artifact_id": "case_30:C0014",
+     "start": 0,
+     "end": 220,
+     "text": "Explore the complete filmography of Michele Lupo on Rotten Tomatoes! Discover every movie they have been credited in today.Trending on RT. 2026 Oscars. Most Anticipated Movies. TV Premiere Dates. The Rotten Tomatoes App.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 6
+    }
+   ],
+   "output": {
+    "text": "The earlier material states: Seven Rebel Gladiators (Italian: Sette contro tutti, lit. 'Seven against all') is a 1965 Italian sword-and-sandal film directed by Michele Lupo.",
+    "sha256": "2eb68d0ad227d6b9561bbbf9d3f7f95be9e7cc1af3c1ddc8f3e897ff8db31ba6",
+    "origin": "controlled"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "Which film has the director who died earlier, Seven Rebel Gladiators or On The Beach (1959 Film)?",
+   "inputs": [
+    {
+     "unit_id": "case_30:C0021#0-221",
+     "artifact_id": "case_30:C0021",
+     "start": 0,
+     "end": 221,
+     "text": "Michele Lupo (4 December 1932 – 27 June 1989) was an Italian film director. He directed 23 films between 1962 and 1982. He was born in Corleone, Italy, and died on 27 June 1989 in a clinic in Rome, Italy at the age of 56.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 12
+    },
+    {
+     "unit_id": "case_30:C0016#0-237",
+     "artifact_id": "case_30:C0016",
+     "start": 0,
+     "end": 237,
+     "text": "Stanley Earl Kramer (September 29, 1913 – February 19, 2001) was an American film director and producer, responsible for making many of Hollywood's most famous \"message films\" (he called his movies heavy dramas) and a liberal movie icon.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_30:C0015#0-177",
+     "artifact_id": "case_30:C0015",
+     "start": 0,
+     "end": 177,
+     "text": "Films Directed by Michele Lupo. Directing. 1932–1989.He made his directorial debut with Maciste il gladiatore più forte del mondo (1962), marking the start of a prolific career.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_30:C0017#0-275",
+     "artifact_id": "case_30:C0017",
+     "start": 0,
+     "end": 275,
+     "text": "Stanley Kramer was an American film producer and director who created unconventional, socially conscious works on a variety of issues not usually addressed in mainstream Hollywood fare. His movies include The Defiant Ones (1958), On the Beach (1959), Judgment at Nuremberg...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_30:C0018#0-156",
+     "artifact_id": "case_30:C0018",
+     "start": 0,
+     "end": 156,
+     "text": "Stanley Kramer Headshot. Director • Producer. Birth Date: September 29, 1913. Death Date: February 19, 2001 — 87 years old. Birth Place: Brooklyn, New York.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_30:C0019#0-182",
+     "artifact_id": "case_30:C0019",
+     "start": 0,
+     "end": 182,
+     "text": "Stanley Kramer was famous American film producer and director well-known for his 'message films'. This biography profiles his childhood, life, film career, achievements and timeline.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_30:C0020#0-294",
+     "artifact_id": "case_30:C0020",
+     "start": 0,
+     "end": 294,
+     "text": "Stanley Earl Kramer (September 29, 1913 – February 19, 2001) was an American film producer and director recognized for creating independent productions that confronted contentious social and ethical dilemmas, including interracial relationships, the threat of nuclear destruction, the Scopes...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_30:C0022#0-126",
+     "artifact_id": "case_30:C0022",
+     "start": 0,
+     "end": 126,
+     "text": "Lupo died in Rome on June 27, 1989 at the age of 56. Today we remember Michele Lupo on what would have been his 80th birthday.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 12
+    },
+    {
+     "unit_id": "case_30:C0023#0-130",
+     "artifact_id": "case_30:C0023",
+     "start": 0,
+     "end": 130,
+     "text": "Michele Lupo yönetmeninin filmleri, biyografisi ve detayları. 2 film.Ölüm Tarihi: 27.06.1989. Doğum Yeri: Corleone, Sicily, Italy.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 12
+    }
+   ],
+   "output": {
+    "text": "Stanley Kramer died 19 February 2001 ≈ 2001. 1989 < 2001, so Michele Lupo (Seven Rebel Gladiators' director) died earlier.",
+    "sha256": "d6ead3b3acc85277fd0807e5112fc3ca3ed0aec6360b789e8639ed2c19f2bcfd",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "The earlier material states: Seven Rebel Gladiators (Italian: Sette contro tutti, lit. 'Seven against all') is a 1965 Italian sword-and-sandal film directed by Michele Lupo.",
+     "sha256": "2eb68d0ad227d6b9561bbbf9d3f7f95be9e7cc1af3c1ddc8f3e897ff8db31ba6",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_30:C0001#0-144",
+   "artifact_id": "case_30:C0001",
+   "start": 0,
+   "end": 144,
+   "text": "Seven Rebel Gladiators (Italian: Sette contro tutti, lit. 'Seven against all') is a 1965 Italian sword-and-sandal film directed by Michele Lupo.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_30:C0001#0-144",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_30:C0002#0-260",
+   "artifact_id": "case_30:C0002",
+   "start": 0,
+   "end": 260,
+   "text": "Director Director. Michele Lupo.Seven Rebel Gladiators, a quasi-clone of Seven Samurai in mainly name only is a smattering of pretty awesome sets, costumes, and moments of musical and cinematographic flair…and lots of messy tumbling and even messier slapstick.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_30:C0002#0-260",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_30:C0003#0-204",
+   "artifact_id": "case_30:C0003",
+   "start": 0,
+   "end": 204,
+   "text": "Seven Rebel Gladiators (1965) released on August 26, 1965 starring Roger Browne, José Greci, Alfio Caltabiano and directed by Michele Lupo. Get notified when Seven Rebel Gladiators is available to stream!",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_30:C0003#0-204",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_30:C0004#0-253",
+   "artifact_id": "case_30:C0004",
+   "start": 0,
+   "end": 253,
+   "text": "Adventure, history. Director: Michele Lupo. Starring: Roger Browne, José Greci, Alfio Caltabiano and others. Description. The ruthless Roman tribune, Vadio, joins forces with the evil Morakeb to take over the throne of Aristea, usurping King Krontal ...",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_30:C0004#0-253",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_30:C0005#0-253",
+   "artifact_id": "case_30:C0005",
+   "start": 0,
+   "end": 253,
+   "text": "Adventure. Director: Michele Lupo. Starring: Roger Browne, José Greci, Alfio Caltabiano and others. The ruthless Roman tribune, Vadio, joins forces with the evil Morakeb to take over the throne of Aristea, usurping King Krontal and stealing away his ...",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_30:C0005#0-253",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_30:C0011#0-86",
+   "artifact_id": "case_30:C0011",
+   "start": 0,
+   "end": 86,
+   "text": "Michele Lupo was an Italian film director. He directed 23 films between 1962 and 1982.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_30:C0011#0-86",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_30:C0012#0-226",
+   "artifact_id": "case_30:C0012",
+   "start": 0,
+   "end": 226,
+   "text": "Lupo directed 23 films between 1962 and 1982, spanning various genres including peplum, westerns, and comedies. Notable works include Goliath and the Sins of Babylon (1963), The Master Touch (1972), and Buddy Goes West (1981).",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_30:C0012#0-226",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_30:C0013#0-226",
+   "artifact_id": "case_30:C0013",
+   "start": 0,
+   "end": 226,
+   "text": "Michele Lupo was born on Sunday, 4 December 1932 in Corleone, Italy. She was best known as a director. Lupo's country of citizenship (nationality) was Italian. She died on Tuesday, 27 June 1989 in Rome, Italy at the age of 56.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_30:C0013#0-226",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_30:C0014#0-220",
+   "artifact_id": "case_30:C0014",
+   "start": 0,
+   "end": 220,
+   "text": "Explore the complete filmography of Michele Lupo on Rotten Tomatoes! Discover every movie they have been credited in today.Trending on RT. 2026 Oscars. Most Anticipated Movies. TV Premiere Dates. The Rotten Tomatoes App.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_30:C0014#0-220",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_30:C0015#0-177",
+   "artifact_id": "case_30:C0015",
+   "start": 0,
+   "end": 177,
+   "text": "Films Directed by Michele Lupo. Directing. 1932–1989.He made his directorial debut with Maciste il gladiatore più forte del mondo (1962), marking the start of a prolific career.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_30:C0015#0-177",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_30:C0016#0-237",
+   "artifact_id": "case_30:C0016",
+   "start": 0,
+   "end": 237,
+   "text": "Stanley Earl Kramer (September 29, 1913 – February 19, 2001) was an American film director and producer, responsible for making many of Hollywood's most famous \"message films\" (he called his movies heavy dramas) and a liberal movie icon.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_30:C0016#0-237",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_30:C0017#0-275",
+   "artifact_id": "case_30:C0017",
+   "start": 0,
+   "end": 275,
+   "text": "Stanley Kramer was an American film producer and director who created unconventional, socially conscious works on a variety of issues not usually addressed in mainstream Hollywood fare. His movies include The Defiant Ones (1958), On the Beach (1959), Judgment at Nuremberg...",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_30:C0017#0-275",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_30:C0018#0-156",
+   "artifact_id": "case_30:C0018",
+   "start": 0,
+   "end": 156,
+   "text": "Stanley Kramer Headshot. Director • Producer. Birth Date: September 29, 1913. Death Date: February 19, 2001 — 87 years old. Birth Place: Brooklyn, New York.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_30:C0018#0-156",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_30:C0019#0-182",
+   "artifact_id": "case_30:C0019",
+   "start": 0,
+   "end": 182,
+   "text": "Stanley Kramer was famous American film producer and director well-known for his 'message films'. This biography profiles his childhood, life, film career, achievements and timeline.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_30:C0019#0-182",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_30:C0020#0-294",
+   "artifact_id": "case_30:C0020",
+   "start": 0,
+   "end": 294,
+   "text": "Stanley Earl Kramer (September 29, 1913 – February 19, 2001) was an American film producer and director recognized for creating independent productions that confronted contentious social and ethical dilemmas, including interracial relationships, the threat of nuclear destruction, the Scopes...",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_30:C0020#0-294",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_30:C0021#0-221",
+   "artifact_id": "case_30:C0021",
+   "start": 0,
+   "end": 221,
+   "text": "Michele Lupo (4 December 1932 – 27 June 1989) was an Italian film director. He directed 23 films between 1962 and 1982. He was born in Corleone, Italy, and died on 27 June 1989 in a clinic in Rome, Italy at the age of 56.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_30:C0021#0-221",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_30:C0022#0-126",
+   "artifact_id": "case_30:C0022",
+   "start": 0,
+   "end": 126,
+   "text": "Lupo died in Rome on June 27, 1989 at the age of 56. Today we remember Michele Lupo on what would have been his 80th birthday.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_30:C0022#0-126",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_30:C0023#0-130",
+   "artifact_id": "case_30:C0023",
+   "start": 0,
+   "end": 130,
+   "text": "Michele Lupo yönetmeninin filmleri, biyografisi ve detayları. 2 film.Ölüm Tarihi: 27.06.1989. Doğum Yeri: Corleone, Sicily, Italy.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_30:C0023#0-130",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_30:C0024#0-106",
+   "artifact_id": "case_30:C0024",
+   "start": 0,
+   "end": 106,
+   "text": "Michele Lupo, né le 4 décembre 1932 à Corleone et mort le 27 juin 1989 à Rome, est un réalisateur italien.",
+   "occurrences": [],
+   "pool_only": true
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_30:T05:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_30:C0001",
+      "start": 0,
+      "end": 144,
+      "text": "Seven Rebel Gladiators (Italian: Sette contro tutti, lit. 'Seven against all') is a 1965 Italian sword-and-sandal film directed by Michele Lupo."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_30:C0001",
+       "start": 0,
+       "end": 144,
+       "text": "Seven Rebel Gladiators (Italian: Sette contro tutti, lit. 'Seven against all') is a 1965 Italian sword-and-sandal film directed by Michele Lupo."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_30:C0021",
+      "start": 0,
+      "end": 221,
+      "text": "Michele Lupo (4 December 1932 – 27 June 1989) was an Italian film director. He directed 23 films between 1962 and 1982. He was born in Corleone, Italy, and died on 27 June 1989 in a clinic in Rome, Italy at the age of 56."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_30:C0021",
+       "start": 0,
+       "end": 221,
+       "text": "Michele Lupo (4 December 1932 – 27 June 1989) was an Italian film director. He directed 23 films between 1962 and 1982. He was born in Corleone, Italy, and died on 27 June 1989 in a clinic in Rome, Italy at the age of 56."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_30:C0016",
+      "start": 0,
+      "end": 237,
+      "text": "Stanley Earl Kramer (September 29, 1913 – February 19, 2001) was an American film director and producer, responsible for making many of Hollywood's most famous \"message films\" (he called his movies heavy dramas) and a liberal movie icon."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_30:C0016",
+       "start": 0,
+       "end": 237,
+       "text": "Stanley Earl Kramer (September 29, 1913 – February 19, 2001) was an American film director and producer, responsible for making many of Hollywood's most famous \"message films\" (he called his movies heavy dramas) and a liberal movie icon."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "group_id": "case_30:T05:support_g02",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_30:C0003",
+      "start": 0,
+      "end": 204,
+      "text": "Seven Rebel Gladiators (1965) released on August 26, 1965 starring Roger Browne, José Greci, Alfio Caltabiano and directed by Michele Lupo. Get notified when Seven Rebel Gladiators is available to stream!"
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_30:C0003",
+       "start": 0,
+       "end": 204,
+       "text": "Seven Rebel Gladiators (1965) released on August 26, 1965 starring Roger Browne, José Greci, Alfio Caltabiano and directed by Michele Lupo. Get notified when Seven Rebel Gladiators is available to stream!"
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_30:C0013",
+      "start": 0,
+      "end": 226,
+      "text": "Michele Lupo was born on Sunday, 4 December 1932 in Corleone, Italy. She was best known as a director. Lupo's country of citizenship (nationality) was Italian. She died on Tuesday, 27 June 1989 in Rome, Italy at the age of 56."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_30:C0013",
+       "start": 0,
+       "end": 226,
+       "text": "Michele Lupo was born on Sunday, 4 December 1932 in Corleone, Italy. She was best known as a director. Lupo's country of citizenship (nationality) was Italian. She died on Tuesday, 27 June 1989 in Rome, Italy at the age of 56."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_30:C0018",
+      "start": 0,
+      "end": 156,
+      "text": "Stanley Kramer Headshot. Director • Producer. Birth Date: September 29, 1913. Death Date: February 19, 2001 — 87 years old. Birth Place: Brooklyn, New York."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_30:C0018",
+       "start": 0,
+       "end": 156,
+       "text": "Stanley Kramer Headshot. Director • Producer. Birth Date: September 29, 1913. Death Date: February 19, 2001 — 87 years old. Birth Place: Brooklyn, New York."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_30:C0001#0-144"
+  ],
+  "B": [
+   "case_30:C0021#0-221"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T05",
+   "case": "case_30",
+   "question": "Which film has the director who died earlier, Seven Rebel Gladiators or On The Beach (1959 Film)?",
+   "target_event": 13,
+   "target_start": 822,
+   "target_end": 944,
+   "target": "Stanley Kramer died 19 February 2001 ≈ 2001. 1989 < 2001, so Michele Lupo (Seven Rebel Gladiators' director) died earlier.",
+   "candidate_ids": [
+    "C0001",
+    "C0002",
+    "C0003",
+    "C0004",
+    "C0005",
+    "C0011",
+    "C0012",
+    "C0013",
+    "C0014",
+    "C0015",
+    "C0016",
+    "C0017",
+    "C0018",
+    "C0019",
+    "C0020",
+    "C0021",
+    "C0022",
+    "C0023",
+    "C0024",
+    "C0025"
+   ],
+   "annotation_status": "model_annotated_pending_human_review"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0001",
+     "start": 0,
+     "end": 144,
+     "text": "Seven Rebel Gladiators (Italian: Sette contro tutti, lit. 'Seven against all') is a 1965 Italian sword-and-sandal film directed by Michele Lupo."
+    },
+    {
+     "candidate_id": "C0021",
+     "start": 0,
+     "end": 76,
+     "text": "Michele Lupo (4 December 1932 – 27 June 1989) was an Italian film director. "
+    },
+    {
+     "candidate_id": "C0016",
+     "start": 0,
+     "end": 237,
+     "text": "Stanley Earl Kramer (September 29, 1913 – February 19, 2001) was an American film director and producer, responsible for making many of Hollywood's most famous \"message films\" (he called his movies heavy dramas) and a liberal movie icon."
+    }
+   ]
+  },
+  "intermediate_origin": "controlled",
+  "intermediate_event": null,
+  "time_order_audit": [
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 12,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 6,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 12,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 12,
+    "cut": 13,
+    "ok": true
+   }
+  ],
+  "note": "time-order checked for evidence and distractors"
+ }
+}

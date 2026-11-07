@@ -1,0 +1,138 @@
+{
+ "total": 51,
+ "qualified": 30,
+ "real": 12,
+ "controlled": 18,
+ "controls": 3,
+ "insufficient": 17,
+ "diagnostic": 1,
+ "trajectories": 20,
+ "metrics_all": {
+  "last_round": {
+   "hit": 30,
+   "c5": 0,
+   "c10": 0,
+   "complete": 11.0,
+   "hitrank": 1.27
+  },
+  "bm25_history": {
+   "hit": 29,
+   "c5": 15,
+   "c10": 25,
+   "complete": 6.27,
+   "hitrank": 1.37
+  },
+  "head_full_history": {
+   "hit": 30,
+   "c5": 20,
+   "c10": 28,
+   "complete": 4.93,
+   "hitrank": 1.3
+  },
+  "memoryflow": {
+   "hit": 30,
+   "c5": 25,
+   "c10": 28,
+   "complete": 4.23,
+   "hitrank": 1.17
+  }
+ },
+ "metrics_real": {
+  "last_round": {
+   "hit": 12,
+   "c5": 0,
+   "c10": 0,
+   "complete": 11.0,
+   "hitrank": 1.08
+  },
+  "bm25_history": {
+   "hit": 12,
+   "c5": 4,
+   "c10": 9,
+   "complete": 7.08,
+   "hitrank": 1.25
+  },
+  "head_full_history": {
+   "hit": 12,
+   "c5": 7,
+   "c10": 12,
+   "complete": 4.67,
+   "hitrank": 1.08
+  },
+  "memoryflow": {
+   "hit": 12,
+   "c5": 8,
+   "c10": 11,
+   "complete": 5.17,
+   "hitrank": 1.17
+  }
+ },
+ "metrics_controlled": {
+  "last_round": {
+   "hit": 18,
+   "c5": 0,
+   "c10": 0,
+   "complete": 11.0,
+   "hitrank": 1.39
+  },
+  "bm25_history": {
+   "hit": 17,
+   "c5": 11,
+   "c10": 16,
+   "complete": 5.72,
+   "hitrank": 1.44
+  },
+  "head_full_history": {
+   "hit": 18,
+   "c5": 13,
+   "c10": 16,
+   "complete": 5.11,
+   "hitrank": 1.44
+  },
+  "memoryflow": {
+   "hit": 18,
+   "c5": 17,
+   "c10": 17,
+   "complete": 3.61,
+   "hitrank": 1.17
+  }
+ },
+ "paired_all": {
+  "last_round": {
+   "complete": {
+    "win": 28,
+    "tie": 2,
+    "loss": 0
+   },
+   "hit": {
+    "win": 3,
+    "tie": 26,
+    "loss": 1
+   }
+  },
+  "bm25_history": {
+   "complete": {
+    "win": 21,
+    "tie": 6,
+    "loss": 3
+   },
+   "hit": {
+    "win": 5,
+    "tie": 22,
+    "loss": 3
+   }
+  },
+  "head_full_history": {
+   "complete": {
+    "win": 14,
+    "tie": 10,
+    "loss": 6
+   },
+   "hit": {
+    "win": 5,
+    "tie": 23,
+    "loss": 2
+   }
+  }
+ }
+}

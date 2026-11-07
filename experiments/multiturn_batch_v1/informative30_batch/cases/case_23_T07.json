@@ -1,0 +1,791 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_23:T07",
+ "trajectory_id": "case_23",
+ "trajectory_case": "case_23",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "Anker Sørensen died later (2010 > 2009), so the film with the director who died later is Don Olsen Kommer Til Byen",
+  "sha256": "658dad124ccc4cc029d766bd63d421c6a05a731f215fdc030517cae38a12aded",
+  "origin": "recorded_target",
+  "artifact_id": "case_23:T07",
+  "start": 0,
+  "end": 114,
+  "original_target": {
+   "text": "Anker Sørensen died later (2010 > 2009), so the film with the director who died later is Don Olsen Kommer Til Byen",
+   "artifact_id": "case_23:T07"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "Which film has the director who died later, Once Upon A Time (1994 Film) or Don Olsen Kommer Til Byen?",
+   "inputs": [
+    {
+     "unit_id": "case_23:C0010#0-155",
+     "artifact_id": "case_23:C0010",
+     "start": 0,
+     "end": 155,
+     "text": "Description by Wikipedia. Don Olsen kommer til byen is a 1964 Danish comedy film directed by Anker Sørensen. The film stars Dirch Passer and Buster Larsen.",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_23:C0006#0-128",
+     "artifact_id": "case_23:C0006",
+     "start": 0,
+     "end": 128,
+     "text": "Don Olsen comes to town) is a 1964 Danish comedy film directed by Anker Sørensen. The film stars Dirch Passer and Buster Larsen.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_23:C0007#0-272",
+     "artifact_id": "case_23:C0007",
+     "start": 0,
+     "end": 272,
+     "text": "Bank director L.W. Jacobsen resides in a small provincial town. He is not particularly interested in his wife, Elsebeth, but rather in teacher and city council member Miss Mortensen. Thorsen, the town's manufacturer, is a member of the same city council group as Jacobsen.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_23:C0008#0-123",
+     "artifact_id": "case_23:C0008",
+     "start": 0,
+     "end": 123,
+     "text": "Don Olsen kommer til byen. Director.Based on. Frit efter roman af Tage Vandsted. Director of Photography. Henning Bendtsen.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_23:C0009#0-263",
+     "artifact_id": "case_23:C0009",
+     "start": 0,
+     "end": 263,
+     "text": "Audience Score. 65. Don Olsen kommer til byen.Olsen is not interested in the upper class, but rather in people. By chance, Thorsen and Olsen meet and soon become drinking buddies. Thorsen drags the milkman's horse home to his apartment in the middle of the night.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_23:C0011#0-213",
+     "artifact_id": "case_23:C0011",
+     "start": 0,
+     "end": 213,
+     "text": "I found that Don Olsen Kommer Til Byen was directed by Anker Sørensen. Now I need to clarify which \"Once Upon a Time\" 1994 film is being referred to, since there could be multiple. Let me search more specifically.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 5
+    },
+    {
+     "unit_id": "case_23:C0022#0-162",
+     "artifact_id": "case_23:C0022",
+     "start": 0,
+     "end": 162,
+     "text": "Anker Sørensen was a Danish film editor and director. He directed 18 films between 1949 and 1973.Occupation(s). Film editor and director. Years active. 1946-1988.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_23:C0023#0-131",
+     "artifact_id": "case_23:C0023",
+     "start": 0,
+     "end": 131,
+     "text": "Film Awards. Recommendations.Director Director. Writer Writer. Full Name. Anker Harry Sørensen. Place of Birth. København, Denmark.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_23:C0024#0-213",
+     "artifact_id": "case_23:C0024",
+     "start": 0,
+     "end": 213,
+     "text": "Anker Sørensen movies on Flixano. Filmklipper and instructor.Anker Sørensen was born on May 3, 1926 in Denmark as Harry Sorensen. He was an editor and director, known for The last winter (1960), Suddenly, a Woman!",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 10
+    }
+   ],
+   "output": {
+    "text": "I found that \"Once Upon a Time (1994 film)\" is a Thai film directed by Bhandit Rittakol. Now I need to find Bhandit Rittakol's death date.",
+    "sha256": "9b40db33a9984ae65ed5b257dcb28c46d6ba07091665132fa29b7da0cae43bd0",
+    "origin": "recorded_agent_message"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "Which film has the director who died later, Once Upon A Time (1994 Film) or Don Olsen Kommer Til Byen?",
+   "inputs": [
+    {
+     "unit_id": "case_23:C0068#0-206",
+     "artifact_id": "case_23:C0068",
+     "start": 0,
+     "end": 206,
+     "text": "Bhandit Rittakol. March 21, 1951 — October 1, 2009 • 58 y.o. (74). Director Director. Writer Writer. Designer Designer.Phra-dek-seua-kai-wawk, 2006. Fantasy, Action, 1 hr 32 min Thailand • Bhandit Rittakol.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 24
+    },
+    {
+     "unit_id": "case_23:C0025#0-266",
+     "artifact_id": "case_23:C0025",
+     "start": 0,
+     "end": 266,
+     "text": "Your diary date (if set) and watched status for this film remain publicly visible.Født 3/5 1926, død 19/8 2010. Anker Sørensen was born on May 3, 1926 in Denmark as Harry Sørensen. He was an editor and director, known for Den sidste vinter (1960), Suddenly, a Woman!",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_23:C0026#0-162",
+     "artifact_id": "case_23:C0026",
+     "start": 0,
+     "end": 162,
+     "text": "Anker Sørensen. Film editor and director (1926-2010).(Danish: Gudrun) is a 1963 Danish drama film directed by Anker Sørensen and starring Laila Andersson. more ».",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_23:C0067#0-246",
+     "artifact_id": "case_23:C0067",
+     "start": 0,
+     "end": 246,
+     "text": "Bhandit Rittakol was an award-winning Thai film director, producer and screenwriter.This is the only Thai film made to date to specifically address King Bhumibol's cloud seeding program. As well other Thai royal projects are depicted in the film.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 24
+    },
+    {
+     "unit_id": "case_23:C0069#0-244",
+     "artifact_id": "case_23:C0069",
+     "start": 0,
+     "end": 244,
+     "text": "Bhandit Rittakol was an award-winning Thai film director, producer and screenwriter born in Ayutthaya Province, Thailand. His films include the controversial biographical film of Thai communist revolutionary Seksan Prasertkul, The Moonhunter...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 24
+    },
+    {
+     "unit_id": "case_23:C0070#0-262",
+     "artifact_id": "case_23:C0070",
+     "start": 0,
+     "end": 262,
+     "text": "Veteran director Bhandit Rittakol, who had made a comeback in recent years and was working on continuing his run of success, died at around 11 this morning in Bangkok's Vajira Hospital. He was 58. The director had suffered heart and kidney diseases and diabetes.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 24
+    },
+    {
+     "unit_id": "case_23:C0071#0-238",
+     "artifact_id": "case_23:C0071",
+     "start": 0,
+     "end": 238,
+     "text": "This is the only Thai film made to date to specifically address King Bhumibol's cloud seeding program. As well other Thai royal projects are depicted in the film. The re-released film also featured a new score of compositions by the king.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 24
+    }
+   ],
+   "output": {
+    "text": "Anker Sørensen died later (2010 > 2009), so the film with the director who died later is Don Olsen Kommer Til Byen",
+    "sha256": "658dad124ccc4cc029d766bd63d421c6a05a731f215fdc030517cae38a12aded",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "I found that \"Once Upon a Time (1994 film)\" is a Thai film directed by Bhandit Rittakol. Now I need to find Bhandit Rittakol's death date.",
+     "sha256": "9b40db33a9984ae65ed5b257dcb28c46d6ba07091665132fa29b7da0cae43bd0",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_23:C0006#0-128",
+   "artifact_id": "case_23:C0006",
+   "start": 0,
+   "end": 128,
+   "text": "Don Olsen comes to town) is a 1964 Danish comedy film directed by Anker Sørensen. The film stars Dirch Passer and Buster Larsen.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_23:C0006#0-128",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0007#0-272",
+   "artifact_id": "case_23:C0007",
+   "start": 0,
+   "end": 272,
+   "text": "Bank director L.W. Jacobsen resides in a small provincial town. He is not particularly interested in his wife, Elsebeth, but rather in teacher and city council member Miss Mortensen. Thorsen, the town's manufacturer, is a member of the same city council group as Jacobsen.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_23:C0007#0-272",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0008#0-123",
+   "artifact_id": "case_23:C0008",
+   "start": 0,
+   "end": 123,
+   "text": "Don Olsen kommer til byen. Director.Based on. Frit efter roman af Tage Vandsted. Director of Photography. Henning Bendtsen.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_23:C0008#0-123",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0009#0-263",
+   "artifact_id": "case_23:C0009",
+   "start": 0,
+   "end": 263,
+   "text": "Audience Score. 65. Don Olsen kommer til byen.Olsen is not interested in the upper class, but rather in people. By chance, Thorsen and Olsen meet and soon become drinking buddies. Thorsen drags the milkman's horse home to his apartment in the middle of the night.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_23:C0009#0-263",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0010#0-155",
+   "artifact_id": "case_23:C0010",
+   "start": 0,
+   "end": 155,
+   "text": "Description by Wikipedia. Don Olsen kommer til byen is a 1964 Danish comedy film directed by Anker Sørensen. The film stars Dirch Passer and Buster Larsen.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_23:C0010#0-155",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0011#0-213",
+   "artifact_id": "case_23:C0011",
+   "start": 0,
+   "end": 213,
+   "text": "I found that Don Olsen Kommer Til Byen was directed by Anker Sørensen. Now I need to clarify which \"Once Upon a Time\" 1994 film is being referred to, since there could be multiple. Let me search more specifically.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_23:C0011#0-213",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0022#0-162",
+   "artifact_id": "case_23:C0022",
+   "start": 0,
+   "end": 162,
+   "text": "Anker Sørensen was a Danish film editor and director. He directed 18 films between 1949 and 1973.Occupation(s). Film editor and director. Years active. 1946-1988.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_23:C0022#0-162",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0023#0-131",
+   "artifact_id": "case_23:C0023",
+   "start": 0,
+   "end": 131,
+   "text": "Film Awards. Recommendations.Director Director. Writer Writer. Full Name. Anker Harry Sørensen. Place of Birth. København, Denmark.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_23:C0023#0-131",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0024#0-213",
+   "artifact_id": "case_23:C0024",
+   "start": 0,
+   "end": 213,
+   "text": "Anker Sørensen movies on Flixano. Filmklipper and instructor.Anker Sørensen was born on May 3, 1926 in Denmark as Harry Sorensen. He was an editor and director, known for The last winter (1960), Suddenly, a Woman!",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_23:C0024#0-213",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0025#0-266",
+   "artifact_id": "case_23:C0025",
+   "start": 0,
+   "end": 266,
+   "text": "Your diary date (if set) and watched status for this film remain publicly visible.Født 3/5 1926, død 19/8 2010. Anker Sørensen was born on May 3, 1926 in Denmark as Harry Sørensen. He was an editor and director, known for Den sidste vinter (1960), Suddenly, a Woman!",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_23:C0025#0-266",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0026#0-162",
+   "artifact_id": "case_23:C0026",
+   "start": 0,
+   "end": 162,
+   "text": "Anker Sørensen. Film editor and director (1926-2010).(Danish: Gudrun) is a 1963 Danish drama film directed by Anker Sørensen and starring Laila Andersson. more ».",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_23:C0026#0-162",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0067#0-246",
+   "artifact_id": "case_23:C0067",
+   "start": 0,
+   "end": 246,
+   "text": "Bhandit Rittakol was an award-winning Thai film director, producer and screenwriter.This is the only Thai film made to date to specifically address King Bhumibol's cloud seeding program. As well other Thai royal projects are depicted in the film.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_23:C0067#0-246",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0068#0-206",
+   "artifact_id": "case_23:C0068",
+   "start": 0,
+   "end": 206,
+   "text": "Bhandit Rittakol. March 21, 1951 — October 1, 2009 • 58 y.o. (74). Director Director. Writer Writer. Designer Designer.Phra-dek-seua-kai-wawk, 2006. Fantasy, Action, 1 hr 32 min Thailand • Bhandit Rittakol.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_23:C0068#0-206",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0069#0-244",
+   "artifact_id": "case_23:C0069",
+   "start": 0,
+   "end": 244,
+   "text": "Bhandit Rittakol was an award-winning Thai film director, producer and screenwriter born in Ayutthaya Province, Thailand. His films include the controversial biographical film of Thai communist revolutionary Seksan Prasertkul, The Moonhunter...",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_23:C0069#0-244",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0070#0-262",
+   "artifact_id": "case_23:C0070",
+   "start": 0,
+   "end": 262,
+   "text": "Veteran director Bhandit Rittakol, who had made a comeback in recent years and was working on continuing his run of success, died at around 11 this morning in Bangkok's Vajira Hospital. He was 58. The director had suffered heart and kidney diseases and diabetes.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_23:C0070#0-262",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0071#0-238",
+   "artifact_id": "case_23:C0071",
+   "start": 0,
+   "end": 238,
+   "text": "This is the only Thai film made to date to specifically address King Bhumibol's cloud seeding program. As well other Thai royal projects are depicted in the film. The re-released film also featured a new score of compositions by the king.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_23:C0071#0-238",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_23:T07:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_23:C0010",
+      "start": 0,
+      "end": 155,
+      "text": "Description by Wikipedia. Don Olsen kommer til byen is a 1964 Danish comedy film directed by Anker Sørensen. The film stars Dirch Passer and Buster Larsen."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_23:C0010",
+       "start": 0,
+       "end": 155,
+       "text": "Description by Wikipedia. Don Olsen kommer til byen is a 1964 Danish comedy film directed by Anker Sørensen. The film stars Dirch Passer and Buster Larsen."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_23:C0025",
+      "start": 0,
+      "end": 266,
+      "text": "Your diary date (if set) and watched status for this film remain publicly visible.Født 3/5 1926, død 19/8 2010. Anker Sørensen was born on May 3, 1926 in Denmark as Harry Sørensen. He was an editor and director, known for Den sidste vinter (1960), Suddenly, a Woman!"
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_23:C0025",
+       "start": 0,
+       "end": 266,
+       "text": "Your diary date (if set) and watched status for this film remain publicly visible.Født 3/5 1926, død 19/8 2010. Anker Sørensen was born on May 3, 1926 in Denmark as Harry Sørensen. He was an editor and director, known for Den sidste vinter (1960), Suddenly, a Woman!"
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_23:C0068",
+      "start": 0,
+      "end": 206,
+      "text": "Bhandit Rittakol. March 21, 1951 — October 1, 2009 • 58 y.o. (74). Director Director. Writer Writer. Designer Designer.Phra-dek-seua-kai-wawk, 2006. Fantasy, Action, 1 hr 32 min Thailand • Bhandit Rittakol."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_23:C0068",
+       "start": 0,
+       "end": 206,
+       "text": "Bhandit Rittakol. March 21, 1951 — October 1, 2009 • 58 y.o. (74). Director Director. Writer Writer. Designer Designer.Phra-dek-seua-kai-wawk, 2006. Fantasy, Action, 1 hr 32 min Thailand • Bhandit Rittakol."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_23:C0010#0-155"
+  ],
+  "B": [
+   "case_23:C0068#0-206"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T07",
+   "case": "case_23",
+   "question": "Which film has the director who died later, Once Upon A Time (1994 Film) or Don Olsen Kommer Til Byen?",
+   "target_event": 26,
+   "target_start": 537,
+   "target_end": 651,
+   "target": "Anker Sørensen died later (2010 > 2009), so the film with the director who died later is Don Olsen Kommer Til Byen",
+   "candidate_ids": [
+    "C0006",
+    "C0007",
+    "C0008",
+    "C0009",
+    "C0010",
+    "C0022",
+    "C0023",
+    "C0024",
+    "C0025",
+    "C0026",
+    "C0067",
+    "C0068",
+    "C0069",
+    "C0070",
+    "C0071",
+    "C0011"
+   ],
+   "annotation_status": "assistant_reviewed_pending_human"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0010",
+     "start": 0,
+     "end": 155,
+     "text": "Description by Wikipedia. Don Olsen kommer til byen is a 1964 Danish comedy film directed by Anker Sørensen. The film stars Dirch Passer and Buster Larsen."
+    },
+    {
+     "candidate_id": "C0025",
+     "start": 0,
+     "end": 266,
+     "text": "Your diary date (if set) and watched status for this film remain publicly visible.Født 3/5 1926, død 19/8 2010. Anker Sørensen was born on May 3, 1926 in Denmark as Harry Sørensen. He was an editor and director, known for Den sidste vinter (1960), Suddenly, a Woman!"
+    },
+    {
+     "candidate_id": "C0068",
+     "start": 0,
+     "end": 206,
+     "text": "Bhandit Rittakol. March 21, 1951 — October 1, 2009 • 58 y.o. (74). Director Director. Writer Writer. Designer Designer.Phra-dek-seua-kai-wawk, 2006. Fantasy, Action, 1 hr 32 min Thailand • Bhandit Rittakol."
+    }
+   ]
+  },
+  "intermediate_origin": "recorded_agent_message",
+  "intermediate_event": 23,
+  "time_order_audit": [
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 23,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 23,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 23,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 23,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 23,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 5,
+    "cut": 23,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 10,
+    "cut": 23,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 10,
+    "cut": 23,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 10,
+    "cut": 23,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 24,
+    "cut": 26,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 10,
+    "cut": 26,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 10,
+    "cut": 26,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 24,
+    "cut": 26,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 24,
+    "cut": 26,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 24,
+    "cut": 26,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 24,
+    "cut": 26,
+    "ok": true
+   }
+  ],
+  "note": "time-order checked for evidence and distractors"
+ }
+}

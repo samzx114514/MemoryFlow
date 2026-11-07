@@ -1,0 +1,1017 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_10:T05",
+ "trajectory_id": "case_10",
+ "trajectory_case": "case_10",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "Therefore, Sergio Castellitto is Giselda Volodi's sibling-in-law.",
+  "sha256": "bca7e3a62ae152e3f846c34ed667069aa77e69171f0f3b6b18a7ce1026baef2f",
+  "origin": "recorded_target",
+  "artifact_id": "case_10:T05",
+  "start": 0,
+  "end": 65,
+  "original_target": {
+   "text": "Therefore, Sergio Castellitto is Giselda Volodi's sibling-in-law.",
+   "artifact_id": "case_10:T05"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "Who is Giselda Volodi's sibling-in-law?",
+   "inputs": [
+    {
+     "unit_id": "case_10:C0011#0-273",
+     "artifact_id": "case_10:C0011",
+     "start": 0,
+     "end": 273,
+     "text": "Giselda Volodi (sister). Website. www.margaretmazzantini.com. Margaret Mazzantini. (Italian pronunciation: [ˈmarɡaret mattsanˈtiːni]; born 27 October 1961) is an Italian-Irish writer and actress. She became a film, television and stage actor, but is best known as a writer.",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_10:C0001#0-158",
+     "artifact_id": "case_10:C0001",
+     "start": 0,
+     "end": 158,
+     "text": "Giselda Volodi is an Italian actress. She was born Giselda Mazzantini, in Tangier, Morocco, to the family of writer Carlo Mazzantini and artist Anne Donnelly.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_10:C0002#0-233",
+     "artifact_id": "case_10:C0002",
+     "start": 0,
+     "end": 233,
+     "text": "Giselda Volodi. Actress: Hudson Hawk. Giselda Volodi was born on 28 September 1959 in Tangier, Tangier-Tetouan, Morocco. She is an actress, known for Hudson Hawk (1991), The Grand Budapest Hotel (2014) and Miracle at St. Anna (2008).",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_10:C0003#0-273",
+     "artifact_id": "case_10:C0003",
+     "start": 0,
+     "end": 273,
+     "text": "Giselda Volodi is an Italian actress. She was born Giselda Mazzantini, in Tangier, Morocco, to the family of writer Carlo Mazzantini and artist Anne Donnelly.She made her film debut in Hudson Hawk. Other roles since then include Ocean's Twelve and The Grand Budapest Hotel.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_10:C0004#0-77",
+     "artifact_id": "case_10:C0004",
+     "start": 0,
+     "end": 77,
+     "text": "Giselda Volodi | Discover Giselda Volodi's show and movie roles with TV Time.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_10:C0005#0-134",
+     "artifact_id": "case_10:C0005",
+     "start": 0,
+     "end": 134,
+     "text": "Discover every movie by Giselda Volodi in order. Explore detailed filmographies on Fandango and stay updated with the latest releases.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_10:C0006#0-233",
+     "artifact_id": "case_10:C0006",
+     "start": 0,
+     "end": 233,
+     "text": "Giselda Volodi. Actress: Hudson Hawk. Giselda Volodi was born on 28 September 1959 in Tangier, Tangier-Tetouan, Morocco. She is an actress, known for Hudson Hawk (1991), The Grand Budapest Hotel (2014) and Miracle at St. Anna (2008).",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_10:C0007#0-218",
+     "artifact_id": "case_10:C0007",
+     "start": 0,
+     "end": 218,
+     "text": "Giselda Volodi. September 28, 1959 • 66 y.o. Actress Actress. Full Name. Giselda Mazzantini. Place of Birth.2014 — Serge's Sister. Comedy, Mystery, Adventure, 1 hr 40 min Germany, United States • Wes Anderson. Friends.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_10:C0008#0-219",
+     "artifact_id": "case_10:C0008",
+     "start": 0,
+     "end": 219,
+     "text": "Giselda Volodi, born Giselda Mazzantini on September 28, 1959, in Tangier, Morocco, experienced frequent relocations in her early years due to her family's nomadic lifestyle influenced by her parents' artistic pursuits.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 4
+    }
+   ],
+   "output": {
+    "text": "The earlier material states: Giselda Volodi (sister). Website. www.margaretmazzantini.com. Margaret Mazzantini. (Italian pronunciation: [ˈmarɡaret mattsanˈtiːni]; born 27 October 1961) is an Italian-Irish writer and actress. She became a film, television and stage acto",
+    "sha256": "26ccb6b44f4ac2bdd2bbd89f371eff220a334668c0182cb344dfd2488a901fe8",
+    "origin": "controlled"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "Who is Giselda Volodi's sibling-in-law?",
+   "inputs": [
+    {
+     "unit_id": "case_10:C0016#0-250",
+     "artifact_id": "case_10:C0016",
+     "start": 0,
+     "end": 250,
+     "text": "Margaret Mazzantini. (Italian pronunciation: [ˈmarɡaret mattsanˈtiːni]; born 27 October 1961) is an Italian-Irish writer and actress. She became a film, television and stage actor, but is best known as a writer.She married Sergio Castellitto in 1987.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 11
+    },
+    {
+     "unit_id": "case_10:C0009#0-222",
+     "artifact_id": "case_10:C0009",
+     "start": 0,
+     "end": 222,
+     "text": "Giselda Volodi. ActorBorn September 28, 1959 (65 years). Share. Giselda Volodi is an Italian actress. She was born Giselda Mazzantini, in Tangier, Morocco, to the family of writer Carlo Mazzantini and artist Anne Donnelly.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_10:C0010#0-114",
+     "artifact_id": "case_10:C0010",
+     "start": 0,
+     "end": 114,
+     "text": "Giselda Volodi was born in 1959 from Morocco. And known for The Grand Budapest Hotel and The Consequences of Love.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_10:C0012#0-270",
+     "artifact_id": "case_10:C0012",
+     "start": 0,
+     "end": 270,
+     "text": "Giselda Volodi was born on 28 September 1959 in Tangier, Tangier-Tetouan, Morocco. She is an actress, known for Hudson Hawk (1991), The Grand Budapest Hotel (2014) and Miracle at St. Anna (2008).Sister of producer Moira Mazzantini and actress/writer Margaret Mazzantini.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_10:C0013#0-149",
+     "artifact_id": "case_10:C0013",
+     "start": 0,
+     "end": 149,
+     "text": "Giselda Volodi was born Giselda Mazzantini into a family with Italian ancestry and established connections to literary and artistic circles in Italy.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_10:C0014#0-239",
+     "artifact_id": "case_10:C0014",
+     "start": 0,
+     "end": 239,
+     "text": "Giselda Volodi is an Italian actress.She is the sister of writer/actress Margaret Mazzantini and producer Moira Mazzantini. She made her film debut in Hudson Hawk. Other roles since then include Ocean's Twelve and The Grand Budapest Hotel.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_10:C0015#0-218",
+     "artifact_id": "case_10:C0015",
+     "start": 0,
+     "end": 218,
+     "text": "Giselda Volodi. September 28, 1959 • 66 y.o. Actress Actress. Full Name. Giselda Mazzantini. Place of Birth.2014 — Serge's Sister. Comedy, Mystery, Adventure, 1 hr 40 min Germany, United States • Wes Anderson. Friends.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_10:C0017#0-61",
+     "artifact_id": "case_10:C0017",
+     "start": 0,
+     "end": 61,
+     "text": "author › showMargaret Mazzantini (Author of Venuto al mondo).",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 11
+    },
+    {
+     "unit_id": "case_10:C0018#0-222",
+     "artifact_id": "case_10:C0018",
+     "start": 0,
+     "end": 222,
+     "text": "Margaret Mazzantini was born on October 27, 1961 in Dublin, Ireland. She is an actress and writer, known for Don't Move (2004), Fortunata (2017) and Twice Born (2012). She has been married to Sergio Castellitto since 1987.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 11
+    }
+   ],
+   "output": {
+    "text": "Therefore, Sergio Castellitto is Giselda Volodi's sibling-in-law.",
+    "sha256": "bca7e3a62ae152e3f846c34ed667069aa77e69171f0f3b6b18a7ce1026baef2f",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "The earlier material states: Giselda Volodi (sister). Website. www.margaretmazzantini.com. Margaret Mazzantini. (Italian pronunciation: [ˈmarɡaret mattsanˈtiːni]; born 27 October 1961) is an Italian-Irish writer and actress. She became a film, television and stage acto",
+     "sha256": "26ccb6b44f4ac2bdd2bbd89f371eff220a334668c0182cb344dfd2488a901fe8",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_10:C0001#0-158",
+   "artifact_id": "case_10:C0001",
+   "start": 0,
+   "end": 158,
+   "text": "Giselda Volodi is an Italian actress. She was born Giselda Mazzantini, in Tangier, Morocco, to the family of writer Carlo Mazzantini and artist Anne Donnelly.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_10:C0001#0-158",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_10:C0002#0-233",
+   "artifact_id": "case_10:C0002",
+   "start": 0,
+   "end": 233,
+   "text": "Giselda Volodi. Actress: Hudson Hawk. Giselda Volodi was born on 28 September 1959 in Tangier, Tangier-Tetouan, Morocco. She is an actress, known for Hudson Hawk (1991), The Grand Budapest Hotel (2014) and Miracle at St. Anna (2008).",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_10:C0002#0-233",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_10:C0003#0-273",
+   "artifact_id": "case_10:C0003",
+   "start": 0,
+   "end": 273,
+   "text": "Giselda Volodi is an Italian actress. She was born Giselda Mazzantini, in Tangier, Morocco, to the family of writer Carlo Mazzantini and artist Anne Donnelly.She made her film debut in Hudson Hawk. Other roles since then include Ocean's Twelve and The Grand Budapest Hotel.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_10:C0003#0-273",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_10:C0004#0-77",
+   "artifact_id": "case_10:C0004",
+   "start": 0,
+   "end": 77,
+   "text": "Giselda Volodi | Discover Giselda Volodi's show and movie roles with TV Time.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_10:C0004#0-77",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_10:C0005#0-134",
+   "artifact_id": "case_10:C0005",
+   "start": 0,
+   "end": 134,
+   "text": "Discover every movie by Giselda Volodi in order. Explore detailed filmographies on Fandango and stay updated with the latest releases.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_10:C0005#0-134",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_10:C0006#0-233",
+   "artifact_id": "case_10:C0006",
+   "start": 0,
+   "end": 233,
+   "text": "Giselda Volodi. Actress: Hudson Hawk. Giselda Volodi was born on 28 September 1959 in Tangier, Tangier-Tetouan, Morocco. She is an actress, known for Hudson Hawk (1991), The Grand Budapest Hotel (2014) and Miracle at St. Anna (2008).",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_10:C0006#0-233",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_10:C0007#0-218",
+   "artifact_id": "case_10:C0007",
+   "start": 0,
+   "end": 218,
+   "text": "Giselda Volodi. September 28, 1959 • 66 y.o. Actress Actress. Full Name. Giselda Mazzantini. Place of Birth.2014 — Serge's Sister. Comedy, Mystery, Adventure, 1 hr 40 min Germany, United States • Wes Anderson. Friends.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_10:C0007#0-218",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_10:C0008#0-219",
+   "artifact_id": "case_10:C0008",
+   "start": 0,
+   "end": 219,
+   "text": "Giselda Volodi, born Giselda Mazzantini on September 28, 1959, in Tangier, Morocco, experienced frequent relocations in her early years due to her family's nomadic lifestyle influenced by her parents' artistic pursuits.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_10:C0008#0-219",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_10:C0009#0-222",
+   "artifact_id": "case_10:C0009",
+   "start": 0,
+   "end": 222,
+   "text": "Giselda Volodi. ActorBorn September 28, 1959 (65 years). Share. Giselda Volodi is an Italian actress. She was born Giselda Mazzantini, in Tangier, Morocco, to the family of writer Carlo Mazzantini and artist Anne Donnelly.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_10:C0009#0-222",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_10:C0010#0-114",
+   "artifact_id": "case_10:C0010",
+   "start": 0,
+   "end": 114,
+   "text": "Giselda Volodi was born in 1959 from Morocco. And known for The Grand Budapest Hotel and The Consequences of Love.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_10:C0010#0-114",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_10:C0011#0-273",
+   "artifact_id": "case_10:C0011",
+   "start": 0,
+   "end": 273,
+   "text": "Giselda Volodi (sister). Website. www.margaretmazzantini.com. Margaret Mazzantini. (Italian pronunciation: [ˈmarɡaret mattsanˈtiːni]; born 27 October 1961) is an Italian-Irish writer and actress. She became a film, television and stage actor, but is best known as a writer.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_10:C0011#0-273",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_10:C0012#0-270",
+   "artifact_id": "case_10:C0012",
+   "start": 0,
+   "end": 270,
+   "text": "Giselda Volodi was born on 28 September 1959 in Tangier, Tangier-Tetouan, Morocco. She is an actress, known for Hudson Hawk (1991), The Grand Budapest Hotel (2014) and Miracle at St. Anna (2008).Sister of producer Moira Mazzantini and actress/writer Margaret Mazzantini.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_10:C0012#0-270",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_10:C0013#0-149",
+   "artifact_id": "case_10:C0013",
+   "start": 0,
+   "end": 149,
+   "text": "Giselda Volodi was born Giselda Mazzantini into a family with Italian ancestry and established connections to literary and artistic circles in Italy.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_10:C0013#0-149",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_10:C0014#0-239",
+   "artifact_id": "case_10:C0014",
+   "start": 0,
+   "end": 239,
+   "text": "Giselda Volodi is an Italian actress.She is the sister of writer/actress Margaret Mazzantini and producer Moira Mazzantini. She made her film debut in Hudson Hawk. Other roles since then include Ocean's Twelve and The Grand Budapest Hotel.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_10:C0014#0-239",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_10:C0015#0-218",
+   "artifact_id": "case_10:C0015",
+   "start": 0,
+   "end": 218,
+   "text": "Giselda Volodi. September 28, 1959 • 66 y.o. Actress Actress. Full Name. Giselda Mazzantini. Place of Birth.2014 — Serge's Sister. Comedy, Mystery, Adventure, 1 hr 40 min Germany, United States • Wes Anderson. Friends.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_10:C0015#0-218",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_10:C0016#0-250",
+   "artifact_id": "case_10:C0016",
+   "start": 0,
+   "end": 250,
+   "text": "Margaret Mazzantini. (Italian pronunciation: [ˈmarɡaret mattsanˈtiːni]; born 27 October 1961) is an Italian-Irish writer and actress. She became a film, television and stage actor, but is best known as a writer.She married Sergio Castellitto in 1987.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_10:C0016#0-250",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_10:C0017#0-61",
+   "artifact_id": "case_10:C0017",
+   "start": 0,
+   "end": 61,
+   "text": "author › showMargaret Mazzantini (Author of Venuto al mondo).",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_10:C0017#0-61",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_10:C0018#0-222",
+   "artifact_id": "case_10:C0018",
+   "start": 0,
+   "end": 222,
+   "text": "Margaret Mazzantini was born on October 27, 1961 in Dublin, Ireland. She is an actress and writer, known for Don't Move (2004), Fortunata (2017) and Twice Born (2012). She has been married to Sergio Castellitto since 1987.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_10:C0018#0-222",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_10:C0019#0-274",
+   "artifact_id": "case_10:C0019",
+   "start": 0,
+   "end": 274,
+   "text": "Margaret Mazzantini is an Italian writer and actress. She became a film, television and stage actor, but is best known as a writer. Mazzantini began her acting career in 1980 starring in the cult horror classic Antropophagus, she has also appeared in television and theatre.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_10:C0020#0-50",
+   "artifact_id": "case_10:C0020",
+   "start": 0,
+   "end": 50,
+   "text": "margaret-mazzantiniMargaret Mazzantini | Oneworld.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_10:C0021#0-108",
+   "artifact_id": "case_10:C0021",
+   "start": 0,
+   "end": 108,
+   "text": "Giselda Volodi. September 28, 1959 • 66 y.o. Actress Actress. Full Name. Giselda Mazzantini. Place of Birth.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_10:C0022#0-272",
+   "artifact_id": "case_10:C0022",
+   "start": 0,
+   "end": 272,
+   "text": "Giselda Volodi (born Giselda Mazzantini; 28 September 1959) is an Italian actress.Although no direct collaborations between the sisters have been realized, Volodi has voiced openness to future joint projects, including with Margaret's husband, director Sergio Castellitto.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_10:C0023#0-195",
+   "artifact_id": "case_10:C0023",
+   "start": 0,
+   "end": 195,
+   "text": "Giselda Volodi was born on 28 September 1959 in Tangier, Tangier-Tetouan, Morocco. She is an actress, known for Hudson Hawk (1991), The Grand Budapest Hotel (2014) and Miracle at St. Anna (2008).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_10:C0024#0-36",
+   "artifact_id": "case_10:C0024",
+   "start": 0,
+   "end": 36,
+   "text": "Giselda Volodi.Husband & Wife. 2017.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_10:C0025#0-230",
+   "artifact_id": "case_10:C0025",
+   "start": 0,
+   "end": 230,
+   "text": "Husband & Wife ( Moglie e marito ) [ NON-USA FORMAT, PAL, Reg.2 Import - Italy ]. Sorry, this item is not available in.Pierfrancesco Favino (Actor, Host), Giselda Volodi (Actor, Host), Simone Godano (Director, Host) & 0 more Rated",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_10:C0026#0-189",
+   "artifact_id": "case_10:C0026",
+   "start": 0,
+   "end": 189,
+   "text": "All topics. Sergio Castellitto. Actor. Writer. Director.Sergio Castellitto was born in Rome in 1953. After graduating from the Silvio D'Amico National Academy of Dramatic Art in 1978, he...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_10:C0027#0-147",
+   "artifact_id": "case_10:C0027",
+   "start": 0,
+   "end": 147,
+   "text": "Actor Sergio Castellitto, actress Helen Mirren, director Giorgio Diritti and director Nicolo Donato with their awards attend the Official Awards...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_10:C0028#0-182",
+   "artifact_id": "case_10:C0028",
+   "start": 0,
+   "end": 182,
+   "text": "Actor, director and screenwriter, Sergio Castellitto began his cinema career in 1983 beside Marcello Mastroianni and Michel Piccoli in The General of the Dead Army by Luciano Tovoli.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_10:C0029#0-192",
+   "artifact_id": "case_10:C0029",
+   "start": 0,
+   "end": 192,
+   "text": "Sergio Castellitto (born August 18, 1953) is an Italian actor, film director, and screenwriter. Sergio Castellitto was born in Rome in 1953, to parents from Molise and Abruzzo, Southern Italy.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_10:C0030#0-183",
+   "artifact_id": "case_10:C0030",
+   "start": 0,
+   "end": 183,
+   "text": "Sergio Castellitto. August 18, 1953 • 72 y.o. Actor Actor. Director Director.Nessuno si salva da solo, 2015 — Alessio Righetti. Drama, Romance, 1 hr 43 min Italy • Sergio Castellitto.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_10:C0031#0-158",
+   "artifact_id": "case_10:C0031",
+   "start": 0,
+   "end": 158,
+   "text": "View talent agent Moira Mazzantini contact information (name, email address, phone number, mailing address). View Moira Mazzantini's clients and company info.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_10:C0032#0-251",
+   "artifact_id": "case_10:C0032",
+   "start": 0,
+   "end": 251,
+   "text": "Margaret Mazzantini net worth Feb, 2026. Margaret Mazzantini (Italian pronunciation: [ˈmarɡaret mattsanˈtiːni]; born 27 October 1961) is an Italian-Irish writer and actress. She became a film, television and stage actor, but is best known as a writer.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_10:C0033#0-264",
+   "artifact_id": "case_10:C0033",
+   "start": 0,
+   "end": 264,
+   "text": "Her husband Sergio Castellitto directed Don't Move (2004), a movie based on her book, in which she appears, uncredited. Sister of producer Moira Mazzantini and actress Giselda Volodi..Margaret Mazzantini's spouse is Sergio Castellitto(1987 - present) (4 children).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_10:C0034#0-139",
+   "artifact_id": "case_10:C0034",
+   "start": 0,
+   "end": 139,
+   "text": "Moira Mazzantini. Talent Agent. Producer.Keep track of how much of Moira Mazzantini’s work you have seen. Go to your list. Recently viewed.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_10:C0035#0-165",
+   "artifact_id": "case_10:C0035",
+   "start": 0,
+   "end": 165,
+   "text": "Moira Mazzantini est une Consultant italienne. Découvrez sa biographie, sa carrière en détail et toute son actualité.Découvrez toute la carrière de Moira Mazzantini.",
+   "occurrences": [],
+   "pool_only": true
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_10:T05:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_10:C0011",
+      "start": 0,
+      "end": 273,
+      "text": "Giselda Volodi (sister). Website. www.margaretmazzantini.com. Margaret Mazzantini. (Italian pronunciation: [ˈmarɡaret mattsanˈtiːni]; born 27 October 1961) is an Italian-Irish writer and actress. She became a film, television and stage actor, but is best known as a writer."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_10:C0011",
+       "start": 0,
+       "end": 273,
+       "text": "Giselda Volodi (sister). Website. www.margaretmazzantini.com. Margaret Mazzantini. (Italian pronunciation: [ˈmarɡaret mattsanˈtiːni]; born 27 October 1961) is an Italian-Irish writer and actress. She became a film, television and stage actor, but is best known as a writer."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_10:C0016",
+      "start": 0,
+      "end": 250,
+      "text": "Margaret Mazzantini. (Italian pronunciation: [ˈmarɡaret mattsanˈtiːni]; born 27 October 1961) is an Italian-Irish writer and actress. She became a film, television and stage actor, but is best known as a writer.She married Sergio Castellitto in 1987."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_10:C0016",
+       "start": 0,
+       "end": 250,
+       "text": "Margaret Mazzantini. (Italian pronunciation: [ˈmarɡaret mattsanˈtiːni]; born 27 October 1961) is an Italian-Irish writer and actress. She became a film, television and stage actor, but is best known as a writer.She married Sergio Castellitto in 1987."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_10:C0011#0-273"
+  ],
+  "B": [
+   "case_10:C0016#0-250"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T05",
+   "case": "case_10",
+   "question": "Who is Giselda Volodi's sibling-in-law?",
+   "target_event": 17,
+   "target_start": 833,
+   "target_end": 898,
+   "target": "Therefore, Sergio Castellitto is Giselda Volodi's sibling-in-law.",
+   "candidate_ids": [
+    "C0001",
+    "C0002",
+    "C0003",
+    "C0004",
+    "C0005",
+    "C0006",
+    "C0007",
+    "C0008",
+    "C0009",
+    "C0010",
+    "C0011",
+    "C0012",
+    "C0013",
+    "C0014",
+    "C0015",
+    "C0016",
+    "C0017",
+    "C0018",
+    "C0019",
+    "C0020",
+    "C0021",
+    "C0022",
+    "C0023",
+    "C0024",
+    "C0025",
+    "C0026",
+    "C0027",
+    "C0028",
+    "C0029",
+    "C0030",
+    "C0031",
+    "C0032",
+    "C0033",
+    "C0034",
+    "C0035"
+   ],
+   "annotation_status": "assistant_reviewed_pending_human"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0011",
+     "start": 0,
+     "end": 273,
+     "text": "Giselda Volodi (sister). Website. www.margaretmazzantini.com. Margaret Mazzantini. (Italian pronunciation: [ˈmarɡaret mattsanˈtiːni]; born 27 October 1961) is an Italian-Irish writer and actress. She became a film, television and stage actor, but is best known as a writer."
+    },
+    {
+     "candidate_id": "C0016",
+     "start": 0,
+     "end": 250,
+     "text": "Margaret Mazzantini. (Italian pronunciation: [ˈmarɡaret mattsanˈtiːni]; born 27 October 1961) is an Italian-Irish writer and actress. She became a film, television and stage actor, but is best known as a writer.She married Sergio Castellitto in 1987."
+    }
+   ]
+  },
+  "intermediate_origin": "controlled",
+  "intermediate_event": null,
+  "time_order_audit": [
+   {
+    "round": 1,
+    "event": 7,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 11,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 4,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 4,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 11,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 11,
+    "cut": 17,
+    "ok": true
+   }
+  ],
+  "note": "time-order checked for evidence and distractors"
+ }
+}

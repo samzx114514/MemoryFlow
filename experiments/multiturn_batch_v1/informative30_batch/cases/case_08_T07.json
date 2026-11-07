@@ -1,0 +1,889 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_08:T07",
+ "trajectory_id": "case_08",
+ "trajectory_case": "case_08",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "James William Shue (the father of Elisabeth Shue and Andrew Shue, both producers of Gracie; note that co-producer/director Davis Guggenheim's father is Charles Guggenheim)",
+  "sha256": "64214e35ad0bd65f0477146eb315152289d362dc2bac836dd58feb9a3f217845",
+  "origin": "recorded_target",
+  "artifact_id": "case_08:T07",
+  "start": 0,
+  "end": 171,
+  "original_target": {
+   "text": "James William Shue (the father of Elisabeth Shue and Andrew Shue, both producers of Gracie; note that co-producer/director Davis Guggenheim's father is Charles Guggenheim)",
+   "artifact_id": "case_08:T07"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "Who is the father of the producer of Gracie?",
+   "inputs": [
+    {
+     "unit_id": "case_08:C0011#0-256",
+     "artifact_id": "case_08:C0011",
+     "start": 0,
+     "end": 256,
+     "text": "In 2007, Shue and her brothers, Andrew and John, produced Gracie. Her husband, Davis Guggenheim, also produced and directed. Shue played the mother of the main character, who was loosely based on her own experiences as the only girl on a boys' soccer team.",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_08:C0001#0-251",
+     "artifact_id": "case_08:C0001",
+     "start": 0,
+     "end": 251,
+     "text": "Gracie is a 2007 American sports drama film directed by Davis Guggenheim. It stars Carly Schroeder as Gracie Bowen, Dermot Mulroney as Bryan Bowen, Elisabeth Shue as Lindsay Bowen, Jesse Lee Soffer as Johnny Bowen, and Andrew Shue as Coach Owen Clark.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_08:C0002#0-220",
+     "artifact_id": "case_08:C0002",
+     "start": 0,
+     "end": 220,
+     "text": "Gracie Films, Inc. is an American film and television production company founded by James L. Brooks on January 4, 1986. The company is primarily known for producing its long-running flagship animated series The Simpsons.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_08:C0003#0-1254",
+     "artifact_id": "case_08:C0003",
+     "start": 0,
+     "end": 1254,
+     "text": "Gracie: Directed by Davis Guggenheim. With Carly Schroeder, Andrew Shue, Elisabeth Shue, Jesse Lee Soffer. Grace, a football enthusiast, fights an uphill battle to play in the boys' varsity team of her high school and gain support for women's soccer while dealing with the death of her brother. Gracie Films, Inc. is an American film and television production company founded by James L. Brooks on January 4, 1986. The company is primarily known for producing its long-running flagship animated series The Simpsons. Gracie Films is the film and television production company of James L. Brooks, established in 1986 and named after comedian Gracie Allen (1895-1964). Their first production was The Tracey Ullman Show, an early hit for Fox. Gracie (2007) - Cast and crew credits, including actors, actresses, directors, writers and more. Starring Carly Schroeder as Gracie Bowen, with Dermot Mulroney as her father and supporting roles by Elisabeth Shue and her brother Andrew Shue (also a producer), the film was produced on a $9 million budget but grossed about $3 million domestically, reflecting modest box office performance. [3] Jun 1, 2007 · A teenager faces an uphill battle when she fights to give women the opportunity to play competitive soccer.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_08:C0004#0-222",
+     "artifact_id": "case_08:C0004",
+     "start": 0,
+     "end": 222,
+     "text": "Gracie Films is the film and television production company of James L. Brooks, established in 1986 and named after comedian Gracie Allen (1895-1964). Their first production was The Tracey Ullman Show, an early hit for Fox.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_08:C0005#0-96",
+     "artifact_id": "case_08:C0005",
+     "start": 0,
+     "end": 96,
+     "text": "Gracie (2007) - Cast and crew credits, including actors, actresses, directors, writers and more.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_08:C0012#0-240",
+     "artifact_id": "case_08:C0012",
+     "start": 0,
+     "end": 240,
+     "text": "Elisabeth Shue and Director/producer Davis Guggenheim. Gracie Los Angeles Premiere - Arrivals.Elisabeth Shue during \"Gracie\" Press Conference with Carly Schroeder, Dermot Mulroney, Elisabeth Shue, Andrew Shue and Davis Guggenheim at Four...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_08:C0013#0-243",
+     "artifact_id": "case_08:C0013",
+     "start": 0,
+     "end": 243,
+     "text": "Drama, sports, teen. Director: Davis Guggenheim. Starring: Elisabeth Shue, Andrew Shue, Carly Schroeder and others. Meet Gracie Bowen, she's your average, ordinary 15-year-old girl, except for one thing: she's determined to play varsity soc...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_08:C0014#0-219",
+     "artifact_id": "case_08:C0014",
+     "start": 0,
+     "end": 219,
+     "text": "Davis Guggenheim Elisabeth Shue Andrew Shue.Gracie is the epitome of a 'mid' film in my opinion. Not a great movie, but not a terrible one either. Perfectly acceptable family film that while it could've been better you…",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 10
+    }
+   ],
+   "output": {
+    "text": "Let me search for more details about the producers and their fathers:",
+    "sha256": "50bad4acc0c9fcec111dbcf39c8cf0cad25ccbebf3ac68807d26aa536641e30e",
+    "origin": "recorded_agent_message"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "Who is the father of the producer of Gracie?",
+   "inputs": [
+    {
+     "unit_id": "case_08:C0023#0-183",
+     "artifact_id": "case_08:C0023",
+     "start": 0,
+     "end": 183,
+     "text": "James William Shue (May 28, 1936 – May 24, 2013) is an American lawyer, business executive and Republican Party politician, and is the father of actors Elisabeth Shue and Andrew Shue.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 13
+    },
+    {
+     "unit_id": "case_08:C0018#0-208",
+     "artifact_id": "case_08:C0018",
+     "start": 0,
+     "end": 208,
+     "text": "Agnes’s father, Davis Guggenheim, is a well-known producer and director of nonfiction television and movies. His father, Charles Guggenheim, a legend of American documentary filmmaking, is in his family tree.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 12
+    },
+    {
+     "unit_id": "case_08:C0015#0-195",
+     "artifact_id": "case_08:C0015",
+     "start": 0,
+     "end": 195,
+     "text": "elisabeth shue and davis guggenheim, director of 'an inconvenient truth' at the 2007 annual los angeles film critics association awards at... - elisabeth shue stock videos & royalty-free footage.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_08:C0016#0-252",
+     "artifact_id": "case_08:C0016",
+     "start": 0,
+     "end": 252,
+     "text": "Charles Eli Guggenheim was an American documentary film director, producer, and screenwriter.Davis followed in his father's footsteps as a documentary filmmaker and won an Oscar for best documentary in 2007 for An Inconvenient Truth. Honors and legacy.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 12
+    },
+    {
+     "unit_id": "case_08:C0017#0-245",
+     "artifact_id": "case_08:C0017",
+     "start": 0,
+     "end": 245,
+     "text": "If you think you know filmmaker Davis Guggenheim by his many episodic TV credits or iconic last name, you’ve missed most of his story.Your father, Charles Guggenheim, won three Oscars for his social documentaries, and was nominated for six more.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 12
+    },
+    {
+     "unit_id": "case_08:C0019#0-268",
+     "artifact_id": "case_08:C0019",
+     "start": 0,
+     "end": 268,
+     "text": "2006. Parents. Elisabeth Shue (mother), Davis Guggenheim (father). Siblings. Miles William Guggenheim (b. 1997), Stella Street Guggenheim (b. 2001), Agnes (b. 2006). Notable relatives. Charles Guggenheim (paternal grandfather, documentary filmmaker), Marion Streett...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 12
+    },
+    {
+     "unit_id": "case_08:C0020#0-234",
+     "artifact_id": "case_08:C0020",
+     "start": 0,
+     "end": 234,
+     "text": "Philip Davis Guggenheim (born November 3, 1963) is an American documentary filmmaker, director, and producer whose work has focused on social and political issues, including climate change, education reform, and individual resilience.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 12
+    },
+    {
+     "unit_id": "case_08:C0021#0-313",
+     "artifact_id": "case_08:C0021",
+     "start": 0,
+     "end": 313,
+     "text": "Early life and education Shue was born on October 6, 1963, [2] in Wilmington, Delaware, the daughter of Anne Brewster (née Wells, later Palmer), and James William Shue, [3] a one-time congressional candidate, lawyer, and real-estate developer, who was president of the International Food and Beverage Corporation.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 13
+    },
+    {
+     "unit_id": "case_08:C0022#0-1054",
+     "artifact_id": "case_08:C0022",
+     "start": 0,
+     "end": 1054,
+     "text": "Andrew Shue (born February 20, 1967) is an American actor, known for his role as Billy Campbell on the television series Melrose Place (1992–1999). Shue played soccer professionally for several years. Elisabeth Shue. Actress: Leaving Las Vegas. Elisabeth Shue was born in Wilmington, Delaware, to Anne Brewster (Wells), who worked for the Chemical Banking Corporation, and James William Shue, a lawyer and real estate developer. She is of German and English ancestry, including descent from Mayflower passengers. Shue's parents divorced while she was in the fourth grade. Owing to the occupational ... James William Shue, the son of educators, whose journey from Pennsylvania to New Jersey and ultimately to Maine as a lawyer/public defender, entrepreneur, and a community mobilizer, died Friday May 24th, 2013 in Belfast after a battle with advanced stage cancer. He was 76. Elisabeth Shue was born on October 6, 1963, in Wilmington, Delaware, USA, to Anne Brewster Wells, a banking executive, and James William Shue, a lawyer and real estate developer.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 13
+    }
+   ],
+   "output": {
+    "text": "James William Shue (the father of Elisabeth Shue and Andrew Shue, both producers of Gracie; note that co-producer/director Davis Guggenheim's father is Charles Guggenheim)",
+    "sha256": "64214e35ad0bd65f0477146eb315152289d362dc2bac836dd58feb9a3f217845",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "Let me search for more details about the producers and their fathers:",
+     "sha256": "50bad4acc0c9fcec111dbcf39c8cf0cad25ccbebf3ac68807d26aa536641e30e",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_08:C0001#0-251",
+   "artifact_id": "case_08:C0001",
+   "start": 0,
+   "end": 251,
+   "text": "Gracie is a 2007 American sports drama film directed by Davis Guggenheim. It stars Carly Schroeder as Gracie Bowen, Dermot Mulroney as Bryan Bowen, Elisabeth Shue as Lindsay Bowen, Jesse Lee Soffer as Johnny Bowen, and Andrew Shue as Coach Owen Clark.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_08:C0001#0-251",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_08:C0002#0-220",
+   "artifact_id": "case_08:C0002",
+   "start": 0,
+   "end": 220,
+   "text": "Gracie Films, Inc. is an American film and television production company founded by James L. Brooks on January 4, 1986. The company is primarily known for producing its long-running flagship animated series The Simpsons.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_08:C0002#0-220",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_08:C0003#0-1254",
+   "artifact_id": "case_08:C0003",
+   "start": 0,
+   "end": 1254,
+   "text": "Gracie: Directed by Davis Guggenheim. With Carly Schroeder, Andrew Shue, Elisabeth Shue, Jesse Lee Soffer. Grace, a football enthusiast, fights an uphill battle to play in the boys' varsity team of her high school and gain support for women's soccer while dealing with the death of her brother. Gracie Films, Inc. is an American film and television production company founded by James L. Brooks on January 4, 1986. The company is primarily known for producing its long-running flagship animated series The Simpsons. Gracie Films is the film and television production company of James L. Brooks, established in 1986 and named after comedian Gracie Allen (1895-1964). Their first production was The Tracey Ullman Show, an early hit for Fox. Gracie (2007) - Cast and crew credits, including actors, actresses, directors, writers and more. Starring Carly Schroeder as Gracie Bowen, with Dermot Mulroney as her father and supporting roles by Elisabeth Shue and her brother Andrew Shue (also a producer), the film was produced on a $9 million budget but grossed about $3 million domestically, reflecting modest box office performance. [3] Jun 1, 2007 · A teenager faces an uphill battle when she fights to give women the opportunity to play competitive soccer.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_08:C0003#0-1254",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_08:C0004#0-222",
+   "artifact_id": "case_08:C0004",
+   "start": 0,
+   "end": 222,
+   "text": "Gracie Films is the film and television production company of James L. Brooks, established in 1986 and named after comedian Gracie Allen (1895-1964). Their first production was The Tracey Ullman Show, an early hit for Fox.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_08:C0004#0-222",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_08:C0005#0-96",
+   "artifact_id": "case_08:C0005",
+   "start": 0,
+   "end": 96,
+   "text": "Gracie (2007) - Cast and crew credits, including actors, actresses, directors, writers and more.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_08:C0005#0-96",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_08:C0011#0-256",
+   "artifact_id": "case_08:C0011",
+   "start": 0,
+   "end": 256,
+   "text": "In 2007, Shue and her brothers, Andrew and John, produced Gracie. Her husband, Davis Guggenheim, also produced and directed. Shue played the mother of the main character, who was loosely based on her own experiences as the only girl on a boys' soccer team.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_08:C0011#0-256",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_08:C0012#0-240",
+   "artifact_id": "case_08:C0012",
+   "start": 0,
+   "end": 240,
+   "text": "Elisabeth Shue and Director/producer Davis Guggenheim. Gracie Los Angeles Premiere - Arrivals.Elisabeth Shue during \"Gracie\" Press Conference with Carly Schroeder, Dermot Mulroney, Elisabeth Shue, Andrew Shue and Davis Guggenheim at Four...",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_08:C0012#0-240",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_08:C0013#0-243",
+   "artifact_id": "case_08:C0013",
+   "start": 0,
+   "end": 243,
+   "text": "Drama, sports, teen. Director: Davis Guggenheim. Starring: Elisabeth Shue, Andrew Shue, Carly Schroeder and others. Meet Gracie Bowen, she's your average, ordinary 15-year-old girl, except for one thing: she's determined to play varsity soc...",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_08:C0013#0-243",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_08:C0014#0-219",
+   "artifact_id": "case_08:C0014",
+   "start": 0,
+   "end": 219,
+   "text": "Davis Guggenheim Elisabeth Shue Andrew Shue.Gracie is the epitome of a 'mid' film in my opinion. Not a great movie, but not a terrible one either. Perfectly acceptable family film that while it could've been better you…",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_08:C0014#0-219",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_08:C0015#0-195",
+   "artifact_id": "case_08:C0015",
+   "start": 0,
+   "end": 195,
+   "text": "elisabeth shue and davis guggenheim, director of 'an inconvenient truth' at the 2007 annual los angeles film critics association awards at... - elisabeth shue stock videos & royalty-free footage.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_08:C0015#0-195",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_08:C0016#0-252",
+   "artifact_id": "case_08:C0016",
+   "start": 0,
+   "end": 252,
+   "text": "Charles Eli Guggenheim was an American documentary film director, producer, and screenwriter.Davis followed in his father's footsteps as a documentary filmmaker and won an Oscar for best documentary in 2007 for An Inconvenient Truth. Honors and legacy.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_08:C0016#0-252",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_08:C0017#0-245",
+   "artifact_id": "case_08:C0017",
+   "start": 0,
+   "end": 245,
+   "text": "If you think you know filmmaker Davis Guggenheim by his many episodic TV credits or iconic last name, you’ve missed most of his story.Your father, Charles Guggenheim, won three Oscars for his social documentaries, and was nominated for six more.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_08:C0017#0-245",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_08:C0018#0-208",
+   "artifact_id": "case_08:C0018",
+   "start": 0,
+   "end": 208,
+   "text": "Agnes’s father, Davis Guggenheim, is a well-known producer and director of nonfiction television and movies. His father, Charles Guggenheim, a legend of American documentary filmmaking, is in his family tree.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_08:C0018#0-208",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_08:C0019#0-268",
+   "artifact_id": "case_08:C0019",
+   "start": 0,
+   "end": 268,
+   "text": "2006. Parents. Elisabeth Shue (mother), Davis Guggenheim (father). Siblings. Miles William Guggenheim (b. 1997), Stella Street Guggenheim (b. 2001), Agnes (b. 2006). Notable relatives. Charles Guggenheim (paternal grandfather, documentary filmmaker), Marion Streett...",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_08:C0019#0-268",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_08:C0020#0-234",
+   "artifact_id": "case_08:C0020",
+   "start": 0,
+   "end": 234,
+   "text": "Philip Davis Guggenheim (born November 3, 1963) is an American documentary filmmaker, director, and producer whose work has focused on social and political issues, including climate change, education reform, and individual resilience.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_08:C0020#0-234",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_08:C0021#0-313",
+   "artifact_id": "case_08:C0021",
+   "start": 0,
+   "end": 313,
+   "text": "Early life and education Shue was born on October 6, 1963, [2] in Wilmington, Delaware, the daughter of Anne Brewster (née Wells, later Palmer), and James William Shue, [3] a one-time congressional candidate, lawyer, and real-estate developer, who was president of the International Food and Beverage Corporation.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_08:C0021#0-313",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_08:C0022#0-1054",
+   "artifact_id": "case_08:C0022",
+   "start": 0,
+   "end": 1054,
+   "text": "Andrew Shue (born February 20, 1967) is an American actor, known for his role as Billy Campbell on the television series Melrose Place (1992–1999). Shue played soccer professionally for several years. Elisabeth Shue. Actress: Leaving Las Vegas. Elisabeth Shue was born in Wilmington, Delaware, to Anne Brewster (Wells), who worked for the Chemical Banking Corporation, and James William Shue, a lawyer and real estate developer. She is of German and English ancestry, including descent from Mayflower passengers. Shue's parents divorced while she was in the fourth grade. Owing to the occupational ... James William Shue, the son of educators, whose journey from Pennsylvania to New Jersey and ultimately to Maine as a lawyer/public defender, entrepreneur, and a community mobilizer, died Friday May 24th, 2013 in Belfast after a battle with advanced stage cancer. He was 76. Elisabeth Shue was born on October 6, 1963, in Wilmington, Delaware, USA, to Anne Brewster Wells, a banking executive, and James William Shue, a lawyer and real estate developer.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_08:C0022#0-1054",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_08:C0023#0-183",
+   "artifact_id": "case_08:C0023",
+   "start": 0,
+   "end": 183,
+   "text": "James William Shue (May 28, 1936 – May 24, 2013) is an American lawyer, business executive and Republican Party politician, and is the father of actors Elisabeth Shue and Andrew Shue.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_08:C0023#0-183",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_08:C0024#0-411",
+   "artifact_id": "case_08:C0024",
+   "start": 0,
+   "end": 411,
+   "text": "Mar 27, 2025 · Her father, James William Shue, was a lawyer and real estate developer who ran for Congress, while her mother, Anne Brewster Wells, worked as a bank executive. Elisabeth attended Columbia High School before enrolling at Wellesley College, later transferring to Harvard University to study government, though she left in 1985 to focus on acting—just shy of her degree, which she completed in 2000.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_08:C0025#0-853",
+   "artifact_id": "case_08:C0025",
+   "start": 0,
+   "end": 853,
+   "text": "Elisabeth Shue. Actress: Leaving Las Vegas. Elisabeth Shue was born in Wilmington, Delaware, to Anne Brewster (Wells), who worked for the Chemical Banking Corporation, and James William Shue, a lawyer and real estate developer. She is of German and English ancestry, including descent from Mayflower passengers. Shue's parents divorced while she was in the fourth grade. Owing to the occupational ... James William Shue, the son of educators, whose journey from Pennsylvania to New Jersey and ultimately to Maine as a lawyer/public defender, entrepreneur, and a community mobilizer, died Friday May 24th, 2013 in Belfast after a battle with advanced stage cancer. He was 76. Elisabeth Shue was born on October 6, 1963, in Wilmington, Delaware, USA, to Anne Brewster Wells, a banking executive, and James William Shue, a lawyer and real estate developer.",
+   "occurrences": [],
+   "pool_only": true
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_08:T07:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_08:C0023",
+      "start": 0,
+      "end": 183,
+      "text": "James William Shue (May 28, 1936 – May 24, 2013) is an American lawyer, business executive and Republican Party politician, and is the father of actors Elisabeth Shue and Andrew Shue."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_08:C0023",
+       "start": 0,
+       "end": 183,
+       "text": "James William Shue (May 28, 1936 – May 24, 2013) is an American lawyer, business executive and Republican Party politician, and is the father of actors Elisabeth Shue and Andrew Shue."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_08:C0011",
+      "start": 0,
+      "end": 256,
+      "text": "In 2007, Shue and her brothers, Andrew and John, produced Gracie. Her husband, Davis Guggenheim, also produced and directed. Shue played the mother of the main character, who was loosely based on her own experiences as the only girl on a boys' soccer team."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_08:C0011",
+       "start": 0,
+       "end": 256,
+       "text": "In 2007, Shue and her brothers, Andrew and John, produced Gracie. Her husband, Davis Guggenheim, also produced and directed. Shue played the mother of the main character, who was loosely based on her own experiences as the only girl on a boys' soccer team."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_08:C0018",
+      "start": 0,
+      "end": 208,
+      "text": "Agnes’s father, Davis Guggenheim, is a well-known producer and director of nonfiction television and movies. His father, Charles Guggenheim, a legend of American documentary filmmaking, is in his family tree."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_08:C0018",
+       "start": 0,
+       "end": 208,
+       "text": "Agnes’s father, Davis Guggenheim, is a well-known producer and director of nonfiction television and movies. His father, Charles Guggenheim, a legend of American documentary filmmaking, is in his family tree."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_08:C0011#0-256"
+  ],
+  "B": [
+   "case_08:C0023#0-183"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T07",
+   "case": "case_08",
+   "question": "Who is the father of the producer of Gracie?",
+   "target_event": 14,
+   "target_start": 1547,
+   "target_end": 1718,
+   "target": "James William Shue (the father of Elisabeth Shue and Andrew Shue, both producers of Gracie; note that co-producer/director Davis Guggenheim's father is Charles Guggenheim)",
+   "candidate_ids": [
+    "C0001",
+    "C0002",
+    "C0003",
+    "C0004",
+    "C0005",
+    "C0011",
+    "C0012",
+    "C0013",
+    "C0014",
+    "C0015",
+    "C0016",
+    "C0017",
+    "C0018",
+    "C0019",
+    "C0020",
+    "C0021",
+    "C0022",
+    "C0023",
+    "C0024",
+    "C0025"
+   ],
+   "annotation_status": "assistant_reviewed_pending_human"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0023",
+     "start": 0,
+     "end": 183,
+     "text": "James William Shue (May 28, 1936 – May 24, 2013) is an American lawyer, business executive and Republican Party politician, and is the father of actors Elisabeth Shue and Andrew Shue."
+    },
+    {
+     "candidate_id": "C0011",
+     "start": 0,
+     "end": 124,
+     "text": "In 2007, Shue and her brothers, Andrew and John, produced Gracie. Her husband, Davis Guggenheim, also produced and directed."
+    },
+    {
+     "candidate_id": "C0018",
+     "start": 0,
+     "end": 208,
+     "text": "Agnes’s father, Davis Guggenheim, is a well-known producer and director of nonfiction television and movies. His father, Charles Guggenheim, a legend of American documentary filmmaking, is in his family tree."
+    }
+   ]
+  },
+  "intermediate_origin": "recorded_agent_message",
+  "intermediate_event": 11,
+  "time_order_audit": [
+   {
+    "round": 1,
+    "event": 10,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 10,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 10,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 10,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 13,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 12,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 10,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 12,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 12,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 12,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 12,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 13,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 13,
+    "cut": 14,
+    "ok": true
+   }
+  ],
+  "note": "time-order checked for evidence and distractors"
+ }
+}

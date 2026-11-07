@@ -1,0 +1,241 @@
+{
+  "case_id": "case_39:T01",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "case_39:C0055#0-230",
+          "score": 0.04373181611299515,
+          "text": "The Southern Baptist Theological Seminary is a Baptist theological institute in Louisville, Kentucky. The seminary was founded in 1859 in Greenville, South Carolina, where it was at first housed on the campus of Furman University."
+        },
+        {
+          "canonical_id": "case_39:C0001#0-103",
+          "score": 0.003920732997357845,
+          "text": "This is a list of evangelical Christian seminaries, bible colleges, and other theological institutions."
+        },
+        {
+          "canonical_id": "case_39:C0002#0-249",
+          "score": 0.10526186227798462,
+          "text": "Southern Baptist Theological Seminary in Louisville, Kentucky is the largest seminary in the United States. It’s the flagship institution of the Southern Baptist Convention, though students representing myriad denominations make up the student body."
+        },
+        {
+          "canonical_id": "case_39:C0003#0-244",
+          "score": 0.04097999259829521,
+          "text": "Paul R. House.Along the way he was elected president of the Evangelical Theological Society and the American Theological Society. He participated in the International Council on Biblical Inerrancy and in the Evangelical Affirmations conference."
+        },
+        {
+          "canonical_id": "case_39:C0004#0-262",
+          "score": 0.0027938736602663994,
+          "text": "Boyce College. School of Theology. The Billy Graham School.Four temptations frame the past, present, and future of the Evangelical Theological, Albert Mohler said Wednesday night in his presidential address at the 73rd annual meeting of ETS in Fort Worth, Texas."
+        },
+        {
+          "canonical_id": "case_39:C0005#0-246",
+          "score": 0.045693930238485336,
+          "text": "Paul House Audible Logo Podcast – Original recording. About the podcast. In this episode, I sit down with Old Testament scholar Paul R. House to explore his book \"The Minor Prophets: Seek the Lord and Live\" and the message of the Twelve Prophets."
+        },
+        {
+          "canonical_id": "case_39:C0006#0-233",
+          "score": 0.006003064569085836,
+          "text": "Gerhard Franz Hasel (July 27, 1935–August 11, 1994) was a Seventh-day Adventist theologian, and Professor of Old Testament and Biblical Theology as well as Dean of the Seventh-day Adventist Theological Seminary at Andrews University."
+        },
+        {
+          "canonical_id": "case_39:C0007#0-225",
+          "score": 0.05617569386959076,
+          "text": "Paul R. House teaches at Beeson Divinity School of Samford University (Birmingham, Alabama). An Old Testament scholar, he has taught previously at Taylor University, Southern Baptist Theological Seminary, and Wheaton College."
+        },
+        {
+          "canonical_id": "case_39:C0008#0-199",
+          "score": 0.04860316962003708,
+          "text": "Old Testament Theology. by Paul R. House (Author) Format: Hardcover.An Old Testament scholar, he has taught previously at Taylor University, Southern Baptist Theological Seminary and Wheaton College."
+        },
+        {
+          "canonical_id": "case_39:C0084#0-242",
+          "score": 0.34861770272254944,
+          "text": "Dr. Paul R. House, OT Associate Chairman. Professor of Old Testament, Trinity Episcopal School for Ministry; B.A., Southwest Baptist University; M.A., University of Missouri-Columbia; M.Div., The Southern Baptist Theological Seminary; Ph.D..."
+        },
+        {
+          "canonical_id": "case_39:C0009#0-272",
+          "score": 0.024252401664853096,
+          "text": "I am Emeritus Professor of Old Testament at Northern Baptist Seminary. I was born in Brazil. I graduated from California Baptist College, Golden Gate Baptist Seminary, The Southern Baptist Seminary, and have done additional graduate work at the Graduate Theological Union."
+        },
+        {
+          "canonical_id": "case_39:C0010#0-218",
+          "score": 0.002850295975804329,
+          "text": "Classes met in the old Baptist “meeting house” in Greenville, after the seminary installed walls dividing it into two lecture rooms and a library for the 2,000volume theological collection donated by Furman University."
+        },
+        {
+          "canonical_id": "case_39:C0011#0-175",
+          "score": 0.00644966633990407,
+          "text": "Home · Publications · Journals · The Southern Baptist Journal of Theology · SBJT 1/3 (Fall 1997) · Editorial: The Promise and Promises of a Christian College.By Paul R. House."
+        },
+        {
+          "canonical_id": "case_39:C0012#0-271",
+          "score": 0.004058476071804762,
+          "text": "Daune Garrett, Paul R. House. Best For. Layperson.The collaborative work of Dr. Duane Garrett and Dr. Paul R. House on Song of Songs and Lamentations in the prestigious Word Biblical Commentary series represents a significant scholarly achievement that brings together..."
+        },
+        {
+          "canonical_id": "case_39:C0013#0-230",
+          "score": 0.013126390986144543,
+          "text": "In 1857, Boyce convinced members of the convention in Louisville, Kentucky , to approve a motion to establish The Southern Baptist Theological Seminary. In the fall of 1859, Southern began its first academic year with 26 students."
+        },
+        {
+          "canonical_id": "case_39:C0014#0-272",
+          "score": 0.0032863866072148085,
+          "text": "Paul House provides a holistic sketch of creation in Old Testa-ment Theology, while Russell Fuller sets forth a proper hermeneutical method.Dr. Charles W. Draper, Associate Professor of New Testament at Boyce College, discovered these letters and provides the commen-tary."
+        },
+        {
+          "canonical_id": "case_39:C0015#0-281",
+          "score": 0.01817190647125244,
+          "text": "Owen Strachan (PhD, Trinity Evangelical Divinity School) teaches at Boyce College and Southern Baptist Theological Seminary in Louisville, Kentucky, where he also directs the Carl F. H. Henry Institute for Evangelical Engagement and serves as a Fellow with the Center for Pastor..."
+        },
+        {
+          "canonical_id": "case_39:C0016#0-142",
+          "score": 0.0006046773050911725,
+          "text": "Boyce College is a private Christian college in Louisville, Kentucky, that trains, educates, and prepares students to serve Christ faithfully."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 936,
+      "seconds": 0.192,
+      "target": "I have confirmation that Paul R. House earned his M.Div. and Ph.D. from The Southern Baptist Theological Seminary in Louisville, Kentucky.",
+      "target_tokens": 30,
+      "total_tokens": 966
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "case_39:C0055#0-230",
+          "score": 0.5758515000343323,
+          "text": "The Southern Baptist Theological Seminary is a Baptist theological institute in Louisville, Kentucky. The seminary was founded in 1859 in Greenville, South Carolina, where it was at first housed on the campus of Furman University."
+        },
+        {
+          "canonical_id": "case_39:C0001#0-103",
+          "score": 0.02331691049039364,
+          "text": "This is a list of evangelical Christian seminaries, bible colleges, and other theological institutions."
+        },
+        {
+          "canonical_id": "case_39:C0002#0-249",
+          "score": 0.11838178336620331,
+          "text": "Southern Baptist Theological Seminary in Louisville, Kentucky is the largest seminary in the United States. It’s the flagship institution of the Southern Baptist Convention, though students representing myriad denominations make up the student body."
+        },
+        {
+          "canonical_id": "case_39:C0003#0-244",
+          "score": 0.030407128855586052,
+          "text": "Paul R. House.Along the way he was elected president of the Evangelical Theological Society and the American Theological Society. He participated in the International Council on Biblical Inerrancy and in the Evangelical Affirmations conference."
+        },
+        {
+          "canonical_id": "case_39:C0004#0-262",
+          "score": 0.006550254300236702,
+          "text": "Boyce College. School of Theology. The Billy Graham School.Four temptations frame the past, present, and future of the Evangelical Theological, Albert Mohler said Wednesday night in his presidential address at the 73rd annual meeting of ETS in Fort Worth, Texas."
+        },
+        {
+          "canonical_id": "case_39:C0005#0-246",
+          "score": 0.0096871517598629,
+          "text": "Paul House Audible Logo Podcast – Original recording. About the podcast. In this episode, I sit down with Old Testament scholar Paul R. House to explore his book \"The Minor Prophets: Seek the Lord and Live\" and the message of the Twelve Prophets."
+        },
+        {
+          "canonical_id": "case_39:C0006#0-233",
+          "score": 0.0053009395487606525,
+          "text": "Gerhard Franz Hasel (July 27, 1935–August 11, 1994) was a Seventh-day Adventist theologian, and Professor of Old Testament and Biblical Theology as well as Dean of the Seventh-day Adventist Theological Seminary at Andrews University."
+        },
+        {
+          "canonical_id": "case_39:C0007#0-225",
+          "score": 0.015728430822491646,
+          "text": "Paul R. House teaches at Beeson Divinity School of Samford University (Birmingham, Alabama). An Old Testament scholar, he has taught previously at Taylor University, Southern Baptist Theological Seminary, and Wheaton College."
+        },
+        {
+          "canonical_id": "case_39:C0008#0-199",
+          "score": 0.0060486579313874245,
+          "text": "Old Testament Theology. by Paul R. House (Author) Format: Hardcover.An Old Testament scholar, he has taught previously at Taylor University, Southern Baptist Theological Seminary and Wheaton College."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 483,
+      "seconds": 0.114,
+      "target": "The earlier material states: The Southern Baptist Theological Seminary is a Baptist theological institute in Louisville, Kentucky. The seminary was founded in 1859 in Greenville, South Carolina, where it was at first housed on the campus of Furman University.",
+      "target_tokens": 53,
+      "total_tokens": 536
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.16020964086055756,
+          "text": "The earlier material states: The Southern Baptist Theological Seminary is a Baptist theological institute in Louisville, Kentucky. The seminary was founded in 1859 in Greenville, South Carolina, where it was at first housed on the campus of Furman University."
+        },
+        {
+          "canonical_id": "case_39:C0084#0-242",
+          "score": 0.3300044536590576,
+          "text": "Dr. Paul R. House, OT Associate Chairman. Professor of Old Testament, Trinity Episcopal School for Ministry; B.A., Southwest Baptist University; M.A., University of Missouri-Columbia; M.Div., The Southern Baptist Theological Seminary; Ph.D..."
+        },
+        {
+          "canonical_id": "case_39:C0009#0-272",
+          "score": 0.055893849581480026,
+          "text": "I am Emeritus Professor of Old Testament at Northern Baptist Seminary. I was born in Brazil. I graduated from California Baptist College, Golden Gate Baptist Seminary, The Southern Baptist Seminary, and have done additional graduate work at the Graduate Theological Union."
+        },
+        {
+          "canonical_id": "case_39:C0010#0-218",
+          "score": 0.0060260845348238945,
+          "text": "Classes met in the old Baptist “meeting house” in Greenville, after the seminary installed walls dividing it into two lecture rooms and a library for the 2,000volume theological collection donated by Furman University."
+        },
+        {
+          "canonical_id": "case_39:C0011#0-175",
+          "score": 0.075279600918293,
+          "text": "Home · Publications · Journals · The Southern Baptist Journal of Theology · SBJT 1/3 (Fall 1997) · Editorial: The Promise and Promises of a Christian College.By Paul R. House."
+        },
+        {
+          "canonical_id": "case_39:C0012#0-271",
+          "score": 0.027956651523709297,
+          "text": "Daune Garrett, Paul R. House. Best For. Layperson.The collaborative work of Dr. Duane Garrett and Dr. Paul R. House on Song of Songs and Lamentations in the prestigious Word Biblical Commentary series represents a significant scholarly achievement that brings together..."
+        },
+        {
+          "canonical_id": "case_39:C0013#0-230",
+          "score": 0.04571949690580368,
+          "text": "In 1857, Boyce convinced members of the convention in Louisville, Kentucky , to approve a motion to establish The Southern Baptist Theological Seminary. In the fall of 1859, Southern began its first academic year with 26 students."
+        },
+        {
+          "canonical_id": "case_39:C0014#0-272",
+          "score": 0.014355641789734364,
+          "text": "Paul House provides a holistic sketch of creation in Old Testa-ment Theology, while Russell Fuller sets forth a proper hermeneutical method.Dr. Charles W. Draper, Associate Professor of New Testament at Boyce College, discovered these letters and provides the commen-tary."
+        },
+        {
+          "canonical_id": "case_39:C0015#0-281",
+          "score": 0.03468799963593483,
+          "text": "Owen Strachan (PhD, Trinity Evangelical Divinity School) teaches at Boyce College and Southern Baptist Theological Seminary in Louisville, Kentucky, where he also directs the Carl F. H. Henry Institute for Evangelical Engagement and serves as a Fellow with the Center for Pastor..."
+        },
+        {
+          "canonical_id": "case_39:C0016#0-142",
+          "score": 0.006278492510318756,
+          "text": "Boyce College is a private Christian college in Louisville, Kentucky, that trains, educates, and prepares students to serve Christ faithfully."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 567,
+      "seconds": 0.129,
+      "target": "I have confirmation that Paul R. House earned his M.Div. and Ph.D. from The Southern Baptist Theological Seminary in Louisville, Kentucky.",
+      "target_tokens": 30,
+      "total_tokens": 597
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 17.4,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

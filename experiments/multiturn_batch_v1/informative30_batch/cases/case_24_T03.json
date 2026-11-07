@@ -1,0 +1,1023 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_24:T03",
+ "trajectory_id": "case_24",
+ "trajectory_case": "case_24",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "1945 > 1905, so Lloyd Kaufman was born later than Robert B. Sinclair.",
+  "sha256": "e1700040eb133c31d85ea4a74b6f8321000a81b0d9bd94e097c219f128f196c3",
+  "origin": "recorded_target",
+  "artifact_id": "case_24:T03",
+  "start": 0,
+  "end": 69,
+  "original_target": {
+   "text": "1945 > 1905, so Lloyd Kaufman was born later than Robert B. Sinclair.",
+   "artifact_id": "case_24:T03"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "Which film has the director born later, Dramatic School (Film) or Poultrygeist: Night Of The Chicken Dead?",
+   "inputs": [
+    {
+     "unit_id": "case_24:C0012#0-60",
+     "artifact_id": "case_24:C0012",
+     "start": 0,
+     "end": 60,
+     "text": "Lloyd Kaufman. Birth nameDate of birth: December 30th, 1945.",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_24:C0001#0-265",
+     "artifact_id": "case_24:C0001",
+     "start": 0,
+     "end": 265,
+     "text": "POULTRYGEIST. Night of the Chicken Dead. Opens on Friday in Manhattan. Directed by Lloyd Kaufman; written by Gabriel Friedman, Dan Bova and Mr. Kaufman; director of photography, Brendan Flynt; edited by Mr. Friedman; music by Duggie Banas and Jason (Shack) Kozun...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_24:C0002#0-160",
+     "artifact_id": "case_24:C0002",
+     "start": 0,
+     "end": 160,
+     "text": "This week we sat down with James Knight and Mike McCarty from the podcast \"The Head, The Tail, The Whole Damn Thing\" and we talked about \"Poultrygeist: Night...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_24:C0003#0-92",
+     "artifact_id": "case_24:C0003",
+     "start": 0,
+     "end": 92,
+     "text": "Director: Lloyd Kaufman. Starring: Jason Yachanin, Kate Graham, Allyson Sereboff and others.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_24:C0004#0-253",
+     "artifact_id": "case_24:C0004",
+     "start": 0,
+     "end": 253,
+     "text": "Director: Lloyd Kaufman. Starring: Jason Yachanin, Kate Graham, Allyson Sereboff and others. Poultrygeist: Night of the Chicken Dead 2006. Watch Poultrygeist: Night of the Chicken Dead Online Free 123movies – When the American Chicken Bunker, a milit...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_24:C0005#0-264",
+     "artifact_id": "case_24:C0005",
+     "start": 0,
+     "end": 264,
+     "text": "When the American Chicken Bunker, a military themed fast food restaurant, builds its latest chain restaurant on the site of an ancient Native American burial ground, the displaced spirits take revenge on unsuspecting diners and transform them into chicken zombies!",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_24:C0006#0-179",
+     "artifact_id": "case_24:C0006",
+     "start": 0,
+     "end": 179,
+     "text": "Dramatic School is a 1938 American romantic drama film directed by Robert B. Sinclair and starring Luise Rainer, Paulette Goddard, Alan Marshal, Lana Turner, and Gale Sondergaard.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_24:C0007#0-288",
+     "artifact_id": "case_24:C0007",
+     "start": 0,
+     "end": 288,
+     "text": "The film follows her journey in some detail. The dialogue is well written, Robert B. Sinclair’s direction is good, William Daniels‘ cinematography is premium, the sets are enormous and detailed and the supporting cast, especially the other young women at the school, are fun and engaging.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_24:C0008#0-79",
+     "artifact_id": "case_24:C0008",
+     "start": 0,
+     "end": 79,
+     "text": "Dramatic School (1938) View more photos.Director. Robert B. Sinclair. Producer.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 6
+    }
+   ],
+   "output": {
+    "text": "The earlier material states: Lloyd Kaufman. Birth nameDate of birth: December 30th, 1945.",
+    "sha256": "472bb987bddb1f4b8f0ef34086b8bb0d4fb96db7201211f4c4d1b6d0b6f5397a",
+    "origin": "controlled"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "Which film has the director born later, Dramatic School (Film) or Poultrygeist: Night Of The Chicken Dead?",
+   "inputs": [
+    {
+     "unit_id": "case_24:C0024#0-277",
+     "artifact_id": "case_24:C0024",
+     "start": 0,
+     "end": 277,
+     "text": "Mr. Sinclair was born at Toledo, Ohio, on May 24, 1905, the son of an insurance agent.Mr. Sinclair directed eight films for Metro‐Goldwyn Mayer, starting with “Woman Against Woman” in 1938 and ending with “Down in San Diego” in 1941. He worked with other studios after the war.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 16
+    },
+    {
+     "unit_id": "case_24:C0009#0-253",
+     "artifact_id": "case_24:C0009",
+     "start": 0,
+     "end": 253,
+     "text": "Drama., romance. Director: Robert B. Sinclair. Starring: Luise Rainer, Paulette Goddard, Alan Marshal and others. Aspiring actress Louise Muban attends the prestigious Paris School of Drama during the day and works at a dreary factory assembling gas ...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_24:C0010#0-98",
+     "artifact_id": "case_24:C0010",
+     "start": 0,
+     "end": 98,
+     "text": "DRAMATIC SCHOOL. Trailer. Directed by Robert B. Sinclair. United States, 1938. Drama, Romance. 80.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_24:C0011#0-273",
+     "artifact_id": "case_24:C0011",
+     "start": 0,
+     "end": 273,
+     "text": "See Lloyd Kaufman full list of movies and tv shows from their career.Birth Name:Stanley Lloyd Kaufman. Profession Actor, Producer, Writer, Director, Cinematographer, Soundtrack, Camera department, Production manager, Editor, Assistant director, Stunts, Location management.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_24:C0013#0-271",
+     "artifact_id": "case_24:C0013",
+     "start": 0,
+     "end": 271,
+     "text": "Welcome to Lloyd Kaufman's Birthday Celebration Page. Lloyd Kaufman got 117 balloons for his birthday! Gift him more message balloons! Balloons are draggable.Happy birthday to American film director, screenwriter, producer and actor Lloyd Kaufman, born December 30, 1945.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_24:C0014#0-149",
+     "artifact_id": "case_24:C0014",
+     "start": 0,
+     "end": 149,
+     "text": "Lloyd Kaufman - Astrology Natal Birth Chart, Birth Date Print chart.Lloyd Kaufman was born on December 30, 1945 in New York, New York, United States.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_24:C0015#0-247",
+     "artifact_id": "case_24:C0015",
+     "start": 0,
+     "end": 247,
+     "text": "Poster for Birthday video from Lloyd Kaufman.Lloyd Kaufman is an American film director, producer, and actor. He is the co-founder of Troma Entertainment, and the director of many of their films, such as Toxic Avenger and Tromeo & Juliet. Age: 80.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_24:C0016#0-168",
+     "artifact_id": "case_24:C0016",
+     "start": 0,
+     "end": 168,
+     "text": "Robert Bruce Sinclair was an American director who worked in film, theater and television.American film director. Robert B. Sinclair. from MGM Studio News (1938). Born.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_24:C0017#0-269",
+     "artifact_id": "case_24:C0017",
+     "start": 0,
+     "end": 269,
+     "text": "Born on Wednesday, May 24, 1905, birthday analysis reveals you are 120 years old. Your zodiac sign is Gemini and the Chinese zodiac sign is Snake (蛇). Life path number is 8. Discover your personality traits, horoscope details, yearly predictions and love compatibility.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 10
+    }
+   ],
+   "output": {
+    "text": "1945 > 1905, so Lloyd Kaufman was born later than Robert B. Sinclair.",
+    "sha256": "e1700040eb133c31d85ea4a74b6f8321000a81b0d9bd94e097c219f128f196c3",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "The earlier material states: Lloyd Kaufman. Birth nameDate of birth: December 30th, 1945.",
+     "sha256": "472bb987bddb1f4b8f0ef34086b8bb0d4fb96db7201211f4c4d1b6d0b6f5397a",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_24:C0001#0-265",
+   "artifact_id": "case_24:C0001",
+   "start": 0,
+   "end": 265,
+   "text": "POULTRYGEIST. Night of the Chicken Dead. Opens on Friday in Manhattan. Directed by Lloyd Kaufman; written by Gabriel Friedman, Dan Bova and Mr. Kaufman; director of photography, Brendan Flynt; edited by Mr. Friedman; music by Duggie Banas and Jason (Shack) Kozun...",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_24:C0001#0-265",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_24:C0002#0-160",
+   "artifact_id": "case_24:C0002",
+   "start": 0,
+   "end": 160,
+   "text": "This week we sat down with James Knight and Mike McCarty from the podcast \"The Head, The Tail, The Whole Damn Thing\" and we talked about \"Poultrygeist: Night...",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_24:C0002#0-160",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_24:C0003#0-92",
+   "artifact_id": "case_24:C0003",
+   "start": 0,
+   "end": 92,
+   "text": "Director: Lloyd Kaufman. Starring: Jason Yachanin, Kate Graham, Allyson Sereboff and others.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_24:C0003#0-92",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_24:C0004#0-253",
+   "artifact_id": "case_24:C0004",
+   "start": 0,
+   "end": 253,
+   "text": "Director: Lloyd Kaufman. Starring: Jason Yachanin, Kate Graham, Allyson Sereboff and others. Poultrygeist: Night of the Chicken Dead 2006. Watch Poultrygeist: Night of the Chicken Dead Online Free 123movies – When the American Chicken Bunker, a milit...",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_24:C0004#0-253",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_24:C0005#0-264",
+   "artifact_id": "case_24:C0005",
+   "start": 0,
+   "end": 264,
+   "text": "When the American Chicken Bunker, a military themed fast food restaurant, builds its latest chain restaurant on the site of an ancient Native American burial ground, the displaced spirits take revenge on unsuspecting diners and transform them into chicken zombies!",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_24:C0005#0-264",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_24:C0006#0-179",
+   "artifact_id": "case_24:C0006",
+   "start": 0,
+   "end": 179,
+   "text": "Dramatic School is a 1938 American romantic drama film directed by Robert B. Sinclair and starring Luise Rainer, Paulette Goddard, Alan Marshal, Lana Turner, and Gale Sondergaard.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_24:C0006#0-179",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_24:C0007#0-288",
+   "artifact_id": "case_24:C0007",
+   "start": 0,
+   "end": 288,
+   "text": "The film follows her journey in some detail. The dialogue is well written, Robert B. Sinclair’s direction is good, William Daniels‘ cinematography is premium, the sets are enormous and detailed and the supporting cast, especially the other young women at the school, are fun and engaging.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_24:C0007#0-288",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_24:C0008#0-79",
+   "artifact_id": "case_24:C0008",
+   "start": 0,
+   "end": 79,
+   "text": "Dramatic School (1938) View more photos.Director. Robert B. Sinclair. Producer.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_24:C0008#0-79",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_24:C0009#0-253",
+   "artifact_id": "case_24:C0009",
+   "start": 0,
+   "end": 253,
+   "text": "Drama., romance. Director: Robert B. Sinclair. Starring: Luise Rainer, Paulette Goddard, Alan Marshal and others. Aspiring actress Louise Muban attends the prestigious Paris School of Drama during the day and works at a dreary factory assembling gas ...",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_24:C0009#0-253",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_24:C0010#0-98",
+   "artifact_id": "case_24:C0010",
+   "start": 0,
+   "end": 98,
+   "text": "DRAMATIC SCHOOL. Trailer. Directed by Robert B. Sinclair. United States, 1938. Drama, Romance. 80.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_24:C0010#0-98",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_24:C0011#0-273",
+   "artifact_id": "case_24:C0011",
+   "start": 0,
+   "end": 273,
+   "text": "See Lloyd Kaufman full list of movies and tv shows from their career.Birth Name:Stanley Lloyd Kaufman. Profession Actor, Producer, Writer, Director, Cinematographer, Soundtrack, Camera department, Production manager, Editor, Assistant director, Stunts, Location management.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_24:C0011#0-273",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_24:C0012#0-60",
+   "artifact_id": "case_24:C0012",
+   "start": 0,
+   "end": 60,
+   "text": "Lloyd Kaufman. Birth nameDate of birth: December 30th, 1945.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_24:C0012#0-60",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_24:C0013#0-271",
+   "artifact_id": "case_24:C0013",
+   "start": 0,
+   "end": 271,
+   "text": "Welcome to Lloyd Kaufman's Birthday Celebration Page. Lloyd Kaufman got 117 balloons for his birthday! Gift him more message balloons! Balloons are draggable.Happy birthday to American film director, screenwriter, producer and actor Lloyd Kaufman, born December 30, 1945.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_24:C0013#0-271",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_24:C0014#0-149",
+   "artifact_id": "case_24:C0014",
+   "start": 0,
+   "end": 149,
+   "text": "Lloyd Kaufman - Astrology Natal Birth Chart, Birth Date Print chart.Lloyd Kaufman was born on December 30, 1945 in New York, New York, United States.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_24:C0014#0-149",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_24:C0015#0-247",
+   "artifact_id": "case_24:C0015",
+   "start": 0,
+   "end": 247,
+   "text": "Poster for Birthday video from Lloyd Kaufman.Lloyd Kaufman is an American film director, producer, and actor. He is the co-founder of Troma Entertainment, and the director of many of their films, such as Toxic Avenger and Tromeo & Juliet. Age: 80.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_24:C0015#0-247",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_24:C0016#0-168",
+   "artifact_id": "case_24:C0016",
+   "start": 0,
+   "end": 168,
+   "text": "Robert Bruce Sinclair was an American director who worked in film, theater and television.American film director. Robert B. Sinclair. from MGM Studio News (1938). Born.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_24:C0016#0-168",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_24:C0017#0-269",
+   "artifact_id": "case_24:C0017",
+   "start": 0,
+   "end": 269,
+   "text": "Born on Wednesday, May 24, 1905, birthday analysis reveals you are 120 years old. Your zodiac sign is Gemini and the Chinese zodiac sign is Snake (蛇). Life path number is 8. Discover your personality traits, horoscope details, yearly predictions and love compatibility.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_24:C0017#0-269",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_24:C0018#0-42",
+   "artifact_id": "case_24:C0018",
+   "start": 0,
+   "end": 42,
+   "text": "Select Your Birth Date. January. February.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_24:C0019#0-174",
+   "artifact_id": "case_24:C0019",
+   "start": 0,
+   "end": 174,
+   "text": "Director Director.Woman Against Woman (Robert B. Sinclair, 1938) 7/10. Sparkling domestic drama is old fashioned but the three stars create enough sparks to make it all work.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_24:C0020#0-256",
+   "artifact_id": "case_24:C0020",
+   "start": 0,
+   "end": 256,
+   "text": "Şaşkın Hırsızlar Film Bilgileri. Ren Zituo, olağanüstü kung fu yeteneklerine sahip bir adamdır, ancak bu yeteneklerini haydutlukta kullanmaya karar verir. Günlerini kumarhanelerde geçirirken, bir gün şehrin en zengin kadınının torununu kaçırma planı yapar.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_24:C0021#0-136",
+   "artifact_id": "case_24:C0021",
+   "start": 0,
+   "end": 136,
+   "text": "Document in category \"Born in 1905\". There are 402 documents in total.Robert Penn Warren. Roger M. Raimi. Rudolf-Christoph von Gersdorf.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_24:C0022#0-214",
+   "artifact_id": "case_24:C0022",
+   "start": 0,
+   "end": 214,
+   "text": "That Wonderful Urge (1948) | American comedy film directed by Robert B. Sinclair. 1:21:44.Born in 1904 in San Francisco, he started out as a scriptwriter in the 1930s before transitioning to directing in the 1940s.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_24:C0023#0-136",
+   "artifact_id": "case_24:C0023",
+   "start": 0,
+   "end": 136,
+   "text": "\"Rice\" EW (Rice) 1904-1997; BK (Rice) 1905-1989 Wooden Stone with no dates or information with an iron fence around it like a baby crib.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_24:C0024#0-277",
+   "artifact_id": "case_24:C0024",
+   "start": 0,
+   "end": 277,
+   "text": "Mr. Sinclair was born at Toledo, Ohio, on May 24, 1905, the son of an insurance agent.Mr. Sinclair directed eight films for Metro‐Goldwyn Mayer, starting with “Woman Against Woman” in 1938 and ending with “Down in San Diego” in 1941. He worked with other studios after the war.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_24:C0024#0-277",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_24:C0025#0-218",
+   "artifact_id": "case_24:C0025",
+   "start": 0,
+   "end": 218,
+   "text": "Explore the complete filmography of Robert B. Sinclair on Rotten Tomatoes! Discover every movie and TV show they have been credited in.Lowest Rated: Not Available. Birthday: May 24, 1905. Birthplace: Toledo, Ohio, USA.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_24:C0026#0-239",
+   "artifact_id": "case_24:C0026",
+   "start": 0,
+   "end": 239,
+   "text": "Robert Bruce Sinclair (May 24, 1905 – January 3, 1970) was an American director who worked in film, theater and television. View details Hide details. expand_more. Robert B. Sinclair was born on Wednesday, 24 May 1905 in Toledo, Ohio, USA.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_24:C0027#0-104",
+   "artifact_id": "case_24:C0027",
+   "start": 0,
+   "end": 104,
+   "text": "Robert B. Sinclair. Date of Birth: May 24, 1905 Birth Place: Toledo, Ohio, USA. Filmography at a glance.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_24:C0028#0-127",
+   "artifact_id": "case_24:C0028",
+   "start": 0,
+   "end": 127,
+   "text": "Robert B. Sinclair. Director. Born: May 24, 1905 in Toledo, OH, USA.Director. Peace on Earth Opened November 29, 1933. Staging.",
+   "occurrences": [],
+   "pool_only": true
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_24:T03:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_24:C0012",
+      "start": 0,
+      "end": 60,
+      "text": "Lloyd Kaufman. Birth nameDate of birth: December 30th, 1945."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_24:C0012",
+       "start": 0,
+       "end": 60,
+       "text": "Lloyd Kaufman. Birth nameDate of birth: December 30th, 1945."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_24:C0024",
+      "start": 0,
+      "end": 277,
+      "text": "Mr. Sinclair was born at Toledo, Ohio, on May 24, 1905, the son of an insurance agent.Mr. Sinclair directed eight films for Metro‐Goldwyn Mayer, starting with “Woman Against Woman” in 1938 and ending with “Down in San Diego” in 1941. He worked with other studios after the war."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_24:C0024",
+       "start": 0,
+       "end": 277,
+       "text": "Mr. Sinclair was born at Toledo, Ohio, on May 24, 1905, the son of an insurance agent.Mr. Sinclair directed eight films for Metro‐Goldwyn Mayer, starting with “Woman Against Woman” in 1938 and ending with “Down in San Diego” in 1941. He worked with other studios after the war."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "group_id": "case_24:T03:support_g02",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_24:C0013",
+      "start": 0,
+      "end": 271,
+      "text": "Welcome to Lloyd Kaufman's Birthday Celebration Page. Lloyd Kaufman got 117 balloons for his birthday! Gift him more message balloons! Balloons are draggable.Happy birthday to American film director, screenwriter, producer and actor Lloyd Kaufman, born December 30, 1945."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_24:C0013",
+       "start": 0,
+       "end": 271,
+       "text": "Welcome to Lloyd Kaufman's Birthday Celebration Page. Lloyd Kaufman got 117 balloons for his birthday! Gift him more message balloons! Balloons are draggable.Happy birthday to American film director, screenwriter, producer and actor Lloyd Kaufman, born December 30, 1945."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_24:C0025",
+      "start": 0,
+      "end": 218,
+      "text": "Explore the complete filmography of Robert B. Sinclair on Rotten Tomatoes! Discover every movie and TV show they have been credited in.Lowest Rated: Not Available. Birthday: May 24, 1905. Birthplace: Toledo, Ohio, USA."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_24:C0025",
+       "start": 0,
+       "end": 218,
+       "text": "Explore the complete filmography of Robert B. Sinclair on Rotten Tomatoes! Discover every movie and TV show they have been credited in.Lowest Rated: Not Available. Birthday: May 24, 1905. Birthplace: Toledo, Ohio, USA."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "group_id": "case_24:T03:support_g03",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_24:C0014",
+      "start": 0,
+      "end": 149,
+      "text": "Lloyd Kaufman - Astrology Natal Birth Chart, Birth Date Print chart.Lloyd Kaufman was born on December 30, 1945 in New York, New York, United States."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_24:C0014",
+       "start": 0,
+       "end": 149,
+       "text": "Lloyd Kaufman - Astrology Natal Birth Chart, Birth Date Print chart.Lloyd Kaufman was born on December 30, 1945 in New York, New York, United States."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_24:C0026",
+      "start": 0,
+      "end": 239,
+      "text": "Robert Bruce Sinclair (May 24, 1905 – January 3, 1970) was an American director who worked in film, theater and television. View details Hide details. expand_more. Robert B. Sinclair was born on Wednesday, 24 May 1905 in Toledo, Ohio, USA."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_24:C0026",
+       "start": 0,
+       "end": 239,
+       "text": "Robert Bruce Sinclair (May 24, 1905 – January 3, 1970) was an American director who worked in film, theater and television. View details Hide details. expand_more. Robert B. Sinclair was born on Wednesday, 24 May 1905 in Toledo, Ohio, USA."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_24:C0012#0-60"
+  ],
+  "B": [
+   "case_24:C0024#0-277"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T03",
+   "case": "case_24",
+   "question": "Which film has the director born later, Dramatic School (Film) or Poultrygeist: Night Of The Chicken Dead?",
+   "target_event": 17,
+   "target_start": 929,
+   "target_end": 998,
+   "target": "1945 > 1905, so Lloyd Kaufman was born later than Robert B. Sinclair.",
+   "candidate_ids": [
+    "C0001",
+    "C0002",
+    "C0003",
+    "C0004",
+    "C0005",
+    "C0006",
+    "C0007",
+    "C0008",
+    "C0009",
+    "C0010",
+    "C0011",
+    "C0012",
+    "C0013",
+    "C0014",
+    "C0015",
+    "C0016",
+    "C0017",
+    "C0018",
+    "C0019",
+    "C0020",
+    "C0021",
+    "C0022",
+    "C0023",
+    "C0024",
+    "C0025",
+    "C0026",
+    "C0027",
+    "C0028"
+   ],
+   "annotation_status": "model_annotated_pending_human_review"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0012",
+     "start": 15,
+     "end": 60,
+     "text": "Birth nameDate of birth: December 30th, 1945."
+    },
+    {
+     "candidate_id": "C0024",
+     "start": 4,
+     "end": 90,
+     "text": "Sinclair was born at Toledo, Ohio, on May 24, 1905, the son of an insurance agent.Mr. "
+    }
+   ]
+  },
+  "intermediate_origin": "controlled",
+  "intermediate_event": null,
+  "time_order_audit": [
+   {
+    "round": 1,
+    "event": 7,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 16,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 6,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 6,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 10,
+    "cut": 17,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 10,
+    "cut": 17,
+    "ok": true
+   }
+  ],
+  "note": "time-order checked for evidence and distractors"
+ }
+}

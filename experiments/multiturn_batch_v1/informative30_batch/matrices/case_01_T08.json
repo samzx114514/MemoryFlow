@@ -1,0 +1,161 @@
+{
+  "case_id": "case_01:T08",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "case_01:C0037#0-289",
+          "score": 0.10936197638511658,
+          "text": "Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos (Greek: Δημήτριος (Μιχαήλ) Δούκας Κομνηνός Κουτρούλης Ἄγγελος; fl. 1278–1304) was the third son of the ruler of Epirus, Michael II Komnenos Doukas (ruled 1230–68), also surnamed Koutroules, and his wife Theodora of Arta."
+        },
+        {
+          "canonical_id": "case_01:C0038#0-195",
+          "score": 0.04712589457631111,
+          "text": "Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos was the third son of the ruler of Epirus, Michael II Komnenos Doukas, also surnamed Koutroules, and his wife Theodora of Arta."
+        },
+        {
+          "canonical_id": "case_01:C0039#0-304",
+          "score": 0.02993570640683174,
+          "text": "Jan 30, 2026 · Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos (Greek: Δημήτριος (Μιχαήλ) Δούκας Κομνηνός Κουτρούλης Ἄγγελος; fl. 1278–1304) was the third son of the ruler of Epirus, Michael II Komnenos Doukas (ruled 1230–68), also surnamed Koutroules, and his wife Theodora of Arta."
+        },
+        {
+          "canonical_id": "case_01:C0040#0-289",
+          "score": 0.014094960875809193,
+          "text": "Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos (Greek: Δημήτριος (Μιχαήλ) Δούκας Κομνηνός Κουτρούλης Ἄγγελος; fl. 1278–1304) was the third son of the ruler of Epirus, Michael II Komnenos Doukas (ruled 1230–68), also surnamed Koutroules, and his wife Theodora of Arta."
+        },
+        {
+          "canonical_id": "case_01:C0041#0-289",
+          "score": 0.007361267693340778,
+          "text": "Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos (Greek: Δημήτριος (Μιχαήλ) Δούκας Κομνηνός Κουτρούλης Ἄγγελος; fl. 1278–1304) was the third son of the ruler of Epirus, Michael II Komnenos Doukas (ruled 1230–68), also surnamed Koutroules, and his wife Theodora of Arta."
+        },
+        {
+          "canonical_id": "case_01:C0043#0-166",
+          "score": 0.009740648791193962,
+          "text": "With Thessalonica secured, Vatatzes turned to Epirus, offering Michael II a marriage alliance between Michael's eldest son Nikephoros and his own granddaughter Maria."
+        },
+        {
+          "canonical_id": "case_01:C0045#0-210",
+          "score": 0.1793111264705658,
+          "text": "The holy and right-believing Empress Theodora of Arta was the wife of Michael II Komnenos Doukas who was the ruler (Emperor) of Epiros in the thirteenth century, during the time of Latin rule of Constantinople."
+        },
+        {
+          "canonical_id": "case_01:C0046#0-859",
+          "score": 0.37791407108306885,
+          "text": "Jun 11, 2024 · The holy and right-believing Empress Theodora of Arta was the wife of Michael II Komnenos Doukas who was the ruler (Emperor) of Epiros in the thirteenth century, during the time of Latin rule of Constantinople. With Thessalonica secured, Vatatzes turned to Epirus, offering Michael II a marriage alliance between Michael's eldest son Nikephoros and his own granddaughter Maria. Discover life events, stories and photos about Theodora Doukaina Petraloiphaina Basilissa (1210–1270) of Sérvia, Kozani, Greece. Sep 3, 2024 · Theodora Petraliphaina was a Consort of Epirus and an Orthodox Christian Saint. Theodora was the daughter of the Sebastokrator John Petraliphas, governor of Thessaly and Macedonia. She was born in Thessalonica sometime between 1210 - 1216, and married Michael II Komnenos Doukas, the ruler of Epirus and Thessaly shortly..."
+        },
+        {
+          "canonical_id": "case_01:C0044#0-225",
+          "score": 0.06014689803123474,
+          "text": "Oct 22, 2012 · The holy and right-believing Empress Theodora of Arta was the wife of Michael II Komnenos Doukas who was the ruler (Emperor) of Epiros in the thirteenth century, during the time of Latin rule of Constantinople."
+        },
+        {
+          "canonical_id": "case_01:C0042#0-202",
+          "score": 0.08377043902873993,
+          "text": "Theodora Petraliphaina (Greek: Θεοδώρα Πετραλίφαινα), canonized as Saint Theodora of Arta (Greek: Αγία Θεοδώρα της Άρτας; ca. 1225 – after 1270), was a consort of Epirus and an Orthodox Christian saint."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 1177,
+      "seconds": 0.218,
+      "target": "Theodora of Arta (Theodora Petraliphaina) was the consort of Michael II Komnenos Doukas of Epirus and an Orthodox Christian saint",
+      "target_tokens": 35,
+      "total_tokens": 1212
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "case_01:C0037#0-289",
+          "score": 0.2160600870847702,
+          "text": "Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos (Greek: Δημήτριος (Μιχαήλ) Δούκας Κομνηνός Κουτρούλης Ἄγγελος; fl. 1278–1304) was the third son of the ruler of Epirus, Michael II Komnenos Doukas (ruled 1230–68), also surnamed Koutroules, and his wife Theodora of Arta."
+        },
+        {
+          "canonical_id": "case_01:C0038#0-195",
+          "score": 0.11316338926553726,
+          "text": "Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos was the third son of the ruler of Epirus, Michael II Komnenos Doukas, also surnamed Koutroules, and his wife Theodora of Arta."
+        },
+        {
+          "canonical_id": "case_01:C0039#0-304",
+          "score": 0.31947946548461914,
+          "text": "Jan 30, 2026 · Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos (Greek: Δημήτριος (Μιχαήλ) Δούκας Κομνηνός Κουτρούλης Ἄγγελος; fl. 1278–1304) was the third son of the ruler of Epirus, Michael II Komnenos Doukas (ruled 1230–68), also surnamed Koutroules, and his wife Theodora of Arta."
+        },
+        {
+          "canonical_id": "case_01:C0040#0-289",
+          "score": 0.11635396629571915,
+          "text": "Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos (Greek: Δημήτριος (Μιχαήλ) Δούκας Κομνηνός Κουτρούλης Ἄγγελος; fl. 1278–1304) was the third son of the ruler of Epirus, Michael II Komnenos Doukas (ruled 1230–68), also surnamed Koutroules, and his wife Theodora of Arta."
+        },
+        {
+          "canonical_id": "case_01:C0041#0-289",
+          "score": 0.0502186194062233,
+          "text": "Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos (Greek: Δημήτριος (Μιχαήλ) Δούκας Κομνηνός Κουτρούλης Ἄγγελος; fl. 1278–1304) was the third son of the ruler of Epirus, Michael II Komnenos Doukas (ruled 1230–68), also surnamed Koutroules, and his wife Theodora of Arta."
+        },
+        {
+          "canonical_id": "case_01:C0043#0-166",
+          "score": 0.017134111374616623,
+          "text": "With Thessalonica secured, Vatatzes turned to Epirus, offering Michael II a marriage alliance between Michael's eldest son Nikephoros and his own granddaughter Maria."
+        },
+        {
+          "canonical_id": "case_01:C0045#0-210",
+          "score": 0.02285570651292801,
+          "text": "The holy and right-believing Empress Theodora of Arta was the wife of Michael II Komnenos Doukas who was the ruler (Emperor) of Epiros in the thirteenth century, during the time of Latin rule of Constantinople."
+        },
+        {
+          "canonical_id": "case_01:C0046#0-859",
+          "score": 0.02732248231768608,
+          "text": "Jun 11, 2024 · The holy and right-believing Empress Theodora of Arta was the wife of Michael II Komnenos Doukas who was the ruler (Emperor) of Epiros in the thirteenth century, during the time of Latin rule of Constantinople. With Thessalonica secured, Vatatzes turned to Epirus, offering Michael II a marriage alliance between Michael's eldest son Nikephoros and his own granddaughter Maria. Discover life events, stories and photos about Theodora Doukaina Petraloiphaina Basilissa (1210–1270) of Sérvia, Kozani, Greece. Sep 3, 2024 · Theodora Petraliphaina was a Consort of Epirus and an Orthodox Christian Saint. Theodora was the daughter of the Sebastokrator John Petraliphas, governor of Thessaly and Macedonia. She was born in Thessalonica sometime between 1210 - 1216, and married Michael II Komnenos Doukas, the ruler of Epirus and Thessaly shortly..."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 1017,
+      "seconds": 0.198,
+      "target": "The earlier material states: Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos (Greek: Δημήτριος (Μιχαήλ) Δούκας Κομνηνός Κουτρούλης Ἄγγελος; fl. 1278–1304) was the third son of the ruler of Epirus, Michael II Komnenos Doukas (ruled 1230–68), also su",
+      "target_tokens": 125,
+      "total_tokens": 1142
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.22181066870689392,
+          "text": "The earlier material states: Demetrios, later renamed Michael, Doukas Komnenos Koutroules Angelos (Greek: Δημήτριος (Μιχαήλ) Δούκας Κομνηνός Κουτρούλης Ἄγγελος; fl. 1278–1304) was the third son of the ruler of Epirus, Michael II Komnenos Doukas (ruled 1230–68), also su"
+        },
+        {
+          "canonical_id": "case_01:C0044#0-225",
+          "score": 0.4070676863193512,
+          "text": "Oct 22, 2012 · The holy and right-believing Empress Theodora of Arta was the wife of Michael II Komnenos Doukas who was the ruler (Emperor) of Epiros in the thirteenth century, during the time of Latin rule of Constantinople."
+        },
+        {
+          "canonical_id": "case_01:C0042#0-202",
+          "score": 0.2854832112789154,
+          "text": "Theodora Petraliphaina (Greek: Θεοδώρα Πετραλίφαινα), canonized as Saint Theodora of Arta (Greek: Αγία Θεοδώρα της Άρτας; ca. 1225 – after 1270), was a consort of Epirus and an Orthodox Christian saint."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 347,
+      "seconds": 0.106,
+      "target": "Theodora of Arta (Theodora Petraliphaina) was the consort of Michael II Komnenos Doukas of Epirus and an Orthodox Christian saint",
+      "target_tokens": 35,
+      "total_tokens": 382
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 17.4,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

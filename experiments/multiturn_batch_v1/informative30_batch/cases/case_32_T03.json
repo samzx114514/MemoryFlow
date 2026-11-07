@@ -1,0 +1,943 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_32:T03",
+ "trajectory_id": "case_32",
+ "trajectory_case": "case_32",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "9 January 1950 is clearly after 17 December 1940, so Arthur Maude died later.",
+  "sha256": "6a64f913b0fcc94e34cf56149b9ed5968b345511024b607d5699adb102b82d0b",
+  "origin": "recorded_target",
+  "artifact_id": "case_32:T03",
+  "start": 0,
+  "end": 77,
+  "original_target": {
+   "text": "9 January 1950 is clearly after 17 December 1940, so Arthur Maude died later.",
+   "artifact_id": "case_32:T03"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "Which film has the director died later, The Lyons Mail or Crossroads (1937 Film)?",
+   "inputs": [
+    {
+     "unit_id": "case_32:C0011#0-194",
+     "artifact_id": "case_32:C0011",
+     "start": 0,
+     "end": 194,
+     "text": "Arthur John Maude (23 July 1880 – 9 January 1950) was an English actor, screenwriter, and film director.After Crawley's death in 1919, Maude continued to act, write screenplays and direct films.",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_32:C0012#0-160",
+     "artifact_id": "case_32:C0012",
+     "start": 0,
+     "end": 160,
+     "text": "Arthur Maude was born on Friday, July 23 1880, and passed away on Monday, January 9 1950 at the age of 69.Arthur Maude was 53 in Borrowed Clothes as 'Director'.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_32:C0013#0-169",
+     "artifact_id": "case_32:C0013",
+     "start": 0,
+     "end": 169,
+     "text": "“Maude” star Bill Macy died last night at 7:13 p.m. in his Los Angeles home, according to his manager. He was 97 years old. The cause of death has not yet been reported.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_32:C0014#0-270",
+     "artifact_id": "case_32:C0014",
+     "start": 0,
+     "end": 270,
+     "text": "Bea Arthur in Maude (1972). Trailer for Norman Lear: Just Another Version of You.Just a few days after her death, the Broadway community paid tribute to Arthur by dimming the marquees of New York City's Broadway theater district in her memory for one minute at 8:00 p.m.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_32:C0015#0-160",
+     "artifact_id": "case_32:C0015",
+     "start": 0,
+     "end": 160,
+     "text": "Fix DEATH STRANDING DIRECTOR'S CUT Access Violation Error on launch Internal system error occured.An Access Violation (C0000005h) has occurred in thread 'Sys...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_32:C0016#0-205",
+     "artifact_id": "case_32:C0016",
+     "start": 0,
+     "end": 205,
+     "text": "Xiling Shen was born in 1904 in Zhejiang, China. He was a director and writer, known for Перекрёстки (1937), Nu xing de na han (1933) and Xiang chou (1934). He died on 17 December 1940 in Chongqing, China.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 11
+    },
+    {
+     "unit_id": "case_32:C0017#0-76",
+     "artifact_id": "case_32:C0017",
+     "start": 0,
+     "end": 76,
+     "text": "Shen Xiling. Born. 1904. Hangzhou, Zhejiang, China.Traditional Chinese. 沈西苓.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 11
+    },
+    {
+     "unit_id": "case_32:C0018#0-241",
+     "artifact_id": "case_32:C0018",
+     "start": 0,
+     "end": 241,
+     "text": "Director: Shen Xiling. Starring: Zhao Dan, Bai Yang. 1937, 110 min.This popular film marked the emergence of Zhao Dan and Bai Yang as major stars. Shen’spromising career was cut short by his early death in wartime Chongquing in 1940.” (via).",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 11
+    },
+    {
+     "unit_id": "case_32:C0019#0-277",
+     "artifact_id": "case_32:C0019",
+     "start": 0,
+     "end": 277,
+     "text": "Death Date is a mysterious place where you will find out when you are going to die... but do you have the guts?Don't wait any longer, go to the Death Form, enter your (or someone else's) details and click calculate. The site will process your data and calculate the Death Date.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 11
+    }
+   ],
+   "output": {
+    "text": "The earlier material states: Arthur John Maude (23 July 1880 – 9 January 1950) was an English actor, screenwriter, and film director.After Crawley's death in 1919, Maude continued to act, write screenplays and direct films.",
+    "sha256": "0e44b15f69575c3eb03206261a1f54bd4c55373908395cd750e78c51fd0f5b50",
+    "origin": "controlled"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "Which film has the director died later, The Lyons Mail or Crossroads (1937 Film)?",
+   "inputs": [
+    {
+     "unit_id": "case_32:C0029#0-235",
+     "artifact_id": "case_32:C0029",
+     "start": 0,
+     "end": 235,
+     "text": "Shen Xiling died of typhoid fever in Chongqing on 17 December 1940 at the age of 36. [11] [12] Having relocated to the city in November 1937 amid the Japanese invasion of Shanghai, he succumbed to the illness during the wartime period.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 14
+    },
+    {
+     "unit_id": "case_32:C0020#0-261",
+     "artifact_id": "case_32:C0020",
+     "start": 0,
+     "end": 261,
+     "text": "Shen Xiling (Chinese沉 西 苓; * 1904 in Hangzhou, Zhejiang, † December 19, 1940 in Chongqing) was a Chinese film director and screenwriter. Shen Xiling learned textile dyeing before turning to art. He first completed an internship as a stage in a Japanese theater.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 11
+    },
+    {
+     "unit_id": "case_32:C0021#0-135",
+     "artifact_id": "case_32:C0021",
+     "start": 0,
+     "end": 135,
+     "text": "Arthur John Maude was an English actor, screenwriter, and film director.Died. 9 January 1950(1950-01-09) (aged 69). Paddington, London.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 13
+    },
+    {
+     "unit_id": "case_32:C0022#0-184",
+     "artifact_id": "case_32:C0022",
+     "start": 0,
+     "end": 184,
+     "text": "Beyond Maude, Arthur’s star continued to shine brightly, gracing both the small and big screens. She bid farewell in 2009, days before her 87th birthday, after bravely battling cancer.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 13
+    },
+    {
+     "unit_id": "case_32:C0023#0-221",
+     "artifact_id": "case_32:C0023",
+     "start": 0,
+     "end": 221,
+     "text": "0.1 Arthur Maude estimated Net Worth, Biography, Age, Height, Dating, Relationship Records, Salary, Income, Cars, Lifestyles & many more details have been updated below. Let’s check, How Rich is Arthur Maude in 2019-2020?",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 13
+    },
+    {
+     "unit_id": "case_32:C0024#0-238",
+     "artifact_id": "case_32:C0024",
+     "start": 0,
+     "end": 238,
+     "text": "Maude's friend Irene, a US Congresswoman, has died, Maude feels bereft. She's also sad, knowing Arthur, Vivian, Carol & Phillip are moving. Maude decides to run for the open position caused by Irene's death, and ends up appointed instead.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 13
+    },
+    {
+     "unit_id": "case_32:C0025#0-131",
+     "artifact_id": "case_32:C0025",
+     "start": 0,
+     "end": 131,
+     "text": "Bill Macy, who played the frustrated husband Walter Findlay opposite Bea Arthur on the hit 1970s sitcom Maude, has died. He was 97.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 13
+    },
+    {
+     "unit_id": "case_32:C0026#0-98",
+     "artifact_id": "case_32:C0026",
+     "start": 0,
+     "end": 98,
+     "text": "Shen Xiling (1904 – 17 December 1940) was a Chinese film director.Hangzhou, Zhejiang, China. Died.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 14
+    },
+    {
+     "unit_id": "case_32:C0027#0-189",
+     "artifact_id": "case_32:C0027",
+     "start": 0,
+     "end": 189,
+     "text": "Shen Xiling de nom original Shen Xuecheng, també va utilitzar el pseudònim de Ye Chen. Va néixer el 1904, a Deqing, província de Zhejiang (Xina) durant els darrers anys de la dinastia Qing.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 14
+    }
+   ],
+   "output": {
+    "text": "9 January 1950 is clearly after 17 December 1940, so Arthur Maude died later.",
+    "sha256": "6a64f913b0fcc94e34cf56149b9ed5968b345511024b607d5699adb102b82d0b",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "The earlier material states: Arthur John Maude (23 July 1880 – 9 January 1950) was an English actor, screenwriter, and film director.After Crawley's death in 1919, Maude continued to act, write screenplays and direct films.",
+     "sha256": "0e44b15f69575c3eb03206261a1f54bd4c55373908395cd750e78c51fd0f5b50",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_32:C0011#0-194",
+   "artifact_id": "case_32:C0011",
+   "start": 0,
+   "end": 194,
+   "text": "Arthur John Maude (23 July 1880 – 9 January 1950) was an English actor, screenwriter, and film director.After Crawley's death in 1919, Maude continued to act, write screenplays and direct films.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_32:C0011#0-194",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_32:C0012#0-160",
+   "artifact_id": "case_32:C0012",
+   "start": 0,
+   "end": 160,
+   "text": "Arthur Maude was born on Friday, July 23 1880, and passed away on Monday, January 9 1950 at the age of 69.Arthur Maude was 53 in Borrowed Clothes as 'Director'.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_32:C0012#0-160",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_32:C0013#0-169",
+   "artifact_id": "case_32:C0013",
+   "start": 0,
+   "end": 169,
+   "text": "“Maude” star Bill Macy died last night at 7:13 p.m. in his Los Angeles home, according to his manager. He was 97 years old. The cause of death has not yet been reported.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_32:C0013#0-169",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_32:C0014#0-270",
+   "artifact_id": "case_32:C0014",
+   "start": 0,
+   "end": 270,
+   "text": "Bea Arthur in Maude (1972). Trailer for Norman Lear: Just Another Version of You.Just a few days after her death, the Broadway community paid tribute to Arthur by dimming the marquees of New York City's Broadway theater district in her memory for one minute at 8:00 p.m.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_32:C0014#0-270",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_32:C0015#0-160",
+   "artifact_id": "case_32:C0015",
+   "start": 0,
+   "end": 160,
+   "text": "Fix DEATH STRANDING DIRECTOR'S CUT Access Violation Error on launch Internal system error occured.An Access Violation (C0000005h) has occurred in thread 'Sys...",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_32:C0015#0-160",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_32:C0016#0-205",
+   "artifact_id": "case_32:C0016",
+   "start": 0,
+   "end": 205,
+   "text": "Xiling Shen was born in 1904 in Zhejiang, China. He was a director and writer, known for Перекрёстки (1937), Nu xing de na han (1933) and Xiang chou (1934). He died on 17 December 1940 in Chongqing, China.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_32:C0016#0-205",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_32:C0017#0-76",
+   "artifact_id": "case_32:C0017",
+   "start": 0,
+   "end": 76,
+   "text": "Shen Xiling. Born. 1904. Hangzhou, Zhejiang, China.Traditional Chinese. 沈西苓.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_32:C0017#0-76",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_32:C0018#0-241",
+   "artifact_id": "case_32:C0018",
+   "start": 0,
+   "end": 241,
+   "text": "Director: Shen Xiling. Starring: Zhao Dan, Bai Yang. 1937, 110 min.This popular film marked the emergence of Zhao Dan and Bai Yang as major stars. Shen’spromising career was cut short by his early death in wartime Chongquing in 1940.” (via).",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_32:C0018#0-241",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_32:C0019#0-277",
+   "artifact_id": "case_32:C0019",
+   "start": 0,
+   "end": 277,
+   "text": "Death Date is a mysterious place where you will find out when you are going to die... but do you have the guts?Don't wait any longer, go to the Death Form, enter your (or someone else's) details and click calculate. The site will process your data and calculate the Death Date.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_32:C0019#0-277",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_32:C0020#0-261",
+   "artifact_id": "case_32:C0020",
+   "start": 0,
+   "end": 261,
+   "text": "Shen Xiling (Chinese沉 西 苓; * 1904 in Hangzhou, Zhejiang, † December 19, 1940 in Chongqing) was a Chinese film director and screenwriter. Shen Xiling learned textile dyeing before turning to art. He first completed an internship as a stage in a Japanese theater.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_32:C0020#0-261",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_32:C0021#0-135",
+   "artifact_id": "case_32:C0021",
+   "start": 0,
+   "end": 135,
+   "text": "Arthur John Maude was an English actor, screenwriter, and film director.Died. 9 January 1950(1950-01-09) (aged 69). Paddington, London.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_32:C0021#0-135",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_32:C0022#0-184",
+   "artifact_id": "case_32:C0022",
+   "start": 0,
+   "end": 184,
+   "text": "Beyond Maude, Arthur’s star continued to shine brightly, gracing both the small and big screens. She bid farewell in 2009, days before her 87th birthday, after bravely battling cancer.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_32:C0022#0-184",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_32:C0023#0-221",
+   "artifact_id": "case_32:C0023",
+   "start": 0,
+   "end": 221,
+   "text": "0.1 Arthur Maude estimated Net Worth, Biography, Age, Height, Dating, Relationship Records, Salary, Income, Cars, Lifestyles & many more details have been updated below. Let’s check, How Rich is Arthur Maude in 2019-2020?",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_32:C0023#0-221",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_32:C0024#0-238",
+   "artifact_id": "case_32:C0024",
+   "start": 0,
+   "end": 238,
+   "text": "Maude's friend Irene, a US Congresswoman, has died, Maude feels bereft. She's also sad, knowing Arthur, Vivian, Carol & Phillip are moving. Maude decides to run for the open position caused by Irene's death, and ends up appointed instead.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_32:C0024#0-238",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_32:C0025#0-131",
+   "artifact_id": "case_32:C0025",
+   "start": 0,
+   "end": 131,
+   "text": "Bill Macy, who played the frustrated husband Walter Findlay opposite Bea Arthur on the hit 1970s sitcom Maude, has died. He was 97.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_32:C0025#0-131",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_32:C0026#0-98",
+   "artifact_id": "case_32:C0026",
+   "start": 0,
+   "end": 98,
+   "text": "Shen Xiling (1904 – 17 December 1940) was a Chinese film director.Hangzhou, Zhejiang, China. Died.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_32:C0026#0-98",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_32:C0027#0-189",
+   "artifact_id": "case_32:C0027",
+   "start": 0,
+   "end": 189,
+   "text": "Shen Xiling de nom original Shen Xuecheng, també va utilitzar el pseudònim de Ye Chen. Va néixer el 1904, a Deqing, província de Zhejiang (Xina) durant els darrers anys de la dinastia Qing.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_32:C0027#0-189",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_32:C0028#0-206",
+   "artifact_id": "case_32:C0028",
+   "start": 0,
+   "end": 206,
+   "text": "Shen Xiling. b. 1904, Hangzhou, Zhejiang province d. 19 December 1940 Director, screenwriter. An important director of the 1930s, Shen Xiling studied textile coloring technology before turning to fine arts.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_32:C0029#0-235",
+   "artifact_id": "case_32:C0029",
+   "start": 0,
+   "end": 235,
+   "text": "Shen Xiling died of typhoid fever in Chongqing on 17 December 1940 at the age of 36. [11] [12] Having relocated to the city in November 1937 amid the Japanese invasion of Shanghai, he succumbed to the illness during the wartime period.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_32:C0029#0-235",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_32:C0030#0-273",
+   "artifact_id": "case_32:C0030",
+   "start": 0,
+   "end": 273,
+   "text": "Director Director. Shen Xiling.He entered Mingxing studios in 1933 and directed a few films before leaving Shanghai during the war to Chongqing in 1939. He died young at the age of 36 in 1940, but the films he left became classics of Chinese cinema. Crossroads is one them.",
+   "occurrences": [],
+   "pool_only": true
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_32:T03:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_32:C0011",
+      "start": 0,
+      "end": 194,
+      "text": "Arthur John Maude (23 July 1880 – 9 January 1950) was an English actor, screenwriter, and film director.After Crawley's death in 1919, Maude continued to act, write screenplays and direct films."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_32:C0011",
+       "start": 0,
+       "end": 194,
+       "text": "Arthur John Maude (23 July 1880 – 9 January 1950) was an English actor, screenwriter, and film director.After Crawley's death in 1919, Maude continued to act, write screenplays and direct films."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_32:C0016",
+      "start": 0,
+      "end": 205,
+      "text": "Xiling Shen was born in 1904 in Zhejiang, China. He was a director and writer, known for Перекрёстки (1937), Nu xing de na han (1933) and Xiang chou (1934). He died on 17 December 1940 in Chongqing, China."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_32:C0016",
+       "start": 0,
+       "end": 205,
+       "text": "Xiling Shen was born in 1904 in Zhejiang, China. He was a director and writer, known for Перекрёстки (1937), Nu xing de na han (1933) and Xiang chou (1934). He died on 17 December 1940 in Chongqing, China."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "group_id": "case_32:T03:support_g02",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_32:C0021",
+      "start": 0,
+      "end": 135,
+      "text": "Arthur John Maude was an English actor, screenwriter, and film director.Died. 9 January 1950(1950-01-09) (aged 69). Paddington, London."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_32:C0021",
+       "start": 0,
+       "end": 135,
+       "text": "Arthur John Maude was an English actor, screenwriter, and film director.Died. 9 January 1950(1950-01-09) (aged 69). Paddington, London."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_32:C0016",
+      "start": 0,
+      "end": 205,
+      "text": "Xiling Shen was born in 1904 in Zhejiang, China. He was a director and writer, known for Перекрёстки (1937), Nu xing de na han (1933) and Xiang chou (1934). He died on 17 December 1940 in Chongqing, China."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_32:C0016",
+       "start": 0,
+       "end": 205,
+       "text": "Xiling Shen was born in 1904 in Zhejiang, China. He was a director and writer, known for Перекрёстки (1937), Nu xing de na han (1933) and Xiang chou (1934). He died on 17 December 1940 in Chongqing, China."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "group_id": "case_32:T03:support_g03",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_32:C0011",
+      "start": 0,
+      "end": 194,
+      "text": "Arthur John Maude (23 July 1880 – 9 January 1950) was an English actor, screenwriter, and film director.After Crawley's death in 1919, Maude continued to act, write screenplays and direct films."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_32:C0011",
+       "start": 0,
+       "end": 194,
+       "text": "Arthur John Maude (23 July 1880 – 9 January 1950) was an English actor, screenwriter, and film director.After Crawley's death in 1919, Maude continued to act, write screenplays and direct films."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_32:C0029",
+      "start": 0,
+      "end": 235,
+      "text": "Shen Xiling died of typhoid fever in Chongqing on 17 December 1940 at the age of 36. [11] [12] Having relocated to the city in November 1937 amid the Japanese invasion of Shanghai, he succumbed to the illness during the wartime period."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_32:C0029",
+       "start": 0,
+       "end": 235,
+       "text": "Shen Xiling died of typhoid fever in Chongqing on 17 December 1940 at the age of 36. [11] [12] Having relocated to the city in November 1937 amid the Japanese invasion of Shanghai, he succumbed to the illness during the wartime period."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_32:C0011#0-194"
+  ],
+  "B": [
+   "case_32:C0029#0-235"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T03",
+   "case": "case_32",
+   "question": "Which film has the director died later, The Lyons Mail or Crossroads (1937 Film)?",
+   "target_event": 15,
+   "target_start": 732,
+   "target_end": 809,
+   "target": "9 January 1950 is clearly after 17 December 1940, so Arthur Maude died later.",
+   "candidate_ids": [
+    "C0011",
+    "C0012",
+    "C0013",
+    "C0014",
+    "C0015",
+    "C0016",
+    "C0017",
+    "C0018",
+    "C0019",
+    "C0020",
+    "C0021",
+    "C0022",
+    "C0023",
+    "C0024",
+    "C0025",
+    "C0026",
+    "C0027",
+    "C0028",
+    "C0029",
+    "C0030"
+   ],
+   "annotation_status": "model_annotated_pending_human_review"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0011",
+     "start": 0,
+     "end": 194,
+     "text": "Arthur John Maude (23 July 1880 – 9 January 1950) was an English actor, screenwriter, and film director.After Crawley's death in 1919, Maude continued to act, write screenplays and direct films."
+    },
+    {
+     "candidate_id": "C0029",
+     "start": 0,
+     "end": 235,
+     "text": "Shen Xiling died of typhoid fever in Chongqing on 17 December 1940 at the age of 36. [11] [12] Having relocated to the city in November 1937 amid the Japanese invasion of Shanghai, he succumbed to the illness during the wartime period."
+    }
+   ]
+  },
+  "intermediate_origin": "controlled",
+  "intermediate_event": null,
+  "time_order_audit": [
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 11,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 11,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 11,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 11,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 14,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 11,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 13,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 13,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 13,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 13,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 13,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 14,
+    "cut": 15,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 14,
+    "cut": 15,
+    "ok": true
+   }
+  ],
+  "note": "time-order checked for evidence and distractors"
+ }
+}

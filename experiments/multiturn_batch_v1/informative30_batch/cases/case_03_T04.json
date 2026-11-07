@@ -1,0 +1,733 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_03:T04",
+ "trajectory_id": "case_03",
+ "trajectory_case": "case_03",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "Ruby is the programming language that includes the `alias` keyword, and it was named after a colleague's birthstone (the ruby, July birthstone).",
+  "sha256": "261831500eb72554a101af41fc5ea8f2b49d1f5d75ef879b977d41fcd1d19937",
+  "origin": "recorded_target",
+  "artifact_id": "case_03:T04",
+  "start": 0,
+  "end": 144,
+  "original_target": {
+   "text": "Ruby is the programming language that includes the `alias` keyword, and it was named after a colleague's birthstone (the ruby, July birthstone).",
+   "artifact_id": "case_03:T04"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "The programming language that includes alias is named after whom?",
+   "inputs": [
+    {
+     "unit_id": "case_03:C0008#0-286",
+     "artifact_id": "case_03:C0008",
+     "start": 0,
+     "end": 286,
+     "text": "Mar 13, 2024 · At the core of Ruby aliasing lies the `alias` keyword, a versatile tool for method renaming. The article navigates through its syntax and practical usage, providing clear examples to solidify the understanding of how `alias` operates within the Ruby programming paradigm.",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_03:C0006#0-182",
+     "artifact_id": "case_03:C0006",
+     "start": 0,
+     "end": 182,
+     "text": "Ruby is a general-purpose programming language designed with an emphasis on programming productivity and simplicity. In Ruby, everything is an object, including primitive data types.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_03:C0007#0-145",
+     "artifact_id": "case_03:C0007",
+     "start": 0,
+     "end": 145,
+     "text": "Sep 4, 2017 · A comprehensive guide to using alias and alias_method in Ruby for method aliasing, metaprogramming, code reuse, and Rails patterns.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_03:C0009#0-90",
+     "artifact_id": "case_03:C0009",
+     "start": 0,
+     "end": 90,
+     "text": "Ruby alias keyword tutorial explains how to create method aliases with practical examples.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 4
+    },
+    {
+     "unit_id": "case_03:C0010#0-292",
+     "artifact_id": "case_03:C0010",
+     "start": 0,
+     "end": 292,
+     "text": "Sep 4, 2017 · Ruby provides two ways to create method aliases: the alias keyword and the alias_method method. Both create a new name for an existing method, but they differ in syntax, scope, and flexibility. Understanding when to use each is important for clean Ruby code and metaprogramming.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 4
+    }
+   ],
+   "output": {
+    "text": "Let me dig deeper. Ruby has `alias` as a keyword, but Ruby is named after a gemstone, not a person. Let me check other candidates.",
+    "sha256": "6014cccad8b0bb057ffbb8ae0989ff8b6d1b01470d1362cf39357a85486f0f23",
+    "origin": "recorded_agent_message"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "The programming language that includes alias is named after whom?",
+   "inputs": [
+    {
+     "unit_id": "case_03:C0028#0-247",
+     "artifact_id": "case_03:C0028",
+     "start": 0,
+     "end": 247,
+     "text": "Is Ruby called Ruby because it’s shiny and pink? No, a programming language doesn’t have a color, silly. Then why the name Ruby?Later, he realized that Ruby comes right after Perl in several situations. In birthstones, pearl is June, ruby is July.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 12
+    },
+    {
+     "unit_id": "case_03:C0024#0-197",
+     "artifact_id": "case_03:C0024",
+     "start": 0,
+     "end": 197,
+     "text": "Influenced by Perl, Matz wanted to use a jewel name for his new language, so he named Ruby after a colleague’s birthstone. Later, he realized that Ruby comes right after Perl in several situations.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_03:C0022#0-211",
+     "artifact_id": "case_03:C0022",
+     "start": 0,
+     "end": 211,
+     "text": "Ruby is a pinkish -red to blood-red-colored gemstone, a variety of the mineral corundum, consisting of aluminium oxide (α- Al 2 O 3). Ruby is one of the most popular traditional jewelry gems and is very durable.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_03:C0023#0-204",
+     "artifact_id": "case_03:C0023",
+     "start": 0,
+     "end": 204,
+     "text": "> \"Influenced by Perl, Matz wanted to use a jewel name for his new language, so he named Ruby after a colleague's birthstone.\" > \"Later, he realized that Ruby comes right after Perl in several situations.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_03:C0025#0-206",
+     "artifact_id": "case_03:C0025",
+     "start": 0,
+     "end": 206,
+     "text": "In various birthstone sequences, the ruby follows the pearl, and alphabetically \"R\" follows \"P.\" These factors were calculated to position Ruby as the natural and more valuable successor to the Perl legacy.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_03:C0026#0-313",
+     "artifact_id": "case_03:C0026",
+     "start": 0,
+     "end": 313,
+     "text": "Mar 19, 2024 · Influenced by Perl, Matz wanted to use a jewel name for his new language, so he named Ruby after a colleague’s birthstone. Later, he realized that Ruby comes right after Perl in several situations. In birthstones, pearl is June, ruby is July. When measuring font sizes, pearl is 5pt, ruby is 5.5pt.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_03:C0027#0-102",
+     "artifact_id": "case_03:C0027",
+     "start": 0,
+     "end": 102,
+     "text": "Interesting - Ruby was named after \"a colleague's birthstone.\" Let me find out who that colleague was.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 11
+    },
+    {
+     "unit_id": "case_03:C0029#0-249",
+     "artifact_id": "case_03:C0029",
+     "start": 0,
+     "end": 249,
+     "text": "Ruby Goes West. Ruby grew popular in Japan very quickly. Soon after its initial release in 1995, Matz was hired by a Japanese software consulting group called Netlab (also known as Network Applied Communication Laboratory) to work on Ruby full-time.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 12
+    },
+    {
+     "unit_id": "case_03:C0030#0-213",
+     "artifact_id": "case_03:C0030",
+     "start": 0,
+     "end": 213,
+     "text": "The name \"Ruby\" originated during a chat session between Matsumoto and Keiju Ishitsuka. Two names were selected, \"Coral\" and \"Ruby\". Matsumoto chose the later one as it was the birthstone of one of his colleagues.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 12
+    }
+   ],
+   "output": {
+    "text": "Ruby is the programming language that includes the `alias` keyword, and it was named after a colleague's birthstone (the ruby, July birthstone).",
+    "sha256": "261831500eb72554a101af41fc5ea8f2b49d1f5d75ef879b977d41fcd1d19937",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "Let me dig deeper. Ruby has `alias` as a keyword, but Ruby is named after a gemstone, not a person. Let me check other candidates.",
+     "sha256": "6014cccad8b0bb057ffbb8ae0989ff8b6d1b01470d1362cf39357a85486f0f23",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_03:C0006#0-182",
+   "artifact_id": "case_03:C0006",
+   "start": 0,
+   "end": 182,
+   "text": "Ruby is a general-purpose programming language designed with an emphasis on programming productivity and simplicity. In Ruby, everything is an object, including primitive data types.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_03:C0006#0-182",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_03:C0007#0-145",
+   "artifact_id": "case_03:C0007",
+   "start": 0,
+   "end": 145,
+   "text": "Sep 4, 2017 · A comprehensive guide to using alias and alias_method in Ruby for method aliasing, metaprogramming, code reuse, and Rails patterns.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_03:C0007#0-145",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_03:C0008#0-286",
+   "artifact_id": "case_03:C0008",
+   "start": 0,
+   "end": 286,
+   "text": "Mar 13, 2024 · At the core of Ruby aliasing lies the `alias` keyword, a versatile tool for method renaming. The article navigates through its syntax and practical usage, providing clear examples to solidify the understanding of how `alias` operates within the Ruby programming paradigm.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_03:C0008#0-286",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_03:C0009#0-90",
+   "artifact_id": "case_03:C0009",
+   "start": 0,
+   "end": 90,
+   "text": "Ruby alias keyword tutorial explains how to create method aliases with practical examples.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_03:C0009#0-90",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_03:C0010#0-292",
+   "artifact_id": "case_03:C0010",
+   "start": 0,
+   "end": 292,
+   "text": "Sep 4, 2017 · Ruby provides two ways to create method aliases: the alias keyword and the alias_method method. Both create a new name for an existing method, but they differ in syntax, scope, and flexibility. Understanding when to use each is important for clean Ruby code and metaprogramming.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_03:C0010#0-292",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_03:C0022#0-211",
+   "artifact_id": "case_03:C0022",
+   "start": 0,
+   "end": 211,
+   "text": "Ruby is a pinkish -red to blood-red-colored gemstone, a variety of the mineral corundum, consisting of aluminium oxide (α- Al 2 O 3). Ruby is one of the most popular traditional jewelry gems and is very durable.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_03:C0022#0-211",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_03:C0023#0-204",
+   "artifact_id": "case_03:C0023",
+   "start": 0,
+   "end": 204,
+   "text": "> \"Influenced by Perl, Matz wanted to use a jewel name for his new language, so he named Ruby after a colleague's birthstone.\" > \"Later, he realized that Ruby comes right after Perl in several situations.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_03:C0023#0-204",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_03:C0024#0-197",
+   "artifact_id": "case_03:C0024",
+   "start": 0,
+   "end": 197,
+   "text": "Influenced by Perl, Matz wanted to use a jewel name for his new language, so he named Ruby after a colleague’s birthstone. Later, he realized that Ruby comes right after Perl in several situations.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_03:C0024#0-197",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_03:C0025#0-206",
+   "artifact_id": "case_03:C0025",
+   "start": 0,
+   "end": 206,
+   "text": "In various birthstone sequences, the ruby follows the pearl, and alphabetically \"R\" follows \"P.\" These factors were calculated to position Ruby as the natural and more valuable successor to the Perl legacy.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_03:C0025#0-206",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_03:C0026#0-313",
+   "artifact_id": "case_03:C0026",
+   "start": 0,
+   "end": 313,
+   "text": "Mar 19, 2024 · Influenced by Perl, Matz wanted to use a jewel name for his new language, so he named Ruby after a colleague’s birthstone. Later, he realized that Ruby comes right after Perl in several situations. In birthstones, pearl is June, ruby is July. When measuring font sizes, pearl is 5pt, ruby is 5.5pt.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_03:C0026#0-313",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_03:C0027#0-102",
+   "artifact_id": "case_03:C0027",
+   "start": 0,
+   "end": 102,
+   "text": "Interesting - Ruby was named after \"a colleague's birthstone.\" Let me find out who that colleague was.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_03:C0027#0-102",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_03:C0028#0-247",
+   "artifact_id": "case_03:C0028",
+   "start": 0,
+   "end": 247,
+   "text": "Is Ruby called Ruby because it’s shiny and pink? No, a programming language doesn’t have a color, silly. Then why the name Ruby?Later, he realized that Ruby comes right after Perl in several situations. In birthstones, pearl is June, ruby is July.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_03:C0028#0-247",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_03:C0029#0-249",
+   "artifact_id": "case_03:C0029",
+   "start": 0,
+   "end": 249,
+   "text": "Ruby Goes West. Ruby grew popular in Japan very quickly. Soon after its initial release in 1995, Matz was hired by a Japanese software consulting group called Netlab (also known as Network Applied Communication Laboratory) to work on Ruby full-time.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_03:C0029#0-249",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_03:C0030#0-213",
+   "artifact_id": "case_03:C0030",
+   "start": 0,
+   "end": 213,
+   "text": "The name \"Ruby\" originated during a chat session between Matsumoto and Keiju Ishitsuka. Two names were selected, \"Coral\" and \"Ruby\". Matsumoto chose the later one as it was the birthstone of one of his colleagues.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_03:C0030#0-213",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_03:C0031#0-237",
+   "artifact_id": "case_03:C0031",
+   "start": 0,
+   "end": 237,
+   "text": "Ruby was born on Feb. 24th, 1993. This was the day when Yukihiro Matsumoto, also known as Matz and creator of Ruby, decided along with his colleague Keiju Ishitsuka what the name of the language was going to be during a chat conversation",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_03:C0032#0-217",
+   "artifact_id": "case_03:C0032",
+   "start": 0,
+   "end": 217,
+   "text": "Ruby's elegant syntax and the Ruby on Rails web framework sparked a revolution in web development in the mid-2000s, popularizing conventions like MVC architecture, RESTful routing, and 'convention over configuration.'",
+   "occurrences": [],
+   "pool_only": true
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_03:T04:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_03:C0008",
+      "start": 0,
+      "end": 286,
+      "text": "Mar 13, 2024 · At the core of Ruby aliasing lies the `alias` keyword, a versatile tool for method renaming. The article navigates through its syntax and practical usage, providing clear examples to solidify the understanding of how `alias` operates within the Ruby programming paradigm."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_03:C0008",
+       "start": 0,
+       "end": 286,
+       "text": "Mar 13, 2024 · At the core of Ruby aliasing lies the `alias` keyword, a versatile tool for method renaming. The article navigates through its syntax and practical usage, providing clear examples to solidify the understanding of how `alias` operates within the Ruby programming paradigm."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_03:C0024",
+      "start": 0,
+      "end": 197,
+      "text": "Influenced by Perl, Matz wanted to use a jewel name for his new language, so he named Ruby after a colleague’s birthstone. Later, he realized that Ruby comes right after Perl in several situations."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_03:C0024",
+       "start": 0,
+       "end": 197,
+       "text": "Influenced by Perl, Matz wanted to use a jewel name for his new language, so he named Ruby after a colleague’s birthstone. Later, he realized that Ruby comes right after Perl in several situations."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_03:C0028",
+      "start": 0,
+      "end": 247,
+      "text": "Is Ruby called Ruby because it’s shiny and pink? No, a programming language doesn’t have a color, silly. Then why the name Ruby?Later, he realized that Ruby comes right after Perl in several situations. In birthstones, pearl is June, ruby is July."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_03:C0028",
+       "start": 0,
+       "end": 247,
+       "text": "Is Ruby called Ruby because it’s shiny and pink? No, a programming language doesn’t have a color, silly. Then why the name Ruby?Later, he realized that Ruby comes right after Perl in several situations. In birthstones, pearl is June, ruby is July."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_03:C0008#0-286"
+  ],
+  "B": [
+   "case_03:C0028#0-247"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T04",
+   "case": "case_03",
+   "question": "The programming language that includes alias is named after whom?",
+   "target_event": 14,
+   "target_start": 24,
+   "target_end": 168,
+   "target": "Ruby is the programming language that includes the `alias` keyword, and it was named after a colleague's birthstone (the ruby, July birthstone).",
+   "candidate_ids": [
+    "C0006",
+    "C0007",
+    "C0008",
+    "C0009",
+    "C0010",
+    "C0022",
+    "C0023",
+    "C0024",
+    "C0025",
+    "C0026",
+    "C0028",
+    "C0029",
+    "C0030",
+    "C0031",
+    "C0032",
+    "C0027"
+   ],
+   "annotation_status": "assistant_reviewed_pending_human"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0008",
+     "start": 15,
+     "end": 68,
+     "text": "At the core of Ruby aliasing lies the `alias` keyword"
+    },
+    {
+     "candidate_id": "C0024",
+     "start": 77,
+     "end": 121,
+     "text": "he named Ruby after a colleague’s birthstone"
+    },
+    {
+     "candidate_id": "C0028",
+     "start": 219,
+     "end": 246,
+     "text": "pearl is June, ruby is July"
+    }
+   ]
+  },
+  "intermediate_origin": "recorded_agent_message",
+  "intermediate_event": 8,
+  "time_order_audit": [
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 8,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 8,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 8,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 8,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 4,
+    "cut": 8,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 12,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 10,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 10,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 10,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 10,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 10,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 11,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 12,
+    "cut": 14,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 12,
+    "cut": 14,
+    "ok": true
+   }
+  ],
+  "note": "time-order checked for evidence and distractors"
+ }
+}

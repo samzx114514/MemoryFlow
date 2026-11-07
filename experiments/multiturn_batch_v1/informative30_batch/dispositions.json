@@ -1,0 +1,359 @@
+[
+ {
+  "case": "case_01",
+  "target": "T04",
+  "list": "priority",
+  "status": "recorded_agent_message",
+  "reason": "group 2 items; intermediate event 26; R1 1 R2 9"
+ },
+ {
+  "case": "case_01",
+  "target": "T05",
+  "list": "priority",
+  "status": "recorded_agent_message",
+  "reason": "group 2 items; intermediate event 26; R1 6 R2 5"
+ },
+ {
+  "case": "case_01",
+  "target": "T06",
+  "list": "priority",
+  "status": "control-or-insufficient",
+  "reason": "real intermediate exists but no evidence on both sides"
+ },
+ {
+  "case": "case_01",
+  "target": "T09",
+  "list": "priority",
+  "status": "control-or-insufficient",
+  "reason": "real intermediate exists but no evidence on both sides"
+ },
+ {
+  "case": "case_01",
+  "target": "T10",
+  "list": "priority",
+  "status": "control-final-round-sufficient",
+  "reason": "precheck: final round alone covers a full group"
+ },
+ {
+  "case": "case_03",
+  "target": "T04",
+  "list": "priority",
+  "status": "recorded_agent_message",
+  "reason": "group 3 items; intermediate event 8; R1 5 R2 9"
+ },
+ {
+  "case": "case_04",
+  "target": "T06",
+  "list": "priority",
+  "status": "recorded_agent_message",
+  "reason": "group 2 items; intermediate event 20; R1 5 R2 9"
+ },
+ {
+  "case": "case_05",
+  "target": "T08",
+  "list": "priority",
+  "status": "control-or-insufficient",
+  "reason": "real intermediate exists but no evidence on both sides"
+ },
+ {
+  "case": "case_05",
+  "target": "T10",
+  "list": "priority",
+  "status": "recorded_agent_message",
+  "reason": "group 3 items; intermediate event 17; R1 9 R2 9"
+ },
+ {
+  "case": "case_06",
+  "target": "T10",
+  "list": "priority",
+  "status": "diagnostic-no-transmission",
+  "reason": "ev8 真实消息未承接 A 内容，仅诊断"
+ },
+ {
+  "case": "case_07",
+  "target": "T10",
+  "list": "priority",
+  "status": "controlled",
+  "reason": "group 2 items; intermediate event -; R1 9 R2 1"
+ },
+ {
+  "case": "case_08",
+  "target": "T07",
+  "list": "priority",
+  "status": "recorded_agent_message",
+  "reason": "group 3 items; intermediate event 11; R1 9 R2 9"
+ },
+ {
+  "case": "case_09",
+  "target": "T06",
+  "list": "priority",
+  "status": "control-final-round-sufficient",
+  "reason": "precheck: final round alone covers a full group"
+ },
+ {
+  "case": "case_10",
+  "target": "T05",
+  "list": "priority",
+  "status": "controlled",
+  "reason": "group 2 items; intermediate event -; R1 9 R2 9"
+ },
+ {
+  "case": "case_13",
+  "target": "T05",
+  "list": "priority",
+  "status": "control-or-insufficient",
+  "reason": "real intermediate exists but no evidence on both sides"
+ },
+ {
+  "case": "case_13",
+  "target": "T06",
+  "list": "priority",
+  "status": "recorded_agent_message",
+  "reason": "group 2 items; intermediate event 13; R1 9 R2 9"
+ },
+ {
+  "case": "case_13",
+  "target": "T09",
+  "list": "priority",
+  "status": "recorded_agent_message",
+  "reason": "group 2 items; intermediate event 13; R1 5 R2 5"
+ },
+ {
+  "case": "case_21",
+  "target": "T04",
+  "list": "priority",
+  "status": "controlled",
+  "reason": "group 5 items; intermediate event -; R1 9 R2 9"
+ },
+ {
+  "case": "case_23",
+  "target": "T04",
+  "list": "priority",
+  "status": "recorded_agent_message",
+  "reason": "group 2 items; intermediate event 20; R1 9 R2 9"
+ },
+ {
+  "case": "case_23",
+  "target": "T06",
+  "list": "priority",
+  "status": "control-or-insufficient",
+  "reason": "real intermediate exists but no evidence on both sides"
+ },
+ {
+  "case": "case_23",
+  "target": "T07",
+  "list": "priority",
+  "status": "recorded_agent_message",
+  "reason": "group 3 items; intermediate event 23; R1 9 R2 7"
+ },
+ {
+  "case": "case_24",
+  "target": "T03",
+  "list": "priority",
+  "status": "controlled",
+  "reason": "group 2 items; intermediate event -; R1 9 R2 9"
+ },
+ {
+  "case": "case_29",
+  "target": "T02",
+  "list": "priority",
+  "status": "recorded_agent_message",
+  "reason": "group 2 items; intermediate event 8; R1 9 R2 9"
+ },
+ {
+  "case": "case_30",
+  "target": "T05",
+  "list": "priority",
+  "status": "controlled",
+  "reason": "group 3 items; intermediate event -; R1 9 R2 9"
+ },
+ {
+  "case": "case_32",
+  "target": "T01",
+  "list": "priority",
+  "status": "controlled",
+  "reason": "group 2 items; intermediate event -; R1 9 R2 6"
+ },
+ {
+  "case": "case_32",
+  "target": "T02",
+  "list": "priority",
+  "status": "controlled",
+  "reason": "group 2 items; intermediate event -; R1 9 R2 6"
+ },
+ {
+  "case": "case_32",
+  "target": "T03",
+  "list": "priority",
+  "status": "controlled",
+  "reason": "group 2 items; intermediate event -; R1 9 R2 9"
+ },
+ {
+  "case": "case_32",
+  "target": "T04",
+  "list": "priority",
+  "status": "controlled",
+  "reason": "group 3 items; intermediate event -; R1 9 R2 9"
+ },
+ {
+  "case": "case_38",
+  "target": "T05",
+  "list": "priority",
+  "status": "controlled",
+  "reason": "group 2 items; intermediate event -; R1 9 R2 9"
+ },
+ {
+  "case": "case_39",
+  "target": "T01",
+  "list": "priority",
+  "status": "controlled",
+  "reason": "group 2 items; intermediate event -; R1 9 R2 9"
+ },
+ {
+  "case": "case_39",
+  "target": "T04",
+  "list": "priority",
+  "status": "recorded_agent_message",
+  "reason": "group 3 items; intermediate event 51; R1 9 R2 9"
+ },
+ {
+  "case": "case_41",
+  "target": "T02",
+  "list": "priority",
+  "status": "control-final-round-sufficient",
+  "reason": "precheck: final round alone covers a full group"
+ },
+ {
+  "case": "case_41",
+  "target": "T03",
+  "list": "priority",
+  "status": "control-or-insufficient",
+  "reason": "real intermediate exists but no evidence on both sides"
+ },
+ {
+  "case": "case_41",
+  "target": "T06",
+  "list": "priority",
+  "status": "control-or-insufficient",
+  "reason": "real intermediate exists but no evidence on both sides"
+ },
+ {
+  "case": "case_43",
+  "target": "T03",
+  "list": "priority",
+  "status": "control-or-insufficient",
+  "reason": "real intermediate exists but no evidence on both sides"
+ },
+ {
+  "case": "case_46",
+  "target": "T02",
+  "list": "priority",
+  "status": "controlled",
+  "reason": "group 2 items; intermediate event -; R1 9 R2 9"
+ },
+ {
+  "case": "case_01",
+  "target": "T08",
+  "list": "extra",
+  "status": "controlled",
+  "reason": "group 3 items; intermediate event -; R1 8 R2 2"
+ },
+ {
+  "case": "case_03",
+  "target": "T02",
+  "list": "extra",
+  "status": "controlled",
+  "reason": "group 3 items; intermediate event -; R1 8 R2 2"
+ },
+ {
+  "case": "case_04",
+  "target": "T03",
+  "list": "extra",
+  "status": "controlled",
+  "reason": "group 3 items; intermediate event -; R1 9 R2 6"
+ },
+ {
+  "case": "case_05",
+  "target": "T07",
+  "list": "extra",
+  "status": "control-or-insufficient",
+  "reason": "real intermediate exists but no evidence on both sides"
+ },
+ {
+  "case": "case_06",
+  "target": "T02",
+  "list": "extra",
+  "status": "control-or-insufficient",
+  "reason": "real intermediate exists but no evidence on both sides"
+ },
+ {
+  "case": "case_06",
+  "target": "T07",
+  "list": "extra",
+  "status": "control-or-insufficient",
+  "reason": "real intermediate exists but no evidence on both sides"
+ },
+ {
+  "case": "case_20",
+  "target": "T02",
+  "list": "extra",
+  "status": "control-or-insufficient",
+  "reason": "real intermediate exists but no evidence on both sides"
+ },
+ {
+  "case": "case_20",
+  "target": "T04",
+  "list": "extra",
+  "status": "control-or-insufficient",
+  "reason": "real intermediate exists but no evidence on both sides"
+ },
+ {
+  "case": "case_22",
+  "target": "T05",
+  "list": "extra",
+  "status": "controlled",
+  "reason": "group 2 items; intermediate event -; R1 9 R2 9"
+ },
+ {
+  "case": "case_25",
+  "target": "T05",
+  "list": "extra",
+  "status": "controlled",
+  "reason": "group 2 items; intermediate event -; R1 9 R2 6"
+ },
+ {
+  "case": "case_34",
+  "target": "T06",
+  "list": "extra",
+  "status": "controlled",
+  "reason": "group 3 items; intermediate event -; R1 9 R2 9"
+ },
+ {
+  "case": "case_37",
+  "target": "T02",
+  "list": "extra",
+  "status": "control-or-insufficient",
+  "reason": "real intermediate exists but no evidence on both sides"
+ },
+ {
+  "case": "case_37",
+  "target": "T03",
+  "list": "extra",
+  "status": "control-or-insufficient",
+  "reason": "real intermediate exists but no evidence on both sides"
+ },
+ {
+  "case": "case_37",
+  "target": "T04",
+  "list": "extra",
+  "status": "control-or-insufficient",
+  "reason": "real intermediate exists but no evidence on both sides"
+ },
+ {
+  "case": "case_39",
+  "target": "T03",
+  "list": "extra",
+  "status": "control-or-insufficient",
+  "reason": "real intermediate exists but no evidence on both sides"
+ }
+]

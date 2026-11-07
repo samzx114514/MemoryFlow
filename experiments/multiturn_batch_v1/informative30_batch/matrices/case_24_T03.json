@@ -1,0 +1,241 @@
+{
+  "case_id": "case_24:T03",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "case_24:C0012#0-60",
+          "score": 0.1188644990324974,
+          "text": "Lloyd Kaufman. Birth nameDate of birth: December 30th, 1945."
+        },
+        {
+          "canonical_id": "case_24:C0001#0-265",
+          "score": 0.023090530186891556,
+          "text": "POULTRYGEIST. Night of the Chicken Dead. Opens on Friday in Manhattan. Directed by Lloyd Kaufman; written by Gabriel Friedman, Dan Bova and Mr. Kaufman; director of photography, Brendan Flynt; edited by Mr. Friedman; music by Duggie Banas and Jason (Shack) Kozun..."
+        },
+        {
+          "canonical_id": "case_24:C0002#0-160",
+          "score": 0.0016830392414703965,
+          "text": "This week we sat down with James Knight and Mike McCarty from the podcast \"The Head, The Tail, The Whole Damn Thing\" and we talked about \"Poultrygeist: Night..."
+        },
+        {
+          "canonical_id": "case_24:C0003#0-92",
+          "score": 0.003393454710021615,
+          "text": "Director: Lloyd Kaufman. Starring: Jason Yachanin, Kate Graham, Allyson Sereboff and others."
+        },
+        {
+          "canonical_id": "case_24:C0004#0-253",
+          "score": 0.019359853118658066,
+          "text": "Director: Lloyd Kaufman. Starring: Jason Yachanin, Kate Graham, Allyson Sereboff and others. Poultrygeist: Night of the Chicken Dead 2006. Watch Poultrygeist: Night of the Chicken Dead Online Free 123movies – When the American Chicken Bunker, a milit..."
+        },
+        {
+          "canonical_id": "case_24:C0005#0-264",
+          "score": 0.0011282674968242645,
+          "text": "When the American Chicken Bunker, a military themed fast food restaurant, builds its latest chain restaurant on the site of an ancient Native American burial ground, the displaced spirits take revenge on unsuspecting diners and transform them into chicken zombies!"
+        },
+        {
+          "canonical_id": "case_24:C0006#0-179",
+          "score": 0.016402142122387886,
+          "text": "Dramatic School is a 1938 American romantic drama film directed by Robert B. Sinclair and starring Luise Rainer, Paulette Goddard, Alan Marshal, Lana Turner, and Gale Sondergaard."
+        },
+        {
+          "canonical_id": "case_24:C0007#0-288",
+          "score": 0.0012554837157949805,
+          "text": "The film follows her journey in some detail. The dialogue is well written, Robert B. Sinclair’s direction is good, William Daniels‘ cinematography is premium, the sets are enormous and detailed and the supporting cast, especially the other young women at the school, are fun and engaging."
+        },
+        {
+          "canonical_id": "case_24:C0008#0-79",
+          "score": 0.003145813476294279,
+          "text": "Dramatic School (1938) View more photos.Director. Robert B. Sinclair. Producer."
+        },
+        {
+          "canonical_id": "case_24:C0024#0-277",
+          "score": 0.09822635352611542,
+          "text": "Mr. Sinclair was born at Toledo, Ohio, on May 24, 1905, the son of an insurance agent.Mr. Sinclair directed eight films for Metro‐Goldwyn Mayer, starting with “Woman Against Woman” in 1938 and ending with “Down in San Diego” in 1941. He worked with other studios after the war."
+        },
+        {
+          "canonical_id": "case_24:C0009#0-253",
+          "score": 0.0032958872616291046,
+          "text": "Drama., romance. Director: Robert B. Sinclair. Starring: Luise Rainer, Paulette Goddard, Alan Marshal and others. Aspiring actress Louise Muban attends the prestigious Paris School of Drama during the day and works at a dreary factory assembling gas ..."
+        },
+        {
+          "canonical_id": "case_24:C0010#0-98",
+          "score": 0.0013164686970412731,
+          "text": "DRAMATIC SCHOOL. Trailer. Directed by Robert B. Sinclair. United States, 1938. Drama, Romance. 80."
+        },
+        {
+          "canonical_id": "case_24:C0011#0-273",
+          "score": 0.026949837803840637,
+          "text": "See Lloyd Kaufman full list of movies and tv shows from their career.Birth Name:Stanley Lloyd Kaufman. Profession Actor, Producer, Writer, Director, Cinematographer, Soundtrack, Camera department, Production manager, Editor, Assistant director, Stunts, Location management."
+        },
+        {
+          "canonical_id": "case_24:C0013#0-271",
+          "score": 0.05660837143659592,
+          "text": "Welcome to Lloyd Kaufman's Birthday Celebration Page. Lloyd Kaufman got 117 balloons for his birthday! Gift him more message balloons! Balloons are draggable.Happy birthday to American film director, screenwriter, producer and actor Lloyd Kaufman, born December 30, 1945."
+        },
+        {
+          "canonical_id": "case_24:C0014#0-149",
+          "score": 0.03071110136806965,
+          "text": "Lloyd Kaufman - Astrology Natal Birth Chart, Birth Date Print chart.Lloyd Kaufman was born on December 30, 1945 in New York, New York, United States."
+        },
+        {
+          "canonical_id": "case_24:C0015#0-247",
+          "score": 0.02708692103624344,
+          "text": "Poster for Birthday video from Lloyd Kaufman.Lloyd Kaufman is an American film director, producer, and actor. He is the co-founder of Troma Entertainment, and the director of many of their films, such as Toxic Avenger and Tromeo & Juliet. Age: 80."
+        },
+        {
+          "canonical_id": "case_24:C0016#0-168",
+          "score": 0.0711311548948288,
+          "text": "Robert Bruce Sinclair was an American director who worked in film, theater and television.American film director. Robert B. Sinclair. from MGM Studio News (1938). Born."
+        },
+        {
+          "canonical_id": "case_24:C0017#0-269",
+          "score": 0.1381799727678299,
+          "text": "Born on Wednesday, May 24, 1905, birthday analysis reveals you are 120 years old. Your zodiac sign is Gemini and the Chinese zodiac sign is Snake (蛇). Life path number is 8. Discover your personality traits, horoscope details, yearly predictions and love compatibility."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 957,
+      "seconds": 0.194,
+      "target": "1945 > 1905, so Lloyd Kaufman was born later than Robert B. Sinclair.",
+      "target_tokens": 24,
+      "total_tokens": 981
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "case_24:C0012#0-60",
+          "score": 0.49211451411247253,
+          "text": "Lloyd Kaufman. Birth nameDate of birth: December 30th, 1945."
+        },
+        {
+          "canonical_id": "case_24:C0001#0-265",
+          "score": 0.10601048916578293,
+          "text": "POULTRYGEIST. Night of the Chicken Dead. Opens on Friday in Manhattan. Directed by Lloyd Kaufman; written by Gabriel Friedman, Dan Bova and Mr. Kaufman; director of photography, Brendan Flynt; edited by Mr. Friedman; music by Duggie Banas and Jason (Shack) Kozun..."
+        },
+        {
+          "canonical_id": "case_24:C0002#0-160",
+          "score": 0.011836116202175617,
+          "text": "This week we sat down with James Knight and Mike McCarty from the podcast \"The Head, The Tail, The Whole Damn Thing\" and we talked about \"Poultrygeist: Night..."
+        },
+        {
+          "canonical_id": "case_24:C0003#0-92",
+          "score": 0.030846616253256798,
+          "text": "Director: Lloyd Kaufman. Starring: Jason Yachanin, Kate Graham, Allyson Sereboff and others."
+        },
+        {
+          "canonical_id": "case_24:C0004#0-253",
+          "score": 0.049846794456243515,
+          "text": "Director: Lloyd Kaufman. Starring: Jason Yachanin, Kate Graham, Allyson Sereboff and others. Poultrygeist: Night of the Chicken Dead 2006. Watch Poultrygeist: Night of the Chicken Dead Online Free 123movies – When the American Chicken Bunker, a milit..."
+        },
+        {
+          "canonical_id": "case_24:C0005#0-264",
+          "score": 0.005433433223515749,
+          "text": "When the American Chicken Bunker, a military themed fast food restaurant, builds its latest chain restaurant on the site of an ancient Native American burial ground, the displaced spirits take revenge on unsuspecting diners and transform them into chicken zombies!"
+        },
+        {
+          "canonical_id": "case_24:C0006#0-179",
+          "score": 0.011225312948226929,
+          "text": "Dramatic School is a 1938 American romantic drama film directed by Robert B. Sinclair and starring Luise Rainer, Paulette Goddard, Alan Marshal, Lana Turner, and Gale Sondergaard."
+        },
+        {
+          "canonical_id": "case_24:C0007#0-288",
+          "score": 0.001671782461926341,
+          "text": "The film follows her journey in some detail. The dialogue is well written, Robert B. Sinclair’s direction is good, William Daniels‘ cinematography is premium, the sets are enormous and detailed and the supporting cast, especially the other young women at the school, are fun and engaging."
+        },
+        {
+          "canonical_id": "case_24:C0008#0-79",
+          "score": 0.003937697969377041,
+          "text": "Dramatic School (1938) View more photos.Director. Robert B. Sinclair. Producer."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 462,
+      "seconds": 0.115,
+      "target": "The earlier material states: Lloyd Kaufman. Birth nameDate of birth: December 30th, 1945.",
+      "target_tokens": 27,
+      "total_tokens": 489
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.12782801687717438,
+          "text": "The earlier material states: Lloyd Kaufman. Birth nameDate of birth: December 30th, 1945."
+        },
+        {
+          "canonical_id": "case_24:C0024#0-277",
+          "score": 0.19071631133556366,
+          "text": "Mr. Sinclair was born at Toledo, Ohio, on May 24, 1905, the son of an insurance agent.Mr. Sinclair directed eight films for Metro‐Goldwyn Mayer, starting with “Woman Against Woman” in 1938 and ending with “Down in San Diego” in 1941. He worked with other studios after the war."
+        },
+        {
+          "canonical_id": "case_24:C0009#0-253",
+          "score": 0.02379862405359745,
+          "text": "Drama., romance. Director: Robert B. Sinclair. Starring: Luise Rainer, Paulette Goddard, Alan Marshal and others. Aspiring actress Louise Muban attends the prestigious Paris School of Drama during the day and works at a dreary factory assembling gas ..."
+        },
+        {
+          "canonical_id": "case_24:C0010#0-98",
+          "score": 0.0026128110475838184,
+          "text": "DRAMATIC SCHOOL. Trailer. Directed by Robert B. Sinclair. United States, 1938. Drama, Romance. 80."
+        },
+        {
+          "canonical_id": "case_24:C0011#0-273",
+          "score": 0.02706538327038288,
+          "text": "See Lloyd Kaufman full list of movies and tv shows from their career.Birth Name:Stanley Lloyd Kaufman. Profession Actor, Producer, Writer, Director, Cinematographer, Soundtrack, Camera department, Production manager, Editor, Assistant director, Stunts, Location management."
+        },
+        {
+          "canonical_id": "case_24:C0013#0-271",
+          "score": 0.050954245030879974,
+          "text": "Welcome to Lloyd Kaufman's Birthday Celebration Page. Lloyd Kaufman got 117 balloons for his birthday! Gift him more message balloons! Balloons are draggable.Happy birthday to American film director, screenwriter, producer and actor Lloyd Kaufman, born December 30, 1945."
+        },
+        {
+          "canonical_id": "case_24:C0014#0-149",
+          "score": 0.026703065261244774,
+          "text": "Lloyd Kaufman - Astrology Natal Birth Chart, Birth Date Print chart.Lloyd Kaufman was born on December 30, 1945 in New York, New York, United States."
+        },
+        {
+          "canonical_id": "case_24:C0015#0-247",
+          "score": 0.03269621729850769,
+          "text": "Poster for Birthday video from Lloyd Kaufman.Lloyd Kaufman is an American film director, producer, and actor. He is the co-founder of Troma Entertainment, and the director of many of their films, such as Toxic Avenger and Tromeo & Juliet. Age: 80."
+        },
+        {
+          "canonical_id": "case_24:C0016#0-168",
+          "score": 0.04531598091125488,
+          "text": "Robert Bruce Sinclair was an American director who worked in film, theater and television.American film director. Robert B. Sinclair. from MGM Studio News (1938). Born."
+        },
+        {
+          "canonical_id": "case_24:C0017#0-269",
+          "score": 0.10448051244020462,
+          "text": "Born on Wednesday, May 24, 1905, birthday analysis reveals you are 120 years old. Your zodiac sign is Gemini and the Chinese zodiac sign is Snake (蛇). Life path number is 8. Discover your personality traits, horoscope details, yearly predictions and love compatibility."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 583,
+      "seconds": 0.13,
+      "target": "1945 > 1905, so Lloyd Kaufman was born later than Robert B. Sinclair.",
+      "target_tokens": 24,
+      "total_tokens": 607
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 17.4,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

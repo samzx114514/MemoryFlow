@@ -1,0 +1,930 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_21:T04",
+ "trajectory_id": "case_21",
+ "trajectory_case": "case_21",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "The first winner was Rajat Dholakia for the Hindi film \"Sunday\" (citation: \"For contributing significantly to the mood of fantasy which pervades the film through refreshing music, with innovative use of the human voice\"), with a cash prize of ₹10,000.",
+  "sha256": "82840188117660be2c4e8e00daf8ca20987b69734b06ccca778e84b968c4c982",
+  "origin": "recorded_target",
+  "artifact_id": "case_21:T04",
+  "start": 0,
+  "end": 251,
+  "original_target": {
+   "text": "The first winner was Rajat Dholakia for the Hindi film \"Sunday\" (citation: \"For contributing significantly to the mood of fantasy which pervades the film through refreshing music, with innovative use of the human voice\"), with a cash prize of ₹10,000.",
+   "artifact_id": "case_21:T04"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "national film award for best non feature film music direction",
+   "inputs": [
+    {
+     "unit_id": "case_21:C0011#0-240",
+     "artifact_id": "case_21:C0011",
+     "start": 0,
+     "end": 240,
+     "text": "National award for contributions to non-feature film.First winner. Rajat Dholakia. The National Film Award for Best Music Direction is one of the National Film Awards presented annually by the National Film Development Corporation of India.",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_21:C0012#0-249",
+     "artifact_id": "case_21:C0012",
+     "start": 0,
+     "end": 249,
+     "text": "Best Music Direction (National Film Award). 1967 (for films of 1967). Kandan Karunai (Tamil). KV Mahadevan. Revision Table: Key Facts about National Film Awards Music. Aspect. Details. Award Focus. Excellence in film music composition and direction.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_21:C0013#0-278",
+     "artifact_id": "case_21:C0013",
+     "start": 0,
+     "end": 278,
+     "text": "Rahman’s approach to music direction broke conventional boundaries from his very first film. The “Roja” soundtrack became an instant sensation, earning him the National Film Award for Best Music Direction at the 40th National Film Awards—a first for any debutant music director.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_21:C0014#0-218",
+     "artifact_id": "case_21:C0014",
+     "start": 0,
+     "end": 218,
+     "text": "Kadhal 2007 – Best Music Direction (Tamil) – Sivaji: The Boss. Music director A R Rahman gets the Best Music Director award for his music in Hindi film 'Taal' at Filmfare Awards function in Mumbai on February 13, 2000.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_21:C0015#0-166",
+     "artifact_id": "case_21:C0015",
+     "start": 0,
+     "end": 166,
+     "text": "[8] The film's recognition culminated in its entry for the 61st National Film Awards, where it secured the award for Best Music Direction in the non-feature category.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 10
+    },
+    {
+     "unit_id": "case_21:C0016#0-272",
+     "artifact_id": "case_21:C0016",
+     "start": 0,
+     "end": 272,
+     "text": "First winner. Rajat Dholakia. The National Film Award for Best Music Direction is one of the National Film Awards presented annually by the National Film Development Corporation of India.List of award recipients, showing the year (award ceremony), film(s) and language(s).",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 11
+    },
+    {
+     "unit_id": "case_21:C0017#0-191",
+     "artifact_id": "case_21:C0017",
+     "start": 0,
+     "end": 191,
+     "text": "72nd National Film Awards winners list is out. Explore the complete list of winners announced by CBFC, including Best Actor, Best Actress, Best Feature Film, and all regional category awards.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 11
+    },
+    {
+     "unit_id": "case_21:C0018#0-253",
+     "artifact_id": "case_21:C0018",
+     "start": 0,
+     "end": 253,
+     "text": "Best Non-Feature (Documentary) Film Winners National Film Awards 2026. Non-feature and documentary filmmaking also received strong recognition this year: Category. Winner(s). Film.Best Short Film. — Hamsafar. Best Direction (Non-Feature). Aanand L. Rai.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 11
+    },
+    {
+     "unit_id": "case_21:C0019#0-264",
+     "artifact_id": "case_21:C0019",
+     "start": 0,
+     "end": 264,
+     "text": "Best Music Direction (Non-feature film).Who were the notable winners in the 69th National Film Awards? Alia Bhatt and Kriti Sanon jointly won the Best Actress award, while Allu Arjun received the Best Actor award. The film \"RRR\" received multiple technical awards.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 11
+    }
+   ],
+   "output": {
+    "text": "The earlier material states: National award for contributions to non-feature film.First winner. Rajat Dholakia. The National Film Award for Best Music Direction is one of the National Film Awards presented annually by the National Film Development Corporation of India.",
+    "sha256": "c6ef954599275af4910b24f18e8a47f6488b1d47ffee7692ed472dfa0db3a21a",
+    "origin": "controlled"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "national film award for best non feature film music direction",
+   "inputs": [
+    {
+     "unit_id": "case_21:C0036#0-268",
+     "artifact_id": "case_21:C0036",
+     "start": 0,
+     "end": 268,
+     "text": "Best First Non-Feature Film. Bazar Sitaram. Hindi.Best Music Direction. Sunday. Hindi. Rajat Dholakia. ₹ 10,000/-. Citation: For contributing significantly to the mood of fantasy which pervades the film through refreshing music, with innovative use of the human voice.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 20
+    },
+    {
+     "unit_id": "case_21:C0036#0-268",
+     "artifact_id": "case_21:C0036",
+     "start": 0,
+     "end": 268,
+     "text": "Best First Non-Feature Film. Bazar Sitaram. Hindi.Best Music Direction. Sunday. Hindi. Rajat Dholakia. ₹ 10,000/-. Citation: For contributing significantly to the mood of fantasy which pervades the film through refreshing music, with innovative use of the human voice.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 20
+    },
+    {
+     "unit_id": "case_21:C0036#0-268",
+     "artifact_id": "case_21:C0036",
+     "start": 0,
+     "end": 268,
+     "text": "Best First Non-Feature Film. Bazar Sitaram. Hindi.Best Music Direction. Sunday. Hindi. Rajat Dholakia. ₹ 10,000/-. Citation: For contributing significantly to the mood of fantasy which pervades the film through refreshing music, with innovative use of the human voice.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 20
+    },
+    {
+     "unit_id": "case_21:C0036#0-268",
+     "artifact_id": "case_21:C0036",
+     "start": 0,
+     "end": 268,
+     "text": "Best First Non-Feature Film. Bazar Sitaram. Hindi.Best Music Direction. Sunday. Hindi. Rajat Dholakia. ₹ 10,000/-. Citation: For contributing significantly to the mood of fantasy which pervades the film through refreshing music, with innovative use of the human voice.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 20
+    },
+    {
+     "unit_id": "case_21:C0020#0-193",
+     "artifact_id": "case_21:C0020",
+     "start": 0,
+     "end": 193,
+     "text": "Non-Feature Film Awards. Best Voice-over/ Narration : Sir David Attenborough for Wild Karnataka (English). Best Music Direction : Bishakhjyoti for Kranti Darshi Guruji - Ahead of Times (Hindi).",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 11
+    },
+    {
+     "unit_id": "case_21:C0031#0-264",
+     "artifact_id": "case_21:C0031",
+     "start": 0,
+     "end": 264,
+     "text": "It is one of several awards presented for non-feature films and awarded with Rajat Kamal (Silver Lotus). The award was instituted in 1993, at 41st National Film Awards and awarded annually for films produced in the year across the country, in all Indian languages.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 17
+    },
+    {
+     "unit_id": "case_21:C0032#0-289",
+     "artifact_id": "case_21:C0032",
+     "start": 0,
+     "end": 289,
+     "text": "The National Film Award for Best Music Direction (the Silver Lotus Award) is an honour presented annually at the National Film Awards by the National Film Development Corporation of India to a musician who has composed the best score for films produced within the Indian film industry. [1]",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 17
+    },
+    {
+     "unit_id": "case_21:C0033#0-258",
+     "artifact_id": "case_21:C0033",
+     "start": 0,
+     "end": 258,
+     "text": "It is one of several awards presented for short films and awarded with Rajat Kamal (Silver Lotus). The award was instituted in 1993, at 41st National Film Awards and awarded annually for films produced in the year across the country, in all Indian languages.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 17
+    },
+    {
+     "unit_id": "case_21:C0034#0-293",
+     "artifact_id": "case_21:C0034",
+     "start": 0,
+     "end": 293,
+     "text": "Winners received a cash prize along with a Silver Lotus (Rajat Kamal), with the amount later increased to ₹50,000 by 2000 and ₹2,00,000 as of 2023. The National Film Award for Best Music Direction in non-feature films has adapted to emerging formats and regional diversity since its inception.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 17
+    }
+   ],
+   "output": {
+    "text": "The first winner was Rajat Dholakia for the Hindi film \"Sunday\" (citation: \"For contributing significantly to the mood of fantasy which pervades the film through refreshing music, with innovative use of the human voice\"), with a cash prize of ₹10,000.",
+    "sha256": "82840188117660be2c4e8e00daf8ca20987b69734b06ccca778e84b968c4c982",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "The earlier material states: National award for contributions to non-feature film.First winner. Rajat Dholakia. The National Film Award for Best Music Direction is one of the National Film Awards presented annually by the National Film Development Corporation of India.",
+     "sha256": "c6ef954599275af4910b24f18e8a47f6488b1d47ffee7692ed472dfa0db3a21a",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_21:C0011#0-240",
+   "artifact_id": "case_21:C0011",
+   "start": 0,
+   "end": 240,
+   "text": "National award for contributions to non-feature film.First winner. Rajat Dholakia. The National Film Award for Best Music Direction is one of the National Film Awards presented annually by the National Film Development Corporation of India.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_21:C0011#0-240",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_21:C0012#0-249",
+   "artifact_id": "case_21:C0012",
+   "start": 0,
+   "end": 249,
+   "text": "Best Music Direction (National Film Award). 1967 (for films of 1967). Kandan Karunai (Tamil). KV Mahadevan. Revision Table: Key Facts about National Film Awards Music. Aspect. Details. Award Focus. Excellence in film music composition and direction.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_21:C0012#0-249",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_21:C0013#0-278",
+   "artifact_id": "case_21:C0013",
+   "start": 0,
+   "end": 278,
+   "text": "Rahman’s approach to music direction broke conventional boundaries from his very first film. The “Roja” soundtrack became an instant sensation, earning him the National Film Award for Best Music Direction at the 40th National Film Awards—a first for any debutant music director.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_21:C0013#0-278",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_21:C0014#0-218",
+   "artifact_id": "case_21:C0014",
+   "start": 0,
+   "end": 218,
+   "text": "Kadhal 2007 – Best Music Direction (Tamil) – Sivaji: The Boss. Music director A R Rahman gets the Best Music Director award for his music in Hindi film 'Taal' at Filmfare Awards function in Mumbai on February 13, 2000.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_21:C0014#0-218",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_21:C0015#0-166",
+   "artifact_id": "case_21:C0015",
+   "start": 0,
+   "end": 166,
+   "text": "[8] The film's recognition culminated in its entry for the 61st National Film Awards, where it secured the award for Best Music Direction in the non-feature category.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_21:C0015#0-166",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_21:C0016#0-272",
+   "artifact_id": "case_21:C0016",
+   "start": 0,
+   "end": 272,
+   "text": "First winner. Rajat Dholakia. The National Film Award for Best Music Direction is one of the National Film Awards presented annually by the National Film Development Corporation of India.List of award recipients, showing the year (award ceremony), film(s) and language(s).",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_21:C0016#0-272",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_21:C0017#0-191",
+   "artifact_id": "case_21:C0017",
+   "start": 0,
+   "end": 191,
+   "text": "72nd National Film Awards winners list is out. Explore the complete list of winners announced by CBFC, including Best Actor, Best Actress, Best Feature Film, and all regional category awards.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_21:C0017#0-191",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_21:C0018#0-253",
+   "artifact_id": "case_21:C0018",
+   "start": 0,
+   "end": 253,
+   "text": "Best Non-Feature (Documentary) Film Winners National Film Awards 2026. Non-feature and documentary filmmaking also received strong recognition this year: Category. Winner(s). Film.Best Short Film. — Hamsafar. Best Direction (Non-Feature). Aanand L. Rai.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_21:C0018#0-253",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_21:C0019#0-264",
+   "artifact_id": "case_21:C0019",
+   "start": 0,
+   "end": 264,
+   "text": "Best Music Direction (Non-feature film).Who were the notable winners in the 69th National Film Awards? Alia Bhatt and Kriti Sanon jointly won the Best Actress award, while Allu Arjun received the Best Actor award. The film \"RRR\" received multiple technical awards.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_21:C0019#0-264",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_21:C0020#0-193",
+   "artifact_id": "case_21:C0020",
+   "start": 0,
+   "end": 193,
+   "text": "Non-Feature Film Awards. Best Voice-over/ Narration : Sir David Attenborough for Wild Karnataka (English). Best Music Direction : Bishakhjyoti for Kranti Darshi Guruji - Ahead of Times (Hindi).",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_21:C0020#0-193",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_21:C0031#0-264",
+   "artifact_id": "case_21:C0031",
+   "start": 0,
+   "end": 264,
+   "text": "It is one of several awards presented for non-feature films and awarded with Rajat Kamal (Silver Lotus). The award was instituted in 1993, at 41st National Film Awards and awarded annually for films produced in the year across the country, in all Indian languages.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_21:C0031#0-264",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_21:C0032#0-289",
+   "artifact_id": "case_21:C0032",
+   "start": 0,
+   "end": 289,
+   "text": "The National Film Award for Best Music Direction (the Silver Lotus Award) is an honour presented annually at the National Film Awards by the National Film Development Corporation of India to a musician who has composed the best score for films produced within the Indian film industry. [1]",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_21:C0032#0-289",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_21:C0033#0-258",
+   "artifact_id": "case_21:C0033",
+   "start": 0,
+   "end": 258,
+   "text": "It is one of several awards presented for short films and awarded with Rajat Kamal (Silver Lotus). The award was instituted in 1993, at 41st National Film Awards and awarded annually for films produced in the year across the country, in all Indian languages.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_21:C0033#0-258",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_21:C0034#0-293",
+   "artifact_id": "case_21:C0034",
+   "start": 0,
+   "end": 293,
+   "text": "Winners received a cash prize along with a Silver Lotus (Rajat Kamal), with the amount later increased to ₹50,000 by 2000 and ₹2,00,000 as of 2023. The National Film Award for Best Music Direction in non-feature films has adapted to emerging formats and regional diversity since its inception.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_21:C0034#0-293",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_21:C0035#0-399",
+   "artifact_id": "case_21:C0035",
+   "start": 0,
+   "end": 399,
+   "text": "The National Film Awards cover three main sections including Feature Films, Non-Feature Films, and Writing on Cinema. The National Film Development Corporation (NFDC) under the Ministry of Information and Broadcasting administers the categories. The jury divides the awards between the Swarna Kamal (Golden Lotus) and Rajat Kamal (Silver Lotus) trophies. This complete reference guide covers all ...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_21:C0036#0-268",
+   "artifact_id": "case_21:C0036",
+   "start": 0,
+   "end": 268,
+   "text": "Best First Non-Feature Film. Bazar Sitaram. Hindi.Best Music Direction. Sunday. Hindi. Rajat Dholakia. ₹ 10,000/-. Citation: For contributing significantly to the mood of fantasy which pervades the film through refreshing music, with innovative use of the human voice.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_21:C0036#0-268",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_21:C0036#0-268",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_21:C0036#0-268",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_21:C0036#0-268",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_21:C0037#0-214",
+   "artifact_id": "case_21:C0037",
+   "start": 0,
+   "end": 214,
+   "text": "Best Music Direction. The prominent National Film Awards were incepted in the year 1954. The ceremonies are administrated by the Directorate of Film Festivals since 1973.Tamil. 1992. Rajat Dholakia. Dharavi. Hindi.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_21:C0038#0-265",
+   "artifact_id": "case_21:C0038",
+   "start": 0,
+   "end": 265,
+   "text": "Name. Rajat Dholakia.Then learned arranging film musical score for Songs and Background Music from the great film Arranger Shayamrao Kamble. He started his career with producing music in Gujarati and Hindi Theatricals. He has given music in around 300 plays so far.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_21:C0039#0-160",
+   "artifact_id": "case_21:C0039",
+   "start": 0,
+   "end": 160,
+   "text": "Desi Oon – Where Wool Speaks, and We Must ListenIn this heartfelt six-minute film, wool itself becomes the storyteller, voicing the neglect it has suffered f...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_21:C0040#0-270",
+   "artifact_id": "case_21:C0040",
+   "start": 0,
+   "end": 270,
+   "text": "Rajat Dholakia, also known as Juku, is a multi-faceted musician and sound designer. He is the son of Dilip Dholakia, a Hindi film music director and singer who was active in the 1950s and 1960s.1991 - National Film Awards - Best Music Direction - Dharavi. Buy BollySwar.",
+   "occurrences": [],
+   "pool_only": true
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_21:T04:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_21:C0011",
+      "start": 0,
+      "end": 240,
+      "text": "National award for contributions to non-feature film.First winner. Rajat Dholakia. The National Film Award for Best Music Direction is one of the National Film Awards presented annually by the National Film Development Corporation of India."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_21:C0011",
+       "start": 0,
+       "end": 240,
+       "text": "National award for contributions to non-feature film.First winner. Rajat Dholakia. The National Film Award for Best Music Direction is one of the National Film Awards presented annually by the National Film Development Corporation of India."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_21:C0036",
+      "start": 0,
+      "end": 268,
+      "text": "Best First Non-Feature Film. Bazar Sitaram. Hindi.Best Music Direction. Sunday. Hindi. Rajat Dholakia. ₹ 10,000/-. Citation: For contributing significantly to the mood of fantasy which pervades the film through refreshing music, with innovative use of the human voice."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_21:C0036",
+       "start": 0,
+       "end": 268,
+       "text": "Best First Non-Feature Film. Bazar Sitaram. Hindi.Best Music Direction. Sunday. Hindi. Rajat Dholakia. ₹ 10,000/-. Citation: For contributing significantly to the mood of fantasy which pervades the film through refreshing music, with innovative use of the human voice."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_21:C0036",
+      "start": 0,
+      "end": 268,
+      "text": "Best First Non-Feature Film. Bazar Sitaram. Hindi.Best Music Direction. Sunday. Hindi. Rajat Dholakia. ₹ 10,000/-. Citation: For contributing significantly to the mood of fantasy which pervades the film through refreshing music, with innovative use of the human voice."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_21:C0036",
+       "start": 0,
+       "end": 268,
+       "text": "Best First Non-Feature Film. Bazar Sitaram. Hindi.Best Music Direction. Sunday. Hindi. Rajat Dholakia. ₹ 10,000/-. Citation: For contributing significantly to the mood of fantasy which pervades the film through refreshing music, with innovative use of the human voice."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_21:C0036",
+      "start": 0,
+      "end": 268,
+      "text": "Best First Non-Feature Film. Bazar Sitaram. Hindi.Best Music Direction. Sunday. Hindi. Rajat Dholakia. ₹ 10,000/-. Citation: For contributing significantly to the mood of fantasy which pervades the film through refreshing music, with innovative use of the human voice."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_21:C0036",
+       "start": 0,
+       "end": 268,
+       "text": "Best First Non-Feature Film. Bazar Sitaram. Hindi.Best Music Direction. Sunday. Hindi. Rajat Dholakia. ₹ 10,000/-. Citation: For contributing significantly to the mood of fantasy which pervades the film through refreshing music, with innovative use of the human voice."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_21:C0036",
+      "start": 0,
+      "end": 268,
+      "text": "Best First Non-Feature Film. Bazar Sitaram. Hindi.Best Music Direction. Sunday. Hindi. Rajat Dholakia. ₹ 10,000/-. Citation: For contributing significantly to the mood of fantasy which pervades the film through refreshing music, with innovative use of the human voice."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_21:C0036",
+       "start": 0,
+       "end": 268,
+       "text": "Best First Non-Feature Film. Bazar Sitaram. Hindi.Best Music Direction. Sunday. Hindi. Rajat Dholakia. ₹ 10,000/-. Citation: For contributing significantly to the mood of fantasy which pervades the film through refreshing music, with innovative use of the human voice."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_21:C0011#0-240"
+  ],
+  "B": [
+   "case_21:C0036#0-268"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T04",
+   "case": "case_21",
+   "question": "national film award for best non feature film music direction",
+   "target_event": 21,
+   "target_start": 628,
+   "target_end": 879,
+   "target": "The first winner was Rajat Dholakia for the Hindi film \"Sunday\" (citation: \"For contributing significantly to the mood of fantasy which pervades the film through refreshing music, with innovative use of the human voice\"), with a cash prize of ₹10,000.",
+   "candidate_ids": [
+    "C0011",
+    "C0012",
+    "C0013",
+    "C0014",
+    "C0015",
+    "C0016",
+    "C0017",
+    "C0018",
+    "C0019",
+    "C0020",
+    "C0031",
+    "C0032",
+    "C0033",
+    "C0034",
+    "C0035",
+    "C0036",
+    "C0037",
+    "C0038",
+    "C0039",
+    "C0040"
+   ],
+   "annotation_status": "model_annotated_pending_human_review"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0011",
+     "start": 67,
+     "end": 83,
+     "text": "Rajat Dholakia. "
+    },
+    {
+     "candidate_id": "C0036",
+     "start": 72,
+     "end": 80,
+     "text": "Sunday. "
+    },
+    {
+     "candidate_id": "C0036",
+     "start": 80,
+     "end": 87,
+     "text": "Hindi. "
+    },
+    {
+     "candidate_id": "C0036",
+     "start": 87,
+     "end": 115,
+     "text": "Rajat Dholakia. ₹ 10,000/-. "
+    },
+    {
+     "candidate_id": "C0036",
+     "start": 115,
+     "end": 268,
+     "text": "Citation: For contributing significantly to the mood of fantasy which pervades the film through refreshing music, with innovative use of the human voice."
+    }
+   ]
+  },
+  "intermediate_origin": "controlled",
+  "intermediate_event": null,
+  "time_order_audit": [
+   {
+    "round": 1,
+    "event": 10,
+    "cut": 21,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 10,
+    "cut": 21,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 10,
+    "cut": 21,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 10,
+    "cut": 21,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 10,
+    "cut": 21,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 11,
+    "cut": 21,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 11,
+    "cut": 21,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 11,
+    "cut": 21,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 11,
+    "cut": 21,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 20,
+    "cut": 21,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 20,
+    "cut": 21,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 20,
+    "cut": 21,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 20,
+    "cut": 21,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 11,
+    "cut": 21,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 17,
+    "cut": 21,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 17,
+    "cut": 21,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 17,
+    "cut": 21,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 17,
+    "cut": 21,
+    "ok": true
+   }
+  ],
+  "note": "time-order checked for evidence and distractors"
+ }
+}

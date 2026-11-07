@@ -1,0 +1,730 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_25:T05",
+ "trajectory_id": "case_25",
+ "trajectory_case": "case_25",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "Date check: 1923 < 1946, so Mrinal Sen was born 23 years before Martha Coolidge.",
+  "sha256": "e2f73c46f1425774df44e3693c377b3d5b58a0bba7c68a866b34955bf7d9a4aa",
+  "origin": "recorded_target",
+  "artifact_id": "case_25:T05",
+  "start": 0,
+  "end": 80,
+  "original_target": {
+   "text": "Date check: 1923 < 1946, so Mrinal Sen was born 23 years before Martha Coolidge.",
+   "artifact_id": "case_25:T05"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "Which film has the director born first, Kharij or Real Genius?",
+   "inputs": [
+    {
+     "unit_id": "case_25:C0011#0-229",
+     "artifact_id": "case_25:C0011",
+     "start": 0,
+     "end": 229,
+     "text": "Mrinal Sen (born May 14, 1923, Faridpur, East Bengal [now in Bangladesh]—died December 30, 2018, Kolkata) was an Indian filmmaker who used a range of aesthetic styles to explore the social and political realities of his homeland.",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_25:C0001#0-180",
+     "artifact_id": "case_25:C0001",
+     "start": 0,
+     "end": 180,
+     "text": "The Sahitya Akademi, in its series of films on eminent Indian writers, has produced a film on Ramapada Chowdhury, directed by Raja Mitra.[15].Kharij (1982), directed by Mrinal Sen.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_25:C0002#0-176",
+     "artifact_id": "case_25:C0002",
+     "start": 0,
+     "end": 176,
+     "text": "Film flashback: In Mrinal Sen’s ‘Kharij’, a young boy dies and nobody cares (except the director). The 1982 production marked a shift in the prolific Bengali director’s career.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_25:C0003#0-43",
+     "artifact_id": "case_25:C0003",
+     "start": 0,
+     "end": 43,
+     "text": "Видео. Kharij (1982) -** 1080p **- Bengali.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_25:C0004#0-257",
+     "artifact_id": "case_25:C0004",
+     "start": 0,
+     "end": 257,
+     "text": "Directed by: Mrinal Sen. Stars: Anjan Dutt, Mamata Shankar and Sreela Majumdar. IMDb score: IMDb 7,5 (268). Releasedate: 31 December 1982.Kharij plot. A middle-class family moves into a neat but small apartment. They recruit a ten-year-old boy for odd jobs.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_25:C0005#0-228",
+     "artifact_id": "case_25:C0005",
+     "start": 0,
+     "end": 228,
+     "text": "Indian films might not have made it big at Oscars till now but they have for sure created an impact at Cannes Film Festival over the years.Kharij (1982) Based on the novel by Ramapada Chowdhury, Kharij is directed by Mrinal Sen.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_25:C0012#0-155",
+     "artifact_id": "case_25:C0012",
+     "start": 0,
+     "end": 155,
+     "text": "Born on May 14, 1923 in Faridpur, Mrinal Sen moved to Kolkata to study and became involved in left-wing politics, cultural activities, and film production.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_25:C0013#0-190",
+     "artifact_id": "case_25:C0013",
+     "start": 0,
+     "end": 190,
+     "text": "Mrinal Sen : Born May 14, 1923. datesandtimes.org. Mrinal Sen was an Indian film director and screenwriter known for his work primarily in Bengali, and a few Hindi and Telugu language films.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_25:C0014#0-193",
+     "artifact_id": "case_25:C0014",
+     "start": 0,
+     "end": 193,
+     "text": "Mrinal Sen (also spelled Mrinal Shen; 14 May 1923 – 30 December 2018) was an Indian filmmaker and a nominated Member of the Indian parliament. Sen directed films primarily in Bengali and Hindi.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 6
+    }
+   ],
+   "output": {
+    "text": "The earlier material states: Mrinal Sen (born May 14, 1923, Faridpur, East Bengal [now in Bangladesh]—died December 30, 2018, Kolkata) was an Indian filmmaker who used a range of aesthetic styles to explore the social and political realities of his homeland.",
+    "sha256": "79b56ab9846b1a30e6828aac1adc0b716b1ba5b74fbdfb6b4bf8240b0f3bddfa",
+    "origin": "controlled"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "Which film has the director born first, Kharij or Real Genius?",
+   "inputs": [
+    {
+     "unit_id": "case_25:C0019#0-186",
+     "artifact_id": "case_25:C0019",
+     "start": 0,
+     "end": 186,
+     "text": "Martha Coolidge (born August 17, 1946, New Haven , Connecticut , U.S.) is an American filmmaker who achieved commercial success directing films often underlain by a feminist perspective.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_25:C0015#0-208",
+     "artifact_id": "case_25:C0015",
+     "start": 0,
+     "end": 208,
+     "text": "Mrinal Sen. Numerolog Made Simple: We decode date of birth and name to reveal guidance, clarity, and self-awareness. Mrinal Sen, born on 14-05-1923. The Basic Number is 5, which reflects the core personality.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_25:C0016#0-117",
+     "artifact_id": "case_25:C0016",
+     "start": 0,
+     "end": 117,
+     "text": "Martha Coolidge (Director) - Movie Box Office Performance Summary and Breakdown.Born: August 17, 1946 (79 years old).",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_25:C0017#0-233",
+     "artifact_id": "case_25:C0017",
+     "start": 0,
+     "end": 233,
+     "text": "Martha Coolidge (born August 17, 1946) is an American film director and former President of the Directors Guild of America.[1] She has directed such films as Real Genius and Rambling Rose. Coolidge was born in New Haven, Connecticut.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_25:C0018#0-123",
+     "artifact_id": "case_25:C0018",
+     "start": 0,
+     "end": 123,
+     "text": "Martha Coolidge (born August 17, 1946) is an American film director and former President of the Directors Guild of America.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_25:C0020#0-184",
+     "artifact_id": "case_25:C0020",
+     "start": 0,
+     "end": 184,
+     "text": "Martha Coolidge was born in the Zodiac sign Leo (The Lion), and 1946 is the year of the Chinese Zodiac Dog. Martha Coolidge Birthday, Age & Zodiac Sign? Date of Birth. August 17, 1946.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 7
+    }
+   ],
+   "output": {
+    "text": "Date check: 1923 < 1946, so Mrinal Sen was born 23 years before Martha Coolidge.",
+    "sha256": "e2f73c46f1425774df44e3693c377b3d5b58a0bba7c68a866b34955bf7d9a4aa",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "The earlier material states: Mrinal Sen (born May 14, 1923, Faridpur, East Bengal [now in Bangladesh]—died December 30, 2018, Kolkata) was an Indian filmmaker who used a range of aesthetic styles to explore the social and political realities of his homeland.",
+     "sha256": "79b56ab9846b1a30e6828aac1adc0b716b1ba5b74fbdfb6b4bf8240b0f3bddfa",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_25:C0001#0-180",
+   "artifact_id": "case_25:C0001",
+   "start": 0,
+   "end": 180,
+   "text": "The Sahitya Akademi, in its series of films on eminent Indian writers, has produced a film on Ramapada Chowdhury, directed by Raja Mitra.[15].Kharij (1982), directed by Mrinal Sen.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_25:C0001#0-180",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_25:C0002#0-176",
+   "artifact_id": "case_25:C0002",
+   "start": 0,
+   "end": 176,
+   "text": "Film flashback: In Mrinal Sen’s ‘Kharij’, a young boy dies and nobody cares (except the director). The 1982 production marked a shift in the prolific Bengali director’s career.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_25:C0002#0-176",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_25:C0003#0-43",
+   "artifact_id": "case_25:C0003",
+   "start": 0,
+   "end": 43,
+   "text": "Видео. Kharij (1982) -** 1080p **- Bengali.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_25:C0003#0-43",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_25:C0004#0-257",
+   "artifact_id": "case_25:C0004",
+   "start": 0,
+   "end": 257,
+   "text": "Directed by: Mrinal Sen. Stars: Anjan Dutt, Mamata Shankar and Sreela Majumdar. IMDb score: IMDb 7,5 (268). Releasedate: 31 December 1982.Kharij plot. A middle-class family moves into a neat but small apartment. They recruit a ten-year-old boy for odd jobs.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_25:C0004#0-257",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_25:C0005#0-228",
+   "artifact_id": "case_25:C0005",
+   "start": 0,
+   "end": 228,
+   "text": "Indian films might not have made it big at Oscars till now but they have for sure created an impact at Cannes Film Festival over the years.Kharij (1982) Based on the novel by Ramapada Chowdhury, Kharij is directed by Mrinal Sen.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_25:C0005#0-228",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_25:C0011#0-229",
+   "artifact_id": "case_25:C0011",
+   "start": 0,
+   "end": 229,
+   "text": "Mrinal Sen (born May 14, 1923, Faridpur, East Bengal [now in Bangladesh]—died December 30, 2018, Kolkata) was an Indian filmmaker who used a range of aesthetic styles to explore the social and political realities of his homeland.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_25:C0011#0-229",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_25:C0012#0-155",
+   "artifact_id": "case_25:C0012",
+   "start": 0,
+   "end": 155,
+   "text": "Born on May 14, 1923 in Faridpur, Mrinal Sen moved to Kolkata to study and became involved in left-wing politics, cultural activities, and film production.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_25:C0012#0-155",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_25:C0013#0-190",
+   "artifact_id": "case_25:C0013",
+   "start": 0,
+   "end": 190,
+   "text": "Mrinal Sen : Born May 14, 1923. datesandtimes.org. Mrinal Sen was an Indian film director and screenwriter known for his work primarily in Bengali, and a few Hindi and Telugu language films.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_25:C0013#0-190",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_25:C0014#0-193",
+   "artifact_id": "case_25:C0014",
+   "start": 0,
+   "end": 193,
+   "text": "Mrinal Sen (also spelled Mrinal Shen; 14 May 1923 – 30 December 2018) was an Indian filmmaker and a nominated Member of the Indian parliament. Sen directed films primarily in Bengali and Hindi.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_25:C0014#0-193",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_25:C0015#0-208",
+   "artifact_id": "case_25:C0015",
+   "start": 0,
+   "end": 208,
+   "text": "Mrinal Sen. Numerolog Made Simple: We decode date of birth and name to reveal guidance, clarity, and self-awareness. Mrinal Sen, born on 14-05-1923. The Basic Number is 5, which reflects the core personality.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_25:C0015#0-208",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_25:C0016#0-117",
+   "artifact_id": "case_25:C0016",
+   "start": 0,
+   "end": 117,
+   "text": "Martha Coolidge (Director) - Movie Box Office Performance Summary and Breakdown.Born: August 17, 1946 (79 years old).",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_25:C0016#0-117",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_25:C0017#0-233",
+   "artifact_id": "case_25:C0017",
+   "start": 0,
+   "end": 233,
+   "text": "Martha Coolidge (born August 17, 1946) is an American film director and former President of the Directors Guild of America.[1] She has directed such films as Real Genius and Rambling Rose. Coolidge was born in New Haven, Connecticut.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_25:C0017#0-233",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_25:C0018#0-123",
+   "artifact_id": "case_25:C0018",
+   "start": 0,
+   "end": 123,
+   "text": "Martha Coolidge (born August 17, 1946) is an American film director and former President of the Directors Guild of America.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_25:C0018#0-123",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_25:C0019#0-186",
+   "artifact_id": "case_25:C0019",
+   "start": 0,
+   "end": 186,
+   "text": "Martha Coolidge (born August 17, 1946, New Haven , Connecticut , U.S.) is an American filmmaker who achieved commercial success directing films often underlain by a feminist perspective.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_25:C0019#0-186",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_25:C0020#0-184",
+   "artifact_id": "case_25:C0020",
+   "start": 0,
+   "end": 184,
+   "text": "Martha Coolidge was born in the Zodiac sign Leo (The Lion), and 1946 is the year of the Chinese Zodiac Dog. Martha Coolidge Birthday, Age & Zodiac Sign? Date of Birth. August 17, 1946.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_25:C0020#0-184",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_25:T05:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_25:C0011",
+      "start": 0,
+      "end": 229,
+      "text": "Mrinal Sen (born May 14, 1923, Faridpur, East Bengal [now in Bangladesh]—died December 30, 2018, Kolkata) was an Indian filmmaker who used a range of aesthetic styles to explore the social and political realities of his homeland."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_25:C0011",
+       "start": 0,
+       "end": 229,
+       "text": "Mrinal Sen (born May 14, 1923, Faridpur, East Bengal [now in Bangladesh]—died December 30, 2018, Kolkata) was an Indian filmmaker who used a range of aesthetic styles to explore the social and political realities of his homeland."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_25:C0019",
+      "start": 0,
+      "end": 186,
+      "text": "Martha Coolidge (born August 17, 1946, New Haven , Connecticut , U.S.) is an American filmmaker who achieved commercial success directing films often underlain by a feminist perspective."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_25:C0019",
+       "start": 0,
+       "end": 186,
+       "text": "Martha Coolidge (born August 17, 1946, New Haven , Connecticut , U.S.) is an American filmmaker who achieved commercial success directing films often underlain by a feminist perspective."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_25:C0011#0-229"
+  ],
+  "B": [
+   "case_25:C0019#0-186"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T05",
+   "case": "case_25",
+   "question": "Which film has the director born first, Kharij or Real Genius?",
+   "target_event": 11,
+   "target_start": 760,
+   "target_end": 840,
+   "target": "Date check: 1923 < 1946, so Mrinal Sen was born 23 years before Martha Coolidge.",
+   "candidate_ids": [
+    "C0001",
+    "C0002",
+    "C0003",
+    "C0004",
+    "C0005",
+    "C0011",
+    "C0012",
+    "C0013",
+    "C0014",
+    "C0015",
+    "C0016",
+    "C0017",
+    "C0018",
+    "C0019",
+    "C0020"
+   ],
+   "annotation_status": "model_annotated_pending_human_review"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0011",
+     "start": 0,
+     "end": 229,
+     "text": "Mrinal Sen (born May 14, 1923, Faridpur, East Bengal [now in Bangladesh]—died December 30, 2018, Kolkata) was an Indian filmmaker who used a range of aesthetic styles to explore the social and political realities of his homeland."
+    },
+    {
+     "candidate_id": "C0019",
+     "start": 0,
+     "end": 186,
+     "text": "Martha Coolidge (born August 17, 1946, New Haven , Connecticut , U.S.) is an American filmmaker who achieved commercial success directing films often underlain by a feminist perspective."
+    }
+   ]
+  },
+  "intermediate_origin": "controlled",
+  "intermediate_event": null,
+  "time_order_audit": [
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 6,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 11,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 11,
+    "ok": true
+   }
+  ],
+  "note": "time-order checked for evidence and distractors"
+ }
+}

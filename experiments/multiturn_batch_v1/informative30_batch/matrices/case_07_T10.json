@@ -1,0 +1,161 @@
+{
+  "case_id": "case_07:T10",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "case_07:C0004#0-213",
+          "score": 0.15263985097408295,
+          "text": "Wheat cultivation in India is mainly dependent on irrigation.What are the geographical conditions suitable for wheat cultivation? asked Sep 14, 2021 in Resource Wealth of India by manik01 (35.9k points). class-10."
+        },
+        {
+          "canonical_id": "case_07:C0001#0-188",
+          "score": 0.013508579693734646,
+          "text": "The major wheat-producing states in India are Punjab, Haryana, Uttar Pradesh, Madhya Pradesh, and Rajasthan. These states contribute significantly to the nation's overall wheat production."
+        },
+        {
+          "canonical_id": "case_07:C0002#0-187",
+          "score": 0.004779491573572159,
+          "text": "India’s wheat-growing states: Impacts and concerns related to recent weather events in Uttar Pradesh, Punjab, Haryana, Madhya Pradesh, Rajasthan, Bihar, and Gujarat, according to the IMD."
+        },
+        {
+          "canonical_id": "case_07:C0003#0-210",
+          "score": 0.005587238818407059,
+          "text": "Wheat Cultivation in India: Conditions, and Distribution.Production: Wheat is grown on 13 per cent of the cropped area of India. Uttar Pradesh, Punjab and Haryana are the three prominent wheat producing states."
+        },
+        {
+          "canonical_id": "case_07:C0005#0-238",
+          "score": 0.007897978648543358,
+          "text": "Trends in wheat cultivation. (ETV Bharat Graphics). The findings come just days after the India Meteorological Department (IMD) revised the 2026 monsoon forecast down to 90 per cent from the earlier 92 per cent of the long-period average."
+        },
+        {
+          "canonical_id": "case_07:C0017#0-152",
+          "score": 0.017346572130918503,
+          "text": "Kharif and Rabi are India's two principal cropping seasons, defined respectively by monsoon-sown summer crops and winter-sown crops harvested in spring."
+        },
+        {
+          "canonical_id": "case_07:C0018#0-262",
+          "score": 0.02159954607486725,
+          "text": "Excess rain can damage Rabi crops during harvest. Rabi crops usually grow with stored soil moisture or irrigation. Thus, rainfall pattern is a key factor in determining crop type and yield. 7. How do temperature requirements differ between Rabi and Kharif crops?"
+        },
+        {
+          "canonical_id": "case_07:C0019#0-217",
+          "score": 0.00791858322918415,
+          "text": "Unseasonal Rainfall and Hailstorms: Rabi crops like wheat and mustard are usually harvested in March and April. Sudden rainfall or hailstorms during this period can flatten standing crops and reduce yield drastically."
+        },
+        {
+          "canonical_id": "case_07:C0020#0-239",
+          "score": 0.05349607393145561,
+          "text": "Rabi Season (Winter Crop): Wheat is traditionally a rabi crop in many regions, especially in places like India. Rabi crops are typically sown in autumn or early winter (around October–November) and harvested in spring (around March–April)."
+        },
+        {
+          "canonical_id": "case_07:C0016#0-189",
+          "score": 0.5942210555076599,
+          "text": "In northern and north-western India, wheat is a Rabi crop and a staple food. Needs dry and cool climate, moderate rainfall (50-75 cm) and loamy soil of moderate fertility and good drainage."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 523,
+      "seconds": 0.117,
+      "target": "The crop requires a **cool, dry climate, moderate rainfall (50–75 cm), and well-drained loamy soil**, and is **mainly irrigated**.",
+      "target_tokens": 37,
+      "total_tokens": 560
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "case_07:C0004#0-213",
+          "score": 0.7467500567436218,
+          "text": "Wheat cultivation in India is mainly dependent on irrigation.What are the geographical conditions suitable for wheat cultivation? asked Sep 14, 2021 in Resource Wealth of India by manik01 (35.9k points). class-10."
+        },
+        {
+          "canonical_id": "case_07:C0001#0-188",
+          "score": 0.03564015403389931,
+          "text": "The major wheat-producing states in India are Punjab, Haryana, Uttar Pradesh, Madhya Pradesh, and Rajasthan. These states contribute significantly to the nation's overall wheat production."
+        },
+        {
+          "canonical_id": "case_07:C0002#0-187",
+          "score": 0.00746130058541894,
+          "text": "India’s wheat-growing states: Impacts and concerns related to recent weather events in Uttar Pradesh, Punjab, Haryana, Madhya Pradesh, Rajasthan, Bihar, and Gujarat, according to the IMD."
+        },
+        {
+          "canonical_id": "case_07:C0003#0-210",
+          "score": 0.02089620567858219,
+          "text": "Wheat Cultivation in India: Conditions, and Distribution.Production: Wheat is grown on 13 per cent of the cropped area of India. Uttar Pradesh, Punjab and Haryana are the three prominent wheat producing states."
+        },
+        {
+          "canonical_id": "case_07:C0005#0-238",
+          "score": 0.00957762822508812,
+          "text": "Trends in wheat cultivation. (ETV Bharat Graphics). The findings come just days after the India Meteorological Department (IMD) revised the 2026 monsoon forecast down to 90 per cent from the earlier 92 per cent of the long-period average."
+        },
+        {
+          "canonical_id": "case_07:C0017#0-152",
+          "score": 0.005197328515350819,
+          "text": "Kharif and Rabi are India's two principal cropping seasons, defined respectively by monsoon-sown summer crops and winter-sown crops harvested in spring."
+        },
+        {
+          "canonical_id": "case_07:C0018#0-262",
+          "score": 0.012190671637654305,
+          "text": "Excess rain can damage Rabi crops during harvest. Rabi crops usually grow with stored soil moisture or irrigation. Thus, rainfall pattern is a key factor in determining crop type and yield. 7. How do temperature requirements differ between Rabi and Kharif crops?"
+        },
+        {
+          "canonical_id": "case_07:C0019#0-217",
+          "score": 0.0017445130506530404,
+          "text": "Unseasonal Rainfall and Hailstorms: Rabi crops like wheat and mustard are usually harvested in March and April. Sudden rainfall or hailstorms during this period can flatten standing crops and reduce yield drastically."
+        },
+        {
+          "canonical_id": "case_07:C0020#0-239",
+          "score": 0.0038285169284790754,
+          "text": "Rabi Season (Winter Crop): Wheat is traditionally a rabi crop in many regions, especially in places like India. Rabi crops are typically sown in autumn or early winter (around October–November) and harvested in spring (around March–April)."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 477,
+      "seconds": 0.113,
+      "target": "The earlier material states: Wheat cultivation in India is mainly dependent on irrigation.What are the geographical conditions suitable for wheat cultivation? asked Sep 14, 2021 in Resource Wealth of India by manik01 (35.9k points). class-10.",
+      "target_tokens": 58,
+      "total_tokens": 535
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.16686774790287018,
+          "text": "The earlier material states: Wheat cultivation in India is mainly dependent on irrigation.What are the geographical conditions suitable for wheat cultivation? asked Sep 14, 2021 in Resource Wealth of India by manik01 (35.9k points). class-10."
+        },
+        {
+          "canonical_id": "case_07:C0016#0-189",
+          "score": 0.7080744504928589,
+          "text": "In northern and north-western India, wheat is a Rabi crop and a staple food. Needs dry and cool climate, moderate rainfall (50-75 cm) and loamy soil of moderate fertility and good drainage."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 165,
+      "seconds": 0.08,
+      "target": "The crop requires a **cool, dry climate, moderate rainfall (50–75 cm), and well-drained loamy soil**, and is **mainly irrigated**.",
+      "target_tokens": 37,
+      "total_tokens": 202
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 17.4,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

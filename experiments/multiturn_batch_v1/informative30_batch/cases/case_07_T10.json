@@ -1,0 +1,535 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_07:T10",
+ "trajectory_id": "case_07",
+ "trajectory_case": "case_07",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "The crop requires a **cool, dry climate, moderate rainfall (50–75 cm), and well-drained loamy soil**, and is **mainly irrigated**.",
+  "sha256": "62105ab1866b9755a4e410e3ccdd0be06fc29061489004d8fd2eb49cdb23bc2f",
+  "origin": "recorded_target",
+  "artifact_id": "case_07:T10",
+  "start": 0,
+  "end": 130,
+  "original_target": {
+   "text": "The crop requires a **cool, dry climate, moderate rainfall (50–75 cm), and well-drained loamy soil**, and is **mainly irrigated**.",
+   "artifact_id": "case_07:T10"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "give a brief account of wheat cultivation in india",
+   "inputs": [
+    {
+     "unit_id": "case_07:C0004#0-213",
+     "artifact_id": "case_07:C0004",
+     "start": 0,
+     "end": 213,
+     "text": "Wheat cultivation in India is mainly dependent on irrigation.What are the geographical conditions suitable for wheat cultivation? asked Sep 14, 2021 in Resource Wealth of India by manik01 (35.9k points). class-10.",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_07:C0001#0-188",
+     "artifact_id": "case_07:C0001",
+     "start": 0,
+     "end": 188,
+     "text": "The major wheat-producing states in India are Punjab, Haryana, Uttar Pradesh, Madhya Pradesh, and Rajasthan. These states contribute significantly to the nation's overall wheat production.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_07:C0002#0-187",
+     "artifact_id": "case_07:C0002",
+     "start": 0,
+     "end": 187,
+     "text": "India’s wheat-growing states: Impacts and concerns related to recent weather events in Uttar Pradesh, Punjab, Haryana, Madhya Pradesh, Rajasthan, Bihar, and Gujarat, according to the IMD.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_07:C0003#0-210",
+     "artifact_id": "case_07:C0003",
+     "start": 0,
+     "end": 210,
+     "text": "Wheat Cultivation in India: Conditions, and Distribution.Production: Wheat is grown on 13 per cent of the cropped area of India. Uttar Pradesh, Punjab and Haryana are the three prominent wheat producing states.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_07:C0005#0-238",
+     "artifact_id": "case_07:C0005",
+     "start": 0,
+     "end": 238,
+     "text": "Trends in wheat cultivation. (ETV Bharat Graphics). The findings come just days after the India Meteorological Department (IMD) revised the 2026 monsoon forecast down to 90 per cent from the earlier 92 per cent of the long-period average.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_07:C0017#0-152",
+     "artifact_id": "case_07:C0017",
+     "start": 0,
+     "end": 152,
+     "text": "Kharif and Rabi are India's two principal cropping seasons, defined respectively by monsoon-sown summer crops and winter-sown crops harvested in spring.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_07:C0018#0-262",
+     "artifact_id": "case_07:C0018",
+     "start": 0,
+     "end": 262,
+     "text": "Excess rain can damage Rabi crops during harvest. Rabi crops usually grow with stored soil moisture or irrigation. Thus, rainfall pattern is a key factor in determining crop type and yield. 7. How do temperature requirements differ between Rabi and Kharif crops?",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_07:C0019#0-217",
+     "artifact_id": "case_07:C0019",
+     "start": 0,
+     "end": 217,
+     "text": "Unseasonal Rainfall and Hailstorms: Rabi crops like wheat and mustard are usually harvested in March and April. Sudden rainfall or hailstorms during this period can flatten standing crops and reduce yield drastically.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_07:C0020#0-239",
+     "artifact_id": "case_07:C0020",
+     "start": 0,
+     "end": 239,
+     "text": "Rabi Season (Winter Crop): Wheat is traditionally a rabi crop in many regions, especially in places like India. Rabi crops are typically sown in autumn or early winter (around October–November) and harvested in spring (around March–April).",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 7
+    }
+   ],
+   "output": {
+    "text": "The earlier material states: Wheat cultivation in India is mainly dependent on irrigation.What are the geographical conditions suitable for wheat cultivation? asked Sep 14, 2021 in Resource Wealth of India by manik01 (35.9k points). class-10.",
+    "sha256": "0de942f0aa2b2efa8f873bd57d78394c59124ba209dc2b885c558088fc933897",
+    "origin": "controlled"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "give a brief account of wheat cultivation in india",
+   "inputs": [
+    {
+     "unit_id": "case_07:C0016#0-189",
+     "artifact_id": "case_07:C0016",
+     "start": 0,
+     "end": 189,
+     "text": "In northern and north-western India, wheat is a Rabi crop and a staple food. Needs dry and cool climate, moderate rainfall (50-75 cm) and loamy soil of moderate fertility and good drainage.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 7
+    }
+   ],
+   "output": {
+    "text": "The crop requires a **cool, dry climate, moderate rainfall (50–75 cm), and well-drained loamy soil**, and is **mainly irrigated**.",
+    "sha256": "62105ab1866b9755a4e410e3ccdd0be06fc29061489004d8fd2eb49cdb23bc2f",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "The earlier material states: Wheat cultivation in India is mainly dependent on irrigation.What are the geographical conditions suitable for wheat cultivation? asked Sep 14, 2021 in Resource Wealth of India by manik01 (35.9k points). class-10.",
+     "sha256": "0de942f0aa2b2efa8f873bd57d78394c59124ba209dc2b885c558088fc933897",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_07:C0001#0-188",
+   "artifact_id": "case_07:C0001",
+   "start": 0,
+   "end": 188,
+   "text": "The major wheat-producing states in India are Punjab, Haryana, Uttar Pradesh, Madhya Pradesh, and Rajasthan. These states contribute significantly to the nation's overall wheat production.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_07:C0001#0-188",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_07:C0002#0-187",
+   "artifact_id": "case_07:C0002",
+   "start": 0,
+   "end": 187,
+   "text": "India’s wheat-growing states: Impacts and concerns related to recent weather events in Uttar Pradesh, Punjab, Haryana, Madhya Pradesh, Rajasthan, Bihar, and Gujarat, according to the IMD.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_07:C0002#0-187",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_07:C0003#0-210",
+   "artifact_id": "case_07:C0003",
+   "start": 0,
+   "end": 210,
+   "text": "Wheat Cultivation in India: Conditions, and Distribution.Production: Wheat is grown on 13 per cent of the cropped area of India. Uttar Pradesh, Punjab and Haryana are the three prominent wheat producing states.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_07:C0003#0-210",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_07:C0004#0-213",
+   "artifact_id": "case_07:C0004",
+   "start": 0,
+   "end": 213,
+   "text": "Wheat cultivation in India is mainly dependent on irrigation.What are the geographical conditions suitable for wheat cultivation? asked Sep 14, 2021 in Resource Wealth of India by manik01 (35.9k points). class-10.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_07:C0004#0-213",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_07:C0005#0-238",
+   "artifact_id": "case_07:C0005",
+   "start": 0,
+   "end": 238,
+   "text": "Trends in wheat cultivation. (ETV Bharat Graphics). The findings come just days after the India Meteorological Department (IMD) revised the 2026 monsoon forecast down to 90 per cent from the earlier 92 per cent of the long-period average.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_07:C0005#0-238",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_07:C0016#0-189",
+   "artifact_id": "case_07:C0016",
+   "start": 0,
+   "end": 189,
+   "text": "In northern and north-western India, wheat is a Rabi crop and a staple food. Needs dry and cool climate, moderate rainfall (50-75 cm) and loamy soil of moderate fertility and good drainage.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_07:C0016#0-189",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_07:C0017#0-152",
+   "artifact_id": "case_07:C0017",
+   "start": 0,
+   "end": 152,
+   "text": "Kharif and Rabi are India's two principal cropping seasons, defined respectively by monsoon-sown summer crops and winter-sown crops harvested in spring.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_07:C0017#0-152",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_07:C0018#0-262",
+   "artifact_id": "case_07:C0018",
+   "start": 0,
+   "end": 262,
+   "text": "Excess rain can damage Rabi crops during harvest. Rabi crops usually grow with stored soil moisture or irrigation. Thus, rainfall pattern is a key factor in determining crop type and yield. 7. How do temperature requirements differ between Rabi and Kharif crops?",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_07:C0018#0-262",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_07:C0019#0-217",
+   "artifact_id": "case_07:C0019",
+   "start": 0,
+   "end": 217,
+   "text": "Unseasonal Rainfall and Hailstorms: Rabi crops like wheat and mustard are usually harvested in March and April. Sudden rainfall or hailstorms during this period can flatten standing crops and reduce yield drastically.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_07:C0019#0-217",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_07:C0020#0-239",
+   "artifact_id": "case_07:C0020",
+   "start": 0,
+   "end": 239,
+   "text": "Rabi Season (Winter Crop): Wheat is traditionally a rabi crop in many regions, especially in places like India. Rabi crops are typically sown in autumn or early winter (around October–November) and harvested in spring (around March–April).",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_07:C0020#0-239",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_07:T10:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_07:C0016",
+      "start": 0,
+      "end": 189,
+      "text": "In northern and north-western India, wheat is a Rabi crop and a staple food. Needs dry and cool climate, moderate rainfall (50-75 cm) and loamy soil of moderate fertility and good drainage."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_07:C0016",
+       "start": 0,
+       "end": 189,
+       "text": "In northern and north-western India, wheat is a Rabi crop and a staple food. Needs dry and cool climate, moderate rainfall (50-75 cm) and loamy soil of moderate fertility and good drainage."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_07:C0004",
+      "start": 0,
+      "end": 213,
+      "text": "Wheat cultivation in India is mainly dependent on irrigation.What are the geographical conditions suitable for wheat cultivation? asked Sep 14, 2021 in Resource Wealth of India by manik01 (35.9k points). class-10."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_07:C0004",
+       "start": 0,
+       "end": 213,
+       "text": "Wheat cultivation in India is mainly dependent on irrigation.What are the geographical conditions suitable for wheat cultivation? asked Sep 14, 2021 in Resource Wealth of India by manik01 (35.9k points). class-10."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_07:C0004#0-213"
+  ],
+  "B": [
+   "case_07:C0016#0-189"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T10",
+   "case": "case_07",
+   "question": "give a brief account of wheat cultivation in india",
+   "target_event": 8,
+   "target_start": 3526,
+   "target_end": 3656,
+   "target": "The crop requires a **cool, dry climate, moderate rainfall (50–75 cm), and well-drained loamy soil**, and is **mainly irrigated**.",
+   "candidate_ids": [
+    "C0001",
+    "C0002",
+    "C0003",
+    "C0004",
+    "C0005",
+    "C0016",
+    "C0017",
+    "C0018",
+    "C0019",
+    "C0020"
+   ],
+   "annotation_status": "assistant_reviewed_pending_human"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0016",
+     "start": 0,
+     "end": 189,
+     "text": "In northern and north-western India, wheat is a Rabi crop and a staple food. Needs dry and cool climate, moderate rainfall (50-75 cm) and loamy soil of moderate fertility and good drainage."
+    },
+    {
+     "candidate_id": "C0004",
+     "start": 0,
+     "end": 61,
+     "text": "Wheat cultivation in India is mainly dependent on irrigation."
+    }
+   ]
+  },
+  "intermediate_origin": "controlled",
+  "intermediate_event": null,
+  "time_order_audit": [
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 8,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 8,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 8,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 8,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 8,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 7,
+    "cut": 8,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 7,
+    "cut": 8,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 7,
+    "cut": 8,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 7,
+    "cut": 8,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 8,
+    "ok": true
+   }
+  ],
+  "note": "time-order checked for evidence and distractors"
+ }
+}

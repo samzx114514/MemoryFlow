@@ -1,0 +1,1217 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_23:T04",
+ "trajectory_id": "case_23",
+ "trajectory_case": "case_23",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "I found that \"Once Upon a Time (1994 film)\" is a Thai film directed by Bhandit Rittakol.",
+  "sha256": "ed845421fa45bed6c430ad40ea81721bffd97025192c34a1fb6c02dbc6270706",
+  "origin": "recorded_target",
+  "artifact_id": "case_23:T04",
+  "start": 0,
+  "end": 88,
+  "original_target": {
+   "text": "I found that \"Once Upon a Time (1994 film)\" is a Thai film directed by Bhandit Rittakol.",
+   "artifact_id": "case_23:T04"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "Which film has the director who died later, Once Upon A Time (1994 Film) or Don Olsen Kommer Til Byen?",
+   "inputs": [
+    {
+     "unit_id": "case_23:C0049#0-185",
+     "artifact_id": "case_23:C0049",
+     "start": 0,
+     "end": 185,
+     "text": "I notice there's a 1994 Thai film \"Once Upon a Time... This Morning\". Let me search for this and also try the WN Network page that specifically mentioned \"Once Upon a Time (1994 film)\".",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 17
+    },
+    {
+     "unit_id": "case_23:C0001#0-281",
+     "artifact_id": "case_23:C0001",
+     "start": 0,
+     "end": 281,
+     "text": "William Bradley Pitt is an American actor and film producer. In a film career spanning more than thirty years, Pitt has received numerous accolades, including two Academy Awards, two British Academy Film Awards, two Golden Globe Awards, two Primetime Emmy Awards and one Volpi Cup.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_23:C0002#0-227",
+     "artifact_id": "case_23:C0002",
+     "start": 0,
+     "end": 227,
+     "text": "Once upon a time, a group of children venture away from their homes and find a castle. Having no idea the castle is owned by an evil witch, the children are all turned into animals after she catches them playing in the gardens.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_23:C0003#0-160",
+     "artifact_id": "case_23:C0003",
+     "start": 0,
+     "end": 160,
+     "text": "Bir Zamanlar Amerika izle - Once Upon a Time in America izle 1984 ABD Suç, Dram türündeki yapımı Türkçe Dublaj hd kalitede hdfilmcehennemi den izleyebilirsiniz.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_23:C0004#0-187",
+     "artifact_id": "case_23:C0004",
+     "start": 0,
+     "end": 187,
+     "text": "Bir Zamanlar Amerika izle - Once Upon a Time in America izle 1984 İtalya Dram, Suç türündeki yapımı türkçe dublaj ve altyazılı full hd 1080p kalitede hdfilmcehennemi den izleyebilirsiniz.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_23:C0005#0-248",
+     "artifact_id": "case_23:C0005",
+     "start": 0,
+     "end": 248,
+     "text": "Once Upon a Time in America.Once Upon a Time in America 1984 Film. 188 Binden fazla oy ile İMDB'de 8,4 değerinde ki puanını senelerdir korumaya devam eden Bir Zamanlar Amerika filmi Sergio Leone'un yönetmenliği ile İtalya ve Amerika'da çekilmiştir.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_23:C0011#0-213",
+     "artifact_id": "case_23:C0011",
+     "start": 0,
+     "end": 213,
+     "text": "I found that Don Olsen Kommer Til Byen was directed by Anker Sørensen. Now I need to clarify which \"Once Upon a Time\" 1994 film is being referred to, since there could be multiple. Let me search more specifically.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 5
+    },
+    {
+     "unit_id": "case_23:C0012#0-61",
+     "artifact_id": "case_23:C0012",
+     "start": 0,
+     "end": 61,
+     "text": "Once Upon A Time.....In Hollywood 2019 1080p. 23K просмотров.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_23:C0013#0-214",
+     "artifact_id": "case_23:C0013",
+     "start": 0,
+     "end": 214,
+     "text": "Watch Sodomies Brûlantes-Once Upon A Time Marilyn Jess (Bir Zamanlar Marilyn Jess) (1987) (Türkçe Altyazılı) by Retro Films online. Enjoy high-quality video without registration in the free video catalog ВКонтакте.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 6
+    }
+   ],
+   "output": {
+    "text": "I found it - \"Once Upon a Time (1994 film)\" is a Thai film. Let me get more information about its director.",
+    "sha256": "f57d2ead772477c5b4284d4af47d012e65d073e5a69c698ecaf9b3edee84ebcf",
+    "origin": "recorded_agent_message"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "Which film has the director who died later, Once Upon A Time (1994 Film) or Don Olsen Kommer Til Byen?",
+   "inputs": [
+    {
+     "unit_id": "case_23:C0056#0-206",
+     "artifact_id": "case_23:C0056",
+     "start": 0,
+     "end": 206,
+     "text": "This Morning is a 1994 Thai drama film directed by Bhandit Rittakol. The film was selected as the Thai entry for the Best Foreign Language Film at the 68th Academy Awards, but was not accepted as a nominee.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 21
+    },
+    {
+     "unit_id": "case_23:C0014#0-153",
+     "artifact_id": "case_23:C0014",
+     "start": 0,
+     "end": 153,
+     "text": "Down Low - Once upon a time 1998.Uuuuh ... All alone without youUntil that day I see you againDeath do us part your long lost friendCan't wait to see ...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_23:C0015#0-40",
+     "artifact_id": "case_23:C0015",
+     "start": 0,
+     "end": 40,
+     "text": "- Once Upon a Time in Hollywood. (2019).",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_23:C0016#0-118",
+     "artifact_id": "case_23:C0016",
+     "start": 0,
+     "end": 118,
+     "text": "Видео Однажды в Мексике. HD. (Once Upon a Time in Mexico).(Once Upon a Time in Mexico). 2003. 1080p | OK.RU. Нравится.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_23:C0017#0-275",
+     "artifact_id": "case_23:C0017",
+     "start": 0,
+     "end": 275,
+     "text": "From Wikipedia, the free encyclopedia. 2019 film by Quentin Tarantino.Principal photography lasted from June through November around Los Angeles. Once Upon a Time in Hollywood is the final film to feature Luke Perry, who died on March 4, 2019, and is dedicated to his memory.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 9
+    },
+    {
+     "unit_id": "case_23:C0018#0-227",
+     "artifact_id": "case_23:C0018",
+     "start": 0,
+     "end": 227,
+     "text": "Once upon a time, a group of children venture away from their homes and find a castle. Having no idea the castle is owned by an evil witch, the children are all turned into animals after she catches them playing in the gardens.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 9
+    },
+    {
+     "unit_id": "case_23:C0019#0-61",
+     "artifact_id": "case_23:C0019",
+     "start": 0,
+     "end": 61,
+     "text": "Once Upon A Time.....In Hollywood 2019 1080p. 23K просмотров.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 9
+    },
+    {
+     "unit_id": "case_23:C0020#0-153",
+     "artifact_id": "case_23:C0020",
+     "start": 0,
+     "end": 153,
+     "text": "Down Low - Once upon a time 1998.Uuuuh ... All alone without youUntil that day I see you againDeath do us part your long lost friendCan't wait to see ...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 9
+    },
+    {
+     "unit_id": "case_23:C0021#0-186",
+     "artifact_id": "case_23:C0021",
+     "start": 0,
+     "end": 186,
+     "text": "Bir Zamanlar Batıda izle - Once Upon a Time in the West izle 1968 İtalya Macera türündeki yapımı türkçe dublaj ve türkçe altyazılı full hd 1080p kalitede hdfilmizle den izleyebilirsiniz.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 9
+    }
+   ],
+   "output": {
+    "text": "I found that \"Once Upon a Time (1994 film)\" is a Thai film directed by Bhandit Rittakol.",
+    "sha256": "ed845421fa45bed6c430ad40ea81721bffd97025192c34a1fb6c02dbc6270706",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "I found it - \"Once Upon a Time (1994 film)\" is a Thai film. Let me get more information about its director.",
+     "sha256": "f57d2ead772477c5b4284d4af47d012e65d073e5a69c698ecaf9b3edee84ebcf",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_23:C0001#0-281",
+   "artifact_id": "case_23:C0001",
+   "start": 0,
+   "end": 281,
+   "text": "William Bradley Pitt is an American actor and film producer. In a film career spanning more than thirty years, Pitt has received numerous accolades, including two Academy Awards, two British Academy Film Awards, two Golden Globe Awards, two Primetime Emmy Awards and one Volpi Cup.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_23:C0001#0-281",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0002#0-227",
+   "artifact_id": "case_23:C0002",
+   "start": 0,
+   "end": 227,
+   "text": "Once upon a time, a group of children venture away from their homes and find a castle. Having no idea the castle is owned by an evil witch, the children are all turned into animals after she catches them playing in the gardens.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_23:C0002#0-227",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0003#0-160",
+   "artifact_id": "case_23:C0003",
+   "start": 0,
+   "end": 160,
+   "text": "Bir Zamanlar Amerika izle - Once Upon a Time in America izle 1984 ABD Suç, Dram türündeki yapımı Türkçe Dublaj hd kalitede hdfilmcehennemi den izleyebilirsiniz.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_23:C0003#0-160",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0004#0-187",
+   "artifact_id": "case_23:C0004",
+   "start": 0,
+   "end": 187,
+   "text": "Bir Zamanlar Amerika izle - Once Upon a Time in America izle 1984 İtalya Dram, Suç türündeki yapımı türkçe dublaj ve altyazılı full hd 1080p kalitede hdfilmcehennemi den izleyebilirsiniz.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_23:C0004#0-187",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0005#0-248",
+   "artifact_id": "case_23:C0005",
+   "start": 0,
+   "end": 248,
+   "text": "Once Upon a Time in America.Once Upon a Time in America 1984 Film. 188 Binden fazla oy ile İMDB'de 8,4 değerinde ki puanını senelerdir korumaya devam eden Bir Zamanlar Amerika filmi Sergio Leone'un yönetmenliği ile İtalya ve Amerika'da çekilmiştir.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_23:C0005#0-248",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0011#0-213",
+   "artifact_id": "case_23:C0011",
+   "start": 0,
+   "end": 213,
+   "text": "I found that Don Olsen Kommer Til Byen was directed by Anker Sørensen. Now I need to clarify which \"Once Upon a Time\" 1994 film is being referred to, since there could be multiple. Let me search more specifically.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_23:C0011#0-213",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0012#0-61",
+   "artifact_id": "case_23:C0012",
+   "start": 0,
+   "end": 61,
+   "text": "Once Upon A Time.....In Hollywood 2019 1080p. 23K просмотров.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_23:C0012#0-61",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0013#0-214",
+   "artifact_id": "case_23:C0013",
+   "start": 0,
+   "end": 214,
+   "text": "Watch Sodomies Brûlantes-Once Upon A Time Marilyn Jess (Bir Zamanlar Marilyn Jess) (1987) (Türkçe Altyazılı) by Retro Films online. Enjoy high-quality video without registration in the free video catalog ВКонтакте.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_23:C0013#0-214",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0014#0-153",
+   "artifact_id": "case_23:C0014",
+   "start": 0,
+   "end": 153,
+   "text": "Down Low - Once upon a time 1998.Uuuuh ... All alone without youUntil that day I see you againDeath do us part your long lost friendCan't wait to see ...",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_23:C0014#0-153",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0015#0-40",
+   "artifact_id": "case_23:C0015",
+   "start": 0,
+   "end": 40,
+   "text": "- Once Upon a Time in Hollywood. (2019).",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_23:C0015#0-40",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0016#0-118",
+   "artifact_id": "case_23:C0016",
+   "start": 0,
+   "end": 118,
+   "text": "Видео Однажды в Мексике. HD. (Once Upon a Time in Mexico).(Once Upon a Time in Mexico). 2003. 1080p | OK.RU. Нравится.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_23:C0016#0-118",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0017#0-275",
+   "artifact_id": "case_23:C0017",
+   "start": 0,
+   "end": 275,
+   "text": "From Wikipedia, the free encyclopedia. 2019 film by Quentin Tarantino.Principal photography lasted from June through November around Los Angeles. Once Upon a Time in Hollywood is the final film to feature Luke Perry, who died on March 4, 2019, and is dedicated to his memory.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_23:C0017#0-275",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0018#0-227",
+   "artifact_id": "case_23:C0018",
+   "start": 0,
+   "end": 227,
+   "text": "Once upon a time, a group of children venture away from their homes and find a castle. Having no idea the castle is owned by an evil witch, the children are all turned into animals after she catches them playing in the gardens.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_23:C0018#0-227",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0019#0-61",
+   "artifact_id": "case_23:C0019",
+   "start": 0,
+   "end": 61,
+   "text": "Once Upon A Time.....In Hollywood 2019 1080p. 23K просмотров.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_23:C0019#0-61",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0020#0-153",
+   "artifact_id": "case_23:C0020",
+   "start": 0,
+   "end": 153,
+   "text": "Down Low - Once upon a time 1998.Uuuuh ... All alone without youUntil that day I see you againDeath do us part your long lost friendCan't wait to see ...",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_23:C0020#0-153",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0021#0-186",
+   "artifact_id": "case_23:C0021",
+   "start": 0,
+   "end": 186,
+   "text": "Bir Zamanlar Batıda izle - Once Upon a Time in the West izle 1968 İtalya Macera türündeki yapımı türkçe dublaj ve türkçe altyazılı full hd 1080p kalitede hdfilmizle den izleyebilirsiniz.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_23:C0021#0-186",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0027#0-148",
+   "artifact_id": "case_23:C0027",
+   "start": 0,
+   "end": 148,
+   "text": "I have Anker Sørensen's death date (August 19, 2010). Now I need to find the specific \"Once Upon a Time\" 1994 film. Let me search more specifically.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0028#0-61",
+   "artifact_id": "case_23:C0028",
+   "start": 0,
+   "end": 61,
+   "text": "Once Upon A Time.....In Hollywood 2019 1080p. 23K просмотров.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0029#0-214",
+   "artifact_id": "case_23:C0029",
+   "start": 0,
+   "end": 214,
+   "text": "Watch Sodomies Brûlantes-Once Upon A Time Marilyn Jess (Bir Zamanlar Marilyn Jess) (1987) (Türkçe Altyazılı) by Retro Films online. Enjoy high-quality video without registration in the free video catalog ВКонтакте.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0030#0-71",
+   "artifact_id": "case_23:C0030",
+   "start": 0,
+   "end": 71,
+   "text": "I hope you enjoyed my reaction to Once Upon a Time S1E22 \"We Are Both\".",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0031#0-58",
+   "artifact_id": "case_23:C0031",
+   "start": 0,
+   "end": 58,
+   "text": "Видео Однажды в Мексике. HD. (Once Upon a Time in Mexico).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0032#0-106",
+   "artifact_id": "case_23:C0032",
+   "start": 0,
+   "end": 106,
+   "text": "Film Bilgileri. Bir Zamanlar Anadolu'da (2011). Once Upon a Time in Anatolia · 157 dk. IMDb PUANI. 7.8/10.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0033#0-227",
+   "artifact_id": "case_23:C0033",
+   "start": 0,
+   "end": 227,
+   "text": "Once upon a time, a group of children venture away from their homes and find a castle. Having no idea the castle is owned by an evil witch, the children are all turned into animals after she catches them playing in the gardens.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0034#0-60",
+   "artifact_id": "case_23:C0034",
+   "start": 0,
+   "end": 60,
+   "text": "Once Upon a Time in Lingjian Mountain 1.Bölüm. Dizi Sayfasi.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0035#0-189",
+   "artifact_id": "case_23:C0035",
+   "start": 0,
+   "end": 189,
+   "text": "Bir Zamanlar Amerika izle - Once Upon a Time in America izle 1984 İtalya Dram, Suç türündeki yapımı türkçe dublaj ve türkçe altyazılı full hd 1080p kalitede hdfilmizle den izleyebilirsiniz.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0036#0-197",
+   "artifact_id": "case_23:C0036",
+   "start": 0,
+   "end": 197,
+   "text": "Once Upon A Time 1994 Film on WN Network delivers the latest Videos and Editable pages for News & Events, including Entertainment, Music, Sports, Science and more, Sign up and share your playlists.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0037#0-72",
+   "artifact_id": "case_23:C0037",
+   "start": 0,
+   "end": 72,
+   "text": "hdfilmcehennemi. 1080p Film İzle. Once Upon a Time... in Hollywood izle.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0038#0-129",
+   "artifact_id": "case_23:C0038",
+   "start": 0,
+   "end": 129,
+   "text": "I found a reference to \"Once Upon a Time (1994 film)\" on WN Network. Let me search for more specific information about this film.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0039#0-214",
+   "artifact_id": "case_23:C0039",
+   "start": 0,
+   "end": 214,
+   "text": "Watch Sodomies Brûlantes-Once Upon A Time Marilyn Jess (Bir Zamanlar Marilyn Jess) (1987) (Türkçe Altyazılı) by Retro Films online. Enjoy high-quality video without registration in the free video catalog ВКонтакте.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0040#0-61",
+   "artifact_id": "case_23:C0040",
+   "start": 0,
+   "end": 61,
+   "text": "Once Upon A Time.....In Hollywood 2019 1080p. 23K просмотров.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0041#0-186",
+   "artifact_id": "case_23:C0041",
+   "start": 0,
+   "end": 186,
+   "text": "Bir Zamanlar Batıda izle - Once Upon a Time in the West izle 1968 İtalya Macera türündeki yapımı türkçe dublaj ve türkçe altyazılı full hd 1080p kalitede hdfilmizle den izleyebilirsiniz.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0042#0-56",
+   "artifact_id": "case_23:C0042",
+   "start": 0,
+   "end": 56,
+   "text": "First time watching *ONCE UPON A TIME* its weirdly good.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0043#0-169",
+   "artifact_id": "case_23:C0043",
+   "start": 0,
+   "end": 169,
+   "text": "Klik tombol di bawah ini untuk pergi ke halaman website download film Once Upon a Time… This Morning (1994). Terdapat banyak pilihan penyedia file pada halaman tersebut.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0044#0-170",
+   "artifact_id": "case_23:C0044",
+   "start": 0,
+   "end": 170,
+   "text": "Hong Kong Ekspresi izle - Chungking Express izle 1994 Çin Hong Kong ÖİB Komedi, Suç, Dram türündeki yapımı Türkçe Dublaj hd kalitede hdfilmcehennemi den izleyebilirsiniz.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0045#0-139",
+   "artifact_id": "case_23:C0045",
+   "start": 0,
+   "end": 139,
+   "text": "1994 yapımı Chung Hing sam lam filmi - Hong Kong Ekspresi filmi Türkçe dublaj veya Altyazılı olarak Full HD kalitede kesintisiz 1080p izle.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0046#0-61",
+   "artifact_id": "case_23:C0046",
+   "start": 0,
+   "end": 61,
+   "text": "Once Upon A Time.....In Hollywood 2019 1080p. 23K просмотров.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0047#0-56",
+   "artifact_id": "case_23:C0047",
+   "start": 0,
+   "end": 56,
+   "text": "First time watching *ONCE UPON A TIME* its weirdly good.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0048#0-72",
+   "artifact_id": "case_23:C0048",
+   "start": 0,
+   "end": 72,
+   "text": "hdfilmcehennemi. 1080p Film İzle. Once Upon a Time... in Hollywood izle.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0049#0-185",
+   "artifact_id": "case_23:C0049",
+   "start": 0,
+   "end": 185,
+   "text": "I notice there's a 1994 Thai film \"Once Upon a Time... This Morning\". Let me search for this and also try the WN Network page that specifically mentioned \"Once Upon a Time (1994 film)\".",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_23:C0049#0-185",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0050#0-236",
+   "artifact_id": "case_23:C0050",
+   "start": 0,
+   "end": 236,
+   "text": "Once Upon a Time (1994 film), a Thai film.Once Upon a Time (2013 film), an Indian Malayalam animated film directed by Binu Sasidharan. Donkey Skin (film), a 1970 French film also known in English as Once Upon a Time or The Magic Donkey.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0051#0-155",
+   "artifact_id": "case_23:C0051",
+   "start": 0,
+   "end": 155,
+   "text": "TRAILER. POPUP. DOWNLOAD FILM Once Upon a Time…Klik tombol di bawah ini untuk pergi ke halaman website download film Once Upon a Time… This Morning (1994).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0052#0-265",
+   "artifact_id": "case_23:C0052",
+   "start": 0,
+   "end": 265,
+   "text": "Brad Pitt dan Leonardo DiCaprio in Once Upon a Time in Hollywood. / Imdb.com. Sosial dan Gaya Hidup.Film ini berfokus pada perjalanan aktor fiksi Rick Dalton (Leonardo DiCaprio) yang mulai kehilangan masa kejayaannya dan kawan stuntman-nya, Cliff Booth (Brad Pitt).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0053#0-253",
+   "artifact_id": "case_23:C0053",
+   "start": 0,
+   "end": 253,
+   "text": "Director: Tony Y. Reyes. Cynthia Wang è un tenente della polizia di Hong Kong, e sta seguendo le orme di Nikita, il capo di una banda criminale. Amparo, che lavora come cameriera, diventa la notte sul gol della band quando si prende possesso di alcun...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0054#0-255",
+   "artifact_id": "case_23:C0054",
+   "start": 0,
+   "end": 255,
+   "text": "Banyak yang merasa kecewa pada Once Upon A Time In Hollywood karena terasa datar untuk ukuran film Tarantino.Bagi kalian yang menyukai pop culture di tahun 60-an dengan hippies dan kemegahan Hollywood, Once Upon A Time In Hollywood menjadi tontonan wajib.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0055#0-107",
+   "artifact_id": "case_23:C0055",
+   "start": 0,
+   "end": 107,
+   "text": "I found it - \"Once Upon a Time (1994 film)\" is a Thai film. Let me get more information about its director.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0056#0-206",
+   "artifact_id": "case_23:C0056",
+   "start": 0,
+   "end": 206,
+   "text": "This Morning is a 1994 Thai drama film directed by Bhandit Rittakol. The film was selected as the Thai entry for the Best Foreign Language Film at the 68th Academy Awards, but was not accepted as a nominee.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_23:C0056#0-206",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_23:C0057#0-236",
+   "artifact_id": "case_23:C0057",
+   "start": 0,
+   "end": 236,
+   "text": "Drama. Director: Bhandit Rittakol. Starring: Santisuk Promsiri, Jintara Sugapat, Charlie Trairat. A middle-class couple are separating and the three kids are to stay with their bossy and resentful mother. Missing their beloved father...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0058#0-291",
+   "artifact_id": "case_23:C0058",
+   "start": 0,
+   "end": 291,
+   "text": "The film feels almost at once like a children's fairy-tale adventure, a family melodrama, a gritty and heartbreaking depiction of doomed and forgotten youth, a glimpse into a stomach-churning corner of the criminal underworld, and a farce-like caper that called to mind Home Alone once or...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0059#0-87",
+   "artifact_id": "case_23:C0059",
+   "start": 0,
+   "end": 87,
+   "text": "Discover reviews, ratings, and trailers for Once Upon a Time (1994) on Rotten Tomatoes.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0060#0-206",
+   "artifact_id": "case_23:C0060",
+   "start": 0,
+   "end": 206,
+   "text": "This Morning is a 1995 Thai drama film directed by Bhandit Rittakol. The film was selected as the Thai entry for the Best Foreign Language Film at the 68th Academy Awards, but was not accepted as a nominee.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0061#0-281",
+   "artifact_id": "case_23:C0061",
+   "start": 0,
+   "end": 281,
+   "text": "William Bradley Pitt is an American actor and film producer. In a film career spanning more than thirty years, Pitt has received numerous accolades, including two Academy Awards, two British Academy Film Awards, two Golden Globe Awards, two Primetime Emmy Awards and one Volpi Cup.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0062#0-153",
+   "artifact_id": "case_23:C0062",
+   "start": 0,
+   "end": 153,
+   "text": "Down Low - Once upon a time 1998.Uuuuh ... All alone without youUntil that day I see you againDeath do us part your long lost friendCan't wait to see ...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0063#0-186",
+   "artifact_id": "case_23:C0063",
+   "start": 0,
+   "end": 186,
+   "text": "Bir Zamanlar Batıda izle - Once Upon a Time in the West izle 1968 İtalya Macera türündeki yapımı türkçe dublaj ve türkçe altyazılı full hd 1080p kalitede hdfilmizle den izleyebilirsiniz.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0064#0-61",
+   "artifact_id": "case_23:C0064",
+   "start": 0,
+   "end": 61,
+   "text": "Once Upon A Time.....In Hollywood 2019 1080p. 23K просмотров.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_23:C0065#0-186",
+   "artifact_id": "case_23:C0065",
+   "start": 0,
+   "end": 186,
+   "text": "Once Upon a Time... in Hollywood 2019 Film. Rick Dalton, başarılı bir dizide oyunculuk yapmaktadır. Fakat Rick, televizyon dünyasından uzaklaşıp film sektörüne giriş yapmak istemektedir.",
+   "occurrences": [],
+   "pool_only": true
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_23:T04:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_23:C0049",
+      "start": 0,
+      "end": 185,
+      "text": "I notice there's a 1994 Thai film \"Once Upon a Time... This Morning\". Let me search for this and also try the WN Network page that specifically mentioned \"Once Upon a Time (1994 film)\"."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_23:C0049",
+       "start": 0,
+       "end": 185,
+       "text": "I notice there's a 1994 Thai film \"Once Upon a Time... This Morning\". Let me search for this and also try the WN Network page that specifically mentioned \"Once Upon a Time (1994 film)\"."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_23:C0056",
+      "start": 0,
+      "end": 206,
+      "text": "This Morning is a 1994 Thai drama film directed by Bhandit Rittakol. The film was selected as the Thai entry for the Best Foreign Language Film at the 68th Academy Awards, but was not accepted as a nominee."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_23:C0056",
+       "start": 0,
+       "end": 206,
+       "text": "This Morning is a 1994 Thai drama film directed by Bhandit Rittakol. The film was selected as the Thai entry for the Best Foreign Language Film at the 68th Academy Awards, but was not accepted as a nominee."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_23:C0049#0-185"
+  ],
+  "B": [
+   "case_23:C0056#0-206"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T04",
+   "case": "case_23",
+   "question": "Which film has the director who died later, Once Upon A Time (1994 Film) or Don Olsen Kommer Til Byen?",
+   "target_event": 23,
+   "target_start": 0,
+   "target_end": 88,
+   "target": "I found that \"Once Upon a Time (1994 film)\" is a Thai film directed by Bhandit Rittakol.",
+   "candidate_ids": [
+    "C0001",
+    "C0002",
+    "C0003",
+    "C0004",
+    "C0005",
+    "C0012",
+    "C0013",
+    "C0014",
+    "C0015",
+    "C0016",
+    "C0017",
+    "C0018",
+    "C0019",
+    "C0020",
+    "C0021",
+    "C0028",
+    "C0029",
+    "C0030",
+    "C0031",
+    "C0032",
+    "C0033",
+    "C0034",
+    "C0035",
+    "C0036",
+    "C0037",
+    "C0039",
+    "C0040",
+    "C0041",
+    "C0042",
+    "C0043",
+    "C0044",
+    "C0045",
+    "C0046",
+    "C0047",
+    "C0048",
+    "C0050",
+    "C0051",
+    "C0052",
+    "C0053",
+    "C0054",
+    "C0056",
+    "C0057",
+    "C0058",
+    "C0059",
+    "C0060",
+    "C0061",
+    "C0062",
+    "C0063",
+    "C0064",
+    "C0065",
+    "C0011",
+    "C0027",
+    "C0038",
+    "C0049",
+    "C0055"
+   ],
+   "annotation_status": "assistant_reviewed_pending_human"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0049",
+     "start": 0,
+     "end": 185,
+     "text": "I notice there's a 1994 Thai film \"Once Upon a Time... This Morning\". Let me search for this and also try the WN Network page that specifically mentioned \"Once Upon a Time (1994 film)\"."
+    },
+    {
+     "candidate_id": "C0056",
+     "start": 0,
+     "end": 206,
+     "text": "This Morning is a 1994 Thai drama film directed by Bhandit Rittakol. The film was selected as the Thai entry for the Best Foreign Language Film at the 68th Academy Awards, but was not accepted as a nominee."
+    }
+   ]
+  },
+  "intermediate_origin": "recorded_agent_message",
+  "intermediate_event": 20,
+  "time_order_audit": [
+   {
+    "round": 1,
+    "event": 17,
+    "cut": 20,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 20,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 20,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 20,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 20,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 20,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 5,
+    "cut": 20,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 20,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 20,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 21,
+    "cut": 23,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 6,
+    "cut": 23,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 6,
+    "cut": 23,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 6,
+    "cut": 23,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 9,
+    "cut": 23,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 9,
+    "cut": 23,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 9,
+    "cut": 23,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 9,
+    "cut": 23,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 9,
+    "cut": 23,
+    "ok": true
+   }
+  ],
+  "note": "time-order checked for evidence and distractors"
+ }
+}

@@ -1,0 +1,635 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_09:T06",
+ "trajectory_id": "case_09",
+ "trajectory_case": "case_09",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "**Capital expenditure** — Ensure properly authorised; examine purchase invoice, ownership documents, freight/installation charges capitalised, etc.",
+  "sha256": "1b7283937dedbd3820beae377836ffff508bf3c916de4672888bdd82c092e60e",
+  "origin": "recorded_target",
+  "artifact_id": "case_09:T06",
+  "start": 0,
+  "end": 147,
+  "original_target": {
+   "text": "**Capital expenditure** — Ensure properly authorised; examine purchase invoice, ownership documents, freight/installation charges capitalised, etc.",
+   "artifact_id": "case_09:T06"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "what is vouching how would you vouch the cash book",
+   "inputs": [
+    {
+     "unit_id": "case_09:C0008#0-948",
+     "artifact_id": "case_09:C0008",
+     "start": 0,
+     "end": 948,
+     "text": "Mar 28, 2026 · The auditor should see that the payment of capital expenditure is properly authorised. He should examine the document pertaining to the purchase and ownership of the fixed assets. He should examine the invoices and the receipts obtained from the suppliers to ensure that payments have been made. The document provides guidance on procedures for vouching transactions in an audit. It outlines key points to examine for various types of transactions, including examining vouchers for proper authorization and accounting, ledger postings, relevant documentary evidence, and cutoff procedures. The document provides guidance on steps an auditor should take to properly voucher transactions during an audit. - Download as a PPTX, PDF or view online for free While vouching, the auditor should verify and satisfy himself that vouchers in the form of receipts, bills, invoices, cash memos etc., correspond with the entries in the cash book.",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 8
+    },
+    {
+     "unit_id": "case_09:C0006#0-234",
+     "artifact_id": "case_09:C0006",
+     "start": 0,
+     "end": 234,
+     "text": "All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments because chances of cash misappropriation are very high.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 8
+    },
+    {
+     "unit_id": "case_09:C0007#0-222",
+     "artifact_id": "case_09:C0007",
+     "start": 0,
+     "end": 222,
+     "text": "Oct 4, 2025 · Key Takeaways: Understand the definition and purpose of Vouching in auditing. Learn practical methods for vouching cash receipts and Cash Payments. Review examples of vouching petty cash, wages, and salaries.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 8
+    },
+    {
+     "unit_id": "case_09:C0009#0-293",
+     "artifact_id": "case_09:C0009",
+     "start": 0,
+     "end": 293,
+     "text": "The document provides guidance on procedures for vouching transactions in an audit. It outlines key points to examine for various types of transactions, including examining vouchers for proper authorization and accounting, ledger postings, relevant documentary evidence, and cutoff procedures.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 8
+    },
+    {
+     "unit_id": "case_09:C0010#0-162",
+     "artifact_id": "case_09:C0010",
+     "start": 0,
+     "end": 162,
+     "text": "The document provides guidance on steps an auditor should take to properly voucher transactions during an audit. - Download as a PPTX, PDF or view online for free",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 8
+    },
+    {
+     "unit_id": "case_09:C0021#0-212",
+     "artifact_id": "case_09:C0021",
+     "start": 0,
+     "end": 212,
+     "text": "Vouching of Credit Side of Cash Book (or) Cash Payments. The auditor vouches cash payments with an objective to ensure that all cash payments pertaining to business activities are genuine and properly authorized.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 15
+    },
+    {
+     "unit_id": "case_09:C0023#0-270",
+     "artifact_id": "case_09:C0023",
+     "start": 0,
+     "end": 270,
+     "text": "All payments as far as possible, except for petty cash, should be made by cheques or online. If large amounts appear to have been paid in cash, contrary to the usual practice of the business, auditor must ascertain the circumstances in which it was considered necessary.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 15
+    },
+    {
+     "unit_id": "case_09:C0024#0-234",
+     "artifact_id": "case_09:C0024",
+     "start": 0,
+     "end": 234,
+     "text": "All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments because chances of cash misappropriation are very high.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 15
+    },
+    {
+     "unit_id": "case_09:C0025#0-288",
+     "artifact_id": "case_09:C0025",
+     "start": 0,
+     "end": 288,
+     "text": "Vouching of Cash Payments (Credit Side of Cash Book): All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments because chances of cash misappropriation are very high.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 15
+    }
+   ],
+   "output": {
+    "text": "The earlier material states: Mar 28, 2026 · The auditor should see that the payment of capital expenditure is properly authorised. He should examine the document pertaining to the purchase and ownership of the fixed assets. He should examine the invoices and the receip",
+    "sha256": "e92a0f0970bedba1362addf404e2833c0dd44d3f3f663eac92ddd0fcb7ac0bb7",
+    "origin": "controlled"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "what is vouching how would you vouch the cash book",
+   "inputs": [
+    {
+     "unit_id": "case_09:C0022#0-4173",
+     "artifact_id": "case_09:C0022",
+     "start": 0,
+     "end": 4173,
+     "text": "The opening balance of cash book can never be credited because cash of company cannot be in negative but the credit bank balance represents the overdraft account from bank or utilization of cash credit limit as sanctioned from bank. See full list on tutorialspoint.com Payment to creditors may be examined by the following − 1. Receipt issued by the creditors. 2. If the creditor is paid amount as full and final settlement, the balance amount, if any stands in the ledger account of the creditor; this amount should be credited to discount received. 3. If any advance payment is made to creditor that should be clearly... See full list on tutorialspoint.com Depending upon the adequacy of internal control system in an organization Auditor will decide his audit Program. It is very important for Auditor to check the following − 1. Attendance record of employee and salary register. 2. Appointment letter of new employees. 3. Comparison of current month salary with last month’s salary and if there is any ab... See full list on tutorialspoint.com At the time of vouching of wages paid, the Auditor should verify the following points to avoid misappropriation of cash − 1. Adequacy of Internal Control System. 2. Payment of wages at higher rate than allowed. 3. Payment shown to ex-workers in the current month. 4. Lower or non-deduction of advance or other deductions due. 5. Payment to fictitious... See full list on tutorialspoint.com The Auditor should pay attention to the following − 1. Purchase invoice of machinery. 2. Freight inward charges, installation charges, erection and commissioning charges should be capitalized. 3. Treatment of Excise duty according to the excise rules. See full list on tutorialspoint.com Purchase of Land and Building can be vouched as follows − 1. Study of Lease hold agreement, if land is purchased on lease hold basis. 2. Payment should be as per lease term. 3. All the expenses incurred to acquire lease hold property should be debited to respective property account. 4. Auditor should study the conveyance deeds in case property is p... See full list on tutorialspoint.com Consider the following points for the verification of rent by the auditor − 1. Rent Deed. 2. Rent receipt from Land lord. 3. Provision for un-paid rent at the end of the year. See full list on tutorialspoint.com Consider the following points for the verification of Insurance Premium − 1. Insurance policy issued by the Insurance Company. 2. Insurance premium receipt 3. Insurance premium should not be related to any official of the company. See full list on tutorialspoint.com Consider the following for the verification of Income − 1. Advance Tax Challan 2. Self-Assessment Tax challan 3. Income Tax demand notice 4. Assessment order See full list on tutorialspoint.com Consider the following for the verification of Excise Duty − 1. Rate of Excise Duty 2. Excise records and sale invoice for verification of excise duty See full list on tutorialspoint.com All payments as far as possible, except for petty cash, should be made by cheques or online. If large amounts appear to have been paid in cash, contrary to the usual practice of the business, auditor must ascertain the circumstances in which it was considered necessary. All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments because chances of cash misappropriation are very high. Vouching of Cash Payments (Credit Side of Cash Book): All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments because chances of cash misappropriation are very high. All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments Oct 4, 2025 · Key Takeaways: Understand the definition and purpose of Vouching in auditing. Learn practical methods for vouching cash receipts and Cash Payments. Review examples of vouching petty cash, wages, and salaries.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 15
+    },
+    {
+     "unit_id": "case_09:C0008#0-948",
+     "artifact_id": "case_09:C0008",
+     "start": 0,
+     "end": 948,
+     "text": "Mar 28, 2026 · The auditor should see that the payment of capital expenditure is properly authorised. He should examine the document pertaining to the purchase and ownership of the fixed assets. He should examine the invoices and the receipts obtained from the suppliers to ensure that payments have been made. The document provides guidance on procedures for vouching transactions in an audit. It outlines key points to examine for various types of transactions, including examining vouchers for proper authorization and accounting, ledger postings, relevant documentary evidence, and cutoff procedures. The document provides guidance on steps an auditor should take to properly voucher transactions during an audit. - Download as a PPTX, PDF or view online for free While vouching, the auditor should verify and satisfy himself that vouchers in the form of receipts, bills, invoices, cash memos etc., correspond with the entries in the cash book.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 8
+    },
+    {
+     "unit_id": "case_09:C0022#0-4173",
+     "artifact_id": "case_09:C0022",
+     "start": 0,
+     "end": 4173,
+     "text": "The opening balance of cash book can never be credited because cash of company cannot be in negative but the credit bank balance represents the overdraft account from bank or utilization of cash credit limit as sanctioned from bank. See full list on tutorialspoint.com Payment to creditors may be examined by the following − 1. Receipt issued by the creditors. 2. If the creditor is paid amount as full and final settlement, the balance amount, if any stands in the ledger account of the creditor; this amount should be credited to discount received. 3. If any advance payment is made to creditor that should be clearly... See full list on tutorialspoint.com Depending upon the adequacy of internal control system in an organization Auditor will decide his audit Program. It is very important for Auditor to check the following − 1. Attendance record of employee and salary register. 2. Appointment letter of new employees. 3. Comparison of current month salary with last month’s salary and if there is any ab... See full list on tutorialspoint.com At the time of vouching of wages paid, the Auditor should verify the following points to avoid misappropriation of cash − 1. Adequacy of Internal Control System. 2. Payment of wages at higher rate than allowed. 3. Payment shown to ex-workers in the current month. 4. Lower or non-deduction of advance or other deductions due. 5. Payment to fictitious... See full list on tutorialspoint.com The Auditor should pay attention to the following − 1. Purchase invoice of machinery. 2. Freight inward charges, installation charges, erection and commissioning charges should be capitalized. 3. Treatment of Excise duty according to the excise rules. See full list on tutorialspoint.com Purchase of Land and Building can be vouched as follows − 1. Study of Lease hold agreement, if land is purchased on lease hold basis. 2. Payment should be as per lease term. 3. All the expenses incurred to acquire lease hold property should be debited to respective property account. 4. Auditor should study the conveyance deeds in case property is p... See full list on tutorialspoint.com Consider the following points for the verification of rent by the auditor − 1. Rent Deed. 2. Rent receipt from Land lord. 3. Provision for un-paid rent at the end of the year. See full list on tutorialspoint.com Consider the following points for the verification of Insurance Premium − 1. Insurance policy issued by the Insurance Company. 2. Insurance premium receipt 3. Insurance premium should not be related to any official of the company. See full list on tutorialspoint.com Consider the following for the verification of Income − 1. Advance Tax Challan 2. Self-Assessment Tax challan 3. Income Tax demand notice 4. Assessment order See full list on tutorialspoint.com Consider the following for the verification of Excise Duty − 1. Rate of Excise Duty 2. Excise records and sale invoice for verification of excise duty See full list on tutorialspoint.com All payments as far as possible, except for petty cash, should be made by cheques or online. If large amounts appear to have been paid in cash, contrary to the usual practice of the business, auditor must ascertain the circumstances in which it was considered necessary. All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments because chances of cash misappropriation are very high. Vouching of Cash Payments (Credit Side of Cash Book): All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments because chances of cash misappropriation are very high. All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments Oct 4, 2025 · Key Takeaways: Understand the definition and purpose of Vouching in auditing. Learn practical methods for vouching cash receipts and Cash Payments. Review examples of vouching petty cash, wages, and salaries.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 15
+    }
+   ],
+   "output": {
+    "text": "**Capital expenditure** — Ensure properly authorised; examine purchase invoice, ownership documents, freight/installation charges capitalised, etc.",
+    "sha256": "1b7283937dedbd3820beae377836ffff508bf3c916de4672888bdd82c092e60e",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "The earlier material states: Mar 28, 2026 · The auditor should see that the payment of capital expenditure is properly authorised. He should examine the document pertaining to the purchase and ownership of the fixed assets. He should examine the invoices and the receip",
+     "sha256": "e92a0f0970bedba1362addf404e2833c0dd44d3f3f663eac92ddd0fcb7ac0bb7",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_09:C0006#0-234",
+   "artifact_id": "case_09:C0006",
+   "start": 0,
+   "end": 234,
+   "text": "All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments because chances of cash misappropriation are very high.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_09:C0006#0-234",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_09:C0007#0-222",
+   "artifact_id": "case_09:C0007",
+   "start": 0,
+   "end": 222,
+   "text": "Oct 4, 2025 · Key Takeaways: Understand the definition and purpose of Vouching in auditing. Learn practical methods for vouching cash receipts and Cash Payments. Review examples of vouching petty cash, wages, and salaries.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_09:C0007#0-222",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_09:C0008#0-948",
+   "artifact_id": "case_09:C0008",
+   "start": 0,
+   "end": 948,
+   "text": "Mar 28, 2026 · The auditor should see that the payment of capital expenditure is properly authorised. He should examine the document pertaining to the purchase and ownership of the fixed assets. He should examine the invoices and the receipts obtained from the suppliers to ensure that payments have been made. The document provides guidance on procedures for vouching transactions in an audit. It outlines key points to examine for various types of transactions, including examining vouchers for proper authorization and accounting, ledger postings, relevant documentary evidence, and cutoff procedures. The document provides guidance on steps an auditor should take to properly voucher transactions during an audit. - Download as a PPTX, PDF or view online for free While vouching, the auditor should verify and satisfy himself that vouchers in the form of receipts, bills, invoices, cash memos etc., correspond with the entries in the cash book.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_09:C0008#0-948",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_09:C0008#0-948",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_09:C0009#0-293",
+   "artifact_id": "case_09:C0009",
+   "start": 0,
+   "end": 293,
+   "text": "The document provides guidance on procedures for vouching transactions in an audit. It outlines key points to examine for various types of transactions, including examining vouchers for proper authorization and accounting, ledger postings, relevant documentary evidence, and cutoff procedures.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_09:C0009#0-293",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_09:C0010#0-162",
+   "artifact_id": "case_09:C0010",
+   "start": 0,
+   "end": 162,
+   "text": "The document provides guidance on steps an auditor should take to properly voucher transactions during an audit. - Download as a PPTX, PDF or view online for free",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_09:C0010#0-162",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_09:C0021#0-212",
+   "artifact_id": "case_09:C0021",
+   "start": 0,
+   "end": 212,
+   "text": "Vouching of Credit Side of Cash Book (or) Cash Payments. The auditor vouches cash payments with an objective to ensure that all cash payments pertaining to business activities are genuine and properly authorized.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_09:C0021#0-212",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_09:C0022#0-4173",
+   "artifact_id": "case_09:C0022",
+   "start": 0,
+   "end": 4173,
+   "text": "The opening balance of cash book can never be credited because cash of company cannot be in negative but the credit bank balance represents the overdraft account from bank or utilization of cash credit limit as sanctioned from bank. See full list on tutorialspoint.com Payment to creditors may be examined by the following − 1. Receipt issued by the creditors. 2. If the creditor is paid amount as full and final settlement, the balance amount, if any stands in the ledger account of the creditor; this amount should be credited to discount received. 3. If any advance payment is made to creditor that should be clearly... See full list on tutorialspoint.com Depending upon the adequacy of internal control system in an organization Auditor will decide his audit Program. It is very important for Auditor to check the following − 1. Attendance record of employee and salary register. 2. Appointment letter of new employees. 3. Comparison of current month salary with last month’s salary and if there is any ab... See full list on tutorialspoint.com At the time of vouching of wages paid, the Auditor should verify the following points to avoid misappropriation of cash − 1. Adequacy of Internal Control System. 2. Payment of wages at higher rate than allowed. 3. Payment shown to ex-workers in the current month. 4. Lower or non-deduction of advance or other deductions due. 5. Payment to fictitious... See full list on tutorialspoint.com The Auditor should pay attention to the following − 1. Purchase invoice of machinery. 2. Freight inward charges, installation charges, erection and commissioning charges should be capitalized. 3. Treatment of Excise duty according to the excise rules. See full list on tutorialspoint.com Purchase of Land and Building can be vouched as follows − 1. Study of Lease hold agreement, if land is purchased on lease hold basis. 2. Payment should be as per lease term. 3. All the expenses incurred to acquire lease hold property should be debited to respective property account. 4. Auditor should study the conveyance deeds in case property is p... See full list on tutorialspoint.com Consider the following points for the verification of rent by the auditor − 1. Rent Deed. 2. Rent receipt from Land lord. 3. Provision for un-paid rent at the end of the year. See full list on tutorialspoint.com Consider the following points for the verification of Insurance Premium − 1. Insurance policy issued by the Insurance Company. 2. Insurance premium receipt 3. Insurance premium should not be related to any official of the company. See full list on tutorialspoint.com Consider the following for the verification of Income − 1. Advance Tax Challan 2. Self-Assessment Tax challan 3. Income Tax demand notice 4. Assessment order See full list on tutorialspoint.com Consider the following for the verification of Excise Duty − 1. Rate of Excise Duty 2. Excise records and sale invoice for verification of excise duty See full list on tutorialspoint.com All payments as far as possible, except for petty cash, should be made by cheques or online. If large amounts appear to have been paid in cash, contrary to the usual practice of the business, auditor must ascertain the circumstances in which it was considered necessary. All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments because chances of cash misappropriation are very high. Vouching of Cash Payments (Credit Side of Cash Book): All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments because chances of cash misappropriation are very high. All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments Oct 4, 2025 · Key Takeaways: Understand the definition and purpose of Vouching in auditing. Learn practical methods for vouching cash receipts and Cash Payments. Review examples of vouching petty cash, wages, and salaries.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_09:C0022#0-4173",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_09:C0022#0-4173",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_09:C0023#0-270",
+   "artifact_id": "case_09:C0023",
+   "start": 0,
+   "end": 270,
+   "text": "All payments as far as possible, except for petty cash, should be made by cheques or online. If large amounts appear to have been paid in cash, contrary to the usual practice of the business, auditor must ascertain the circumstances in which it was considered necessary.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_09:C0023#0-270",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_09:C0024#0-234",
+   "artifact_id": "case_09:C0024",
+   "start": 0,
+   "end": 234,
+   "text": "All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments because chances of cash misappropriation are very high.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_09:C0024#0-234",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_09:C0025#0-288",
+   "artifact_id": "case_09:C0025",
+   "start": 0,
+   "end": 288,
+   "text": "Vouching of Cash Payments (Credit Side of Cash Book): All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments because chances of cash misappropriation are very high.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_09:C0025#0-288",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_09:T06:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_09:C0008",
+      "start": 0,
+      "end": 948,
+      "text": "Mar 28, 2026 · The auditor should see that the payment of capital expenditure is properly authorised. He should examine the document pertaining to the purchase and ownership of the fixed assets. He should examine the invoices and the receipts obtained from the suppliers to ensure that payments have been made. The document provides guidance on procedures for vouching transactions in an audit. It outlines key points to examine for various types of transactions, including examining vouchers for proper authorization and accounting, ledger postings, relevant documentary evidence, and cutoff procedures. The document provides guidance on steps an auditor should take to properly voucher transactions during an audit. - Download as a PPTX, PDF or view online for free While vouching, the auditor should verify and satisfy himself that vouchers in the form of receipts, bills, invoices, cash memos etc., correspond with the entries in the cash book."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_09:C0008",
+       "start": 0,
+       "end": 948,
+       "text": "Mar 28, 2026 · The auditor should see that the payment of capital expenditure is properly authorised. He should examine the document pertaining to the purchase and ownership of the fixed assets. He should examine the invoices and the receipts obtained from the suppliers to ensure that payments have been made. The document provides guidance on procedures for vouching transactions in an audit. It outlines key points to examine for various types of transactions, including examining vouchers for proper authorization and accounting, ledger postings, relevant documentary evidence, and cutoff procedures. The document provides guidance on steps an auditor should take to properly voucher transactions during an audit. - Download as a PPTX, PDF or view online for free While vouching, the auditor should verify and satisfy himself that vouchers in the form of receipts, bills, invoices, cash memos etc., correspond with the entries in the cash book."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_09:C0008",
+      "start": 0,
+      "end": 948,
+      "text": "Mar 28, 2026 · The auditor should see that the payment of capital expenditure is properly authorised. He should examine the document pertaining to the purchase and ownership of the fixed assets. He should examine the invoices and the receipts obtained from the suppliers to ensure that payments have been made. The document provides guidance on procedures for vouching transactions in an audit. It outlines key points to examine for various types of transactions, including examining vouchers for proper authorization and accounting, ledger postings, relevant documentary evidence, and cutoff procedures. The document provides guidance on steps an auditor should take to properly voucher transactions during an audit. - Download as a PPTX, PDF or view online for free While vouching, the auditor should verify and satisfy himself that vouchers in the form of receipts, bills, invoices, cash memos etc., correspond with the entries in the cash book."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_09:C0008",
+       "start": 0,
+       "end": 948,
+       "text": "Mar 28, 2026 · The auditor should see that the payment of capital expenditure is properly authorised. He should examine the document pertaining to the purchase and ownership of the fixed assets. He should examine the invoices and the receipts obtained from the suppliers to ensure that payments have been made. The document provides guidance on procedures for vouching transactions in an audit. It outlines key points to examine for various types of transactions, including examining vouchers for proper authorization and accounting, ledger postings, relevant documentary evidence, and cutoff procedures. The document provides guidance on steps an auditor should take to properly voucher transactions during an audit. - Download as a PPTX, PDF or view online for free While vouching, the auditor should verify and satisfy himself that vouchers in the form of receipts, bills, invoices, cash memos etc., correspond with the entries in the cash book."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_09:C0022",
+      "start": 0,
+      "end": 4173,
+      "text": "The opening balance of cash book can never be credited because cash of company cannot be in negative but the credit bank balance represents the overdraft account from bank or utilization of cash credit limit as sanctioned from bank. See full list on tutorialspoint.com Payment to creditors may be examined by the following − 1. Receipt issued by the creditors. 2. If the creditor is paid amount as full and final settlement, the balance amount, if any stands in the ledger account of the creditor; this amount should be credited to discount received. 3. If any advance payment is made to creditor that should be clearly... See full list on tutorialspoint.com Depending upon the adequacy of internal control system in an organization Auditor will decide his audit Program. It is very important for Auditor to check the following − 1. Attendance record of employee and salary register. 2. Appointment letter of new employees. 3. Comparison of current month salary with last month’s salary and if there is any ab... See full list on tutorialspoint.com At the time of vouching of wages paid, the Auditor should verify the following points to avoid misappropriation of cash − 1. Adequacy of Internal Control System. 2. Payment of wages at higher rate than allowed. 3. Payment shown to ex-workers in the current month. 4. Lower or non-deduction of advance or other deductions due. 5. Payment to fictitious... See full list on tutorialspoint.com The Auditor should pay attention to the following − 1. Purchase invoice of machinery. 2. Freight inward charges, installation charges, erection and commissioning charges should be capitalized. 3. Treatment of Excise duty according to the excise rules. See full list on tutorialspoint.com Purchase of Land and Building can be vouched as follows − 1. Study of Lease hold agreement, if land is purchased on lease hold basis. 2. Payment should be as per lease term. 3. All the expenses incurred to acquire lease hold property should be debited to respective property account. 4. Auditor should study the conveyance deeds in case property is p... See full list on tutorialspoint.com Consider the following points for the verification of rent by the auditor − 1. Rent Deed. 2. Rent receipt from Land lord. 3. Provision for un-paid rent at the end of the year. See full list on tutorialspoint.com Consider the following points for the verification of Insurance Premium − 1. Insurance policy issued by the Insurance Company. 2. Insurance premium receipt 3. Insurance premium should not be related to any official of the company. See full list on tutorialspoint.com Consider the following for the verification of Income − 1. Advance Tax Challan 2. Self-Assessment Tax challan 3. Income Tax demand notice 4. Assessment order See full list on tutorialspoint.com Consider the following for the verification of Excise Duty − 1. Rate of Excise Duty 2. Excise records and sale invoice for verification of excise duty See full list on tutorialspoint.com All payments as far as possible, except for petty cash, should be made by cheques or online. If large amounts appear to have been paid in cash, contrary to the usual practice of the business, auditor must ascertain the circumstances in which it was considered necessary. All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments because chances of cash misappropriation are very high. Vouching of Cash Payments (Credit Side of Cash Book): All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments because chances of cash misappropriation are very high. All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments Oct 4, 2025 · Key Takeaways: Understand the definition and purpose of Vouching in auditing. Learn practical methods for vouching cash receipts and Cash Payments. Review examples of vouching petty cash, wages, and salaries."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_09:C0022",
+       "start": 0,
+       "end": 4173,
+       "text": "The opening balance of cash book can never be credited because cash of company cannot be in negative but the credit bank balance represents the overdraft account from bank or utilization of cash credit limit as sanctioned from bank. See full list on tutorialspoint.com Payment to creditors may be examined by the following − 1. Receipt issued by the creditors. 2. If the creditor is paid amount as full and final settlement, the balance amount, if any stands in the ledger account of the creditor; this amount should be credited to discount received. 3. If any advance payment is made to creditor that should be clearly... See full list on tutorialspoint.com Depending upon the adequacy of internal control system in an organization Auditor will decide his audit Program. It is very important for Auditor to check the following − 1. Attendance record of employee and salary register. 2. Appointment letter of new employees. 3. Comparison of current month salary with last month’s salary and if there is any ab... See full list on tutorialspoint.com At the time of vouching of wages paid, the Auditor should verify the following points to avoid misappropriation of cash − 1. Adequacy of Internal Control System. 2. Payment of wages at higher rate than allowed. 3. Payment shown to ex-workers in the current month. 4. Lower or non-deduction of advance or other deductions due. 5. Payment to fictitious... See full list on tutorialspoint.com The Auditor should pay attention to the following − 1. Purchase invoice of machinery. 2. Freight inward charges, installation charges, erection and commissioning charges should be capitalized. 3. Treatment of Excise duty according to the excise rules. See full list on tutorialspoint.com Purchase of Land and Building can be vouched as follows − 1. Study of Lease hold agreement, if land is purchased on lease hold basis. 2. Payment should be as per lease term. 3. All the expenses incurred to acquire lease hold property should be debited to respective property account. 4. Auditor should study the conveyance deeds in case property is p... See full list on tutorialspoint.com Consider the following points for the verification of rent by the auditor − 1. Rent Deed. 2. Rent receipt from Land lord. 3. Provision for un-paid rent at the end of the year. See full list on tutorialspoint.com Consider the following points for the verification of Insurance Premium − 1. Insurance policy issued by the Insurance Company. 2. Insurance premium receipt 3. Insurance premium should not be related to any official of the company. See full list on tutorialspoint.com Consider the following for the verification of Income − 1. Advance Tax Challan 2. Self-Assessment Tax challan 3. Income Tax demand notice 4. Assessment order See full list on tutorialspoint.com Consider the following for the verification of Excise Duty − 1. Rate of Excise Duty 2. Excise records and sale invoice for verification of excise duty See full list on tutorialspoint.com All payments as far as possible, except for petty cash, should be made by cheques or online. If large amounts appear to have been paid in cash, contrary to the usual practice of the business, auditor must ascertain the circumstances in which it was considered necessary. All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments because chances of cash misappropriation are very high. Vouching of Cash Payments (Credit Side of Cash Book): All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments because chances of cash misappropriation are very high. All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments Oct 4, 2025 · Key Takeaways: Understand the definition and purpose of Vouching in auditing. Learn practical methods for vouching cash receipts and Cash Payments. Review examples of vouching petty cash, wages, and salaries."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_09:C0022",
+      "start": 0,
+      "end": 4173,
+      "text": "The opening balance of cash book can never be credited because cash of company cannot be in negative but the credit bank balance represents the overdraft account from bank or utilization of cash credit limit as sanctioned from bank. See full list on tutorialspoint.com Payment to creditors may be examined by the following − 1. Receipt issued by the creditors. 2. If the creditor is paid amount as full and final settlement, the balance amount, if any stands in the ledger account of the creditor; this amount should be credited to discount received. 3. If any advance payment is made to creditor that should be clearly... See full list on tutorialspoint.com Depending upon the adequacy of internal control system in an organization Auditor will decide his audit Program. It is very important for Auditor to check the following − 1. Attendance record of employee and salary register. 2. Appointment letter of new employees. 3. Comparison of current month salary with last month’s salary and if there is any ab... See full list on tutorialspoint.com At the time of vouching of wages paid, the Auditor should verify the following points to avoid misappropriation of cash − 1. Adequacy of Internal Control System. 2. Payment of wages at higher rate than allowed. 3. Payment shown to ex-workers in the current month. 4. Lower or non-deduction of advance or other deductions due. 5. Payment to fictitious... See full list on tutorialspoint.com The Auditor should pay attention to the following − 1. Purchase invoice of machinery. 2. Freight inward charges, installation charges, erection and commissioning charges should be capitalized. 3. Treatment of Excise duty according to the excise rules. See full list on tutorialspoint.com Purchase of Land and Building can be vouched as follows − 1. Study of Lease hold agreement, if land is purchased on lease hold basis. 2. Payment should be as per lease term. 3. All the expenses incurred to acquire lease hold property should be debited to respective property account. 4. Auditor should study the conveyance deeds in case property is p... See full list on tutorialspoint.com Consider the following points for the verification of rent by the auditor − 1. Rent Deed. 2. Rent receipt from Land lord. 3. Provision for un-paid rent at the end of the year. See full list on tutorialspoint.com Consider the following points for the verification of Insurance Premium − 1. Insurance policy issued by the Insurance Company. 2. Insurance premium receipt 3. Insurance premium should not be related to any official of the company. See full list on tutorialspoint.com Consider the following for the verification of Income − 1. Advance Tax Challan 2. Self-Assessment Tax challan 3. Income Tax demand notice 4. Assessment order See full list on tutorialspoint.com Consider the following for the verification of Excise Duty − 1. Rate of Excise Duty 2. Excise records and sale invoice for verification of excise duty See full list on tutorialspoint.com All payments as far as possible, except for petty cash, should be made by cheques or online. If large amounts appear to have been paid in cash, contrary to the usual practice of the business, auditor must ascertain the circumstances in which it was considered necessary. All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments because chances of cash misappropriation are very high. Vouching of Cash Payments (Credit Side of Cash Book): All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments because chances of cash misappropriation are very high. All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments Oct 4, 2025 · Key Takeaways: Understand the definition and purpose of Vouching in auditing. Learn practical methods for vouching cash receipts and Cash Payments. Review examples of vouching petty cash, wages, and salaries."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_09:C0022",
+       "start": 0,
+       "end": 4173,
+       "text": "The opening balance of cash book can never be credited because cash of company cannot be in negative but the credit bank balance represents the overdraft account from bank or utilization of cash credit limit as sanctioned from bank. See full list on tutorialspoint.com Payment to creditors may be examined by the following − 1. Receipt issued by the creditors. 2. If the creditor is paid amount as full and final settlement, the balance amount, if any stands in the ledger account of the creditor; this amount should be credited to discount received. 3. If any advance payment is made to creditor that should be clearly... See full list on tutorialspoint.com Depending upon the adequacy of internal control system in an organization Auditor will decide his audit Program. It is very important for Auditor to check the following − 1. Attendance record of employee and salary register. 2. Appointment letter of new employees. 3. Comparison of current month salary with last month’s salary and if there is any ab... See full list on tutorialspoint.com At the time of vouching of wages paid, the Auditor should verify the following points to avoid misappropriation of cash − 1. Adequacy of Internal Control System. 2. Payment of wages at higher rate than allowed. 3. Payment shown to ex-workers in the current month. 4. Lower or non-deduction of advance or other deductions due. 5. Payment to fictitious... See full list on tutorialspoint.com The Auditor should pay attention to the following − 1. Purchase invoice of machinery. 2. Freight inward charges, installation charges, erection and commissioning charges should be capitalized. 3. Treatment of Excise duty according to the excise rules. See full list on tutorialspoint.com Purchase of Land and Building can be vouched as follows − 1. Study of Lease hold agreement, if land is purchased on lease hold basis. 2. Payment should be as per lease term. 3. All the expenses incurred to acquire lease hold property should be debited to respective property account. 4. Auditor should study the conveyance deeds in case property is p... See full list on tutorialspoint.com Consider the following points for the verification of rent by the auditor − 1. Rent Deed. 2. Rent receipt from Land lord. 3. Provision for un-paid rent at the end of the year. See full list on tutorialspoint.com Consider the following points for the verification of Insurance Premium − 1. Insurance policy issued by the Insurance Company. 2. Insurance premium receipt 3. Insurance premium should not be related to any official of the company. See full list on tutorialspoint.com Consider the following for the verification of Income − 1. Advance Tax Challan 2. Self-Assessment Tax challan 3. Income Tax demand notice 4. Assessment order See full list on tutorialspoint.com Consider the following for the verification of Excise Duty − 1. Rate of Excise Duty 2. Excise records and sale invoice for verification of excise duty See full list on tutorialspoint.com All payments as far as possible, except for petty cash, should be made by cheques or online. If large amounts appear to have been paid in cash, contrary to the usual practice of the business, auditor must ascertain the circumstances in which it was considered necessary. All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments because chances of cash misappropriation are very high. Vouching of Cash Payments (Credit Side of Cash Book): All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments because chances of cash misappropriation are very high. All the payment made to creditors, expenses incurred in cash and all other payments done appear on the credit side of cash book and the Auditor is required to vouch cash payments Oct 4, 2025 · Key Takeaways: Understand the definition and purpose of Vouching in auditing. Learn practical methods for vouching cash receipts and Cash Payments. Review examples of vouching petty cash, wages, and salaries."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_09:C0008#0-948"
+  ],
+  "B": [
+   "case_09:C0022#0-4173"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T06",
+   "case": "case_09",
+   "question": "what is vouching how would you vouch the cash book",
+   "target_event": 16,
+   "target_start": 4557,
+   "target_end": 4704,
+   "target": "**Capital expenditure** — Ensure properly authorised; examine purchase invoice, ownership documents, freight/installation charges capitalised, etc.",
+   "candidate_ids": [
+    "C0006",
+    "C0007",
+    "C0008",
+    "C0009",
+    "C0010",
+    "C0021",
+    "C0022",
+    "C0023",
+    "C0024",
+    "C0025"
+   ],
+   "annotation_status": "model_annotated_pending_human_review"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0008",
+     "start": 0,
+     "end": 102,
+     "text": "Mar 28, 2026 · The auditor should see that the payment of capital expenditure is properly authorised. "
+    },
+    {
+     "candidate_id": "C0008",
+     "start": 102,
+     "end": 195,
+     "text": "He should examine the document pertaining to the purchase and ownership of the fixed assets. "
+    },
+    {
+     "candidate_id": "C0022",
+     "start": 1494,
+     "end": 1525,
+     "text": "Purchase invoice of machinery. "
+    },
+    {
+     "candidate_id": "C0022",
+     "start": 1528,
+     "end": 1632,
+     "text": "Freight inward charges, installation charges, erection and commissioning charges should be capitalized. "
+    }
+   ]
+  },
+  "intermediate_origin": "controlled",
+  "intermediate_event": null,
+  "time_order_audit": [
+   {
+    "round": 1,
+    "event": 8,
+    "cut": 16,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 8,
+    "cut": 16,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 8,
+    "cut": 16,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 8,
+    "cut": 16,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 8,
+    "cut": 16,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 15,
+    "cut": 16,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 15,
+    "cut": 16,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 15,
+    "cut": 16,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 15,
+    "cut": 16,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 15,
+    "cut": 16,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 8,
+    "cut": 16,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 15,
+    "cut": 16,
+    "ok": true
+   }
+  ],
+  "note": "time-order checked for evidence and distractors"
+ }
+}

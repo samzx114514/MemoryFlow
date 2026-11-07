@@ -1,0 +1,993 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_34:T06",
+ "trajectory_id": "case_34",
+ "trajectory_case": "case_34",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "Hagar was consistently on Geffen Records during the period surrounding 5150 (1982-1987)",
+  "sha256": "a549b065179451e98a31cb678c3feefb15ac3f61bdd451a1bad8ccc5166d7798",
+  "origin": "recorded_target",
+  "artifact_id": "case_34:T06",
+  "start": 0,
+  "end": 87,
+  "original_target": {
+   "text": "Hagar was consistently on Geffen Records during the period surrounding 5150 (1982-1987)",
+   "artifact_id": "case_34:T06"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "What is the record label for the new lead singer for Van Halen on 5150?",
+   "inputs": [
+    {
+     "unit_id": "case_34:C0021#0-172",
+     "artifact_id": "case_34:C0021",
+     "start": 0,
+     "end": 172,
+     "text": "VOA is the eighth studio album by American rock musician Sammy Hagar, released on July 23, 1984, by Geffen Records. It was Hagar's last solo album before joining Van Halen.",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 11
+    },
+    {
+     "unit_id": "case_34:C0001#0-231",
+     "artifact_id": "case_34:C0001",
+     "start": 0,
+     "end": 231,
+     "text": "5150 is the seventh studio album by American rock band Van Halen. It was released on March 24, 1986, by Warner Bros. Records and was the first of four albums to be recorded with lead singer Sammy Hagar, who replaced David Lee Roth.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_34:C0002#0-174",
+     "artifact_id": "case_34:C0002",
+     "start": 0,
+     "end": 174,
+     "text": "5150 was Van Halen’s seventh album. It took three and a half months to record and was released on March 24th, 86.The album introduced the band’s new lead singer, Sammy Hagar.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_34:C0003#0-252",
+     "artifact_id": "case_34:C0003",
+     "start": 0,
+     "end": 252,
+     "text": "It was the first of four albums to be recorded with new lead singer Sammy Hagar, who replaced David Lee Roth. It was named after Eddie Van Halen's home studio 5150, itself named after a California law enforcement term for a mentally disturbed person...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_34:C0004#0-240",
+     "artifact_id": "case_34:C0004",
+     "start": 0,
+     "end": 240,
+     "text": "The record introduced Sammy Hagar as the band’s new singer, and ushered in a new era for the band sonically.Celebrating its 40th anniversary in March 2026, 5150 is the first of four albums recorded by Van Halen with lead singer Sammy Hagar.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_34:C0005#0-193",
+     "artifact_id": "case_34:C0005",
+     "start": 0,
+     "end": 193,
+     "text": "Forty years ago, Van Halen released their seventh studio album, 5150, which was their first record with new lead singer Sammy Hagar, following the departure of original frontman David Lee Roth.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 3
+    },
+    {
+     "unit_id": "case_34:C0011#0-196",
+     "artifact_id": "case_34:C0011",
+     "start": 0,
+     "end": 196,
+     "text": "Sammy Hagar is an American musician and songwriter with a music career spanning over 40 years. [1] He rose to prominence during the early 1970s as the lead vocalist of the hard rock band Montrose.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_34:C0012#0-190",
+     "artifact_id": "case_34:C0012",
+     "start": 0,
+     "end": 190,
+     "text": "Hagar left Capitol for the newly formed Geffen Records and made some personnel changes, including enlisting long-time friend and former Justice Brothers bandmate David Lauser as his drummer.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_34:C0013#0-1061",
+     "artifact_id": "case_34:C0013",
+     "start": 0,
+     "end": 1061,
+     "text": "Explore Sammy Hagar's biography, discography, and artist credits. Shop rare vinyl records, top albums, and more on Discogs. Hagar left Capitol for the newly formed Geffen Records and made some personnel changes, including enlisting long-time friend and former Justice Brothers bandmate David Lauser as his drummer. Sammy Hagar's discography encompasses a prolific body of work spanning over five decades, including 17 solo studio albums released from 1976 to 2014, as well as key contributions to bands like Montros The band was put together for Sammy to celebrate his legendary 50+ year catalog of hits, including the deepest dive yet into his and Michael Anthony's tenure with Van Halen. Explore the tracklist, credits, statistics, and more for Sammy Hagar by Sammy Hagar. Compare versions and buy on Discogs. If you notice that a particular Sammy Hagar CD release or compilation is missing from the list above, please submit that CD using the CD submission page. The ultimate goal is to make the discographies here at Heavy Harmonies as complete as possible.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 6
+    }
+   ],
+   "output": {
+    "text": "The earlier material states: VOA is the eighth studio album by American rock musician Sammy Hagar, released on July 23, 1984, by Geffen Records. It was Hagar's last solo album before joining Van Halen.",
+    "sha256": "3f70575c023b03c5922e0533cef32c1850a735a6b2cd0463bc9969bc26ef1eeb",
+    "origin": "controlled"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "What is the record label for the new lead singer for Van Halen on 5150?",
+   "inputs": [
+    {
+     "unit_id": "case_34:C0029#0-194",
+     "artifact_id": "case_34:C0029",
+     "start": 0,
+     "end": 194,
+     "text": "Standing Hampton is the sixth studio album by American rock vocalist Sammy Hagar, released on January 6, 1982, [2] by Geffen. This is his first album after moving from Capitol Records to Geffen.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     },
+     "event": 12
+    },
+    {
+     "unit_id": "case_34:C0027#0-260",
+     "artifact_id": "case_34:C0027",
+     "start": 0,
+     "end": 260,
+     "text": "I Never Said Goodbye is the ninth studio album by American rock musician Sammy Hagar. The album was released on June 23, 1987 by Geffen Records. Released while Hagar was a member of Van Halen, I Never Said Goodbye was Hagar's first solo album since 1984's VOA.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     },
+     "event": 12
+    },
+    {
+     "unit_id": "case_34:C0014#0-200",
+     "artifact_id": "case_34:C0014",
+     "start": 0,
+     "end": 200,
+     "text": "Sammy Hagar's discography encompasses a prolific body of work spanning over five decades, including 17 solo studio albums released from 1976 to 2014, as well as key contributions to bands like Montros",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_34:C0015#0-173",
+     "artifact_id": "case_34:C0015",
+     "start": 0,
+     "end": 173,
+     "text": "The band was put together for Sammy to celebrate his legendary 50+ year catalog of hits, including the deepest dive yet into his and Michael Anthony's tenure with Van Halen.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     },
+     "event": 6
+    },
+    {
+     "unit_id": "case_34:C0016#0-231",
+     "artifact_id": "case_34:C0016",
+     "start": 0,
+     "end": 231,
+     "text": "5150 is the seventh studio album by American rock band Van Halen. It was released on March 24, 1986, by Warner Bros. Records and was the first of four albums to be recorded with lead singer Sammy Hagar, who replaced David Lee Roth.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_34:C0017#0-222",
+     "artifact_id": "case_34:C0017",
+     "start": 0,
+     "end": 222,
+     "text": "Van Halen - 5150 album cover. More images. Label: Warner Bros. Records. – W 5150Printed on inner sleeve: © 1986 Yessup Music Company ASCAP © 1986 Warner Bros. Records Inc. NO SLM or Allied parts used to press this version.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_34:C0018#0-137",
+     "artifact_id": "case_34:C0018",
+     "start": 0,
+     "end": 137,
+     "text": "Van Halen 5150 Vinyl Lp Records Mick Jones&Don Landee Warner - Picture 2 of 4.Get ready to rock with this Van Halen 5150 vinyl LP record!",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_34:C0019#0-50",
+     "artifact_id": "case_34:C0019",
+     "start": 0,
+     "end": 50,
+     "text": "Find great deals on eBay for Van Halen 5150 Vinyl.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     },
+     "event": 7
+    },
+    {
+     "unit_id": "case_34:C0020#0-197",
+     "artifact_id": "case_34:C0020",
+     "start": 0,
+     "end": 197,
+     "text": "In honor of the iconic record’s anniversary, here are 20 things you might not know about it: 1. Since David Lee Roth was no longer in the band, before 5150 came out, Van Halen’s label, Warner Bros.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     },
+     "event": 7
+    }
+   ],
+   "output": {
+    "text": "Hagar was consistently on Geffen Records during the period surrounding 5150 (1982-1987)",
+    "sha256": "a549b065179451e98a31cb678c3feefb15ac3f61bdd451a1bad8ccc5166d7798",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "The earlier material states: VOA is the eighth studio album by American rock musician Sammy Hagar, released on July 23, 1984, by Geffen Records. It was Hagar's last solo album before joining Van Halen.",
+     "sha256": "3f70575c023b03c5922e0533cef32c1850a735a6b2cd0463bc9969bc26ef1eeb",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_34:C0001#0-231",
+   "artifact_id": "case_34:C0001",
+   "start": 0,
+   "end": 231,
+   "text": "5150 is the seventh studio album by American rock band Van Halen. It was released on March 24, 1986, by Warner Bros. Records and was the first of four albums to be recorded with lead singer Sammy Hagar, who replaced David Lee Roth.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_34:C0001#0-231",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_34:C0002#0-174",
+   "artifact_id": "case_34:C0002",
+   "start": 0,
+   "end": 174,
+   "text": "5150 was Van Halen’s seventh album. It took three and a half months to record and was released on March 24th, 86.The album introduced the band’s new lead singer, Sammy Hagar.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_34:C0002#0-174",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_34:C0003#0-252",
+   "artifact_id": "case_34:C0003",
+   "start": 0,
+   "end": 252,
+   "text": "It was the first of four albums to be recorded with new lead singer Sammy Hagar, who replaced David Lee Roth. It was named after Eddie Van Halen's home studio 5150, itself named after a California law enforcement term for a mentally disturbed person...",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_34:C0003#0-252",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_34:C0004#0-240",
+   "artifact_id": "case_34:C0004",
+   "start": 0,
+   "end": 240,
+   "text": "The record introduced Sammy Hagar as the band’s new singer, and ushered in a new era for the band sonically.Celebrating its 40th anniversary in March 2026, 5150 is the first of four albums recorded by Van Halen with lead singer Sammy Hagar.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_34:C0004#0-240",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_34:C0005#0-193",
+   "artifact_id": "case_34:C0005",
+   "start": 0,
+   "end": 193,
+   "text": "Forty years ago, Van Halen released their seventh studio album, 5150, which was their first record with new lead singer Sammy Hagar, following the departure of original frontman David Lee Roth.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_34:C0005#0-193",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_34:C0011#0-196",
+   "artifact_id": "case_34:C0011",
+   "start": 0,
+   "end": 196,
+   "text": "Sammy Hagar is an American musician and songwriter with a music career spanning over 40 years. [1] He rose to prominence during the early 1970s as the lead vocalist of the hard rock band Montrose.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_34:C0011#0-196",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_34:C0012#0-190",
+   "artifact_id": "case_34:C0012",
+   "start": 0,
+   "end": 190,
+   "text": "Hagar left Capitol for the newly formed Geffen Records and made some personnel changes, including enlisting long-time friend and former Justice Brothers bandmate David Lauser as his drummer.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_34:C0012#0-190",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_34:C0013#0-1061",
+   "artifact_id": "case_34:C0013",
+   "start": 0,
+   "end": 1061,
+   "text": "Explore Sammy Hagar's biography, discography, and artist credits. Shop rare vinyl records, top albums, and more on Discogs. Hagar left Capitol for the newly formed Geffen Records and made some personnel changes, including enlisting long-time friend and former Justice Brothers bandmate David Lauser as his drummer. Sammy Hagar's discography encompasses a prolific body of work spanning over five decades, including 17 solo studio albums released from 1976 to 2014, as well as key contributions to bands like Montros The band was put together for Sammy to celebrate his legendary 50+ year catalog of hits, including the deepest dive yet into his and Michael Anthony's tenure with Van Halen. Explore the tracklist, credits, statistics, and more for Sammy Hagar by Sammy Hagar. Compare versions and buy on Discogs. If you notice that a particular Sammy Hagar CD release or compilation is missing from the list above, please submit that CD using the CD submission page. The ultimate goal is to make the discographies here at Heavy Harmonies as complete as possible.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_34:C0013#0-1061",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_34:C0014#0-200",
+   "artifact_id": "case_34:C0014",
+   "start": 0,
+   "end": 200,
+   "text": "Sammy Hagar's discography encompasses a prolific body of work spanning over five decades, including 17 solo studio albums released from 1976 to 2014, as well as key contributions to bands like Montros",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_34:C0014#0-200",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_34:C0015#0-173",
+   "artifact_id": "case_34:C0015",
+   "start": 0,
+   "end": 173,
+   "text": "The band was put together for Sammy to celebrate his legendary 50+ year catalog of hits, including the deepest dive yet into his and Michael Anthony's tenure with Van Halen.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_34:C0015#0-173",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_34:C0016#0-231",
+   "artifact_id": "case_34:C0016",
+   "start": 0,
+   "end": 231,
+   "text": "5150 is the seventh studio album by American rock band Van Halen. It was released on March 24, 1986, by Warner Bros. Records and was the first of four albums to be recorded with lead singer Sammy Hagar, who replaced David Lee Roth.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_34:C0016#0-231",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_34:C0017#0-222",
+   "artifact_id": "case_34:C0017",
+   "start": 0,
+   "end": 222,
+   "text": "Van Halen - 5150 album cover. More images. Label: Warner Bros. Records. – W 5150Printed on inner sleeve: © 1986 Yessup Music Company ASCAP © 1986 Warner Bros. Records Inc. NO SLM or Allied parts used to press this version.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_34:C0017#0-222",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_34:C0018#0-137",
+   "artifact_id": "case_34:C0018",
+   "start": 0,
+   "end": 137,
+   "text": "Van Halen 5150 Vinyl Lp Records Mick Jones&Don Landee Warner - Picture 2 of 4.Get ready to rock with this Van Halen 5150 vinyl LP record!",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_34:C0018#0-137",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_34:C0019#0-50",
+   "artifact_id": "case_34:C0019",
+   "start": 0,
+   "end": 50,
+   "text": "Find great deals on eBay for Van Halen 5150 Vinyl.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_34:C0019#0-50",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_34:C0020#0-197",
+   "artifact_id": "case_34:C0020",
+   "start": 0,
+   "end": 197,
+   "text": "In honor of the iconic record’s anniversary, here are 20 things you might not know about it: 1. Since David Lee Roth was no longer in the band, before 5150 came out, Van Halen’s label, Warner Bros.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_34:C0020#0-197",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_34:C0021#0-172",
+   "artifact_id": "case_34:C0021",
+   "start": 0,
+   "end": 172,
+   "text": "VOA is the eighth studio album by American rock musician Sammy Hagar, released on July 23, 1984, by Geffen Records. It was Hagar's last solo album before joining Van Halen.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_34:C0021#0-172",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_34:C0022#0-1084",
+   "artifact_id": "case_34:C0022",
+   "start": 0,
+   "end": 1084,
+   "text": "Manufactured by Columbia House under license. Includes printed innersleeve containing band photo and credits with solo portrait on flipside. View credits, reviews, tracks and shop for the 1984 Vinyl release of \"VOA\" on Discogs. Originally released on vinyl, tape & CD in 1984. View credits, reviews, tracks and shop for the 1984 CD release of \"VOA\" on Discogs. VOA is the eighth studio album by American rock musician Sammy Hagar, released on July 23, 1984, by Geffen Records. [1] Produced by Ted Templeman, it marked Hagar's final solo release before joining Van Halen as lead vocalist in 1985. [2] VOA is the eighth studio album by American rock musician Sammy Hagar, released on July 23, 1984, by Geffen Records. It was Hagar's last solo album before joining Van Halen. The title is a reference to the Voice of America broadcast network. Dec 29, 2008 · Format: CD, Year: 1984, Label: Geffen Records (9 24043-2), Barcode: 720642404324, Length: 36:43 Dec 29, 2008 · made in West Germany, Format: CD, Year: 1984, Label: Geffen Records (9 24043-2), Barcode: 720642404324, Length: 36:43",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_34:C0023#0-856",
+   "artifact_id": "case_34:C0023",
+   "start": 0,
+   "end": 856,
+   "text": "Originally released on vinyl, tape & CD in 1984. View credits, reviews, tracks and shop for the 1984 CD release of \"VOA\" on Discogs. VOA is the eighth studio album by American rock musician Sammy Hagar, released on July 23, 1984, by Geffen Records. [1] Produced by Ted Templeman, it marked Hagar's final solo release before joining Van Halen as lead vocalist in 1985. [2] VOA is the eighth studio album by American rock musician Sammy Hagar, released on July 23, 1984, by Geffen Records. It was Hagar's last solo album before joining Van Halen. The title is a reference to the Voice of America broadcast network. Dec 29, 2008 · Format: CD, Year: 1984, Label: Geffen Records (9 24043-2), Barcode: 720642404324, Length: 36:43 Dec 29, 2008 · made in West Germany, Format: CD, Year: 1984, Label: Geffen Records (9 24043-2), Barcode: 720642404324, Length: 36:43",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_34:C0024#0-238",
+   "artifact_id": "case_34:C0024",
+   "start": 0,
+   "end": 238,
+   "text": "VOA is the eighth studio album by American rock musician Sammy Hagar, released on July 23, 1984, by Geffen Records. [1] Produced by Ted Templeman, it marked Hagar's final solo release before joining Van Halen as lead vocalist in 1985. [2]",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_34:C0025#0-240",
+   "artifact_id": "case_34:C0025",
+   "start": 0,
+   "end": 240,
+   "text": "VOA is the eighth studio album by American rock musician Sammy Hagar, released on July 23, 1984, by Geffen Records. It was Hagar's last solo album before joining Van Halen. The title is a reference to the Voice of America broadcast network.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_34:C0026#0-390",
+   "artifact_id": "case_34:C0026",
+   "start": 0,
+   "end": 390,
+   "text": "VOA is the eighth studio album by American rock musician Sammy Hagar, released on July 23, 1984, by Geffen Records. It was Hagar's last solo album before joining Van Halen. The title is a reference to the Voice of America broadcast network. [2] The album peaked at number 32 on the Billboard 200 album charts on December 15, 1984 and features the single \"I Can't Drive 55\", Hagar's most ...",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_34:C0027#0-260",
+   "artifact_id": "case_34:C0027",
+   "start": 0,
+   "end": 260,
+   "text": "I Never Said Goodbye is the ninth studio album by American rock musician Sammy Hagar. The album was released on June 23, 1987 by Geffen Records. Released while Hagar was a member of Van Halen, I Never Said Goodbye was Hagar's first solo album since 1984's VOA.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_34:C0027#0-260",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_34:C0028#0-212",
+   "artifact_id": "case_34:C0028",
+   "start": 0,
+   "end": 212,
+   "text": "The group was named Sammy Hagar and the Circle as according to Hagar, \"this band has kinda taken me full circle in my career\", featuring tracks from his solo hits, along with Montrose, Van Halen, and Chickenfoot.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_34:C0029#0-194",
+   "artifact_id": "case_34:C0029",
+   "start": 0,
+   "end": 194,
+   "text": "Standing Hampton is the sixth studio album by American rock vocalist Sammy Hagar, released on January 6, 1982, [2] by Geffen. This is his first album after moving from Capitol Records to Geffen.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_34:C0029#0-194",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_34:C0030#0-607",
+   "artifact_id": "case_34:C0030",
+   "start": 0,
+   "end": 607,
+   "text": "Explore Sammy Hagar's biography, discography, and artist credits. Shop rare vinyl records, top albums, and more on Discogs. Standing Hampton is the sixth studio album by American rock vocalist Sammy Hagar, released on January 6, 1982, [2] by Geffen. This is his first album after moving from Capitol Records to Geffen. SAMMY HAGAR VOA PROMO LP 1984 GEFFEN GHS 24043 Promotional Translucent Vinyl $15.00 0 bids 18h 49m Get the best deals on Geffen Sammy Hagar Vinyl Records when you shop the largest online selection at eBay.com. Free shipping on many items | Browse your favorite brands | affordable prices.",
+   "occurrences": [],
+   "pool_only": true
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_34:T06:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_34:C0029",
+      "start": 0,
+      "end": 194,
+      "text": "Standing Hampton is the sixth studio album by American rock vocalist Sammy Hagar, released on January 6, 1982, [2] by Geffen. This is his first album after moving from Capitol Records to Geffen."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_34:C0029",
+       "start": 0,
+       "end": 194,
+       "text": "Standing Hampton is the sixth studio album by American rock vocalist Sammy Hagar, released on January 6, 1982, [2] by Geffen. This is his first album after moving from Capitol Records to Geffen."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_34:C0021",
+      "start": 0,
+      "end": 172,
+      "text": "VOA is the eighth studio album by American rock musician Sammy Hagar, released on July 23, 1984, by Geffen Records. It was Hagar's last solo album before joining Van Halen."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_34:C0021",
+       "start": 0,
+       "end": 172,
+       "text": "VOA is the eighth studio album by American rock musician Sammy Hagar, released on July 23, 1984, by Geffen Records. It was Hagar's last solo album before joining Van Halen."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_34:C0027",
+      "start": 0,
+      "end": 260,
+      "text": "I Never Said Goodbye is the ninth studio album by American rock musician Sammy Hagar. The album was released on June 23, 1987 by Geffen Records. Released while Hagar was a member of Van Halen, I Never Said Goodbye was Hagar's first solo album since 1984's VOA."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_34:C0027",
+       "start": 0,
+       "end": 260,
+       "text": "I Never Said Goodbye is the ninth studio album by American rock musician Sammy Hagar. The album was released on June 23, 1987 by Geffen Records. Released while Hagar was a member of Van Halen, I Never Said Goodbye was Hagar's first solo album since 1984's VOA."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "group_id": "case_34:T06:support_g02",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_34:C0030",
+      "start": 0,
+      "end": 607,
+      "text": "Explore Sammy Hagar's biography, discography, and artist credits. Shop rare vinyl records, top albums, and more on Discogs. Standing Hampton is the sixth studio album by American rock vocalist Sammy Hagar, released on January 6, 1982, [2] by Geffen. This is his first album after moving from Capitol Records to Geffen. SAMMY HAGAR VOA PROMO LP 1984 GEFFEN GHS 24043 Promotional Translucent Vinyl $15.00 0 bids 18h 49m Get the best deals on Geffen Sammy Hagar Vinyl Records when you shop the largest online selection at eBay.com. Free shipping on many items | Browse your favorite brands | affordable prices."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_34:C0030",
+       "start": 0,
+       "end": 607,
+       "text": "Explore Sammy Hagar's biography, discography, and artist credits. Shop rare vinyl records, top albums, and more on Discogs. Standing Hampton is the sixth studio album by American rock vocalist Sammy Hagar, released on January 6, 1982, [2] by Geffen. This is his first album after moving from Capitol Records to Geffen. SAMMY HAGAR VOA PROMO LP 1984 GEFFEN GHS 24043 Promotional Translucent Vinyl $15.00 0 bids 18h 49m Get the best deals on Geffen Sammy Hagar Vinyl Records when you shop the largest online selection at eBay.com. Free shipping on many items | Browse your favorite brands | affordable prices."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_34:C0025",
+      "start": 0,
+      "end": 240,
+      "text": "VOA is the eighth studio album by American rock musician Sammy Hagar, released on July 23, 1984, by Geffen Records. It was Hagar's last solo album before joining Van Halen. The title is a reference to the Voice of America broadcast network."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_34:C0025",
+       "start": 0,
+       "end": 240,
+       "text": "VOA is the eighth studio album by American rock musician Sammy Hagar, released on July 23, 1984, by Geffen Records. It was Hagar's last solo album before joining Van Halen. The title is a reference to the Voice of America broadcast network."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_34:C0027",
+      "start": 0,
+      "end": 260,
+      "text": "I Never Said Goodbye is the ninth studio album by American rock musician Sammy Hagar. The album was released on June 23, 1987 by Geffen Records. Released while Hagar was a member of Van Halen, I Never Said Goodbye was Hagar's first solo album since 1984's VOA."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_34:C0027",
+       "start": 0,
+       "end": 260,
+       "text": "I Never Said Goodbye is the ninth studio album by American rock musician Sammy Hagar. The album was released on June 23, 1987 by Geffen Records. Released while Hagar was a member of Van Halen, I Never Said Goodbye was Hagar's first solo album since 1984's VOA."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_34:C0021#0-172"
+  ],
+  "B": [
+   "case_34:C0029#0-194"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T06",
+   "case": "case_34",
+   "question": "What is the record label for the new lead singer for Van Halen on 5150?",
+   "target_event": 13,
+   "target_start": 1143,
+   "target_end": 1230,
+   "target": "Hagar was consistently on Geffen Records during the period surrounding 5150 (1982-1987)",
+   "candidate_ids": [
+    "C0001",
+    "C0002",
+    "C0003",
+    "C0004",
+    "C0005",
+    "C0011",
+    "C0012",
+    "C0013",
+    "C0014",
+    "C0015",
+    "C0016",
+    "C0017",
+    "C0018",
+    "C0019",
+    "C0020",
+    "C0021",
+    "C0022",
+    "C0023",
+    "C0024",
+    "C0025",
+    "C0026",
+    "C0027",
+    "C0028",
+    "C0029",
+    "C0030"
+   ],
+   "annotation_status": "model_annotated_pending_human_review"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0029",
+     "start": 0,
+     "end": 126,
+     "text": "Standing Hampton is the sixth studio album by American rock vocalist Sammy Hagar, released on January 6, 1982, [2] by Geffen. "
+    },
+    {
+     "candidate_id": "C0021",
+     "start": 0,
+     "end": 116,
+     "text": "VOA is the eighth studio album by American rock musician Sammy Hagar, released on July 23, 1984, by Geffen Records. "
+    },
+    {
+     "candidate_id": "C0027",
+     "start": 86,
+     "end": 145,
+     "text": "The album was released on June 23, 1987 by Geffen Records. "
+    }
+   ]
+  },
+  "intermediate_origin": "controlled",
+  "intermediate_event": null,
+  "time_order_audit": [
+   {
+    "round": 1,
+    "event": 11,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 3,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 1,
+    "event": 6,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 12,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 12,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 6,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 6,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 13,
+    "ok": true
+   },
+   {
+    "round": 2,
+    "event": 7,
+    "cut": 13,
+    "ok": true
+   }
+  ],
+  "note": "time-order checked for evidence and distractors"
+ }
+}

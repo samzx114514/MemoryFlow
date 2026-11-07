@@ -1,0 +1,210 @@
+{
+ "ok": 31,
+ "total": 34,
+ "cases": [
+  {
+   "case_id": "case_01:T04",
+   "short": "case_01_T04",
+   "ok": true,
+   "reason": "group support_g01 coverable by 2 windows"
+  },
+  {
+   "case_id": "case_01:T05",
+   "short": "case_01_T05",
+   "ok": true,
+   "reason": "group support_g01 coverable by 2 windows"
+  },
+  {
+   "case_id": "case_01:T10",
+   "short": "case_01_T10",
+   "ok": false,
+   "reason": "final round alone already covers a full group"
+  },
+  {
+   "case_id": "case_03:T04",
+   "short": "case_03_T04",
+   "ok": true,
+   "reason": "group support_g01 coverable by 3 windows"
+  },
+  {
+   "case_id": "case_04:T06",
+   "short": "case_04_T06",
+   "ok": true,
+   "reason": "group support_g01 coverable by 2 windows"
+  },
+  {
+   "case_id": "case_05:T10",
+   "short": "case_05_T10",
+   "ok": true,
+   "reason": "group support_g01 coverable by 3 windows"
+  },
+  {
+   "case_id": "case_06:T10",
+   "short": "case_06_T10",
+   "ok": true,
+   "reason": "group support_g01 coverable by 3 windows"
+  },
+  {
+   "case_id": "case_07:T10",
+   "short": "case_07_T10",
+   "ok": true,
+   "reason": "group support_g01 coverable by 2 windows"
+  },
+  {
+   "case_id": "case_08:T07",
+   "short": "case_08_T07",
+   "ok": true,
+   "reason": "group support_g01 coverable by 3 windows"
+  },
+  {
+   "case_id": "case_09:T06",
+   "short": "case_09_T06",
+   "ok": false,
+   "reason": "final round alone already covers a full group"
+  },
+  {
+   "case_id": "case_10:T05",
+   "short": "case_10_T05",
+   "ok": true,
+   "reason": "group support_g01 coverable by 2 windows"
+  },
+  {
+   "case_id": "case_13:T06",
+   "short": "case_13_T06",
+   "ok": true,
+   "reason": "group support_g01 coverable by 2 windows"
+  },
+  {
+   "case_id": "case_13:T09",
+   "short": "case_13_T09",
+   "ok": true,
+   "reason": "group support_g01 coverable by 2 windows"
+  },
+  {
+   "case_id": "case_21:T04",
+   "short": "case_21_T04",
+   "ok": true,
+   "reason": "group support_g01 coverable by 2 windows"
+  },
+  {
+   "case_id": "case_23:T04",
+   "short": "case_23_T04",
+   "ok": true,
+   "reason": "group support_g01 coverable by 2 windows"
+  },
+  {
+   "case_id": "case_23:T07",
+   "short": "case_23_T07",
+   "ok": true,
+   "reason": "group support_g01 coverable by 3 windows"
+  },
+  {
+   "case_id": "case_24:T03",
+   "short": "case_24_T03",
+   "ok": true,
+   "reason": "group support_g01 coverable by 2 windows"
+  },
+  {
+   "case_id": "case_29:T02",
+   "short": "case_29_T02",
+   "ok": true,
+   "reason": "group support_g01 coverable by 2 windows"
+  },
+  {
+   "case_id": "case_30:T05",
+   "short": "case_30_T05",
+   "ok": true,
+   "reason": "group support_g01 coverable by 3 windows"
+  },
+  {
+   "case_id": "case_32:T01",
+   "short": "case_32_T01",
+   "ok": true,
+   "reason": "group support_g01 coverable by 2 windows"
+  },
+  {
+   "case_id": "case_32:T02",
+   "short": "case_32_T02",
+   "ok": true,
+   "reason": "group support_g01 coverable by 2 windows"
+  },
+  {
+   "case_id": "case_32:T03",
+   "short": "case_32_T03",
+   "ok": true,
+   "reason": "group support_g01 coverable by 2 windows"
+  },
+  {
+   "case_id": "case_32:T04",
+   "short": "case_32_T04",
+   "ok": true,
+   "reason": "group support_g01 coverable by 3 windows"
+  },
+  {
+   "case_id": "case_38:T05",
+   "short": "case_38_T05",
+   "ok": true,
+   "reason": "group support_g01 coverable by 2 windows"
+  },
+  {
+   "case_id": "case_39:T01",
+   "short": "case_39_T01",
+   "ok": true,
+   "reason": "group support_g03 coverable by 2 windows"
+  },
+  {
+   "case_id": "case_39:T04",
+   "short": "case_39_T04",
+   "ok": true,
+   "reason": "group support_g02 coverable by 2 windows"
+  },
+  {
+   "case_id": "case_41:T02",
+   "short": "case_41_T02",
+   "ok": false,
+   "reason": "final round alone already covers a full group"
+  },
+  {
+   "case_id": "case_46:T02",
+   "short": "case_46_T02",
+   "ok": true,
+   "reason": "group support_g01 coverable by 2 windows"
+  },
+  {
+   "case_id": "case_01:T08",
+   "short": "case_01_T08",
+   "ok": true,
+   "reason": "group support_g01 coverable by 3 windows"
+  },
+  {
+   "case_id": "case_03:T02",
+   "short": "case_03_T02",
+   "ok": true,
+   "reason": "group support_g01 coverable by 3 windows"
+  },
+  {
+   "case_id": "case_04:T03",
+   "short": "case_04_T03",
+   "ok": true,
+   "reason": "group support_g01 coverable by 3 windows"
+  },
+  {
+   "case_id": "case_22:T05",
+   "short": "case_22_T05",
+   "ok": true,
+   "reason": "group support_g01 coverable by 2 windows"
+  },
+  {
+   "case_id": "case_25:T05",
+   "short": "case_25_T05",
+   "ok": true,
+   "reason": "group support_g01 coverable by 2 windows"
+  },
+  {
+   "case_id": "case_34:T06",
+   "short": "case_34_T06",
+   "ok": true,
+   "reason": "group support_g01 coverable by 3 windows"
+  }
+ ]
+}

@@ -1,0 +1,241 @@
+{
+  "case_id": "case_22:T05",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "case_22:C0012#0-273",
+          "score": 0.24887587130069733,
+          "text": "Rebecca leads a team of 67 full-time and 120 seasonal staff and works closely with the Board of Trustees and seven Advisory Boards. Her passion lies in sharing the complex facets of the West through collections, research, programming and outreach, and community engagement."
+        },
+        {
+          "canonical_id": "case_22:C0001#0-183",
+          "score": 0.0431288443505764,
+          "text": "Use any search engine, and the Buffalo Bill Center of the West will show up as the top tourist attraction in Cody. Five world-class museums, a research library, experiential exhibits."
+        },
+        {
+          "canonical_id": "case_22:C0002#0-239",
+          "score": 0.3795306384563446,
+          "text": "Rebecca West is the executive director and CEO of the Buffalo Bill Center of the West in Cody.“The staff is fully supportive of her, as is the board of trustees. She has a great leadership style and she’s not afraid to approach any issue.”"
+        },
+        {
+          "canonical_id": "case_22:C0003#0-148",
+          "score": 0.002744116121903062,
+          "text": "The facade of the Buffalo Bill Center of the West on the left with an American flag, and partial view of a white teepee and chuckwagon on the right."
+        },
+        {
+          "canonical_id": "case_22:C0004#0-256",
+          "score": 0.0008574490784667432,
+          "text": "Email Sign up. Buffalo Bill Center of the West Business Membership directory.Camp director, Chris Rachford stands and shakes hands with a Japanese-American soldier while two other soldiers stand and observe in an office at Heart Mountain Relocation Center."
+        },
+        {
+          "canonical_id": "case_22:C0005#0-186",
+          "score": 0.00044385474757291377,
+          "text": "Buffalo Bill's Wild West Show and Congress of Rough Riders of the World - Circus poster showing cowboys rounding up cattle and portrait of Col. W.F. Cody on horseback. Wikimedia Commons."
+        },
+        {
+          "canonical_id": "case_22:C0006#0-279",
+          "score": 0.0016005082288756967,
+          "text": "Discover the remarkable life of Annie Oakley at the Buffalo Bill Center of the West.Generous support from the Frère family makes this program possible. The Buffalo Bill Center of the West will charge a 3% surcharge/processing fee for all card transactions starting April 6, 2026."
+        },
+        {
+          "canonical_id": "case_22:C0007#0-242",
+          "score": 0.006498405709862709,
+          "text": "The Buffalo Bill Center of the West Board of Trustees has more than 40 members, many of whom are politically connected. Vice President Dick Cheney, former Govs. Matt Mead and Mike Sullivan, and former Sen. Al Simpson are all current trustees."
+        },
+        {
+          "canonical_id": "case_22:C0008#0-161",
+          "score": 0.015437000431120396,
+          "text": "The staff, Trustees and Advisors of the Buffalo Bill Center of the West are mourning the loss of Alan K. Simpson, 93, a former chairman of the Center’s Board of."
+        },
+        {
+          "canonical_id": "case_22:C0019#0-214",
+          "score": 0.16738656163215637,
+          "text": "Rebecca West is the executive director and CEO of the Buffalo Bill Center of the West in Cody. She oversees five museums, an annual budget of about $15 million and at times nearly 200 full- and part-time employees."
+        },
+        {
+          "canonical_id": "case_22:C0009#0-259",
+          "score": 0.0008745025261305273,
+          "text": "He is a trustee of the U.S. Capitol Historical Society, board member of the Buffalo Bill Center of the West in Cody, Wyoming, and past president of The Literary Society of Washington (founded in 1874). Dr. White lives in Arlington, Virginia and Cody, Wyoming."
+        },
+        {
+          "canonical_id": "case_22:C0010#0-267",
+          "score": 0.0004038675979245454,
+          "text": "Among the longest-serving members of the Center's Board, Cheney shared a deep friendship with the late Sen.The couple also attended the Center's annual Patrons Ball on several occasions, warmly engaging with guests and embodying the hospitality and spirit of Wyoming."
+        },
+        {
+          "canonical_id": "case_22:C0011#0-156",
+          "score": 0.003762716194614768,
+          "text": "The Buffalo Bill Center of the West is governed by a board of trustees that currently includes forty-six members from Cody area and from across the country."
+        },
+        {
+          "canonical_id": "case_22:C0013#0-232",
+          "score": 0.005024508107453585,
+          "text": "Jun 3, 2026 · Governance rests with a board of trustees that includes former Vice President Richard B. Cheney, Riverstone Holdings co-founder David M. Leuschen, former U.S. Senator Alan K. Simpson, and Chairman Barron G. Collier II."
+        },
+        {
+          "canonical_id": "case_22:C0014#0-236",
+          "score": 0.0010775785194709897,
+          "text": "Nov 18, 2022 · Zippia gives an in-depth look into the details of Buffalo Bill Center of the West, including salaries, political affiliations, employee data, and more, in order to inform job seekers about Buffalo Bill Center of the West."
+        },
+        {
+          "canonical_id": "case_22:C0015#0-299",
+          "score": 0.001735825790092349,
+          "text": "Buffalo Bill Center of the West is a 501 (c) (3) and as such, is described as a \"Charitable or Religous organization or a private foundation\" by the IRS. For the year ending 06/2022, Buffalo Bill Center of the West generated $15.4m in total revenue. The organization has seen a slow decline revenue."
+        },
+        {
+          "canonical_id": "case_22:C0016#0-282",
+          "score": 0.009696697816252708,
+          "text": "“The Buffalo Bill Center is truly a national treasure,” Seibert says. “It has superb collections, world-class staff, and an abiding commitment to telling the story of the American West. For these reasons, and many more, I am thrilled to become the Center’s next Executive Director.”"
+        },
+        {
+          "canonical_id": "case_22:C0017#0-271",
+          "score": 0.0027880524285137653,
+          "text": "The staff, Trustees and Advisors of the Buffalo Bill Center of the West are mourning the loss of Alan K. Simpson, 93, a former chairman of the Center’s Board of.He served as Chairman from 1992–2011, and continued as a Trustee until 2024, when he reluctantly stepped down."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 995,
+      "seconds": 0.189,
+      "target": "The Executive Director/CEO who works closely with the Board is **Rebecca West**",
+      "target_tokens": 17,
+      "total_tokens": 1012
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "case_22:C0012#0-273",
+          "score": 0.6204771399497986,
+          "text": "Rebecca leads a team of 67 full-time and 120 seasonal staff and works closely with the Board of Trustees and seven Advisory Boards. Her passion lies in sharing the complex facets of the West through collections, research, programming and outreach, and community engagement."
+        },
+        {
+          "canonical_id": "case_22:C0001#0-183",
+          "score": 0.02939620241522789,
+          "text": "Use any search engine, and the Buffalo Bill Center of the West will show up as the top tourist attraction in Cody. Five world-class museums, a research library, experiential exhibits."
+        },
+        {
+          "canonical_id": "case_22:C0002#0-239",
+          "score": 0.14061395823955536,
+          "text": "Rebecca West is the executive director and CEO of the Buffalo Bill Center of the West in Cody.“The staff is fully supportive of her, as is the board of trustees. She has a great leadership style and she’s not afraid to approach any issue.”"
+        },
+        {
+          "canonical_id": "case_22:C0003#0-148",
+          "score": 0.01500767469406128,
+          "text": "The facade of the Buffalo Bill Center of the West on the left with an American flag, and partial view of a white teepee and chuckwagon on the right."
+        },
+        {
+          "canonical_id": "case_22:C0004#0-256",
+          "score": 0.0040212045423686504,
+          "text": "Email Sign up. Buffalo Bill Center of the West Business Membership directory.Camp director, Chris Rachford stands and shakes hands with a Japanese-American soldier while two other soldiers stand and observe in an office at Heart Mountain Relocation Center."
+        },
+        {
+          "canonical_id": "case_22:C0005#0-186",
+          "score": 0.0017684220802038908,
+          "text": "Buffalo Bill's Wild West Show and Congress of Rough Riders of the World - Circus poster showing cowboys rounding up cattle and portrait of Col. W.F. Cody on horseback. Wikimedia Commons."
+        },
+        {
+          "canonical_id": "case_22:C0006#0-279",
+          "score": 0.006745011545717716,
+          "text": "Discover the remarkable life of Annie Oakley at the Buffalo Bill Center of the West.Generous support from the Frère family makes this program possible. The Buffalo Bill Center of the West will charge a 3% surcharge/processing fee for all card transactions starting April 6, 2026."
+        },
+        {
+          "canonical_id": "case_22:C0007#0-242",
+          "score": 0.016826296225190163,
+          "text": "The Buffalo Bill Center of the West Board of Trustees has more than 40 members, many of whom are politically connected. Vice President Dick Cheney, former Govs. Matt Mead and Mike Sullivan, and former Sen. Al Simpson are all current trustees."
+        },
+        {
+          "canonical_id": "case_22:C0008#0-161",
+          "score": 0.016882263123989105,
+          "text": "The staff, Trustees and Advisors of the Buffalo Bill Center of the West are mourning the loss of Alan K. Simpson, 93, a former chairman of the Center’s Board of."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 478,
+      "seconds": 0.115,
+      "target": "The earlier material states: Rebecca leads a team of 67 full-time and 120 seasonal staff and works closely with the Board of Trustees and seven Advisory Boards. Her passion lies in sharing the complex facets of the West through collections, research, programming and ou",
+      "target_tokens": 54,
+      "total_tokens": 532
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.36055171489715576,
+          "text": "The earlier material states: Rebecca leads a team of 67 full-time and 120 seasonal staff and works closely with the Board of Trustees and seven Advisory Boards. Her passion lies in sharing the complex facets of the West through collections, research, programming and ou"
+        },
+        {
+          "canonical_id": "case_22:C0019#0-214",
+          "score": 0.39864593744277954,
+          "text": "Rebecca West is the executive director and CEO of the Buffalo Bill Center of the West in Cody. She oversees five museums, an annual budget of about $15 million and at times nearly 200 full- and part-time employees."
+        },
+        {
+          "canonical_id": "case_22:C0009#0-259",
+          "score": 0.050323426723480225,
+          "text": "He is a trustee of the U.S. Capitol Historical Society, board member of the Buffalo Bill Center of the West in Cody, Wyoming, and past president of The Literary Society of Washington (founded in 1874). Dr. White lives in Arlington, Virginia and Cody, Wyoming."
+        },
+        {
+          "canonical_id": "case_22:C0010#0-267",
+          "score": 0.004797602072358131,
+          "text": "Among the longest-serving members of the Center's Board, Cheney shared a deep friendship with the late Sen.The couple also attended the Center's annual Patrons Ball on several occasions, warmly engaging with guests and embodying the hospitality and spirit of Wyoming."
+        },
+        {
+          "canonical_id": "case_22:C0011#0-156",
+          "score": 0.011822092346847057,
+          "text": "The Buffalo Bill Center of the West is governed by a board of trustees that currently includes forty-six members from Cody area and from across the country."
+        },
+        {
+          "canonical_id": "case_22:C0013#0-232",
+          "score": 0.00940091721713543,
+          "text": "Jun 3, 2026 · Governance rests with a board of trustees that includes former Vice President Richard B. Cheney, Riverstone Holdings co-founder David M. Leuschen, former U.S. Senator Alan K. Simpson, and Chairman Barron G. Collier II."
+        },
+        {
+          "canonical_id": "case_22:C0014#0-236",
+          "score": 0.004133061971515417,
+          "text": "Nov 18, 2022 · Zippia gives an in-depth look into the details of Buffalo Bill Center of the West, including salaries, political affiliations, employee data, and more, in order to inform job seekers about Buffalo Bill Center of the West."
+        },
+        {
+          "canonical_id": "case_22:C0015#0-299",
+          "score": 0.002101592719554901,
+          "text": "Buffalo Bill Center of the West is a 501 (c) (3) and as such, is described as a \"Charitable or Religous organization or a private foundation\" by the IRS. For the year ending 06/2022, Buffalo Bill Center of the West generated $15.4m in total revenue. The organization has seen a slow decline revenue."
+        },
+        {
+          "canonical_id": "case_22:C0016#0-282",
+          "score": 0.019902294501662254,
+          "text": "“The Buffalo Bill Center is truly a national treasure,” Seibert says. “It has superb collections, world-class staff, and an abiding commitment to telling the story of the American West. For these reasons, and many more, I am thrilled to become the Center’s next Executive Director.”"
+        },
+        {
+          "canonical_id": "case_22:C0017#0-271",
+          "score": 0.014677763916552067,
+          "text": "The staff, Trustees and Advisors of the Buffalo Bill Center of the West are mourning the loss of Alan K. Simpson, 93, a former chairman of the Center’s Board of.He served as Chairman from 1992–2011, and continued as a Trustee until 2024, when he reluctantly stepped down."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 633,
+      "seconds": 0.128,
+      "target": "The Executive Director/CEO who works closely with the Board is **Rebecca West**",
+      "target_tokens": 17,
+      "total_tokens": 650
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 17.4,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}
