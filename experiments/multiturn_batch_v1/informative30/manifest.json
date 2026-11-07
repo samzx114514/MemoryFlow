@@ -1,0 +1,83 @@
+{
+ "schema": "memoryflow.multiturn_batch.manifest.v1",
+ "created": "2026-11-07",
+ "final_budget": 10,
+ "hop_budget": 5,
+ "cases": [
+  {
+   "short": "case_03_T02",
+   "case_id": "case_03:T02",
+   "trajectory_id": "case_03",
+   "trajectory_case": "case_03",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 10,
+   "evidence_groups": 1,
+   "case_path": "cases/case_03_T02.json",
+   "matrix_path": "matrices/case_03_T02.json",
+   "case_sha256": "69413894b372907d9d9a62276fe6df335930e74c5f2ccff7bd883472065cfcb7",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_05_T07",
+   "case_id": "case_05:T07",
+   "trajectory_id": "case_05",
+   "trajectory_case": "case_05",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 27,
+   "evidence_groups": 1,
+   "case_path": "cases/case_05_T07.json",
+   "matrix_path": "matrices/case_05_T07.json",
+   "case_sha256": "5381f198ec43c9a20902c664237091764537e51377287ff06275fdcd81aa9df7",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  },
+  {
+   "short": "case_06_T02",
+   "case_id": "case_06:T02",
+   "trajectory_id": "case_06",
+   "trajectory_case": "case_06",
+   "split": "dev",
+   "record_type": "controlled",
+   "control": null,
+   "rounds": 2,
+   "candidates": 26,
+   "evidence_groups": 1,
+   "case_path": "cases/case_06_T02.json",
+   "matrix_path": "matrices/case_06_T02.json",
+   "case_sha256": "c7cb685dc7322b11159460c2bce6adcdb2c4674c1e5e90c457b5f389effab2b1",
+   "registry": {
+    "missing_inputs": [],
+    "missing_labels": [],
+    "warnings": [
+     "controlled construction; not an original request snapshot"
+    ]
+   }
+  }
+ ],
+ "totals": {
+  "cases": 3,
+  "controlled": 3,
+  "real_request": 0,
+  "dev": 3,
+  "eval": 0,
+  "controls": 0,
+  "trajectories": 3
+ }
+}

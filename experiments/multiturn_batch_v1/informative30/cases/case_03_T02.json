@@ -1,0 +1,631 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_03:T02",
+ "trajectory_id": "case_03",
+ "trajectory_case": "case_03",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "Ruby is named after a gemstone",
+  "sha256": "45bbdae02abd81294c98b922a93675bbe687bcebcb945f7d0dc0681228f7d776",
+  "origin": "recorded_target",
+  "artifact_id": "case_03:T02",
+  "start": 0,
+  "end": 30,
+  "original_target": {
+   "text": "Ruby is named after a gemstone",
+   "artifact_id": "case_03:T02"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "The programming language that includes alias is named after whom?",
+   "inputs": [
+    {
+     "unit_id": "case_03:C0012#0-259",
+     "artifact_id": "case_03:C0012",
+     "start": 0,
+     "end": 259,
+     "text": "Yukihiro Matsumoto’s Vision. Why Ruby is so Popular. In Conclusion. The Gemstone Connection.By naming his language ‘Ruby,’ Matz was subtly suggesting a complementary relationship between the two languages – like two different, yet equally valuable, gemstones.",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    },
+    {
+     "unit_id": "case_03:C0011#0-192",
+     "artifact_id": "case_03:C0011",
+     "start": 0,
+     "end": 192,
+     "text": "**Yukihiro Matsumoto:** People consider Ruby as my programming language. It’s designed by me, it’s designed by a person, but in reality Ruby has long been a language designed by the community.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    },
+    {
+     "unit_id": "case_03:C0013#0-265",
+     "artifact_id": "case_03:C0013",
+     "start": 0,
+     "end": 265,
+     "text": "The Ruby Programming Language. Contribute to ruby/ruby development by creating an account on GitHub.See \"Contributing to Ruby\", which includes setup and build instructions. The Author. Ruby was originally designed and developed by Yukihiro Matsumoto (Matz) in 1995.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    },
+    {
+     "unit_id": "case_03:C0014#0-160",
+     "artifact_id": "case_03:C0014",
+     "start": 0,
+     "end": 160,
+     "text": "Learn the Ruby programming language in this full course / tutorial. The course is designed for new programmers, and will introduce common programming topics ...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    },
+    {
+     "unit_id": "case_03:C0017#0-275",
+     "artifact_id": "case_03:C0017",
+     "start": 0,
+     "end": 275,
+     "text": "When it came time to decide on a name for Ruby, Matsumoto and a colleague, Keiju Ishitsuka, considered several alternatives.That changed with the release of Ruby on Rails. Ruby on Rails was the “killer app” for Ruby, and it did more than any other project to popularize Ruby.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    },
+    {
+     "unit_id": "case_03:C0018#0-277",
+     "artifact_id": "case_03:C0018",
+     "start": 0,
+     "end": 277,
+     "text": "The name “Ruby” originated during a chat session between Matsumoto and Keiju Ishitsuka.Ruby is a great object oriented scripting programming language. Looking at its past we can say that it has a bright future if its community members continue expanding it beyond the thinking.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    },
+    {
+     "unit_id": "case_03:C0019#0-244",
+     "artifact_id": "case_03:C0019",
+     "start": 0,
+     "end": 244,
+     "text": "Ruby is a dynamic programming language. Ruby programs are not compiled. All class, module and method definition are built by the code when it runs. Ruby variables are loosely typed language, which means any variable can hold any type of object.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    },
+    {
+     "unit_id": "case_03:C0020#0-171",
+     "artifact_id": "case_03:C0020",
+     "start": 0,
+     "end": 171,
+     "text": "The name \"Ruby\" was decided on during an online chat session between Matsumoto and Keiju Ishitsuka on February 24, 1993, before any code had been written for the language.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "output": {
+    "text": "Ruby is named after a gemstone.",
+    "sha256": "ce49baf98d7986ff8ae86219fb78fa29f1191e72fb4d65111dd039be34d1b993",
+    "origin": "controlled_output"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "The programming language that includes alias is named after whom?",
+   "inputs": [
+    {
+     "unit_id": "case_03:C0016#0-248",
+     "artifact_id": "case_03:C0016",
+     "start": 0,
+     "end": 248,
+     "text": "The name \"Ruby\" originated in an online chat session between Yukihiro Matsumoto (Developer of Ruby) and Keiju Ishitsuka on February 24, 1993, before any code had been written for the language. Initially, two names were proposed: \"Coral\" and \"Ruby\".",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    },
+    {
+     "unit_id": "case_03:C0015#0-160",
+     "artifact_id": "case_03:C0015",
+     "start": 0,
+     "end": 160,
+     "text": "July Birthstone ruby symbolizes passion, protection, and vitality. This guide covers ruby meaning, quality, natural vs. lab-grown, and choosing the perfect one.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    },
+    {
+     "unit_id": "case_03:C0011#0-192",
+     "artifact_id": "case_03:C0011",
+     "start": 0,
+     "end": 192,
+     "text": "**Yukihiro Matsumoto:** People consider Ruby as my programming language. It’s designed by me, it’s designed by a person, but in reality Ruby has long been a language designed by the community.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    },
+    {
+     "unit_id": "case_03:C0013#0-265",
+     "artifact_id": "case_03:C0013",
+     "start": 0,
+     "end": 265,
+     "text": "The Ruby Programming Language. Contribute to ruby/ruby development by creating an account on GitHub.See \"Contributing to Ruby\", which includes setup and build instructions. The Author. Ruby was originally designed and developed by Yukihiro Matsumoto (Matz) in 1995.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    },
+    {
+     "unit_id": "case_03:C0014#0-160",
+     "artifact_id": "case_03:C0014",
+     "start": 0,
+     "end": 160,
+     "text": "Learn the Ruby programming language in this full course / tutorial. The course is designed for new programmers, and will introduce common programming topics ...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    },
+    {
+     "unit_id": "case_03:C0017#0-275",
+     "artifact_id": "case_03:C0017",
+     "start": 0,
+     "end": 275,
+     "text": "When it came time to decide on a name for Ruby, Matsumoto and a colleague, Keiju Ishitsuka, considered several alternatives.That changed with the release of Ruby on Rails. Ruby on Rails was the “killer app” for Ruby, and it did more than any other project to popularize Ruby.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    },
+    {
+     "unit_id": "case_03:C0018#0-277",
+     "artifact_id": "case_03:C0018",
+     "start": 0,
+     "end": 277,
+     "text": "The name “Ruby” originated during a chat session between Matsumoto and Keiju Ishitsuka.Ruby is a great object oriented scripting programming language. Looking at its past we can say that it has a bright future if its community members continue expanding it beyond the thinking.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    },
+    {
+     "unit_id": "case_03:C0019#0-244",
+     "artifact_id": "case_03:C0019",
+     "start": 0,
+     "end": 244,
+     "text": "Ruby is a dynamic programming language. Ruby programs are not compiled. All class, module and method definition are built by the code when it runs. Ruby variables are loosely typed language, which means any variable can hold any type of object.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    },
+    {
+     "unit_id": "case_03:C0020#0-171",
+     "artifact_id": "case_03:C0020",
+     "start": 0,
+     "end": 171,
+     "text": "The name \"Ruby\" was decided on during an online chat session between Matsumoto and Keiju Ishitsuka on February 24, 1993, before any code had been written for the language.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "output": {
+    "text": "Ruby is named after a gemstone",
+    "sha256": "45bbdae02abd81294c98b922a93675bbe687bcebcb945f7d0dc0681228f7d776",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "Ruby is named after a gemstone.",
+     "sha256": "ce49baf98d7986ff8ae86219fb78fa29f1191e72fb4d65111dd039be34d1b993",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_03:C0011#0-192",
+   "artifact_id": "case_03:C0011",
+   "start": 0,
+   "end": 192,
+   "text": "**Yukihiro Matsumoto:** People consider Ruby as my programming language. It’s designed by me, it’s designed by a person, but in reality Ruby has long been a language designed by the community.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_03:C0011#0-192",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_03:C0011#0-192",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_03:C0012#0-259",
+   "artifact_id": "case_03:C0012",
+   "start": 0,
+   "end": 259,
+   "text": "Yukihiro Matsumoto’s Vision. Why Ruby is so Popular. In Conclusion. The Gemstone Connection.By naming his language ‘Ruby,’ Matz was subtly suggesting a complementary relationship between the two languages – like two different, yet equally valuable, gemstones.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_03:C0012#0-259",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_03:C0013#0-265",
+   "artifact_id": "case_03:C0013",
+   "start": 0,
+   "end": 265,
+   "text": "The Ruby Programming Language. Contribute to ruby/ruby development by creating an account on GitHub.See \"Contributing to Ruby\", which includes setup and build instructions. The Author. Ruby was originally designed and developed by Yukihiro Matsumoto (Matz) in 1995.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_03:C0013#0-265",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_03:C0013#0-265",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_03:C0014#0-160",
+   "artifact_id": "case_03:C0014",
+   "start": 0,
+   "end": 160,
+   "text": "Learn the Ruby programming language in this full course / tutorial. The course is designed for new programmers, and will introduce common programming topics ...",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_03:C0014#0-160",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_03:C0014#0-160",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_03:C0015#0-160",
+   "artifact_id": "case_03:C0015",
+   "start": 0,
+   "end": 160,
+   "text": "July Birthstone ruby symbolizes passion, protection, and vitality. This guide covers ruby meaning, quality, natural vs. lab-grown, and choosing the perfect one.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_03:C0015#0-160",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_03:C0016#0-248",
+   "artifact_id": "case_03:C0016",
+   "start": 0,
+   "end": 248,
+   "text": "The name \"Ruby\" originated in an online chat session between Yukihiro Matsumoto (Developer of Ruby) and Keiju Ishitsuka on February 24, 1993, before any code had been written for the language. Initially, two names were proposed: \"Coral\" and \"Ruby\".",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_03:C0016#0-248",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_03:C0017#0-275",
+   "artifact_id": "case_03:C0017",
+   "start": 0,
+   "end": 275,
+   "text": "When it came time to decide on a name for Ruby, Matsumoto and a colleague, Keiju Ishitsuka, considered several alternatives.That changed with the release of Ruby on Rails. Ruby on Rails was the “killer app” for Ruby, and it did more than any other project to popularize Ruby.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_03:C0017#0-275",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_03:C0017#0-275",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_03:C0018#0-277",
+   "artifact_id": "case_03:C0018",
+   "start": 0,
+   "end": 277,
+   "text": "The name “Ruby” originated during a chat session between Matsumoto and Keiju Ishitsuka.Ruby is a great object oriented scripting programming language. Looking at its past we can say that it has a bright future if its community members continue expanding it beyond the thinking.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_03:C0018#0-277",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_03:C0018#0-277",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_03:C0019#0-244",
+   "artifact_id": "case_03:C0019",
+   "start": 0,
+   "end": 244,
+   "text": "Ruby is a dynamic programming language. Ruby programs are not compiled. All class, module and method definition are built by the code when it runs. Ruby variables are loosely typed language, which means any variable can hold any type of object.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_03:C0019#0-244",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_03:C0019#0-244",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_03:C0020#0-171",
+   "artifact_id": "case_03:C0020",
+   "start": 0,
+   "end": 171,
+   "text": "The name \"Ruby\" was decided on during an online chat session between Matsumoto and Keiju Ishitsuka on February 24, 1993, before any code had been written for the language.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_03:C0020#0-171",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_03:C0020#0-171",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_03:T02:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_03:C0012",
+      "start": 0,
+      "end": 259,
+      "text": "Yukihiro Matsumoto’s Vision. Why Ruby is so Popular. In Conclusion. The Gemstone Connection.By naming his language ‘Ruby,’ Matz was subtly suggesting a complementary relationship between the two languages – like two different, yet equally valuable, gemstones."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_03:C0012",
+       "start": 0,
+       "end": 259,
+       "text": "Yukihiro Matsumoto’s Vision. Why Ruby is so Popular. In Conclusion. The Gemstone Connection.By naming his language ‘Ruby,’ Matz was subtly suggesting a complementary relationship between the two languages – like two different, yet equally valuable, gemstones."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_03:C0015",
+      "start": 0,
+      "end": 160,
+      "text": "July Birthstone ruby symbolizes passion, protection, and vitality. This guide covers ruby meaning, quality, natural vs. lab-grown, and choosing the perfect one."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_03:C0015",
+       "start": 0,
+       "end": 160,
+       "text": "July Birthstone ruby symbolizes passion, protection, and vitality. This guide covers ruby meaning, quality, natural vs. lab-grown, and choosing the perfect one."
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_03:C0016",
+      "start": 0,
+      "end": 248,
+      "text": "The name \"Ruby\" originated in an online chat session between Yukihiro Matsumoto (Developer of Ruby) and Keiju Ishitsuka on February 24, 1993, before any code had been written for the language. Initially, two names were proposed: \"Coral\" and \"Ruby\"."
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_03:C0016",
+       "start": 0,
+       "end": 248,
+       "text": "The name \"Ruby\" originated in an online chat session between Yukihiro Matsumoto (Developer of Ruby) and Keiju Ishitsuka on February 24, 1993, before any code had been written for the language. Initially, two names were proposed: \"Coral\" and \"Ruby\"."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_03:C0012#0-259"
+  ],
+  "B": [
+   "case_03:C0016#0-248"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T02",
+   "case": "case_03",
+   "question": "The programming language that includes alias is named after whom?",
+   "target_event": 8,
+   "target_start": 54,
+   "target_end": 84,
+   "target": "Ruby is named after a gemstone",
+   "candidate_ids": [
+    "C0011",
+    "C0012",
+    "C0013",
+    "C0014",
+    "C0015",
+    "C0016",
+    "C0017",
+    "C0018",
+    "C0019",
+    "C0020"
+   ],
+   "annotation_status": "assistant_reviewed_pending_human"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0012",
+     "start": 0,
+     "end": 259,
+     "text": "Yukihiro Matsumoto’s Vision. Why Ruby is so Popular. In Conclusion. The Gemstone Connection.By naming his language ‘Ruby,’ Matz was subtly suggesting a complementary relationship between the two languages – like two different, yet equally valuable, gemstones."
+    },
+    {
+     "candidate_id": "C0015",
+     "start": 0,
+     "end": 160,
+     "text": "July Birthstone ruby symbolizes passion, protection, and vitality. This guide covers ruby meaning, quality, natural vs. lab-grown, and choosing the perfect one."
+    },
+    {
+     "candidate_id": "C0016",
+     "start": 0,
+     "end": 248,
+     "text": "The name \"Ruby\" originated in an online chat session between Yukihiro Matsumoto (Developer of Ruby) and Keiju Ishitsuka on February 24, 1993, before any code had been written for the language. Initially, two names were proposed: \"Coral\" and \"Ruby\"."
+    }
+   ]
+  },
+  "intermediate": "controlled",
+  "note": "controlled two-round; real intermediate message not yet verified"
+ }
+}

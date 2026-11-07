@@ -1,5 +1,15 @@
 # 实验索引
 
+## informative30_v1 接入：首批 3 题（2026-11-07）
+
+**状态：** 新包接入并跑完首批 3 题（3 轨迹，受控中间句）。入口：
+[首批报告](../experiments/multiturn_batch_v1/informative30/reports/FIRST_20261107.md)。
+
+- 49 case / 300 target / 285 草案；按 (case,id) 连接，只取目标前材料；36 优先清单未随包提供。
+- case_03:T02 / case_05:T07 / case_06:T02；precheck 3/3 PASS；全为 controlled。
+- MF 完整 2/3、2/3；head 3/3、3/3；BM25 2/3、3/3；last 0；配对 MF-BM25 1/0/2、MF-head 0/1/2。
+- 旧 batch10 从 17 题起算；case_03 s08 只留 diagnostic；旧 100 去向已更新。
+
 ## case_03 criteria 实测：累计 18 题 / 8 轨迹（2026-11-07）
 
 **状态：** case_03 selected_08 新增实测（方法跑丢）；case_08 selected_09 待核。入口：

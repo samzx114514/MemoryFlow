@@ -1,0 +1,201 @@
+{
+  "case_id": "case_05:T07",
+  "final_budget": 10,
+  "final_round": "r2",
+  "hop_budget": 5,
+  "matrices": {
+    "flat": {
+      "candidates": [
+        {
+          "canonical_id": "case_05:C0020#0-179",
+          "score": 0.238618403673172,
+          "text": "Gómez González perished on 26 October 1111 during the Battle of Candespina, succumbing in close-quarters combat that abruptly concluded his tenure as a foremost Castilian magnate."
+        },
+        {
+          "canonical_id": "case_05:C0006#0-157",
+          "score": 0.00408161012455821,
+          "text": "Rodrigo Vicente Gómez Peña is a Chilean former footballer who played as a midfielder. He played in five matches for the Chile national football team in 1991."
+        },
+        {
+          "canonical_id": "case_05:C0007#0-238",
+          "score": 0.06483981758356094,
+          "text": "The couple produced three sons, each of whom became counts: Álvaro, Gómez, and Gonzalo. According to one historian, Rodrigo first appears in royal documents in 1119, eight years after his father's death at the Battle of Candespina (1111)."
+        },
+        {
+          "canonical_id": "case_05:C0008#0-168",
+          "score": 0.0003788011090364307,
+          "text": "FIFA 21 Football Players who are Father and Son! ft. Haland, Zidane & Drogba! Footballers father and son! Coming from Clubs like Dortmund, Real Madrid and FC Barcelona!"
+        },
+        {
+          "canonical_id": "case_05:C0009#0-182",
+          "score": 0.0005008498555980623,
+          "text": "To predict your death date, simply input your date of birth, sex, smoking habits, your BMI and the country you live in. If you don't know your BMI simply use the BMI calculator form."
+        },
+        {
+          "canonical_id": "case_05:C0010#0-186",
+          "score": 0.0013495109742507339,
+          "text": "Venezuela earthquakes death toll rises to 5,119. 1 hour ago. Firefighters give feathered fire survivor a breath of fresh ...Construction crane collapses onto homes during storm in Chile."
+        },
+        {
+          "canonical_id": "case_05:C0011#0-205",
+          "score": 0.041650544852018356,
+          "text": "Evidence:\n- The PeoplePill result mentions a Rodrigo whose \"father's death at the Battle of Candespina (1111)\" — this is likely about Rodrigo González de Lara, a medieval Spanish noble. Let me verify this."
+        },
+        {
+          "canonical_id": "case_05:C0012#0-255",
+          "score": 0.006863167509436607,
+          "text": "Rodrigo Gómez (died 1146) was a Castilian nobleman and military leader under Alfonso VII. He governed large parts of Asturias and northern Castile, was involved in the politics with neighbouring Navarre, to whose royal family he was related by marriage..."
+        },
+        {
+          "canonical_id": "case_05:C0013#0-270",
+          "score": 0.18662652373313904,
+          "text": "La batalla de Candespina tuvo lugar el 26 de octubre de 1110 en Fresno de Cantespino (cerca de Sepúlveda, Segovia) y enfrentó a los ejércitos de Alfonso I el Batallador contra una coalición de tropas leonesas, castellanas y gallegas que defendían el partido de Urraca I."
+        },
+        {
+          "canonical_id": "case_05:C0024#0-162",
+          "score": 0.32512661814689636,
+          "text": "Gómez González (died 26 October 1111), called de Lara or de Candespina, was a Castilian nobleman and military leader who had some claim to being Count of Castile."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 587,
+      "seconds": 0.128,
+      "target": "Gómez González (died 26 October 1111), called de Lara or de Candespina, perished at the Battle of Candespina on 26 October 1111.",
+      "target_tokens": 47,
+      "total_tokens": 634
+    },
+    "r1": {
+      "candidates": [
+        {
+          "canonical_id": "case_05:C0020#0-179",
+          "score": 0.5421156883239746,
+          "text": "Gómez González perished on 26 October 1111 during the Battle of Candespina, succumbing in close-quarters combat that abruptly concluded his tenure as a foremost Castilian magnate."
+        },
+        {
+          "canonical_id": "case_05:C0006#0-157",
+          "score": 0.010173999704420567,
+          "text": "Rodrigo Vicente Gómez Peña is a Chilean former footballer who played as a midfielder. He played in five matches for the Chile national football team in 1991."
+        },
+        {
+          "canonical_id": "case_05:C0007#0-238",
+          "score": 0.14583931863307953,
+          "text": "The couple produced three sons, each of whom became counts: Álvaro, Gómez, and Gonzalo. According to one historian, Rodrigo first appears in royal documents in 1119, eight years after his father's death at the Battle of Candespina (1111)."
+        },
+        {
+          "canonical_id": "case_05:C0008#0-168",
+          "score": 0.0015138615854084492,
+          "text": "FIFA 21 Football Players who are Father and Son! ft. Haland, Zidane & Drogba! Footballers father and son! Coming from Clubs like Dortmund, Real Madrid and FC Barcelona!"
+        },
+        {
+          "canonical_id": "case_05:C0009#0-182",
+          "score": 0.0016011622501537204,
+          "text": "To predict your death date, simply input your date of birth, sex, smoking habits, your BMI and the country you live in. If you don't know your BMI simply use the BMI calculator form."
+        },
+        {
+          "canonical_id": "case_05:C0010#0-186",
+          "score": 0.0007018411997705698,
+          "text": "Venezuela earthquakes death toll rises to 5,119. 1 hour ago. Firefighters give feathered fire survivor a breath of fresh ...Construction crane collapses onto homes during storm in Chile."
+        },
+        {
+          "canonical_id": "case_05:C0011#0-205",
+          "score": 0.0799604132771492,
+          "text": "Evidence:\n- The PeoplePill result mentions a Rodrigo whose \"father's death at the Battle of Candespina (1111)\" — this is likely about Rodrigo González de Lara, a medieval Spanish noble. Let me verify this."
+        },
+        {
+          "canonical_id": "case_05:C0012#0-255",
+          "score": 0.00845536682754755,
+          "text": "Rodrigo Gómez (died 1146) was a Castilian nobleman and military leader under Alfonso VII. He governed large parts of Asturias and northern Castile, was involved in the politics with neighbouring Navarre, to whose royal family he was related by marriage..."
+        },
+        {
+          "canonical_id": "case_05:C0013#0-270",
+          "score": 0.09298303723335266,
+          "text": "La batalla de Candespina tuvo lugar el 26 de octubre de 1110 en Fresno de Cantespino (cerca de Sepúlveda, Segovia) y enfrentó a los ejércitos de Alfonso I el Batallador contra una coalición de tropas leonesas, castellanas y gallegas que defendían el partido de Urraca I."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 540,
+      "seconds": 0.126,
+      "target": "Gómez González perished on 26 October 1111 during the Battle of Candespina.",
+      "target_tokens": 25,
+      "total_tokens": 565
+    },
+    "r2": {
+      "candidates": [
+        {
+          "canonical_id": "transmission:r1",
+          "score": 0.24348920583724976,
+          "text": "Gómez González perished on 26 October 1111 during the Battle of Candespina."
+        },
+        {
+          "canonical_id": "case_05:C0024#0-162",
+          "score": 0.34933045506477356,
+          "text": "Gómez González (died 26 October 1111), called de Lara or de Candespina, was a Castilian nobleman and military leader who had some claim to being Count of Castile."
+        },
+        {
+          "canonical_id": "case_05:C0006#0-157",
+          "score": 0.009538546204566956,
+          "text": "Rodrigo Vicente Gómez Peña is a Chilean former footballer who played as a midfielder. He played in five matches for the Chile national football team in 1991."
+        },
+        {
+          "canonical_id": "case_05:C0007#0-238",
+          "score": 0.1026536151766777,
+          "text": "The couple produced three sons, each of whom became counts: Álvaro, Gómez, and Gonzalo. According to one historian, Rodrigo first appears in royal documents in 1119, eight years after his father's death at the Battle of Candespina (1111)."
+        },
+        {
+          "canonical_id": "case_05:C0008#0-168",
+          "score": 0.0008042609551921487,
+          "text": "FIFA 21 Football Players who are Father and Son! ft. Haland, Zidane & Drogba! Footballers father and son! Coming from Clubs like Dortmund, Real Madrid and FC Barcelona!"
+        },
+        {
+          "canonical_id": "case_05:C0009#0-182",
+          "score": 0.0011449349112808704,
+          "text": "To predict your death date, simply input your date of birth, sex, smoking habits, your BMI and the country you live in. If you don't know your BMI simply use the BMI calculator form."
+        },
+        {
+          "canonical_id": "case_05:C0010#0-186",
+          "score": 0.0018850949127227068,
+          "text": "Venezuela earthquakes death toll rises to 5,119. 1 hour ago. Firefighters give feathered fire survivor a breath of fresh ...Construction crane collapses onto homes during storm in Chile."
+        },
+        {
+          "canonical_id": "case_05:C0011#0-205",
+          "score": 0.0768706202507019,
+          "text": "Evidence:\n- The PeoplePill result mentions a Rodrigo whose \"father's death at the Battle of Candespina (1111)\" — this is likely about Rodrigo González de Lara, a medieval Spanish noble. Let me verify this."
+        },
+        {
+          "canonical_id": "case_05:C0012#0-255",
+          "score": 0.022896647453308105,
+          "text": "Rodrigo Gómez (died 1146) was a Castilian nobleman and military leader under Alfonso VII. He governed large parts of Asturias and northern Castile, was involved in the politics with neighbouring Navarre, to whose royal family he was related by marriage..."
+        },
+        {
+          "canonical_id": "case_05:C0013#0-270",
+          "score": 0.07579585909843445,
+          "text": "La batalla de Candespina tuvo lugar el 26 de octubre de 1110 en Fresno de Cantespino (cerca de Sepúlveda, Segovia) y enfrentó a los ejércitos de Alfonso I el Batallador contra una coalición de tropas leonesas, castellanas y gallegas que defendían el partido de Urraca I."
+        }
+      ],
+      "max_repeat_difference": 0.0,
+      "prompt_tokens": 568,
+      "seconds": 0.128,
+      "target": "Gómez González (died 26 October 1111), called de Lara or de Candespina, perished at the Battle of Candespina on 26 October 1111.",
+      "target_tokens": 47,
+      "total_tokens": 615
+    }
+  },
+  "schema": "memoryflow.multiturn_matrices.v1",
+  "source": {
+    "head": 15,
+    "layer": 19,
+    "model": "Qwen2.5-7B-Instruct",
+    "runtime": {
+      "attn_implementation": "eager",
+      "dtype": "bfloat16",
+      "free_before_gib": 18.39,
+      "logical_gpu": 0,
+      "physical_gpu": 0,
+      "prefill_chunk": 2048,
+      "process_cap_gib": 24.0,
+      "tf32": false,
+      "total_gib": 79.25
+    },
+    "scored_at": "2026-11-06"
+  }
+}

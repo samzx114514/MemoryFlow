@@ -1,0 +1,801 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_05:T07",
+ "trajectory_id": "case_05",
+ "trajectory_case": "case_05",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "Gómez González (died 26 October 1111), called de Lara or de Candespina, perished at the Battle of Candespina on 26 October 1111.",
+  "sha256": "4ebd099a9727ca73feb64c722eb29cee7c87a813c9cc925d4717e3f73d203cb0",
+  "origin": "recorded_target",
+  "artifact_id": "case_05:T07",
+  "start": 0,
+  "end": 128,
+  "original_target": {
+   "text": "Gómez González (died 26 October 1111), called de Lara or de Candespina, perished at the Battle of Candespina on 26 October 1111.",
+   "artifact_id": "case_05:T07"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "When did Rodrigo Gómez's father die?",
+   "inputs": [
+    {
+     "unit_id": "case_05:C0020#0-179",
+     "artifact_id": "case_05:C0020",
+     "start": 0,
+     "end": 179,
+     "text": "Gómez González perished on 26 October 1111 during the Battle of Candespina, succumbing in close-quarters combat that abruptly concluded his tenure as a foremost Castilian magnate.",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    },
+    {
+     "unit_id": "case_05:C0006#0-157",
+     "artifact_id": "case_05:C0006",
+     "start": 0,
+     "end": 157,
+     "text": "Rodrigo Vicente Gómez Peña is a Chilean former footballer who played as a midfielder. He played in five matches for the Chile national football team in 1991.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    },
+    {
+     "unit_id": "case_05:C0007#0-238",
+     "artifact_id": "case_05:C0007",
+     "start": 0,
+     "end": 238,
+     "text": "The couple produced three sons, each of whom became counts: Álvaro, Gómez, and Gonzalo. According to one historian, Rodrigo first appears in royal documents in 1119, eight years after his father's death at the Battle of Candespina (1111).",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    },
+    {
+     "unit_id": "case_05:C0008#0-168",
+     "artifact_id": "case_05:C0008",
+     "start": 0,
+     "end": 168,
+     "text": "FIFA 21 Football Players who are Father and Son! ft. Haland, Zidane & Drogba! Footballers father and son! Coming from Clubs like Dortmund, Real Madrid and FC Barcelona!",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    },
+    {
+     "unit_id": "case_05:C0009#0-182",
+     "artifact_id": "case_05:C0009",
+     "start": 0,
+     "end": 182,
+     "text": "To predict your death date, simply input your date of birth, sex, smoking habits, your BMI and the country you live in. If you don't know your BMI simply use the BMI calculator form.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    },
+    {
+     "unit_id": "case_05:C0010#0-186",
+     "artifact_id": "case_05:C0010",
+     "start": 0,
+     "end": 186,
+     "text": "Venezuela earthquakes death toll rises to 5,119. 1 hour ago. Firefighters give feathered fire survivor a breath of fresh ...Construction crane collapses onto homes during storm in Chile.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    },
+    {
+     "unit_id": "case_05:C0011#0-205",
+     "artifact_id": "case_05:C0011",
+     "start": 0,
+     "end": 205,
+     "text": "Evidence:\n- The PeoplePill result mentions a Rodrigo whose \"father's death at the Battle of Candespina (1111)\" — this is likely about Rodrigo González de Lara, a medieval Spanish noble. Let me verify this.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    },
+    {
+     "unit_id": "case_05:C0012#0-255",
+     "artifact_id": "case_05:C0012",
+     "start": 0,
+     "end": 255,
+     "text": "Rodrigo Gómez (died 1146) was a Castilian nobleman and military leader under Alfonso VII. He governed large parts of Asturias and northern Castile, was involved in the politics with neighbouring Navarre, to whose royal family he was related by marriage...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    },
+    {
+     "unit_id": "case_05:C0013#0-270",
+     "artifact_id": "case_05:C0013",
+     "start": 0,
+     "end": 270,
+     "text": "La batalla de Candespina tuvo lugar el 26 de octubre de 1110 en Fresno de Cantespino (cerca de Sepúlveda, Segovia) y enfrentó a los ejércitos de Alfonso I el Batallador contra una coalición de tropas leonesas, castellanas y gallegas que defendían el partido de Urraca I.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "output": {
+    "text": "Gómez González perished on 26 October 1111 during the Battle of Candespina.",
+    "sha256": "0c13b22f648358844104ea9c90bc3c8b2316a3bacbb82fa15d7ec0a7e3eac9f0",
+    "origin": "controlled_output"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "When did Rodrigo Gómez's father die?",
+   "inputs": [
+    {
+     "unit_id": "case_05:C0024#0-162",
+     "artifact_id": "case_05:C0024",
+     "start": 0,
+     "end": 162,
+     "text": "Gómez González (died 26 October 1111), called de Lara or de Candespina, was a Castilian nobleman and military leader who had some claim to being Count of Castile.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    },
+    {
+     "unit_id": "case_05:C0006#0-157",
+     "artifact_id": "case_05:C0006",
+     "start": 0,
+     "end": 157,
+     "text": "Rodrigo Vicente Gómez Peña is a Chilean former footballer who played as a midfielder. He played in five matches for the Chile national football team in 1991.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    },
+    {
+     "unit_id": "case_05:C0007#0-238",
+     "artifact_id": "case_05:C0007",
+     "start": 0,
+     "end": 238,
+     "text": "The couple produced three sons, each of whom became counts: Álvaro, Gómez, and Gonzalo. According to one historian, Rodrigo first appears in royal documents in 1119, eight years after his father's death at the Battle of Candespina (1111).",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    },
+    {
+     "unit_id": "case_05:C0008#0-168",
+     "artifact_id": "case_05:C0008",
+     "start": 0,
+     "end": 168,
+     "text": "FIFA 21 Football Players who are Father and Son! ft. Haland, Zidane & Drogba! Footballers father and son! Coming from Clubs like Dortmund, Real Madrid and FC Barcelona!",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    },
+    {
+     "unit_id": "case_05:C0009#0-182",
+     "artifact_id": "case_05:C0009",
+     "start": 0,
+     "end": 182,
+     "text": "To predict your death date, simply input your date of birth, sex, smoking habits, your BMI and the country you live in. If you don't know your BMI simply use the BMI calculator form.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    },
+    {
+     "unit_id": "case_05:C0010#0-186",
+     "artifact_id": "case_05:C0010",
+     "start": 0,
+     "end": 186,
+     "text": "Venezuela earthquakes death toll rises to 5,119. 1 hour ago. Firefighters give feathered fire survivor a breath of fresh ...Construction crane collapses onto homes during storm in Chile.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    },
+    {
+     "unit_id": "case_05:C0011#0-205",
+     "artifact_id": "case_05:C0011",
+     "start": 0,
+     "end": 205,
+     "text": "Evidence:\n- The PeoplePill result mentions a Rodrigo whose \"father's death at the Battle of Candespina (1111)\" — this is likely about Rodrigo González de Lara, a medieval Spanish noble. Let me verify this.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    },
+    {
+     "unit_id": "case_05:C0012#0-255",
+     "artifact_id": "case_05:C0012",
+     "start": 0,
+     "end": 255,
+     "text": "Rodrigo Gómez (died 1146) was a Castilian nobleman and military leader under Alfonso VII. He governed large parts of Asturias and northern Castile, was involved in the politics with neighbouring Navarre, to whose royal family he was related by marriage...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    },
+    {
+     "unit_id": "case_05:C0013#0-270",
+     "artifact_id": "case_05:C0013",
+     "start": 0,
+     "end": 270,
+     "text": "La batalla de Candespina tuvo lugar el 26 de octubre de 1110 en Fresno de Cantespino (cerca de Sepúlveda, Segovia) y enfrentó a los ejércitos de Alfonso I el Batallador contra una coalición de tropas leonesas, castellanas y gallegas que defendían el partido de Urraca I.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "output": {
+    "text": "Gómez González (died 26 October 1111), called de Lara or de Candespina, perished at the Battle of Candespina on 26 October 1111.",
+    "sha256": "4ebd099a9727ca73feb64c722eb29cee7c87a813c9cc925d4717e3f73d203cb0",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "Gómez González perished on 26 October 1111 during the Battle of Candespina.",
+     "sha256": "0c13b22f648358844104ea9c90bc3c8b2316a3bacbb82fa15d7ec0a7e3eac9f0",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_05:C0006#0-157",
+   "artifact_id": "case_05:C0006",
+   "start": 0,
+   "end": 157,
+   "text": "Rodrigo Vicente Gómez Peña is a Chilean former footballer who played as a midfielder. He played in five matches for the Chile national football team in 1991.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_05:C0006#0-157",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_05:C0006#0-157",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_05:C0007#0-238",
+   "artifact_id": "case_05:C0007",
+   "start": 0,
+   "end": 238,
+   "text": "The couple produced three sons, each of whom became counts: Álvaro, Gómez, and Gonzalo. According to one historian, Rodrigo first appears in royal documents in 1119, eight years after his father's death at the Battle of Candespina (1111).",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_05:C0007#0-238",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_05:C0007#0-238",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_05:C0008#0-168",
+   "artifact_id": "case_05:C0008",
+   "start": 0,
+   "end": 168,
+   "text": "FIFA 21 Football Players who are Father and Son! ft. Haland, Zidane & Drogba! Footballers father and son! Coming from Clubs like Dortmund, Real Madrid and FC Barcelona!",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_05:C0008#0-168",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_05:C0008#0-168",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_05:C0009#0-182",
+   "artifact_id": "case_05:C0009",
+   "start": 0,
+   "end": 182,
+   "text": "To predict your death date, simply input your date of birth, sex, smoking habits, your BMI and the country you live in. If you don't know your BMI simply use the BMI calculator form.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_05:C0009#0-182",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_05:C0009#0-182",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_05:C0010#0-186",
+   "artifact_id": "case_05:C0010",
+   "start": 0,
+   "end": 186,
+   "text": "Venezuela earthquakes death toll rises to 5,119. 1 hour ago. Firefighters give feathered fire survivor a breath of fresh ...Construction crane collapses onto homes during storm in Chile.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_05:C0010#0-186",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_05:C0010#0-186",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_05:C0011#0-205",
+   "artifact_id": "case_05:C0011",
+   "start": 0,
+   "end": 205,
+   "text": "Evidence:\n- The PeoplePill result mentions a Rodrigo whose \"father's death at the Battle of Candespina (1111)\" — this is likely about Rodrigo González de Lara, a medieval Spanish noble. Let me verify this.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_05:C0011#0-205",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_05:C0011#0-205",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_05:C0012#0-255",
+   "artifact_id": "case_05:C0012",
+   "start": 0,
+   "end": 255,
+   "text": "Rodrigo Gómez (died 1146) was a Castilian nobleman and military leader under Alfonso VII. He governed large parts of Asturias and northern Castile, was involved in the politics with neighbouring Navarre, to whose royal family he was related by marriage...",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_05:C0012#0-255",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_05:C0012#0-255",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_05:C0013#0-270",
+   "artifact_id": "case_05:C0013",
+   "start": 0,
+   "end": 270,
+   "text": "La batalla de Candespina tuvo lugar el 26 de octubre de 1110 en Fresno de Cantespino (cerca de Sepúlveda, Segovia) y enfrentó a los ejércitos de Alfonso I el Batallador contra una coalición de tropas leonesas, castellanas y gallegas que defendían el partido de Urraca I.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_05:C0013#0-270",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_05:C0013#0-270",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_05:C0014#0-207",
+   "artifact_id": "case_05:C0014",
+   "start": 0,
+   "end": 207,
+   "text": "The Battle of Candespina was fought on 26 October 1110 or 1111 between the forces of Alfonso I of Aragon and those of his estranged wife, Urraca of León and Castile, in the Campo de la Espina near Sepúlveda.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_05:C0015#0-226",
+   "artifact_id": "case_05:C0015",
+   "start": 0,
+   "end": 226,
+   "text": "The Battle of Candespina took place on 26 October 1111 at Campo de la Espina, near Fresno de Cantespino and in close proximity to Sepúlveda, within the historical region of Old Castile (modern Segovia province, central Spain).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_05:C0016#0-75",
+   "artifact_id": "case_05:C0016",
+   "start": 0,
+   "end": 75,
+   "text": "0 references. child. Rodrigo Gómez.significant event. Battle of Candespina.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_05:C0017#0-519",
+   "artifact_id": "case_05:C0017",
+   "start": 0,
+   "end": 519,
+   "text": "Evidence:\n- The Wikipedia article on \"Rodrigo Gómez (Castilian nobleman)\" confirms he was a Castilian nobleman who died in 1146.\n- The Wikidata entry for Gómez González (Q5626092) lists Rodrigo Gómez as his child, and the Battle of Candespina as a significant event.\n- Multiple sources confirm the Battle of Candespina took place on 26 October 1111.\n- Gómez González, Rodrigo Gómez's father, died at the Battle of Candespina.\n\nLet me verify this by checking the Wikipedia article for Rodrigo Gómez (Castilian nobleman).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_05:C0018#0-242",
+   "artifact_id": "case_05:C0018",
+   "start": 0,
+   "end": 242,
+   "text": "Castilian nobleman (died 1146). Courtyard of Rodrigo's favoured monastery of Oña. The Romanesque structure of Rodrigo's day can be seen in the top left. Rodrigo Gómez (died 1146) was a Castilian nobleman and military leader under Alfonso VII.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_05:C0019#0-207",
+   "artifact_id": "case_05:C0019",
+   "start": 0,
+   "end": 207,
+   "text": "The Battle of Candespina was fought on 26 October 1110 or 1111 between the forces of Alfonso I of Aragon and those of his estranged wife, Urraca of León and Castile, in the Campo de la Espina near Sepúlveda.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_05:C0020#0-179",
+   "artifact_id": "case_05:C0020",
+   "start": 0,
+   "end": 179,
+   "text": "Gómez González perished on 26 October 1111 during the Battle of Candespina, succumbing in close-quarters combat that abruptly concluded his tenure as a foremost Castilian magnate.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_05:C0020#0-179",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_05:C0021#0-183",
+   "artifact_id": "case_05:C0021",
+   "start": 0,
+   "end": 183,
+   "text": "Gómez González was an important count in Castile. He was known to be a supporter of Queen Urraca. His death during the Battle of Candespina was a significant loss for Urraca's forces.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_05:C0022#0-226",
+   "artifact_id": "case_05:C0022",
+   "start": 0,
+   "end": 226,
+   "text": "Ella es clara gomez gonzalez testigo clave en el caso tlatlaya. Gómez González (died 26 October 1111), called de Lara or de Candespina, was a Castilian nobleman and military leader who had some claim to being Count of Castile.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_05:C0023#0-242",
+   "artifact_id": "case_05:C0023",
+   "start": 0,
+   "end": 242,
+   "text": "Castilian nobleman (died 1146). Courtyard of Rodrigo's favoured monastery of Oña. The Romanesque structure of Rodrigo's day can be seen in the top left. Rodrigo Gómez (died 1146) was a Castilian nobleman and military leader under Alfonso VII.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_05:C0024#0-162",
+   "artifact_id": "case_05:C0024",
+   "start": 0,
+   "end": 162,
+   "text": "Gómez González (died 26 October 1111), called de Lara or de Candespina, was a Castilian nobleman and military leader who had some claim to being Count of Castile.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_05:C0024#0-162",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_05:C0025#0-117",
+   "artifact_id": "case_05:C0025",
+   "start": 0,
+   "end": 117,
+   "text": "Ver el perfil de Carlos Rodrigo Gómez González en LinkedIn, una red profesional de más de 1.000 millones de miembros.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_05:C0026#0-137",
+   "artifact_id": "case_05:C0026",
+   "start": 0,
+   "end": 137,
+   "text": "Listen to Rodrigo Gomez Gonzalez | SoundCloud is an audio platform that lets you listen to what you love and share the sounds you create.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_05:C0028#0-713",
+   "artifact_id": "case_05:C0028",
+   "start": 0,
+   "end": 713,
+   "text": "Evidence:\n- Rodrigo Gómez (Castilian nobleman, died 1146) is the son of Gómez González.\n- Gómez González died on 26 October 1111 at the Battle of Candespina.\n- Multiple sources confirm: \"Gómez González (died 26 October 1111), called de Lara or de Candespina, was a Castilian nobleman and military leader.\"\n- The PeoplePill result earlier stated: \"Rodrigo first appears in royal documents in 1119, eight years after his father's death at the Battle of Candespina (1111).\"\n- Wikidata entry for Gómez González (Q5626092) lists \"Rodrigo Gómez\" as his child and \"Battle of Candespina\" as a significant event.\n\nLet me do one final verification by checking the Wikipedia article directly for the father-son relationship.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_05:C0029#0-242",
+   "artifact_id": "case_05:C0029",
+   "start": 0,
+   "end": 242,
+   "text": "Castilian nobleman (died 1146). Courtyard of Rodrigo's favoured monastery of Oña. The Romanesque structure of Rodrigo's day can be seen in the top left. Rodrigo Gómez (died 1146) was a Castilian nobleman and military leader under Alfonso VII.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_05:C0030#0-206",
+   "artifact_id": "case_05:C0030",
+   "start": 0,
+   "end": 206,
+   "text": "Elisa Patricia Gómez Urbán 11. Jesús Bazán Puertas 12. María Jesús Fromesta Ruiz 13.Manuel José Oriol Soler Martínez Suplentes: Luis Antonio Baladrón Rico, María González Rodrigo y Beatriz García Fernández.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_05:C0031#0-76",
+   "artifact_id": "case_05:C0031",
+   "start": 0,
+   "end": 76,
+   "text": "Rodrigo Gómez. Castillian noble.58187/rodrigo-gomez. father. Gómez González.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_05:C0032#0-246",
+   "artifact_id": "case_05:C0032",
+   "start": 0,
+   "end": 246,
+   "text": "Gómez González de Traba. Galician nobleman.The details (from wikipedia). Biography. Gómez González (died 26 October 1111), called de Lara or de Candespina, was a Castilian nobleman and military leader who had some claim to being Count of Castile.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_05:C0033#0-168",
+   "artifact_id": "case_05:C0033",
+   "start": 0,
+   "end": 168,
+   "text": "Name: Gómez González. Origin: Castilian nobleman. Role: Military leader. Era: Medieval period in Spain. Significance: Noted for his contributions to military campaigns.",
+   "occurrences": [],
+   "pool_only": true
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_05:T07:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_05:C0020",
+      "start": 0,
+      "end": 74,
+      "text": "Gómez González perished on 26 October 1111 during the Battle of Candespina"
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_05:C0020",
+       "start": 0,
+       "end": 74,
+       "text": "Gómez González perished on 26 October 1111 during the Battle of Candespina"
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_05:C0024",
+      "start": 0,
+      "end": 70,
+      "text": "Gómez González (died 26 October 1111), called de Lara or de Candespina"
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_05:C0024",
+       "start": 0,
+       "end": 70,
+       "text": "Gómez González (died 26 October 1111), called de Lara or de Candespina"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_05:C0020#0-179"
+  ],
+  "B": [
+   "case_05:C0024#0-162"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T07",
+   "case": "case_05",
+   "question": "When did Rodrigo Gómez's father die?",
+   "target_event": 19,
+   "target_start": 238,
+   "target_end": 366,
+   "target": "Gómez González (died 26 October 1111), called de Lara or de Candespina, perished at the Battle of Candespina on 26 October 1111.",
+   "candidate_ids": [
+    "C0006",
+    "C0007",
+    "C0008",
+    "C0009",
+    "C0010",
+    "C0012",
+    "C0013",
+    "C0014",
+    "C0015",
+    "C0016",
+    "C0018",
+    "C0019",
+    "C0020",
+    "C0021",
+    "C0022",
+    "C0023",
+    "C0024",
+    "C0025",
+    "C0026",
+    "C0027",
+    "C0029",
+    "C0030",
+    "C0031",
+    "C0032",
+    "C0033",
+    "C0011",
+    "C0017",
+    "C0028"
+   ],
+   "annotation_status": "assistant_reviewed_pending_human"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0020",
+     "start": 0,
+     "end": 74,
+     "text": "Gómez González perished on 26 October 1111 during the Battle of Candespina"
+    },
+    {
+     "candidate_id": "C0024",
+     "start": 0,
+     "end": 70,
+     "text": "Gómez González (died 26 October 1111), called de Lara or de Candespina"
+    }
+   ]
+  },
+  "intermediate": "controlled",
+  "note": "controlled two-round; real intermediate message not yet verified"
+ }
+}

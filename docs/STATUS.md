@@ -1,5 +1,13 @@
 # 当前状态
 
+## 最新推进（2026-11-07）：informative30_v1 接入，首批 3 题
+
+- 新包 49 case / 300 target / 285 草案；按 (case,id) 连接 tasks/candidates/GT，只取目标事件前材料，原始答案/评分/summary 未进回放。
+- 36 个优先目标清单未随包提供；本轮先取 3 个跨轨迹、证据在目标前、GT 组可覆盖的目标。
+- 首批 case_03:T02、case_05:T07、case_06:T02，全部为受控中间句（未找到可核实的真实传递消息）；precheck 3/3 PASS。
+- 结果：MF 完整@5/@10 2/3、2/3；head 3/3、3/3；BM25 2/3、3/3；last 0。配对 MF-last 2/1/0、MF-BM25 1/0/2、MF-head 0/1/2。
+- 旧 batch10 从核过 17 题起算；case_03 selected_08 只留 diagnostic（选举期间口径未确认），不重纳入。旧 100：17 主表、1 diagnostic、3 pending、2 对照、3 排除、43 单事件、6 partial、25 partial 排除。
+
 ## 最新推进（2026-11-07）：case_03 criteria 实测，累计 18 题 / 8 轨迹
 
 - case_03 selected_08 拆成“上议院反对党领袖 / 2019 代理任职 / 议员资历”三窗，预检 PASS；MF 失败（A5/B1），head 完整第 6，BM25/last 失败 → 作为方法跑丢题留在分母。

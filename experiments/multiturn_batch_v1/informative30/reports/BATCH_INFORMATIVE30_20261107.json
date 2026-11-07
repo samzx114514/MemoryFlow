@@ -1,0 +1,717 @@
+{
+  "cases": [
+    {
+      "case_id": "case_03:T02",
+      "control": null,
+      "final_budget": 10,
+      "hop_budget": 5,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": true,
+          "complete_at_5": false,
+          "complete_rank": 9,
+          "group_complete": {
+            "case_03:T02:support_g01": {
+              "at_10": true,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 1,
+            "B": 8
+          },
+          "ranked": [
+            "case_03:C0012#0-259",
+            "case_03:C0018#0-277",
+            "case_03:C0019#0-244",
+            "case_03:C0014#0-160",
+            "case_03:C0011#0-192",
+            "case_03:C0017#0-275",
+            "case_03:C0013#0-265",
+            "case_03:C0016#0-248",
+            "case_03:C0015#0-160",
+            "case_03:C0020#0-171"
+          ]
+        },
+        "head_full_history": {
+          "complete_at_10": true,
+          "complete_at_5": true,
+          "complete_rank": 5,
+          "group_complete": {
+            "case_03:T02:support_g01": {
+              "at_10": true,
+              "at_5": true
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 1,
+            "B": 3
+          },
+          "ranked": [
+            "case_03:C0012#0-259",
+            "case_03:C0020#0-171",
+            "case_03:C0016#0-248",
+            "case_03:C0018#0-277",
+            "case_03:C0015#0-160",
+            "case_03:C0011#0-192",
+            "case_03:C0017#0-275",
+            "case_03:C0013#0-265",
+            "case_03:C0019#0-244",
+            "case_03:C0014#0-160"
+          ]
+        },
+        "last_round": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "case_03:T02:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": null,
+            "B": 1
+          },
+          "ranked": [
+            "case_03:C0016#0-248",
+            "case_03:C0018#0-277",
+            "case_03:C0020#0-171",
+            "case_03:C0015#0-160",
+            "case_03:C0017#0-275",
+            "case_03:C0011#0-192",
+            "case_03:C0013#0-265",
+            "case_03:C0019#0-244",
+            "case_03:C0014#0-160"
+          ]
+        },
+        "memoryflow": {
+          "complete_at_10": true,
+          "complete_at_5": true,
+          "complete_rank": 5,
+          "group_complete": {
+            "case_03:T02:support_g01": {
+              "at_10": true,
+              "at_5": true
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": [
+            {
+              "factor": 1.0,
+              "path": [
+                "r2"
+              ],
+              "round": "r2",
+              "top": [
+                {
+                  "canonical_id": "transmission:r1",
+                  "score": 0.41639581322669983
+                },
+                {
+                  "canonical_id": "case_03:C0016#0-248",
+                  "score": 0.1435118019580841
+                },
+                {
+                  "canonical_id": "case_03:C0018#0-277",
+                  "score": 0.08316835016012192
+                },
+                {
+                  "canonical_id": "case_03:C0020#0-171",
+                  "score": 0.049429554492235184
+                },
+                {
+                  "canonical_id": "case_03:C0015#0-160",
+                  "score": 0.04404163360595703
+                }
+              ]
+            },
+            {
+              "factor": 0.416395813,
+              "path": [
+                "r2",
+                "r1"
+              ],
+              "round": "r1",
+              "top": [
+                {
+                  "canonical_id": "case_03:C0012#0-259",
+                  "score": 0.2891269624233246
+                },
+                {
+                  "canonical_id": "case_03:C0020#0-171",
+                  "score": 0.14704835414886475
+                },
+                {
+                  "canonical_id": "case_03:C0018#0-277",
+                  "score": 0.10307727754116058
+                },
+                {
+                  "canonical_id": "case_03:C0017#0-275",
+                  "score": 0.05995924398303032
+                },
+                {
+                  "canonical_id": "case_03:C0011#0-192",
+                  "score": 0.04030558839440346
+                }
+              ]
+            }
+          ],
+          "label_ranks": {
+            "A": 3,
+            "B": 1
+          },
+          "ranked": [
+            "case_03:C0016#0-248",
+            "case_03:C0018#0-277",
+            "case_03:C0012#0-259",
+            "case_03:C0020#0-171",
+            "case_03:C0015#0-160",
+            "case_03:C0017#0-275",
+            "case_03:C0011#0-192"
+          ]
+        }
+      },
+      "record_type": "controlled",
+      "split": "dev",
+      "trajectory_case": "case_03",
+      "trajectory_id": "case_03"
+    },
+    {
+      "case_id": "case_05:T07",
+      "control": null,
+      "final_budget": 10,
+      "hop_budget": 5,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": true,
+          "complete_at_5": true,
+          "complete_rank": 2,
+          "group_complete": {
+            "case_05:T07:support_g01": {
+              "at_10": true,
+              "at_5": true
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 2,
+            "B": 1
+          },
+          "ranked": [
+            "case_05:C0024#0-162",
+            "case_05:C0020#0-179",
+            "case_05:C0011#0-205",
+            "case_05:C0007#0-238",
+            "case_05:C0013#0-270",
+            "case_05:C0012#0-255",
+            "case_05:C0006#0-157",
+            "case_05:C0009#0-182",
+            "case_05:C0010#0-186",
+            "case_05:C0008#0-168"
+          ]
+        },
+        "head_full_history": {
+          "complete_at_10": true,
+          "complete_at_5": true,
+          "complete_rank": 2,
+          "group_complete": {
+            "case_05:T07:support_g01": {
+              "at_10": true,
+              "at_5": true
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": 2,
+            "B": 1
+          },
+          "ranked": [
+            "case_05:C0024#0-162",
+            "case_05:C0020#0-179",
+            "case_05:C0013#0-270",
+            "case_05:C0007#0-238",
+            "case_05:C0011#0-205",
+            "case_05:C0012#0-255",
+            "case_05:C0006#0-157",
+            "case_05:C0010#0-186",
+            "case_05:C0009#0-182",
+            "case_05:C0008#0-168"
+          ]
+        },
+        "last_round": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "case_05:T07:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": null,
+            "B": 1
+          },
+          "ranked": [
+            "case_05:C0024#0-162",
+            "case_05:C0007#0-238",
+            "case_05:C0011#0-205",
+            "case_05:C0013#0-270",
+            "case_05:C0012#0-255",
+            "case_05:C0006#0-157",
+            "case_05:C0010#0-186",
+            "case_05:C0009#0-182",
+            "case_05:C0008#0-168"
+          ]
+        },
+        "memoryflow": {
+          "complete_at_10": true,
+          "complete_at_5": true,
+          "complete_rank": 3,
+          "group_complete": {
+            "case_05:T07:support_g01": {
+              "at_10": true,
+              "at_5": true
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": [
+            {
+              "factor": 1.0,
+              "path": [
+                "r2"
+              ],
+              "round": "r2",
+              "top": [
+                {
+                  "canonical_id": "case_05:C0024#0-162",
+                  "score": 0.34933045506477356
+                },
+                {
+                  "canonical_id": "transmission:r1",
+                  "score": 0.24348920583724976
+                },
+                {
+                  "canonical_id": "case_05:C0007#0-238",
+                  "score": 0.1026536151766777
+                },
+                {
+                  "canonical_id": "case_05:C0011#0-205",
+                  "score": 0.0768706202507019
+                },
+                {
+                  "canonical_id": "case_05:C0013#0-270",
+                  "score": 0.07579585909843445
+                }
+              ]
+            },
+            {
+              "factor": 0.243489206,
+              "path": [
+                "r2",
+                "r1"
+              ],
+              "round": "r1",
+              "top": [
+                {
+                  "canonical_id": "case_05:C0020#0-179",
+                  "score": 0.5421156883239746
+                },
+                {
+                  "canonical_id": "case_05:C0007#0-238",
+                  "score": 0.14583931863307953
+                },
+                {
+                  "canonical_id": "case_05:C0013#0-270",
+                  "score": 0.09298303723335266
+                },
+                {
+                  "canonical_id": "case_05:C0011#0-205",
+                  "score": 0.0799604132771492
+                },
+                {
+                  "canonical_id": "case_05:C0006#0-157",
+                  "score": 0.010173999704420567
+                }
+              ]
+            }
+          ],
+          "label_ranks": {
+            "A": 3,
+            "B": 1
+          },
+          "ranked": [
+            "case_05:C0024#0-162",
+            "case_05:C0007#0-238",
+            "case_05:C0020#0-179",
+            "case_05:C0013#0-270",
+            "case_05:C0011#0-205",
+            "case_05:C0006#0-157"
+          ]
+        }
+      },
+      "record_type": "controlled",
+      "split": "dev",
+      "trajectory_case": "case_05",
+      "trajectory_id": "case_05"
+    },
+    {
+      "case_id": "case_06:T02",
+      "control": null,
+      "final_budget": 10,
+      "hop_budget": 5,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": true,
+          "complete_at_5": true,
+          "complete_rank": 5,
+          "group_complete": {
+            "case_06:T02:support_g01": {
+              "at_10": true,
+              "at_5": true
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 2,
+          "hops": null,
+          "label_ranks": {
+            "A": 5,
+            "B": 2
+          },
+          "ranked": [
+            "case_06:C0001#0-213",
+            "case_06:C0007#0-225",
+            "case_06:C0006#0-2099",
+            "case_06:C0003#0-2715",
+            "case_06:C0002#0-206",
+            "case_06:C0004#0-260",
+            "case_06:C0008#0-221",
+            "case_06:C0005#0-187",
+            "case_06:C0010#0-214",
+            "case_06:C0009#0-304"
+          ]
+        },
+        "head_full_history": {
+          "complete_at_10": true,
+          "complete_at_5": true,
+          "complete_rank": 4,
+          "group_complete": {
+            "case_06:T02:support_g01": {
+              "at_10": true,
+              "at_5": true
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 2,
+          "hops": null,
+          "label_ranks": {
+            "A": 4,
+            "B": 2
+          },
+          "ranked": [
+            "case_06:C0001#0-213",
+            "case_06:C0007#0-225",
+            "case_06:C0008#0-221",
+            "case_06:C0002#0-206",
+            "case_06:C0003#0-2715",
+            "case_06:C0009#0-304",
+            "case_06:C0004#0-260",
+            "case_06:C0006#0-2099",
+            "case_06:C0010#0-214",
+            "case_06:C0005#0-187"
+          ]
+        },
+        "last_round": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "case_06:T02:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": null,
+          "label_ranks": {
+            "A": null,
+            "B": 1
+          },
+          "ranked": [
+            "case_06:C0007#0-225",
+            "case_06:C0001#0-213",
+            "case_06:C0003#0-2715",
+            "case_06:C0008#0-221",
+            "case_06:C0006#0-2099",
+            "case_06:C0004#0-260",
+            "case_06:C0009#0-304",
+            "case_06:C0005#0-187",
+            "case_06:C0010#0-214"
+          ]
+        },
+        "memoryflow": {
+          "complete_at_10": false,
+          "complete_at_5": false,
+          "complete_rank": null,
+          "group_complete": {
+            "case_06:T02:support_g01": {
+              "at_10": false,
+              "at_5": false
+            }
+          },
+          "hit_at_3": true,
+          "hit_rank": 1,
+          "hops": [
+            {
+              "factor": 1.0,
+              "path": [
+                "r2"
+              ],
+              "round": "r2",
+              "top": [
+                {
+                  "canonical_id": "case_06:C0007#0-225",
+                  "score": 0.2744596600532532
+                },
+                {
+                  "canonical_id": "case_06:C0001#0-213",
+                  "score": 0.24287712574005127
+                },
+                {
+                  "canonical_id": "case_06:C0003#0-2715",
+                  "score": 0.1478758454322815
+                },
+                {
+                  "canonical_id": "case_06:C0008#0-221",
+                  "score": 0.03765414282679558
+                },
+                {
+                  "canonical_id": "case_06:C0006#0-2099",
+                  "score": 0.03454258665442467
+                }
+              ]
+            }
+          ],
+          "label_ranks": {
+            "A": null,
+            "B": 1
+          },
+          "ranked": [
+            "case_06:C0007#0-225",
+            "case_06:C0001#0-213",
+            "case_06:C0003#0-2715",
+            "case_06:C0008#0-221",
+            "case_06:C0006#0-2099"
+          ]
+        }
+      },
+      "record_type": "controlled",
+      "split": "dev",
+      "trajectory_case": "case_06",
+      "trajectory_id": "case_06"
+    }
+  ],
+  "directory": "F:\\CodexProject\\MemoryFlow-research\\experiments\\multiturn_batch_v1\\informative30",
+  "final_budget": 10,
+  "hop_budget": 5,
+  "schema": "memoryflow.multiturn_batch.results.v1",
+  "summary": {
+    "all": {
+      "cases": 3,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": 1.0,
+          "complete_at_10_count": 3,
+          "complete_at_5": 0.6666666666666666,
+          "complete_at_5_count": 2,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 3,
+          "mean_complete_rank": 5.333333333333333,
+          "mean_hit_rank": 1.3333333333333333
+        },
+        "head_full_history": {
+          "complete_at_10": 1.0,
+          "complete_at_10_count": 3,
+          "complete_at_5": 1.0,
+          "complete_at_5_count": 3,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 3,
+          "mean_complete_rank": 3.6666666666666665,
+          "mean_hit_rank": 1.3333333333333333
+        },
+        "last_round": {
+          "complete_at_10": 0.0,
+          "complete_at_10_count": 0,
+          "complete_at_5": 0.0,
+          "complete_at_5_count": 0,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 3,
+          "mean_complete_rank": 11.0,
+          "mean_hit_rank": 1.0
+        },
+        "memoryflow": {
+          "complete_at_10": 0.6666666666666666,
+          "complete_at_10_count": 2,
+          "complete_at_5": 0.6666666666666666,
+          "complete_at_5_count": 2,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 3,
+          "mean_complete_rank": 6.333333333333333,
+          "mean_hit_rank": 1.0
+        }
+      }
+    },
+    "control": {
+      "cases": 0
+    },
+    "control_case_ids": [],
+    "final_budget": 10,
+    "main": {
+      "cases": 3,
+      "methods": {
+        "bm25_history": {
+          "complete_at_10": 1.0,
+          "complete_at_10_count": 3,
+          "complete_at_5": 0.6666666666666666,
+          "complete_at_5_count": 2,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 3,
+          "mean_complete_rank": 5.333333333333333,
+          "mean_hit_rank": 1.3333333333333333
+        },
+        "head_full_history": {
+          "complete_at_10": 1.0,
+          "complete_at_10_count": 3,
+          "complete_at_5": 1.0,
+          "complete_at_5_count": 3,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 3,
+          "mean_complete_rank": 3.6666666666666665,
+          "mean_hit_rank": 1.3333333333333333
+        },
+        "last_round": {
+          "complete_at_10": 0.0,
+          "complete_at_10_count": 0,
+          "complete_at_5": 0.0,
+          "complete_at_5_count": 0,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 3,
+          "mean_complete_rank": 11.0,
+          "mean_hit_rank": 1.0
+        },
+        "memoryflow": {
+          "complete_at_10": 0.6666666666666666,
+          "complete_at_10_count": 2,
+          "complete_at_5": 0.6666666666666666,
+          "complete_at_5_count": 2,
+          "hit_at_3": 1.0,
+          "hit_at_3_count": 3,
+          "mean_complete_rank": 6.333333333333333,
+          "mean_hit_rank": 1.0
+        }
+      }
+    },
+    "main_case_ids": [
+      "case_03:T02",
+      "case_05:T07",
+      "case_06:T02"
+    ],
+    "paired_all": {
+      "bm25_history": {
+        "complete_rank": {
+          "loss": 2,
+          "tie": 0,
+          "win": 1
+        },
+        "hit_rank": {
+          "loss": 0,
+          "tie": 2,
+          "win": 1
+        }
+      },
+      "head_full_history": {
+        "complete_rank": {
+          "loss": 2,
+          "tie": 1,
+          "win": 0
+        },
+        "hit_rank": {
+          "loss": 0,
+          "tie": 2,
+          "win": 1
+        }
+      },
+      "last_round": {
+        "complete_rank": {
+          "loss": 0,
+          "tie": 1,
+          "win": 2
+        },
+        "hit_rank": {
+          "loss": 0,
+          "tie": 3,
+          "win": 0
+        }
+      }
+    },
+    "paired_main": {
+      "bm25_history": {
+        "complete_rank": {
+          "loss": 2,
+          "tie": 0,
+          "win": 1
+        },
+        "hit_rank": {
+          "loss": 0,
+          "tie": 2,
+          "win": 1
+        }
+      },
+      "head_full_history": {
+        "complete_rank": {
+          "loss": 2,
+          "tie": 1,
+          "win": 0
+        },
+        "hit_rank": {
+          "loss": 0,
+          "tie": 2,
+          "win": 1
+        }
+      },
+      "last_round": {
+        "complete_rank": {
+          "loss": 0,
+          "tie": 1,
+          "win": 2
+        },
+        "hit_rank": {
+          "loss": 0,
+          "tie": 3,
+          "win": 0
+        }
+      }
+    }
+  }
+}

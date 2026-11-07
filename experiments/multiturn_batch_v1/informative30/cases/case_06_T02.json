@@ -1,0 +1,790 @@
+{
+ "schema": "memoryflow.multiturn_case.v1",
+ "case_id": "case_06:T02",
+ "trajectory_id": "case_06",
+ "trajectory_case": "case_06",
+ "split": "dev",
+ "record_type": "controlled",
+ "control": null,
+ "analysis_pool": "union",
+ "target": {
+  "text": "The show named for that old man is \"The Andy Griffith Show\" (1960–1968).",
+  "sha256": "fab3e2a353542fb078b74ce4269fcfd9adc2a9a5c986bb96ef0358af6dbb7e83",
+  "origin": "recorded_target",
+  "artifact_id": "case_06:T02",
+  "start": 0,
+  "end": 72,
+  "original_target": {
+   "text": "The show named for that old man is \"The Andy Griffith Show\" (1960–1968).",
+   "artifact_id": "case_06:T02"
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "question": "What happened to Helen from the show named for the old man in Waiting on a Woman?",
+   "inputs": [
+    {
+     "unit_id": "case_06:C0002#0-206",
+     "artifact_id": "case_06:C0002",
+     "start": 0,
+     "end": 206,
+     "text": "Its central character is a recently married male sitting on a bench at a shopping mall, waiting for his wife to finish shopping. He meets an older man (Andy Griffith) who, like him, is \"waitin' on a woman\".",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    },
+    {
+     "unit_id": "case_06:C0001#0-213",
+     "artifact_id": "case_06:C0001",
+     "start": 0,
+     "end": 213,
+     "text": "I need to figure out what \"Waiting on a Woman\" refers to, identify the old man in it, find the show named for that person, and then determine what happened to Helen on that show. Let me research this step by step.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    },
+    {
+     "unit_id": "case_06:C0003#0-2715",
+     "artifact_id": "case_06:C0003",
+     "start": 0,
+     "end": 2715,
+     "text": "Oct 2, 2009 · Brad Paisley's official music video for 'Waitin' On A Woman' featuring Andy Griffith. Listen to Brad Paisley: https://BradPaisley.lnk.to/listenYD...more Sep 20, 2024 · Brad Paisley released his music video for “Waitin’ On A Woman” in 2008, and TV legend Andy Griffith starred in it. Brad Paisley ‘s poignant ballad, “Waitin’ On A Woman,” is a timeless ode to patience, love, and the enduring bond between couples. Mar 27, 2023 · Andy Griffith appeared in the music video for country singer Brad Paisley’s “Waitin’ for a Woman.” Paisley discussed what he thought of working with the star of The Andy... Sep 20, 2025 · Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube. Oct 1, 2020 · In the music video, a newlywed played by Paisley waits as his young wife shops in the mall. An older married man reassures him that the right partner is literally worth the wait. When he set out to film the video for \"Waitin' on a Woman,\" Paisley decided to call one of his idols: Andy Griffith. \"Who's the perfect person to sit next to you on a bench and tell you, 'Here's some advice, son'? When did Brad Paisley release a song 'Waitin' on a woman'? Brad Paisley released his music video for “Waitin’ On A Woman” in 2008, and TV legend Andy Griffith starred in it. Brad Paisley ‘s poignant ballad, “Waitin’ On A Woman,” is a timeless ode to patience, love, and the enduring bond between couples. He recorded it a total of three times. It was first included on his Time Well Wasted album in 2005. Why did Paisley ask Andy Griffith to star in 'Waitin' on a woman'? Paisley has referred to \"Waitin' on a Woman\" as \"one of the most important songs\" that he's ever recorded. Because of the importance that he places on the song, Paisley asked Andy Griffith to star in the music video, as he felt that Griffith's personality matched the personality of the older man in the song. Who is Paisley's 'Waitin' on a woman' Idol? When he set out to film the video for \"Waitin' on a Woman,\" Paisley decided to call one of his idols: Andy Griffith. \"Who's the perfect person to sit next to you on a bench and tell you, 'Here's some advice, son'? Andy Griffith,\" the singer explained in his spotlight interview during the 2018 Country Radio Seminar in Nashville. What does the older man say about waiting for his wife? The older man explains over the next two verses that, although he has often had to wait for his wife, he does not mind doing so (\"I don't guess we've been anywhere / She hasn't made us late, I swear / Sometimes she does it just 'cause she can do it\"). He tells the younger man that he will often find himself \"waitin' on a woman\" as well.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    },
+    {
+     "unit_id": "case_06:C0004#0-260",
+     "artifact_id": "case_06:C0004",
+     "start": 0,
+     "end": 260,
+     "text": "Sep 20, 2024 · Brad Paisley released his music video for “Waitin’ On A Woman” in 2008, and TV legend Andy Griffith starred in it. Brad Paisley ‘s poignant ballad, “Waitin’ On A Woman,” is a timeless ode to patience, love, and the enduring bond between couples.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    },
+    {
+     "unit_id": "case_06:C0005#0-187",
+     "artifact_id": "case_06:C0005",
+     "start": 0,
+     "end": 187,
+     "text": "Mar 27, 2023 · Andy Griffith appeared in the music video for country singer Brad Paisley’s “Waitin’ for a Woman.” Paisley discussed what he thought of working with the star of The Andy...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    },
+    {
+     "unit_id": "case_06:C0006#0-2099",
+     "artifact_id": "case_06:C0006",
+     "start": 0,
+     "end": 2099,
+     "text": "Sep 20, 2025 · Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube. Oct 1, 2020 · In the music video, a newlywed played by Paisley waits as his young wife shops in the mall. An older married man reassures him that the right partner is literally worth the wait. When he set out to film the video for \"Waitin' on a Woman,\" Paisley decided to call one of his idols: Andy Griffith. \"Who's the perfect person to sit next to you on a bench and tell you, 'Here's some advice, son'? When did Brad Paisley release a song 'Waitin' on a woman'? Brad Paisley released his music video for “Waitin’ On A Woman” in 2008, and TV legend Andy Griffith starred in it. Brad Paisley ‘s poignant ballad, “Waitin’ On A Woman,” is a timeless ode to patience, love, and the enduring bond between couples. He recorded it a total of three times. It was first included on his Time Well Wasted album in 2005. Why did Paisley ask Andy Griffith to star in 'Waitin' on a woman'? Paisley has referred to \"Waitin' on a Woman\" as \"one of the most important songs\" that he's ever recorded. Because of the importance that he places on the song, Paisley asked Andy Griffith to star in the music video, as he felt that Griffith's personality matched the personality of the older man in the song. Who is Paisley's 'Waitin' on a woman' Idol? When he set out to film the video for \"Waitin' on a Woman,\" Paisley decided to call one of his idols: Andy Griffith. \"Who's the perfect person to sit next to you on a bench and tell you, 'Here's some advice, son'? Andy Griffith,\" the singer explained in his spotlight interview during the 2018 Country Radio Seminar in Nashville. What does the older man say about waiting for his wife? The older man explains over the next two verses that, although he has often had to wait for his wife, he does not mind doing so (\"I don't guess we've been anywhere / She hasn't made us late, I swear / Sometimes she does it just 'cause she can do it\"). He tells the younger man that he will often find himself \"waitin' on a woman\" as well.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    },
+    {
+     "unit_id": "case_06:C0008#0-221",
+     "artifact_id": "case_06:C0008",
+     "start": 0,
+     "end": 221,
+     "text": "Corsaut first appeared on the long-running The Andy Griffith Show, in \"Andy Discovers America\" as schoolteacher Helen Crump, who later became the Mayberry sheriff's wife on the first episode of the spinoff Mayberry R.F.D.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    },
+    {
+     "unit_id": "case_06:C0009#0-304",
+     "artifact_id": "case_06:C0009",
+     "start": 0,
+     "end": 304,
+     "text": "Sep 29, 2025 · Many fans know and love Aneta Corsaut as Helen Crump on The Andy Griffith Show, but her career didn’t end in Mayberry. After the series wrapped, she went on to appear in other television shows, reunited with Andy Griffith on Matlock and even reprised her role as Helen in reunion specials.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    },
+    {
+     "unit_id": "case_06:C0010#0-214",
+     "artifact_id": "case_06:C0010",
+     "start": 0,
+     "end": 214,
+     "text": "Jan 26, 2026 · Helen Crump the character wasn’t based on a real-life person. But there was a real-life Helen Crump, who happened to live in North Carolina, during the same time period The Andy Griffith Show was on.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "output": {
+    "text": "The old man in Waiting on a Woman is Andy Griffith.",
+    "sha256": "5c2a9f8931edc724dcbff5c2261b79310dae3d8c6a9c5f3cad67f350d1cf181c",
+    "origin": "controlled_output"
+   },
+   "transmission": []
+  },
+  {
+   "round": 2,
+   "question": "What happened to Helen from the show named for the old man in Waiting on a Woman?",
+   "inputs": [
+    {
+     "unit_id": "case_06:C0007#0-225",
+     "artifact_id": "case_06:C0007",
+     "start": 0,
+     "end": 225,
+     "text": "Helen Crump is a fictional dramatic character on the American television program The Andy Griffith Show (1960–1968). Helen was a schoolteacher and became main character Sheriff Andy Taylor 's girlfriend, and eventually, wife.",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    },
+    {
+     "unit_id": "case_06:C0001#0-213",
+     "artifact_id": "case_06:C0001",
+     "start": 0,
+     "end": 213,
+     "text": "I need to figure out what \"Waiting on a Woman\" refers to, identify the old man in it, find the show named for that person, and then determine what happened to Helen on that show. Let me research this step by step.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    },
+    {
+     "unit_id": "case_06:C0003#0-2715",
+     "artifact_id": "case_06:C0003",
+     "start": 0,
+     "end": 2715,
+     "text": "Oct 2, 2009 · Brad Paisley's official music video for 'Waitin' On A Woman' featuring Andy Griffith. Listen to Brad Paisley: https://BradPaisley.lnk.to/listenYD...more Sep 20, 2024 · Brad Paisley released his music video for “Waitin’ On A Woman” in 2008, and TV legend Andy Griffith starred in it. Brad Paisley ‘s poignant ballad, “Waitin’ On A Woman,” is a timeless ode to patience, love, and the enduring bond between couples. Mar 27, 2023 · Andy Griffith appeared in the music video for country singer Brad Paisley’s “Waitin’ for a Woman.” Paisley discussed what he thought of working with the star of The Andy... Sep 20, 2025 · Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube. Oct 1, 2020 · In the music video, a newlywed played by Paisley waits as his young wife shops in the mall. An older married man reassures him that the right partner is literally worth the wait. When he set out to film the video for \"Waitin' on a Woman,\" Paisley decided to call one of his idols: Andy Griffith. \"Who's the perfect person to sit next to you on a bench and tell you, 'Here's some advice, son'? When did Brad Paisley release a song 'Waitin' on a woman'? Brad Paisley released his music video for “Waitin’ On A Woman” in 2008, and TV legend Andy Griffith starred in it. Brad Paisley ‘s poignant ballad, “Waitin’ On A Woman,” is a timeless ode to patience, love, and the enduring bond between couples. He recorded it a total of three times. It was first included on his Time Well Wasted album in 2005. Why did Paisley ask Andy Griffith to star in 'Waitin' on a woman'? Paisley has referred to \"Waitin' on a Woman\" as \"one of the most important songs\" that he's ever recorded. Because of the importance that he places on the song, Paisley asked Andy Griffith to star in the music video, as he felt that Griffith's personality matched the personality of the older man in the song. Who is Paisley's 'Waitin' on a woman' Idol? When he set out to film the video for \"Waitin' on a Woman,\" Paisley decided to call one of his idols: Andy Griffith. \"Who's the perfect person to sit next to you on a bench and tell you, 'Here's some advice, son'? Andy Griffith,\" the singer explained in his spotlight interview during the 2018 Country Radio Seminar in Nashville. What does the older man say about waiting for his wife? The older man explains over the next two verses that, although he has often had to wait for his wife, he does not mind doing so (\"I don't guess we've been anywhere / She hasn't made us late, I swear / Sometimes she does it just 'cause she can do it\"). He tells the younger man that he will often find himself \"waitin' on a woman\" as well.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    },
+    {
+     "unit_id": "case_06:C0004#0-260",
+     "artifact_id": "case_06:C0004",
+     "start": 0,
+     "end": 260,
+     "text": "Sep 20, 2024 · Brad Paisley released his music video for “Waitin’ On A Woman” in 2008, and TV legend Andy Griffith starred in it. Brad Paisley ‘s poignant ballad, “Waitin’ On A Woman,” is a timeless ode to patience, love, and the enduring bond between couples.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    },
+    {
+     "unit_id": "case_06:C0005#0-187",
+     "artifact_id": "case_06:C0005",
+     "start": 0,
+     "end": 187,
+     "text": "Mar 27, 2023 · Andy Griffith appeared in the music video for country singer Brad Paisley’s “Waitin’ for a Woman.” Paisley discussed what he thought of working with the star of The Andy...",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    },
+    {
+     "unit_id": "case_06:C0006#0-2099",
+     "artifact_id": "case_06:C0006",
+     "start": 0,
+     "end": 2099,
+     "text": "Sep 20, 2025 · Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube. Oct 1, 2020 · In the music video, a newlywed played by Paisley waits as his young wife shops in the mall. An older married man reassures him that the right partner is literally worth the wait. When he set out to film the video for \"Waitin' on a Woman,\" Paisley decided to call one of his idols: Andy Griffith. \"Who's the perfect person to sit next to you on a bench and tell you, 'Here's some advice, son'? When did Brad Paisley release a song 'Waitin' on a woman'? Brad Paisley released his music video for “Waitin’ On A Woman” in 2008, and TV legend Andy Griffith starred in it. Brad Paisley ‘s poignant ballad, “Waitin’ On A Woman,” is a timeless ode to patience, love, and the enduring bond between couples. He recorded it a total of three times. It was first included on his Time Well Wasted album in 2005. Why did Paisley ask Andy Griffith to star in 'Waitin' on a woman'? Paisley has referred to \"Waitin' on a Woman\" as \"one of the most important songs\" that he's ever recorded. Because of the importance that he places on the song, Paisley asked Andy Griffith to star in the music video, as he felt that Griffith's personality matched the personality of the older man in the song. Who is Paisley's 'Waitin' on a woman' Idol? When he set out to film the video for \"Waitin' on a Woman,\" Paisley decided to call one of his idols: Andy Griffith. \"Who's the perfect person to sit next to you on a bench and tell you, 'Here's some advice, son'? Andy Griffith,\" the singer explained in his spotlight interview during the 2018 Country Radio Seminar in Nashville. What does the older man say about waiting for his wife? The older man explains over the next two verses that, although he has often had to wait for his wife, he does not mind doing so (\"I don't guess we've been anywhere / She hasn't made us late, I swear / Sometimes she does it just 'cause she can do it\"). He tells the younger man that he will often find himself \"waitin' on a woman\" as well.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    },
+    {
+     "unit_id": "case_06:C0008#0-221",
+     "artifact_id": "case_06:C0008",
+     "start": 0,
+     "end": 221,
+     "text": "Corsaut first appeared on the long-running The Andy Griffith Show, in \"Andy Discovers America\" as schoolteacher Helen Crump, who later became the Mayberry sheriff's wife on the first episode of the spinoff Mayberry R.F.D.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    },
+    {
+     "unit_id": "case_06:C0009#0-304",
+     "artifact_id": "case_06:C0009",
+     "start": 0,
+     "end": 304,
+     "text": "Sep 29, 2025 · Many fans know and love Aneta Corsaut as Helen Crump on The Andy Griffith Show, but her career didn’t end in Mayberry. After the series wrapped, she went on to appear in other television shows, reunited with Andy Griffith on Matlock and even reprised her role as Helen in reunion specials.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    },
+    {
+     "unit_id": "case_06:C0010#0-214",
+     "artifact_id": "case_06:C0010",
+     "start": 0,
+     "end": 214,
+     "text": "Jan 26, 2026 · Helen Crump the character wasn’t based on a real-life person. But there was a real-life Helen Crump, who happened to live in North Carolina, during the same time period The Andy Griffith Show was on.",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "output": {
+    "text": "The show named for that old man is \"The Andy Griffith Show\" (1960–1968).",
+    "sha256": "fab3e2a353542fb078b74ce4269fcfd9adc2a9a5c986bb96ef0358af6dbb7e83",
+    "origin": "recorded_target"
+   },
+   "transmission": [
+    {
+     "from_round": 1,
+     "unit_id": "round1_output",
+     "text": "The old man in Waiting on a Woman is Andy Griffith.",
+     "sha256": "5c2a9f8931edc724dcbff5c2261b79310dae3d8c6a9c5f3cad67f350d1cf181c",
+     "position": {
+      "slot": "earlier_finding",
+      "index": 0
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "canonical_id": "case_06:C0001#0-213",
+   "artifact_id": "case_06:C0001",
+   "start": 0,
+   "end": 213,
+   "text": "I need to figure out what \"Waiting on a Woman\" refers to, identify the old man in it, find the show named for that person, and then determine what happened to Helen on that show. Let me research this step by step.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_06:C0001#0-213",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_06:C0001#0-213",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 2
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_06:C0002#0-206",
+   "artifact_id": "case_06:C0002",
+   "start": 0,
+   "end": 206,
+   "text": "Its central character is a recently married male sitting on a bench at a shopping mall, waiting for his wife to finish shopping. He meets an older man (Andy Griffith) who, like him, is \"waitin' on a woman\".",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_06:C0002#0-206",
+     "role": "evidence_a",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_06:C0003#0-2715",
+   "artifact_id": "case_06:C0003",
+   "start": 0,
+   "end": 2715,
+   "text": "Oct 2, 2009 · Brad Paisley's official music video for 'Waitin' On A Woman' featuring Andy Griffith. Listen to Brad Paisley: https://BradPaisley.lnk.to/listenYD...more Sep 20, 2024 · Brad Paisley released his music video for “Waitin’ On A Woman” in 2008, and TV legend Andy Griffith starred in it. Brad Paisley ‘s poignant ballad, “Waitin’ On A Woman,” is a timeless ode to patience, love, and the enduring bond between couples. Mar 27, 2023 · Andy Griffith appeared in the music video for country singer Brad Paisley’s “Waitin’ for a Woman.” Paisley discussed what he thought of working with the star of The Andy... Sep 20, 2025 · Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube. Oct 1, 2020 · In the music video, a newlywed played by Paisley waits as his young wife shops in the mall. An older married man reassures him that the right partner is literally worth the wait. When he set out to film the video for \"Waitin' on a Woman,\" Paisley decided to call one of his idols: Andy Griffith. \"Who's the perfect person to sit next to you on a bench and tell you, 'Here's some advice, son'? When did Brad Paisley release a song 'Waitin' on a woman'? Brad Paisley released his music video for “Waitin’ On A Woman” in 2008, and TV legend Andy Griffith starred in it. Brad Paisley ‘s poignant ballad, “Waitin’ On A Woman,” is a timeless ode to patience, love, and the enduring bond between couples. He recorded it a total of three times. It was first included on his Time Well Wasted album in 2005. Why did Paisley ask Andy Griffith to star in 'Waitin' on a woman'? Paisley has referred to \"Waitin' on a Woman\" as \"one of the most important songs\" that he's ever recorded. Because of the importance that he places on the song, Paisley asked Andy Griffith to star in the music video, as he felt that Griffith's personality matched the personality of the older man in the song. Who is Paisley's 'Waitin' on a woman' Idol? When he set out to film the video for \"Waitin' on a Woman,\" Paisley decided to call one of his idols: Andy Griffith. \"Who's the perfect person to sit next to you on a bench and tell you, 'Here's some advice, son'? Andy Griffith,\" the singer explained in his spotlight interview during the 2018 Country Radio Seminar in Nashville. What does the older man say about waiting for his wife? The older man explains over the next two verses that, although he has often had to wait for his wife, he does not mind doing so (\"I don't guess we've been anywhere / She hasn't made us late, I swear / Sometimes she does it just 'cause she can do it\"). He tells the younger man that he will often find himself \"waitin' on a woman\" as well.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_06:C0003#0-2715",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_06:C0003#0-2715",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 3
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_06:C0004#0-260",
+   "artifact_id": "case_06:C0004",
+   "start": 0,
+   "end": 260,
+   "text": "Sep 20, 2024 · Brad Paisley released his music video for “Waitin’ On A Woman” in 2008, and TV legend Andy Griffith starred in it. Brad Paisley ‘s poignant ballad, “Waitin’ On A Woman,” is a timeless ode to patience, love, and the enduring bond between couples.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_06:C0004#0-260",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_06:C0004#0-260",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 4
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_06:C0005#0-187",
+   "artifact_id": "case_06:C0005",
+   "start": 0,
+   "end": 187,
+   "text": "Mar 27, 2023 · Andy Griffith appeared in the music video for country singer Brad Paisley’s “Waitin’ for a Woman.” Paisley discussed what he thought of working with the star of The Andy...",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_06:C0005#0-187",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_06:C0005#0-187",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 5
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_06:C0006#0-2099",
+   "artifact_id": "case_06:C0006",
+   "start": 0,
+   "end": 2099,
+   "text": "Sep 20, 2025 · Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube. Oct 1, 2020 · In the music video, a newlywed played by Paisley waits as his young wife shops in the mall. An older married man reassures him that the right partner is literally worth the wait. When he set out to film the video for \"Waitin' on a Woman,\" Paisley decided to call one of his idols: Andy Griffith. \"Who's the perfect person to sit next to you on a bench and tell you, 'Here's some advice, son'? When did Brad Paisley release a song 'Waitin' on a woman'? Brad Paisley released his music video for “Waitin’ On A Woman” in 2008, and TV legend Andy Griffith starred in it. Brad Paisley ‘s poignant ballad, “Waitin’ On A Woman,” is a timeless ode to patience, love, and the enduring bond between couples. He recorded it a total of three times. It was first included on his Time Well Wasted album in 2005. Why did Paisley ask Andy Griffith to star in 'Waitin' on a woman'? Paisley has referred to \"Waitin' on a Woman\" as \"one of the most important songs\" that he's ever recorded. Because of the importance that he places on the song, Paisley asked Andy Griffith to star in the music video, as he felt that Griffith's personality matched the personality of the older man in the song. Who is Paisley's 'Waitin' on a woman' Idol? When he set out to film the video for \"Waitin' on a Woman,\" Paisley decided to call one of his idols: Andy Griffith. \"Who's the perfect person to sit next to you on a bench and tell you, 'Here's some advice, son'? Andy Griffith,\" the singer explained in his spotlight interview during the 2018 Country Radio Seminar in Nashville. What does the older man say about waiting for his wife? The older man explains over the next two verses that, although he has often had to wait for his wife, he does not mind doing so (\"I don't guess we've been anywhere / She hasn't made us late, I swear / Sometimes she does it just 'cause she can do it\"). He tells the younger man that he will often find himself \"waitin' on a woman\" as well.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_06:C0006#0-2099",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_06:C0006#0-2099",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 6
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_06:C0007#0-225",
+   "artifact_id": "case_06:C0007",
+   "start": 0,
+   "end": 225,
+   "text": "Helen Crump is a fictional dramatic character on the American television program The Andy Griffith Show (1960–1968). Helen was a schoolteacher and became main character Sheriff Andy Taylor 's girlfriend, and eventually, wife.",
+   "occurrences": [
+    {
+     "round": 2,
+     "unit_id": "case_06:C0007#0-225",
+     "role": "evidence_b",
+     "position": {
+      "slot": "material",
+      "index": 1
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_06:C0008#0-221",
+   "artifact_id": "case_06:C0008",
+   "start": 0,
+   "end": 221,
+   "text": "Corsaut first appeared on the long-running The Andy Griffith Show, in \"Andy Discovers America\" as schoolteacher Helen Crump, who later became the Mayberry sheriff's wife on the first episode of the spinoff Mayberry R.F.D.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_06:C0008#0-221",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_06:C0008#0-221",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 7
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_06:C0009#0-304",
+   "artifact_id": "case_06:C0009",
+   "start": 0,
+   "end": 304,
+   "text": "Sep 29, 2025 · Many fans know and love Aneta Corsaut as Helen Crump on The Andy Griffith Show, but her career didn’t end in Mayberry. After the series wrapped, she went on to appear in other television shows, reunited with Andy Griffith on Matlock and even reprised her role as Helen in reunion specials.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_06:C0009#0-304",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_06:C0009#0-304",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 8
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_06:C0010#0-214",
+   "artifact_id": "case_06:C0010",
+   "start": 0,
+   "end": 214,
+   "text": "Jan 26, 2026 · Helen Crump the character wasn’t based on a real-life person. But there was a real-life Helen Crump, who happened to live in North Carolina, during the same time period The Andy Griffith Show was on.",
+   "occurrences": [
+    {
+     "round": 1,
+     "unit_id": "case_06:C0010#0-214",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    },
+    {
+     "round": 2,
+     "unit_id": "case_06:C0010#0-214",
+     "role": "distractor",
+     "position": {
+      "slot": "material",
+      "index": 9
+     }
+    }
+   ],
+   "pool_only": false
+  },
+  {
+   "canonical_id": "case_06:C0011#0-311",
+   "artifact_id": "case_06:C0011",
+   "start": 0,
+   "end": 311,
+   "text": "Jul 5, 2023 · She made her mark as little Ronny Howard's TV teacher and Andy Griffith's on-screen girlfriend-turned-wife on The Andy Griffith Show, and then left this world all too soon at only 62 years old. Her name was Aneta Corsaut, and the actress died from cancer in 1995. This is her story. A Closer Look.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_06:C0012#0-248",
+   "artifact_id": "case_06:C0012",
+   "start": 0,
+   "end": 248,
+   "text": "Sadly, Corsaut’s life was cut short when she died of cancer on November 6, 1995, just three days after her 62nd birthday. She was laid to rest at Valhalla Memorial Park Cemetery in North Hollywood, California. Where to Watch The Andy Griffith Show.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_06:C0013#0-271",
+   "artifact_id": "case_06:C0013",
+   "start": 0,
+   "end": 271,
+   "text": "Aneta Corsaut brought Helen Crump to life on 'The Andy Griffith Show' but what happened to the actress after the show ended?She passed away from cancer in 1995 in Los Angeles but we will always remember her as Helen Crump, the woman who stole Sheriff Andy Taylor's heart.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_06:C0014#0-264",
+   "artifact_id": "case_06:C0014",
+   "start": 0,
+   "end": 264,
+   "text": "After this, Aneta reprised her role as Helen Crump in 1993’s The Andy Griffith Show Reunion before passing away from cancer in 1995.Aneta Corsaut was an American television actress that was best known for her role alongside Andy Griffith in The Andy Griffith Show.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_06:C0015#0-201",
+   "artifact_id": "case_06:C0015",
+   "start": 0,
+   "end": 201,
+   "text": "She is best known for playing Helen Crump on The Andy Griffith Show (1963–1968), Judge Cynthia Justin on Matlock (1991–1992), and Jane in The Blob (1958). #hollywood #tv #actress #birthday #movieclips.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_06:C0016#0-275",
+   "artifact_id": "case_06:C0016",
+   "start": 0,
+   "end": 275,
+   "text": "Aneta Corsaut wasn’t part of the original cast. She joined The Andy Griffith Show in Season 3, introduced as Opie’s new schoolteacher. Originally meant to appear in only one episode, her character — Helen Crump — was so well-received that she quickly became a series regular.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_06:C0017#0-253",
+   "artifact_id": "case_06:C0017",
+   "start": 0,
+   "end": 253,
+   "text": "Sheriff Andy Taylor and his sweetheart, Helen Crump (Aneta Corsaut), marry in the new title's first episode. Both Andy and Helen make additional appearances during the first season (mostly Andy, who remains Sheriff of Mayberry in the early appearances.)",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_06:C0018#0-162",
+   "artifact_id": "case_06:C0018",
+   "start": 0,
+   "end": 162,
+   "text": "Helen Taylor (née Crump) is played by actress Aneta Corsaut in 66 episodes of The Andy Griffith Show. Helen hails from Kansas and attended college in Kansas City.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_06:C0019#0-254",
+   "artifact_id": "case_06:C0019",
+   "start": 0,
+   "end": 254,
+   "text": "Helen Crump is a fictional character in the American sitcom The Andy Griffith Show, portrayed by actress Aneta Corsaut as the intelligent and independent schoolteacher of Mayberry, North Carolina, and the primary romantic interest of Sheriff Andy Taylor.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_06:C0020#0-221",
+   "artifact_id": "case_06:C0020",
+   "start": 0,
+   "end": 221,
+   "text": "Andy Taylor appears in the first episode, marrying his sweetheart Helen Crump.Though the show was no longer number one (like The Andy Griffith Show), Mayberry R.F.D remained in the top 10 until its third and final season.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_06:C0021#0-207",
+   "artifact_id": "case_06:C0021",
+   "start": 0,
+   "end": 207,
+   "text": "Andy Griffith as Andy Taylor on ‘The Andy Griffith Show’ in 1960 (left); Andy Griffith in 2004 (right).Credit: CBS via Getty; SGranitz/WireImage.Helen and Andy married in the first episode of Mayberry R.F.D.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_06:C0022#0-249",
+   "artifact_id": "case_06:C0022",
+   "start": 0,
+   "end": 249,
+   "text": "Aneta Louise Corsaut (November 3, 1933 – November 6, 1995) was an American actress and writer. She is best known for playing Helen Crump on The Andy Griffith Show (1963–1968), Judge Cynthia Justin on Matlock (1991–1992), and Jane in The Blob (1958).",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_06:C0023#0-248",
+   "artifact_id": "case_06:C0023",
+   "start": 0,
+   "end": 248,
+   "text": "Sadly, Corsaut’s life was cut short when she died of cancer on November 6, 1995, just three days after her 62nd birthday. She was laid to rest at Valhalla Memorial Park Cemetery in North Hollywood, California. Where to Watch The Andy Griffith Show.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_06:C0024#0-161",
+   "artifact_id": "case_06:C0024",
+   "start": 0,
+   "end": 161,
+   "text": "DEATH DATE Nov 6, 1995 (age 62).About. Played Helen Crump on the television series The Andy Griffith Show and appeared in the film The Blob in 1958. Before fame.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_06:C0025#0-268",
+   "artifact_id": "case_06:C0025",
+   "start": 0,
+   "end": 268,
+   "text": "Aneta Corsaut is an actress who was famous for starring on “The Andy Griffith Show.” The star sadly died on November 6, 1995, in Studio City, California from cancer. Advertisement. Aneta Louise Corsaut battled cancer and she sadly passed away in 1995 at the age of 62.",
+   "occurrences": [],
+   "pool_only": true
+  },
+  {
+   "canonical_id": "case_06:C0026#0-277",
+   "artifact_id": "case_06:C0026",
+   "start": 0,
+   "end": 277,
+   "text": "Aneta Corsaut first appeared on the series as Helen Crump in the season 3 episode Andy Discovers American in 1963. She was only hired for this one episode as Opie Taylor (Ron Howard's) school teacher but her chemistry with Griffith impressed the producers and they kept her on.",
+   "occurrences": [],
+   "pool_only": true
+  }
+ ],
+ "evidence_groups": [
+  {
+   "group_id": "case_06:T02:support_g01",
+   "coverage": "full",
+   "items": [
+    {
+     "primary": {
+      "artifact_id": "case_06:C0002",
+      "start": 129,
+      "end": 166,
+      "text": "He meets an older man (Andy Griffith)"
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_06:C0002",
+       "start": 129,
+       "end": 166,
+       "text": "He meets an older man (Andy Griffith)"
+      }
+     ]
+    },
+    {
+     "primary": {
+      "artifact_id": "case_06:C0007",
+      "start": 81,
+      "end": 115,
+      "text": "The Andy Griffith Show (1960–1968)"
+     },
+     "alternatives": [
+      {
+       "artifact_id": "case_06:C0007",
+       "start": 81,
+       "end": 115,
+       "text": "The Andy Griffith Show (1960–1968)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "A": [
+   "case_06:C0002#0-206"
+  ],
+  "B": [
+   "case_06:C0007#0-225"
+  ]
+ },
+ "provenance": {
+  "package": "genmem_informative30_v1",
+  "target": {
+   "id": "T02",
+   "case": "case_06",
+   "question": "What happened to Helen from the show named for the old man in Waiting on a Woman?",
+   "target_event": 11,
+   "target_start": 303,
+   "target_end": 375,
+   "target": "The show named for that old man is \"The Andy Griffith Show\" (1960–1968).",
+   "candidate_ids": [
+    "C0002",
+    "C0003",
+    "C0004",
+    "C0005",
+    "C0006",
+    "C0007",
+    "C0008",
+    "C0009",
+    "C0010",
+    "C0011",
+    "C0012",
+    "C0013",
+    "C0014",
+    "C0015",
+    "C0016",
+    "C0017",
+    "C0018",
+    "C0019",
+    "C0020",
+    "C0021",
+    "C0022",
+    "C0023",
+    "C0024",
+    "C0025",
+    "C0026",
+    "C0001"
+   ],
+   "annotation_status": "assistant_reviewed_pending_human"
+  },
+  "group": {
+   "all_of": [
+    {
+     "candidate_id": "C0002",
+     "start": 129,
+     "end": 166,
+     "text": "He meets an older man (Andy Griffith)"
+    },
+    {
+     "candidate_id": "C0007",
+     "start": 81,
+     "end": 115,
+     "text": "The Andy Griffith Show (1960–1968)"
+    }
+   ]
+  },
+  "intermediate": "controlled",
+  "note": "controlled two-round; real intermediate message not yet verified"
+ }
+}

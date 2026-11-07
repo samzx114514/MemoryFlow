@@ -1,0 +1,24 @@
+{
+ "ok": 3,
+ "total": 3,
+ "cases": [
+  {
+   "case_id": "case_03:T02",
+   "short": "case_03_T02",
+   "ok": true,
+   "reason": "group support_g01 coverable by 3 windows"
+  },
+  {
+   "case_id": "case_05:T07",
+   "short": "case_05_T07",
+   "ok": true,
+   "reason": "group support_g01 coverable by 2 windows"
+  },
+  {
+   "case_id": "case_06:T02",
+   "short": "case_06_T02",
+   "ok": true,
+   "reason": "group support_g01 coverable by 2 windows"
+  }
+ ]
+}
