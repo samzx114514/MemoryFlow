@@ -1,5 +1,12 @@
 # 实验索引
 
+## 完整调用回放与多轮查询第一版（2026-11-09）
+
+[验收报告](../experiments/provenance_v2/reports/FULL_REPLAY_20261109.md) ·
+[命令入口](../experiments/provenance_v2/full.py)
+
+完整回放 CLAUSE 与 NBA 两条真实轨迹，保存 33 个调用的完整输出矩阵。验证同一调用复用两段不同的矩阵行，以及真实四调用分支。服务器产物保存在 `/data2/pkuiti/songzhengxing_intern/memoryflow/artifacts/runs/full_replay_20261109`。
+
 ## informative30 51 目标整批：30 合格（2026-11-07）
 
 **状态：** 36 优先 + 15 跨事件全处理；30 合格（真实 12、受控 18）、对照 3、不足 17、诊断 1；覆盖 20 条轨迹。入口：
