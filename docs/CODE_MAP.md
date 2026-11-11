@@ -4,6 +4,8 @@
 
 ## 现在从哪里开始
 
+2026-11-11 新增：[DCC 三模型入口](../experiments/dcc_complete_v1/README.md)。`pipeline.py` 完成逐调用生成采集、完整回放和共享作者引用规则；`capture_worker.py`／`server.py` 记录独立序列合批；`live_gateway.py` 接真实 DCC 在线队列；`forest_bridge.py` 复用现有森林与查询。正式质量与效率结果见该入口的实际完成状态。
+
 ```text
 experiments/                   当前工作入口，另保留一个明确暂停的 DCC 分支
   sp1_runtime_v1/              采集真实模型、工具调用

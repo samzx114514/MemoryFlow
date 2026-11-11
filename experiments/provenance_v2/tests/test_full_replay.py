@@ -80,3 +80,9 @@ class FullReplayTest(unittest.TestCase):
             self.assertEqual(len(different["paths"]), 1)
             self.assertEqual(different["paths"][0]["steps"][0]["candidate"]["column"], 2)
             self.assertEqual(digest(root / "call03.npy"), matrices["call03"]["scores_sha256"])
+            shared_rule = FullQuery(forest, root, top_k=1, depth=3,
+                                    candidate_selector=lambda masses, eligible: eligible[-1:])
+            cleanup.callback(shared_rule.matrices.clear)
+            filtered = shared_rule.walk("call03", target_span(final, sentence))
+            self.assertEqual(len(filtered["paths"]), 1)
+            self.assertEqual(filtered["paths"][0]["steps"][0]["candidate"]["column"], 2)

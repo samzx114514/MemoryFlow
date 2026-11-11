@@ -1,0 +1,220 @@
+{
+  "status": "engineering_preflight_complete; replacement_analysis_batch_running",
+  "initial_calls": 90,
+  "initial_complete_matrices": 180,
+  "new_input_lock": {
+    "sha256": "d8e8bf47e7c3ca8338b247cf56ebdd41fdf74280748fe1398f0680cd142e65c3",
+    "distribution": {
+      "nba": 10,
+      "clause": 10,
+      "finauditing": 10
+    },
+    "max_tokens": 2048,
+    "context_limit": 65536,
+    "temperature": 0,
+    "seed": 0,
+    "rope_scaling": "unchanged model configuration",
+    "selection": "Real analysis/report inputs; material-complete coder snapshots also qualify. No attribution scores used. At most 3 calls per source task.",
+    "source_split": "author sentence rules applied to recorded text/decoded JSON views; raw character and token spans retained",
+    "source_tasks": {
+      "rulearena-nba-comp1-008": 2,
+      "rulearena-nba-comp0-015": 2,
+      "rulearena-nba-comp0-021": 1,
+      "rulearena-nba-comp1-043": 1,
+      "rulearena-nba-comp2-037": 1,
+      "rulearena-nba-comp2-017": 2,
+      "rulearena-nba-comp1-030": 1,
+      "cuad_omission_8f477b7ac499afb7": 2,
+      "nli_omission_53770946799d4dd7": 3,
+      "cuad_omission_26d84d21c51e5cc5": 1,
+      "cuad_terminology_2d25c7a9b4195674": 1,
+      "cuad_ambiguity_799d5a53b0369153": 3,
+      "finauditing-finsm-190": 2,
+      "finauditing-finmr-12": 2,
+      "finauditing-finre-203": 2,
+      "finauditing-finre-138": 2,
+      "finauditing-finmr-297": 1,
+      "finauditing-finsm-214": 1
+    }
+  },
+  "models": {
+    "1_5b": {
+      "diagnostics_sha256": "20a5c9522f10edcdde0007bf15755a4efb8bd737dadcde82b6f52d374bfd57b8",
+      "generation_replay_overlap_seconds": 16.497259378433228,
+      "generation_wall_seconds": 90.77635455131531,
+      "replay_wall_seconds": 17.115970611572266,
+      "gpu_batch_times": {
+        "generation_only_ms": 67939.29003190994,
+        "replay_only_ms": 438.05902099609375,
+        "mixed_ms": 10804.14208984375
+      },
+      "process_peak_mib": 59890,
+      "memory_measurement": "NVML process samples every 0.5s; includes preallocated vLLM KV pool",
+      "execution_note": "Single-call collection pipeline; these are not complete DCC task efficiency results"
+    },
+    "7b": {
+      "diagnostics_sha256": "a9eb384abf4389ff2c1b7b82b80b11549a5972fcceb1b400dc40fc15d2226985",
+      "generation_replay_overlap_seconds": 54.907408475875854,
+      "generation_wall_seconds": 150.65990543365479,
+      "replay_wall_seconds": 56.92681169509888,
+      "gpu_batch_times": {
+        "generation_only_ms": 99402.59935379028,
+        "replay_only_ms": 1784.71630859375,
+        "mixed_ms": 40427.34460449219
+      },
+      "process_peak_mib": 60690,
+      "memory_measurement": "NVML process samples every 0.5s; includes preallocated vLLM KV pool",
+      "execution_note": "Single-call collection pipeline; these are not complete DCC task efficiency results"
+    },
+    "27b": {
+      "diagnostics_sha256": "06971ac65f2eae46b262eed20688cbf6f257d92bb107b0c565e1218588abf764",
+      "generation_replay_overlap_seconds": 275.33217692375183,
+      "generation_wall_seconds": 745.9463679790497,
+      "replay_wall_seconds": 284.55999636650085,
+      "gpu_batch_times": {
+        "generation_only_ms": 532952.4439239502,
+        "replay_only_ms": 9012.3310546875,
+        "mixed_ms": 195097.50189208984
+      },
+      "process_peak_mib": 63594,
+      "memory_measurement": "NVML process samples every 0.5s; includes preallocated vLLM KV pool",
+      "execution_note": "Single-call collection pipeline; these are not complete DCC task efficiency results"
+    }
+  },
+  "isolation27": {
+    "comparisons": [
+      {
+        "id": "dev-nba",
+        "serial_vs_packed_max": 0.40465885400772095,
+        "serial_vs_packed_mean": 0.00018082895257975906,
+        "prefill_batch_size": 2,
+        "packed_vs_altered_neighbour_max": 0.0,
+        "packed_vs_altered_neighbour_mean": 0.0
+      },
+      {
+        "id": "dev-clause",
+        "serial_vs_packed_max": 0.6304879784584045,
+        "serial_vs_packed_mean": 0.00032111749169416726,
+        "prefill_batch_size": 2
+      }
+    ],
+    "note": "Neighbour isolation compares two equally packed runs; serial-vs-packed is a separate numerical diagnostic"
+  },
+  "isolation7": {
+    "comparisons": [
+      {
+        "id": "dev-nba",
+        "serial_vs_packed_max": 0.0,
+        "serial_vs_packed_mean": 0.0,
+        "prefill_batch_size": 2,
+        "packed_vs_altered_neighbour_max": 0.0,
+        "packed_vs_altered_neighbour_mean": 0.0
+      },
+      {
+        "id": "dev-clause",
+        "serial_vs_packed_max": 0.0,
+        "serial_vs_packed_mean": 0.0,
+        "prefill_batch_size": 2
+      }
+    ],
+    "note": "Neighbour isolation compares two equally packed runs; serial-vs-packed is a separate numerical diagnostic"
+  },
+  "isolation1_5": {
+    "comparisons": [
+      {
+        "id": "dev-nba",
+        "serial_vs_packed_max": 0.0,
+        "serial_vs_packed_mean": 0.0,
+        "prefill_batch_size": 2,
+        "packed_vs_altered_neighbour_max": 0.0,
+        "packed_vs_altered_neighbour_mean": 0.0
+      },
+      {
+        "id": "dev-clause",
+        "serial_vs_packed_max": 0.0,
+        "serial_vs_packed_mean": 0.0,
+        "prefill_batch_size": 2
+      }
+    ],
+    "note": "Neighbour isolation compares two equally packed runs; serial-vs-packed is a separate numerical diagnostic"
+  },
+  "matrix_reuse_proof": {
+    "matrix_sha256": "62189b491035acdb127fdc62a9d070ddc599a3c768de2c90ea63c80a5b2fceed",
+    "matrix_path": "/data1/songzhengxing_intern_dccv2/mf_complete_20261111/forest_dev27_nba/matrices/call00.npy",
+    "queries": [
+      {
+        "target": "**Operation A audit**\n\n1. **Player A signing with Team A**\n   - Player A was the 7th first-round pick of Team C in 2015 (age 21) and signed a 3-year contract with Team A during the 2021 Moratorium (2021-22 through 2023-24).",
+        "target_span": [
+          0,
+          223
+        ],
+        "row_slices": [
+          [
+            0,
+            81
+          ],
+          [
+            0,
+            81
+          ],
+          [
+            0,
+            81
+          ]
+        ],
+        "query_seconds": 0.0022397846914827824
+      },
+      {
+        "target": "That contract expires at the end of the 2023-24 Salary Cap Year, so Player A is a free agent in 2024.\n   - Team A’s team salary is $150,000,000, which is above the 2024-25 Salary Cap of $140,588,000.",
+        "target_span": [
+          224,
+          423
+        ],
+        "row_slices": [
+          [
+            81,
+            165
+          ],
+          [
+            81,
+            165
+          ]
+        ],
+        "query_seconds": 0.001711617223918438
+      }
+    ],
+    "unchanged_after_queries": true
+  },
+  "capture_overhead27": {
+    "rows": [
+      {
+        "trial": 0,
+        "plain_seconds": 15.545074701309204,
+        "plain_output_tokens": 172,
+        "capture_seconds": 14.58199405670166,
+        "capture_output_tokens": 172,
+        "extra_seconds": -0.963080644607544
+      },
+      {
+        "trial": 1,
+        "plain_seconds": 15.662962913513184,
+        "plain_output_tokens": 172,
+        "capture_seconds": 14.497868776321411,
+        "capture_output_tokens": 172,
+        "extra_seconds": -1.1650941371917725
+      },
+      {
+        "trial": 2,
+        "plain_seconds": 14.560222864151001,
+        "plain_output_tokens": 172,
+        "capture_seconds": 14.54588532447815,
+        "capture_output_tokens": 172,
+        "extra_seconds": -0.014337539672851562
+      }
+    ],
+    "median_extra_seconds": -0.963080644607544,
+    "median_plain_seconds": 15.545074701309204,
+    "median_capture_seconds": 14.54588532447815,
+    "note": "Includes Q/K flush and local artifact copy; warm-up excluded; inspect output token counts"
+  }
+}

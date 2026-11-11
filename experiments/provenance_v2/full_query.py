@@ -24,7 +24,7 @@ def target_span(output: str, text: str, occurrence: int | None = None):
 
 
 class FullQuery:
-    def __init__(self, forest_path: Path, matrix_dir: Path, top_k: int, depth: int):
+    def __init__(self, forest_path: Path, matrix_dir: Path, top_k: int, depth: int, candidate_selector=None):
         if top_k < 1 or depth < 1:
             raise ValueError("top-k and depth must be positive")
         self.matrix_dir = matrix_dir
@@ -34,6 +34,7 @@ class FullQuery:
         if self.forest["manifest_sha256"] != digest(manifest_path):
             raise ValueError("Forest and matrix manifest do not describe the same replay")
         self.top_k, self.depth = top_k, depth
+        self.candidate_selector = candidate_selector
         self.transfers, self.matrices = defaultdict(list), {}
         for link in self.forest["content_transfers"]:
             self.transfers[link["recipient_call"], link["column"]].append(link)
@@ -91,8 +92,10 @@ class FullQuery:
                 if prefix and (prefix[1] > start or column["token_span"][1] - 1 > first_prediction):
                     continue
                 selected.append(index)
-                if len(selected) == self.top_k:
+                if self.candidate_selector is None and len(selected) == self.top_k:
                     break
+            if self.candidate_selector is not None:
+                selected = self.candidate_selector(masses, selected)
             if not selected:
                 paths.append({"steps": steps, "stop": "no_positive_candidate", "next_call": current,
                               "next_span": [start, end], "path_score": score})

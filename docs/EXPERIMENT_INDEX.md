@@ -1,5 +1,11 @@
 # 实验索引
 
+## DCC 三模型生成时采集、完整回放与三项优化（2026-11-11）
+
+[运行说明](../experiments/dcc_complete_v1/README.md) · [首批报告](../experiments/dcc_complete_v1/reports/ENGINEERING_20261111.md)
+
+第一批 90 对调用、180 张完整矩阵已验证，用于工程检查。用户批准另开 30 个真实分析／写作输入，三基准各 10 个；输入已固定，27B 采集中。正式质量表、完整任务效率表尚未产出。服务器根目录 `/data1/songzhengxing_intern_dccv2/mf_complete_20261111`，新批子目录 `experiment1_final_20261111`。未扩展 GenMem，未修改 PPT。
+
 ## 完整调用回放与多轮查询第一版（2026-11-09）
 
 [验收报告](../experiments/provenance_v2/reports/FULL_REPLAY_20261109.md) ·
