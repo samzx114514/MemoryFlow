@@ -1,0 +1,39 @@
+{
+  "models": {
+    "7": {
+      "trajectories": 37,
+      "full_calls": 350,
+      "output_rows": 58969,
+      "max_prompt_plus_output_tokens": 22220,
+      "all_checks_passed": true,
+      "unmapped_query_roots": 0
+    },
+    "1_5": {
+      "trajectories": 37,
+      "full_calls": 350,
+      "output_rows": 58969,
+      "max_prompt_plus_output_tokens": 22220,
+      "all_checks_passed": true,
+      "unmapped_query_roots": 0
+    },
+    "27": {
+      "trajectories": 37,
+      "full_calls": 350,
+      "output_rows": 59971,
+      "max_prompt_plus_output_tokens": 23225,
+      "all_checks_passed": true,
+      "unmapped_query_roots": 0
+    }
+  },
+  "quality_sha256": "8fff6689bc29618c16563bf430b362cdd2d1af0fe3101695c94e63bba5b5af5a",
+  "seconds": 6.455124855041504,
+  "checks": [
+    "matrix shape",
+    "complete output row positions",
+    "frozen head",
+    "finite nonnegative scores",
+    "zero mass on wholly future columns",
+    "score and metadata checksums",
+    "96 queries use common original candidates"
+  ]
+}

@@ -11,8 +11,8 @@ class MaterialMetricsTest(unittest.TestCase):
         case = {"candidates": [{"canonical_id": "a", **a}, {"canonical_id": "b", **b}],
                 "evidence_groups": [{"items": [{"alternatives": [a, a]}, {"alternatives": [b]}]}]}
         half = evaluate(case, ["a"])
-        self.assertEqual(half["precision_at_10"], 1)
-        self.assertEqual(half["recall_at_10"], .5)
+        self.assertEqual(half["citation_precision"], 1)
+        self.assertEqual(half["evidence_recall"], .5)
         self.assertEqual(half["complete_at_10"], 0)
         self.assertEqual(evaluate(case, ["a", "b"])["complete_at_10"], 1)
 

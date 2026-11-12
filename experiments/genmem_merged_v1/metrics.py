@@ -1,5 +1,6 @@
 """Evaluate fixed root-material rankings using the historic span-union rule."""
 import argparse
+import hashlib
 import json
 import sys
 from pathlib import Path
@@ -25,8 +26,9 @@ def evaluate(case, ranking):
     recall = max(sum(any(covered_fragment(a, windows) for a in item["alternatives"]) for item in g["items"])/len(g["items"]) for g in groups)
     def first(k):
         return [(index[cid]["artifact_id"], index[cid]["start"], index[cid]["end"]) for cid in ranking[:k] if cid in index]
-    return {"status": "scored", "precision_at_10": precision, "recall_at_10": recall,
-            "f1_at_10": 2*precision*recall/(precision+recall) if precision+recall else 0.0,
+    return {"status": "scored", "citation_precision": precision, "evidence_recall": recall,
+            "f1": 2*precision*recall/(precision+recall) if precision+recall else 0.0,
+            "returned_fragments": min(10, len(ranking)),
             "coverage": float(bool(selected)), "hit_at_3": float(fragment_hit_at(groups, first(3))),
             "complete_at_5": float(complete_at(groups, first(5))), "complete_at_10": float(complete_at(groups, windows))}
 
@@ -58,20 +60,30 @@ if __name__ == "__main__":
     parser.add_argument("--method", nargs=2, action="append", metavar=("NAME", "RANKINGS"), required=True)
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
+    record_sha = hashlib.sha256((args.common/"inputs/records.json").read_bytes()).hexdigest()
+    case_sha = hashlib.sha256((args.common/"cases.json").read_bytes()).hexdigest()
+    identity = json.loads((args.common/"identity.json").read_text())
+    if record_sha != identity["records_sha256"] or case_sha != identity["cases_sha256"]:
+        raise ValueError("Fixed candidates or material labels changed")
     cases = json.loads((args.common/"cases.json").read_text())
     result = {}
     for name, path in args.method:
         p = Path(path)
+        receipt = json.loads((p.parent/("meta.json" if p.suffix == ".jsonl" else "identity.json")).read_text())
+        score_input = receipt["input_identity"]["records_sha256"] if p.suffix == ".jsonl" else receipt["common_records_sha256"]
+        if score_input != record_sha or (p.suffix != ".jsonl" and receipt["common_cases_sha256"] != case_sha):
+            raise ValueError(f"Method used different fixed inputs: {name}")
         rows = [json.loads(line) for line in p.read_text().splitlines() if line.strip()] if p.suffix == ".jsonl" else json.loads(p.read_text())
         if name == "DFAMS":
             seeds = {}
             for row in rows:
                 seeds.setdefault(row["id"], []).append(row.get("checkpoint_seed"))
-            if len(rows) != 288 or any(sorted(values) != [0, 1, 2] for values in seeds.values()):
+            if len(rows) != 288 or any(len(values) != 3 or set(values) != {0, 1, 2} for values in seeds.values()):
                 raise ValueError("DFAMS must retain the three original seeds for every target")
         result[name] = summarize(cases, rows)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     if args.output.exists():
         raise FileExistsError(args.output)
-    args.output.write_text(json.dumps({"return_cap": 10, "quality_denominator": 92, "methods": result,
-        "metric_note": "Material-span reference metrics: Precision is returned fragments overlapping an annotated support span; Recall is covered required items in the best complete support group. Not the E1 semantic citation metric or a causal chain score."}, ensure_ascii=False, indent=2)+"\n")
+    args.output.write_text(json.dumps({"return_cap": 10, "quality_denominator": 92,
+        "records_sha256": record_sha, "cases_sha256": case_sha, "methods": result,
+        "metric_note": "Material-span reference metrics, return cap 10. Citation Precision uses actual returned count, not a fixed denominator 10; report returned_fragments alongside it. Recall is covered required items in the best complete support group. Not the E1 semantic citation metric or a causal chain score."}, ensure_ascii=False, indent=2)+"\n")

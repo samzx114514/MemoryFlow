@@ -1,0 +1,71 @@
+{
+  "quality_denominator": 92,
+  "retained_targets": 96,
+  "return_cap": 10,
+  "table": {
+    "MF27": {
+      "citation_precision": 0.6230072463768116,
+      "evidence_recall": 0.5181159420289855,
+      "f1": 0.5081608005521049,
+      "returned_fragments": 2,
+      "coverage": 1.0,
+      "hit_at_3": 0.7282608695652174,
+      "complete_at_5": 0.31521739130434784,
+      "complete_at_10": 0.31521739130434784
+    },
+    "MF7": {
+      "citation_precision": 0.5800465838509317,
+      "evidence_recall": 0.529891304347826,
+      "f1": 0.48892405903275465,
+      "returned_fragments": 2.3043478260869565,
+      "coverage": 1.0,
+      "hit_at_3": 0.7282608695652174,
+      "complete_at_5": 0.32608695652173914,
+      "complete_at_10": 0.32608695652173914
+    },
+    "MF1.5": {
+      "citation_precision": 0.5962215320910973,
+      "evidence_recall": 0.5353260869565217,
+      "f1": 0.5075809996004504,
+      "returned_fragments": 2.152173913043478,
+      "coverage": 1.0,
+      "hit_at_3": 0.7608695652173914,
+      "complete_at_5": 0.32608695652173914,
+      "complete_at_10": 0.32608695652173914
+    },
+    "DFAMS": {
+      "citation_precision": 0.12681159420289856,
+      "evidence_recall": 0.5740338164251207,
+      "f1": 0.19523021632575407,
+      "returned_fragments": 10,
+      "coverage": 1.0,
+      "hit_at_3": 0.5507246376811594,
+      "complete_at_5": 0.2717391304347826,
+      "complete_at_10": 0.3695652173913043
+    },
+    "BM25": {
+      "citation_precision": 0.16630434782608697,
+      "evidence_recall": 0.692391304347826,
+      "f1": 0.25119817916067816,
+      "returned_fragments": 10,
+      "coverage": 1.0,
+      "hit_at_3": 0.7608695652173914,
+      "complete_at_5": 0.41304347826086957,
+      "complete_at_10": 0.5217391304347826
+    },
+    "CLM": {
+      "citation_precision": 0.052173913043478265,
+      "evidence_recall": 0.2757246376811594,
+      "f1": 0.08500478634749735,
+      "returned_fragments": 10,
+      "coverage": 1.0,
+      "hit_at_3": 0.18478260869565216,
+      "complete_at_5": 0.06521739130434782,
+      "complete_at_10": 0.13043478260869565
+    }
+  },
+  "metric_note": "Material-span reference metrics, return cap 10. Citation Precision uses actual returned count, not a fixed denominator 10; report returned_fragments alongside it. Recall is covered required items in the best complete support group. Not the E1 semantic citation metric or a causal chain score.",
+  "records_sha256": "b2c6f981f0a90c8771cd8b7ab66cf917757fc76f30bd116fe30f4f6ce9bbf801",
+  "cases_sha256": "4aa6657e3d5eef36d961cd67c22047e0fe09d9faa59ae008b6b97eb696a5987d",
+  "quality_sha256": "8fff6689bc29618c16563bf430b362cdd2d1af0fe3101695c94e63bba5b5af5a"
+}
