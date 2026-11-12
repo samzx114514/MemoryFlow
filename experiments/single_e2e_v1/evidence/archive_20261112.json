@@ -1,0 +1,47 @@
+{
+  "path": "/data1/songzhengxing_intern_dccv2/mf_complete_20261111/single_e2e_all3_20261112_v1.tar.gz",
+  "bytes": 40686673,
+  "sha256": "4f3268c4e018f023675fe5176374717af4f2f24808db46015f7fe88251065d95",
+  "file_count": 5328,
+  "checked": {
+    "27b": {
+      "matrix_calls_including_preflight": 184,
+      "output_rows": 128684,
+      "phases": {
+        "mf": 92,
+        "yf": 92
+      },
+      "head": [
+        51,
+        20,
+        3
+      ]
+    },
+    "7b": {
+      "matrix_calls_including_preflight": 184,
+      "output_rows": 81838,
+      "phases": {
+        "mf": 92,
+        "yf": 92
+      },
+      "head": [
+        19,
+        15,
+        2
+      ]
+    },
+    "1_5b": {
+      "matrix_calls_including_preflight": 184,
+      "output_rows": 44076,
+      "phases": {
+        "mf": 92,
+        "yf": 92
+      },
+      "head": [
+        16,
+        2,
+        0
+      ]
+    }
+  }
+}

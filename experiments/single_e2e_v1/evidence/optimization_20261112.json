@@ -1,0 +1,378 @@
+{
+  "27b": [
+    {
+      "repeat": 0,
+      "full_matrices": 30,
+      "calls_with_multiple_located_targets": 12,
+      "replay_rpc_batch_sizes": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "request_interval_overlap_seconds": 417.7098648548126,
+      "max_requests_per_observed_gpu_batch": 4,
+      "mixed_generation_replay_gpu_batches_by_response_id": 32,
+      "example_mixed_gpu_batch": {
+        "batch_id": 17430,
+        "cuda_ms": 11651.212890625,
+        "requests": [
+          "cmpl-a02b895ea71e8fa0-0-9807cb89",
+          "cmpl-bf962a9c530ef1d4-0-83225271",
+          "cmpl-b74d3845e6fb316a-0-b7bc9fe2"
+        ],
+        "phases": [
+          "other",
+          "other",
+          "replay"
+        ]
+      },
+      "identification": "Uncaptured normal-generation requests carry phase other; correlate their completion response IDs with GPU request IDs."
+    },
+    {
+      "repeat": 1,
+      "full_matrices": 30,
+      "calls_with_multiple_located_targets": 13,
+      "replay_rpc_batch_sizes": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "request_interval_overlap_seconds": 417.410532951355,
+      "max_requests_per_observed_gpu_batch": 4,
+      "mixed_generation_replay_gpu_batches_by_response_id": 28,
+      "example_mixed_gpu_batch": {
+        "batch_id": 32755,
+        "cuda_ms": 11657.0830078125,
+        "requests": [
+          "cmpl-9853c645f52bd370-0-ab367fe0",
+          "cmpl-972df159c720d35f-0-823ba0ac",
+          "cmpl-953dd606a0477cfe-0-974dc0fb"
+        ],
+        "phases": [
+          "other",
+          "other",
+          "replay"
+        ]
+      },
+      "identification": "Uncaptured normal-generation requests carry phase other; correlate their completion response IDs with GPU request IDs."
+    },
+    {
+      "repeat": 2,
+      "full_matrices": 30,
+      "calls_with_multiple_located_targets": 11,
+      "replay_rpc_batch_sizes": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "request_interval_overlap_seconds": 418.3454341888428,
+      "max_requests_per_observed_gpu_batch": 4,
+      "mixed_generation_replay_gpu_batches_by_response_id": 33,
+      "example_mixed_gpu_batch": {
+        "batch_id": 78904,
+        "cuda_ms": 12253.1796875,
+        "requests": [
+          "cmpl-b9991e5ae771d792-0-b5bb302e",
+          "cmpl-b8d36f5088926087-0-9eb820c9",
+          "cmpl-b3509339d219e186-0-93b6102a",
+          "cmpl-b3509339d219e186-1-b1995f2f"
+        ],
+        "phases": [
+          "other",
+          "other",
+          "replay",
+          "replay"
+        ]
+      },
+      "identification": "Uncaptured normal-generation requests carry phase other; correlate their completion response IDs with GPU request IDs."
+    }
+  ],
+  "7b": [
+    {
+      "repeat": 0,
+      "full_matrices": 30,
+      "calls_with_multiple_located_targets": 17,
+      "replay_rpc_batch_sizes": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "request_interval_overlap_seconds": 89.37064456939697,
+      "max_requests_per_observed_gpu_batch": 4,
+      "mixed_generation_replay_gpu_batches_by_response_id": 28,
+      "example_mixed_gpu_batch": {
+        "batch_id": 12473,
+        "cuda_ms": 2500.5947265625,
+        "requests": [
+          "cmpl-800fb25671915648-0-8aeec82f",
+          "cmpl-bc8a5f8007069fc0-0-98f62947",
+          "cmpl-b7d54defb411047f-0-a3691628",
+          "cmpl-b7d54defb411047f-1-bda63e2a"
+        ],
+        "phases": [
+          "other",
+          "other",
+          "replay",
+          "replay"
+        ]
+      },
+      "identification": "Uncaptured normal-generation requests carry phase other; correlate their completion response IDs with GPU request IDs."
+    },
+    {
+      "repeat": 1,
+      "full_matrices": 30,
+      "calls_with_multiple_located_targets": 17,
+      "replay_rpc_batch_sizes": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "request_interval_overlap_seconds": 89.47964644432068,
+      "max_requests_per_observed_gpu_batch": 4,
+      "mixed_generation_replay_gpu_batches_by_response_id": 31,
+      "example_mixed_gpu_batch": {
+        "batch_id": 23062,
+        "cuda_ms": 2433.4140625,
+        "requests": [
+          "cmpl-ad2d271383d11312-0-8214e6ad",
+          "cmpl-aacf32cef5f0906f-0-8e626432",
+          "cmpl-bda8a2009e294649-0-a058a97a"
+        ],
+        "phases": [
+          "other",
+          "other",
+          "replay"
+        ]
+      },
+      "identification": "Uncaptured normal-generation requests carry phase other; correlate their completion response IDs with GPU request IDs."
+    },
+    {
+      "repeat": 2,
+      "full_matrices": 30,
+      "calls_with_multiple_located_targets": 19,
+      "replay_rpc_batch_sizes": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "request_interval_overlap_seconds": 89.96111702919006,
+      "max_requests_per_observed_gpu_batch": 4,
+      "mixed_generation_replay_gpu_batches_by_response_id": 33,
+      "example_mixed_gpu_batch": {
+        "batch_id": 55042,
+        "cuda_ms": 2443.76171875,
+        "requests": [
+          "cmpl-8304ab9b46756202-0-a37e2739",
+          "cmpl-b6ba625f70856ecb-0-82743b32",
+          "cmpl-9fe51c723dd24bce-0-97d299df"
+        ],
+        "phases": [
+          "other",
+          "other",
+          "replay"
+        ]
+      },
+      "identification": "Uncaptured normal-generation requests carry phase other; correlate their completion response IDs with GPU request IDs."
+    }
+  ],
+  "1_5b": [
+    {
+      "repeat": 0,
+      "full_matrices": 30,
+      "calls_with_multiple_located_targets": 14,
+      "replay_rpc_batch_sizes": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "request_interval_overlap_seconds": 27.79691791534424,
+      "max_requests_per_observed_gpu_batch": 4,
+      "mixed_generation_replay_gpu_batches_by_response_id": 30,
+      "example_mixed_gpu_batch": {
+        "batch_id": 8737,
+        "cuda_ms": 790.339599609375,
+        "requests": [
+          "cmpl-ae1d0bb3f2bdd2c7-0-845fb36a",
+          "cmpl-83ffeb4e3f0f3579-0-9d6a591e",
+          "cmpl-ac5a06197be4a3b1-0-9c0b802c",
+          "cmpl-ac5a06197be4a3b1-1-85c82b1b"
+        ],
+        "phases": [
+          "other",
+          "other",
+          "replay",
+          "replay"
+        ]
+      },
+      "identification": "Uncaptured normal-generation requests carry phase other; correlate their completion response IDs with GPU request IDs."
+    },
+    {
+      "repeat": 1,
+      "full_matrices": 30,
+      "calls_with_multiple_located_targets": 11,
+      "replay_rpc_batch_sizes": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "request_interval_overlap_seconds": 27.668771505355835,
+      "max_requests_per_observed_gpu_batch": 4,
+      "mixed_generation_replay_gpu_batches_by_response_id": 31,
+      "example_mixed_gpu_batch": {
+        "batch_id": 16317,
+        "cuda_ms": 789.4896850585938,
+        "requests": [
+          "cmpl-a056ec03ff5aad19-0-baa5fd24",
+          "cmpl-ab4f337ea3cb0622-0-a4b6f780",
+          "cmpl-915f28dae4a8c65d-0-a55610eb",
+          "cmpl-915f28dae4a8c65d-1-a948ce93"
+        ],
+        "phases": [
+          "other",
+          "other",
+          "replay",
+          "replay"
+        ]
+      },
+      "identification": "Uncaptured normal-generation requests carry phase other; correlate their completion response IDs with GPU request IDs."
+    },
+    {
+      "repeat": 2,
+      "full_matrices": 30,
+      "calls_with_multiple_located_targets": 10,
+      "replay_rpc_batch_sizes": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "request_interval_overlap_seconds": 27.565587043762207,
+      "max_requests_per_observed_gpu_batch": 4,
+      "mixed_generation_replay_gpu_batches_by_response_id": 29,
+      "example_mixed_gpu_batch": {
+        "batch_id": 30749,
+        "cuda_ms": 708.2608642578125,
+        "requests": [
+          "cmpl-83fa2add5907688c-0-9bc76794",
+          "cmpl-bba1ea2555aec566-0-a24d4e3e",
+          "cmpl-b1925c88ddfc63a1-0-ae6ca501",
+          "cmpl-b1925c88ddfc63a1-1-807b99b1"
+        ],
+        "phases": [
+          "other",
+          "other",
+          "replay",
+          "replay"
+        ]
+      },
+      "identification": "Uncaptured normal-generation requests carry phase other; correlate their completion response IDs with GPU request IDs."
+    }
+  ]
+}

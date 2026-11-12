@@ -4,7 +4,7 @@
 
 [真实生成到引用计时入口](../experiments/single_e2e_v1/README.md) · [开发查询器与16题结果](../experiments/flow_query_dev_v1/README.md)
 
-效率优先：共同30输入，两路线正常生成、原目标精确定位、三次中位数与NVML进程峰值。7B/1.5B已完成，27B在第三次测量；输出变动和共同分母逐次保留。多轮开发已完成的小验证独立归档，原92题、原质量表和默认查询不变，未扩样。
+效率补测完成：[六行结果](../experiments/single_e2e_v1/reports/RESULTS_20261112.md) · [三次小型证据](../experiments/single_e2e_v1/evidence/completed_all3_20261112.json) · [优化实际调度](../experiments/single_e2e_v1/evidence/optimization_20261112.json)。共同30输入、三模型，两路线正常生成各3次；540次生成和270次完整回放全部完成。端点、共同分母、输出差异和NVML峰值逐次核对。当前同模型单轮中艺峰更快，固定缓存下两路线峰值相同。多轮开发小验证独立归档，原92题、原质量表和默认查询不变，未扩样。
 
 ## DCC完整任务效率：21次测量完成（2026-11-12）
 

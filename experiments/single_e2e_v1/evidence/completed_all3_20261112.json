@@ -1,0 +1,536 @@
+{
+  "models": {
+    "27b": {
+      "identity": {
+        "formal_inputs_sha256": "a4528faed0564eafe97546629509ca8cc5224e151ca09b01d641c3a21953d4cc",
+        "gold_sha256": "6bfe8882259655a78f7a9197eab351ab57a2ba37485c950e5c1ae5eea0db2e88",
+        "model": "/data/Qwen3.8-27B-FP8",
+        "server_models": {
+          "object": "list",
+          "data": [
+            {
+              "id": "mf-model",
+              "object": "model",
+              "created": 1794464223,
+              "owned_by": "vllm",
+              "root": "/data/Qwen3.8-27B-FP8",
+              "parent": null,
+              "max_model_len": 65536,
+              "permission": [
+                {
+                  "id": "modelperm-a72198285d01e02b",
+                  "object": "model_permission",
+                  "created": 1794464223,
+                  "allow_create_engine": false,
+                  "allow_sampling": true,
+                  "allow_logprobs": true,
+                  "allow_search_indices": false,
+                  "allow_view": true,
+                  "allow_fine_tuning": false,
+                  "organization": "*",
+                  "group": null,
+                  "is_blocking": false
+                }
+              ]
+            }
+          ]
+        },
+        "gpu": 6,
+        "server_pid": 181849,
+        "calls": 30,
+        "planned_targets": 50,
+        "code_sha256": "f9852f29841846266463776bb1357294d8f7077e01ea760e4b0869c02f952f94",
+        "end_to_end_endpoint": "generation request to persisted citations ready"
+      },
+      "results_sha256": "45416c0173593b72a09b67eefa61e02fda22e9aba5b81b85308f9ac6fe8ef6f6",
+      "table": [
+        {
+          "method": "yf",
+          "measured_repeats": 3,
+          "complete_repeats": 3,
+          "seconds_per_target": 45.89689630728502,
+          "batch_wall_seconds": 1193.3193039894104,
+          "peak_gib": 62.75390625,
+          "cards": 1,
+          "calls": 30,
+          "planned_targets": 50,
+          "paired_target_counts": [
+            26,
+            27,
+            26
+          ]
+        },
+        {
+          "method": "mf",
+          "measured_repeats": 3,
+          "complete_repeats": 3,
+          "seconds_per_target": 54.5420005596601,
+          "batch_wall_seconds": 1418.0920145511627,
+          "peak_gib": 62.75390625,
+          "cards": 1,
+          "calls": 30,
+          "planned_targets": 50,
+          "paired_target_counts": [
+            26,
+            27,
+            26
+          ]
+        }
+      ],
+      "trials": [
+        {
+          "repeat": 0,
+          "common_targets": 26,
+          "same_output_tokens_calls": 14,
+          "routes": {
+            "yf": {
+              "wall_seconds": 1193.3193039894104,
+              "peak_gib": 62.75390625,
+              "completed_calls": 30,
+              "input_tokens": 584697,
+              "output_tokens": 21191,
+              "located_targets": 30,
+              "matches_frozen_output_calls": 11,
+              "replay_batches": 0,
+              "seconds_per_common_target": 45.89689630728502
+            },
+            "mf": {
+              "wall_seconds": 1418.0920145511627,
+              "peak_gib": 62.75390625,
+              "completed_calls": 30,
+              "input_tokens": 584697,
+              "output_tokens": 20815,
+              "located_targets": 33,
+              "matches_frozen_output_calls": 11,
+              "replay_batches": 15,
+              "seconds_per_common_target": 54.5420005596601
+            }
+          }
+        },
+        {
+          "repeat": 1,
+          "common_targets": 27,
+          "same_output_tokens_calls": 13,
+          "routes": {
+            "yf": {
+              "wall_seconds": 1189.6625978946686,
+              "peak_gib": 62.75390625,
+              "completed_calls": 30,
+              "input_tokens": 584697,
+              "output_tokens": 20929,
+              "located_targets": 33,
+              "matches_frozen_output_calls": 14,
+              "replay_batches": 0,
+              "seconds_per_common_target": 44.06157769980254
+            },
+            "mf": {
+              "wall_seconds": 1409.5731239318848,
+              "peak_gib": 62.75390625,
+              "completed_calls": 30,
+              "input_tokens": 584697,
+              "output_tokens": 20814,
+              "located_targets": 34,
+              "matches_frozen_output_calls": 12,
+              "replay_batches": 15,
+              "seconds_per_common_target": 52.20641199747721
+            }
+          }
+        },
+        {
+          "repeat": 2,
+          "common_targets": 26,
+          "same_output_tokens_calls": 11,
+          "routes": {
+            "yf": {
+              "wall_seconds": 1237.5946247577667,
+              "peak_gib": 62.75390625,
+              "completed_calls": 30,
+              "input_tokens": 584697,
+              "output_tokens": 21647,
+              "located_targets": 33,
+              "matches_frozen_output_calls": 12,
+              "replay_batches": 0,
+              "seconds_per_common_target": 47.59979325991411
+            },
+            "mf": {
+              "wall_seconds": 1440.6817095279694,
+              "peak_gib": 62.755859375,
+              "completed_calls": 30,
+              "input_tokens": 584697,
+              "output_tokens": 23204,
+              "located_targets": 30,
+              "matches_frozen_output_calls": 10,
+              "replay_batches": 15,
+              "seconds_per_common_target": 55.41083498184498
+            }
+          }
+        }
+      ],
+      "settings": {
+        "cards": 1,
+        "shared_weight_service": true,
+        "generation_concurrency": 2,
+        "replay_batch_size": 2,
+        "total_request_budget": 4,
+        "cpu_processing_workers": 2,
+        "server_max_sequences": 4
+      }
+    },
+    "7b": {
+      "identity": {
+        "formal_inputs_sha256": "efd640113c0ca62d13e5b9f61736ac0c3edfbff94e973d93901933b9e4975cb3",
+        "gold_sha256": "f08c605f4ed44f7985d1533f733f81cccc56847aad637efcd0f068c54f3a1ab9",
+        "model": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-7B-Instruct",
+        "server_models": {
+          "object": "list",
+          "data": [
+            {
+              "id": "mf-model",
+              "object": "model",
+              "created": 1794464223,
+              "owned_by": "vllm",
+              "root": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-7B-Instruct",
+              "parent": null,
+              "max_model_len": 32768,
+              "permission": [
+                {
+                  "id": "modelperm-a429395514b9bdb9",
+                  "object": "model_permission",
+                  "created": 1794464223,
+                  "allow_create_engine": false,
+                  "allow_sampling": true,
+                  "allow_logprobs": true,
+                  "allow_search_indices": false,
+                  "allow_view": true,
+                  "allow_fine_tuning": false,
+                  "organization": "*",
+                  "group": null,
+                  "is_blocking": false
+                }
+              ]
+            }
+          ]
+        },
+        "gpu": 1,
+        "server_pid": 181850,
+        "calls": 30,
+        "planned_targets": 58,
+        "code_sha256": "f9852f29841846266463776bb1357294d8f7077e01ea760e4b0869c02f952f94",
+        "end_to_end_endpoint": "generation request to persisted citations ready"
+      },
+      "results_sha256": "7e4648c62cb6b624cf65dadef321376c76e3170a278643db0c878a8e7a355977",
+      "table": [
+        {
+          "method": "yf",
+          "measured_repeats": 3,
+          "complete_repeats": 3,
+          "seconds_per_target": 4.3965849321942,
+          "batch_wall_seconds": 189.0531520843506,
+          "peak_gib": 36.298828125,
+          "cards": 1,
+          "calls": 30,
+          "planned_targets": 58,
+          "paired_target_counts": [
+            42,
+            43,
+            44
+          ]
+        },
+        {
+          "method": "mf",
+          "measured_repeats": 3,
+          "complete_repeats": 3,
+          "seconds_per_target": 5.2066516987113065,
+          "batch_wall_seconds": 223.88602304458618,
+          "peak_gib": 36.298828125,
+          "cards": 1,
+          "calls": 30,
+          "planned_targets": 58,
+          "paired_target_counts": [
+            42,
+            43,
+            44
+          ]
+        }
+      ],
+      "trials": [
+        {
+          "repeat": 0,
+          "common_targets": 42,
+          "same_output_tokens_calls": 15,
+          "routes": {
+            "yf": {
+              "wall_seconds": 186.86782360076904,
+              "peak_gib": 36.298828125,
+              "completed_calls": 30,
+              "input_tokens": 569888,
+              "output_tokens": 14054,
+              "located_targets": 47,
+              "matches_frozen_output_calls": 11,
+              "replay_batches": 0,
+              "seconds_per_common_target": 4.4492338952564054
+            },
+            "mf": {
+              "wall_seconds": 226.95423650741577,
+              "peak_gib": 36.298828125,
+              "completed_calls": 30,
+              "input_tokens": 569888,
+              "output_tokens": 13566,
+              "located_targets": 48,
+              "matches_frozen_output_calls": 14,
+              "replay_batches": 15,
+              "seconds_per_common_target": 5.403672297795613
+            }
+          }
+        },
+        {
+          "repeat": 1,
+          "common_targets": 43,
+          "same_output_tokens_calls": 14,
+          "routes": {
+            "yf": {
+              "wall_seconds": 189.0531520843506,
+              "peak_gib": 36.298828125,
+              "completed_calls": 30,
+              "input_tokens": 569888,
+              "output_tokens": 14053,
+              "located_targets": 46,
+              "matches_frozen_output_calls": 12,
+              "replay_batches": 0,
+              "seconds_per_common_target": 4.3965849321942
+            },
+            "mf": {
+              "wall_seconds": 223.88602304458618,
+              "peak_gib": 36.298828125,
+              "completed_calls": 30,
+              "input_tokens": 569888,
+              "output_tokens": 13301,
+              "located_targets": 48,
+              "matches_frozen_output_calls": 13,
+              "replay_batches": 15,
+              "seconds_per_common_target": 5.2066516987113065
+            }
+          }
+        },
+        {
+          "repeat": 2,
+          "common_targets": 44,
+          "same_output_tokens_calls": 13,
+          "routes": {
+            "yf": {
+              "wall_seconds": 191.53370571136475,
+              "peak_gib": 36.298828125,
+              "completed_calls": 30,
+              "input_tokens": 569888,
+              "output_tokens": 14213,
+              "located_targets": 46,
+              "matches_frozen_output_calls": 11,
+              "replay_batches": 0,
+              "seconds_per_common_target": 4.353038766167381
+            },
+            "mf": {
+              "wall_seconds": 213.24264097213745,
+              "peak_gib": 36.298828125,
+              "completed_calls": 30,
+              "input_tokens": 569888,
+              "output_tokens": 12271,
+              "located_targets": 52,
+              "matches_frozen_output_calls": 14,
+              "replay_batches": 15,
+              "seconds_per_common_target": 4.846423658457669
+            }
+          }
+        }
+      ],
+      "settings": {
+        "cards": 1,
+        "shared_weight_service": true,
+        "generation_concurrency": 2,
+        "replay_batch_size": 2,
+        "total_request_budget": 4,
+        "cpu_processing_workers": 2,
+        "server_max_sequences": 4
+      }
+    },
+    "1_5b": {
+      "identity": {
+        "formal_inputs_sha256": "efd640113c0ca62d13e5b9f61736ac0c3edfbff94e973d93901933b9e4975cb3",
+        "gold_sha256": "906652e20f593ade013dcc9f48d162731430a2385a42ed9a2dc06420f6530980",
+        "model": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-1.5B-Instruct",
+        "server_models": {
+          "object": "list",
+          "data": [
+            {
+              "id": "mf-model",
+              "object": "model",
+              "created": 1794464223,
+              "owned_by": "vllm",
+              "root": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-1.5B-Instruct",
+              "parent": null,
+              "max_model_len": 32768,
+              "permission": [
+                {
+                  "id": "modelperm-ad736e0c4b35ea80",
+                  "object": "model_permission",
+                  "created": 1794464223,
+                  "allow_create_engine": false,
+                  "allow_sampling": true,
+                  "allow_logprobs": true,
+                  "allow_search_indices": false,
+                  "allow_view": true,
+                  "allow_fine_tuning": false,
+                  "organization": "*",
+                  "group": null,
+                  "is_blocking": false
+                }
+              ]
+            }
+          ]
+        },
+        "gpu": 0,
+        "server_pid": 181851,
+        "calls": 30,
+        "planned_targets": 49,
+        "code_sha256": "f9852f29841846266463776bb1357294d8f7077e01ea760e4b0869c02f952f94",
+        "end_to_end_endpoint": "generation request to persisted citations ready"
+      },
+      "results_sha256": "fbe0e38f9ab2d6f41e7a8980a7acfd18c0bf3d98ecdf45ec08e3c2aeecf36980",
+      "table": [
+        {
+          "method": "yf",
+          "measured_repeats": 3,
+          "complete_repeats": 3,
+          "seconds_per_target": 2.5992237329483032,
+          "batch_wall_seconds": 72.77826452255249,
+          "peak_gib": 18.33203125,
+          "cards": 1,
+          "calls": 30,
+          "planned_targets": 49,
+          "paired_target_counts": [
+            33,
+            28,
+            32
+          ]
+        },
+        {
+          "method": "mf",
+          "measured_repeats": 3,
+          "complete_repeats": 3,
+          "seconds_per_target": 3.198489248752594,
+          "batch_wall_seconds": 89.55769896507263,
+          "peak_gib": 18.33203125,
+          "cards": 1,
+          "calls": 30,
+          "planned_targets": 49,
+          "paired_target_counts": [
+            33,
+            28,
+            32
+          ]
+        }
+      ],
+      "trials": [
+        {
+          "repeat": 0,
+          "common_targets": 33,
+          "same_output_tokens_calls": 18,
+          "routes": {
+            "yf": {
+              "wall_seconds": 110.36852478981018,
+              "peak_gib": 18.33203125,
+              "completed_calls": 30,
+              "input_tokens": 569888,
+              "output_tokens": 9074,
+              "located_targets": 35,
+              "matches_frozen_output_calls": 16,
+              "replay_batches": 0,
+              "seconds_per_common_target": 3.344500751206369
+            },
+            "mf": {
+              "wall_seconds": 120.57656145095825,
+              "peak_gib": 18.33203125,
+              "completed_calls": 30,
+              "input_tokens": 569888,
+              "output_tokens": 9141,
+              "located_targets": 43,
+              "matches_frozen_output_calls": 20,
+              "replay_batches": 15,
+              "seconds_per_common_target": 3.6538351954835835
+            }
+          }
+        },
+        {
+          "repeat": 1,
+          "common_targets": 28,
+          "same_output_tokens_calls": 15,
+          "routes": {
+            "yf": {
+              "wall_seconds": 72.77826452255249,
+              "peak_gib": 18.33203125,
+              "completed_calls": 30,
+              "input_tokens": 569888,
+              "output_tokens": 5954,
+              "located_targets": 30,
+              "matches_frozen_output_calls": 16,
+              "replay_batches": 0,
+              "seconds_per_common_target": 2.5992237329483032
+            },
+            "mf": {
+              "wall_seconds": 89.55769896507263,
+              "peak_gib": 18.33203125,
+              "completed_calls": 30,
+              "input_tokens": 569888,
+              "output_tokens": 6480,
+              "located_targets": 38,
+              "matches_frozen_output_calls": 17,
+              "replay_batches": 15,
+              "seconds_per_common_target": 3.198489248752594
+            }
+          }
+        },
+        {
+          "repeat": 2,
+          "common_targets": 32,
+          "same_output_tokens_calls": 17,
+          "routes": {
+            "yf": {
+              "wall_seconds": 70.87762260437012,
+              "peak_gib": 18.33203125,
+              "completed_calls": 30,
+              "input_tokens": 569888,
+              "output_tokens": 6022,
+              "located_targets": 38,
+              "matches_frozen_output_calls": 16,
+              "replay_batches": 0,
+              "seconds_per_common_target": 2.214925706386566
+            },
+            "mf": {
+              "wall_seconds": 87.72598958015442,
+              "peak_gib": 18.33203125,
+              "completed_calls": 30,
+              "input_tokens": 569888,
+              "output_tokens": 6477,
+              "located_targets": 35,
+              "matches_frozen_output_calls": 15,
+              "replay_batches": 15,
+              "seconds_per_common_target": 2.7414371743798256
+            }
+          }
+        }
+      ],
+      "settings": {
+        "cards": 1,
+        "shared_weight_service": true,
+        "generation_concurrency": 2,
+        "replay_batch_size": 2,
+        "total_request_budget": 4,
+        "cpu_processing_workers": 2,
+        "server_max_sequences": 4
+      }
+    }
+  },
+  "verification": "Saved per-call endpoints, paired denominators, NVML traces and three-repeat medians checked.",
+  "scope": "30 frozen DCC inputs per model; independent real generation on each route; no new quality scoring.",
+  "denominator": "Per-repeat intersection of exactly locatable frozen target sentences in both regenerated outputs; all 30 calls timed.",
+  "interpretation": "Amortized batch completion time, not isolated request latency. Output-token differences are retained. Fixed resident cache contributes to process peak."
+}
