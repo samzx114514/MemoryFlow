@@ -1,0 +1,62 @@
+{
+  "case_id": "genmem_177236211632d6b8:selected_03",
+  "development_only": true,
+  "selection": "top10 each hop, depth4 bound; author citation selector disabled; not applied to official 92",
+  "seconds": 0.3553495407104492,
+  "paths": 3398,
+  "expanded_spans": 50,
+  "top10": [
+    {
+      "rank": 1,
+      "score": 0.24722884828223135,
+      "contains_bob_winch": false
+    },
+    {
+      "rank": 2,
+      "score": 0.0806793790852423,
+      "contains_bob_winch": false
+    },
+    {
+      "rank": 3,
+      "score": 0.03801673195883165,
+      "contains_bob_winch": false
+    },
+    {
+      "rank": 4,
+      "score": 0.03728510765035036,
+      "contains_bob_winch": false
+    },
+    {
+      "rank": 5,
+      "score": 0.016637202487322453,
+      "contains_bob_winch": true
+    },
+    {
+      "rank": 6,
+      "score": 0.014040566738956487,
+      "contains_bob_winch": false
+    },
+    {
+      "rank": 7,
+      "score": 0.0037012253351132447,
+      "contains_bob_winch": false
+    },
+    {
+      "rank": 8,
+      "score": 0.001854251173795649,
+      "contains_bob_winch": false
+    },
+    {
+      "rank": 9,
+      "score": 0.0018146637601863837,
+      "contains_bob_winch": false
+    },
+    {
+      "rank": 10,
+      "score": 0.0010672178498269624,
+      "contains_bob_winch": false
+    }
+  ],
+  "manifest_sha256": "021cbef93b003483ecb6e7e7a8040d09c6d5d72a22e3050ed1b813b066cb3f09",
+  "approval_for_default_change": "Official default unchanged; user requested current-results explanation first, then a small development validation."
+}

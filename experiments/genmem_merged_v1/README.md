@@ -16,7 +16,7 @@ python intake.py \
   --output /data1/songzhengxing_intern_dccv2/mf_complete_20261111/genmem_merged96_20261112_v1
 ```
 
-该命令已实际跑过；再次运行需用全新输出目录。小证据见[evidence/intake_20261112.json](evidence/intake_20261112.json)。完整targets、37条原轨迹和三个已核对案例保留在外部产物目录。标签尚未冻结，不报告新多轮准确率。
+该命令已实际跑过；再次运行需用全新输出目录。小证据见[evidence/intake_20261112.json](evidence/intake_20261112.json)。完整targets、37条原轨迹和三个已核对案例保留在外部产物目录。92条原文质量标签已固定并评分；全体语义链长标签尚未冻结。
 
 
 ## 实际完整回放与统一候选
@@ -36,3 +36,5 @@ python intake.py \
 `metrics.py`复用旧47/49表的非空白字符区间并集覆盖规则，报告Hit@3、完整证据@5/@10。另报返回前10条中的已标注支持片段比例P、必要证据项覆盖率R及逐目标F1，均为原文片段参考指标；与实验1的语义引用P/R/F1分别解释。4条标签不完整目标为未评分，不填成普通错误。
 
 实际服务器产物：`genmem_tables{7,1_5,27}_20261112_v1`、`genmem_root_review_20261112_v2`、`genmem_common96_20261112_v1`、`genmem_rank{7,1_5,27}_20261112_v1`。六种方法的92目标结果已完成，旧47和新49的历史分数未拼接。完整证据@10：MF27/7/1.5为29/30/30题，DFAMS三seed平均34题，BM25为48题，CLM为12题。MF通常返回约2条、基线返回10条，引用Precision与完整找齐比例需同时阅读。实测表见[evidence/quality_evidence_v3.json](evidence/quality_evidence_v3.json)。
+
+开发单例：同一7B矩阵每跳Top10、深度4、关闭作者引用筛选，可通过本次输出前文追回Bob Winch任期，排第5；0.36秒、3398条路径。仅作查询诊断，[小证据](evidence/development_wide_20261112.json)；正式方法与92目标表未改，用户要求先交付和解释当前结果，再做新版小验证。

@@ -1,0 +1,495 @@
+{
+  "cases": [
+    "nli_inconsistency_6b51ae3cfc2307bc"
+  ],
+  "aggregation": "median of completed measured repeats; failure counts retained",
+  "table": [
+    {
+      "analysis_model": "/data/Qwen3.8-27B-FP8",
+      "mode": "full",
+      "attempts": 3,
+      "completed": 3,
+      "planned_repeats": 3,
+      "completion_rate": 1.0,
+      "all_three_complete": true,
+      "analysis_seconds_per_target": 41.20650561650594,
+      "task_total_seconds": 491.51696705818176,
+      "tail_seconds": 10.512889623641968,
+      "analysis_gpu_seconds": 99.9698310546875,
+      "process_peak_total_mib": 126148,
+      "execution_prompt_tokens": 287606,
+      "execution_output_tokens": 5312,
+      "successful_calls": 39,
+      "targets": 3
+    },
+    {
+      "analysis_model": "/data/Qwen3.8-27B-FP8",
+      "mode": "serial",
+      "attempts": 3,
+      "completed": 3,
+      "planned_repeats": 3,
+      "completion_rate": 1.0,
+      "all_three_complete": true,
+      "analysis_seconds_per_target": 66.30362971623738,
+      "task_total_seconds": 576.535364151001,
+      "tail_seconds": 199.2787046432495,
+      "analysis_gpu_seconds": 162.77733618164064,
+      "process_peak_total_mib": 124038,
+      "execution_prompt_tokens": 152369,
+      "execution_output_tokens": 4566,
+      "successful_calls": 19,
+      "targets": 3
+    },
+    {
+      "analysis_model": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-1.5B-Instruct",
+      "mode": "full",
+      "attempts": 3,
+      "completed": 3,
+      "planned_repeats": 3,
+      "completion_rate": 1.0,
+      "all_three_complete": true,
+      "analysis_seconds_per_target": 12.049137671788534,
+      "task_total_seconds": 526.0619583129883,
+      "tail_seconds": 11.398966789245605,
+      "analysis_gpu_seconds": 6.156914726257324,
+      "process_peak_total_mib": 78240,
+      "execution_prompt_tokens": 351835,
+      "execution_output_tokens": 5304,
+      "successful_calls": 42,
+      "targets": 3
+    },
+    {
+      "analysis_model": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-1.5B-Instruct",
+      "mode": "serial",
+      "attempts": 3,
+      "completed": 2,
+      "planned_repeats": 3,
+      "completion_rate": 0.6666666666666666,
+      "all_three_complete": false,
+      "analysis_seconds_per_target": 51.142236510912575,
+      "task_total_seconds": 686.6899280548096,
+      "tail_seconds": 154.40110528469086,
+      "analysis_gpu_seconds": 23.013492336273195,
+      "process_peak_total_mib": 77168.0,
+      "execution_prompt_tokens": 398625.0,
+      "execution_output_tokens": 5514.0,
+      "successful_calls": 32.5,
+      "targets": 3.0
+    },
+    {
+      "analysis_model": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-7B-Instruct",
+      "mode": "full",
+      "attempts": 3,
+      "completed": 2,
+      "planned_repeats": 3,
+      "completion_rate": 0.6666666666666666,
+      "all_three_complete": false,
+      "analysis_seconds_per_target": 23.884906967480976,
+      "task_total_seconds": 538.932458281517,
+      "tail_seconds": 14.57702898979187,
+      "analysis_gpu_seconds": 27.808406509399415,
+      "process_peak_total_mib": 102754.0,
+      "execution_prompt_tokens": 406365.5,
+      "execution_output_tokens": 5395.5,
+      "successful_calls": 33.5,
+      "targets": 3.0
+    },
+    {
+      "analysis_model": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-7B-Instruct",
+      "mode": "serial",
+      "attempts": 3,
+      "completed": 2,
+      "planned_repeats": 3,
+      "completion_rate": 0.6666666666666666,
+      "all_three_complete": false,
+      "analysis_seconds_per_target": 89.06937539577484,
+      "task_total_seconds": 845.5323721170425,
+      "tail_seconds": 268.40862810611725,
+      "analysis_gpu_seconds": 103.54954728698729,
+      "process_peak_total_mib": 102753.0,
+      "execution_prompt_tokens": 509025.0,
+      "execution_output_tokens": 5651.5,
+      "successful_calls": 39.0,
+      "targets": 3.0
+    },
+    {
+      "analysis_model": "execution_only",
+      "mode": "execution",
+      "attempts": 3,
+      "completed": 2,
+      "planned_repeats": 3,
+      "completion_rate": 0.6666666666666666,
+      "all_three_complete": false,
+      "analysis_seconds_per_target": 0.0,
+      "task_total_seconds": 337.4155226945877,
+      "tail_seconds": 0.0,
+      "analysis_gpu_seconds": 0.0,
+      "process_peak_total_mib": 57196.0,
+      "execution_prompt_tokens": 133867.5,
+      "execution_output_tokens": 4131.0,
+      "successful_calls": 18.0,
+      "targets": 3.0
+    }
+  ],
+  "attempts": [
+    {
+      "run": "baseline_execution_1",
+      "analysis_model": "execution_only",
+      "mode": "execution",
+      "completed": true,
+      "calls": 18,
+      "successful_calls": 18,
+      "targets": 3,
+      "task_total_seconds": 352.5540654659271,
+      "tail_seconds": 0,
+      "analysis_seconds_per_target": 0.0,
+      "analysis_gpu_seconds": 0.0,
+      "process_peak_total_mib": 57196,
+      "native_completion": [
+        "completed"
+      ]
+    },
+    {
+      "run": "baseline_execution_2",
+      "analysis_model": "execution_only",
+      "mode": "execution",
+      "completed": false,
+      "calls": 40,
+      "successful_calls": 40,
+      "targets": 0,
+      "task_total_seconds": 902.7537853717804,
+      "tail_seconds": 0,
+      "analysis_seconds_per_target": null,
+      "analysis_gpu_seconds": 0.0,
+      "process_peak_total_mib": 57196,
+      "native_completion": [
+        "infrastructure_error"
+      ]
+    },
+    {
+      "run": "baseline_execution_3",
+      "analysis_model": "execution_only",
+      "mode": "execution",
+      "completed": true,
+      "calls": 18,
+      "successful_calls": 18,
+      "targets": 3,
+      "task_total_seconds": 322.2769799232483,
+      "tail_seconds": 0,
+      "analysis_seconds_per_target": 0.0,
+      "analysis_gpu_seconds": 0.0,
+      "process_peak_total_mib": 57196,
+      "native_completion": [
+        "completed"
+      ]
+    },
+    {
+      "run": "1_5b_full_1",
+      "analysis_model": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-1.5B-Instruct",
+      "mode": "full",
+      "completed": true,
+      "calls": 42,
+      "successful_calls": 42,
+      "targets": 3,
+      "task_total_seconds": 579.184506893158,
+      "tail_seconds": 11.398966789245605,
+      "analysis_seconds_per_target": 12.049137671788534,
+      "analysis_gpu_seconds": 6.156914726257324,
+      "process_peak_total_mib": 78240,
+      "native_completion": [
+        "completed"
+      ]
+    },
+    {
+      "run": "1_5b_full_2",
+      "analysis_model": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-1.5B-Instruct",
+      "mode": "full",
+      "completed": true,
+      "calls": 43,
+      "successful_calls": 43,
+      "targets": 3,
+      "task_total_seconds": 526.0619583129883,
+      "tail_seconds": 11.46409559249878,
+      "analysis_seconds_per_target": 14.178654670715332,
+      "analysis_gpu_seconds": 6.919359527587891,
+      "process_peak_total_mib": 78240,
+      "native_completion": [
+        "completed"
+      ]
+    },
+    {
+      "run": "1_5b_full_3",
+      "analysis_model": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-1.5B-Instruct",
+      "mode": "full",
+      "completed": true,
+      "calls": 21,
+      "successful_calls": 21,
+      "targets": 3,
+      "task_total_seconds": 318.39926409721375,
+      "tail_seconds": 3.452068567276001,
+      "analysis_seconds_per_target": 4.836384693781535,
+      "analysis_gpu_seconds": 2.8766064758300782,
+      "process_peak_total_mib": 78240,
+      "native_completion": [
+        "completed"
+      ]
+    },
+    {
+      "run": "1_5b_serial_1",
+      "analysis_model": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-1.5B-Instruct",
+      "mode": "serial",
+      "completed": true,
+      "calls": 47,
+      "successful_calls": 47,
+      "targets": 3,
+      "task_total_seconds": 1057.8057680130005,
+      "tail_seconds": 275.6825032234192,
+      "analysis_seconds_per_target": 91.35496044158936,
+      "analysis_gpu_seconds": 39.375584480285646,
+      "process_peak_total_mib": 76096,
+      "native_completion": [
+        "completed"
+      ]
+    },
+    {
+      "run": "1_5b_serial_2",
+      "analysis_model": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-1.5B-Instruct",
+      "mode": "serial",
+      "completed": false,
+      "calls": 65,
+      "successful_calls": 65,
+      "targets": 0,
+      "task_total_seconds": 1230.1731400489807,
+      "tail_seconds": 327.36568427085876,
+      "analysis_seconds_per_target": null,
+      "analysis_gpu_seconds": 0.0,
+      "process_peak_total_mib": 78240,
+      "native_completion": [
+        "infrastructure_error"
+      ]
+    },
+    {
+      "run": "1_5b_serial_3",
+      "analysis_model": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-1.5B-Instruct",
+      "mode": "serial",
+      "completed": true,
+      "calls": 18,
+      "successful_calls": 18,
+      "targets": 3,
+      "task_total_seconds": 315.57408809661865,
+      "tail_seconds": 33.119707345962524,
+      "analysis_seconds_per_target": 10.9295125802358,
+      "analysis_gpu_seconds": 6.651400192260742,
+      "process_peak_total_mib": 78240,
+      "native_completion": [
+        "completed"
+      ]
+    },
+    {
+      "run": "7b_full_1",
+      "analysis_model": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-7B-Instruct",
+      "mode": "full",
+      "completed": true,
+      "calls": 12,
+      "successful_calls": 12,
+      "targets": 3,
+      "task_total_seconds": 275.5491178035736,
+      "tail_seconds": 4.569037437438965,
+      "analysis_seconds_per_target": 4.742731253306071,
+      "analysis_gpu_seconds": 6.528234436035156,
+      "process_peak_total_mib": 100388,
+      "native_completion": [
+        "completed"
+      ]
+    },
+    {
+      "run": "7b_full_2",
+      "analysis_model": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-7B-Instruct",
+      "mode": "full",
+      "completed": false,
+      "calls": 45,
+      "successful_calls": 45,
+      "targets": 0,
+      "task_total_seconds": 1176.2854869365692,
+      "tail_seconds": null,
+      "analysis_seconds_per_target": null,
+      "analysis_gpu_seconds": null,
+      "process_peak_total_mib": 105118,
+      "native_completion": [
+        "infrastructure_error"
+      ]
+    },
+    {
+      "run": "7b_full_3",
+      "analysis_model": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-7B-Instruct",
+      "mode": "full",
+      "completed": true,
+      "calls": 55,
+      "successful_calls": 55,
+      "targets": 3,
+      "task_total_seconds": 802.3157987594604,
+      "tail_seconds": 24.585020542144775,
+      "analysis_seconds_per_target": 43.027082681655884,
+      "analysis_gpu_seconds": 49.088578582763674,
+      "process_peak_total_mib": 105120,
+      "native_completion": [
+        "completed"
+      ]
+    },
+    {
+      "run": "7b_serial_1",
+      "analysis_model": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-7B-Instruct",
+      "mode": "serial",
+      "completed": true,
+      "calls": 31,
+      "successful_calls": 31,
+      "targets": 3,
+      "task_total_seconds": 666.492645740509,
+      "tail_seconds": 177.82569932937622,
+      "analysis_seconds_per_target": 59.006748835245766,
+      "analysis_gpu_seconds": 73.64045965576172,
+      "process_peak_total_mib": 100388,
+      "native_completion": [
+        "completed"
+      ]
+    },
+    {
+      "run": "7b_serial_2",
+      "analysis_model": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-7B-Instruct",
+      "mode": "serial",
+      "completed": false,
+      "calls": 64,
+      "successful_calls": 64,
+      "targets": 0,
+      "task_total_seconds": 909.1891748905182,
+      "tail_seconds": 6.735005617141724,
+      "analysis_seconds_per_target": null,
+      "analysis_gpu_seconds": 0.0,
+      "process_peak_total_mib": 100388,
+      "native_completion": [
+        "infrastructure_error"
+      ]
+    },
+    {
+      "run": "7b_serial_3",
+      "analysis_model": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-7B-Instruct",
+      "mode": "serial",
+      "completed": true,
+      "calls": 47,
+      "successful_calls": 47,
+      "targets": 3,
+      "task_total_seconds": 1024.572098493576,
+      "tail_seconds": 358.9915568828583,
+      "analysis_seconds_per_target": 119.13200195630391,
+      "analysis_gpu_seconds": 133.45863491821288,
+      "process_peak_total_mib": 105118,
+      "native_completion": [
+        "completed"
+      ]
+    },
+    {
+      "run": "27b_full_1",
+      "analysis_model": "/data/Qwen3.8-27B-FP8",
+      "mode": "full",
+      "completed": true,
+      "calls": 40,
+      "successful_calls": 40,
+      "targets": 3,
+      "task_total_seconds": 519.6641626358032,
+      "tail_seconds": 17.250598192214966,
+      "analysis_seconds_per_target": 43.44569110870361,
+      "analysis_gpu_seconds": 104.34706225585937,
+      "process_peak_total_mib": 124038,
+      "native_completion": [
+        "completed"
+      ]
+    },
+    {
+      "run": "27b_full_2",
+      "analysis_model": "/data/Qwen3.8-27B-FP8",
+      "mode": "full",
+      "completed": true,
+      "calls": 39,
+      "successful_calls": 39,
+      "targets": 3,
+      "task_total_seconds": 491.51696705818176,
+      "tail_seconds": 10.512889623641968,
+      "analysis_seconds_per_target": 41.20650561650594,
+      "analysis_gpu_seconds": 99.9698310546875,
+      "process_peak_total_mib": 126148,
+      "native_completion": [
+        "completed"
+      ]
+    },
+    {
+      "run": "27b_full_3",
+      "analysis_model": "/data/Qwen3.8-27B-FP8",
+      "mode": "full",
+      "completed": true,
+      "calls": 17,
+      "successful_calls": 17,
+      "targets": 3,
+      "task_total_seconds": 370.79431796073914,
+      "tail_seconds": 7.173933744430542,
+      "analysis_seconds_per_target": 18.53011687596639,
+      "analysis_gpu_seconds": 45.5371220703125,
+      "process_peak_total_mib": 128272,
+      "native_completion": [
+        "completed"
+      ]
+    },
+    {
+      "run": "27b_serial_1",
+      "analysis_model": "/data/Qwen3.8-27B-FP8",
+      "mode": "serial",
+      "completed": true,
+      "calls": 50,
+      "successful_calls": 50,
+      "targets": 3,
+      "task_total_seconds": 1783.6657166481018,
+      "tail_seconds": 1038.4486298561096,
+      "analysis_seconds_per_target": 345.61805454889935,
+      "analysis_gpu_seconds": 776.2640599365234,
+      "process_peak_total_mib": 124038,
+      "native_completion": [
+        "completed"
+      ]
+    },
+    {
+      "run": "27b_serial_2",
+      "analysis_model": "/data/Qwen3.8-27B-FP8",
+      "mode": "serial",
+      "completed": true,
+      "calls": 19,
+      "successful_calls": 19,
+      "targets": 3,
+      "task_total_seconds": 576.535364151001,
+      "tail_seconds": 199.2787046432495,
+      "analysis_seconds_per_target": 66.30362971623738,
+      "analysis_gpu_seconds": 162.77733618164064,
+      "process_peak_total_mib": 124038,
+      "native_completion": [
+        "completed"
+      ]
+    },
+    {
+      "run": "27b_serial_3",
+      "analysis_model": "/data/Qwen3.8-27B-FP8",
+      "mode": "serial",
+      "completed": true,
+      "calls": 13,
+      "successful_calls": 13,
+      "targets": 3,
+      "task_total_seconds": 411.41986751556396,
+      "tail_seconds": 137.4970088005066,
+      "analysis_seconds_per_target": 45.74363923072815,
+      "analysis_gpu_seconds": 114.01581115722657,
+      "process_peak_total_mib": 126148,
+      "native_completion": [
+        "completed"
+      ]
+    }
+  ],
+  "source_sha256": "b4b9ccfcbf22ff73ff8d1bb2a47757857ba066a7ef571cc4450a5c0ac812d897",
+  "raw_package_sha256": "98825d9c959698558b905e308e282ca31325fca252d3b677279543c007222f44"
+}

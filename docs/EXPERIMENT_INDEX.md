@@ -1,5 +1,11 @@
 # 实验索引
 
+## DCC完整任务效率：21次测量完成（2026-11-12）
+
+[最终效率表](../experiments/dcc_complete_v1/reports/EFFICIENCY_20261112.md) · [逐次小证据](../experiments/dcc_complete_v1/evidence/efficiency_final_20261112.json)
+
+同一CLAUSE L1任务、27B执行，7组各3次，17次交付、4次失败保留。成功中位数的串行→完整等待：27B199.28→10.51秒、7B268.41→14.58秒、1.5B154.40→11.40秒。双侧峰值含缓存，调用数/token量不同，逐次记录均保留。三模型单请求采集开关成本也已测齐。
+
 ## GenMem旧47＋新49原日志接入（2026-11-12）
 
 [接入说明](../experiments/genmem_merged_v1/README.md) · [实际身份与NAS核对](../experiments/genmem_merged_v1/evidence/intake_20261112.json) · [本轮计划](superpowers/plans/2026-11-12-genmem-merged96.md)
