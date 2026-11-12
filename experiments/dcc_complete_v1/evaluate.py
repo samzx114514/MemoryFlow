@@ -32,6 +32,30 @@ def answer_metrics(rows):
             "coverage": sum(row["covered"] for row in rows)/len(rows), "targets": len(rows)}
 
 
+def aggregate_answers(answers, jobs):
+    """Average answers within each original task, then give tasks equal weight."""
+    task_answers = defaultdict(list)
+    for (method, benchmark, call_id), values in answers.items():
+        task_id = jobs[call_id].get("task_id", call_id)
+        task_answers[method, benchmark, task_id].append({"id": call_id, **answer_metrics(values)})
+    by_benchmark, task_rows = defaultdict(list), []
+    keys = ("precision", "recall", "f1", "coverage")
+    for (method, benchmark, task_id), values in sorted(task_answers.items()):
+        row = {"method": method, "benchmark": benchmark, "task_id": task_id,
+               "call_ids": [v["id"] for v in values], "calls_with_claims": len(values),
+               "targets": sum(v["targets"] for v in values),
+               **{key: sum(v[key] for v in values)/len(values) for key in keys}}
+        task_rows.append(row)
+        by_benchmark[method, benchmark].append(row)
+    tables = []
+    for (method, benchmark), values in sorted(by_benchmark.items()):
+        tables.append({"method": method, "benchmark": benchmark, "tasks_with_claims": len(values),
+                       "calls_with_claims": sum(v["calls_with_claims"] for v in values),
+                       "targets": sum(v["targets"] for v in values),
+                       **{key: sum(v[key] for v in values)/len(values) for key in keys}})
+    return tables, task_rows
+
+
 def review_pack(run, output):
     """Expose raw outputs and candidate text only; never load method matrices."""
     jobs = json.loads((run / "inputs.json").read_text())
@@ -53,7 +77,15 @@ def review_pack(run, output):
     write(output, pack)
 
 
-def evaluate(run, gold_path, output):
+def evaluation_jobs(jobs, calls, benchmark=None):
+    selected = {job["id"]: job for job in jobs if benchmark is None or job["benchmark"] == benchmark}
+    ids = [call["id"] for call in calls]
+    if not selected or len(ids) != len(set(ids)) or set(selected) != set(ids):
+        raise ValueError("Annotations must account for every frozen call in the requested benchmark")
+    return selected
+
+
+def evaluate(run, gold_path, output, benchmark=None):
     import numpy as np
     from transformers import AutoTokenizer
     from pipeline import author_functions, cite, offsets, token_span, write
@@ -65,9 +97,9 @@ def evaluate(run, gold_path, output):
     identity = json.loads((run / "identity.json").read_text())
     tok = AutoTokenizer.from_pretrained(identity["model"], local_files_only=True)
     functions = author_functions(tok)
-    jobs = {job["id"]: job for job in json.loads((run / "inputs.json").read_text())}
-    if set(jobs) != {call["id"] for call in gold["calls"]}:
-        raise ValueError("Annotations must account for every frozen call")
+    if gold.get("benchmark") != benchmark:
+        raise ValueError("Annotation benchmark differs from the requested scope")
+    jobs = evaluation_jobs(json.loads((run / "inputs.json").read_text()), gold["calls"], benchmark)
     rows, answers, empty = [], defaultdict(list), []
     for call in gold["calls"]:
         job = jobs[call["id"]]
@@ -98,15 +130,10 @@ def evaluate(run, gold_path, output):
                        **metrics(selected, target)}
                 rows.append(row)
                 answers[method, job["benchmark"], call["id"]].append(row)
-    by_benchmark = defaultdict(list)
-    for (method, benchmark, call_id), values in answers.items():
-        by_benchmark[method, benchmark].append({"id": call_id, **answer_metrics(values)})
-    tables = []
-    for (method, benchmark), values in sorted(by_benchmark.items()):
-        tables.append({"method": method, "benchmark": benchmark, "calls_with_claims": len(values),
-                       "targets": sum(v["targets"] for v in values),
-                       **{key: sum(v[key] for v in values)/len(values) for key in ("precision", "recall", "f1", "coverage")}})
-    write(output, {"gold_sha256": digest(gold_path), "rows": rows, "table": tables, "calls_without_claims": empty})
+    tables, task_rows = aggregate_answers(answers, jobs)
+    write(output, {"gold_sha256": digest(gold_path), "benchmark": benchmark, "frozen_calls": len(jobs),
+                   "aggregation": "answer_then_original_task_macro",
+                   "rows": rows, "tasks": task_rows, "table": tables, "calls_without_claims": empty})
 
 
 if __name__ == "__main__":
@@ -116,8 +143,9 @@ if __name__ == "__main__":
     parser.add_argument("run", type=Path)
     parser.add_argument("output", type=Path)
     parser.add_argument("--gold", type=Path)
+    parser.add_argument("--benchmark", choices=("nba", "clause", "finauditing"))
     args = parser.parse_args()
     if args.command == "review":
         review_pack(args.run, args.output)
     else:
-        evaluate(args.run, args.gold, args.output)
+        evaluate(args.run, args.gold, args.output, args.benchmark)

@@ -1,6 +1,6 @@
 import unittest
 
-from .evaluate import answer_metrics, metrics
+from .evaluate import aggregate_answers, answer_metrics, evaluation_jobs, metrics
 
 
 class EvidenceScoringTest(unittest.TestCase):
@@ -28,6 +28,26 @@ class EvidenceScoringTest(unittest.TestCase):
     def test_empty_complete_set_is_not_vacuous_success(self):
         with self.assertRaises(ValueError):
             metrics([], {"supporting_sources": [], "complete_support_sets": [[]]})
+
+    def test_task_macro_does_not_overweight_tasks_with_more_calls(self):
+        jobs = {key: {"task_id": "taskA" if key != "b" else "taskB"} for key in ("a1", "a2", "a3", "b")}
+        answers = {("mf", "nba", key): [metrics(["alternative"] if key != "b" else ["wrong"], self.target)]
+                   for key in jobs}
+        table, tasks = aggregate_answers(answers, jobs)
+        self.assertEqual(len(tasks), 2)
+        self.assertEqual(table[0]["calls_with_claims"], 4)
+        self.assertEqual(table[0]["precision"], .5)
+        self.assertEqual(table[0]["recall"], .5)
+        self.assertEqual(table[0]["f1"], .5)
+
+    def test_benchmark_table_requires_all_frozen_calls_without_duplicates(self):
+        jobs = [{"id": "a", "benchmark": "nba"}, {"id": "b", "benchmark": "nba"},
+                {"id": "c", "benchmark": "clause"}]
+        calls = [{"id": "a"}, {"id": "b"}]
+        self.assertEqual(set(evaluation_jobs(jobs, calls, "nba")), {"a", "b"})
+        for incomplete in (calls[:1], calls + calls[:1], calls + [{"id": "c"}]):
+            with self.assertRaises(ValueError):
+                evaluation_jobs(jobs, incomplete, "nba")
 
 
 if __name__ == "__main__":

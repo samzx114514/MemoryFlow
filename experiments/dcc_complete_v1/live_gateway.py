@@ -14,17 +14,19 @@ from aiohttp import ClientError, ClientSession, ClientTimeout, web
 from transformers import AutoTokenizer
 
 from forest_bridge import export_episode, query
-from pipeline import HEADS, author_functions, offsets, reduce, render, send, send_batch, validate_model, write
+from pipeline import HEADS, author_functions, check_budget, model_context_limit, offsets, reduce, render, send, send_batch, validate_model, write
 from rich_sources import full_sources
 from transport import normalize as normalize_structure
 
 
 class Gateway:
-    def __init__(self, output, executor, execution_model, analysis_model, mode, benchmark=None):
+    def __init__(self, output, executor, execution_model, analysis_model, mode, benchmark=None, execution_max_tokens=None):
         output.mkdir()
         self.output, self.executor, self.mode = output, executor, mode
         self.benchmark = benchmark
+        self.execution_max_tokens = execution_max_tokens
         self.execution_model, self.analysis_model = execution_model, analysis_model
+        self.analysis_context_limit = model_context_limit(json.loads((Path(analysis_model)/"config.json").read_text()))
         execution_info = validate_model(execution_model, executor+"/v1/completions")
         self.execution_served_name = execution_info["data"][0]["id"]
         if mode != "execution":
@@ -51,6 +53,7 @@ class Gateway:
         self.memory_worker = asyncio.create_task(self.sample_memory())
         write(output / "identity.json", {"execution_model": execution_model, "analysis_model": analysis_model,
                                           "mode": mode, "started": self.started, "transport_sha256": self.transport_sha256,
+                                          "execution_max_tokens": execution_max_tokens,
                                           "code_sha256": {name: hashlib.sha256(Path(__file__).with_name(name).read_bytes()).hexdigest()
                                                           for name in ("live_gateway.py", "pipeline.py", "rich_sources.py", "forest_bridge.py", "transport.py")}})
 
@@ -81,6 +84,9 @@ class Gateway:
         self.response_events.append(finished)
         forwarded = self.transport.forward_payload({**payload, "model": self.execution_served_name, "stream": False}, "efficiency_no_capture")
         forwarded.pop("vllm_xargs", None)
+        if self.execution_max_tokens is not None:
+            forwarded.pop("max_completion_tokens", None)
+            forwarded["max_tokens"] = self.execution_max_tokens
         record["request"] = forwarded
         try:
             async with ClientSession(timeout=ClientTimeout(total=900)) as client:
@@ -117,6 +123,7 @@ class Gateway:
                 raise ValueError("Execution and replay prompt tokens differ")
         output_ids = (generated if self.execution_model == self.analysis_model
                       else self.tokenizer.encode(raw, add_special_tokens=False))
+        check_budget(record["id"],len(prompt_ids),len(output_ids),self.analysis_context_limit)
         decoded, _ = offsets(self.tokenizer, output_ids)
         if decoded != raw:
             raise ValueError("Replay output text does not preserve the actual generated output")
@@ -170,7 +177,7 @@ class Gateway:
             raise web.HTTPConflict(text="Already finalized")
         payload = await request.json()
         targets = payload.get("targets") or []
-        if self.mode != "execution" and not targets:
+        if self.mode != "execution" and not targets and "completed" in payload.get("native_completion", []):
             raise web.HTTPBadRequest(text="Provide actual output spans for the efficiency targets")
         self.closed = True
         answer_end = payload["answer_end"]
@@ -184,7 +191,7 @@ class Gateway:
             for index in range(len(targets)):
                 for record in successful:
                     await self.batch([record], tag=f"serial{index}")
-        if self.mode != "execution":
+        if self.mode != "execution" and targets:
             jobs = [self.jobs[record["id"]] for record in successful]
             write(self.output / "inputs.json", jobs)
             query_started = time.time()
@@ -200,15 +207,18 @@ class Gateway:
             query_seconds = time.time()-query_started
         else:
             query_seconds = 0
-        ready = time.time()
+        ready = answer_end if self.mode=="execution" else time.time()
         summary = {"mode": self.mode, "calls": len(self.records), "successful_calls": len(successful),
                    "targets": len(targets),
                    "execution_prompt_tokens": sum(record["response"].get("usage", {}).get("prompt_tokens", 0) for record in successful),
                    "execution_output_tokens": sum(record["response"].get("usage", {}).get("completion_tokens", 0) for record in successful), "task_started": payload["task_started"], "answer_end": answer_end,
                    "provenance_ready": ready, "task_total_seconds": ready-payload["task_started"],
                    "tail_seconds": max(0, ready-answer_end),
-                   "analysis_seconds": sum(batch["end"]-batch["start"] for batch in self.batches)+query_seconds,
+                   "analysis_seconds": sum(batch["end"]-batch["start"] for batch in self.batches)+query_seconds+(payload.get("target_selection_seconds",0) if self.mode!="execution" else 0),
                    "forest_query_seconds": query_seconds, "native_completion": payload["native_completion"]}
+        summary["answer_clock"]="native task delivery returned"
+        summary["target_generation_end"]=payload.get("target_generation_end")
+        summary["target_selection_seconds"]=payload.get("target_selection_seconds",0)
         summary["analysis_seconds_per_target"] = summary["analysis_seconds"]/len(targets) if targets else None
         gpu_batches = {}
         for header_path in self.output.glob("call*/*/mf/capture/qk.json"):
@@ -227,7 +237,8 @@ class Gateway:
 
 
 async def application(args):
-    gateway = Gateway(args.output, args.executor, args.execution_model, args.analysis_model, args.mode, args.benchmark)
+    gateway = Gateway(args.output, args.executor, args.execution_model, args.analysis_model, args.mode,
+                      args.benchmark, args.execution_max_tokens)
     app = web.Application(client_max_size=32*1024**2)
     app.router.add_post("/v1/chat/completions", gateway.forward)
     app.router.add_post("/finish", gateway.finish)
@@ -244,6 +255,7 @@ if __name__ == "__main__":
     parser.add_argument("--analysis-model", required=True)
     parser.add_argument("--mode", choices=("execution", "serial", "full"), required=True)
     parser.add_argument("--port", type=int, default=8784)
+    parser.add_argument("--execution-max-tokens", type=int)
     parser.add_argument("--benchmark", choices=("nba", "clause", "finauditing"))
     args = parser.parse_args()
     web.run_app(application(args), host="127.0.0.1", port=args.port)

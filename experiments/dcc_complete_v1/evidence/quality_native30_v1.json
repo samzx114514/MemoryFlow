@@ -1,0 +1,321 @@
+{
+  "schema": "dcc.quality_summary.v1",
+  "date": "2026-11-12",
+  "input_requests_sha256": "ce914a6426e584d9f71b5481d9ce31013d927f9be6ac06526545ab",
+  "models": {
+    "27b": {
+      "quality_sha256": "277bb4f0c597d8157f497a9e27d0365aa291c0e111aeb7613ad89538bdffd9e0",
+      "gold_sha256": "6bfe8882259655a78f7a9197eab351ab57a2ba37485c950e5c1ae5eea0db2e88",
+      "inputs_sha256": "a4528faed0564eafe97546629509ca8cc5224e151ca09b01d641c3a21953d4cc",
+      "identity_sha256": "4f26a8a36b734d23f9a42d1ef97641538bd3301c52b933f2bb0404af114d7b22"
+    },
+    "7b": {
+      "quality_sha256": "0e632aaed42cf9f1f126f6ed55630827a8b632fce59464e1e8ddcd7c4662358d",
+      "gold_sha256": "f08c605f4ed44f7985d1533f733f81cccc56847aad637efcd0f068c54f3a1ab9",
+      "inputs_sha256": "efd640113c0ca62d13e5b9f61736ac0c3edfbff94e973d93901933b9e4975cb3",
+      "identity_sha256": "6c5d70cfa087d6eea1ef882b4869ed13e695c8caec852d86a6b9b3024dd0574d"
+    },
+    "1_5b": {
+      "quality_sha256": "5a0367e9f64c8979106fae7b7c312a31821e0645338324b8bcc12bf7534eb178",
+      "gold_sha256": "906652e20f593ade013dcc9f48d162731430a2385a42ed9a2dc06420f6530980",
+      "inputs_sha256": "efd640113c0ca62d13e5b9f61736ac0c3edfbff94e973d93901933b9e4975cb3",
+      "identity_sha256": "ab6adee4a598dd04af57f3954aa90f2337acd57d91c92d1170d8d2c7613e3bda"
+    }
+  },
+  "generation_calls": 90,
+  "matrices": 180,
+  "targets": 157,
+  "annotation": "AI-assisted annotations semantically reviewed by code planning session before reading scores; not independent human Gold",
+  "counts": [
+    {
+      "model": "27b",
+      "benchmark": "nba",
+      "frozen_calls": 10,
+      "calls_with_claims": 7,
+      "targets": 18,
+      "unsupported_targets": 0
+    },
+    {
+      "model": "27b",
+      "benchmark": "clause",
+      "frozen_calls": 10,
+      "calls_with_claims": 6,
+      "targets": 12,
+      "unsupported_targets": 0
+    },
+    {
+      "model": "27b",
+      "benchmark": "finauditing",
+      "frozen_calls": 10,
+      "calls_with_claims": 10,
+      "targets": 20,
+      "unsupported_targets": 0
+    },
+    {
+      "model": "7b",
+      "benchmark": "nba",
+      "frozen_calls": 10,
+      "calls_with_claims": 10,
+      "targets": 27,
+      "unsupported_targets": 0
+    },
+    {
+      "model": "7b",
+      "benchmark": "clause",
+      "frozen_calls": 10,
+      "calls_with_claims": 6,
+      "targets": 11,
+      "unsupported_targets": 1
+    },
+    {
+      "model": "7b",
+      "benchmark": "finauditing",
+      "frozen_calls": 10,
+      "calls_with_claims": 10,
+      "targets": 20,
+      "unsupported_targets": 1
+    },
+    {
+      "model": "1_5b",
+      "benchmark": "nba",
+      "frozen_calls": 10,
+      "calls_with_claims": 10,
+      "targets": 18,
+      "unsupported_targets": 9
+    },
+    {
+      "model": "1_5b",
+      "benchmark": "clause",
+      "frozen_calls": 10,
+      "calls_with_claims": 7,
+      "targets": 14,
+      "unsupported_targets": 1
+    },
+    {
+      "model": "1_5b",
+      "benchmark": "finauditing",
+      "frozen_calls": 10,
+      "calls_with_claims": 10,
+      "targets": 17,
+      "unsupported_targets": 2
+    }
+  ],
+  "table": [
+    {
+      "model": "27b",
+      "method": "yf",
+      "benchmark": "nba",
+      "tasks_with_claims": 5,
+      "calls_with_claims": 7,
+      "targets": 18,
+      "precision": 0.8533333333333333,
+      "recall": 0.9833333333333334,
+      "f1": 0.900909090909091,
+      "coverage": 1.0
+    },
+    {
+      "model": "27b",
+      "method": "mf",
+      "benchmark": "nba",
+      "tasks_with_claims": 5,
+      "calls_with_claims": 7,
+      "targets": 18,
+      "precision": 0.8533333333333333,
+      "recall": 0.9833333333333334,
+      "f1": 0.900909090909091,
+      "coverage": 1.0
+    },
+    {
+      "model": "27b",
+      "method": "yf",
+      "benchmark": "clause",
+      "tasks_with_claims": 4,
+      "calls_with_claims": 6,
+      "targets": 12,
+      "precision": 0.9,
+      "recall": 0.6458333333333334,
+      "f1": 0.7402319902319903,
+      "coverage": 1.0
+    },
+    {
+      "model": "27b",
+      "method": "mf",
+      "benchmark": "clause",
+      "tasks_with_claims": 4,
+      "calls_with_claims": 6,
+      "targets": 12,
+      "precision": 0.9,
+      "recall": 0.6458333333333334,
+      "f1": 0.7402319902319903,
+      "coverage": 1.0
+    },
+    {
+      "model": "27b",
+      "method": "yf",
+      "benchmark": "finauditing",
+      "tasks_with_claims": 5,
+      "calls_with_claims": 10,
+      "targets": 20,
+      "precision": 0.65,
+      "recall": 0.7166666666666667,
+      "f1": 0.6475757575757576,
+      "coverage": 1.0
+    },
+    {
+      "model": "27b",
+      "method": "mf",
+      "benchmark": "finauditing",
+      "tasks_with_claims": 5,
+      "calls_with_claims": 10,
+      "targets": 20,
+      "precision": 0.65,
+      "recall": 0.7333333333333333,
+      "f1": 0.6566666666666666,
+      "coverage": 1.0
+    },
+    {
+      "model": "7b",
+      "method": "yf",
+      "benchmark": "nba",
+      "tasks_with_claims": 7,
+      "calls_with_claims": 10,
+      "targets": 27,
+      "precision": 0.9276643990929705,
+      "recall": 1.0,
+      "f1": 0.9558823529411765,
+      "coverage": 1.0
+    },
+    {
+      "model": "7b",
+      "method": "mf",
+      "benchmark": "nba",
+      "tasks_with_claims": 7,
+      "calls_with_claims": 10,
+      "targets": 27,
+      "precision": 0.9234126984126984,
+      "recall": 1.0,
+      "f1": 0.9528298498886735,
+      "coverage": 1.0
+    },
+    {
+      "model": "7b",
+      "method": "yf",
+      "benchmark": "clause",
+      "tasks_with_claims": 4,
+      "calls_with_claims": 6,
+      "targets": 11,
+      "precision": 0.75,
+      "recall": 0.5,
+      "f1": 0.5583333333333333,
+      "coverage": 0.875
+    },
+    {
+      "model": "7b",
+      "method": "mf",
+      "benchmark": "clause",
+      "tasks_with_claims": 4,
+      "calls_with_claims": 6,
+      "targets": 11,
+      "precision": 0.75,
+      "recall": 0.5,
+      "f1": 0.5583333333333333,
+      "coverage": 0.875
+    },
+    {
+      "model": "7b",
+      "method": "yf",
+      "benchmark": "finauditing",
+      "tasks_with_claims": 5,
+      "calls_with_claims": 10,
+      "targets": 20,
+      "precision": 0.625,
+      "recall": 0.6666666666666667,
+      "f1": 0.6321789321789322,
+      "coverage": 1.0
+    },
+    {
+      "model": "7b",
+      "method": "mf",
+      "benchmark": "finauditing",
+      "tasks_with_claims": 5,
+      "calls_with_claims": 10,
+      "targets": 20,
+      "precision": 0.625,
+      "recall": 0.6666666666666667,
+      "f1": 0.6321789321789322,
+      "coverage": 1.0
+    },
+    {
+      "model": "1_5b",
+      "method": "yf",
+      "benchmark": "nba",
+      "tasks_with_claims": 7,
+      "calls_with_claims": 10,
+      "targets": 18,
+      "precision": 0.16984126984126985,
+      "recall": 0.18253968253968253,
+      "f1": 0.1689342403628118,
+      "coverage": 1.0
+    },
+    {
+      "model": "1_5b",
+      "method": "mf",
+      "benchmark": "nba",
+      "tasks_with_claims": 7,
+      "calls_with_claims": 10,
+      "targets": 18,
+      "precision": 0.16984126984126985,
+      "recall": 0.18253968253968253,
+      "f1": 0.1689342403628118,
+      "coverage": 1.0
+    },
+    {
+      "model": "1_5b",
+      "method": "yf",
+      "benchmark": "clause",
+      "tasks_with_claims": 5,
+      "calls_with_claims": 7,
+      "targets": 14,
+      "precision": 0.4416666666666667,
+      "recall": 0.45,
+      "f1": 0.44000000000000006,
+      "coverage": 1.0
+    },
+    {
+      "model": "1_5b",
+      "method": "mf",
+      "benchmark": "clause",
+      "tasks_with_claims": 5,
+      "calls_with_claims": 7,
+      "targets": 14,
+      "precision": 0.4416666666666667,
+      "recall": 0.45,
+      "f1": 0.44000000000000006,
+      "coverage": 1.0
+    },
+    {
+      "model": "1_5b",
+      "method": "yf",
+      "benchmark": "finauditing",
+      "tasks_with_claims": 5,
+      "calls_with_claims": 10,
+      "targets": 17,
+      "precision": 0.45555555555555555,
+      "recall": 0.6666666666666667,
+      "f1": 0.5183333333333333,
+      "coverage": 1.0
+    },
+    {
+      "model": "1_5b",
+      "method": "mf",
+      "benchmark": "finauditing",
+      "tasks_with_claims": 5,
+      "calls_with_claims": 10,
+      "targets": 17,
+      "precision": 0.45555555555555555,
+      "recall": 0.6666666666666667,
+      "f1": 0.5183333333333333,
+      "coverage": 1.0
+    }
+  ]
+}

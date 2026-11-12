@@ -37,6 +37,15 @@ def validate_model(model, endpoint=URL):
     return info
 
 
+def check_budget(call_id, prompt_tokens, output_tokens, context_limit):
+    if prompt_tokens+output_tokens>context_limit:
+        raise ValueError(f"{call_id}: {prompt_tokens} prompt + {output_tokens} output tokens exceed the configured model limit {context_limit}")
+
+
+def model_context_limit(config):
+    return config.get("text_config",config)["max_position_embeddings"]
+
+
 def write(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n")
@@ -104,7 +113,7 @@ def token_span(offsets_, left, right):
     return [positions[0],positions[-1]+1]
 
 
-def render(tokenizer, request, functions):
+def render(tokenizer, request, functions, only_ids=False):
     messages = []
     for raw in request["messages"]:
         msg = {**raw, "content":raw.get("content") or ""}
@@ -121,6 +130,8 @@ def render(tokenizer, request, functions):
             "enable_thinking":False}
     prompt=tokenizer.apply_chat_template(messages,**kwargs)
     ids=tokenizer(prompt,add_special_tokens=False).input_ids
+    if only_ids:
+        return ids,[]
     _, prompt_offsets=offsets(tokenizer,ids)
     marked=[]
     markers={}
@@ -242,16 +253,19 @@ async def run_work(inputs, out, model, max_tokens):
     tok=AutoTokenizer.from_pretrained(model,local_files_only=True)
     functions=author_functions(tok)
     entries=json.loads(inputs.read_text())
-    out.mkdir()
+    model_limit=model_context_limit(json.loads((model/"config.json").read_text()))
+    context_limit=min(model_limit,server_info["data"][0]["max_model_len"])
     jobs=[]
     for item in entries:
         ids,sources=render(tok,item["request"],functions)
+        check_budget(item["id"],len(ids),max_tokens,context_limit)
         jobs.append({**item,"prompt_ids":ids,"sources":sources})
+    out.mkdir()
     write(out/"inputs.json",jobs)
     write(out/"identity.json",{"model":str(model),"config_sha256":hashlib.sha256((model/"config.json").read_bytes()).hexdigest(),
                              "author_sha256":hashlib.sha256(AUTHOR.read_bytes()).hexdigest(),
                              "pipeline_sha256":hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
-                             "server_models":server_info})
+                             "server_models":server_info,"context_limit":context_limit})
     queue=asyncio.Queue()
     async def replay_worker():
         while True:

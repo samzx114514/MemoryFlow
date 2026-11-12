@@ -1,0 +1,84 @@
+{
+  "input_lock": {
+    "sha256": "ce914a6426e584d9f71b5481d9ce31013d927f9bc8a7a04f9be6ac06526545ab",
+    "distribution": {
+      "clause": 10,
+      "finauditing": 10,
+      "nba": 10
+    },
+    "context_limits": {
+      "Qwen3.8-27B-FP8": 65536,
+      "Qwen2.5-7B-Instruct": 32768,
+      "Qwen2.5-1.5B-Instruct": 32768
+    },
+    "max_tokens": 2048,
+    "temperature": 0,
+    "seed": 0,
+    "reused_core_calls": 13,
+    "added_calls": 17,
+    "source_tasks": {
+      "cuad_omission_8f477b7ac499afb7": 1,
+      "nli_omission_53770946799d4dd7": 3,
+      "cuad_omission_26d84d21c51e5cc5": 2,
+      "cuad_terminology_2d25c7a9b4195674": 2,
+      "cuad_ambiguity_799d5a53b0369153": 2,
+      "finauditing-finmr-297": 2,
+      "finauditing-finmr-12": 2,
+      "finauditing-finre-203": 3,
+      "finauditing-finre-138": 2,
+      "finauditing-finsm-190": 1,
+      "rulearena-nba-comp1-030": 3,
+      "rulearena-nba-comp0-015": 1,
+      "rulearena-nba-comp1-008": 2,
+      "rulearena-nba-comp0-009": 1,
+      "rulearena-nba-comp2-017": 1,
+      "rulearena-nba-comp0-064": 1,
+      "rulearena-nba-comp1-043": 1
+    }
+  },
+  "paired_calls": 90,
+  "matrices": 180,
+  "calls_per_model": 30,
+  "artifact_manifest_sha256": "c0f66f689ae28ff8cbe43bb55c152201b6d130ef20e83e227f5f047b3b8278b4",
+  "models": {
+    "formal_27b": {
+      "calls": 30,
+      "output_tokens": 21191,
+      "prompt_range": [
+        8877,
+        31219
+      ],
+      "benchmarks": {
+        "clause": 10,
+        "finauditing": 10,
+        "nba": 10
+      }
+    },
+    "formal_7b": {
+      "calls": 30,
+      "output_tokens": 14265,
+      "prompt_range": [
+        8625,
+        30474
+      ],
+      "benchmarks": {
+        "clause": 10,
+        "finauditing": 10,
+        "nba": 10
+      }
+    },
+    "formal_1_5b": {
+      "calls": 30,
+      "output_tokens": 8273,
+      "prompt_range": [
+        8625,
+        30474
+      ],
+      "benchmarks": {
+        "clause": 10,
+        "finauditing": 10,
+        "nba": 10
+      }
+    }
+  }
+}

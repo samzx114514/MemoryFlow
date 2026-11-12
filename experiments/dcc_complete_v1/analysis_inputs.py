@@ -1,6 +1,7 @@
 """Freeze real analysis-call inputs, without reading attribution scores."""
 import hashlib
 import json
+import re
 import time
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -40,7 +41,10 @@ def candidate(request, response, benchmark, task_id, source):
     tools = message.get("tool_calls") or []
     names = [tool["function"]["name"] for tool in tools]
     report = any(any(word in name.lower() for word in ("write", "finish", "deliver")) for name in names)
-    if not content.strip() and not report:
+    context="\n".join(m.get("content") or "" for m in request["messages"] if m.get("role")=="user" and "<sp-task-context>" in (m.get("content") or ""))
+    finalization=any("The designated auditor has completed its current-run native audit" in (m.get("content") or "") for m in request["messages"])
+    ready=benchmark=="nba" and finalization and "Operation" in context and len(re.findall(r"\$\s*\d",context))>=2
+    if not content.strip() and not report and not ready:
         return None
     public_output = "CONTENT:\n"+content+"\nTOOL CALLS:\n"+json.dumps(tools, ensure_ascii=False, indent=2)
     # Include a decoded argument view to make JSON string values readable.
@@ -57,8 +61,12 @@ def candidate(request, response, benchmark, task_id, source):
                     public_output += "\nDECODED STRING VALUE:\n"+value
     prompt = {"messages": request["messages"], "tools": request.get("tools")}
     identity = hashlib.sha256(json.dumps(prompt, sort_keys=True).encode()).hexdigest()
-    return {"input_sha256": identity, "benchmark": benchmark, "task_id": task_id,
-            "source": str(source), "source_sha256": sha(source), "request": prompt, "public_output": public_output}
+    item={"input_sha256": identity, "benchmark": benchmark, "task_id": task_id,
+          "source": str(source), "source_sha256": sha(source), "request": prompt, "public_output": public_output}
+    if ready:
+        item["input_stage_review"]={"is_analysis_result":True,"reason":"Actual final-answer protocol follows a completed auditor; task context visibly contains operation findings and numerical premises",
+                                    "source_sha256":item["source_sha256"],"context_sha256":hashlib.sha256(context.encode()).hexdigest()}
+    return item
 
 
 def scan(root):
@@ -76,7 +84,8 @@ def scan(root):
             item = candidate(request, response["response"], "nba", task["task_id"], source)
             if item and item["input_sha256"] not in excluded:
                 result[item["input_sha256"]] = item
-    for benchmark, folder in (("clause", "sources_clause_v2"), ("clause", "sources_clause_v3"), ("finauditing", "sources_fin_v2")):
+    for benchmark, folder in (("clause", "sources_clause_v2"), ("clause", "sources_clause_v3"), ("finauditing", "sources_fin_v2"),
+                              ("nba", "sources_nba_native32_v2")):
         for case in (root / folder).glob("*"):
             command = case / "command.json"
             if not command.exists():
@@ -95,7 +104,7 @@ def scan(root):
     return result
 
 
-def classify(item, output):
+def classify(item, output, endpoint="http://127.0.0.1:8781", model="mf-model"):
     manual = ROOT / "stage_manual_reviews" / (item["input_sha256"]+".json")
     if manual.exists():
         decision = json.loads(manual.read_text())
@@ -104,20 +113,21 @@ def classify(item, output):
         return decision
     folder = output / "stage_reviews" / item["input_sha256"]
     record_path = folder / "decision.json"
-    previous = ROOT / "experiment1_v2/stage_reviews" / item["input_sha256"] / "decision.json"
-    if not record_path.exists() and previous.exists():
-        record_path = previous
+    for earlier in ("experiment1_analysis_v1","experiment1_v2"):
+        previous = ROOT / earlier / "stage_reviews" / item["input_sha256"] / "decision.json"
+        if not record_path.exists() and previous.exists():
+            record_path = previous
     if record_path.exists():
         decision = json.loads(record_path.read_text())
         if decision["source_sha256"] != item["source_sha256"]:
             raise ValueError("Reviewed source file changed")
         return decision
-    payload = {"model": "mf-model", "messages": [{"role": "system", "content": INSTRUCTION},
+    payload = {"model": model, "messages": [{"role": "system", "content": INSTRUCTION},
                {"role": "user", "content": json.dumps({"benchmark": item["benchmark"], "output": item["public_output"]}, ensure_ascii=False)}],
                "temperature": 0, "seed": 0, "max_tokens": 512, "response_format": {"type": "json_object"},
                "chat_template_kwargs": {"enable_thinking": False}}
     write(folder / "request.json", payload)
-    request = Request("http://127.0.0.1:8781/v1/chat/completions", json.dumps(payload).encode(),
+    request = Request(endpoint+"/v1/chat/completions", json.dumps(payload).encode(),
                       headers={"Content-Type": "application/json"})
     with urlopen(request, timeout=300) as response:
         raw = json.load(response)

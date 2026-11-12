@@ -8,12 +8,23 @@ import torch
 from safetensors.torch import save_file
 
 if __package__:
-    from .pipeline import reduce
+    from .pipeline import check_budget, model_context_limit, reduce
 else:
-    from pipeline import reduce
+    from pipeline import check_budget, model_context_limit, reduce
 
 
 class PredictionPositionTest(unittest.TestCase):
+    def test_flat_and_nested_model_context_config(self):
+        self.assertEqual(model_context_limit({"max_position_embeddings":32768}),32768)
+        self.assertEqual(model_context_limit({"text_config":{"max_position_embeddings":262144}}),262144)
+
+    def test_native_context_reserves_output_space_before_gpu_work(self):
+        check_budget("native", 30720, 2048, 32768)
+        with self.assertRaisesRegex(ValueError, "exceed.*32768"):
+            check_budget("over", 30721, 2048, 32768)
+        with self.assertRaisesRegex(ValueError, "exceed.*32768"):
+            check_budget("original_failed_nba", 36024, 2048, 32768)
+
     def test_full_output_rows_and_causal_output_prefix(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)

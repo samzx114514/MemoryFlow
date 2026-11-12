@@ -1,5 +1,17 @@
 # 实验索引
 
+## DCC共同30调用：三模型单轮质量表（2026-11-12）
+
+[质量表与统计口径](../experiments/dcc_complete_v1/reports/QUALITY_20261112.md) · [小型证据与哈希](../experiments/dcc_complete_v1/evidence/quality_native30_v1.json) · [独立设备对效率入口](../experiments/dcc_complete_v1/run_efficiency_parallel.sh)
+
+三模型90次生成／回放、180张完整矩阵已完成，输入SHA为`ce914a64…545ab`。90份输出逐条审阅后冻结157个实际陈述，按NBA／CLAUSE／FinAuditing分别报告P/R/F1与覆盖率；标签仍为代码规划侧AI审阅版。服务器目录`mf_complete_20261111/experiment1_native32_30`保存完整标签和逐目标评分。CLAUSE完整任务12调用的在线回放与查询预检成功；三次效率测量另行推进，4096-token截断的失败预热保留。
+
+## DCC 原生窗口兼容批与复用（2026-11-11）
+
+[修复记录](../experiments/dcc_complete_v1/reports/NATIVE_CONTEXT_20261111.md) · [兼容批补齐入口](../experiments/dcc_complete_v1/native_inputs.py)
+
+13 个调用已完成三模型成对采集和回放，78 张矩阵已验证。用户批准将正式共同输入补到 30 个；保留已有 13 个，新增 17 个。服务器目录 `compatibility_native32_13` 与 `experiment1_native32_30` 均位于 `/data1/songzhengxing_intern_dccv2/mf_complete_20261111`。上一分析版的 27B 30 对调用单独保留。
+
 ## DCC 三模型生成时采集、完整回放与三项优化（2026-11-11）
 
 [运行说明](../experiments/dcc_complete_v1/README.md) · [首批报告](../experiments/dcc_complete_v1/reports/ENGINEERING_20261111.md)

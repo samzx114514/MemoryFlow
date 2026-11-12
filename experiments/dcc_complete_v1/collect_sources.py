@@ -40,7 +40,9 @@ def run_task(task, output, tree, config, benchmark, executor, port, timeout, bun
                        "--recover-qwen-tool-calls", "--max-actions", "6", "--max-tokens", str(max_tokens),
                        "--timeout", str(timeout), "--central-timeout", "180", "--central-retry-timeout", "180",
                        "--max-concurrent-subagents", "1", "--temperature", "0", "--top-p", "1", "--seed", "0"]
-            if benchmark == "clause":
+            if benchmark == "nba":
+                command += ["--dataset-source", "dcc_inline", "--dataset-plugin", "dcc_harness.preprocessing.native:make_inline_plugin"]
+            elif benchmark == "clause":
                 command += ["--benchmark", "clause", "--dataset-source", "clause-intext-yes-whole-document-v1"]
             else:
                 command += ["--benchmark", "dcc_files", "--dataset-source", "finauditing-files-test-v1",
@@ -94,7 +96,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     for name in ("tasks", "output", "tree", "config"):
         parser.add_argument(name, type=Path)
-    parser.add_argument("--benchmark", choices=("clause", "finauditing"), required=True)
+    parser.add_argument("--benchmark", choices=("nba", "clause", "finauditing"), required=True)
     parser.add_argument("--executor", required=True)
     parser.add_argument("--port", type=int, required=True)
     parser.add_argument("--timeout", type=int, default=900)

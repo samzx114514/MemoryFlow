@@ -1,0 +1,24 @@
+{
+  "calls_per_model": 13,
+  "models": 3,
+  "paired_calls": 39,
+  "complete_matrices": 78,
+  "manifest_sha256": "acd03a85e092471241773b64af4ce6ea51e757a37255597bd27d699ab4142ee3",
+  "lock": {
+    "sha256": "40aba5971c0a3f177391ec9c21b1394c14b418293a5115ad182beb781efbbd95",
+    "distribution": {
+      "clause": 6,
+      "finauditing": 7
+    },
+    "context_limit": 32768,
+    "max_tokens": 2048,
+    "temperature": 0,
+    "seed": 0,
+    "purpose": "context-compatible subset; final reporting scope pending user decision"
+  },
+  "quality_status": "raw paired artifacts verified; statement annotations not yet fully reviewed",
+  "next_scope": "user approved compatible common30, retaining core13 and adding17",
+  "server_root": "/data1/songzhengxing_intern_dccv2/mf_complete_20261111/compatibility_native32_13",
+  "original_manifest_sha256": "ae05e4d5fc0298a94ff5ec46c5d93bc43a92ff09eb4845753ef83aef0a39dbdb",
+  "manifest_revision": "v2 fixes the hardcoded calls_per_model field to 13; verified rows and data unchanged"
+}

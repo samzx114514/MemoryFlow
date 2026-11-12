@@ -51,7 +51,7 @@ def verify(root, output):
                              run / job["id"] / method / "request.json", run / job["id"] / method / "response.json"):
                     record["files"][str(path.relative_to(root))] = digest(path)
             rows.append(record)
-    write(output, {"frozen_inputs_sha256": lock["sha256"], "calls_per_model": 30,
+    write(output, {"frozen_inputs_sha256": lock["sha256"], "calls_per_model": len(expected),
                    "paired_calls": len(rows), "matrices": 2*len(rows), "coverage": "all output token rows",
                    "runs": rows})
 
