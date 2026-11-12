@@ -1,0 +1,124 @@
+{
+  "schema": "memoryflow.genmem.preflight.v1",
+  "run": "/data1/songzhengxing_intern_dccv2/mf_complete_20261111/genmem_preflight7_20261112_v1",
+  "completed": {
+    "calls": 10,
+    "queries": 2,
+    "legacy_ids": [
+      "genmem_177236211632d6b8:selected_02",
+      "genmem_177236211632d6b8:selected_03"
+    ]
+  },
+  "identity": {
+    "dataset_targets_sha256": "60db22df286a6be6f1a83aa1aace12b6b40cf7710a9831da507228584a285801",
+    "trace_sha256": "5be8ad54b2a55e819023b6baba404fcbd7d57257e4edd1ec2a39ba2c6f52717e",
+    "targets": [
+      "genmem_177236211632d6b8:selected_02",
+      "genmem_177236211632d6b8:selected_03"
+    ],
+    "model": "/data2/pkuiti/songzhengxing_intern/model/Qwen2.5-7B-Instruct",
+    "lengths": [
+      {
+        "call": "call00",
+        "event": 2,
+        "prompt_tokens": 249,
+        "output_tokens": 94
+      },
+      {
+        "call": "call01",
+        "event": 5,
+        "prompt_tokens": 1713,
+        "output_tokens": 109
+      },
+      {
+        "call": "call02",
+        "event": 8,
+        "prompt_tokens": 2913,
+        "output_tokens": 100
+      },
+      {
+        "call": "call03",
+        "event": 11,
+        "prompt_tokens": 3780,
+        "output_tokens": 73
+      },
+      {
+        "call": "call04",
+        "event": 14,
+        "prompt_tokens": 4978,
+        "output_tokens": 166
+      },
+      {
+        "call": "call05",
+        "event": 17,
+        "prompt_tokens": 6257,
+        "output_tokens": 145
+      },
+      {
+        "call": "call06",
+        "event": 20,
+        "prompt_tokens": 7072,
+        "output_tokens": 98
+      },
+      {
+        "call": "call07",
+        "event": 22,
+        "prompt_tokens": 7334,
+        "output_tokens": 85
+      },
+      {
+        "call": "call08",
+        "event": 25,
+        "prompt_tokens": 8120,
+        "output_tokens": 77
+      },
+      {
+        "call": "call09",
+        "event": 28,
+        "prompt_tokens": 10007,
+        "output_tokens": 145
+      }
+    ],
+    "engineering_preflight": true,
+    "input_assembly": "all recorded prior events retained; no invented intermediate content",
+    "missing_original_fields": [
+      "full_model_requests",
+      "prompt_tokens",
+      "tool_schemas"
+    ],
+    "output_assembly": "recorded content followed by JSON serialization of recorded tool calls"
+  },
+  "query_results": [
+    {
+      "file": "target0.json",
+      "sha256": "e8e1e7dedbedb5ea7e87bf952d6ec8d1ac40679adf4ab2d14ff12fd71860452b",
+      "target": "Scott Calabrese was hired as UCF head coach in December 2016, so he wasn't the coach during Eric Vasquez's time (2001-2003).",
+      "expanded_spans": 3,
+      "roots": 4,
+      "paths": 4,
+      "max_local_steps": 3,
+      "query_seconds": 0.019050563219934702,
+      "first_hop": {
+        "2": "How did UCF Soccer get to this point? Well, you have to go back to December 5, 2016, when UCF hired Scott Calabrese as head men’s soccer coach.",
+        "1": "But when Eric Vasquez played (2001-2003), the coach might have been different."
+      },
+      "root_mentions_bob_winch": false
+    },
+    {
+      "file": "target1.json",
+      "sha256": "fa522758edbcc3723fcb2180e22449fae818eaf1909e1a2ff501c52fa220ee5c",
+      "target": "Eric Vasquez played at UCF from 2001-2003, so Bob Winch was his coach.",
+      "expanded_spans": 7,
+      "roots": 8,
+      "paths": 13,
+      "max_local_steps": 5,
+      "query_seconds": 0.03576608095318079,
+      "first_hop": {
+        "1": "Eric Vasquez played college soccer as a midfielder for the University of Central Florida (UCF) Knights from 2001 to 2003, contributing to the team's first two Atlantic Sun Conference (ASUN) championships in 2002 and 2003.",
+        "2": "Scott Calabrese was hired as UCF head coach in December 2016, so he wasn't the coach during Eric Vasquez's time (2001-2003). I need to find who coached UCF men's soccer from 2001-2003. Let me search for that."
+      },
+      "root_mentions_bob_winch": false
+    }
+  ],
+  "note": "Engineering preflight on fixed development targets; all recorded history retained. Paths are returned attention paths, not causal Gold. The second query does not recover the Bob Winch material."
+}

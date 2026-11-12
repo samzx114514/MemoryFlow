@@ -5,9 +5,32 @@ import subprocess
 import time
 from pathlib import Path
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError, URLError
 
 from pipeline import offsets, write
 from provenance_v2.span_views import View, views
+
+
+def write_failure(output, payload, records, error, ended, mode, task_id, warmup=False):
+    batches_path = output/"gateway/analysis_batches.json"
+    batches = json.loads(batches_path.read_text()) if batches_path.exists() else []
+    memory_path = output/"gateway/memory.jsonl"
+    memory = [json.loads(line) for line in memory_path.read_text().splitlines()] if memory_path.exists() else []
+    successful = [row for row in records if row.get("status") == 200]
+    result = {"mode": mode, "warmup": warmup, "task_id": task_id,
+              "completed": False, "native_completed": "completed" in payload["native_completion"],
+              "analysis_completed": False, "measurement_incomplete": True,
+              "failure": error, "calls": len(records), "successful_calls": len(successful),
+              "targets": len(payload["targets"]), "final_targets": payload["targets"],
+              "native_completion": payload["native_completion"],
+              "task_total_seconds": ended-payload["task_started"], "tail_seconds": None,
+              "analysis_seconds": None, "analysis_seconds_per_target": None, "analysis_gpu_seconds": None,
+              "recorded_finished_batch_seconds": sum(b["end"]-b["start"] for b in batches),
+              "process_peak_total_mib": max((sum(sum(g.values()) for g in row["processes_mib"].values()) for row in memory), default=None),
+              "execution_prompt_tokens": sum(r["response"].get("usage", {}).get("prompt_tokens", 0) for r in successful),
+              "execution_output_tokens": sum(r["response"].get("usage", {}).get("completion_tokens", 0) for r in successful)}
+    write(output/"result.json", result)
+    return result
 
 
 def claim_span(text, claim):
@@ -119,8 +142,17 @@ def run(args):
             if not targets and args.mode != "execution":
                 write(output / "failed_task.json", {"native_exit_code": completed.returncode, "predictions": predictions})
             request = Request(url+"/finish", (output / "finish_request.json").read_bytes(), headers={"Content-Type": "application/json"})
-            with urlopen(request, timeout=1800) as response:
-                summary = json.load(response)
+            try:
+                with urlopen(request, timeout=1800) as response:
+                    summary = json.load(response)
+            except (HTTPError, URLError, TimeoutError) as error:
+                detail = {"type": type(error).__name__, "message": str(error)}
+                if isinstance(error, HTTPError):
+                    detail["response_body"] = error.read().decode(errors="replace")
+                write_failure(output, json.loads((output/"finish_request.json").read_text()), records,
+                              detail, time.time(), args.mode,
+                              json.loads(args.task.read_text().splitlines()[0])["id"], args.warmup)
+                return
             write(output / "result.json", {**summary, "warmup": args.warmup,
                  "native_exit_code": completed.returncode, "native_return_time": returned,
                  "completed": bool(delivered), "final_targets": targets,

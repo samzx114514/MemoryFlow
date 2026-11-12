@@ -1,0 +1,201 @@
+{
+  "checked_at": "2026-11-12T10:23:31.124658+08:00",
+  "archive_root": "F:\\05EdgeDownload\\DCC_trajectories_20261111\\DCC_trajectories_20261111",
+  "manifest_sha256": "121bb802ebc7063e16bb1f30e275648544305e2c7378a4fa9d071dfdbd40389a",
+  "model": "Qwen/Qwen3-30B-A3B",
+  "training_episodes": 9536,
+  "training_central_segments": 59619,
+  "evaluation_canonical_records": 3636,
+  "limitations": [
+    "FinAuditing formal v3 step 0 is missing. Historical v2 step 0 matches headline metrics but ancestry is unverified and is excluded.",
+    "Training raw files contain Central segments, not a separately saved complete conversation for every specialist.",
+    "Training raw sample.label is reference annotation, not model output. Readable trajectories omit label.",
+    "Evaluation contains control-flow traces, turn statistics, final deliveries and native scores; full model messages/tool bodies were not saved.",
+    "CLAUSE test500 is an internally fixed test set, not the paper official split.",
+    "NBA and FinAuditing full evaluation overlap prior training pools; see report previously_trained/unseen breakdown.",
+    "All original failed/unfinished training trajectories are preserved; reward zero does not establish one specific failure reason."
+  ],
+  "scope": "Manifest plus first four base evaluation records and first training episode in each benchmark; not an exhaustive scan or a frozen experiment sample. No method scores inspected.",
+  "evaluation_samples": [
+    {
+      "benchmark": "nba",
+      "task_id": "rulearena-nba-comp0-000",
+      "episode_directory": "evaluation/raw/nba/base/nba-base-full-v4/episodes/run-48533868e890481a864e179f5f66c707",
+      "files": [
+        "central-turns.jsonl",
+        "result.json",
+        "trace.jsonl"
+      ],
+      "full_request_response_available": false,
+      "status": "completed"
+    },
+    {
+      "benchmark": "nba",
+      "task_id": "rulearena-nba-comp0-001",
+      "episode_directory": "evaluation/raw/nba/base/nba-base-full-v4/episodes/run-3e6e3f6ce22240258a72ea7778ad11bc",
+      "files": [
+        "central-turns.jsonl",
+        "result.json",
+        "trace.jsonl"
+      ],
+      "full_request_response_available": false,
+      "status": "completed"
+    },
+    {
+      "benchmark": "nba",
+      "task_id": "rulearena-nba-comp0-002",
+      "episode_directory": "evaluation/raw/nba/base/nba-base-full-v4/episodes/run-242bcc013f024f448eded8cb0c752633",
+      "files": [
+        "central-turns.jsonl",
+        "result.json",
+        "trace.jsonl"
+      ],
+      "full_request_response_available": false,
+      "status": "completed"
+    },
+    {
+      "benchmark": "nba",
+      "task_id": "rulearena-nba-comp0-003",
+      "episode_directory": "evaluation/raw/nba/base/nba-base-full-v4/episodes/run-8a7d49f2ff0d445fa9505df6985ac702",
+      "files": [
+        "central-turns.jsonl",
+        "result.json",
+        "trace.jsonl"
+      ],
+      "full_request_response_available": false,
+      "status": "completed"
+    },
+    {
+      "benchmark": "clause",
+      "task_id": "cuad_ambiguity_04dc45f69b796b86",
+      "episode_directory": "evaluation/raw/clause/base/clause-base-full-v4-shard0/episodes/run-50fe786fab29414d932790d50788c9fd",
+      "files": [
+        "central-turns.jsonl",
+        "result.json",
+        "trace.jsonl"
+      ],
+      "full_request_response_available": false,
+      "status": "completed"
+    },
+    {
+      "benchmark": "clause",
+      "task_id": "cuad_ambiguity_064ac7462aa99985",
+      "episode_directory": "evaluation/raw/clause/base/clause-base-full-v4-shard1/episodes/run-3073d060f36c442fbf14629f8a9b7e05",
+      "files": [
+        "central-turns.jsonl",
+        "result.json",
+        "trace.jsonl"
+      ],
+      "full_request_response_available": false,
+      "status": "completed"
+    },
+    {
+      "benchmark": "clause",
+      "task_id": "cuad_ambiguity_06f6829eb07e5346",
+      "episode_directory": "evaluation/raw/clause/base/clause-base-full-v4-shard2/episodes/run-6338c659249f41f591971db37e2cc224",
+      "files": [
+        "central-turns.jsonl",
+        "result.json",
+        "trace.jsonl"
+      ],
+      "full_request_response_available": false,
+      "status": "completed"
+    },
+    {
+      "benchmark": "clause",
+      "task_id": "cuad_ambiguity_09c484df89612d92",
+      "episode_directory": "evaluation/raw/clause/base/clause-base-full-v4-shard3/episodes/run-ac347c4c02ae41ceb9d02f10244d1f44",
+      "files": [
+        "central-turns.jsonl",
+        "result.json",
+        "trace.jsonl"
+      ],
+      "full_request_response_available": false,
+      "status": "completed"
+    },
+    {
+      "benchmark": "finauditing",
+      "task_id": "finauditing-finre-0",
+      "episode_directory": "evaluation/raw/finauditing/base/finauditing-base-full-v5-s4-shard0/episodes/run-5abd809c157f483fbf69aa9b6f78d54c",
+      "files": [
+        "central-turns.jsonl",
+        "result.json",
+        "trace.jsonl"
+      ],
+      "full_request_response_available": false,
+      "status": "completed"
+    },
+    {
+      "benchmark": "finauditing",
+      "task_id": "finauditing-finre-1",
+      "episode_directory": "evaluation/raw/finauditing/base/finauditing-base-full-v5-s4-shard1/episodes/run-775e5b6027a140b081dc10bf740b6980",
+      "files": [
+        "central-turns.jsonl",
+        "result.json",
+        "trace.jsonl"
+      ],
+      "full_request_response_available": false,
+      "status": "completed"
+    },
+    {
+      "benchmark": "finauditing",
+      "task_id": "finauditing-finre-2",
+      "episode_directory": "evaluation/raw/finauditing/base/finauditing-base-full-v5-s4-shard2/episodes/run-71332e42b9ef44558d0e5f3a87af81bc",
+      "files": [
+        "central-turns.jsonl",
+        "result.json",
+        "trace.jsonl"
+      ],
+      "full_request_response_available": false,
+      "status": "completed"
+    },
+    {
+      "benchmark": "finauditing",
+      "task_id": "finauditing-finre-3",
+      "episode_directory": "evaluation/raw/finauditing/base/finauditing-base-full-v5-s4-shard3/episodes/run-9f0b9b9fd529466f9247377b2dd3be80",
+      "files": [
+        "central-turns.jsonl",
+        "result.json",
+        "trace.jsonl"
+      ],
+      "full_request_response_available": false,
+      "status": "completed"
+    }
+  ],
+  "training_samples": [
+    {
+      "benchmark": "nba",
+      "task_id": "rulearena-nba-comp2-034",
+      "segments": 2,
+      "roles": [
+        "central"
+      ],
+      "has_context_text": true,
+      "has_generated_text": true,
+      "separately_saved_specialist_requests_available": false
+    },
+    {
+      "benchmark": "clause",
+      "task_id": "nli_inconsistency_c103d8e942f5d826",
+      "segments": 18,
+      "roles": [
+        "central"
+      ],
+      "has_context_text": true,
+      "has_generated_text": true,
+      "separately_saved_specialist_requests_available": false
+    },
+    {
+      "benchmark": "finauditing",
+      "task_id": "finauditing-finsm-150",
+      "segments": 5,
+      "roles": [
+        "central"
+      ],
+      "has_context_text": true,
+      "has_generated_text": true,
+      "separately_saved_specialist_requests_available": false
+    }
+  ],
+  "decision": "Needs original full request/response and tool bodies for specialist-call replay; no experiment-2 quality scores generated."
+}

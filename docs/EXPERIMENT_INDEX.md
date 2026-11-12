@@ -1,5 +1,11 @@
 # 实验索引
 
+## GenMem旧47＋新49原日志接入（2026-11-12）
+
+[接入说明](../experiments/genmem_merged_v1/README.md) · [实际身份与NAS核对](../experiments/genmem_merged_v1/evidence/intake_20261112.json) · [本轮计划](superpowers/plans/2026-11-12-genmem-merged96.md)
+
+用户确认实验2改用两批原有目标。96个不同目标、37条轨迹，原文区间检查通过；旧8条与NAS原始记录逐事件一致。7B/1.5B各350次完整回放已完成，统一候选池固定；4条旧标签映射至真实原文，另4条缺完整支持。用户确认92条作质量分母、4条单列。27B及DFAMS/BM25/CLM接续。DCC单轮质量及效率任务继续。
+
 ## DCC共同30调用：三模型单轮质量表（2026-11-12）
 
 [质量表与统计口径](../experiments/dcc_complete_v1/reports/QUALITY_20261112.md) · [小型证据与哈希](../experiments/dcc_complete_v1/evidence/quality_native30_v1.json) · [独立设备对效率入口](../experiments/dcc_complete_v1/run_efficiency_parallel.sh)

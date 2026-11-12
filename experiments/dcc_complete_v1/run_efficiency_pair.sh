@@ -54,12 +54,17 @@ assert x['completed'] and x['calls']==x['successful_calls'] and len(x['final_tar
 PY
   fi
 }
-run_task full warm --warmup
-run_task serial warm --warmup
+for mode in full serial; do
+  "$python" "$root/code/warm_replay.py" "$out/${label}_${mode}_warm" \
+    --source "$(dirname "$out")/baseline_execution_warm" \
+    --executor "$executor" --analysis-model "$model" --mode "$mode"
+done
 for repeat in 1 2 3; do
   run_task serial "$repeat"
   run_task full "$repeat"
 done
+"$python" "$root/code/measure_capture.py" "$root/experiment1_native32_30/formal_${label}" \
+  "$out/${label}_capture_overhead"
 args=$(ps -p "$pid" -o args= || true)
 case "$args" in *"$root/code/server.py serve "*"--port $MF_PORT"*) kill -TERM "$pid" ;;
   *) echo "Unexpected analysis process: $args"; exit 1 ;;

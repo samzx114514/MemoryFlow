@@ -1,7 +1,7 @@
 import json
 import unittest
 
-from .transport import normalize, structured_value
+from .transport import normalize, structured_value, recorded_tool_calls
 
 
 class StructuredTransportTest(unittest.TestCase):
@@ -13,6 +13,15 @@ class StructuredTransportTest(unittest.TestCase):
 
     def test_truncated_payload_is_not_completed(self):
         self.assertIsNone(structured_value('[{"text":"unfinished'))
+
+    def test_malformed_generated_tool_arguments_are_preserved(self):
+        raw = '{"path":"answer.json","content":"unfinished'
+        message = {"tool_calls": [{"id": "x", "function": {"name": "write_file", "arguments": raw}}]}
+        result = recorded_tool_calls(message)
+        self.assertEqual(result[0]["args"], raw)
+        self.assertFalse(result[0]["arguments_valid_json"])
+        message["tool_calls"][0]["function"]["arguments"] = '{"path":"answer.json"}'
+        self.assertEqual(recorded_tool_calls(message)[0]["args"], {"path": "answer.json"})
 
     def test_recover_json_field_only_when_schema_requires_structure(self):
         value = [{"text": "A", "explanation": "B"}]

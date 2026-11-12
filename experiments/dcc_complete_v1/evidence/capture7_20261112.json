@@ -1,0 +1,32 @@
+{
+  "rows": [
+    {
+      "trial": 0,
+      "plain_seconds": 2.144789934158325,
+      "plain_output_tokens": 59,
+      "capture_seconds": 2.1924917697906494,
+      "capture_output_tokens": 59,
+      "extra_seconds": 0.04770183563232422
+    },
+    {
+      "trial": 1,
+      "plain_seconds": 2.1433212757110596,
+      "plain_output_tokens": 59,
+      "capture_seconds": 2.187267541885376,
+      "capture_output_tokens": 59,
+      "extra_seconds": 0.043946266174316406
+    },
+    {
+      "trial": 2,
+      "plain_seconds": 2.1492910385131836,
+      "plain_output_tokens": 59,
+      "capture_seconds": 2.1896326541900635,
+      "capture_output_tokens": 59,
+      "extra_seconds": 0.04034161567687988
+    }
+  ],
+  "median_extra_seconds": 0.043946266174316406,
+  "median_plain_seconds": 2.144789934158325,
+  "median_capture_seconds": 2.1896326541900635,
+  "note": "Includes Q/K flush and local artifact copy; warm-up excluded; inspect output token counts"
+}

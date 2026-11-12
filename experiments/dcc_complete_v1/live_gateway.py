@@ -16,7 +16,7 @@ from transformers import AutoTokenizer
 from forest_bridge import export_episode, query
 from pipeline import HEADS, author_functions, check_budget, model_context_limit, offsets, reduce, render, send, send_batch, validate_model, write
 from rich_sources import full_sources
-from transport import normalize as normalize_structure
+from transport import normalize as normalize_structure, recorded_tool_calls
 
 
 class Gateway:
@@ -128,10 +128,7 @@ class Gateway:
         if decoded != raw:
             raise ValueError("Replay output text does not preserve the actual generated output")
         sources = full_sources(self.tokenizer, record["request"], prompt_ids, sources, output_ids)
-        tool_calls = []
-        for tool in response["choices"][0]["message"].get("tool_calls") or []:
-            fn = tool["function"]
-            tool_calls.append({"id": tool["id"], "name": fn["name"], "args": json.loads(fn["arguments"])})
+        tool_calls = recorded_tool_calls(response["choices"][0]["message"])
         job = {"id": record["id"], "tool_calls": tool_calls, "benchmark": "dcc_efficiency", "request": record["request"],
                "prompt_ids": prompt_ids, "sources": sources, "output_receipt": "observed/response.json"}
         write(self.output / job["id"] / "observed" / "response.json", {"choices": [{"token_ids": output_ids}]})

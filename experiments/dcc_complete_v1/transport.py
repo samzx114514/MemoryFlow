@@ -2,6 +2,21 @@
 import json
 
 
+def recorded_tool_calls(message):
+    calls = []
+    for tool in message.get("tool_calls") or []:
+        function = tool["function"]
+        arguments = function["arguments"]
+        try:
+            arguments = json.loads(arguments) if isinstance(arguments, str) else arguments
+            valid = True
+        except json.JSONDecodeError:
+            valid = False
+        calls.append({"id": tool["id"], "name": function["name"], "args": arguments,
+                      "arguments_valid_json": valid})
+    return calls
+
+
 def structured_value(value):
     for _ in range(3):
         if isinstance(value, (dict, list)):

@@ -1,0 +1,89 @@
+{
+  "schema": "memoryflow.genmem_merged.intake.v1",
+  "initial_targets": 96,
+  "unique_targets": 96,
+  "families": {
+    "old47": 47,
+    "new49": 49
+  },
+  "trajectories": 37,
+  "datasets": {
+    "musique": 31,
+    "hotpotqa": 9,
+    "nq": 22,
+    "healthbench": 11,
+    "2wiki": 22,
+    "popqa": 1
+  },
+  "with_candidate_middle_events": 72,
+  "generated_evidence_targets": 17,
+  "complete_from_latest_tool_batch": 25,
+  "duplicates": [],
+  "old_nas_checks": [
+    {
+      "sample_id": "musique_1252_run_2",
+      "byte_offset": 2102745652,
+      "byte_length": 100779,
+      "block_sha256": "177236211632d6b80189178732e0131b363a5716efeb674c6e79f573e75f1228",
+      "event_match": true
+    },
+    {
+      "sample_id": "hotpotqa_19424_run_4",
+      "byte_offset": 2793480981,
+      "byte_length": 51292,
+      "block_sha256": "940c258011aac60489d8ab9b7cc4a18194d6efccff4dd72ef1b94e406c095085",
+      "event_match": true
+    },
+    {
+      "sample_id": "musique_581_run_3",
+      "byte_offset": 1794475411,
+      "byte_length": 110434,
+      "block_sha256": "9f963d36b4935b97b0006d6c1e430f2593cf9a8bafc68aa7bccc12383171f392",
+      "event_match": true
+    },
+    {
+      "sample_id": "nq_13899_run_2",
+      "byte_offset": 2172800184,
+      "byte_length": 56887,
+      "block_sha256": "58452c40de4bdcb98c2f539c595bdaa5515d763d9b3bb1a9446cebb700b6085d",
+      "event_match": true
+    },
+    {
+      "sample_id": "musique_6422_run_1",
+      "byte_offset": 2819459943,
+      "byte_length": 47815,
+      "block_sha256": "40dc9b8b15c0c5b8a6a3f4503b151bd0a7fd0fa14f809aafab6c0ede0aae5aeb",
+      "event_match": true
+    },
+    {
+      "sample_id": "nq_7292_run_3",
+      "byte_offset": 2076400191,
+      "byte_length": 42990,
+      "block_sha256": "5c054943b1a987e0b380de0a3287bb28f20597e4a757a7cb581af7f14df4667e",
+      "event_match": true
+    },
+    {
+      "sample_id": "healthbench_e4d7cab0-8e82-4776-8d2f-10f853c8af86_run_2",
+      "byte_offset": 2019085075,
+      "byte_length": 141756,
+      "block_sha256": "e81701f69088a32d17a47d9f8b5ef13a111189f74a4122ae72a5c8f6fc094428",
+      "event_match": true
+    },
+    {
+      "sample_id": "healthbench_df113ecb-53ac-498d-b076-17b6046b61a9_run_4",
+      "byte_offset": 1995935210,
+      "byte_length": 137308,
+      "block_sha256": "f46a08bc62ee9b37d11c347b6610e3eb7b768e5c76f9c811781d7770b1f0bd5b",
+      "event_match": true
+    }
+  ],
+  "input_sha256": {
+    "/data2/pkuiti/songzhengxing_intern/memoryflow/artifacts/raw/genmem_batch10_v3/genmem_batch10_selection_v1.zip": "f465eb1cd4ff79b2d3de20c0c95562492fdd0bef18b86dc7983fa878bbaf3d33",
+    "/data1/songzhengxing_intern_dccv2/mf_complete_20261111/genmem_source96_20261112/genmem_informative30_v1.zip": "d5a4e4ffa8ef717ed1b8b657422bf786d4ba21424fd34a1f729cefa80f8d8d8e",
+    "/data2/pkuiti/songzhengxing_intern/memoryflow/runs/genmem_quality_v2/20261028_v1/metrics_contextual64/metrics_contextual64_20261028.json": "88bf32c3ab2f6c2c93d87244856732303559b3c3bcabe2e01674e5ee0c4f524e",
+    "/data2/pkuiti/songzhengxing_intern/memoryflow/artifacts/runs/informative30_20261110_rawhistory/manifest.json": "c697455a8f47dba1c938621d1e59e4ef90c6ca3d16270d5449512dcfd605ae5a"
+  },
+  "targets_sha256": "60db22df286a6be6f1a83aa1aace12b6b40cf7710a9831da507228584a285801",
+  "chain_labels_frozen": false,
+  "note": "Structural intake only. Recorded intermediate text still needs semantic review; no generated bridge or method score used."
+}

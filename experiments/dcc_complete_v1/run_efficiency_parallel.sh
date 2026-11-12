@@ -2,7 +2,7 @@
 # Fixed independent A800 pairs: executor4/analysis6 and executor0/analysis2.
 set -euo pipefail
 root=${MF_ROOT:-/data1/songzhengxing_intern_dccv2/mf_complete_20261111}
-out="$root/efficiency_clause8192_v2"
+out=${1:-"$root/efficiency_clause8192_v2"}
 python=/data2/xyf/conda_envs/xuyf/vllm_hook_env/bin/python3
 tree=/data1/songzhengxing_intern_dccv2/sp2_dccv2_1fa314da_mf_yf
 export PYTHONPATH="$root:$root/code" MF_RESOURCE_GPUS=4,6
