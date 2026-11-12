@@ -1,0 +1,9 @@
+{
+  "development_only": true,
+  "depth": 16,
+  "widths": [5, 10],
+  "return_budgets": [2, 5, 10],
+  "repeats": 3,
+  "mandatory_sample": "musique_1252_run_2",
+  "limits": {"max_nodes": 2000, "max_states": 20000, "max_root_entries": 500000, "wall_seconds": 30}
+}

@@ -1,5 +1,11 @@
 # 实验索引
 
+## 单轮端到端效率补测与多轮开发快照（2026-11-12）
+
+[真实生成到引用计时入口](../experiments/single_e2e_v1/README.md) · [开发查询器与16题结果](../experiments/flow_query_dev_v1/README.md)
+
+效率优先：共同30输入，两路线正常生成、原目标精确定位、三次中位数与NVML进程峰值。7B/1.5B已完成，27B在第三次测量；输出变动和共同分母逐次保留。多轮开发已完成的小验证独立归档，原92题、原质量表和默认查询不变，未扩样。
+
 ## DCC完整任务效率：21次测量完成（2026-11-12）
 
 [最终效率表](../experiments/dcc_complete_v1/reports/EFFICIENCY_20261112.md) · [逐次小证据](../experiments/dcc_complete_v1/evidence/efficiency_final_20261112.json)
